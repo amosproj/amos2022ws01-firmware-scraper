@@ -1,6 +1,7 @@
 # Fabulous Project (AMOS SS 20xx)
-[Feauture Board]
-(https://github.com/users/Deepakraj8055/projects/3)
+
+Important Links
+[Feauture Board](https://github.com/users/Deepakraj8055/projects/3)
 
 [Impediments Backlog](https://github.com/users/Deepakraj8055/projects/5)
 
