@@ -1,0 +1,5 @@
+CLI (Command Line Interface): starts downloading/scrapping process and provides usefull info from logger (e.g. progress, faults)
+SCHEDULER (Firmware Downloader Scheduler): schedules (mutliple) vendor firmware downloader according to metadata from db and status reports made by downloading modules and reports its own status to logger
+META (Meta Info Database): stores metadata from vendor downloading modules and provides them to scheduler on request
+VENDOR (Vendor Downloader Modules): download firmware/metadata from websites, firmware is stored on disk, metadata reported to db, operates only after scheduler instructed and reports back status like finish/fail to scheduler, stores gathered metadata in meta db, reports faults to logger
+LOGGER (Operations and Faults Logger): logs schedule and faults, reports important events to cli (e.g. downloading finished)
