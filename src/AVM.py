@@ -1,6 +1,5 @@
 '''
 Scraper module for AVM vendor
-@author: lpagel
 '''
 
 from selenium import webdriver
@@ -15,7 +14,7 @@ class AVM_Scraper:
     def __init__(
         self,
         url: str,
-        headless: bool
+        headless: bool,
     ):
         self.url = url
         self.driver = webdriver.Chrome(executable_path="chromedriver_win32")
@@ -29,12 +28,28 @@ class AVM_Scraper:
 
     # List available downloads
     def get_available_downloads(self):
-        self.driver.find_element(By.XPATH, "//pre")
+
+        # Get all links on index page
+        elem_list = self.driver.find_elements(By.XPATH, "//pre/a")
+
+        # Depth-first search through list to get to the images
+        for index, value in enumerate(elem_list):
+            logger.info(f"Searching {value.text}")
+            if value.text == "../":
+                continue
+            elif ".image" in value.text or ".txt" in value.text:
+                logger.debug(f"Found file {value.text}")
+            else:
+                self.driver.get(self.url + value.text)
+    
+    # Read txt files for metadata
+    def read_txt_file(self):
+        pass
         
     # Extract Metadata
     def get_metadata(self):
         pass
 
     # Download firmware
-    def download_firmware(self):
-        pass 
+    def download_firmware(self, url: str, file: str):
+        self.driver.get(url + file)
