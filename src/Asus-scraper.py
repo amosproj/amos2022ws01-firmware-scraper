@@ -1,10 +1,15 @@
+'''
+Scraper module for Asus vendor
+'''
+
+
 #Imports
-import os
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
 import requests
 import json
+
 
 #Initialize variables
 exec_path = r"C:\Users\Max\Documents\Master IIS\AMOS\chromedriver_win32\chromedriver.exe"
@@ -82,6 +87,7 @@ def select_product(p_type, p_series):
             print("error --- did not find vs1__option-" + str(i))
 
     return options
+
 
 def get_download_url(model):
 
