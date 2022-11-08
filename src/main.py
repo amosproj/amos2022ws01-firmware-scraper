@@ -1,17 +1,16 @@
-'''
+"""
 Main Entrypoint for Firmware Scraper
-'''
+"""
 
-from AVM import AVM_Scraper
+from AVM import AVMScraper
 from utils import setup_logger
 
-url = "https://download.avm.de/" 
+url = "ftp.avm.de" 
 filename = "fritzbox/fritzbox-5590-fiber/deutschland/fritz.os/FRITZ.Box_5590-07.29.image"
 
 def main():
-    AVM = AVM_Scraper(url=url, headless=True)
-    AVM.connect_webdriver(url)
-    AVM.download_firmware(url, filename)
+    AVM = AVMScraper(url=url, headless=True)
+    AVM.download_via_ftp()
 
 if __name__ == "__main__":
     import logging

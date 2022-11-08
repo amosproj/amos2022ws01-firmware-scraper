@@ -1,15 +1,19 @@
-'''
+"""
 Scraper module for AVM vendor
-'''
+"""
 
+from os import path
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import logging
+import ftputil
 
 logger = logging.getLogger(name="SCRAPER")
 
-class AVM_Scraper:
+class AVMScraper:
 
     def __init__(
         self,
@@ -17,9 +21,9 @@ class AVM_Scraper:
         headless: bool,
     ):
         self.url = url
-        self.driver = webdriver.Chrome(executable_path="chromedriver_win32")
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-    def connect_webdriver(self, url: str):
+    def connect_webdriver(self):
         try:
             self.driver.get(self.url)
             logger.info("Connected Successfully!")
@@ -41,13 +45,31 @@ class AVM_Scraper:
                 logger.debug(f"Found file {value.text}")
             else:
                 self.driver.get(self.url + value.text)
-    
+
+    def download_via_ftp(self):
+        with ftputil.FTPHost(self.url, "anonymous", "") as ftp_host:
+
+            products = ftp_host.listdir(ftp_host.curdir)
+            products.remove("archive")
+            #import pdb;pdb.set_trace()
+            for product in products:
+                for root, dirs, files in ftp_host.walk(product):
+                    # import pdb;pdb.set_trace()
+                    if not any(_ for _ in files if self.get_file_extension(_)=='.image'):
+                        continue
+                    else:
+                        for f in files:
+                            if self.get_file_extension(f) == ".image":
+                                logger.info(f"Downloading {f}")
+                                import pdb;pdb.set_trace()
+                                ftp_host.download(root+"/"+f, "firmware/"+f)
+
+                        
+    def get_file_extension(self, filename):
+        return path.splitext(filename)[-1]
+
     # Read txt files for metadata
     def read_txt_file(self):
-        pass
-        
-    # Extract Metadata
-    def get_metadata(self):
         pass
 
     # Download firmware
