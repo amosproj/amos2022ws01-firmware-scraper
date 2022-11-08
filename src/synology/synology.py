@@ -22,7 +22,7 @@ VENDOR_URL = 'https://www.synology.com/en-global/support/download'
 PRODUCT_TYPE_SELECTOR = 'div.margin_bottom20 > select:nth-child(1)'
 PRODUCT_SELECTOR = '//*[@id="heading_bg"]/div/div/div[2]/select'
 NEWEST_OS_SELECTOR = '//*[@id="results"]/div[3]/div[2]/div[1]/div/div[1]/div[1]/div/div/div[1]'
-DOWNLOAD_PATH = '/Users/kiril/Downloads/selenium_downloads'
+DOWNLOAD_PATH = 'data/'
 
 # Selenium Webdriver Options, Download Path, Headless, Screensize, Webbrowser Version
 options = Options()
@@ -160,7 +160,7 @@ def main():
     result_df
 
     # save df
-    result_df.to_csv(f'{DOWNLOAD_PATH}+everyone.csv')
+    result_df.to_csv(f'{DOWNLOAD_PATH}everyone.csv')
 
 if __name__ == "__main__":
     main()
