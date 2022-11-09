@@ -82,7 +82,12 @@ def select_product(p_type, p_series):
             element_1.click()
             driver.implicitly_wait(3)
             option = driver.find_element(By.ID, "vs1__option-" + str(i))
-            options.append(option.text)
+            driver.implicitly_wait(3)
+            option.click()
+            driver.implicitly_wait(3)
+            option_link = driver.find_element(By.LINK_TEXT, "Driver & Utility")
+            option_href = option_link.get_attribute("href")
+            options.append(option_href[:-8] + "bios/")
         except:
             print("error --- did not find vs1__option-" + str(i))
 
@@ -96,7 +101,7 @@ def get_download_url(model):
         headers = api_header,
         params = {'website': "global",
                 "ppid": "10286",
-                "pdhashedid": "AC2ncaggy07MQy6A",
+                #"pdhashedid": "AC2ncaggy07MQy6A",
                 "model": model},
     )
     response_content = json.loads(response.content)["Result"]
@@ -136,12 +141,13 @@ if __name__ == "__main__":
 
     with open('all_products.json', 'r') as file:
         all_products = json.load(file)
-        p_type = list(all_products.keys())[3]
+        p_type = list(all_products.keys())[4]
         p_series = all_products[p_type][1]
 
     options = select_product(p_type, p_series)
 
-    download_url = get_download_url(options[0])
+    #download_url = get_download_url(options[0])
+    download_url = options[8]
     download_links = get_download_links(op_sys, download_url)
 
     download_files(download_links)
