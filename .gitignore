@@ -34,3 +34,6 @@ bin/
 
 # MacOS
 .DS_Store
+
+# Virtual Environment
+.venv
