@@ -5,7 +5,7 @@ Core module for firmware scraper
 # Standard Libraries
 
 # Vendor Modules
-from Vendors import AVMScraper
+from Vendors import AVMScraper, schneider_electric
 
 class Core:
 
@@ -22,15 +22,10 @@ class Core:
     def download_firmware(self):
         pass
 
-
-
 if __name__ == '__main__':
 
-    # Import config file
+    # Standard Libraries
     import json
 
     with open('config.json') as config_file:
         config = json.load(config_file)
-
-
-    

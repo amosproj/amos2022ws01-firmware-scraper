@@ -11,38 +11,37 @@ from selenium.webdriver.common.by import By
 import logging
 import ftputil
 
-logger = logging.getLogger(name="SCRAPER")
 
 class AVMScraper:
 
     def __init__(
-        self,
-        url: str,
-        headless: bool,
+        self
     ):
-        self.url = url
+        self.url = "https://download.avm.de/"
+        self.name = "AVM"
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
     def connect_webdriver(self):
         try:
             self.driver.get(self.url)
-            logger.info("Connected Successfully!")
+            logging.info("Connected Successfully!")
         except Exception as e:
-            logger.info(e + ": Could not connect to AVM!")
+            logging.info(e + ": Could not connect to AVM!")
 
-    # List available downloads
-    def get_available_downloads(self):
+    # List available firmware downloads
+    def get_products(self):
+
+        self.connect_webdriver()
 
         # Get all links on index page
         elem_list = self.driver.find_elements(By.XPATH, "//pre/a")
 
-        # Depth-first search through list to get to the images
         for index, value in enumerate(elem_list):
-            logger.info(f"Searching {value.text}")
+            logging.info(f"Searching {value.text}")
             if value.text == "../":
                 continue
             elif ".image" in value.text or ".txt" in value.text:
-                logger.debug(f"Found file {value.text}")
+                logging.debug(f"Found file {value.text}")
             else:
                 self.driver.get(self.url + value.text)
 
