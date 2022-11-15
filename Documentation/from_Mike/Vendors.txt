@@ -1,0 +1,25 @@
+Siemens - Login (harder)
+Schneider Electric - easy
+ABB - easy
+GE
+Honeywell - Login
+Rockwell
+Cisco - Login
+Linksys
+QNAP
+Trendnet
+Synology
+Zyxel
+AVM - FTP/web
+Engenius
+Dlink - FTP/web
+Netgear
+OpenWRT
+Gigaset
+Belkin
+Asus
+TP-Link
+Swisscom
+DD-WRT
+Ubiquiti
+Foscam

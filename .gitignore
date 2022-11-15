@@ -35,8 +35,5 @@ bin/
 # MacOS
 .DS_Store
 
-# venv
-scraper-venv/
-
-# webdrivers
-/chromedriver*
+# Virtual Environment
+.venv
