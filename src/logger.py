@@ -39,7 +39,6 @@ log_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 import logging
 
 logger = logging.getLogger('logger_name')
-#logger.setLevel(level)
 formatter = logging.Formatter("%(asctime)s:%(levelname)s:%(name)s: %(message)s")
 console_handler = logging.StreamHandler()
 console_handler.setFormatter(formatter)
@@ -49,6 +48,5 @@ file_handler = logging.FileHandler('logs.log')
 file_handler.setFormatter(formatter)
 file_handler.setLevel(logging.INFO)
 logger.addHandler(file_handler)
-
 
 logger.info("Test")
