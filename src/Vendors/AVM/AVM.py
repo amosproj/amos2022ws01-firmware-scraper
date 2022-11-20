@@ -18,7 +18,7 @@ class AVMScraper:
     def __init__(
         self
     ):
-        self.url = "https://download.avm.de"
+        self.url = "https://download.avm.de/"
         self.name = "AVM"
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         self.catalog = []
@@ -44,7 +44,6 @@ class AVMScraper:
         # Iterate through index links and append all subdirectories
         # TODO: Build tuple like (txt_file, fw_file)
         for index, value in enumerate(elem_list):
-            import pdb;pdb.set_trace()
             print(f"Searching {value}")
             self.driver.get(self.url + value)
             sub_elems = self.driver.find_elements(By.XPATH, "//pre/a")
@@ -99,5 +98,3 @@ if __name__ == '__main__':
     AVM = AVMScraper()
     AVM.connect_webdriver()
     txt, img = AVM.get_all_files()
-    print(txt)
-    print(img)
