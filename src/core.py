@@ -15,7 +15,7 @@ class Core:
 
     def get_product_catalog(self):
         pass
-
+    
     def compare_products(self):
         pass
 
