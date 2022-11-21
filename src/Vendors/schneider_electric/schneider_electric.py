@@ -79,16 +79,26 @@ def extract_info(product_page: WebElement) -> dict:
     if el := find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_PRODUCT_RANGES):
         product_ranges = el.text.removeprefix("Product Ranges: ")
 
-    firmware_item = {"product_title": title, "reference": reference, "metadata":
-        {"release_date": release_date, "languages": languages, "version": version,"product_ranges": product_ranges}}
+    firmware_item = {"manufacturer": "Schneider Electric",
+                     "product_name": title,
+                     "product_type": product_ranges,
+                     "version": version,
+                     "release_date": None,
+                     "checksum_scraped": None,
+                     "additional_data": {
+                         "product_reference": reference,
+                         "languages": languages
+                     }
+                    }
 
     urls, filenames = identify_downloads(product_page)
 
     if len(urls) == 0:
         return {}
     elif len(urls) >= 1:
-        firmware_item["download_links"] = urls
-        firmware_item["filenames"] = filenames
+        firmware_item["download_link"] = urls[0]
+        firmware_item["additional_data"]["all_download_links"] = urls
+        firmware_item["additional_data"]["all_filenames"] = filenames
 
     return firmware_item
 
@@ -137,9 +147,9 @@ def download(firmware_data: list[dict], max_no_downloads: int):
 
 if __name__ == '__main__':
     print('Start scraping:')
-    firmware_data = scrape(DOWNLOAD_URL_GLOBAL, 1000)
+    firmware_data = scrape(DOWNLOAD_URL_GLOBAL, 50)
     print('Finished scraping.')
-    with open('../firmware_data.json', 'w') as firmware_file:
+    with open('../../../test/files/firmware_data_schneider.json', 'w') as firmware_file:
         json.dump(firmware_data, firmware_file)
 
     print('Start downloading:')
