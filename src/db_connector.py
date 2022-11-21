@@ -7,8 +7,7 @@ MYSQL_USER
 MYSQL_PASSWORD
 """
 import mysql.connector
-from mysql.connector import connect, errorcode, MySQLConnection
-import datetime
+from mysql.connector import connect
 import json
 import os
 
@@ -33,7 +32,7 @@ class DBConnector:
                     CREATE TABLE IF NOT EXISTS products(
                         id INT AUTO_INCREMENT PRIMARY KEY,
                         manufacturer VARCHAR(128),
-                        model VARCHAR(255),
+                        product_name VARCHAR(255),
                         product_type VARCHAR(255),
                         version VARCHAR(64),
                         release_date DATE,
@@ -43,10 +42,11 @@ class DBConnector:
                         checksum_scraped CHAR(128),
                         emba_tested BOOLEAN,
                         emba_report_path VARCHAR(1024),
-                        embark_report_link VARCHAR(1024)
+                        embark_report_link VARCHAR(1024),
+                        additional_data JSON
                     );
                 """
-        con = self.get_db_con()
+        con = self._get_db_con()
         try:
             with con.cursor() as cursor:
                 cursor.execute(create_products_table_query)
@@ -57,7 +57,7 @@ class DBConnector:
             con.close()
 
     """Return a MySQLConnection to the firmware database."""
-    def get_db_con(self):
+    def _get_db_con(self):
         config = {
           'user': self.db_user,
           'password': self.db_password,
@@ -71,15 +71,42 @@ class DBConnector:
         else:
             return con
 
-    """Inserts a list of product records into the firmware table."""
-    def insert_products(self, product_list):
+    """Expects dict of firmware metadata and returns tuple in expected format for insertion into DB."""
+    def _convert_firmware_dict_to_tuple(self, fw_dict):
+        return (fw_dict["manufacturer"],
+                fw_dict["product_name"],
+                fw_dict["product_type"],
+                fw_dict["version"],
+                fw_dict["release_date"],
+                fw_dict["download_link"],
+                # assumption: we first add to the db and download afterwards
+                None,  # file_path
+                None,  # checksum_local
+                fw_dict["checksum_scraped"],
+                None,  # emba_tested
+                None,  # emba_report_path
+                None,  # embark_report_link
+                json.dumps(fw_dict["additional_data"])
+                )
+
+    """
+    Inserts a list of product records into the firmware table.
+    
+    Parameters:
+    product_list (list[dict]): List of dicts, where every dict contains the metadata of a single
+        scraped firmware. Expected keys: "manufacturer", "product_name", "product_type", 
+        "version", "release_date", "download_link", "checksum_scraped", "additional_data". 
+        Values can be Null.
+    """
+    def insert_products(self, product_list: list[dict]):
         insert_products_query = """
             INSERT INTO products
-            (manufacturer, model, product_type, version, release_date, download_link, file_path, checksum_local,
-             checksum_scraped, emba_tested, emba_report_path, embark_report_link)
-            VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s );
+            (manufacturer, product_name, product_type, version, release_date, download_link, file_path, checksum_local,
+             checksum_scraped, emba_tested, emba_report_path, embark_report_link, additional_data)
+            VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
-        con = self.get_db_con()
+        product_list = [self._convert_firmware_dict_to_tuple(fw_dict) for fw_dict in product_list]
+        con = self._get_db_con()
         try:
             with con.cursor() as cursor:
                 cursor.executemany(insert_products_query, product_list)
@@ -95,7 +122,7 @@ class DBConnector:
             SELECT download_link
             FROM products;
         """
-        con = self.get_db_con()
+        con = self._get_db_con()
         try:
             with con.cursor() as cursor:
                 cursor.execute(retrieve_links_query)
@@ -112,13 +139,13 @@ class DBConnector:
             SELECT *
             FROM products 
             WHERE 1=1
-            """ 
+            """
         if manufacturer:
             # WHERE clause set to manufacturer string
             retrieve_products_query += f'AND manufacturer = "{manufacturer}";'
         else:
             retrieve_products_query += ';'
-        con = self.get_db_con()
+        con = self._get_db_con()
         try:
             #print(retrieve_products_query) # debug
             with con.cursor() as cursor:
@@ -131,35 +158,14 @@ class DBConnector:
         return results
 
 
-"""
-Helper function to convert product dict as produced by the Schneider Electric scraper into a tuple as consumed 
-by insert_products.
-"""
-def convert_SE_product_dict_to_tuple(dict_):
-    return (
-        "Schneider Electric",  # manufacturer
-        dict_["product_title"],
-        dict_["metadata"]["product_ranges"],
-        dict_["metadata"]["version"],
-        datetime.datetime.strptime(dict_["metadata"]["release_date"], "%d/%m/%Y"),
-        dict_["download_links"][0],
-        None,  # file path
-        None,  # local checksum
-        None,  # scraped checksum
-        None,  # emba tested
-        None,  # emba_report_path
-        None   # embark_report_link
-    )
-
-
 if __name__ == "__main__":
     db = DBConnector()
 
     with open("../test/files/firmware_data_schneider.json", 'r') as file:
         test_data = json.loads(file.read())
 
-    db.insert_products([convert_SE_product_dict_to_tuple(prod) for prod in test_data])
+    db.insert_products(test_data)
 
-    print(db.retrieve_download_links()[:20])
+    print(*db.retrieve_download_links()[:5], sep="\n")
 
 
