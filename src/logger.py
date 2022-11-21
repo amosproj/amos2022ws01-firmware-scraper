@@ -4,7 +4,7 @@ Logging module callable by all other moduels
 Concept:
 - Logger is set up in module logger.py
 - Three different levels of log messages:
-    - Info (mainly success messages, process started etc.)
+    - Info (mainly success messages, processes started, finished  etc.)
     - Warning (No dangerous errors, but something did not work as planned)
     - Error (All errors occuring)
 - Two different handlers, one who logs to the console and one who logs to the file
@@ -21,7 +21,8 @@ Logging in core:
 
 Logging in vendor modules:
     - Accesed main url (download center of vendor)
-    - Scanned product X - downloaded data
+    - vendor-depending messages like 'found url of product page'
+    - Scanned product X - downloaded metadata
     - Scan finished - return to core
 
 Either in core or vendor:
@@ -35,18 +36,29 @@ log_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 '''
 
 
-#Does not really work as planned yet
 import logging
+from pathlib import Path
 
-logger = logging.getLogger('logger_name')
-formatter = logging.Formatter("%(asctime)s:%(levelname)s:%(name)s: %(message)s")
-console_handler = logging.StreamHandler()
-console_handler.setFormatter(formatter)
-console_handler.setLevel(logging.WARNING)
-logger.addHandler(console_handler)
-file_handler = logging.FileHandler('logs.log')
-file_handler.setFormatter(formatter)
-file_handler.setLevel(logging.INFO)
-logger.addHandler(file_handler)
+def create_logger(name):
+    file_path = str(Path(__file__).parent) + "/logs.log"
 
-logger.info("Test")
+    logger = logging.getLogger(name)
+    logger.setLevel(logging.INFO)
+
+    format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+    file_handler = logging.FileHandler(file_path)
+    file_handler.setFormatter(format)
+
+    stream_handler = logging.StreamHandler()
+    stream_handler.setLevel(logging.WARNING)
+    stream_handler.setFormatter(format)
+
+    logger.addHandler(file_handler)
+    logger.addHandler(stream_handler)
+
+    return logger
+
+logger = create_logger("logger.py")
+logger.warning("logger warning Test")
+logger.info("logger info Test")
