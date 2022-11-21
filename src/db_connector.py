@@ -106,6 +106,30 @@ class DBConnector:
             con.close()
         return result
 
+    """Without argument: Returns all products from the firmware table else: manufacturer specific."""
+    def get_products(self, manufacturer=''):
+        retrieve_products_query = f"""
+            SELECT *
+            FROM products 
+            WHERE 1=1
+            """ 
+        if manufacturer:
+            # WHERE clause set to manufacturer string
+            retrieve_products_query += f'AND manufacturer = "{manufacturer}";'
+        else:
+            retrieve_products_query += ';'
+        con = self.get_db_con()
+        try:
+            #print(retrieve_products_query) # debug
+            with con.cursor() as cursor:
+                cursor.execute(retrieve_products_query)
+                results = cursor.fetchall()
+        except Exception as ex:
+            print(ex)
+        finally:
+            con.close()
+        return results
+
 
 """
 Helper function to convert product dict as produced by the Schneider Electric scraper into a tuple as consumed 
