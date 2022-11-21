@@ -44,6 +44,7 @@ class DBConnector:
                         emba_tested BOOLEAN,
                         emba_report_path VARCHAR(1024),
                         embark_report_link VARCHAR(1024)
+                        inserted_date DATE,
                     );
                 """
         con = self.get_db_con()
@@ -148,7 +149,8 @@ def convert_SE_product_dict_to_tuple(dict_):
         None,  # scraped checksum
         None,  # emba tested
         None,  # emba_report_path
-        None   # embark_report_link
+        None,   # embark_report_link
+        None     # inserted_date
     )
 
 
