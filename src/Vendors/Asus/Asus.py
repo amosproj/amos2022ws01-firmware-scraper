@@ -5,7 +5,6 @@ Scraper module for Asus vendor
 from src.logger import create_logger
 
 logger = create_logger("asus.py")
-
 logger.warning("Asus warning Test")
 logger.info("Asus info Test")
 
