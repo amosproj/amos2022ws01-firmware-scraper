@@ -15,9 +15,9 @@ from typing import Optional
 
 from selenium.webdriver.common.by import By
 from selenium import webdriver
-from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.remote.webelement import WebElement
-from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 from urllib.request import urlopen
 
 
@@ -30,6 +30,9 @@ class SchneiderElectricScraper:
 
     def __init__(self, scrape_entry_url: str):
         self.scrape_entry_url = scrape_entry_url
+
+        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+        self.driver.implicitly_wait(0.5)  # has to be set only once
 
     def _find_element_and_check(self, product_page: WebElement, by: By, value: str) -> Optional[WebElement]:
         # we use find_elements instead of find_element to be aware if the CSS selector is able to locate a unique element
@@ -107,33 +110,30 @@ class SchneiderElectricScraper:
 
 
     def scrape_metadata(self, max_no_products: int = None) -> list[dict]:
-        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
-        driver.implicitly_wait(0.5)  # has to be set only once
-
-        driver.get(self.scrape_entry_url)
+        self.driver.get(self.scrape_entry_url)
 
         # on a single page, only a certain number (e.g. 10) of firmware products is displayed
         # pages must be iterated to retrieve all elements
-        no_pages = int(driver.find_element(by=By.CLASS_NAME, value="pager").find_element(by=By.CLASS_NAME, value="last").text)
+        no_pages = int(self.driver.find_element(by=By.CLASS_NAME, value="pager").find_element(by=By.CLASS_NAME, value="last").text)
 
         # iterate over result pages
         firmware_product_urls = []
         for page in range(1, no_pages+1):
-            driver.get(f"{self.scrape_entry_url}&pageNumber={page}")
+            self.driver.get(f"{self.scrape_entry_url}&pageNumber={page}")
 
-            firmware_products = driver.find_element(by=By.CLASS_NAME, value='result-list').find_elements(by=By.CLASS_NAME, value='result-list-item')
+            firmware_products = self.driver.find_element(by=By.CLASS_NAME, value='result-list').find_elements(by=By.CLASS_NAME, value='result-list-item')
             firmware_product_urls += [item.find_element(by=By.CLASS_NAME, value='title').get_attribute('href') for item in firmware_products]
             if len(firmware_product_urls) >= max_no_products: break
 
         # iterate over found products
         extracted_data = []
         for product in tqdm(firmware_product_urls[:max_no_products]):
-            driver.get(product)
-            product_page = driver.find_element(by=By.TAG_NAME, value='html')
+            self.driver.get(product)
+            product_page = self.driver.find_element(by=By.TAG_NAME, value='html')
             if firmware_item := self._extract_info(product_page):
                 extracted_data.append(firmware_item)
 
-        driver.quit()
+        self.driver.quit()
         return extracted_data
 
 

@@ -4,7 +4,7 @@
     "product_name": "STW6 Firmware",
     "product_type": "Harmony ST6",
     "version": "0",
-    "release_date": null,
+    "release_date": "14/11/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "STW6_Firmware_V1.1.0",
@@ -23,7 +23,7 @@
     "product_name": "Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43",
     "product_type": "UPS Network Management Cards",
     "version": "2.3.1.1",
-    "release_date": null,
+    "release_date": "10/11/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_NMC3_SY_2311_EN",
@@ -42,7 +42,7 @@
     "product_name": "Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43",
     "product_type": "UPS Network Management Cards",
     "version": "2.3.1.1",
-    "release_date": null,
+    "release_date": "10/11/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_NMC3_SU_2311_EN",
@@ -61,7 +61,7 @@
     "product_name": "EVlink Charging stations - Firmware update - R8 - Run 6",
     "product_type": "EVlink Parking, EVlink Smart Wallbox",
     "version": "3.4.0.6",
-    "release_date": null,
+    "release_date": "09/11/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "GEX9564800",
@@ -82,7 +82,7 @@
     "product_name": "XW Pro 6848_120-240V Firmware_v1.11_BN0049",
     "product_type": "Conext\u2122 XW Pro",
     "version": "1.11",
-    "release_date": null,
+    "release_date": "01/11/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "XW-Pro-FW_120-240V_V1-11",
@@ -101,7 +101,7 @@
     "product_name": "XW Pro 6848_120V Firmware_v1.11_BN0049",
     "product_type": "Conext\u2122 XW Pro",
     "version": "1.11",
-    "release_date": null,
+    "release_date": "01/11/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "XW-Pro-6848-FW_120V_V1-11",
@@ -120,7 +120,7 @@
     "product_name": "NetBotz Firmware v4.7.2\ninformation_stroke",
     "product_type": "NetBotz Central",
     "version": "4.7.2",
-    "release_date": null,
+    "release_date": "31/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_SFNBZ_472_EN",
@@ -143,7 +143,7 @@
     "product_name": "C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0",
     "product_type": "SpaceLogic C-Bus Home Automation System, SpaceLogic C-Bus",
     "version": "V1.12.0",
-    "release_date": null,
+    "release_date": "24/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "5500NAC_Firmware-V1.12.0",
@@ -162,7 +162,7 @@
     "product_name": "C-Bus Firmware for 5500SHAC Automation Controller V1.12.0",
     "product_type": "SpaceLogic C-Bus Home Automation System, SpaceLogic C-Bus",
     "version": "V1.12.0",
-    "release_date": null,
+    "release_date": "24/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "5500SHAC_Firmware-V1.12.0",
@@ -181,7 +181,7 @@
     "product_name": "C-Bus Firmware for LSS5500NAC Automation Controller V1.12.0",
     "product_type": "SpaceLogic C-Bus Home Automation System, SpaceLogic C-Bus",
     "version": "V1.12.0",
-    "release_date": null,
+    "release_date": "24/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "LSS5500NAC_Firmware-V1.12.0",
@@ -200,7 +200,7 @@
     "product_name": "C-Bus Firmware for LSS5500SHAC Automation Controller V1.12.0",
     "product_type": "SpaceLogic C-Bus Home Automation System, SpaceLogic C-Bus",
     "version": "V1.12.0",
-    "release_date": null,
+    "release_date": "24/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "LSS5500SHAC_Firmware-V1.12.0",
@@ -219,7 +219,7 @@
     "product_name": "C-Bus Firmware for 5500AC2 Automation Controller V1.12.0",
     "product_type": "SpaceLogic C-Bus Home Automation System, SpaceLogic C-Bus",
     "version": "V1.12.0",
-    "release_date": null,
+    "release_date": "21/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "5500AC2_Firmware-V1.12.0",
@@ -238,7 +238,7 @@
     "product_name": "C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0",
     "product_type": "SpaceLogic C-Bus Home Automation System, SpaceLogic C-Bus",
     "version": "V1.12.0",
-    "release_date": null,
+    "release_date": "21/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "5500NAC2_Firmware-V1.12.0",
@@ -257,7 +257,7 @@
     "product_name": "This a X509 revocation list for Harmony Master.",
     "product_type": "Harmony FP6",
     "version": "v1.0",
-    "release_date": null,
+    "release_date": "10/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "PKICRL_HARMONYMASTER",
@@ -276,7 +276,7 @@
     "product_name": "DER file for SliceIOMaster (part of Schneider Electric Firmware PKI)",
     "product_type": "Modicon TM5 IP20 modular I/O system",
     "version": "v1.0",
-    "release_date": null,
+    "release_date": "10/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "PKICER_SLICEIOMASTER",
@@ -295,7 +295,7 @@
     "product_name": "This a X509 revocation list for SliceIOMaster.",
     "product_type": "Modicon TM5 IP20 modular I/O system",
     "version": "v1.0",
-    "release_date": null,
+    "release_date": "10/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "PKICRL_SLICEIOMASTER",
@@ -314,7 +314,7 @@
     "product_name": "DER file for Harmony Master (part of Schneider Electric Firmware PKI)",
     "product_type": "Harmony FP6",
     "version": "v1.0",
-    "release_date": null,
+    "release_date": "10/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "PKICER_HARMONYMASTER",
@@ -333,7 +333,7 @@
     "product_name": "UPS Network Management Card 3 Firmware v2.1.2 for Smart-UPS Ultra 5-20 kW",
     "product_type": "UPS Network Management Cards",
     "version": "2.1.2.5",
-    "release_date": null,
+    "release_date": "05/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_NMC3_SUCAN_2125_EN",
@@ -352,7 +352,7 @@
     "product_name": "Network Management Card 3 (NMC3) RPDU v2.3.1.0 Firmware Release",
     "product_type": "Firmware Upgrades",
     "version": "2.3.1.0",
-    "release_date": null,
+    "release_date": "05/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_NMC3_RPDU_2310_EN",
@@ -371,7 +371,7 @@
     "product_name": "Network Management Card v7.0.5 Modular PDU (XRDP 2G) Firmware Release",
     "product_type": "Firmware Upgrades",
     "version": "7.0.5",
-    "release_date": null,
+    "release_date": "04/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_XRDP2G_705_EN",
@@ -390,7 +390,7 @@
     "product_name": "Network Management Card v7.0.6 PMM Firmware Release",
     "product_type": "Firmware Upgrades",
     "version": "7.0.6",
-    "release_date": null,
+    "release_date": "04/10/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_PMM_706_EN",
@@ -409,7 +409,7 @@
     "product_name": "Wiser for KNX firmware V2.8.0 (Hardware 2.X.X and hardware 3.X.X)",
     "product_type": "SpaceLogic KNX",
     "version": "V2.8.0",
-    "release_date": null,
+    "release_date": "30/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "FW2_8_0-HW_2_X_X_HW_3_X_X-w4",
@@ -428,7 +428,7 @@
     "product_name": "Wiser for KNX - Firmware V2.8.0 (Hardware 1.X.X)",
     "product_type": "SpaceLogic KNX",
     "version": "V2.8.0",
-    "release_date": null,
+    "release_date": "30/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "FW2_8_0-HW_1_X_X-w4k",
@@ -447,7 +447,7 @@
     "product_name": "SpaceLYnk firmware V2.8.0 (Hardware 2.X.X and hardware 3.X.X)",
     "product_type": "SpaceLogic KNX, spaceLYnk",
     "version": "V2.8.0",
-    "release_date": null,
+    "release_date": "30/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "FW2_8_0-HW_2_X_X_HW_3_X_X-sL",
@@ -466,7 +466,7 @@
     "product_name": "SpaceLYnk firmware V2.8.0 (Hardware 1.X.X)",
     "product_type": "SpaceLogic KNX, spaceLYnk",
     "version": "V2.8.0",
-    "release_date": null,
+    "release_date": "30/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "FW2_8_0-HW_1_X_X-sL",
@@ -485,7 +485,7 @@
     "product_name": "PKI Schneider Electric for firmware for C4C LV General Master",
     "product_type": null,
     "version": "v1.0",
-    "release_date": null,
+    "release_date": "20/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "PKICRL_C4CLVGMASTER",
@@ -504,7 +504,7 @@
     "product_name": "ATS480 Product Firmware V1.1IE01 (2208)",
     "product_type": "Altivar Soft Starter ATS480",
     "version": "V1.1 IE01 (2208)",
-    "release_date": null,
+    "release_date": "07/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "ATS480_Firmware_V1.1IE01",
@@ -523,7 +523,7 @@
     "product_name": "Easy Switched Rack PDU EPDU1016S Firmware V2210",
     "product_type": "Easy Switched Rack PDU",
     "version": "V2210",
-    "release_date": null,
+    "release_date": "07/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "EZ_RPDU_SWCH_1PH1U_EN",
@@ -542,7 +542,7 @@
     "product_name": "Easy Metered rack PDU 1PH Firmware",
     "product_type": "Easy Metered Rack PDU",
     "version": "V2210",
-    "release_date": null,
+    "release_date": "07/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "EPDU_METERED_1PH_FIRMWARE_EN",
@@ -561,7 +561,7 @@
     "product_name": "Easy Rack PDU MBO & SMBO Firmware Revision 1.7.0",
     "product_type": "Easy Metered Rack PDU, Easy Switched Rack PDU",
     "version": "1.7.0",
-    "release_date": null,
+    "release_date": "07/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "EZ_RPDU_SMBO_170_EN",
@@ -580,7 +580,7 @@
     "product_name": "TM3 Analog IO modules Firmware",
     "product_type": "Modicon TM3",
     "version": "V29",
-    "release_date": null,
+    "release_date": "06/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "TM3A_FW_V29",
@@ -599,7 +599,7 @@
     "product_name": "TM3 Digital IO modules Firmware",
     "product_type": "Modicon TM3",
     "version": "V28",
-    "release_date": null,
+    "release_date": "06/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "TM3D_FW_V28",
@@ -618,7 +618,7 @@
     "product_name": "Easy Switched rack PDU 3PH firmware for download",
     "product_type": "Easy Switched Rack PDU",
     "version": "V2210",
-    "release_date": null,
+    "release_date": "01/09/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "EPDU_SWITCHED_3P_FIRMWARE_EN",
@@ -637,7 +637,7 @@
     "product_name": "Modicon MC80 BMKC80x03xx Firmware SV 1.8",
     "product_type": "Modicon MC80",
     "version": "SV01.80",
-    "release_date": null,
+    "release_date": "31/08/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "BMKC80_Firmware_upgrade",
@@ -684,7 +684,7 @@
     "product_name": "Modicon X80 BMXNOR0200H Firmware <=SV01.70",
     "product_type": "Modicon X80 modules",
     "version": "SV01.70",
-    "release_date": null,
+    "release_date": "31/08/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "BMXNOR0200H_FW",
@@ -713,7 +713,7 @@
     "product_name": "Modicon M340 BMXNOC0401 Firmware SV02.11",
     "product_type": "Modicon M340",
     "version": "SV02.11",
-    "release_date": null,
+    "release_date": "23/08/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "BMXNOC0401_SV02.11",
@@ -732,7 +732,7 @@
     "product_name": "PM2000 Firmware, Revision History, Modbus register map",
     "product_type": "EasyLogic PM2000 series",
     "version": "v1.05.03",
-    "release_date": null,
+    "release_date": "21/08/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "PM2000_LCD_01_05_03_55",
@@ -751,7 +751,7 @@
     "product_name": "MTN6725-0001 KNX DALI-Gateway IP1, Firmware V 3.1.10 (EN)",
     "product_type": "SpaceLogic KNX",
     "version": "V3.1.10",
-    "release_date": null,
+    "release_date": "17/08/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "MTN6725-0001_FW",
@@ -774,7 +774,7 @@
     "product_name": "EcoStruxure Panel Server Advanced Firmware",
     "product_type": "EcoStruxure Panel Server",
     "version": "001.004.000",
-    "release_date": null,
+    "release_date": "08/08/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "PAS800_FW_Package_001.004.000",
@@ -793,7 +793,7 @@
     "product_name": "EcoStruxure Panel Server Universal Firmware",
     "product_type": "EcoStruxure Panel Server",
     "version": "001.004.000",
-    "release_date": null,
+    "release_date": "08/08/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "PAS600_FW_Package_001.004.000",
@@ -812,7 +812,7 @@
     "product_name": "Network Management Card v7.0.8 RPDU 2G Firmware Executable",
     "product_type": "Firmware Upgrades",
     "version": "7.0.8",
-    "release_date": null,
+    "release_date": "27/07/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_RPDU2G_708_EN",
@@ -831,7 +831,7 @@
     "product_name": "Modicon M580 BMENUA0100 firmware history SV2.01",
     "product_type": "Modicon M580",
     "version": "SV02.01",
-    "release_date": null,
+    "release_date": "26/07/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "BMENUA0100_FIRMWARE_SV_02.01",
@@ -850,7 +850,7 @@
     "product_name": "Modicon M580 BMENUA0100 firmware history SV1.12",
     "product_type": "Modicon M580",
     "version": "SV 01.12",
-    "release_date": null,
+    "release_date": "26/07/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "BMENUA0100_FIRMWARE_SV_01.12",
@@ -869,7 +869,7 @@
     "product_name": "Link150 firmware update v5.2.5",
     "product_type": "EcoStruxure Link150",
     "version": "v5.2.5",
-    "release_date": null,
+    "release_date": "13/07/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "FW_v5.2.5",
@@ -888,7 +888,7 @@
     "product_name": "Modicon M580 BMENOP0300 Firmware SV2.6",
     "product_type": "Modicon M580",
     "version": "SV2.6",
-    "release_date": null,
+    "release_date": "12/07/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "BMENOP0300_Firmware_Update",
@@ -915,7 +915,7 @@
     "product_name": "IAN 0.21.21 Release, SHA256 Signature = fc0b2582f7889690bf8889fd6bd8b38ed1b32b9ecfc1a59f16e60f47524c8b9b",
     "product_type": "Instrument Area Network",
     "version": "1",
-    "release_date": null,
+    "release_date": "12/07/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "ian_image_0_21_21",
@@ -934,7 +934,7 @@
     "product_name": "Network Management Card v7.0.8 Firmware Executable for Symmetra with AP9630/31",
     "product_type": "UPS Network Management Cards",
     "version": "7.0.8",
-    "release_date": null,
+    "release_date": "06/07/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_SY_708_EN",
@@ -957,7 +957,7 @@
     "product_name": "Network Management Card v7.0.8 Firmware Executable for Smart-UPS with AP9630/31",
     "product_type": "UPS Network Management Cards",
     "version": "7.0.8",
-    "release_date": null,
+    "release_date": "06/07/2022",
     "checksum_scraped": null,
     "additional_data": {
       "product_reference": "APC_SUMX_708_EN",
