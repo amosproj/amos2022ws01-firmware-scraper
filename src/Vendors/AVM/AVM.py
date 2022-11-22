@@ -8,8 +8,10 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-import logging
+from urllib.request import urlopen
 import ftputil
+import requests
+import sys
 import pandas as pd
 
 
@@ -18,43 +20,65 @@ class AVMScraper:
     def __init__(
         self
     ):
-        self.url = "https://download.avm.de/"
+        self.url = "https://download.avm.de"
         self.name = "AVM"
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
 
     def connect_webdriver(self):
         try:
             self.driver.get(self.url)
-            logging.info("Connected Successfully!")
+            logger.info("Connected Successfully!")
         except Exception as e:
-            logging.info(e + ": Could not connect to AVM!")
+            logger.info(e + ": Could not connect to AVM!")
 
     # List available firmware downloads
-    def get_all_files(self):
+    def scrape_metadata(self) -> list:
         
         # Get all links on index page
-    
-        text_files = []
-        fw_files = []
+        logger.info(f"Scraping all data from {self.url}")
 
         elem_list = self.driver.find_elements(By.XPATH, "//pre/a")
-        elem_list = [elem.text for elem in elem_list if elem.text not in ["../", "archive/"]]
+        elem_list = ["/" + elem.text for elem in elem_list if elem.text not in ["../", "archive/"]]
         
         # Iterate through index links and append all subdirectories
-        # TODO: Build tuple like (txt_file, fw_file)
         for index, value in enumerate(elem_list):
-            print(f"Searching {value}")
+            logger.debug(f"Searching {value}")
             self.driver.get(self.url + value)
             sub_elems = self.driver.find_elements(By.XPATH, "//pre/a")
 
-            text_files.extend([elem.get_property("pathname") for elem in sub_elems if self.get_file_extension(elem.get_property("pathname")) == ".txt"])
-            fw_files.extend([elem.get_property("pathname") for elem in sub_elems if self.get_file_extension(elem.get_property("pathname")) in [".image", ".exe"]])
-            sub_elems = [elem.get_property("pathname") for elem in sub_elems if elem.text != "../" and self.get_file_extension(elem.get_property("pathname")) not in [".txt", ".image", ".exe", ".zip"]]
+            fw_files = ([elem.get_property("pathname") for elem in sub_elems if self._get_file_extension(elem.get_property("pathname")) in self.fw_types])
+            for file in fw_files: 
+
+                firmware_item = {"manufacturer": "AVM",
+                "product_name": None,
+                "product_type": None,
+                "version": None,
+                "release_date": None,
+                "download_link": None,
+                "checksum_scraped": None,
+                "additional_data": {}
+                }
+                
+                logger.debug(f"Found firmware file: {file}")
+                text_file = next((elem.get_property("pathname") for elem in sub_elems if elem.get_property("innerHTML") == "info_en.txt"), None)
+                if text_file:
+                    logger.debug(f"Found info file: {text_file}")
+                    product, release_date, version = self._parse_txt_file(self.url + text_file)
+                    firmware_item["product_name"] = product
+                    firmware_item["release_date"] = release_date
+                    firmware_item["version"] = version
+                    firmware_item["additional_data"] = {"info_url": self.url + text_file}
+                firmware_item["download_link"] = self.url + file
+                firmware_item["product_type"] = value.strip("/").split("/")[0]
+                self.catalog.append(firmware_item)
+            
+            sub_elems = [elem.get_property("pathname") for elem in sub_elems if elem.text != "../" and self._get_file_extension(elem.get_property("pathname")) not in [".txt", ".image", ".exe", ".zip", ".dmg"]]
             elem_list.extend(sub_elems)
-        return text_files, fw_files
+        return self.catalog
  
-    def scrape_metadata_via_ftp(self) -> list:
+    def scrape_metadata_via_ftp(self):
 
         dict_ = {}
 
@@ -82,19 +106,40 @@ class AVMScraper:
                                 if f == "info_en.txt":
                                     txt = self.read_txt_file(f)
                
-    def get_file_extension(self, filename):
+    def _get_file_extension(self, filename):
         return path.splitext(filename)[-1]
 
-    # TODO: Parse txt files for metadata
-    def read_txt_file(self, filename) -> dict:
-        pass
+    # TODO: Parse text files other than info_txt.en
+    def _parse_txt_file(self, file_url: str):
+
+        product, release_date, version = None, None, None
+        try:
+            #import pdb;pdb.set_trace()
+            txt = requests.get(file_url).text.splitlines()
+            product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
+            release_date = self._get_partial_str(txt, "Release").split(":")[-1].strip()
+            version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
+            logger.debug(f"Found {product, release_date, version} in txt file!")
+        except Exception as e:
+            logger.debug(f"Could not parse text file: {e}")
+
+        return product, release_date, version
+    
+    def _get_partial_str(self, txt: list, query: str):
+        return [s for s in txt if query in s][0]
 
     # Download firmware
-    def download_firmware(self, filename, target_dir):
+    def download_firmware(self, filename: str, target_dir: str):
         pass
         
 if __name__ == '__main__':
 
+    import logging
+    from utils import setup_logger
+
+    logger = setup_logger()
     AVM = AVMScraper()
     AVM.connect_webdriver()
-    txt, img = AVM.get_all_files()
+    catalog = AVM.scrape_metadata()
+    logger.info(catalog)
+    

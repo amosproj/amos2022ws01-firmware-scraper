@@ -2,7 +2,7 @@ import logging
 import coloredlogs
 from pathlib import Path
 
-def setup_logger(logging_file_path: Path = None, name: str = "scraper", loglevel="INFO", log_to_file: bool = False):
+def setup_logger(logging_file_path: Path = None, name: str = "scraper", loglevel="DEBUG", log_to_file: bool = False):
     if loglevel is None:
         loglevel = "INFO"
     if logging_file_path is None:
