@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 # Vendor Modules
 from Vendors import AVMScraper, SchneiderElectricScraper
-from src.db_connector import DBConnector
+from db_connector import DBConnector
 
 
 class Core:

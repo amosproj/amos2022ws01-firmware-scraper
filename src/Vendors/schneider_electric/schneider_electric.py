@@ -149,7 +149,7 @@ def download(firmware_data: list[dict], max_no_downloads: int):
 
 
 if __name__ == '__main__':
-    scraper = SchneiderElectricScraper(DOWNLOAD_URL_GLOBAL, max_products=3)
+    scraper = SchneiderElectricScraper(DOWNLOAD_URL_GLOBAL, max_products=10)
     print('Start scraping:')
     firmware_data = scraper.scrape_metadata()
     print('Finished scraping.')
