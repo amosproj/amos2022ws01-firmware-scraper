@@ -119,7 +119,7 @@ class DBConnector:
     """Returns all download links from the firmware table."""
     def retrieve_download_links(self):
         retrieve_links_query = """
-            SELECT download_link
+            SELECT download_link, product_name
             FROM products;
         """
         con = self._get_db_con()

@@ -4,6 +4,9 @@ Core module for firmware scraper
 
 # Standard Libraries
 import json
+from urllib.request import urlopen
+
+from tqdm import tqdm
 
 # Vendor Modules
 from Vendors import AVMScraper, SchneiderElectricScraper
@@ -17,15 +20,27 @@ class Core:
         self.db = DBConnector()
 
     def get_product_catalog(self):
+        print('Start scraping.')
         for vendor in self.vendor_list:
+            print(f'Start {type(vendor).__name__}.')
             metadata = vendor.scrape_metadata()
+            print(f'{type(vendor).__name__} done.')
+            print(f'Insert {type(vendor).__name__} catalogue into DB.')
             self.db.insert_products(metadata)
 
     def compare_products(self):
         pass
 
     def download_firmware(self):
-        pass
+        print(f'Download firmware.')
+        firmware = self.db.retrieve_download_links()
+        for url, name in tqdm(firmware):
+            save_as = f"../downloads/{name.replace('/', '-')}"
+            with urlopen(url) as file:
+                content = file.read()
+            with open(save_as, 'wb') as out_file:
+                out_file.write(content)
+        print(f'Download done.')
 
 if __name__ == '__main__':
 
@@ -34,3 +49,4 @@ if __name__ == '__main__':
 
     core = Core([SchneiderElectricScraper(max_products=10)])
     core.get_product_catalog()
+    core.download_firmware()
