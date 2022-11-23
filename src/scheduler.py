@@ -7,7 +7,7 @@ import schedule
 import datetime
 import pandas as pd
 
-from src import core
+#from src import core
 
 schedule_file = pd.read_excel("schedule.xlsx")
 
