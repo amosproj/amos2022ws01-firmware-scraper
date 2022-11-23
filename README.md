@@ -10,12 +10,20 @@ This [Selenium-based](https://github.com/SeleniumHQ/selenium) firmware scraper g
 ```shell
 git clone https://github.com/amosproj/amos2022ws01-firmware-scraper
 #or download and unpack .zip mos2022ws01-firmware-scraper-main
-cd to project directory
+cd amos2022ws01-firmware-scraper
 python3 -m venv .AMOS
 source .AMOS/bin/activate
 pip install -r requirements.txt
+
+# Make sure MySQL server is running
+# On macOS
+sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
+# On Linux
+/etc/init.d/mysqld start
+
 export MYSQL_USER=<your username>
 export MYSQL_PASSWORD=<your password>
+
 cd src
 python3 core.py
 ```
