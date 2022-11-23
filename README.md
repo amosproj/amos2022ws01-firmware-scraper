@@ -3,18 +3,20 @@
 ![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/Deliverables/sprint-01/team-logo-black.png?raw=true)
 
 ## TLDR;
-This Selenium 
+
+This [Selenium-based](https://github.com/SeleniumHQ/selenium) firmware scraper gathers firmware data from 25 vendors. Our automated solution scrapes meta data from numerous vendors and downloads corresponding firmwares. The results can be used for InfoSec research.
 
 ## Installation
 ```shell
-git clone https://github.com/amosproj/amos2022ws01-firmware-scraper or download and unpack .zip mos2022ws01-firmware-scraper-main
+git clone https://github.com/amosproj/amos2022ws01-firmware-scraper
+#or download and unpack .zip mos2022ws01-firmware-scraper-main
 cd to project directory
 python3 -m venv .AMOS
 source .AMOS/bin/activate
 pip install -r requirements.txt
-EXPORT MYSQL_USER=<your username>
-EXPORT MYSQL_PASSWORD=<your password>
-cd src/
+export MYSQL_USER=<your username>
+export MYSQL_PASSWORD=<your password>
+cd src
 python3 core.py
 ```
 
@@ -26,3 +28,4 @@ python3 core.py
 [Impediments Backlog](https://github.com/orgs/amosproj/projects/3/views/1)
 
 [Tasks without Feature](https://github.com/users/Deepakraj8055/projects/6)
+
