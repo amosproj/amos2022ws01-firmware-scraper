@@ -5,6 +5,7 @@ Core module for firmware scraper
 # Standard Libraries
 import json
 from urllib.request import urlopen
+import logging
 
 from tqdm import tqdm
 
@@ -47,6 +48,10 @@ if __name__ == '__main__':
     with open('config.json') as config_file:
         config = json.load(config_file)
 
-    core = Core([SchneiderElectricScraper(max_products=10)])
+    from logger import create_logger
+
+    logger = create_logger("scraper")
+
+    core = Core(vendor_list=[AVMScraper(logger=logger), SchneiderElectricScraper(max_products=10)])
     core.get_product_catalog()
-    core.download_firmware()
+    

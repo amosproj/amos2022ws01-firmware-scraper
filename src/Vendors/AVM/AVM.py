@@ -13,38 +13,44 @@ import ftputil
 import requests
 import sys
 import pandas as pd
+from datetime import datetime
 
 
 class AVMScraper:
 
     def __init__(
-        self
+        self,
+        logger
     ):
         self.url = "https://download.avm.de"
         self.name = "AVM"
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
+        self.logger = logger
 
     def connect_webdriver(self):
         try:
             self.driver.get(self.url)
-            logger.info("Connected Successfully!")
+            self.logger.info("Connected Successfully!")
         except Exception as e:
-            logger.info(e + ": Could not connect to AVM!")
+            self.logger.info(e + ": Could not connect to AVM!")
 
     # List available firmware downloads
+    # TODO: Scrape release_date directly from website
     def scrape_metadata(self) -> list:
+
+        self.connect_webdriver()
         
         # Get all links on index page
-        logger.info(f"Scraping all data from {self.url}")
+        self.logger.info(f"Scraping all data from {self.url}")
 
         elem_list = self.driver.find_elements(By.XPATH, "//pre/a")
         elem_list = ["/" + elem.text for elem in elem_list if elem.text not in ["../", "archive/"]]
         
         # Iterate through index links and append all subdirectories
         for index, value in enumerate(elem_list):
-            logger.debug(f"Searching {value}")
+            self.logger.debug(f"Searching {value}")
             self.driver.get(self.url + value)
             sub_elems = self.driver.find_elements(By.XPATH, "//pre/a")
 
@@ -61,10 +67,10 @@ class AVMScraper:
                 "additional_data": {}
                 }
                 
-                logger.debug(f"Found firmware file: {file}")
+                self.logger.debug(f"Found firmware file: {file}")
                 text_file = next((elem.get_property("pathname") for elem in sub_elems if elem.get_property("innerHTML") == "info_en.txt"), None)
                 if text_file:
-                    logger.debug(f"Found info file: {text_file}")
+                    self.logger.debug(f"Found info file: {text_file}")
                     product, release_date, version = self._parse_txt_file(self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["release_date"] = release_date
@@ -110,18 +116,18 @@ class AVMScraper:
         return path.splitext(filename)[-1]
 
     # TODO: Parse text files other than info_txt.en
+    # TODO: Create Date object from release_date for database
     def _parse_txt_file(self, file_url: str):
 
         product, release_date, version = None, None, None
         try:
-            #import pdb;pdb.set_trace()
             txt = requests.get(file_url).text.splitlines()
             product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
-            release_date = self._get_partial_str(txt, "Release").split(":")[-1].strip()
+            # release_date = self._get_partial_str(txt, "Release").split(":")[-1].strip()
             version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
-            logger.debug(f"Found {product, release_date, version} in txt file!")
+            self.logger.debug(f"Found {product, release_date, version} in txt file!")
         except Exception as e:
-            logger.debug(f"Could not parse text file: {e}")
+            self.logger.debug(f"Could not parse text file: {e}")
 
         return product, release_date, version
     
@@ -138,8 +144,6 @@ if __name__ == '__main__':
     from utils import setup_logger
 
     logger = setup_logger()
-    AVM = AVMScraper()
-    AVM.connect_webdriver()
-    catalog = AVM.scrape_metadata()
-    logger.info(catalog)
+    AVM = AVMScraper(logger=logger)
+    AVM.scrape_metadata()
     
