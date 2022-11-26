@@ -96,6 +96,7 @@ class DBConnector:
     product_list (list[dict]): List of dicts, where every dict contains the metadata of a single
         scraped firmware. Expected keys: "manufacturer", "product_name", "product_type", 
         "version", "release_date", "download_link", "checksum_scraped", "additional_data". 
+        "release_date" should be a string formatted in this way: YYYY-MM-DD.
         Values can be Null.
     """
     def insert_products(self, product_list: list[dict]):

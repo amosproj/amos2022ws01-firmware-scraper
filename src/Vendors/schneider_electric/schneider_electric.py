@@ -12,13 +12,14 @@ import json
 import re
 from tqdm import tqdm
 from typing import Optional
+from urllib.request import urlopen
 
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from urllib.request import urlopen
+
 
 
 DOWNLOAD_URL_GLOBAL = 'https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware'
@@ -76,7 +77,8 @@ class SchneiderElectricScraper:
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_TITLE):
             title = el.text
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_RELEASE_DATE):
-            release_date = el.text.removeprefix("Date : ")
+            release_date_raw = el.text.removeprefix("Date : ").split("/")
+            release_date = f"{release_date_raw[2]}-{release_date_raw[1]}-{release_date_raw[0]}"
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_LANGUAGES):
             languages = el.text.removeprefix("Languages : ")
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_VERSION):
@@ -90,7 +92,7 @@ class SchneiderElectricScraper:
                          "product_name": title,
                          "product_type": product_ranges,
                          "version": version,
-                         "release_date": None,
+                         "release_date": release_date,
                          "checksum_scraped": None,
                          "additional_data": {
                              "product_reference": reference,
