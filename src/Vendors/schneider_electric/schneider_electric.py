@@ -20,14 +20,14 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
-
+from src.Vendors.scraper import Scarper
 
 DOWNLOAD_URL_GLOBAL = 'https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware'
 DOWNLOAD_URL_GERMANY = 'https://www.se.com/de/de/download/doc-group-type/7090926-Software%20und%20Firmware/?docType=1555893-Firmware'
 DOWNLOAD_URL_USA = 'https://www.se.com/us/en/download/doc-group-type/3587139-Software%20&%20Firmware/?docType=1555893-Firmware'
 
 
-class SchneiderElectricScraper:
+class SchneiderElectricScraper(Scarper):
 
     def __init__(self, scrape_entry_url: str = DOWNLOAD_URL_GLOBAL, max_products: int = float('inf')):
         self.scrape_entry_url = scrape_entry_url
@@ -139,7 +139,7 @@ class SchneiderElectricScraper:
         return extracted_data
 
 
-def download(firmware_data: list[dict], max_no_downloads: int):
+def _download(firmware_data: list[dict], max_no_downloads: int):
     for firmware in tqdm(firmware_data[:max_no_downloads]):
         for url, filename in zip(firmware['download_links'], firmware['filenames']):
             save_as = f'out/{filename}'
@@ -159,6 +159,6 @@ if __name__ == '__main__':
         json.dump(firmware_data, firmware_file)
 
     print('Start downloading:')
-    download(firmware_data, 0)
+    _download(firmware_data, 0)
     print('Finished download.')
 
