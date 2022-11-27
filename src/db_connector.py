@@ -56,8 +56,8 @@ class DBConnector:
         finally:
             con.close()
 
-    """Return a MySQLConnection to the firmware database."""
     def _get_db_con(self):
+        """Return a MySQLConnection to the firmware database."""
         config = {
           'user': self.db_user,
           'password': self.db_password,
@@ -71,8 +71,8 @@ class DBConnector:
         else:
             return con
 
-    """Expects dict of firmware metadata and returns tuple in expected format for insertion into DB."""
     def _convert_firmware_dict_to_tuple(self, fw_dict):
+        """Expects dict of firmware metadata and returns tuple in expected format for insertion into DB."""
         return (fw_dict["manufacturer"],
                 fw_dict["product_name"],
                 fw_dict["product_type"],
@@ -89,17 +89,14 @@ class DBConnector:
                 json.dumps(fw_dict["additional_data"])
                 )
 
-    """
-    Inserts a list of product records into the firmware table.
-    
-    Parameters:
-    product_list (list[dict]): List of dicts, where every dict contains the metadata of a single
-        scraped firmware. Expected keys: "manufacturer", "product_name", "product_type", 
-        "version", "release_date", "download_link", "checksum_scraped", "additional_data". 
-        "release_date" should be a string formatted in this way: YYYY-MM-DD.
-        Values can be Null.
-    """
     def insert_products(self, product_list: list[dict]):
+        """
+        Inserts a list of product records into the firmware table.
+
+        Args:
+            product_list (list[dict]): List of dicts, where every dict contains the metadata of a single
+              scraped firmware. Expected keys are defined by scraper.scrape_metadata().
+        """
         insert_products_query = """
             INSERT INTO products
             (manufacturer, product_name, product_type, version, release_date, download_link, file_path, checksum_local,
@@ -117,8 +114,8 @@ class DBConnector:
         finally:
             con.close()
 
-    """Returns all download links from the firmware table."""
     def retrieve_download_links(self):
+        """Returns all download links from the firmware table."""
         retrieve_links_query = """
             SELECT download_link, product_name
             FROM products;
@@ -134,8 +131,9 @@ class DBConnector:
             con.close()
         return result
 
-    """Without argument: Returns all products from the firmware table else: manufacturer specific."""
+
     def get_products(self, manufacturer=''):
+        """Without argument: Returns all products from the firmware table else: manufacturer specific."""
         retrieve_products_query = f"""
             SELECT *
             FROM products 
