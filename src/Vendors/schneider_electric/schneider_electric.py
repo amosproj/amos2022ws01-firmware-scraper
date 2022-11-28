@@ -20,14 +20,15 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.Vendors.scraper import Scarper
+from src.Vendors.scraper import Scraper
+from src.logger import create_logger
 
 DOWNLOAD_URL_GLOBAL = 'https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware'
 DOWNLOAD_URL_GERMANY = 'https://www.se.com/de/de/download/doc-group-type/7090926-Software%20und%20Firmware/?docType=1555893-Firmware'
 DOWNLOAD_URL_USA = 'https://www.se.com/us/en/download/doc-group-type/3587139-Software%20&%20Firmware/?docType=1555893-Firmware'
 
 
-class SchneiderElectricScraper(Scarper):
+class SchneiderElectricScraper(Scraper):
 
     def __init__(self, scrape_entry_url: str = DOWNLOAD_URL_GLOBAL, max_products: int = float('inf')):
         self.scrape_entry_url = scrape_entry_url
@@ -35,6 +36,8 @@ class SchneiderElectricScraper(Scarper):
 
         self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
         self.driver.implicitly_wait(0.5)  # has to be set only once
+
+        self.logger = create_logger("Schneider Electric Logger")
 
     def _find_element_and_check(self, product_page: WebElement, by: By, value: str) -> Optional[WebElement]:
         # we use find_elements instead of find_element to be aware if the CSS selector is able to locate a unique element
@@ -98,7 +101,7 @@ class SchneiderElectricScraper(Scarper):
                              "product_reference": reference,
                              "languages": languages
                          }
-                        }
+                         }
 
         download_links, filenames = self._identify_downloads(product_page)
 
