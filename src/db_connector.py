@@ -57,12 +57,13 @@ class DBConnector:
             con.close()
 
     """Return a MySQLConnection to the firmware database."""
+
     def _get_db_con(self):
         config = {
-          'user': self.db_user,
-          'password': self.db_password,
-          'host': '127.0.0.1',
-          'database': 'firmware',
+            'user': self.db_user,
+            'password': self.db_password,
+            'host': '127.0.0.1',
+            'database': 'firmware',
         }
         try:
             con = mysql.connector.connect(**config)
@@ -72,6 +73,7 @@ class DBConnector:
             return con
 
     """Expects dict of firmware metadata and returns tuple in expected format for insertion into DB."""
+
     def _convert_firmware_dict_to_tuple(self, fw_dict):
         return (fw_dict["manufacturer"],
                 fw_dict["product_name"],
@@ -89,12 +91,37 @@ class DBConnector:
                 json.dumps(fw_dict["additional_data"])
                 )
 
-    def create_table(self, table:str):
+    # debugging method
+    def _execute_string(self, query: str):
+        # TODO check if con.commit before or after fetchall
+        """convenience method to execute a string query
+
+        Args:
+            query (str): query to execute
+
+        Returns:
+            result: 
+        """
+        con = self._get_db_con()
+        try:
+            with con.cursor() as cursor:
+                cursor.execute(query)
+                result = cursor.fetchall()
+                con.commit()
+
+        except Exception as ex:
+            print(ex)
+        finally:
+            con.close()
+        if result:
+            return result
+
+    def create_table(self, table: str):
         """creates table with given table name in DB Schema
 
         Args:
             table (str): table name as string for table to create
-        """        
+        """
         create_table_query = f"""CREATE TABLE IF NOT EXISTS {table}(
                         id INT AUTO_INCREMENT PRIMARY KEY,
                         manufacturer VARCHAR(128),
@@ -122,54 +149,7 @@ class DBConnector:
         finally:
             con.close()
 
-    # debugging method
-    def _execute_string(self, query: str):
-        con = self._get_db_con()
-        try:
-            with con.cursor() as cursor:
-                cursor.execute(query)
-                result = cursor.fetchall()
-                con.commit()
-                
-        except Exception as ex:
-            print(ex)
-        finally:
-            con.close()
-        if result: 
-            return result
-
-    def compare_products(self, manufacturer:str) -> list[dict]:
-        """
-        Compares the given product catalog in DB with the products in the products table (historized) DB.
-        arguments"""
-        con = self._get_db_con()
-
-        query = f"""select * 
-                    from {manufacturer} tmp, products p
-                    where tmp.manufacturer = p.manufacturer
-                    AND tmp.product_name = p.product_name
-                    AND tmp.product_type = p.product_type
-                    AND tmp.version = p.version
-                    AND tmp.download_link = p.download_link
-                    AND tmp.file_path = p.file_path
-                    #AND tmp.checksum_local = p.checksum_local
-                    AND tmp.checksum_scraped = p.checksum_scraped
-                    AND tmp.emba_tested = p.emba_tested
-                    AND tmp.emba_report_path = p.emba_report_path
-                    AND tmp.embark_report_link = p.embark_report_link
-                    AND tmp.additional_data = p.additional_data"""
-        try:
-            with con.cursor() as cursor:
-                cursor.execute(query)
-                result = cursor.fetchall()
-                print(result)
-        except Exception as ex:
-            print(ex)
-        finally:
-            con.close()
-        return result
-
-    def insert_products(self, product_list: list[dict], table:str="products"):
+    def insert_products(self, product_list: list[dict], table: str = "products"):
         """
         Inserts a list of product records into the firmware table.
         
@@ -182,10 +162,11 @@ class DBConnector:
         insert_products_query = f"""
             INSERT INTO {table}
             (manufacturer, product_name, product_type, version, release_date, download_link, file_path, checksum_local,
-             checksum_scraped, emba_tested, emba_report_path, embark_report_link, additional_data)
+            checksum_scraped, emba_tested, emba_report_path, embark_report_link, additional_data)
             VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
-        product_list = [self._convert_firmware_dict_to_tuple(fw_dict) for fw_dict in product_list]
+        product_list = [self._convert_firmware_dict_to_tuple(
+            fw_dict) for fw_dict in product_list]
         con = self._get_db_con()
         try:
             with con.cursor() as cursor:
@@ -196,16 +177,15 @@ class DBConnector:
         finally:
             con.close()
 
-    
-    def retrieve_download_links(self):
-        """Returns all download links from the firmware table.
+    def retrieve_download_links(self, table: str = "products"):
+        """Returns all download links from firmware table, 
 
         Returns:
-            result: _description_
-        """       
-        retrieve_links_query = """
+            result: download links as list of tuples
+        """
+        retrieve_links_query = f"""
             SELECT download_link, product_name
-            FROM products;
+            FROM {table};
         """
         con = self._get_db_con()
         try:
@@ -218,7 +198,39 @@ class DBConnector:
             con.close()
         return result
 
-    
+    def compare_products(self, table1: str, table2: str = 'products') -> list[dict]:
+        """Compares the given product catalog in DB with the products in the products table (historized) DB.
+        arguments
+
+        Args:
+            table1 (str): table name of product catalog in temporary vendor table
+            table2 (str, optional): table of of products table (historized). Defaults to 'products'.
+
+        Returns:
+            list[dict]: _description_
+        """
+        con = self._get_db_con()
+
+        query = f"""select 
+                    tmp.product_name, tmp.version, tmp.release_date, tmp.download_link, tmp.checksum_scraped, 
+                    tmp.additional_data, tmp.manufacturer, tmp.product_type, tmp.id, tmp2.id 
+                    from {table1} as tmp left join {table2} as tmp2 
+                    on tmp.product_name = tmp2.product_name 
+                    and tmp.version = tmp2.version 
+                    and tmp.manufacturer = tmp2.manufacturer 
+                    and tmp.product_type = tmp2.product_type 
+                    where tmp2.id is null;"""
+        try:
+            with con.cursor() as cursor:
+                # print(query) # Debug
+                cursor.execute(query)
+                result = cursor.fetchall()
+        except Exception as ex:
+            print(ex)
+        finally:
+            con.close()
+        return result
+
     def get_products(self, manufacturer='', table='products'):
         """query DB for firmware on any table, optionally filtered by manufacturer
 
@@ -227,7 +239,7 @@ class DBConnector:
             table (str, optional): table to query for firmwares. Defaults to 'products'.
         Returns:
             result: returns list of tuples with all products
-        """        
+        """
         retrieve_products_query = f"""
             SELECT *
             FROM {table}
@@ -237,7 +249,7 @@ class DBConnector:
             retrieve_products_query += f'WHERE manufacturer = "{manufacturer}";'
         con = self._get_db_con()
         try:
-            print(retrieve_products_query) # debug
+            # print(retrieve_products_query)  # debug
             with con.cursor() as cursor:
                 cursor.execute(retrieve_products_query)
                 result = cursor.fetchall()
@@ -254,8 +266,29 @@ if __name__ == "__main__":
     with open("../test/files/firmware_data_schneider.json", 'r') as file:
         test_data = json.loads(file.read())
 
+    # insert schneider test_data into DB
     db.insert_products(test_data)
+    # retrieve download links from compare schneider table
+    #print(*db.retrieve_download_links(table='compare_schneider')[:5], sep="\n")
 
-    print(*db.retrieve_download_links()[:5], sep="\n")
+    # next test: drop and create table compare_schneider
+    db._execute_string('DROP TABLE IF EXISTS compare_schneider;')
+    db._execute_string('DROP TABLE IF EXISTS new_compare_schneider;')
+    db.create_table(table='compare_schneider')
+    db.create_table(table='new_compare_schneider')
 
+    # insert schneider test_data into DB
+    db.insert_products(test_data, table='compare_schneider')
+    # change data and insert into schneider test_data into DB
+    test_data[0]['version'] = '0.0.0'
+    test_data[1]['version'] = '0.0.0'
+    test_data[2]['version'] = '0.0.0'
+    db.insert_products(test_data, table='new_compare_schneider')
 
+    # print length of that table
+    print(f''' unchanged length: {len(db.get_products(table="compare_schneider"))},
+        changed length: {len(db.get_products(table="new_compare_schneider"))}''')
+
+    # compare schneider table with products table
+    print(len(db.compare_products(
+        table1='new_compare_schneider', table2='compare_schneider')))
