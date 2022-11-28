@@ -67,7 +67,7 @@ class SchneiderElectricScraper(Scraper):
                 non_pdf_filenames.append(match.group(1))
         return non_pdf_urls, non_pdf_filenames
 
-    def _extract_info(self, product_url: str) -> dict:
+    def _extract_info(self, product_url: str) -> list[dict]:
         CSS_SELECTOR_TITLE = '.doc-title'
         CSS_SELECTOR_RELEASE_DATE = '.doc-details-desktop > div:nth-child(1) > span:nth-child(1)'
         CSS_SELECTOR_LANGUAGES = '.doc-details-desktop > div:nth-child(2) > span:nth-child(1)'
@@ -81,7 +81,7 @@ class SchneiderElectricScraper(Scraper):
         product_page = self.driver.find_element(by=By.TAG_NAME, value='html')
 
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_TITLE):
-            # Some product titles are accompanied by an information stroke symbol. If it exists, it corrupts the
+            # Some product titles are accompanied by an information stroke element. If it exists, it corrupts the
             # extracted title. Therefore, it is removed (if existent).
             title = el.text.removesuffix("/n information_stroke")
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_RELEASE_DATE):
@@ -96,34 +96,41 @@ class SchneiderElectricScraper(Scraper):
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_PRODUCT_RANGES):
             product_ranges = el.text.removeprefix("Product Ranges: ")
 
-        firmware_item = {"manufacturer": "Schneider Electric",
-                         "product_name": title,
-                         "product_type": product_ranges,
-                         "version": version,
-                         "release_date": release_date,
-                         "checksum_scraped": None,
-                         "additional_data": {
-                             "product_reference": reference,
-                             "languages": languages
-                         }
-                         }
+        firmware_item = {
+            "manufacturer": "Schneider Electric",
+            "product_name": title,
+            "product_type": product_ranges,
+            "version": version,
+            "release_date": release_date,
+            "checksum_scraped": None,
+            "additional_data": {
+                "product_reference": reference,
+                "languages": languages
+                }
+            }
 
         download_links, filenames = self._identify_downloads(product_page)
 
         if len(download_links) == 0:
             self.logger.debug(f"Could not find a download link for product '{title}' with URL '{product_url}'."
                               f" This could mean that only PDFs where associated with the product or that the URL is broken.")
-            return {}
+            return []
         elif len(download_links) == 1:
             firmware_item["download_link"] = download_links[0]
+            self.logger.info(f"Scraped product '{title}'.")
+            return [firmware_item]
         elif len(download_links) > 1:
             self.logger.debug(f"Found multiple download links for product '{title}' with URL '{product_url}'.")
-            firmware_item["download_link"] = download_links[0]
-            firmware_item["additional_data"]["all_download_links"] = download_links
-            firmware_item["additional_data"]["all_filenames"] = filenames
-
-        self.logger.info(f"Scraped product '{title}'.")
-        return firmware_item
+            # When multiple (non-PDF) download links for a single product are found, a separate metadata dict for every
+            # link is returned
+            firmware_item_list = []
+            for link in download_links:
+                firmware_item_copy = firmware_item.copy()
+                firmware_item_copy["download_link"] = link
+                firmware_item_copy["additional_data"]["other_download_links"] = download_links
+                firmware_item_list.append(firmware_item_copy)
+            self.logger.info(f"Scraped product '{title}'.")
+            return firmware_item_list
 
     def scrape_metadata(self) -> list[dict]:
         self.driver.get(self.scrape_entry_url)
@@ -148,8 +155,8 @@ class SchneiderElectricScraper(Scraper):
         # iterate over found products
         extracted_data = []
         for product_url in firmware_product_urls[:self.max_products]:
-            if firmware_item := self._extract_info(product_url):
-                extracted_data.append(firmware_item)
+            if firmware_items := self._extract_info(product_url):
+                extracted_data += firmware_items
 
         self.logger.info(f"Finished scraping metadata of firmware products. Return metadata to core.")
         self.driver.quit()
