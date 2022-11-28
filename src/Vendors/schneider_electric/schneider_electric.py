@@ -81,7 +81,9 @@ class SchneiderElectricScraper(Scraper):
         product_page = self.driver.find_element(by=By.TAG_NAME, value='html')
 
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_TITLE):
-            title = el.text
+            # Some product titles are accompanied by an information stroke symbol. If it exists, it corrupts the
+            # extracted title. Therefore, it is removed (if existent).
+            title = el.text.removesuffix("/n information_stroke")
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_RELEASE_DATE):
             release_date_raw = el.text.removeprefix("Date : ").split("/")
             release_date = f"{release_date_raw[2]}-{release_date_raw[1]}-{release_date_raw[0]}"
