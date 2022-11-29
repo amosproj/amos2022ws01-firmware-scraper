@@ -31,7 +31,6 @@ class AVMScraper:
             self.logger.info(e + ": Could not connect to AVM!")
 
     # List available firmware downloads
-    # TODO: Scrape release_date directly from website
     def scrape_metadata(self) -> list:
 
         self.connect_webdriver()
@@ -53,19 +52,22 @@ class AVMScraper:
             sub_elems = self.driver.find_elements(By.XPATH, "//pre/a")
 
             fw_files = [
-                elem.get_property("pathname")
+                (
+                    elem.get_property("nextSibling")["data"].split()[0],
+                    elem.get_property("pathname"),
+                )
                 for elem in sub_elems
                 if self._get_file_extension(elem.get_property("pathname"))
                 in self.fw_types
             ]
-            for file in fw_files:
+            for (date, file) in fw_files:
 
                 firmware_item = {
                     "manufacturer": "AVM",
                     "product_name": None,
                     "product_type": None,
                     "version": None,
-                    "release_date": None,
+                    "release_date": self._convert_date(date),
                     "download_link": None,
                     "checksum_scraped": None,
                     "additional_data": {},
@@ -82,11 +84,8 @@ class AVMScraper:
                 )
                 if text_file:
                     self.logger.debug(f"Found info file: {text_file}")
-                    product, release_date, version = self._parse_txt_file(
-                        self.url + text_file
-                    )
+                    product, version = self._parse_txt_file(self.url + text_file)
                     firmware_item["product_name"] = product
-                    firmware_item["release_date"] = release_date
                     firmware_item["version"] = version
                     firmware_item["additional_data"] = {
                         "info_url": self.url + text_file
@@ -141,31 +140,35 @@ class AVMScraper:
         return path.splitext(filename)[-1]
 
     # TODO: Parse text files other than info_txt.en
-    # TODO: Create Date object from release_date for database
     def _parse_txt_file(self, file_url: str):
 
-        product, release_date, version = None, None, None
+        product, version = None, None
         try:
             txt = requests.get(file_url).text.splitlines()
             product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
-            # release_date = self._get_partial_str(txt, "Release").split(":")[-1].strip()
             version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
-            self.logger.debug(f"Found {product, release_date, version} in txt file!")
+            self.logger.debug(f"Found {product, version} in txt file!")
         except Exception as e:
             self.logger.debug(f"Could not parse text file: {e}")
 
-        return product, release_date, version
+        return product, version
 
     def _get_partial_str(self, txt: list, query: str):
         return [s for s in txt if query in s][0]
 
+    def _convert_date(self, date_str: str):
+        return datetime.strptime(date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
+
 
 if __name__ == "__main__":
 
-    import logging
+    import json
 
     from utils import setup_logger
 
     logger = setup_logger()
     AVM = AVMScraper(logger=logger)
-    AVM.scrape_metadata()
+    firmware_data = AVM.scrape_metadata()
+
+    with open("../../../test/files/firmware_data_AVM.json", "w") as firmware_file:
+        json.dump(firmware_data, firmware_file)
