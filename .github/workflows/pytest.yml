@@ -29,7 +29,4 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
-          cd /home/runner/work/amos2022ws01-firmware-scraper/amos2022ws01-firmware-scraper/
-          pwd
-          ls -a
           python -m pytest
