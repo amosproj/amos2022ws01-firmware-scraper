@@ -8,9 +8,9 @@ from urllib.request import urlopen
 
 from tqdm import tqdm
 
-# Vendor Modules
-from Vendors import AVMScraper, SchneiderElectricScraper
 from db_connector import DBConnector
+# Vendor Modules
+from Vendors import AVMScraper, SchneiderElectricScraper, Synology_scraper
 
 
 class Core:
@@ -41,6 +41,7 @@ class Core:
             with open(save_as, 'wb') as out_file:
                 out_file.write(content)
         print(f'Download done.')
+
 
 if __name__ == '__main__':
 
