@@ -56,9 +56,8 @@ class DBConnector:
         finally:
             con.close()
 
-    """Return a MySQLConnection to the firmware database."""
-
     def _get_db_con(self):
+        """Return a MySQLConnection to the firmware database."""
         config = {
             'user': self.db_user,
             'password': self.db_password,
@@ -72,9 +71,8 @@ class DBConnector:
         else:
             return con
 
-    """Expects dict of firmware metadata and returns tuple in expected format for insertion into DB."""
-
     def _convert_firmware_dict_to_tuple(self, fw_dict):
+        """Expects dict of firmware metadata and returns tuple in expected format for insertion into DB."""
         return (fw_dict["manufacturer"],
                 fw_dict["product_name"],
                 fw_dict["product_type"],
@@ -240,6 +238,7 @@ class DBConnector:
         Returns:
             result: returns list of tuples with all products
         """
+        
         retrieve_products_query = f"""
             SELECT *
             FROM {table}
