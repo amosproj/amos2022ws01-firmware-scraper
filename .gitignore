@@ -39,3 +39,4 @@ bin/
 .venv
 
 geckodriver.log
+/venv/
