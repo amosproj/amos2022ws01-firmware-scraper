@@ -9,16 +9,23 @@ from os import path
 import ftputil
 import requests
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
+
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
 
 
 class AVMScraper:
     def __init__(self, logger):
         self.url = "https://download.avm.de"
         self.name = "AVM"
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        self.driver = webdriver.Chrome(service=Service(
+            ChromeDriverManager().install()), options=options)
         self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
         self.logger = logger
@@ -84,7 +91,8 @@ class AVMScraper:
                 )
                 if text_file:
                     self.logger.debug(f"Found info file: {text_file}")
-                    product, version = self._parse_txt_file(self.url + text_file)
+                    product, version = self._parse_txt_file(
+                        self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
                     firmware_item["additional_data"] = {
@@ -145,8 +153,10 @@ class AVMScraper:
         product, version = None, None
         try:
             txt = requests.get(file_url).text.splitlines()
-            product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
-            version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
+            product = self._get_partial_str(
+                txt, "Product").split(":")[-1].strip()
+            version = self._get_partial_str(
+                txt, "Version").split(":")[-1].strip()
             self.logger.debug(f"Found {product, version} in txt file!")
         except Exception as e:
             self.logger.debug(f"Could not parse text file: {e}")
