@@ -72,6 +72,14 @@ Since different vendors will create different problems, please check beforehand 
 
 import logging
 from pathlib import Path
+import pytest
+
+from functools import partial, partialmethod
+
+logging.IMPORTANT = 500
+logging.addLevelName(logging.IMPORTANT, 'Important')
+logging.Logger.important = partialmethod(logging.Logger.log, logging.IMPORTANT)
+logging.important = partial(logging.log, logging.IMPORTANT)
 
 def create_logger(name):
     file_path = str(Path(__file__).parent) + "/logs.log"
@@ -96,3 +104,4 @@ def create_logger(name):
 logger = create_logger("logger.py")
 logger.warning("logger warning Test")
 logger.info("logger info Test")
+logger.important("logger info important")
