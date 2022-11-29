@@ -96,7 +96,7 @@ class SchneiderElectricScraper(Scraper):
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_TITLE):
             # Some product titles are accompanied by an information stroke element. If it exists, it corrupts the
             # extracted title. Therefore, it is removed (if existent).
-            title = el.text.removesuffix("/n information_stroke")
+            title = " ".join(el.text.split()).removesuffix("information_stroke").rstrip()
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_RELEASE_DATE):
             release_date_raw = el.text.removeprefix("Date : ").split("/")
             release_date = f"{release_date_raw[2]}-{release_date_raw[1]}-{release_date_raw[0]}"
@@ -197,7 +197,8 @@ def _download(firmware_data: list[dict], max_no_downloads: int):
 
 
 if __name__ == "__main__":
-    scraper = SchneiderElectricScraper(DOWNLOAD_URL_GLOBAL, max_products=100)
+    logger = create_logger("SchneiderElectric")
+    scraper = SchneiderElectricScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=20)
     firmware_data = scraper.scrape_metadata()
     with open("../../../test/files/firmware_data_schneider.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
