@@ -31,5 +31,5 @@ jobs:
         run: |
           cd /home/runner/work/amos2022ws01-firmware-scraper/amos2022ws01-firmware-scraper/
           pwd
-          ll
+          ls -a
           python -m pytest
