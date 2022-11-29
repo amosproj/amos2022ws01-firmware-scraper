@@ -8,9 +8,10 @@ from urllib.request import urlopen
 
 from tqdm import tqdm
 
-# Vendor Modules
-from Vendors import AVMScraper, SchneiderElectricScraper
 from db_connector import DBConnector
+from logger import create_logger
+# Vendor Modules
+from Vendors import AVMScraper, SchneiderElectricScraper, Synology_scraper
 
 
 class Core:
@@ -29,6 +30,7 @@ class Core:
             self.db.insert_products(metadata)
 
     def compare_products(self):
+
         pass
 
     def download_firmware(self):
@@ -42,11 +44,13 @@ class Core:
                 out_file.write(content)
         print(f'Download done.')
 
+
 if __name__ == '__main__':
 
     with open('config.json') as config_file:
         config = json.load(config_file)
 
-    core = Core([SchneiderElectricScraper(max_products=10)])
+    #core = Core([SchneiderElectricScraper(max_products=10)])
+    core = Core([Synology_scraper()])
     core.get_product_catalog()
     core.download_firmware()

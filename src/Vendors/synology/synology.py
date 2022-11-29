@@ -1,32 +1,27 @@
 # # Import packages
 
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
-
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.by import By
-
-from selenium.webdriver.chrome.options import Options
-
 import time
+
 import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
 from tqdm import tqdm
+from webdriver_manager.chrome import ChromeDriverManager
 
 # # STATICS
-
-
-VENDOR_URL = 'https://www.synology.com/en-global/support/download'
+VENDOR_URL = 'https://www.synology.com/en-global/support/download/'
 PRODUCT_TYPE_SELECTOR = 'div.margin_bottom20 > select:nth-child(1)'
 PRODUCT_SELECTOR = '//*[@id="heading_bg"]/div/div/div[2]/select'
 NEWEST_OS_SELECTOR = '//*[@id="results"]/div[3]/div[2]/div[1]/div/div[1]/div[1]/div/div/div[1]'
+DOWNLOAD_SELECTOR = '//*[@id="results"]/div[3]/div[2]/div[1]/div/div[1]/div[1]/div/div/div[3]/div/div/div/div[1]/a'
 DOWNLOAD_PATH = 'data/'
 
 # Selenium Webdriver Options, Download Path, Headless, Screensize, Webbrowser Version
 options = Options()
-options.headless = True
+options.headless = False
 
 options.add_experimental_option("prefs", {
     "download.default_directory": rf"{DOWNLOAD_PATH}"
@@ -39,101 +34,141 @@ class Synology_scraper:
 
     def __init__(
         self,
-        url: str,
-        headless: bool,
-        options: Options,
-    ):  
-        print(f"headless: {options.headless}")
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        url: str = VENDOR_URL,
+        headless: bool = False,
+        options: Options = options,
+        max_products: int = float('inf')
+    ):
+        self.headless = headless
         self.url = url
+        self.max_products = max_products
+        self.driver = webdriver.Chrome(service=Service(
+            ChromeDriverManager().install()), options=options)
+        self.driver.implicitly_wait(0.5)  # has to be set only once
         print('Initialized successfully')
 
-
-    def open_website(self):
-        try:
-            self.driver.get(self.url)
-            print('Opened Website')
-        except:
-            print('nix')
-            pass
-
-    def create_product_catalog(self):
-        """_summary_
+    def _create_product_catalog(self) -> dict:
+        """clicks once through all product lines and products and saves them in a dict
 
         Returns:
-            dict: _description_
+            dict: product catalog
         """
-        sel = Select(self.driver.find_element(By.CSS_SELECTOR, value=f"{PRODUCT_TYPE_SELECTOR}"))
-        
+
+        sel = Select(self.driver.find_element(
+            By.CSS_SELECTOR, value=f"{PRODUCT_TYPE_SELECTOR}"))
+
         # set keys as product_lines
-        product_catalog = dict.fromkeys([elem.text for elem in sel.options[1:]], None)
+        product_catalog = dict.fromkeys(
+            [elem.text for elem in sel.options[1:]], None)
         # set values from products of product line
         for product in product_catalog.keys():
             sel.select_by_visible_text(product)
-            selector_products = Select(self.driver.find_element(By.XPATH, value=f"{PRODUCT_SELECTOR}"))
-            product_catalog[product] = [elem.text for elem in selector_products.options[1:]]
+            selector_products = Select(self.driver.find_element(
+                By.XPATH, value=f"{PRODUCT_SELECTOR}"))
+            product_catalog[product] = [
+                elem.text for elem in selector_products.options[1:]]
         print('created product_catalog')
-        self.product_catalog = product_catalog
+        return product_catalog
 
-    def download_product(self) -> bool:
-        """_summary_
+    def _choose_product_line(self, product_line: str) -> None:
+        """selects product line on vendor website
+
+        Args:
+            product_line (str): product line to select
+        """
+        sel = Select(self.driver.find_element(By.CSS_SELECTOR,
+                     value='div.margin_bottom20 > select:nth-child(1)'))
+
+        sel.select_by_visible_text(product_line)
+        selector_products = Select(self.driver.find_element(
+            By.XPATH, value='//*[@id="heading_bg"]/div/div/div[2]/select'))
+        # return [elem.text for elem in selector_products.options[1:]]
+
+    def _choose_product(self, product: str) -> list[str]:
+        """selects product on vendor website after selecting product line
+
+        Args:
+            product (str): product to select
 
         Returns:
-            bool: _description_
+            list[str]: MD5 checksum, list of available OS, drivers current url
         """
-
-    def choose_product_line(self, product_line=str) -> None:
-        sel = Select(self.driver.find_element(By.CSS_SELECTOR, value='div.margin_bottom20 > select:nth-child(1)'))
-        
-        sel.select_by_visible_text(product_line)
-        selector_products = Select(self.driver.find_element(By.XPATH, value='//*[@id="heading_bg"]/div/div/div[2]/select'))
-        #return [elem.text for elem in selector_products.options[1:]]
-
-    def choose_product(self, product=str) -> (str,str,str):
         self.driver.implicitly_wait(10)
         time.sleep(1)
-        selector_products = Select(self.driver.find_element(By.XPATH, value=f'{PRODUCT_SELECTOR}'))
+        selector_products = Select(self.driver.find_element(
+            By.XPATH, value=f'{PRODUCT_SELECTOR}'))
         selector_products.select_by_visible_text(product)
         # newest OS Version
         self.driver.implicitly_wait(1)
-        selector_OS = self.driver.find_element(By.XPATH, value=f'{NEWEST_OS_SELECTOR}')
+        selector_OS = self.driver.find_element(
+            By.XPATH, value=f'{NEWEST_OS_SELECTOR}')
 
         # return MD5 checksum and DSM newest OS Version and current URL
-        return self.get_MD5_checksum(), selector_OS.text, self.driver.current_url
-    
-    def download_product(self, product=str) -> bool:
+        return self._get_MD5_checksum(), selector_OS.text, self.driver.current_url
+
+    def download_product(self, product: str) -> bool:
         """
         """
         try:
-            el = self.driver.find_element(By.XPATH, value='//*[@id="results"]/div[3]/div[2]/div[1]/div/div[1]/div[1]/div/div/div[3]/div/div/div/div[1]/a')
+            el = self.driver.find_element(
+                By.XPATH, value=DOWNLOAD_SELECTOR)
             el.click()
             return True
-        except:
-            False
-        
-    def get_MD5_checksum(self) -> str:
-        el = self.driver.find_element(By.XPATH, value='//*[@id="results"]/div[3]/div[2]/div[1]/div/div[1]/div[1]/div/div/div[3]/div/div/div/div[2]/div[2]/div/a')
-        return el.get_attribute('title').replace('\n(Copy to Clipboard)','')
+        except Exception as e:
+            print(e)
+            return False
 
+    def find_download_link(self, product_line: str, product: str) -> str:
+        self._choose_product_line(product_line)
+        self._choose_product(product)
+        self.download_product(product)
+        return self._get_MD5_checksum()
 
+    def _get_MD5_checksum(self) -> str:
+        el = self.driver.find_element(
+            By.XPATH, value='//*[@id="results"]/div[3]/div[2]/div[1]/div/div[1]/div[1]/div/div/div[3]/div/div/div/div[2]/div[2]/div/a')
+        return el.get_attribute('title').replace('\n(Copy to Clipboard)', '')
+
+    def scrape_metadata(self) -> list[dict]:
+        """function that gets executed from Core.py to scrape metadata 
+            and search for firmwares
+
+        Returns:
+            list[dict]: list of dicts with metadata
+        """
+        # open website
+        self.driver.get(self.url)
+        # create product catalog
+        product_catalog = self._create_product_catalog()
+        #
+        metadata = []
+        for product_line in tqdm(product_catalog.keys()):
+            self._choose_product_line(product_line)
+            for product in product_catalog[product_line]:
+                self._choose_product(product)
+                metadata.append({'manufacturer': 'Sysnology',
+                                 'product_type': product_line,
+                                 'product_name': product,
+                                 'url': self.driver.current_url,
+                                 'checksum_scraped': self._get_MD5_checksum(),
+                                 'download_link': 'not implemented'
+                                 })
+        self.driver.quit()
+        return metadata
 
 
 def main():
 
-    Syn = Synology_scraper(VENDOR_URL, headless=False, options=options)
+    Syn = Synology_scraper()
     Syn.open_website()
-    Syn.create_product_catalog()
-
-    #Test
-    Syn.choose_product_line('NAS')
-    Syn.choose_product('RS408')
+    Syn._create_product_catalog()
 
     # Fill up dataframe with results
     result_df = pd.DataFrame(columns=[
-                            'vendor', 'product_line', 'product', 'MD5', 'DSM', 'url', 'downloaded', 'exception_e'])
+        'vendor', 'product_line', 'product', 'MD5', 'DSM', 'url', 'downloaded', 'exception_e'])
 
     for product_line in Syn.product_catalog.keys():
-        Syn.choose_product_line(product_line)
+        Syn._choose_product_line(product_line)
 
         for i, product in tqdm(enumerate(Syn.product_catalog[product_line])):
             print(product_line, product)
@@ -142,7 +177,7 @@ def main():
             appendix.append(product_line)
             appendix.append(str(product))
             try:
-                md5, dsm, url = Syn.choose_product(f'{product}')
+                md5, dsm, url = Syn._choose_product(f'{product}')
                 appendix.append(md5)
                 appendix.append(dsm)
                 appendix.append(url)
@@ -154,13 +189,15 @@ def main():
                 appendix.append("")
                 appendix.append("NotImplemented")
                 appendix.append(str(e))
-            result_df = result_df.append(pd.DataFrame([appendix], columns=result_df.columns), ignore_index=True)
+            result_df = result_df.append(pd.DataFrame(
+                [appendix], columns=result_df.columns), ignore_index=True)
 
     # show df
     result_df
 
     # save df
     result_df.to_csv(f'{DOWNLOAD_PATH}everyone.csv')
+
 
 if __name__ == "__main__":
     main()
