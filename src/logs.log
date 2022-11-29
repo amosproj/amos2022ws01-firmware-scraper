@@ -149,3 +149,173 @@ information_stroke'.
 2022-11-29 23:36:23,845 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
 2022-11-29 23:36:25,971 - scraper - Important - SchneiderElectricScraper done.
 2022-11-29 23:36:25,971 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:41:39,084 - scraper - Important - Start scraping.
+2022-11-29 23:41:39,084 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:41:40,147 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:41:41,424 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:41:41,424 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:41:42,636 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:41:43,061 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:41:43,588 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:41:44,253 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:41:45,009 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:41:45,467 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:41:45,934 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:41:46,423 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2
+information_stroke'.
+2022-11-29 23:41:47,763 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:41:47,763 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:41:49,885 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:41:49,885 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:43:29,250 - scraper - Important - Start scraping.
+2022-11-29 23:43:29,250 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:43:30,709 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:43:32,062 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:43:32,062 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:43:33,358 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:43:33,821 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:43:34,361 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:43:34,924 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:43:35,626 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:43:36,158 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:43:36,700 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:43:37,215 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2
+information_stroke'.
+2022-11-29 23:43:38,372 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:43:38,372 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:43:40,501 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:43:40,501 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:45:42,879 - scraper - Important - Start scraping.
+2022-11-29 23:45:42,880 - scraper - Important - Start AVMScraper.
+2022-11-29 23:45:42,979 - scraper - INFO - Connected Successfully!
+2022-11-29 23:45:42,979 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:47:12,441 - scraper - Important - Start scraping.
+2022-11-29 23:47:17,513 - scraper - Important - Start scraping.
+2022-11-29 23:47:47,497 - scraper - Important - Start scraping.
+2022-11-29 23:47:47,497 - scraper - Important - Start AVMScraper.
+2022-11-29 23:47:47,610 - scraper - INFO - Connected Successfully!
+2022-11-29 23:47:47,610 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:47:47,700 - scraper - INFO - Searching /fritzbox/
+2022-11-29 23:47:48,489 - scraper - INFO - Searching /fritzdect/
+2022-11-29 23:47:48,661 - scraper - INFO - Searching /fritzfon/
+2022-11-29 23:47:48,796 - scraper - INFO - Searching /fritzpowerline/
+2022-11-29 23:47:49,067 - scraper - INFO - Searching /fritzwlan/
+2022-11-29 23:47:49,399 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/
+2022-11-29 23:47:49,481 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/
+2022-11-29 23:47:49,576 - scraper - INFO - Searching /fritzbox/beta/
+2022-11-29 23:47:49,691 - scraper - INFO - Searching /fritzbox/fritzbox-3272/
+2022-11-29 23:47:49,787 - scraper - INFO - Searching /fritzbox/fritzbox-3490/
+2022-11-29 23:47:49,885 - scraper - INFO - Searching /fritzbox/fritzbox-4020/
+2022-11-29 23:47:49,980 - scraper - INFO - Searching /fritzbox/fritzbox-4040/
+2022-11-29 23:47:50,074 - scraper - INFO - Searching /fritzbox/fritzbox-4060/
+2022-11-29 23:47:50,162 - scraper - INFO - Searching /fritzbox/fritzbox-5490/
+2022-11-29 23:47:50,263 - scraper - INFO - Searching /fritzbox/fritzbox-5491/
+2022-11-29 23:47:50,376 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/
+2022-11-29 23:47:50,465 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/
+2022-11-29 23:47:50,544 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/
+2022-11-29 23:47:50,625 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/
+2022-11-29 23:47:50,713 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/
+2022-11-29 23:47:50,813 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/
+2022-11-29 23:47:50,917 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/
+2022-11-29 23:47:51,029 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/
+2022-11-29 23:47:51,123 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/
+2022-11-29 23:47:51,212 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/
+2022-11-29 23:47:51,314 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/
+2022-11-29 23:47:51,418 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/
+2022-11-29 23:47:51,513 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/
+2022-11-29 23:47:51,609 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/
+2022-11-29 23:47:51,683 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/
+2022-11-29 23:47:51,781 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/
+2022-11-29 23:47:51,877 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/
+2022-11-29 23:47:51,990 - scraper - INFO - Searching /fritzbox/fritzbox-7272/
+2022-11-29 23:47:52,086 - scraper - INFO - Searching /fritzbox/fritzbox-7312/
+2022-11-29 23:47:52,166 - scraper - INFO - Searching /fritzbox/fritzbox-7360/
+2022-11-29 23:47:52,264 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/
+2022-11-29 23:47:52,377 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/
+2022-11-29 23:47:52,481 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/
+2022-11-29 23:47:52,587 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/
+2022-11-29 23:47:52,674 - scraper - INFO - Searching /fritzbox/fritzbox-7369/
+2022-11-29 23:47:52,785 - scraper - INFO - Searching /fritzbox/fritzbox-7390/
+2022-11-29 23:47:52,911 - scraper - INFO - Searching /fritzbox/fritzbox-7412/
+2022-11-29 23:47:52,993 - scraper - INFO - Searching /fritzbox/fritzbox-7430/
+2022-11-29 23:47:53,120 - scraper - INFO - Searching /fritzbox/fritzbox-7490/
+2022-11-29 23:47:53,243 - scraper - INFO - Searching /fritzbox/fritzbox-7510/
+2022-11-29 23:47:53,351 - scraper - INFO - Searching /fritzbox/fritzbox-7520/
+2022-11-29 23:47:53,441 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/
+2022-11-29 23:47:53,531 - scraper - INFO - Searching /fritzbox/fritzbox-7530/
+2022-11-29 23:47:53,655 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/
+2022-11-29 23:47:53,762 - scraper - INFO - Searching /fritzbox/fritzbox-7560/
+2022-11-29 23:47:53,874 - scraper - INFO - Searching /fritzbox/fritzbox-7580/
+2022-11-29 23:47:53,963 - scraper - INFO - Searching /fritzbox/fritzbox-7581/
+2022-11-29 23:47:54,061 - scraper - INFO - Searching /fritzbox/fritzbox-7582/
+2022-11-29 23:47:54,156 - scraper - INFO - Searching /fritzbox/fritzbox-7583/
+2022-11-29 23:47:54,267 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/
+2022-11-29 23:47:54,379 - scraper - INFO - Searching /fritzbox/fritzbox-7590/
+2022-11-29 23:47:54,517 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/
+2022-11-29 23:47:54,626 - scraper - INFO - Searching /fritzbox/tools/
+2022-11-29 23:47:54,727 - scraper - INFO - Searching /fritzdect/fritzdect-100/
+2022-11-29 23:47:54,846 - scraper - INFO - Searching /fritzdect/fritzdect-200/
+2022-11-29 23:47:54,958 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-11-29 23:47:55,072 - scraper - INFO - Searching /fritzdect/fritzdect-301/
+2022-11-29 23:47:55,196 - scraper - INFO - Searching /fritzdect/fritzdect-302/
+2022-11-29 23:47:55,301 - scraper - INFO - Searching /fritzdect/fritzdect-400/
+2022-11-29 23:47:55,407 - scraper - INFO - Searching /fritzdect/fritzdect-440/
+2022-11-29 23:47:55,522 - scraper - INFO - Searching /fritzdect/fritzdect-500/
+2022-11-29 23:47:55,641 - scraper - INFO - Searching /fritzfon/fritzfon-c4/
+2022-11-29 23:47:55,759 - scraper - INFO - Searching /fritzfon/fritzfon-c5/
+2022-11-29 23:47:55,906 - scraper - INFO - Searching /fritzfon/fritzfon-c6/
+2022-11-29 23:47:56,018 - scraper - INFO - Searching /fritzfon/fritzfon-m2/
+2022-11-29 23:47:56,129 - scraper - INFO - Searching /fritzfon/fritzfon-x6/
+2022-11-29 23:47:56,227 - scraper - INFO - Searching /fritzpowerline/beta/
+2022-11-29 23:47:56,356 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/
+2022-11-29 23:47:56,479 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/
+2022-11-29 23:47:56,601 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/
+2022-11-29 23:47:56,733 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/
+2022-11-29 23:47:56,865 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/
+2022-11-29 23:47:57,001 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/
+2022-11-29 23:47:57,130 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/
+2022-11-29 23:47:57,242 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/
+2022-11-29 23:47:57,393 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/
+2022-11-29 23:47:57,534 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/
+2022-11-29 23:47:57,675 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/
+2022-11-29 23:47:57,772 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/
+2022-11-29 23:47:57,878 - scraper - INFO - Searching /fritzpowerline/tools/
+2022-11-29 23:47:57,958 - scraper - INFO - Searching /fritzwlan/beta/
+2022-11-29 23:47:58,036 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/
+2022-11-29 23:47:58,130 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/
+2022-11-29 23:47:58,231 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/
+2022-11-29 23:47:58,335 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/
+2022-11-29 23:47:58,440 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/
+2022-11-29 23:47:58,543 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/
+2022-11-29 23:47:58,638 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/
+2022-11-29 23:47:58,743 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/
+2022-11-29 23:47:58,838 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/
+2022-11-29 23:47:58,942 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/
+2022-11-29 23:47:59,039 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/
+2022-11-29 23:47:59,144 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/
+2022-11-29 23:47:59,241 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/
+2022-11-29 23:47:59,347 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/
+2022-11-29 23:47:59,443 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/
+2022-11-29 23:47:59,540 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/
+2022-11-29 23:47:59,649 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/
+2022-11-29 23:47:59,760 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/
+2022-11-29 23:47:59,857 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/deutschland/
+2022-11-29 23:47:59,934 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/
+2022-11-29 23:48:00,021 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/other/
+2022-11-29 23:48:00,102 - scraper - INFO - Searching /fritzbox/beta/frisch-aus-der-entwicklung/
+2022-11-29 23:48:00,161 - scraper - INFO - Searching /fritzbox/beta/international/
+2022-11-29 23:48:00,220 - scraper - INFO - Searching /fritzbox/beta/netze/
+2022-11-29 23:48:00,285 - scraper - INFO - Searching /fritzbox/beta/wartung/
+2022-11-29 23:48:00,357 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/
+2022-11-29 23:48:48,268 - scraper - Important - Start scraping.
+2022-11-29 23:48:48,268 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:48:49,227 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:48:50,416 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:48:50,416 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:48:51,605 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:48:52,021 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:48:52,574 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:48:53,166 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:48:53,781 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:48:54,266 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:48:54,718 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.

@@ -49,7 +49,7 @@ if __name__ == "__main__":
     with open("config.json") as config_file:
         config = json.load(config_file)
 
-    logger = create_logger("scraper")
+    logger = create_logger()
 
     core = Core(
         vendor_list=[

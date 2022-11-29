@@ -47,7 +47,7 @@ class AVMScraper:
 
         # Iterate through index links and append all subdirectories
         for index, value in enumerate(elem_list):
-            self.logger.debug(f"Searching {value}")
+            self.logger.info(f"Searching {value}")
             self.driver.get(self.url + value)
             sub_elems = self.driver.find_elements(By.XPATH, "//pre/a")
 
@@ -73,7 +73,7 @@ class AVMScraper:
                     "additional_data": {},
                 }
 
-                self.logger.debug(f"Found firmware file: {file}")
+                self.logger.info(f"Found firmware file: {file}")
                 text_file = next(
                     (
                         elem.get_property("pathname")
@@ -83,7 +83,7 @@ class AVMScraper:
                     None,
                 )
                 if text_file:
-                    self.logger.debug(f"Found info file: {text_file}")
+                    self.logger.info(f"Found info file: {text_file}")
                     product, version = self._parse_txt_file(self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
@@ -147,9 +147,9 @@ class AVMScraper:
             txt = requests.get(file_url).text.splitlines()
             product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
             version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
-            self.logger.debug(f"Found {product, version} in txt file!")
+            self.logger.info(f"Found {product, version} in txt file!")
         except Exception as e:
-            self.logger.debug(f"Could not parse text file: {e}")
+            self.logger.info(f"Could not parse text file: {e}")
 
         return product, version
 
