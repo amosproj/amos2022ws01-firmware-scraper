@@ -6,14 +6,14 @@ Username and password for the server are provided by exporting the following env
 MYSQL_USER
 MYSQL_PASSWORD
 """
-import mysql.connector
-from mysql.connector import connect
 import json
 import os
 
+import mysql.connector
+from mysql.connector import connect
+
 
 class DBConnector:
-
     def __init__(self):
         self.db_user = os.getenv("MYSQL_USER")
         self.db_password = os.getenv("MYSQL_PASSWORD")
@@ -21,7 +21,9 @@ class DBConnector:
         # create firmware DB if it doesn't exist yet
         create_query = "CREATE DATABASE IF NOT EXISTS firmware;"
         try:
-            with connect(user=self.db_user, password=self.db_password, host='127.0.0.1') as con:
+            with connect(
+                user=self.db_user, password=self.db_password, host="127.0.0.1"
+            ) as con:
                 with con.cursor() as curser:
                     curser.execute(create_query)
         except Exception as ex:
@@ -59,10 +61,10 @@ class DBConnector:
     def _get_db_con(self):
         """Return a MySQLConnection to the firmware database."""
         config = {
-            'user': self.db_user,
-            'password': self.db_password,
-            'host': '127.0.0.1',
-            'database': 'firmware',
+            "user": self.db_user,
+            "password": self.db_password,
+            "host": "127.0.0.1",
+            "database": "firmware",
         }
         try:
             con = mysql.connector.connect(**config)
@@ -73,21 +75,22 @@ class DBConnector:
 
     def _convert_firmware_dict_to_tuple(self, fw_dict):
         """Expects dict of firmware metadata and returns tuple in expected format for insertion into DB."""
-        return (fw_dict["manufacturer"],
-                fw_dict["product_name"],
-                fw_dict["product_type"],
-                fw_dict["version"],
-                fw_dict["release_date"],
-                fw_dict["download_link"],
-                # assumption: we first add to the db and download afterwards
-                None,  # file_path
-                None,  # checksum_local
-                fw_dict["checksum_scraped"],
-                None,  # emba_tested
-                None,  # emba_report_path
-                None,  # embark_report_link
-                json.dumps(fw_dict["additional_data"])
-                )
+        return (
+            fw_dict["manufacturer"],
+            fw_dict["product_name"],
+            fw_dict["product_type"],
+            fw_dict["version"],
+            fw_dict["release_date"],
+            fw_dict["download_link"],
+            # assumption: we first add to the db and download afterwards
+            None,  # file_path
+            None,  # checksum_local
+            fw_dict["checksum_scraped"],
+            None,  # emba_tested
+            None,  # emba_report_path
+            None,  # embark_report_link
+            json.dumps(fw_dict["additional_data"]),
+        )
 
     # debugging method
     def _execute_string(self, query: str):
@@ -98,7 +101,7 @@ class DBConnector:
             query (str): query to execute
 
         Returns:
-            result: 
+            result:
         """
         con = self._get_db_con()
         try:
@@ -150,11 +153,11 @@ class DBConnector:
     def insert_products(self, product_list: list[dict], table: str = "products"):
         """
         Inserts a list of product records into the firmware table.
-        
+
         Parameters:
         product_list (list[dict]): List of dicts, where every dict contains the metadata of a single
-            scraped firmware. Expected keys: "manufacturer", "product_name", "product_type", 
-            "version", "release_date", "download_link", "checksum_scraped", "additional_data". 
+            scraped firmware. Expected keys: "manufacturer", "product_name", "product_type",
+            "version", "release_date", "download_link", "checksum_scraped", "additional_data".
             Values can be Null.
         """
         insert_products_query = f"""
@@ -163,8 +166,9 @@ class DBConnector:
             checksum_scraped, emba_tested, emba_report_path, embark_report_link, additional_data)
             VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
-        product_list = [self._convert_firmware_dict_to_tuple(
-            fw_dict) for fw_dict in product_list]
+        product_list = [
+            self._convert_firmware_dict_to_tuple(fw_dict) for fw_dict in product_list
+        ]
         con = self._get_db_con()
         try:
             with con.cursor() as cursor:
@@ -176,7 +180,7 @@ class DBConnector:
             con.close()
 
     def retrieve_download_links(self, table: str = "products"):
-        """Returns all download links from firmware table, 
+        """Returns all download links from firmware table,
 
         Returns:
             result: download links as list of tuples
@@ -196,7 +200,7 @@ class DBConnector:
             con.close()
         return result
 
-    def compare_products(self, table1: str, table2: str = 'products') -> list[dict]:
+    def compare_products(self, table1: str, table2: str = "products") -> list[dict]:
         """Compares the given product catalog in DB with the products in the products table (historized) DB.
         arguments
 
@@ -229,7 +233,7 @@ class DBConnector:
             con.close()
         return result
 
-    def get_products(self, manufacturer='', table='products'):
+    def get_products(self, manufacturer="", table="products"):
         """query DB for firmware on any table, optionally filtered by manufacturer
 
         Args:
@@ -238,7 +242,7 @@ class DBConnector:
         Returns:
             result: returns list of tuples with all products
         """
-        
+
         retrieve_products_query = f"""
             SELECT *
             FROM {table}
@@ -262,32 +266,39 @@ class DBConnector:
 if __name__ == "__main__":
     db = DBConnector()
 
-    with open("../test/files/firmware_data_schneider.json", 'r') as file:
+    with open("../test/files/firmware_data_schneider.json", "r") as file:
         test_data = json.loads(file.read())
 
     # insert schneider test_data into DB
     db.insert_products(test_data)
     # retrieve download links from compare schneider table
-    #print(*db.retrieve_download_links(table='compare_schneider')[:5], sep="\n")
+    # print(*db.retrieve_download_links(table='compare_schneider')[:5], sep="\n")
 
     # next test: drop and create table compare_schneider
-    db._execute_string('DROP TABLE IF EXISTS compare_schneider;')
-    db._execute_string('DROP TABLE IF EXISTS new_compare_schneider;')
-    db.create_table(table='compare_schneider')
-    db.create_table(table='new_compare_schneider')
+    db._execute_string("DROP TABLE IF EXISTS compare_schneider;")
+    db._execute_string("DROP TABLE IF EXISTS new_compare_schneider;")
+    db.create_table(table="compare_schneider")
+    db.create_table(table="new_compare_schneider")
 
     # insert schneider test_data into DB
-    db.insert_products(test_data, table='compare_schneider')
+    db.insert_products(test_data, table="compare_schneider")
     # change data and insert into schneider test_data into DB
-    test_data[0]['version'] = '0.0.0'
-    test_data[1]['version'] = '0.0.0'
-    test_data[2]['version'] = '0.0.0'
-    db.insert_products(test_data, table='new_compare_schneider')
+    test_data[0]["version"] = "0.0.0"
+    test_data[1]["version"] = "0.0.0"
+    test_data[2]["version"] = "0.0.0"
+    db.insert_products(test_data, table="new_compare_schneider")
 
     # print length of that table
-    print(f''' unchanged length: {len(db.get_products(table="compare_schneider"))},
-        changed length: {len(db.get_products(table="new_compare_schneider"))}''')
+    print(
+        f""" unchanged length: {len(db.get_products(table="compare_schneider"))},
+        changed length: {len(db.get_products(table="new_compare_schneider"))}"""
+    )
 
     # compare schneider table with products table
-    print(len(db.compare_products(
-        table1='new_compare_schneider', table2='compare_schneider')))
+    print(
+        len(
+            db.compare_products(
+                table1="new_compare_schneider", table2="compare_schneider"
+            )
+        )
+    )
