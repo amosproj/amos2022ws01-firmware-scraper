@@ -30,4 +30,6 @@ jobs:
       - name: Test with pytest
         run: |
           cd /home/runner/work/amos2022ws01-firmware-scraper/amos2022ws01-firmware-scraper/
-          pytest
+          pwd
+          ll
+          python -m pytest
