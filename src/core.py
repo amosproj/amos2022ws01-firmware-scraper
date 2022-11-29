@@ -51,6 +51,6 @@ if __name__ == '__main__':
         config = json.load(config_file)
 
     #core = Core([SchneiderElectricScraper(max_products=10)])
-    core = Core([Synology_scraper()])
+    core = Core([Synology_scraper(max_products=8)])
     core.get_product_catalog()
     core.download_firmware()

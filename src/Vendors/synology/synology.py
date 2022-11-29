@@ -84,7 +84,7 @@ class Synology_scraper:
             By.XPATH, value='//*[@id="heading_bg"]/div/div/div[2]/select'))
         # return [elem.text for elem in selector_products.options[1:]]
 
-    def _choose_product(self, product: str) -> list[str]:
+    def _choose_product(self, product: str) -> (str, str, str):
         """selects product on vendor website after selecting product line
 
         Args:
@@ -140,19 +140,21 @@ class Synology_scraper:
         self.driver.get(self.url)
         # create product catalog
         product_catalog = self._create_product_catalog()
-        #
+        # create list of dicts with metadata
         metadata = []
-        for product_line in tqdm(product_catalog.keys()):
+        for product_line in product_catalog.keys():
             self._choose_product_line(product_line)
-            for product in product_catalog[product_line]:
+            for product in tqdm(product_catalog[product_line]):
                 self._choose_product(product)
-                metadata.append({'manufacturer': 'Sysnology',
+                metadata.append({'manufacturer': 'Synology',
                                  'product_type': product_line,
                                  'product_name': product,
                                  'url': self.driver.current_url,
                                  'checksum_scraped': self._get_MD5_checksum(),
                                  'download_link': 'not implemented'
                                  })
+                if len(metadata) > self.max_products:
+                    break
         self.driver.quit()
         return metadata
 
