@@ -6,56 +6,45 @@ import time
 import schedule
 import datetime
 import pandas as pd
+import json
 
+from src.core import Core
 from src.logger import create_logger
+from src.Vendors import AVMScraper, SchneiderElectricScraper
 
 #initialize logger
-logger = create_logger("asus.py")
+logger = create_logger()
 
-#from src import core
 schedule_file = pd.read_excel("schedule.xlsx")
+vendor_dict={
+    "AVM": AVMScraper(logger=logger),
+    "Schneider": SchneiderElectricScraper(logger=logger, max_products=10)
+    }
 
-def demo_scheduler_with_logger():
-    now = datetime.datetime.now().date()
-    schedule_file["Next_update"] = pd.to_datetime(schedule_file["Next_update"]).dt.date
-    todays_schedule = schedule_file[schedule_file["Next_update"] <= now]
-    for index, row in todays_schedule.iterrows():
-        #core.create_product_catalog(row["Vendor"])
-        #create_product_catalog_demo(row["Vendor"])
-        create_product_catalog_demo_with_logger(row["Vendor"], logger)
-
-        # ToDo: check return value, if succesful ?
-        next_update = row["Last_update"] + datetime.timedelta(days=row["Intervall"])
-        schedule_file.at[index, "Last_update"] = now
-        schedule_file.at[index, "Next_update"] = next_update
-
-    schedule_file.to_excel("schedule.xlsx", index=False)
-
-
-def create_product_catalog_demo_with_logger(vendor, logger):
-    print(vendor)
-    logger.warning("Scheduler warning Test")
-    logger.info("Scheduler info Test")
-    logger.important("Scheduler important Test")
-
-def create_product_catalog_demo(vendor):
-    print(vendor)
-    print(logger)
 
 def check_schedule():
+    with open("config.json") as config_file:
+        config = json.load(config_file)
+    vendor_list = []
+
     now = datetime.datetime.now().date()
     schedule_file["Next_update"] = pd.to_datetime(schedule_file["Next_update"]).dt.date
     todays_schedule = schedule_file[schedule_file["Next_update"] <= now]
-    for index, row in todays_schedule.iterrows():
-        #core.create_product_catalog(row["Vendor"])
-        create_product_catalog_demo(row["Vendor"])
 
-        # ToDo: check return value, if succesful ?
+    for index, row in todays_schedule.iterrows():
+        vendor_list.append(vendor_dict[row["Vendor"]])
         next_update = row["Last_update"] + datetime.timedelta(days=row["Intervall"])
         schedule_file.at[index, "Last_update"] = now
         schedule_file.at[index, "Next_update"] = next_update
 
     schedule_file.to_excel("schedule.xlsx", index=False)
+
+    core = Core(
+        vendor_list,
+        logger=logger,
+    )
+    core.get_product_catalog()
+
 
 def start_scheduler():
     schedule.every(5).seconds.do(check_schedule)
@@ -64,7 +53,7 @@ def start_scheduler():
         print("running --- " + str(datetime.datetime.now()))
         schedule.run_pending()
         time.sleep(1)
-        #time.sleep(60)
+        # time.sleep(60)
 
 
 if __name__ == "__main__":

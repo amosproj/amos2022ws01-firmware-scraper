@@ -50,3 +50,102 @@
 2022-11-29 16:28:05,910 - logger.py - WARNING - logger warning Test
 2022-11-29 16:28:05,910 - logger.py - INFO - logger info Test
 2022-11-29 16:28:05,910 - logger.py - Important - logger info important
+2022-11-29 23:26:06,467 - logger.py - WARNING - logger warning Test
+2022-11-29 23:26:06,467 - logger.py - INFO - logger info Test
+2022-11-29 23:26:06,468 - logger.py - Important - logger info important
+2022-11-29 23:26:19,702 - logger.py - WARNING - logger warning Test
+2022-11-29 23:26:19,702 - logger.py - INFO - logger info Test
+2022-11-29 23:26:19,702 - logger.py - Important - logger info important
+2022-11-29 23:26:23,966 - scraper - Important - Start scraping.
+2022-11-29 23:26:23,966 - scraper - Important - Start AVMScraper.
+2022-11-29 23:26:24,070 - scraper - INFO - Connected Successfully!
+2022-11-29 23:26:24,070 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 22:28:48,808 - scraper - WARNING - logger warning Test
+2022-11-29 22:28:48,808 - scraper - INFO - logger info Test
+2022-11-29 22:28:48,808 - scraper - Important - logger info important
+2022-11-29 23:10:38,510 - scraper - Important - Start scraping.
+2022-11-29 23:10:38,510 - scraper - Important - Start AVMScraper.
+2022-11-29 23:10:38,627 - scraper - INFO - Connected Successfully!
+2022-11-29 23:10:38,627 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:11:00,184 - scraper - Important - Start scraping.
+2022-11-29 23:11:00,184 - scraper - Important - Start AVMScraper.
+2022-11-29 23:11:00,287 - scraper - INFO - Connected Successfully!
+2022-11-29 23:11:00,287 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:12:02,767 - scraper - Important - Start scraping.
+2022-11-29 23:12:07,837 - scraper - Important - Start scraping.
+2022-11-29 23:12:12,900 - scraper - Important - Start scraping.
+2022-11-29 23:12:17,958 - scraper - Important - Start scraping.
+2022-11-29 23:12:23,015 - scraper - Important - Start scraping.
+2022-11-29 23:12:28,084 - scraper - Important - Start scraping.
+2022-11-29 23:12:33,150 - scraper - Important - Start scraping.
+2022-11-29 23:28:14,453 - scraper - Important - Start scraping.
+2022-11-29 23:28:14,454 - scraper - Important - Start AVMScraper.
+2022-11-29 23:28:24,288 - scraper - Important - Start scraping.
+2022-11-29 23:28:24,288 - scraper - Important - Start AVMScraper.
+2022-11-29 23:28:24,393 - scraper - INFO - Connected Successfully!
+2022-11-29 23:28:24,393 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:29:23,549 - scraper - Important - Start scraping.
+2022-11-29 23:29:23,550 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:29:24,857 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:29:26,520 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:29:26,520 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:29:27,967 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:29:28,431 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:29:29,212 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:29:29,904 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:29:30,440 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:29:30,944 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:29:33,404 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:29:33,978 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2'.
+2022-11-29 23:29:35,416 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:29:35,416 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:29:37,535 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:29:37,535 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:31:40,650 - scraper - Important - Start scraping.
+2022-11-29 23:31:45,694 - scraper - Important - Start scraping.
+2022-11-29 23:31:50,758 - scraper - Important - Start scraping.
+2022-11-29 23:31:55,804 - scraper - Important - Start scraping.
+2022-11-29 23:32:37,727 - scraper - Important - Start scraping.
+2022-11-29 23:32:37,727 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:32:38,948 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:32:40,182 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:32:40,183 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:32:41,167 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:32:41,632 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:32:42,136 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:32:42,668 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:32:43,190 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:32:43,747 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:32:44,221 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:32:44,769 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2
+information_stroke'.
+2022-11-29 23:32:45,984 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:32:45,984 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:32:48,099 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:32:48,099 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:35:55,284 - scraper - Important - Start scraping.
+2022-11-29 23:35:55,284 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:35:56,381 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:35:57,609 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:35:57,609 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:35:58,843 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:35:59,324 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:35:59,819 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:36:15,392 - scraper - Important - Start scraping.
+2022-11-29 23:36:15,392 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:36:16,431 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:36:17,706 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:36:17,706 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:36:18,917 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:36:19,408 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:36:19,957 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:36:20,576 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:36:21,240 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:36:21,717 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:36:22,280 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:36:22,813 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2
+information_stroke'.
+2022-11-29 23:36:23,845 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:36:23,845 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:36:25,971 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:36:25,971 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
