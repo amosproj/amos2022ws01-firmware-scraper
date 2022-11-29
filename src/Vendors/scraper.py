@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Scarper(ABC):
+class Scraper(ABC):
     """Defines public interface of vendor-specific scraper classes."""
 
     @abstractmethod
