@@ -55,7 +55,8 @@ if __name__ == "__main__":
     core = Core(
         vendor_list=[
             AVMScraper(logger=logger),
-            SchneiderElectricScraper(max_products=10),
-        ]
+            SchneiderElectricScraper(logger=logger, max_products=10),
+        ],
+        logger=logger,
     )
     core.get_product_catalog()

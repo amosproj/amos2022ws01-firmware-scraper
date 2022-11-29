@@ -37,6 +37,7 @@ DOWNLOAD_URL_USA = (
 class SchneiderElectricScraper(Scraper):
     def __init__(
         self,
+        logger,
         scrape_entry_url: str = DOWNLOAD_URL_GLOBAL,
         max_products: int = float("inf"),
     ):
@@ -46,7 +47,7 @@ class SchneiderElectricScraper(Scraper):
         self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
         self.driver.implicitly_wait(0.5)  # has to be set only once
 
-        self.logger = create_logger("Schneider Electric")
+        self.logger = logger
 
     def _find_element_and_check(self, product_page: WebElement, by: By, value: str) -> Optional[WebElement]:
         # we use find_elements instead of find_element to be aware if the CSS selector is able to locate a unique element
