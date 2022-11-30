@@ -38,4 +38,6 @@ bin/
 # Virtual Environment
 .venv
 
+# logs
+*.log
 geckodriver.log
