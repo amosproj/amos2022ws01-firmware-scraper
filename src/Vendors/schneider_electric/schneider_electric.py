@@ -181,7 +181,6 @@ class SchneiderElectricScraper(Scraper):
                 extracted_data += firmware_items
 
         self.logger.info(f"Finished scraping metadata of firmware products. Return metadata to core.")
-        self.driver.quit()
         return extracted_data
 
 
@@ -197,7 +196,7 @@ def _download(firmware_data: list[dict], max_no_downloads: int):
 
 
 if __name__ == "__main__":
-    logger = create_logger("SchneiderElectric")
+    logger = create_logger()
     scraper = SchneiderElectricScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=20)
     firmware_data = scraper.scrape_metadata()
     with open("../../../test/files/firmware_data_schneider.json", "w") as firmware_file:
