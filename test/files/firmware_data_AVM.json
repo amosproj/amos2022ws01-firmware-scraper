@@ -1,0 +1,3190 @@
+[
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2018-11-06",
+        "download_link": "https://download.avm.de/fritzbox/tools/vpn/FRITZ_Box-Fernzugang_einrichten_Installation.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2018-11-06",
+        "download_link": "https://download.avm.de/fritzbox/tools/vpn/FRITZ_Fernzugang_german_Installation.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2018-11-06",
+        "download_link": "https://download.avm.de/fritzbox/tools/vpn/FRITZ_VPN64_German_Installation.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2018-11-06",
+        "download_link": "https://download.avm.de/fritzbox/tools/vpn/FRITZ_VPN64_German_win10_Installation.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-06-09",
+        "download_link": "https://download.avm.de/fritzbox/FRITZ%21Box%206690%20Cable/deutschland/fritz.os/FRITZ.Box_6690_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6690 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2022-06-09",
+        "download_link": "https://download.avm.de/fritzbox/FRITZ%21Box%206690%20Cable/other/fritz.os/FRITZ.Box_6690_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/FRITZ%21Box%206690%20Cable/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 3272",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.88",
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3272/deutschland/fritz.os/FRITZ.Box_3272-06.88.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-3272/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3272/deutschland/recover/FRITZ.Box_3272.06.88.-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 3272",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.87",
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3272/other/fritz.os/FRITZ.Box_3272-06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-3272/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3272/other/recover/FRITZ.Box_3272-06.87.recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 3490",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2021-11-15",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3490/belgium/fritz.os/FRITZ.Box_3490-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-3490/belgium/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-15",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3490/belgium/recover/FRITZ.Box_3490-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 3490",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2021-11-15",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3490/deutschland/fritz.os/FRITZ.Box_3490-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-3490/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-15",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3490/deutschland/recover/FRITZ.Box_3490-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 3490",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2021-11-15",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3490/other/fritz.os/FRITZ.Box_3490-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-3490/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-15",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-3490/other/recover/FRITZ.Box_3490-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 4020",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.02",
+        "release_date": "2022-01-10",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4020/deutschland/fritz.os/FRITZ.Box_4020-07.02.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-4020/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-01-10",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4020/deutschland/recover/FRITZ.Box_4020%2007.02%20Recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 4020",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.02",
+        "release_date": "2022-01-10",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4020/other/fritz.os/FRITZ.Box_4020-07.02.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-4020/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-01-10",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4020/other/recover/FRITZ.Box_4020%2007.02%20Recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 4040",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-24",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4040/deutschland/fritz.os/FRITZ.Box_4040-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-4040/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-24",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4040/deutschland/recover/FRITZ.Box_4040-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 4040",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-24",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4040/other/fritz.os/FRITZ.Box_4040-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-4040/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-24",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4040/other/recover/FRITZ.Box_4040-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 4060",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-05-16",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4060/deutschland/fritz.os/FRITZ.Box_4060-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-4060/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-05-16",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4060/deutschland/recover/FRITZ.Box_4060-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 4060",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-05-16",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4060/other/fritz.os/FRITZ.Box_4060-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-4060/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-05-16",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-4060/other/recover/FRITZ.Box_4060-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 5490",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5490/deutschland/fritz.os/FRITZ.Box_5490-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-5490/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5490/deutschland/recover/FRITZ.Box_5490-07.29-Recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 5490",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5490/other/fritz.os/FRITZ.Box_5490-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-5490/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5490/other/recover/FRITZ.Box_5490-07.29-Recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 5491",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5491/deutschland/fritz.os/FRITZ.Box_5491-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-5491/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5491/deutschland/recover/FRITZ.Box_5491-07.29-Recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 5491",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5491/other/fritz.os/FRITZ.Box_5491-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-5491/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5491/other/recover/FRITZ.Box_5491-07.29-Recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-09-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5530-fiber/deutschland/fritz.os/FRITZ.Box_5530-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-5530-fiber/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-09-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5530-fiber/deutschland/recover/FRITZ.Box_5530-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-09-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5530-fiber/deutschland/recover/FRITZ.Box_5530-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-09-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5530-fiber/other/fritz.os/FRITZ.Box_5530-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-5530-fiber/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-09-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5530-fiber/other/recover/FRITZ.Box_5530-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-09-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5530-fiber/other/recover/FRITZ.Box_5530-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-06-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-5590-fiber/deutschland/fritz.os/FRITZ.Box_5590-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6430 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2022-01-18",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6430-cable/deutschland/fritz.os/FRITZ.Box_6430_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6430-cable/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6490 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-09",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6490-cable/deutschland/fritz.os/FRITZ.Box_6490_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6490-cable/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6490 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-09",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6490-cable/other/fritz.os/FRITZ.Box_6490_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6490-cable/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6590 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-09",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6590-cable/deutschland/fritz.os/FRITZ.Box_6590_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6590-cable/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6590 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-09",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6590-cable/other/fritz.os/FRITZ.Box_6590_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6590-cable/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6591 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6591-cable/deutschland/fritz.os/FRITZ.Box_6591_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6591-cable/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6591 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6591-cable/other/fritz.os/FRITZ.Box_6591_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6591-cable/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6660 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6660-cable/deutschland/fritz.os/FRITZ.Box_6660_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6660-cable/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6660 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-01",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6660-cable/other/fritz.os/FRITZ.Box_6660_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6660-cable/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6690 Cable",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2022-08-17",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6690-cable/other/fritz.os/FRITZ.Box_6690_Cable-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6690-cable/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-12-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6810-lte/deutschland/fritz.os/FRITZ.Box_6810_LTE.108.06.34.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-12-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6810-lte/deutschland/recover/fritz.box_6810_lte.06.34.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6810 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.34",
+        "release_date": "2017-09-27",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6810-lte/other/fritz.os/FRITZ.Box_6810_LTE.en-de-es-it-fr.108.06.34.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6810-lte/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-09-27",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6810-lte/other/recover/fritz.box_6810_lte.en-de-es-it-fr.06.34.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6820 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte/deutschland/fritz.os/FRITZ.Box_6820v1_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6820-lte/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte/deutschland/recover/FRITZ.Box_6820v1_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6820 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte/other/fritz.os/FRITZ.Box_6820v1_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6820-lte/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte/other/recover/FRITZ.Box_6820v1_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6820 LTE v2",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v2/deutschland/fritz.os/FRITZ.Box_6820v2_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v2/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v2/deutschland/recover/FRITZ.Box_6820v2_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6820 LTE v2",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v2/other/fritz.os/FRITZ.Box_6820v2_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v2/other/recover/FRITZ.Box_6820v2_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6820 LTE v3",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v3/deutschland/fritz.os/FRITZ.Box_6820v3_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v3/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v3/deutschland/recover/FRITZ.Box_6820v3_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6820 LTE v3",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v3/other/fritz.os/FRITZ.Box_6820v3_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v3/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6820-lte-v3/other/recover/FRITZ.Box_6820v3_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-03-02",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6840-lte/deutschland/fritz.os/FRITZ.Box_6840_LTE.105.06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-03-02",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6840-lte/deutschland/recover/FRITZ.Box_6840_LTE.06.87.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6840 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.87",
+        "release_date": "2022-03-02",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6840-lte/other/fritz.os/FRITZ.Box_6840_LTE.en-de-es-it-fr-pl.105.06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6840-lte/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-03-02",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6840-lte/other/recover/FRITZ.Box_6840_LTE.en-de-es-it-fr-pl.06.87.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-12-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6842-lte/deutschland/fritz.os/FRITZ.Box_6842_LTE.123.06.34.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-12-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6842-lte/deutschland/recover/fritz.box_6842_lte.06.34.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6850 5G",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-03-02",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6850-5g/deutschland/fritz.os/FRITZ.Box_6850_5G-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6850-5g/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-03-02",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6850-5g/deutschland/recover/FRITZ.Box_6850_5G-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6850 5G",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-03-02",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6850-5g/other/fritz.os/FRITZ.Box_6850_5G-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6850-5g/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-03-02",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6850-5g/other/recover/FRITZ.Box_6850_5G-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6850 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6850-lte/deutschland/fritz.os/FRITZ.Box_6850_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6850-lte/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6850-lte/deutschland/recover/FRITZ.Box_6850_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6850 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6850-lte/other/fritz.os/FRITZ.Box_6850_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6850-lte/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6850-lte/other/recover/FRITZ.Box_6850_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6890 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6890-lte/belgium/fritz.os/FRITZ.Box_6890_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6890-lte/belgium/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6890-lte/belgium/recover/FRITZ.Box_6890_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6890 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6890-lte/deutschland/fritz.os/FRITZ.Box_6890_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6890-lte/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6890-lte/deutschland/recover/FRITZ.Box_6890_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 6890 LTE",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6890-lte/other/fritz.os/FRITZ.Box_6890_LTE-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-6890-lte/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-6890-lte/other/recover/FRITZ.Box_6890_LTE-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7272",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.88",
+        "release_date": "2021-12-08",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7272/deutschland/fritz.os/FRITZ.Box_7272-06.88.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7272/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-08",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7272/deutschland/recover/FRITZ.Box_7272.06.88-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7272",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.87",
+        "release_date": "2021-12-08",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7272/other/fritz.os/FRITZ.Box_7272-06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7272/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-08",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7272/other/recover/FRITZ.Box_7272-06.87-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2019-09-30",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7312/deutschland/fritz.os/FRITZ.Box_7312-06.55.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2019-09-30",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7312/deutschland/recover/fritz.box_7312-06.55-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2019-09-30",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-sl/deutschland/fritz.os/FRITZ.Box_Fon_WLAN_7360_SL-06.34.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2019-09-30",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-sl/deutschland/recover/fritz.box_fon_wlan_7360_sl-06.34.recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-10-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-sl/other/fritz.os/FRITZ.Box_Fon_WLAN_7360_SL.en-de-es-it-fr.109.06.30.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-10-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-sl/switzerland/fritz.os/FRITZ.Box_Fon_WLAN_7360_SL.en-de-es-it-fr.109.06.30.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box Fon WLAN 7360",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.31",
+        "release_date": "2017-10-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v1/belgium/fritz.os/FRITZ.Box_Fon_WLAN_7360.en-de-es-it-fr.111.06.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7360-v1/belgium/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-10-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v1/belgium/recover/FRITZ.Box_Fon_WLAN_7360.en-de-es-it-fr.06.31.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2019-09-26",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v1/deutschland/fritz.os/FRITZ.Box_Fon_WLAN_7360-06.35.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2019-09-26",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v1/deutschland/recover/fritz.box_fon_wlan_7360-06.35-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box Fon WLAN 7360",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.33",
+        "release_date": "2019-09-26",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v1/other/fritz.os/FRITZ.Box_Fon_WLAN_7360-06.33.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7360-v1/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2019-09-26",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v1/other/recover/FRITZ.Box_Fon_WLAN_7360-06.33.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box Fon WLAN 7360",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.52",
+        "release_date": "2017-10-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v2/belgium/fritz.os/FRITZ.Box_Fon_WLAN_7360.en-de-es-it-fr-pl.124.06.52.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7360-v2/belgium/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-10-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v2/belgium/recover/FRITZ.Box_Fon_WLAN_7360.en-de-es-it-fr-pl.06.52.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v2/deutschland/fritz.os/FRITZ.Box_Fon_WLAN_7360-06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v2/deutschland/recover/FRITZ.Box_Fon_WLAN_7360-06.87-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box Fon WLAN 7360",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.87",
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v2/other/fritz.os/FRITZ.Box_Fon_WLAN_7360-06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7360-v2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7360-v2/other/recover/FRITZ.Box_Fon_WLAN_7360-06.87.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7362-sl/deutschland/fritz.os/FRITZ.Box_7362_SL-07.13.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7362-sl/deutschland/recover/FRITZ.Box_7362_SL-07.13-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7369",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.32",
+        "release_date": "2017-10-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7369/other/fritz.os/FRITZ.Box_7369.en-de-es-it-fr-pl.119.06.32.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7369/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2017-10-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7369/other/recover/FRITZ.Box_7369.en-de-es-it-fr-pl.06.32.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7390/deutschland/fritz.os/FRITZ.Box_Fon_WLAN_7390-06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7390/deutschland/recover/FRITZ.Box_Fon_WLAN_7390-06.87-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box Fon WLAN 7390",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 6.87",
+        "release_date": "2021-12-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7390/other/fritz.os/FRITZ.Box_Fon_WLAN_7390-06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7390/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7390/other/recover/FRITZ.Box_Fon_WLAN_7390-06.87-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7412/deutschland/fritz.os/FRITZ.Box_7412.137.06.87.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-22",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7412/deutschland/recover/FRITZ.Box_7412.06.87.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7430",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-12",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7430/belgium/fritz.os/FRITZ.Box_7430-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7430/belgium/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-12",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7430/belgium/recover/FRITZ.Box_7430-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7430",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7430/deutschland/fritz.os/FRITZ.Box_7430-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7430/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7430/deutschland/recover/FRITZ.Box_7430-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7430",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7430/other/fritz.os/FRITZ.Box_7430-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7430/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7430/other/recover/FRITZ.Box_7430-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7490",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7490/belgium/fritz.os/FRITZ.Box_7490-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7490/belgium/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7490/belgium/recover/FRITZ.Box_7490-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7490",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7490/deutschland/fritz.os/FRITZ.Box_7490-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7490/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7490/deutschland/recover/FRITZ.Box_7490-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7490",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7490/other/fritz.os/FRITZ.Box_7490-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7490/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7490/other/recover/FRITZ.Box_7490-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7510",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-01-21",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7510/deutschland/fritz.os/FRITZ.Box_7510-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7510/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-01-21",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7510/deutschland/recover/FRITZ.Box_7510-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7510",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-01-21",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7510/other/fritz.os/FRITZ.Box_7510-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7510/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-01-21",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7510/other/recover/FRITZ.Box_7510-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7520",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-18",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7520/deutschland/fritz.os/FRITZ.Box_7520-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7520/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-18",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7520/deutschland/recover/FRITZ.Box_7520-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7520 Typ B",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-08-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7520-B/deutschland/fritz.os/FRITZ.Box_7520_B-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7520-B/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-08-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7520-B/deutschland/recover/FRITZ.Box_7520_B-07.31-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7530",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530/belgium/fritz.os/FRITZ.Box_7530-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7530/belgium/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530/belgium/recover/FRITZ.Box_7530-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7530",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2022-01-21",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530/deutschland/fritz.os/FRITZ.Box_7530-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7530/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-01-21",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530/deutschland/recover/FRITZ.Box_7530-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7530",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530/other/fritz.os/FRITZ.Box_7530-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7530/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-04",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530/other/recover/FRITZ.Box_7530-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7530 AX",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-04-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530-ax/deutschland/fritz.os/FRITZ.Box_7530_AX-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7530-ax/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530-ax/deutschland/recover/FRITZ.Box_7530_AX-07.31-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7530 AX",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-04-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530-ax/other/fritz.os/FRITZ.Box_7530_AX-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7530-ax/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-07",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7530-ax/other/recover/FRITZ.Box_7530_AX-07.31-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7560",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7560/deutschland/fritz.os/FRITZ.Box_7560-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7560/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7560/deutschland/recover/FRITZ.Box_7560-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7560",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-12",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7560/other/fritz.os/FRITZ.Box_7560-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7560/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-12",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7560/other/recover/FRITZ.Box_7560-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7580",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7580/deutschland/fritz.os/FRITZ.Box_7580-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7580/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-11",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7580/deutschland/recover/FRITZ.Box_7580-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7581",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.16",
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7581/other/fritz.os/FRITZ.Box_7581-07.16.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7581/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7581/other/recover/FRITZ.Box_7581-07.16.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7582",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.16",
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7582/other/fritz.os/FRITZ.Box_7582-07.16.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7582/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7582/other/recover/FRITZ.Box_7582-07.16.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7583",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-04-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7583/deutschland/fritz.os/FRITZ.Box_7583-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7583/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-14",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7583/deutschland/recover/FRITZ.Box_7583-07.31.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7583",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-04-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7583/other/fritz.os/FRITZ.Box_7583-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7583/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7583/other/recover/FRITZ.Box_7583-07.31.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7583 VDSL",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-04-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7583-vdsl/deutschland/fritz.os/FRITZ.Box_7583_VDSL-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7583-vdsl/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7583-vdsl/deutschland/recover/FRITZ.Box_7583_VDSL-07.31.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7583 VDSL",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-04-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7583-vdsl/other/fritz.os/FRITZ.Box_7583_VDSL-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7583-vdsl/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-13",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7583-vdsl/other/recover/FRITZ.Box_7583_VDSL-07.31.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7590",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590/belgium/fritz.os/FRITZ.Box_7590-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7590/belgium/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590/belgium/recover/FRITZ.Box_7590-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7590",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590/deutschland/fritz.os/FRITZ.Box_7590-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7590/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590/deutschland/recover/FRITZ.Box_7590-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7590",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-11-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590/other/fritz.os/FRITZ.Box_7590-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7590/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2021-11-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590/other/recover/FRITZ.Box_7590-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7590 AX",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-03-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590-ax/deutschland/fritz.os/FRITZ.Box_7590_AX-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7590-ax/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-03-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590-ax/deutschland/recover/FRITZ.Box_7590_AX-07.31-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Box 7590 AX",
+        "product_type": "fritzbox",
+        "version": "FRITZ!OS 7.31",
+        "release_date": "2022-03-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590-ax/other/fritz.os/FRITZ.Box_7590_AX-07.31.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzbox/fritzbox-7590-ax/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-03-03",
+        "download_link": "https://download.avm.de/fritzbox/fritzbox-7590-ax/other/recover/FRITZ.Box_7590_AX-07.31-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1000E",
+        "product_type": "fritzpowerline",
+        "version": "2.13.0.0-42",
+        "release_date": "2022-09-29",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e/deutschland/fritz.os/fritz.powerline_1000E_2130_00_tr069_42.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-06-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e/deutschland/recover/fritz.powerline_1000E_200_03_200.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1000E",
+        "product_type": "fritzpowerline",
+        "version": "2.13.0.0-42",
+        "release_date": "2022-10-07",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e/other/fritz.os/fritz.powerline_1000E_2130_00_tr069_42.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-06-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e/other/recover/fritz.powerline_1000E_200_03_200.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2017-11-23",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e-t/deutschland/fritz.os/fritz.powerline_1000ET_01_05.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1000E",
+        "product_type": "fritzpowerline",
+        "version": "01.05",
+        "release_date": "2017-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e-t/other/fritz.os/fritz.powerline_1000ET_01_05.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e-t/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1000E",
+        "product_type": "fritzpowerline",
+        "version": "2.13.0.0-42",
+        "release_date": "2022-09-29",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e-v2/deutschland/fritz.os/fritz.powerline_1000E_v2_2130_00_tr069_2.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e-v2/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1000E",
+        "product_type": "fritzpowerline",
+        "version": "2.13.0.0-42",
+        "release_date": "2022-10-07",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e-v2/other/fritz.os/fritz.powerline_1000E_v2_2130_00_tr069_2.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1000e-v2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1220",
+        "product_type": "fritzpowerline",
+        "version": "2.13.0.0-6",
+        "release_date": "2022-09-29",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1220/deutschland/fritz.os/fritz.powerline_1220_cm9_2130_00_tr069_6.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1220/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1220",
+        "product_type": "fritzpowerline",
+        "version": "2.13.0.0-6",
+        "release_date": "2022-10-07",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1220/other/fritz.os/fritz.powerline_1220_cm9_2130_00_tr069_6.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1220/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1220E",
+        "product_type": "fritzpowerline",
+        "version": "2.13.0.0-37",
+        "release_date": "2022-09-29",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1220e/deutschland/fritz.os/fritz.powerline_1220E_cm9_2130_00_tr069_37.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1220e/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1220E",
+        "product_type": "fritzpowerline",
+        "version": "2.13.0.0-37",
+        "release_date": "2022-10-07",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1220e/other/fritz.os/fritz.powerline_1220E_cm9_2130_00_tr069_37.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1220e/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1240E",
+        "product_type": "fritzpowerline",
+        "version": "FRITZ!OS 7.14",
+        "release_date": "2022-01-06",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1240e/deutschland/fritz.os/FRITZ.Powerline_1240E.150.07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1240e/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-01-06",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1240e/deutschland/recover/FRITZ.Powerline_1240E.07.14.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1240E",
+        "product_type": "fritzpowerline",
+        "version": "FRITZ!OS 7.14",
+        "release_date": "2022-01-06",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1240e/other/fritz.os/FRITZ.Powerline_1240E.150.07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1240e/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-01-06",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1240e/other/recover/FRITZ.Powerline_1240E.07.14.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1260",
+        "product_type": "fritzpowerline",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1260/deutschland/fritz.os/FRITZ.Powerline_1260.249.07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1260/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2021-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1260/deutschland/recover/FRITZ.Powerline_1260-07.29-Release-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1260E",
+        "product_type": "fritzpowerline",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1260e/deutschland/fritz.os/FRITZ.Powerline_1260E.157.07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1260e/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2021-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1260e/deutschland/recover/FRITZ.Powerline_1260E-07.29-Release-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 1260E",
+        "product_type": "fritzpowerline",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1260e/other/fritz.os/FRITZ.Powerline_1260E.157.07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-1260e/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2021-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-1260e/other/recover/FRITZ.Powerline_1260E-07.29-Release-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 510E",
+        "product_type": "fritzpowerline",
+        "version": "1.5.0.1-24",
+        "release_date": "2020-04-16",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-510e-a/deutschland/fritz.os/fritz.powerline_510E_A_150_02_24.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-510e-a/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2017-12-11",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-510e-a/deutschland/recover/fritz.powerline_510E_A_120_01_14.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 510E",
+        "product_type": "fritzpowerline",
+        "version": "1.5.0.1-24",
+        "release_date": "2021-02-23",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-510e-a/other/fritz.os/fritz.powerline_510E_A_150_02_24.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-510e-a/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2017-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-510e-a/other/recover/fritz.powerline_510E_A_120_01_14.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 530E",
+        "product_type": "fritzpowerline",
+        "version": "1.5.0.1-18",
+        "release_date": "2020-04-16",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-530e/deutschland/fritz.os/fritz.powerline_530E_150_02_18.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-530e/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2017-12-11",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-530e/deutschland/recover/fritz.powerline_530E_120_01_10.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 530E",
+        "product_type": "fritzpowerline",
+        "version": "1.5.0.1-18",
+        "release_date": "2021-02-23",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-530e/other/fritz.os/fritz.powerline_530E_150_02_18.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-530e/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2017-12-14",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-530e/other/recover/fritz.powerline_530E_120_01_10.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 540E",
+        "product_type": "fritzpowerline",
+        "version": "FRITZ!OS 7.14",
+        "release_date": "2022-01-12",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-540e/deutschland/fritz.os/FRITZ.Powerline_540E.129.07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-540e/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-01-12",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-540e/deutschland/recover/FRITZ.Powerline_540E.07.14.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Powerline 540E",
+        "product_type": "fritzpowerline",
+        "version": "FRITZ!OS 7.14",
+        "release_date": "2022-01-12",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-540e/other/fritz.os/FRITZ.Powerline_540E.129.07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzpowerline/fritzpowerline-540e/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-01-12",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-540e/other/recover/FRITZ.Powerline_540E.07.14.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-01-06",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-546e/deutschland/fritz.os/FRITZ.Powerline_546E.118.07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-01-06",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-546e/deutschland/recover/FRITZ.Powerline_546E.06.50_CE.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-01-06",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-546e/deutschland/recover/FRITZ.Powerline_546E.06.50_EN.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-01-06",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-546e/deutschland/recover/FRITZ.Powerline_546E.07.14.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2019-05-23",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-546e/other/fritz.os/FRITZ.Powerline_546E.en-de-es-it-fr-pl.118.06.50.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2017-11-28",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-546e/other/recover/FRITZ.Powerline_546E.en-de-es-it-fr-pl.06.34.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2017-11-28",
+        "download_link": "https://download.avm.de/fritzpowerline/fritzpowerline-546e/other/recover/FRITZ.Powerline_546E.en-de-es-it-fr-pl.06.50.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-05-23",
+        "download_link": "https://download.avm.de/fritzpowerline/tools/fritzpowerline/de/FRITZ%21Powerline_v01.04.07.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-05-23",
+        "download_link": "https://download.avm.de/fritzpowerline/tools/fritzpowerline/en/FRITZ%21Powerline_v01.04.07.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 1200",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-1200/deutschland/fritz.os/FRITZ.Repeater_1200-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-1200/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-1200/deutschland/recover/FRITZ.Repeater_1200-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 1200",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-1200/other/fritz.os/FRITZ.Repeater_1200-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-1200/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-1200/other/recover/FRITZ.Repeater_1200-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 1200 AX",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2021-12-17",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-1200-ax/deutschland/fritz.os/FRITZ.Repeater_1200_AX-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-1200-ax/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-17",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-1200-ax/deutschland/recover/FRITZ.Repeater_1200_AX-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 1200 AX",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2021-12-17",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-1200-ax/other/fritz.os/FRITZ.Repeater_1200_AX-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-1200-ax/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-17",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-1200-ax/other/recover/FRITZ.Repeater_1200_AX-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 2400",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-2400/deutschland/fritz.os/FRITZ.Repeater_2400-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-2400/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-2400/deutschland/recover/FRITZ.Repeater_2400-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 2400",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-2400/other/fritz.os/FRITZ.Repeater_2400-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-2400/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-2400/other/recover/FRITZ.Repeater_2400-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 3000",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-3000/deutschland/fritz.os/FRITZ.Repeater_3000-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-3000/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-3000/deutschland/recover/FRITZ.Repeater_3000-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 3000",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-3000/other/fritz.os/FRITZ.Repeater_3000-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-3000/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-09",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-3000/other/recover/FRITZ.Repeater_3000-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 600",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-16",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-600/deutschland/fritz.os/FRITZ.Repeater_600-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-600/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 600",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.29",
+        "release_date": "2021-12-16",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-600/other/fritz.os/FRITZ.Repeater_600-07.29.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-600/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater\u00a06000",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS\u00a07.30",
+        "release_date": "2022-10-24",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-6000/deutschland/fritz.os/FRITZ.Repeater_6000-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-6000/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-10-24",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-6000/deutschland/recover/FRITZ.Repeater_6000-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater\u00a06000",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS\u00a07.30",
+        "release_date": "2022-11-07",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-6000/other/fritz.os/FRITZ.Repeater_6000-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-6000/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-11-07",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-6000/other/recover/FRITZ.Repeater_6000-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 600",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-10-05",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-600v2/deutschland/fritz.os/FRITZ.Repeater_600v2-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-600v2/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 600",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-10-05",
+        "download_link": "https://download.avm.de/fritzwlan/fritzrepeater-600v2/other/fritz.os/FRITZ.Repeater_600v2-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzrepeater-600v2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!WLAN Repeater 1160",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.14",
+        "release_date": "2022-01-05",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1160/deutschland/fritz.os/FRITZ.Box_WLAN_Repeater_1160-07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1160/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 1160",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.14",
+        "release_date": "2022-01-05",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1160/other/fritz.os/FRITZ.Box_WLAN_Repeater_1160-07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1160/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 1750E",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-11-28",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1750e/deutschland/fritz.os/FRITZ.Repeater_1750E-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1750e/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-11-28",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1750e/deutschland/recover/FRITZ.Repeater_1750E-07.30-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 1750E",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.30",
+        "release_date": "2022-11-28",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1750e/other/fritz.os/FRITZ.Repeater_1750E-07.30.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1750e/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-13",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-1750e/other/recover/FRITZ.Repeater_1750E-07.29-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2019-07-23",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-300e/deutschland/fritz.os/FRITZ.Box_WLAN_Repeater_300E-06.33.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2019-07-23",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-300e/deutschland/recover/fritz.box_wlan_repeater_300e-06.33-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-04-13",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-300e/other/fritz.os/FRITZ.Box_WLAN_Repeater_300E.en-de-es-it-fr-pl.101.06.33.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-04-13",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-300e/other/recover/FRITZ.Box_WLAN_Repeater_300E.en-de-es-it-fr-pl.06.33.recover-image.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 310",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.15",
+        "release_date": "2022-11-28",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-310-a/deutschland/fritz.os/FRITZ.Repeater_310-07.15.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-310-a/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 310",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.15",
+        "release_date": "2022-11-28",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-310-a/other/fritz.os/FRITZ.Repeater_310-07.15.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-310-a/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 310",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.15",
+        "release_date": "2022-11-28",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-310-b/deutschland/fritz.os/FRITZ.Repeater_310_-07.15.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-310-b/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 310",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.15",
+        "release_date": "2022-11-28",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-310-b/other/fritz.os/FRITZ.Repeater_310_-07.15.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-310-b/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-01-05",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-450e/deutschland/fritz.os/FRITZ.Box_WLAN_Repeater_450E-07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-01-05",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-450e/deutschland/recover/FRITZ.Box_WLAN_Repeater_450E-07.14-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!Repeater 450E",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.14",
+        "release_date": "2022-01-05",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-450e/other/fritz.os/FRITZ.Box_WLAN_Repeater_450E-07.14.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-450e/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-01-05",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-450e/other/recover/FRITZ.Box_WLAN_Repeater_450E-07.14-recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!WLAN Repeater DVB-C",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.02",
+        "release_date": "2022-01-25",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-dvb-c/deutschland/fritz.os/FRITZ.Box_WLAN_Repeater_DVB_C.en-de-es-it-fr-pl.133.07.02.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-dvb-c/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-01-25",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-dvb-c/deutschland/recover/FRITZ.Box_WLAN_Repeater_DVB_C.en-de-es-it-fr-pl.07.02.recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": "FRITZ!WLAN DVB-C",
+        "product_type": "fritzwlan",
+        "version": "FRITZ!OS 7.02",
+        "release_date": "2022-01-25",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-dvb-c/other/fritz.os/FRITZ.Box_WLAN_Repeater_DVB_C.en-de-es-it-fr-pl.133.07.02.image",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-repeater-dvb-c/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-01-25",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-repeater-dvb-c/other/recover/FRITZ.Box_WLAN_Repeater_DVB_C.en-de-es-it-fr-pl.07.02.recover.exe",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2018-08-27",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430/deutschland/fritz.os/AVM_FRITZ%21WLAN_USB_Stick_AC_430_32Bit_Build_180612.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2018-08-27",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430/deutschland/fritz.os/AVM_FRITZ%21WLAN_USB_Stick_AC_430_64Bit_Build_180612.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2018-08-27",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/AVM_FRITZ%21WLAN_USB_Stick_AC_430_32Bit_Build_180612e.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2018-08-27",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/AVM_FRITZ%21WLAN_USB_Stick_AC_430_64Bit_Build_180612e.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-08",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/deutschland/fritz.os/avm_fritz%21wlanusb_stick_ac430_mu_mimo_32Bit_Build_061221.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-08",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/deutschland/fritz.os/avm_fritz%21wlanusb_stick_ac430_mu_mimo_64Bit_Build_061221.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-08",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/avm_fritz%21wlanusb_stick_ac430_mu_mimo_x64_english_Build_061221.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2021-12-08",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/avm_fritz%21wlanusb_stick_ac430_mu_mimo_x86_english_Build_061221.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-04-29",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/avm_fritz%21wlanusb_stick_ac860_32Bit_build_180612.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-04-29",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/avm_fritz%21wlanusb_stick_ac860_64Bit_build_220315.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-04-29",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/avm_fritz%21wlanusb_stick_ac860_32Bit_english_build_180612.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-04-29",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/avm_fritz%21wlanusb_stick_ac860_64Bit_english_build_220315.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-04-19",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/deutschland/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_32Bit_build_180612.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-04-19",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/deutschland/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_64Bit_build_180612.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-04-19",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_32Bit_build_180612e.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzwlan",
+        "version": null,
+        "release_date": "2022-04-19",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_64Bit_build_180612e.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-19",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_32Bit_build_180612e.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-19",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_64Bit_build_180612e.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-19",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_32Bit_build_180612e.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzbox",
+        "version": null,
+        "release_date": "2022-04-19",
+        "download_link": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_64Bit_build_180612e.zip",
+        "checksum_scraped": null,
+        "additional_data": {
+            "info_url": "https://download.avm.de/fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt"
+        }
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-05-23",
+        "download_link": "https://download.avm.de/fritzpowerline/tools/fritzpowerline/de/mac/FRITZ%21Powerline-v01.04.07.dmg",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2018-09-01",
+        "download_link": "https://download.avm.de/fritzpowerline/tools/fritzpowerline/de/other/powerlineDPWcheck.zip",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "AVM",
+        "product_name": null,
+        "product_type": "fritzpowerline",
+        "version": null,
+        "release_date": "2022-05-23",
+        "download_link": "https://download.avm.de/fritzpowerline/tools/fritzpowerline/en/mac/FRITZ%21Powerline-v01.04.07.dmg",
+        "checksum_scraped": null,
+        "additional_data": {}
+    }
+]
