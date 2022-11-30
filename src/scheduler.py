@@ -2,27 +2,13 @@
 Scheduler module that starts core.py at predefined intervals
 '''
 
-import time
-import schedule
 import datetime
 import pandas as pd
 import json
 
-from src.core import Core
-from src.logger import create_logger
-from src.Vendors import AVMScraper, SchneiderElectricScraper
-
-#initialize logger
-logger = create_logger()
-
 schedule_file = pd.read_excel("schedule.xlsx")
-vendor_dict={
-    "AVM": AVMScraper(logger=logger),
-    "Schneider": SchneiderElectricScraper(logger=logger, max_products=10)
-    }
 
-
-def check_schedule():
+def check_schedule(logger,  vendor_dict):
     with open("config.json") as config_file:
         config = json.load(config_file)
     vendor_list = []
@@ -39,22 +25,4 @@ def check_schedule():
 
     schedule_file.to_excel("schedule.xlsx", index=False)
 
-    core = Core(
-        vendor_list,
-        logger=logger,
-    )
-    core.get_product_catalog()
-
-
-def start_scheduler():
-    schedule.every(5).seconds.do(check_schedule)
-    # schedule.every().day.at("00:00").do(check_schedule)
-    while True:
-        print("running --- " + str(datetime.datetime.now()))
-        schedule.run_pending()
-        time.sleep(1)
-        # time.sleep(60)
-
-
-if __name__ == "__main__":
-    start_scheduler()
+    return vendor_list

@@ -5,14 +5,26 @@ Core module for firmware scraper
 # Standard Libraries
 import json
 from urllib.request import urlopen
-
+import time
+import schedule
+import datetime
 from tqdm import tqdm
+
 from logger import create_logger
 from db_connector import DBConnector
+from scheduler import check_schedule
 
 # Vendor Modules
 from Vendors import AVMScraper, SchneiderElectricScraper
 
+#Initialize logger
+logger = create_logger()
+
+#Initialize vendor_dict
+vendor_dict = {
+    "AVM": AVMScraper(logger=logger),
+    "Schneider": SchneiderElectricScraper(logger=logger, max_products=10)
+    }
 
 class Core:
     def __init__(self, vendor_list: list, logger):
@@ -44,18 +56,22 @@ class Core:
         self.logger.important("Download done.")
 
 
-if __name__ == "__main__":
-
-    with open("config.json") as config_file:
-        config = json.load(config_file)
-
-    logger = create_logger()
+def start_scheduler():
+    vendor_list = check_schedule(logger=logger, vendor_dict=vendor_dict)
 
     core = Core(
-        vendor_list=[
-            AVMScraper(logger=logger),
-            SchneiderElectricScraper(logger=logger, max_products=10),
-        ],
+        vendor_list=vendor_list,
         logger=logger,
     )
     core.get_product_catalog()
+
+
+if __name__ == "__main__":
+
+    schedule.every(5).seconds.do(start_scheduler)
+    # schedule.every().day.at("00:00").do(check_schedule)
+    while True:
+        print("running --- " + str(datetime.datetime.now()))
+        schedule.run_pending()
+        time.sleep(1)
+        #time.sleep(60)
