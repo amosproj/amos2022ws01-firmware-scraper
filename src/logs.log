@@ -319,3 +319,42 @@ information_stroke'.
 2022-11-29 23:48:53,781 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
 2022-11-29 23:48:54,266 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
 2022-11-29 23:48:54,718 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 08:17:34,226 - scraper - Important - Start scraping.
+2022-11-30 08:17:34,226 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 08:17:41,827 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 08:20:18,328 - scraper - Important - Start scraping.
+2022-11-30 08:20:18,328 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 08:20:19,744 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 08:20:28,405 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 08:20:28,405 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 08:20:32,118 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 08:20:34,777 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 08:20:37,208 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 08:20:39,559 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 08:20:40,027 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 08:20:42,611 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 08:20:45,092 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 08:20:47,486 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 08:20:49,809 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 08:20:52,195 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 08:20:52,195 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 08:20:54,318 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 08:20:54,318 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-30 08:24:53,434 - scraper - Important - Start scraping.
+2022-11-30 08:24:53,435 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 08:24:54,494 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 08:24:55,767 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 08:24:55,767 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 08:24:57,114 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 08:24:57,881 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 08:24:58,364 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 08:24:58,937 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 08:24:59,497 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 08:24:59,987 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 08:25:00,462 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 08:25:01,019 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 08:25:01,592 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 08:25:02,117 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 08:25:02,117 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 08:25:04,241 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 08:25:04,241 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
