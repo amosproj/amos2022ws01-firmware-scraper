@@ -1,0 +1,17 @@
+services:
+  python_scraper:
+    build: src/
+    command: sh -c "sleep 20s ; python core.py"
+    depends_on:
+      - mysql_server
+
+  mysql_server:
+    build: mysql/
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: firmware
+      MYSQL_USER: amos
+      MYSQL_PASSWORD: AMOSroot

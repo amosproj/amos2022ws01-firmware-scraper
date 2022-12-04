@@ -1,19 +1,34 @@
-"""
-Core module for firmware scraper
-"""
 
 import datetime
-# Standard Libraries
 import json
 import time
 from urllib.request import urlopen
 
+import schedule
 from tqdm import tqdm
 
 from db_connector import DBConnector
 from logger import create_logger
+from scheduler import check_schedule
+from Vendors import AVMScraper, SchneiderElectricScraper
+
+"""
+Core module for firmware scraper
+"""
+
+# Standard Libraries
+
+
 # Vendor Modules
-from Vendors import AVMScraper, SchneiderElectricScraper, Synology_scraper
+
+# Initialize logger
+logger = create_logger()
+
+# Initialize vendor_dict
+vendor_dict = {
+    "AVM": AVMScraper(logger=logger),
+    "Schneider": SchneiderElectricScraper(logger=logger, max_products=10)
+}
 
 
 class Core:
@@ -33,7 +48,6 @@ class Core:
             self.db.insert_products(metadata)
 
     def compare_products(self):
-
         pass
 
     def download_firmware(self):
@@ -48,10 +62,22 @@ class Core:
         self.logger.important("Download done.")
 
 
+def start_scheduler():
+    vendor_list = check_schedule(logger=logger, vendor_dict=vendor_dict)
+
+    core = Core(
+        vendor_list=vendor_list,
+        logger=logger,
+    )
+    core.get_product_catalog()
+
+
 if __name__ == "__main__":
 
-    logger = create_logger()
-    logger.debug("Start firmware scraper.")
-    core = Core(
-        [Synology_scraper(logger=logger, max_products=10)],  logger=logger)
-    core.get_product_catalog()
+    schedule.every(5).seconds.do(start_scheduler)
+    # schedule.every().day.at("00:00").do(check_schedule)
+    while True:
+        print("running --- " + str(datetime.datetime.now()))
+        schedule.run_pending()
+        time.sleep(1)
+        # time.sleep(60)

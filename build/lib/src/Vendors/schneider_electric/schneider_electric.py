@@ -20,8 +20,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
-from logger import create_logger
-from Vendors.scraper import Scraper
+from src.Vendors.scraper import Scraper
 
 DOWNLOAD_URL_GLOBAL = (
     "https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware"
@@ -55,12 +54,7 @@ class SchneiderElectricScraper(Scraper):
         elements = product_page.find_elements(by=by, value=value)
 
         # if multiple elements are found using one selector, we return None, as we don't know if we found the right one
-        if len(elements) > 1:
-            return None
-        elif len(elements) == 1:
-            return elements[0]
-        else:
-            return None
+        return None if len(elements) > 1 or len(elements) != 1 else elements[0]
 
     def _identify_downloads(self, product_page: WebElement) -> (list, list):
         CSS_SELECTOR_DOWNLOAD_URL = ".file-download"
@@ -186,7 +180,9 @@ class SchneiderElectricScraper(Scraper):
                 extracted_data += firmware_items
 
         self.logger.info(
-            f"Finished scraping metadata of firmware products. Return metadata to core.")
+            "Finished scraping metadata of firmware products. Return metadata to core.")
+
+        self.driver.quit()
         return extracted_data
 
 
@@ -202,7 +198,7 @@ def _download(firmware_data: list[dict], max_no_downloads: int):
 
 
 if __name__ == "__main__":
-    logger = create_logger()
+    #logger = create_logger("SchneiderElectric")
     scraper = SchneiderElectricScraper(
         logger, DOWNLOAD_URL_GLOBAL, max_products=20)
     firmware_data = scraper.scrape_metadata()

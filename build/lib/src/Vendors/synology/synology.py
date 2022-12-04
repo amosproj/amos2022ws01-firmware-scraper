@@ -1,17 +1,18 @@
 # # Import packages
 
-from typing import Optional, Tuple, Union
+from typing import Optional, Tuple
 from urllib.request import urlopen
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
+
+from ..scraper import Scraper
 
 # # STATICS
 VENDOR_URL = 'https://www.synology.com/en-global/support/download/'
@@ -25,19 +26,16 @@ DOWNLOAD_PATH = 'test/'
 
 # Selenium Webdriver Options, Download Path, Headless, Screensize, Webbrowser Version
 options = Options()
+options.headless = True
 
-user_agent = 'Synology Download Assistant/1.0'
-options.add_argument(f'user-agent={user_agent}')
+options.add_experimental_option("prefs", {
+    "download.default_directory": rf"{DOWNLOAD_PATH}"
+})
+
 # # Initialize Chrome and open Vendor Website
-options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
-chrome_prefs = {}
-options.experimental_options["prefs"] = chrome_prefs
-chrome_prefs["profile.default_content_settings"] = {"images": 2}
 
 
-class Synology_scraper():
+class Synology_scraper(Scraper):
 
     def __init__(
             self,
@@ -59,7 +57,6 @@ class Synology_scraper():
         self.current_product_line = ''
         self.current_product = ''
         self.last_checksum = ''
-        self.current_release_note_url = ''
 
     def _create_product_catalog(self) -> dict:
         """clicks once through all product lines and products and saves them in a dict
@@ -97,7 +94,7 @@ class Synology_scraper():
         # set current product line
         self.current_product_line = product_line
 
-    def _choose_product(self, product: str) -> None:
+    def _choose_product(self, product: str) -> Tuple[str, str]:
         """selects product on vendor website after selecting product line
 
         Args:
@@ -108,10 +105,6 @@ class Synology_scraper():
             By.XPATH, value=f'{SELECTOR_PRODUCT}')).select_by_visible_text(product)
         self.driver.implicitly_wait(1)
 
-    def _has_numbers(self, input_string: str) -> bool:
-        # helper function to check if string contains numbers -> then DSM is available
-        return any(char.isdigit() for char in input_string)
-
     def _find_DSM_OS_Version(self) -> Optional[str]:
         """finds newest DSM OS version for selected product
 
@@ -119,12 +112,11 @@ class Synology_scraper():
             Optional[str]: newest DSM OS version or None if not found
         """
         try:
-            self.driver.implicitly_wait(1)
-            # return DSM newest OS Version
-            dsm_element = self.driver.find_element(
-                By.XPATH, value=f'{SELECTOR_NEWEST_OS}').text
-            # if any(char.isdigit() for char in inputString)
-            return dsm_element if self._has_numbers(dsm_element) else None
+            WebDriverWait(self.driver, timeout=3).until(self.driver.find_element(
+                By.XPATH, value=f'{SELECTOR_NEWEST_OS}'))
+            # return DSM newest OS Version and current URL
+            return self.driver.find_element(
+                By.XPATH, value=f'{SELECTOR_NEWEST_OS}').text, self.driver.current_url
         except Exception as e:
             self.logger.debug(
                 f'Could not find DSM OS for {self.current_product}, {self.driver.current_url}')
@@ -147,14 +139,12 @@ class Synology_scraper():
             self.logger.debug(e)
             return None
 
-    def _open_website(self, url: str = '') -> None:
+    def _open_website(self) -> None:
         try:
-            if not url:
-                url = self.url
-            self.driver.get(url)
-            self.logger.success(f'Opened Synology website {url}')
+            self.driver.get(self.url)
+            self.logger.success('Opened Synology website')
         except Exception as e:
-            self.logger.error(f"Could not open Synology website {url}!")
+            self.logger.error("Could not open Synology website!")
             self.logger.error(e)
 
     def _find_download_link(self) -> Optional[str]:
@@ -164,12 +154,9 @@ class Synology_scraper():
             str or None: download link
         """
         try:
-            download_link = self.driver.find_element(
-                By.XPATH, "//*[text()='Download']").get_attribute('href')
-            return None if download_link.endswith('.pdf') else download_link
+            return self.driver.find_element(By.XPATH, "//*[text()='Download']").get_attribute('href')
         except Exception as e:
-            self.logger.debug(
-                f"Download link not found for {self.driver.current_url}")
+            self.logger.debug(f"MD5 not found for {self.driver.current_url}")
             self.logger.debug(e)
             return None
 
@@ -189,83 +176,20 @@ class Synology_scraper():
                 with open(save_as, "wb") as out_file:
                     out_file.write(content)
 
-    def _close_website(self) -> None:
-        self.driver.close()
-        self.logger.success('Closes Window')
-
-    def _get_release_url(self) -> Optional[str]:
-        """gets release url for selected product
-
-        Returns:
-            str: release url
-        """
-        try:
-            # TODO have to wait here, as some pages are loaded too slow
-            # unfortunately, sometimes it is too slow and the element is not found
-            # and
-            self.driver.implicitly_wait(2)
-            # return URL in Text Release Note
-            self.current_release_note_url = self.driver.find_element(
-                By.XPATH, "//*[text()='Release Note']").get_attribute('href')
-            return self.current_release_note_url
-        except Exception as e:
-            self.current_release_note_url = ''
-            self.logger.debug(
-                f'Could not find Release Note on {self.driver.current_url}')
-            self.logger.debug(e)
-            return None
-
-    def _get_release_date_and_fw_version(self) -> Optional[str]:
+    def _get_release_date(self) -> Optional[str]:
         """gets release date for selected product
 
         Returns:
             str: release date
         """
         try:
-            #
-            if self.current_release_note_url == '':
-                self.logger.debug(
-                    f'Could not find Release Note on {self.driver.current_url}')
-                return None, None
-            # Save the current window
-            original_window = self.driver.current_window_handle
-            assert len(self.driver.window_handles) == 1
-            self.logger.debug('Open new tab')
-            self.driver.switch_to.new_window(self.current_release_note_url)
-            self.logger.debug('Open Release Page in new tab')
-            self._open_website(self.current_release_note_url)
-            # send chrome keys to open new tab
-            self.logger.debug('Wait until number of windows is 2')
-            WebDriverWait(self.driver, 3).until(EC.number_of_windows_to_be(2))
-            self.logger.debug('2 windows opened')
-            try:
-                # find Release Note in new window
-                self.logger.debug('Get release date and return')
-                html_str = self.driver.find_element(
-                    By.CSS_SELECTOR, '#release_notes_content > div.container.margin_bottom80.margin_top80').get_attribute('innerHTML')
-                start, end = '<div>', '</div>'
-                release_date = html_str[html_str.find(start)+len(start):html_str.rfind(
-                    end)].split('\n')[0].replace('</div>', '').replace('(', '').replace(')', '')
-                version_str = self.driver.find_element(By.TAG_NAME, 'h3').text
-                return release_date, version_str
-            except Exception as e:
-                self.logger.debug(
-                    f'Could not find Release Note on {self.driver.current_url}')
-                self.logger.debug(e)
-                return None, None
-            finally:
-                self.logger.debug('Close new tab')
-                self.driver.close()
-                self.logger.debug('Switch to original tab')
-                self.driver.switch_to.window(original_window)
-                assert len(self.driver.window_handles) == 1
+            return self.driver.find_element(
+                By.XPATH, value=SELECTOR_RELEASE_DATE).text
         except Exception as e:
-            self.driver.close()
-            self.driver.switch_to.window(original_window)
             self.logger.debug(
                 f'Could not find release date in {self.current_product_line}, {self.current_product}, {self.driver.current_url}')
             self.logger.debug(e)
-            return None, None
+            return None
 
     def scrape_metadata(self) -> list[dict]:
         """function that gets executed from Core.py to scrape metadata
@@ -283,21 +207,19 @@ class Synology_scraper():
         for product_line in product_catalog.keys():
             self._choose_product_line(product_line)
             for product in tqdm(product_catalog[product_line]):
+                self._choose_product(product)
+                metadata.append({'manufacturer': 'Synology',
+                                 'product_type': product_line,
+                                 'product_name': product,
+                                 'url': self.driver.current_url,
+                                 'dsm': self._find_DSM_OS_Version(),
+                                 'checksum_scraped': self._get_MD5_checksum(),
+                                 'release_url': self._get_release_url(),
+                                 'release_date': self._get_release_date(),
+                                 'download_link': self._find_download_link()
+                                 })
                 if len(metadata) > self.max_products:
                     break
-                self._choose_product(product)
-                tmp_metadata_dict = {'manufacturer': 'Synology',
-                                     'product_type': product_line,
-                                     'product_name': product,
-                                     'url': self.driver.current_url,
-                                     'dsm': self._find_DSM_OS_Version(),
-                                     'checksum_scraped': self._get_MD5_checksum(),
-                                     'download_link': self._find_download_link()
-                                     }
-                tmp_metadata_dict['release_url'] = self._get_release_url()
-                tmp_metadata_dict['release_date'], tmp_metadata_dict['version'] = self._get_release_date_and_fw_version(
-                )
-                metadata.append(tmp_metadata_dict)
             self.logger.success(f'Scraped metadata for {product_line}')
         self.logger.success('Scraped metadata for all products')
         self.driver.quit()
@@ -312,9 +234,12 @@ if __name__ == '__main__':
 
     logger.success('Start Synology')
     Syn = Synology_scraper(logger)
+    # Syn._open_website()
+    # product_catalog = Syn._create_product_catalog()
+
     metadata = Syn.scrape_metadata()
 
-    # save metadata to json file
+    #
     with open("test/files/firmware_data_Synology.json", "w") as firmware_file:
         json.dump(metadata, firmware_file)
 
