@@ -27,12 +27,14 @@ DOWNLOAD_PATH = 'test/'
 
 # Selenium Webdriver Options, Download Path, Headless, Screensize, Webbrowser Version
 options = Options()
-options.headless = False
+options.headless = True
 
 options.add_experimental_option("prefs", {
     "download.default_directory": rf"{DOWNLOAD_PATH}"
 })
 
+user_agent = 'Synology Download Assistant/1.0'
+options.add_argument(f'user-agent={user_agent}')
 # # Initialize Chrome and open Vendor Website
 
 
