@@ -28,10 +28,11 @@ class AVMScraper:
             self.driver.get(self.url)
             self.logger.info("Connected Successfully!")
         except Exception as e:
-            self.logger.info(e + ": Could not connect to AVM!")
+            self.logger.exception("Could not connect to AVM!")
+            raise (e)
 
     # List available firmware downloads
-    def scrape_metadata(self) -> list:
+    def scrape_metadata(self, max_products: int) -> list:
 
         self.connect_webdriver()
 
@@ -93,6 +94,9 @@ class AVMScraper:
                 firmware_item["download_link"] = self.url + file
                 firmware_item["product_type"] = value.strip("/").split("/")[0]
                 self.catalog.append(firmware_item)
+
+            if len(self.catalog) - 1 >= max_products:
+                break
 
             sub_elems = [
                 elem.get_property("pathname")
