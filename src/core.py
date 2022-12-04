@@ -10,7 +10,6 @@ from urllib.request import urlopen
 from tqdm import tqdm
 
 from db_connector import DBConnector
-
 # Vendor Modules
 from Vendors import AVMScraper, SchneiderElectricScraper
 
