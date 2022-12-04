@@ -170,5 +170,5 @@ if __name__ == "__main__":
     AVM = AVMScraper(logger=logger)
     firmware_data = AVM.scrape_metadata()
 
-    with open("../../../test/files/firmware_data_AVM.json", "w") as firmware_file:
+    with open("../../../scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
