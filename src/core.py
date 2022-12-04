@@ -6,20 +6,20 @@ Core module for firmware scraper
 import json
 from urllib.request import urlopen
 import time
-import schedule
+import math
 import datetime
 from tqdm import tqdm
+import pandas as pd
 
 from db_connector import DBConnector
 from logger import create_logger
+
 # Vendor Modules
 from Vendors import AVMScraper, SchneiderElectricScraper, Synology_scraper
 
-# Initialize vendor_dict
-vendor_dict = {
-    "AVM": AVMScraper(logger=logger),
-    "Schneider": SchneiderElectricScraper(logger=logger, max_products=10)
-}
+
+#Initialize logger
+logger = create_logger()
 
 
 class Core:
@@ -54,23 +54,38 @@ class Core:
         self.logger.important("Download done.")
 
 
-if __name__ == '__main__':
+def check_vendors_to_update(schedule_file):
+    with open("config.json") as config_file:
+        config = json.load(config_file)
 
+    vendor_list = []
 
-def start_scheduler():
-    vendor_list = check_schedule(logger=logger, vendor_dict=vendor_dict)
+    now = datetime.datetime.now().date()
+    schedule_file["Next_update"] = pd.to_datetime(schedule_file["Next_update"]).dt.date
+    todays_schedule = schedule_file[schedule_file["Next_update"] <= now]
 
-    #core = Core([SchneiderElectricScraper(max_products=10)])
-    core = Core([Synology_scraper(max_products=8)])
-    core.get_product_catalog()
+    for index, row in todays_schedule.iterrows():
+        if math.isnan(row["max_products"]):
+            vendor_list.append(globals()[row["Vendor_class"]](logger = logger))
+        else:
+            vendor_list.append(globals()[row["Vendor_class"]](logger = logger, max_products = int(row["max_products"])))
+
+        next_update = row["Last_update"] + datetime.timedelta(days=row["Intervall"])
+        schedule_file.at[index, "Last_update"] = now
+        schedule_file.at[index, "Next_update"] = next_update
+
+    schedule_file.to_excel("schedule.xlsx", index=False)
+
+    return vendor_list
 
 
 if __name__ == "__main__":
+    schedule_file = pd.read_excel("schedule.xlsx")
+    vendor_list = check_vendors_to_update(schedule_file = schedule_file)
 
-    schedule.every(5).seconds.do(start_scheduler)
-    # schedule.every().day.at("00:00").do(check_schedule)
-    while True:
-        print("running --- " + str(datetime.datetime.now()))
-        schedule.run_pending()
-        time.sleep(1)
-        # time.sleep(60)
+    core = Core(
+        vendor_list=vendor_list,
+        logger=logger,
+    )
+
+    core.get_product_catalog()
