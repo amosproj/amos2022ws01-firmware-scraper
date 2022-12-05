@@ -266,7 +266,7 @@ class DBConnector:
 if __name__ == "__main__":
     db = DBConnector()
 
-    with open("../test/files/firmware_data_schneider.json", "r") as file:
+    with open("../scraped_metadata/firmware_data_schneider.json", "r") as file:
         test_data = json.loads(file.read())
 
     # insert schneider test_data into DB

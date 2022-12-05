@@ -59,7 +59,7 @@ Message guide:
     - INFO - Scanned product X - downloaded metadata
     - INFO - Scan finished - return metadata  to core
 
-    - INFO -
+    - IMPORTANT - Scan started in Vendor X.py
     - WARNING -
 
 
@@ -72,11 +72,19 @@ Since different vendors will create different problems, please check beforehand 
 
 import logging
 from pathlib import Path
+from functools import partial, partialmethod
 
-def create_logger(name):
+#Add custom level "IMPORTANT" (between INFO and WARNING)
+logging.IMPORTANT = 25
+logging.addLevelName(logging.IMPORTANT, 'Important')
+logging.Logger.important = partialmethod(logging.Logger.log, logging.IMPORTANT)
+logging.important = partial(logging.log, logging.IMPORTANT)
+
+
+def create_logger():
     file_path = str(Path(__file__).parent) + "/logs.log"
 
-    logger = logging.getLogger(name)
+    logger = logging.getLogger("scraper")
     logger.setLevel(logging.INFO)
 
     format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -85,14 +93,10 @@ def create_logger(name):
     file_handler.setFormatter(format)
 
     stream_handler = logging.StreamHandler()
-    stream_handler.setLevel(logging.WARNING)
+    stream_handler.setLevel(logging.IMPORTANT)
     stream_handler.setFormatter(format)
 
     logger.addHandler(file_handler)
     logger.addHandler(stream_handler)
 
     return logger
-
-logger = create_logger("logger.py")
-logger.warning("logger warning Test")
-logger.info("logger info Test")

@@ -1,0 +1,1727 @@
+2022-11-23 11:37:05,540 - logger.py - WARNING - logger warning Test
+2022-11-23 11:37:05,540 - logger.py - INFO - logger info Test
+2022-11-23 11:37:05,541 - asus.py - WARNING - Asus warning Test
+2022-11-23 11:37:05,541 - asus.py - INFO - Asus info Test
+2022-11-23 12:44:21,217 - logger.py - WARNING - logger warning Test
+2022-11-23 12:44:21,218 - logger.py - INFO - logger info Test
+2022-11-23 12:44:21,218 - asus.py - WARNING - Asus warning Test
+2022-11-23 12:44:21,218 - asus.py - INFO - Asus info Test
+2022-11-28 20:03:13,206 - logger.py - WARNING - logger warning Test
+2022-11-28 20:03:13,206 - logger.py - INFO - logger info Test
+2022-11-28 20:03:13,206 - asus.py - WARNING - Asus warning Test
+2022-11-28 20:03:13,206 - asus.py - INFO - Asus info Test
+2022-11-28 21:07:40,944 - logger.py - WARNING - logger warning Test
+2022-11-28 21:07:40,944 - logger.py - INFO - logger info Test
+2022-11-28 21:08:07,872 - logger.py - WARNING - logger warning Test
+2022-11-28 21:08:07,872 - logger.py - INFO - logger info Test
+2022-11-28 21:08:17,720 - logger.py - WARNING - logger warning Test
+2022-11-28 21:08:17,721 - logger.py - INFO - logger info Test
+2022-11-28 21:10:20,421 - logger.py - WARNING - logger warning Test
+2022-11-28 21:10:20,421 - logger.py - INFO - logger info Test
+2022-11-28 21:10:20,421 - logger.py - TRACE - logger info Trace
+2022-11-28 21:10:51,666 - logger.py - WARNING - logger warning Test
+2022-11-28 21:10:51,666 - logger.py - INFO - logger info Test
+2022-11-28 21:10:51,667 - logger.py - Important - logger info Trace
+2022-11-28 21:12:14,325 - logger.py - WARNING - logger warning Test
+2022-11-28 21:12:14,325 - logger.py - INFO - logger info Test
+2022-11-28 21:12:32,289 - logger.py - WARNING - logger warning Test
+2022-11-28 21:12:32,289 - logger.py - INFO - logger info Test
+2022-11-28 21:12:47,471 - logger.py - WARNING - logger warning Test
+2022-11-28 21:12:47,471 - logger.py - INFO - logger info Test
+2022-11-28 21:12:47,471 - logger.py - Important - logger info important
+2022-11-28 22:20:41,311 - logger.py - WARNING - logger warning Test
+2022-11-28 22:20:41,311 - logger.py - INFO - logger info Test
+2022-11-28 22:20:41,311 - logger.py - Important - logger info important
+2022-11-28 22:20:41,312 - asus.py - WARNING - Scheduler warning Test
+2022-11-28 22:20:41,312 - asus.py - INFO - Scheduler info Test
+2022-11-28 22:20:41,312 - asus.py - Important - Scheduler important Test
+2022-11-28 22:21:05,875 - logger.py - WARNING - logger warning Test
+2022-11-28 22:21:05,876 - logger.py - INFO - logger info Test
+2022-11-28 22:21:05,876 - logger.py - Important - logger info important
+2022-11-28 22:21:05,876 - asus.py - WARNING - Scheduler warning Test
+2022-11-28 22:21:05,876 - asus.py - INFO - Scheduler info Test
+2022-11-28 22:21:05,876 - asus.py - Important - Scheduler important Test
+2022-11-28 22:24:17,601 - logger.py - WARNING - logger warning Test
+2022-11-28 22:24:17,601 - logger.py - INFO - logger info Test
+2022-11-28 22:24:17,601 - logger.py - Important - logger info important
+2022-11-29 16:27:29,692 - logger.py - WARNING - logger warning Test
+2022-11-29 16:27:29,693 - logger.py - INFO - logger info Test
+2022-11-29 16:27:29,693 - logger.py - Important - logger info important
+2022-11-29 16:28:05,910 - logger.py - WARNING - logger warning Test
+2022-11-29 16:28:05,910 - logger.py - INFO - logger info Test
+2022-11-29 16:28:05,910 - logger.py - Important - logger info important
+2022-11-29 23:26:06,467 - logger.py - WARNING - logger warning Test
+2022-11-29 23:26:06,467 - logger.py - INFO - logger info Test
+2022-11-29 23:26:06,468 - logger.py - Important - logger info important
+2022-11-29 23:26:19,702 - logger.py - WARNING - logger warning Test
+2022-11-29 23:26:19,702 - logger.py - INFO - logger info Test
+2022-11-29 23:26:19,702 - logger.py - Important - logger info important
+2022-11-29 23:26:23,966 - scraper - Important - Start scraping.
+2022-11-29 23:26:23,966 - scraper - Important - Start AVMScraper.
+2022-11-29 23:26:24,070 - scraper - INFO - Connected Successfully!
+2022-11-29 23:26:24,070 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 22:28:48,808 - scraper - WARNING - logger warning Test
+2022-11-29 22:28:48,808 - scraper - INFO - logger info Test
+2022-11-29 22:28:48,808 - scraper - Important - logger info important
+2022-11-29 23:10:38,510 - scraper - Important - Start scraping.
+2022-11-29 23:10:38,510 - scraper - Important - Start AVMScraper.
+2022-11-29 23:10:38,627 - scraper - INFO - Connected Successfully!
+2022-11-29 23:10:38,627 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:11:00,184 - scraper - Important - Start scraping.
+2022-11-29 23:11:00,184 - scraper - Important - Start AVMScraper.
+2022-11-29 23:11:00,287 - scraper - INFO - Connected Successfully!
+2022-11-29 23:11:00,287 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:12:02,767 - scraper - Important - Start scraping.
+2022-11-29 23:12:07,837 - scraper - Important - Start scraping.
+2022-11-29 23:12:12,900 - scraper - Important - Start scraping.
+2022-11-29 23:12:17,958 - scraper - Important - Start scraping.
+2022-11-29 23:12:23,015 - scraper - Important - Start scraping.
+2022-11-29 23:12:28,084 - scraper - Important - Start scraping.
+2022-11-29 23:12:33,150 - scraper - Important - Start scraping.
+2022-11-29 23:28:14,453 - scraper - Important - Start scraping.
+2022-11-29 23:28:14,454 - scraper - Important - Start AVMScraper.
+2022-11-29 23:28:24,288 - scraper - Important - Start scraping.
+2022-11-29 23:28:24,288 - scraper - Important - Start AVMScraper.
+2022-11-29 23:28:24,393 - scraper - INFO - Connected Successfully!
+2022-11-29 23:28:24,393 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:29:23,549 - scraper - Important - Start scraping.
+2022-11-29 23:29:23,550 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:29:24,857 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:29:26,520 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:29:26,520 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:29:27,967 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:29:28,431 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:29:29,212 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:29:29,904 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:29:30,440 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:29:30,944 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:29:33,404 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:29:33,978 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2'.
+2022-11-29 23:29:35,416 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:29:35,416 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:29:37,535 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:29:37,535 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:31:40,650 - scraper - Important - Start scraping.
+2022-11-29 23:31:45,694 - scraper - Important - Start scraping.
+2022-11-29 23:31:50,758 - scraper - Important - Start scraping.
+2022-11-29 23:31:55,804 - scraper - Important - Start scraping.
+2022-11-29 23:32:37,727 - scraper - Important - Start scraping.
+2022-11-29 23:32:37,727 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:32:38,948 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:32:40,182 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:32:40,183 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:32:41,167 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:32:41,632 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:32:42,136 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:32:42,668 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:32:43,190 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:32:43,747 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:32:44,221 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:32:44,769 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2
+information_stroke'.
+2022-11-29 23:32:45,984 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:32:45,984 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:32:48,099 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:32:48,099 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:35:55,284 - scraper - Important - Start scraping.
+2022-11-29 23:35:55,284 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:35:56,381 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:35:57,609 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:35:57,609 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:35:58,843 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:35:59,324 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:35:59,819 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:36:15,392 - scraper - Important - Start scraping.
+2022-11-29 23:36:15,392 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:36:16,431 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:36:17,706 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:36:17,706 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:36:18,917 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:36:19,408 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:36:19,957 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:36:20,576 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:36:21,240 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:36:21,717 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:36:22,280 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:36:22,813 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2
+information_stroke'.
+2022-11-29 23:36:23,845 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:36:23,845 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:36:25,971 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:36:25,971 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:41:39,084 - scraper - Important - Start scraping.
+2022-11-29 23:41:39,084 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:41:40,147 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:41:41,424 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:41:41,424 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:41:42,636 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:41:43,061 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:41:43,588 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:41:44,253 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:41:45,009 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:41:45,467 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:41:45,934 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:41:46,423 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2
+information_stroke'.
+2022-11-29 23:41:47,763 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:41:47,763 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:41:49,885 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:41:49,885 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:43:29,250 - scraper - Important - Start scraping.
+2022-11-29 23:43:29,250 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:43:30,709 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:43:32,062 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:43:32,062 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:43:33,358 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:43:33,821 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:43:34,361 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:43:34,924 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:43:35,626 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:43:36,158 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:43:36,700 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-29 23:43:37,215 - scraper - INFO - Scraped product 'NetBotz Firmware v4.7.2
+information_stroke'.
+2022-11-29 23:43:38,372 - scraper - INFO - Scraped product 'C-Bus Firmware for 5500NAC2 Automation Controller V1.12.0'.
+2022-11-29 23:43:38,372 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-29 23:43:40,501 - scraper - Important - SchneiderElectricScraper done.
+2022-11-29 23:43:40,501 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-29 23:45:42,879 - scraper - Important - Start scraping.
+2022-11-29 23:45:42,880 - scraper - Important - Start AVMScraper.
+2022-11-29 23:45:42,979 - scraper - INFO - Connected Successfully!
+2022-11-29 23:45:42,979 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:47:12,441 - scraper - Important - Start scraping.
+2022-11-29 23:47:17,513 - scraper - Important - Start scraping.
+2022-11-29 23:47:47,497 - scraper - Important - Start scraping.
+2022-11-29 23:47:47,497 - scraper - Important - Start AVMScraper.
+2022-11-29 23:47:47,610 - scraper - INFO - Connected Successfully!
+2022-11-29 23:47:47,610 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-29 23:47:47,700 - scraper - INFO - Searching /fritzbox/
+2022-11-29 23:47:48,489 - scraper - INFO - Searching /fritzdect/
+2022-11-29 23:47:48,661 - scraper - INFO - Searching /fritzfon/
+2022-11-29 23:47:48,796 - scraper - INFO - Searching /fritzpowerline/
+2022-11-29 23:47:49,067 - scraper - INFO - Searching /fritzwlan/
+2022-11-29 23:47:49,399 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/
+2022-11-29 23:47:49,481 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/
+2022-11-29 23:47:49,576 - scraper - INFO - Searching /fritzbox/beta/
+2022-11-29 23:47:49,691 - scraper - INFO - Searching /fritzbox/fritzbox-3272/
+2022-11-29 23:47:49,787 - scraper - INFO - Searching /fritzbox/fritzbox-3490/
+2022-11-29 23:47:49,885 - scraper - INFO - Searching /fritzbox/fritzbox-4020/
+2022-11-29 23:47:49,980 - scraper - INFO - Searching /fritzbox/fritzbox-4040/
+2022-11-29 23:47:50,074 - scraper - INFO - Searching /fritzbox/fritzbox-4060/
+2022-11-29 23:47:50,162 - scraper - INFO - Searching /fritzbox/fritzbox-5490/
+2022-11-29 23:47:50,263 - scraper - INFO - Searching /fritzbox/fritzbox-5491/
+2022-11-29 23:47:50,376 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/
+2022-11-29 23:47:50,465 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/
+2022-11-29 23:47:50,544 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/
+2022-11-29 23:47:50,625 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/
+2022-11-29 23:47:50,713 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/
+2022-11-29 23:47:50,813 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/
+2022-11-29 23:47:50,917 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/
+2022-11-29 23:47:51,029 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/
+2022-11-29 23:47:51,123 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/
+2022-11-29 23:47:51,212 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/
+2022-11-29 23:47:51,314 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/
+2022-11-29 23:47:51,418 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/
+2022-11-29 23:47:51,513 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/
+2022-11-29 23:47:51,609 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/
+2022-11-29 23:47:51,683 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/
+2022-11-29 23:47:51,781 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/
+2022-11-29 23:47:51,877 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/
+2022-11-29 23:47:51,990 - scraper - INFO - Searching /fritzbox/fritzbox-7272/
+2022-11-29 23:47:52,086 - scraper - INFO - Searching /fritzbox/fritzbox-7312/
+2022-11-29 23:47:52,166 - scraper - INFO - Searching /fritzbox/fritzbox-7360/
+2022-11-29 23:47:52,264 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/
+2022-11-29 23:47:52,377 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/
+2022-11-29 23:47:52,481 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/
+2022-11-29 23:47:52,587 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/
+2022-11-29 23:47:52,674 - scraper - INFO - Searching /fritzbox/fritzbox-7369/
+2022-11-29 23:47:52,785 - scraper - INFO - Searching /fritzbox/fritzbox-7390/
+2022-11-29 23:47:52,911 - scraper - INFO - Searching /fritzbox/fritzbox-7412/
+2022-11-29 23:47:52,993 - scraper - INFO - Searching /fritzbox/fritzbox-7430/
+2022-11-29 23:47:53,120 - scraper - INFO - Searching /fritzbox/fritzbox-7490/
+2022-11-29 23:47:53,243 - scraper - INFO - Searching /fritzbox/fritzbox-7510/
+2022-11-29 23:47:53,351 - scraper - INFO - Searching /fritzbox/fritzbox-7520/
+2022-11-29 23:47:53,441 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/
+2022-11-29 23:47:53,531 - scraper - INFO - Searching /fritzbox/fritzbox-7530/
+2022-11-29 23:47:53,655 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/
+2022-11-29 23:47:53,762 - scraper - INFO - Searching /fritzbox/fritzbox-7560/
+2022-11-29 23:47:53,874 - scraper - INFO - Searching /fritzbox/fritzbox-7580/
+2022-11-29 23:47:53,963 - scraper - INFO - Searching /fritzbox/fritzbox-7581/
+2022-11-29 23:47:54,061 - scraper - INFO - Searching /fritzbox/fritzbox-7582/
+2022-11-29 23:47:54,156 - scraper - INFO - Searching /fritzbox/fritzbox-7583/
+2022-11-29 23:47:54,267 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/
+2022-11-29 23:47:54,379 - scraper - INFO - Searching /fritzbox/fritzbox-7590/
+2022-11-29 23:47:54,517 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/
+2022-11-29 23:47:54,626 - scraper - INFO - Searching /fritzbox/tools/
+2022-11-29 23:47:54,727 - scraper - INFO - Searching /fritzdect/fritzdect-100/
+2022-11-29 23:47:54,846 - scraper - INFO - Searching /fritzdect/fritzdect-200/
+2022-11-29 23:47:54,958 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-11-29 23:47:55,072 - scraper - INFO - Searching /fritzdect/fritzdect-301/
+2022-11-29 23:47:55,196 - scraper - INFO - Searching /fritzdect/fritzdect-302/
+2022-11-29 23:47:55,301 - scraper - INFO - Searching /fritzdect/fritzdect-400/
+2022-11-29 23:47:55,407 - scraper - INFO - Searching /fritzdect/fritzdect-440/
+2022-11-29 23:47:55,522 - scraper - INFO - Searching /fritzdect/fritzdect-500/
+2022-11-29 23:47:55,641 - scraper - INFO - Searching /fritzfon/fritzfon-c4/
+2022-11-29 23:47:55,759 - scraper - INFO - Searching /fritzfon/fritzfon-c5/
+2022-11-29 23:47:55,906 - scraper - INFO - Searching /fritzfon/fritzfon-c6/
+2022-11-29 23:47:56,018 - scraper - INFO - Searching /fritzfon/fritzfon-m2/
+2022-11-29 23:47:56,129 - scraper - INFO - Searching /fritzfon/fritzfon-x6/
+2022-11-29 23:47:56,227 - scraper - INFO - Searching /fritzpowerline/beta/
+2022-11-29 23:47:56,356 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/
+2022-11-29 23:47:56,479 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/
+2022-11-29 23:47:56,601 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/
+2022-11-29 23:47:56,733 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/
+2022-11-29 23:47:56,865 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/
+2022-11-29 23:47:57,001 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/
+2022-11-29 23:47:57,130 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/
+2022-11-29 23:47:57,242 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/
+2022-11-29 23:47:57,393 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/
+2022-11-29 23:47:57,534 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/
+2022-11-29 23:47:57,675 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/
+2022-11-29 23:47:57,772 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/
+2022-11-29 23:47:57,878 - scraper - INFO - Searching /fritzpowerline/tools/
+2022-11-29 23:47:57,958 - scraper - INFO - Searching /fritzwlan/beta/
+2022-11-29 23:47:58,036 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/
+2022-11-29 23:47:58,130 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/
+2022-11-29 23:47:58,231 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/
+2022-11-29 23:47:58,335 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/
+2022-11-29 23:47:58,440 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/
+2022-11-29 23:47:58,543 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/
+2022-11-29 23:47:58,638 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/
+2022-11-29 23:47:58,743 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/
+2022-11-29 23:47:58,838 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/
+2022-11-29 23:47:58,942 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/
+2022-11-29 23:47:59,039 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/
+2022-11-29 23:47:59,144 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/
+2022-11-29 23:47:59,241 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/
+2022-11-29 23:47:59,347 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/
+2022-11-29 23:47:59,443 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/
+2022-11-29 23:47:59,540 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/
+2022-11-29 23:47:59,649 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/
+2022-11-29 23:47:59,760 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/
+2022-11-29 23:47:59,857 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/deutschland/
+2022-11-29 23:47:59,934 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/
+2022-11-29 23:48:00,021 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/other/
+2022-11-29 23:48:00,102 - scraper - INFO - Searching /fritzbox/beta/frisch-aus-der-entwicklung/
+2022-11-29 23:48:00,161 - scraper - INFO - Searching /fritzbox/beta/international/
+2022-11-29 23:48:00,220 - scraper - INFO - Searching /fritzbox/beta/netze/
+2022-11-29 23:48:00,285 - scraper - INFO - Searching /fritzbox/beta/wartung/
+2022-11-29 23:48:00,357 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/
+2022-11-29 23:48:48,268 - scraper - Important - Start scraping.
+2022-11-29 23:48:48,268 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-29 23:48:49,227 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-29 23:48:50,416 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-29 23:48:50,416 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-29 23:48:51,605 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-29 23:48:52,021 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-29 23:48:52,574 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-29 23:48:53,166 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-29 23:48:53,781 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-29 23:48:54,266 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-29 23:48:54,718 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 08:17:34,226 - scraper - Important - Start scraping.
+2022-11-30 08:17:34,226 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 08:17:41,827 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 08:20:18,328 - scraper - Important - Start scraping.
+2022-11-30 08:20:18,328 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 08:20:19,744 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 08:20:28,405 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 08:20:28,405 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 08:20:32,118 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 08:20:34,777 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 08:20:37,208 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 08:20:39,559 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 08:20:40,027 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 08:20:42,611 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 08:20:45,092 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 08:20:47,486 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 08:20:49,809 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 08:20:52,195 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 08:20:52,195 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 08:20:54,318 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 08:20:54,318 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-30 08:24:53,434 - scraper - Important - Start scraping.
+2022-11-30 08:24:53,435 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 08:24:54,494 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 08:24:55,767 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 08:24:55,767 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 08:24:57,114 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 08:24:57,881 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 08:24:58,364 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 08:24:58,937 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 08:24:59,497 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 08:24:59,987 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 08:25:00,462 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 08:25:01,019 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 08:25:01,592 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 08:25:02,117 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 08:25:02,117 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 08:25:04,241 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 08:25:04,241 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-30 09:18:16,781 - scraper - Important - Start scraping.
+2022-11-30 09:18:16,781 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 09:18:18,039 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 09:18:19,552 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 09:18:19,552 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 09:18:20,981 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 09:18:21,496 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 09:18:22,085 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 09:18:22,685 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 09:18:23,111 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 09:18:23,638 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 09:18:24,167 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 09:18:24,736 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 09:18:25,376 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 09:18:25,864 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 09:18:25,864 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 09:18:28,001 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 09:18:28,001 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-30 09:30:16,799 - scraper - Important - Start scraping.
+2022-11-30 09:30:16,799 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 09:30:18,563 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 09:30:19,954 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 09:30:19,954 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 09:30:22,430 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 09:30:23,341 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 09:30:24,875 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 09:30:26,838 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 09:30:28,146 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 09:30:29,275 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 09:30:30,798 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 09:30:32,264 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 09:30:33,680 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 09:30:34,293 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 09:30:34,293 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 09:30:36,425 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 09:30:36,425 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-30 09:37:03,809 - scraper - Important - Start scraping.
+2022-11-30 09:37:03,809 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 09:37:04,899 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 09:37:06,344 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 09:37:06,344 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 09:37:07,852 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 09:37:08,687 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 09:37:09,185 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 09:37:09,691 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 09:37:10,204 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 09:37:10,792 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 09:37:11,306 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 09:37:12,166 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 09:37:12,762 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 09:37:13,353 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 09:37:13,353 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 09:37:15,476 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 09:37:15,476 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-30 09:37:15,476 - scraper - Important - Start AVMScraper.
+2022-11-30 09:37:15,577 - scraper - INFO - Connected Successfully!
+2022-11-30 09:37:15,578 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-30 09:37:15,669 - scraper - INFO - Searching /fritzbox/
+2022-11-30 09:37:16,494 - scraper - INFO - Searching /fritzdect/
+2022-11-30 09:37:16,668 - scraper - INFO - Searching /fritzfon/
+2022-11-30 09:37:16,793 - scraper - INFO - Searching /fritzpowerline/
+2022-11-30 09:37:17,062 - scraper - INFO - Searching /fritzwlan/
+2022-11-30 09:37:17,402 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/
+2022-11-30 09:37:17,470 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/
+2022-11-30 09:37:17,562 - scraper - INFO - Searching /fritzbox/beta/
+2022-11-30 09:37:17,677 - scraper - INFO - Searching /fritzbox/fritzbox-3272/
+2022-11-30 09:37:17,766 - scraper - INFO - Searching /fritzbox/fritzbox-3490/
+2022-11-30 09:37:17,863 - scraper - INFO - Searching /fritzbox/fritzbox-4020/
+2022-11-30 09:37:17,948 - scraper - INFO - Searching /fritzbox/fritzbox-4040/
+2022-11-30 09:37:18,028 - scraper - INFO - Searching /fritzbox/fritzbox-4060/
+2022-11-30 09:37:18,110 - scraper - INFO - Searching /fritzbox/fritzbox-5490/
+2022-11-30 09:37:18,190 - scraper - INFO - Searching /fritzbox/fritzbox-5491/
+2022-11-30 09:37:18,276 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/
+2022-11-30 09:37:18,356 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/
+2022-11-30 09:37:18,424 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/
+2022-11-30 09:37:18,488 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/
+2022-11-30 09:37:18,567 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/
+2022-11-30 09:37:18,652 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/
+2022-11-30 09:37:18,730 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/
+2022-11-30 09:37:18,810 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/
+2022-11-30 09:37:18,890 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/
+2022-11-30 09:37:18,971 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/
+2022-11-30 09:37:19,054 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/
+2022-11-30 09:37:19,134 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/
+2022-11-30 09:37:19,218 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/
+2022-11-30 09:37:19,298 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/
+2022-11-30 09:37:19,363 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/
+2022-11-30 09:37:19,444 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/
+2022-11-30 09:37:19,527 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/
+2022-11-30 09:37:19,619 - scraper - INFO - Searching /fritzbox/fritzbox-7272/
+2022-11-30 09:37:19,698 - scraper - INFO - Searching /fritzbox/fritzbox-7312/
+2022-11-30 09:37:19,764 - scraper - INFO - Searching /fritzbox/fritzbox-7360/
+2022-11-30 09:37:19,843 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/
+2022-11-30 09:37:19,938 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/
+2022-11-30 09:37:20,030 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/
+2022-11-30 09:37:20,124 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/
+2022-11-30 09:37:20,189 - scraper - INFO - Searching /fritzbox/fritzbox-7369/
+2022-11-30 09:37:20,255 - scraper - INFO - Searching /fritzbox/fritzbox-7390/
+2022-11-30 09:37:20,338 - scraper - INFO - Searching /fritzbox/fritzbox-7412/
+2022-11-30 09:37:20,403 - scraper - INFO - Searching /fritzbox/fritzbox-7430/
+2022-11-30 09:37:20,497 - scraper - INFO - Searching /fritzbox/fritzbox-7490/
+2022-11-30 09:37:20,592 - scraper - INFO - Searching /fritzbox/fritzbox-7510/
+2022-11-30 09:37:20,675 - scraper - INFO - Searching /fritzbox/fritzbox-7520/
+2022-11-30 09:37:20,739 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/
+2022-11-30 09:37:20,808 - scraper - INFO - Searching /fritzbox/fritzbox-7530/
+2022-11-30 09:37:20,903 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/
+2022-11-30 09:37:20,986 - scraper - INFO - Searching /fritzbox/fritzbox-7560/
+2022-11-30 09:37:21,070 - scraper - INFO - Searching /fritzbox/fritzbox-7580/
+2022-11-30 09:37:21,139 - scraper - INFO - Searching /fritzbox/fritzbox-7581/
+2022-11-30 09:37:21,219 - scraper - INFO - Searching /fritzbox/fritzbox-7582/
+2022-11-30 09:37:21,295 - scraper - INFO - Searching /fritzbox/fritzbox-7583/
+2022-11-30 09:37:21,377 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/
+2022-11-30 09:37:21,458 - scraper - INFO - Searching /fritzbox/fritzbox-7590/
+2022-11-30 09:37:21,553 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/
+2022-11-30 09:37:21,634 - scraper - INFO - Searching /fritzbox/tools/
+2022-11-30 09:37:21,702 - scraper - INFO - Searching /fritzdect/fritzdect-100/
+2022-11-30 09:37:21,767 - scraper - INFO - Searching /fritzdect/fritzdect-200/
+2022-11-30 09:37:21,837 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-11-30 09:37:21,902 - scraper - INFO - Searching /fritzdect/fritzdect-301/
+2022-11-30 09:37:21,968 - scraper - INFO - Searching /fritzdect/fritzdect-302/
+2022-11-30 09:37:22,035 - scraper - INFO - Searching /fritzdect/fritzdect-400/
+2022-11-30 09:37:22,102 - scraper - INFO - Searching /fritzdect/fritzdect-440/
+2022-11-30 09:37:22,170 - scraper - INFO - Searching /fritzdect/fritzdect-500/
+2022-11-30 09:37:22,235 - scraper - INFO - Searching /fritzfon/fritzfon-c4/
+2022-11-30 09:37:22,302 - scraper - INFO - Searching /fritzfon/fritzfon-c5/
+2022-11-30 09:37:22,367 - scraper - INFO - Searching /fritzfon/fritzfon-c6/
+2022-11-30 09:37:22,436 - scraper - INFO - Searching /fritzfon/fritzfon-m2/
+2022-11-30 09:37:22,502 - scraper - INFO - Searching /fritzfon/fritzfon-x6/
+2022-11-30 09:37:22,567 - scraper - INFO - Searching /fritzpowerline/beta/
+2022-11-30 09:37:22,649 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/
+2022-11-30 09:37:22,731 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/
+2022-11-30 09:37:22,810 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/
+2022-11-30 09:37:22,889 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/
+2022-11-30 09:37:22,970 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/
+2022-11-30 09:37:23,054 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/
+2022-11-30 09:37:23,137 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/
+2022-11-30 09:37:23,207 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/
+2022-11-30 09:37:23,286 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/
+2022-11-30 09:37:23,368 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/
+2022-11-30 09:37:23,449 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/
+2022-11-30 09:37:23,533 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/
+2022-11-30 09:37:23,613 - scraper - INFO - Searching /fritzpowerline/tools/
+2022-11-30 09:37:23,683 - scraper - INFO - Searching /fritzwlan/beta/
+2022-11-30 09:37:23,748 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/
+2022-11-30 09:37:23,830 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/
+2022-11-30 09:37:23,909 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/
+2022-11-30 09:37:23,990 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/
+2022-11-30 09:37:24,071 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/
+2022-11-30 09:37:24,153 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/
+2022-11-30 09:37:24,234 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/
+2022-11-30 09:37:24,317 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/
+2022-11-30 09:37:24,398 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/
+2022-11-30 09:37:24,478 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/
+2022-11-30 09:37:24,560 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/
+2022-11-30 09:37:24,641 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/
+2022-11-30 09:37:24,721 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/
+2022-11-30 09:37:24,803 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/
+2022-11-30 09:37:24,885 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/
+2022-11-30 09:37:24,968 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/
+2022-11-30 09:37:25,049 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/
+2022-11-30 09:37:25,135 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/
+2022-11-30 09:37:25,219 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/deutschland/
+2022-11-30 09:37:25,287 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/
+2022-11-30 09:37:25,354 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/other/
+2022-11-30 09:37:25,430 - scraper - INFO - Searching /fritzbox/beta/frisch-aus-der-entwicklung/
+2022-11-30 09:37:25,483 - scraper - INFO - Searching /fritzbox/beta/international/
+2022-11-30 09:37:25,537 - scraper - INFO - Searching /fritzbox/beta/netze/
+2022-11-30 09:37:25,590 - scraper - INFO - Searching /fritzbox/beta/wartung/
+2022-11-30 09:37:25,644 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/
+2022-11-30 09:37:25,725 - scraper - INFO - Searching /fritzbox/fritzbox-3272/other/
+2022-11-30 09:37:25,809 - scraper - INFO - Searching /fritzbox/fritzbox-3490/belgium/
+2022-11-30 09:37:25,890 - scraper - INFO - Searching /fritzbox/fritzbox-3490/deutschland/
+2022-11-30 09:37:25,979 - scraper - INFO - Searching /fritzbox/fritzbox-3490/other/
+2022-11-30 09:37:26,064 - scraper - INFO - Searching /fritzbox/fritzbox-4020/deutschland/
+2022-11-30 09:37:26,145 - scraper - INFO - Searching /fritzbox/fritzbox-4020/other/
+2022-11-30 09:37:26,227 - scraper - INFO - Searching /fritzbox/fritzbox-4040/deutschland/
+2022-11-30 09:37:26,307 - scraper - INFO - Searching /fritzbox/fritzbox-4040/other/
+2022-11-30 09:37:26,387 - scraper - INFO - Searching /fritzbox/fritzbox-4060/deutschland/
+2022-11-30 09:37:26,471 - scraper - INFO - Searching /fritzbox/fritzbox-4060/other/
+2022-11-30 09:37:26,552 - scraper - INFO - Searching /fritzbox/fritzbox-5490/deutschland/
+2022-11-30 09:37:26,635 - scraper - INFO - Searching /fritzbox/fritzbox-5490/other/
+2022-11-30 09:37:26,716 - scraper - INFO - Searching /fritzbox/fritzbox-5491/deutschland/
+2022-11-30 09:37:26,798 - scraper - INFO - Searching /fritzbox/fritzbox-5491/other/
+2022-11-30 09:37:26,880 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/deutschland/
+2022-11-30 09:37:26,962 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/other/
+2022-11-30 09:37:27,057 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/deutschland/
+2022-11-30 09:37:27,125 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/deutschland/
+2022-11-30 09:37:27,190 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/deutschland/
+2022-11-30 09:37:27,258 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/other/
+2022-11-30 09:37:27,324 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/deutschland/
+2022-11-30 09:37:27,392 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/other/
+2022-11-30 09:37:27,460 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/deutschland/
+2022-11-30 09:37:27,530 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/other/
+2022-11-30 09:37:27,596 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/deutschland/
+2022-11-30 09:37:27,664 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/other/
+2022-11-30 09:37:27,730 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/deutschland/
+2022-11-30 09:37:27,800 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/other/
+2022-11-30 09:37:27,866 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/deutschland/
+2022-11-30 09:37:27,948 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/other/
+2022-11-30 09:37:28,030 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/deutschland/
+2022-11-30 09:37:28,116 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/other/
+2022-11-30 09:37:28,200 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/deutschland/
+2022-11-30 09:37:28,281 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/other/
+2022-11-30 09:37:28,363 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/deutschland/
+2022-11-30 09:37:28,445 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/other/
+2022-11-30 09:37:28,527 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/deutschland/
+2022-11-30 09:37:28,613 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/other/
+2022-11-30 09:37:28,698 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/deutschland/
+2022-11-30 09:37:28,783 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/deutschland/
+2022-11-30 09:37:28,866 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/other/
+2022-11-30 09:37:28,954 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/deutschland/
+2022-11-30 09:37:29,036 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/other/
+2022-11-30 09:37:29,117 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/belgium/
+2022-11-30 09:37:29,200 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/deutschland/
+2022-11-30 09:37:29,285 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/other/
+2022-11-30 09:37:29,365 - scraper - INFO - Searching /fritzbox/fritzbox-7272/deutschland/
+2022-11-30 09:37:29,447 - scraper - INFO - Searching /fritzbox/fritzbox-7272/other/
+2022-11-30 09:37:29,530 - scraper - INFO - Searching /fritzbox/fritzbox-7312/deutschland/
+2022-11-30 09:37:29,611 - scraper - INFO - Searching /fritzbox/fritzbox-7360/deutschland/
+2022-11-30 09:37:29,681 - scraper - INFO - Searching /fritzbox/fritzbox-7360/other/
+2022-11-30 09:37:29,747 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/deutschland/
+2022-11-30 09:37:29,827 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/other/
+2022-11-30 09:37:29,895 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/switzerland/
+2022-11-30 09:37:29,963 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/belgium/
+2022-11-30 09:37:30,046 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/deutschland/
+2022-11-30 09:37:30,128 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/other/
+2022-11-30 09:37:30,213 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/belgium/
+2022-11-30 09:37:30,295 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/deutschland/
+2022-11-30 09:37:30,377 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/other/
+2022-11-30 09:37:30,462 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/deutschland/
+2022-11-30 09:37:30,543 - scraper - INFO - Searching /fritzbox/fritzbox-7369/other/
+2022-11-30 09:37:30,630 - scraper - INFO - Searching /fritzbox/fritzbox-7390/deutschland/
+2022-11-30 09:37:30,710 - scraper - INFO - Searching /fritzbox/fritzbox-7390/other/
+2022-11-30 09:37:30,794 - scraper - INFO - Searching /fritzbox/fritzbox-7412/deutschland/
+2022-11-30 09:37:30,876 - scraper - INFO - Searching /fritzbox/fritzbox-7430/belgium/
+2022-11-30 09:37:30,957 - scraper - INFO - Searching /fritzbox/fritzbox-7430/deutschland/
+2022-11-30 09:37:31,044 - scraper - INFO - Searching /fritzbox/fritzbox-7430/other/
+2022-11-30 09:37:31,126 - scraper - INFO - Searching /fritzbox/fritzbox-7490/belgium/
+2022-11-30 09:37:31,206 - scraper - INFO - Searching /fritzbox/fritzbox-7490/deutschland/
+2022-11-30 09:37:31,291 - scraper - INFO - Searching /fritzbox/fritzbox-7490/other/
+2022-11-30 09:37:31,370 - scraper - INFO - Searching /fritzbox/fritzbox-7510/deutschland/
+2022-11-30 09:37:31,455 - scraper - INFO - Searching /fritzbox/fritzbox-7510/other/
+2022-11-30 09:37:31,534 - scraper - INFO - Searching /fritzbox/fritzbox-7520/deutschland/
+2022-11-30 09:37:31,614 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/deutschland/
+2022-11-30 09:37:31,703 - scraper - INFO - Searching /fritzbox/fritzbox-7530/belgium/
+2022-11-30 09:37:31,784 - scraper - INFO - Searching /fritzbox/fritzbox-7530/deutschland/
+2022-11-30 09:37:31,867 - scraper - INFO - Searching /fritzbox/fritzbox-7530/other/
+2022-11-30 09:37:31,947 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/deutschland/
+2022-11-30 09:37:32,031 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/other/
+2022-11-30 09:37:32,112 - scraper - INFO - Searching /fritzbox/fritzbox-7560/deutschland/
+2022-11-30 09:37:32,192 - scraper - INFO - Searching /fritzbox/fritzbox-7560/other/
+2022-11-30 09:37:32,273 - scraper - INFO - Searching /fritzbox/fritzbox-7580/deutschland/
+2022-11-30 09:37:32,355 - scraper - INFO - Searching /fritzbox/fritzbox-7581/other/
+2022-11-30 09:37:32,436 - scraper - INFO - Searching /fritzbox/fritzbox-7582/other/
+2022-11-30 09:37:32,515 - scraper - INFO - Searching /fritzbox/fritzbox-7583/deutschland/
+2022-11-30 09:37:32,600 - scraper - INFO - Searching /fritzbox/fritzbox-7583/other/
+2022-11-30 09:37:32,680 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/deutschland/
+2022-11-30 09:37:32,764 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/other/
+2022-11-30 09:37:32,848 - scraper - INFO - Searching /fritzbox/fritzbox-7590/belgium/
+2022-11-30 09:37:32,930 - scraper - INFO - Searching /fritzbox/fritzbox-7590/deutschland/
+2022-11-30 09:37:33,014 - scraper - INFO - Searching /fritzbox/fritzbox-7590/other/
+2022-11-30 09:37:33,093 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/deutschland/
+2022-11-30 09:37:33,180 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/other/
+2022-11-30 09:37:33,276 - scraper - INFO - Searching /fritzbox/tools/vpn/
+2022-11-30 09:37:33,363 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Box-Fernzugang_einrichten_Installation.zip
+2022-11-30 09:37:33,374 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Fernzugang_german_Installation.zip
+2022-11-30 09:37:33,383 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_Installation.zip
+2022-11-30 09:37:33,392 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_win10_Installation.zip
+2022-11-30 09:37:33,456 - scraper - INFO - Searching /fritzdect/fritzdect-100/deutschland/
+2022-11-30 09:37:33,526 - scraper - INFO - Searching /fritzdect/fritzdect-200/deutschland/
+2022-11-30 09:37:33,594 - scraper - INFO - Searching /fritzdect/fritzdect-210/deutschland/
+2022-11-30 09:37:33,662 - scraper - INFO - Searching /fritzdect/fritzdect-301/deutschland/
+2022-11-30 09:37:33,731 - scraper - INFO - Searching /fritzdect/fritzdect-302/deutschland/
+2022-11-30 09:37:33,800 - scraper - INFO - Searching /fritzdect/fritzdect-400/deutschland/
+2022-11-30 09:37:33,867 - scraper - INFO - Searching /fritzdect/fritzdect-440/deutschland/
+2022-11-30 09:37:33,940 - scraper - INFO - Searching /fritzdect/fritzdect-500/deutschland/
+2022-11-30 09:37:34,006 - scraper - INFO - Searching /fritzfon/fritzfon-c4/deutschland/
+2022-11-30 09:37:34,075 - scraper - INFO - Searching /fritzfon/fritzfon-c5/deutschland/
+2022-11-30 09:37:34,142 - scraper - INFO - Searching /fritzfon/fritzfon-c6/deutschland/
+2022-11-30 09:37:34,210 - scraper - INFO - Searching /fritzfon/fritzfon-m2/deutschland/
+2022-11-30 09:37:34,278 - scraper - INFO - Searching /fritzfon/fritzfon-x6/deutschland/
+2022-11-30 09:37:34,349 - scraper - INFO - Searching /fritzpowerline/beta/frisch-aus-der-entwicklung/
+2022-11-30 09:37:34,401 - scraper - INFO - Searching /fritzpowerline/beta/release-candidate/
+2022-11-30 09:37:34,457 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/deutschland/
+2022-11-30 09:37:34,539 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/other/
+2022-11-30 09:37:34,623 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/deutschland/
+2022-11-30 09:37:34,691 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/other/
+2022-11-30 09:37:34,757 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/deutschland/
+2022-11-30 09:37:34,823 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/other/
+2022-11-30 09:37:34,894 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/deutschland/
+2022-11-30 09:37:34,961 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/other/
+2022-11-30 09:37:35,030 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/deutschland/
+2022-11-30 09:37:35,101 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/other/
+2022-11-30 09:37:35,168 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/deutschland/
+2022-11-30 09:37:35,250 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/other/
+2022-11-30 09:37:35,332 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/deutschland/
+2022-11-30 09:37:35,414 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/deutschland/
+2022-11-30 09:37:35,498 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/other/
+2022-11-30 09:37:35,580 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/deutschland/
+2022-11-30 09:37:35,664 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/other/
+2022-11-30 09:37:35,747 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/deutschland/
+2022-11-30 09:37:35,828 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/other/
+2022-11-30 09:37:35,911 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/deutschland/
+2022-11-30 09:37:35,994 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/other/
+2022-11-30 09:37:36,080 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/deutschland/
+2022-11-30 09:37:36,161 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/other/
+2022-11-30 09:37:36,244 - scraper - INFO - Searching /fritzpowerline/tools/fritzpowerline/
+2022-11-30 09:37:36,327 - scraper - INFO - Searching /fritzwlan/beta/frisch-aus-der-entwicklung/
+2022-11-30 09:37:36,380 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/deutschland/
+2022-11-30 09:37:36,464 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/other/
+2022-11-30 09:37:36,549 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/deutschland/
+2022-11-30 09:37:36,631 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/other/
+2022-11-30 09:37:36,713 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/deutschland/
+2022-11-30 09:37:36,793 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/other/
+2022-11-30 09:37:36,875 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/deutschland/
+2022-11-30 09:37:36,956 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/other/
+2022-11-30 09:37:37,040 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/deutschland/
+2022-11-30 09:37:37,121 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/other/
+2022-11-30 09:37:37,205 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/deutschland/
+2022-11-30 09:37:37,285 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/other/
+2022-11-30 09:37:37,367 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/deutschland/
+2022-11-30 09:37:37,437 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/other/
+2022-11-30 09:37:37,505 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/deutschland/
+2022-11-30 09:37:37,578 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/other/
+2022-11-30 09:37:37,645 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/deutschland/
+2022-11-30 09:37:37,730 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/other/
+2022-11-30 09:37:37,815 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/deutschland/
+2022-11-30 09:37:37,894 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/other/
+2022-11-30 09:37:37,993 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/deutschland/
+2022-11-30 09:37:38,074 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/other/
+2022-11-30 09:37:38,143 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/deutschland/
+2022-11-30 09:37:38,227 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/other/
+2022-11-30 09:37:38,293 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/deutschland/
+2022-11-30 09:37:38,375 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/other/
+2022-11-30 09:37:38,461 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/deutschland/
+2022-11-30 09:37:38,543 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/other/
+2022-11-30 09:37:38,629 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/deutschland/
+2022-11-30 09:37:38,697 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/other/
+2022-11-30 09:37:38,763 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/deutschland/
+2022-11-30 09:37:38,833 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/
+2022-11-30 09:37:38,902 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/
+2022-11-30 09:37:38,971 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/other/
+2022-11-30 09:37:39,036 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/deutschland/
+2022-11-30 09:37:39,108 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/other/
+2022-11-30 09:37:39,176 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/deutschland/fritz.os/
+2022-11-30 09:37:39,228 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/fritz.os/
+2022-11-30 09:37:39,276 - scraper - INFO - Found firmware file: /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/fritz.os/FRITZ.Box_6690_Cable-07.29.image
+2022-11-30 09:37:39,303 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/other/fritz.os/
+2022-11-30 09:37:39,358 - scraper - INFO - Found firmware file: /fritzbox/FRITZ%21Box%206690%20Cable/other/fritz.os/FRITZ.Box_6690_Cable-07.29.image
+2022-11-30 09:37:39,368 - scraper - INFO - Found info file: /fritzbox/FRITZ%21Box%206690%20Cable/other/fritz.os/info_en.txt
+2022-11-30 09:37:39,497 - scraper - INFO - Found ('FRITZ!Box 6690 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:39,540 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/fritz.os/
+2022-11-30 09:37:39,590 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3272/deutschland/fritz.os/FRITZ.Box_3272-06.88.image
+2022-11-30 09:37:39,601 - scraper - INFO - Found info file: /fritzbox/fritzbox-3272/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:39,729 - scraper - INFO - Found ('FRITZ!Box 3272', 'FRITZ!OS 6.88') in txt file!
+2022-11-30 09:37:39,771 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/recover/
+2022-11-30 09:37:39,828 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3272/deutschland/recover/FRITZ.Box_3272.06.88.-recover.exe
+2022-11-30 09:37:39,885 - scraper - INFO - Searching /fritzbox/fritzbox-3272/other/fritz.os/
+2022-11-30 09:37:39,953 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3272/other/fritz.os/FRITZ.Box_3272-06.87.image
+2022-11-30 09:37:39,966 - scraper - INFO - Found info file: /fritzbox/fritzbox-3272/other/fritz.os/info_en.txt
+2022-11-30 09:37:40,094 - scraper - INFO - Found ('FRITZ!Box 3272', 'FRITZ!OS 6.87') in txt file!
+2022-11-30 09:37:40,143 - scraper - INFO - Searching /fritzbox/fritzbox-3272/other/recover/
+2022-11-30 09:37:40,200 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3272/other/recover/FRITZ.Box_3272-06.87.recover.exe
+2022-11-30 09:37:40,251 - scraper - INFO - Searching /fritzbox/fritzbox-3490/belgium/fritz.os/
+2022-11-30 09:37:40,304 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3490/belgium/fritz.os/FRITZ.Box_3490-07.30.image
+2022-11-30 09:37:40,315 - scraper - INFO - Found info file: /fritzbox/fritzbox-3490/belgium/fritz.os/info_en.txt
+2022-11-30 09:37:40,466 - scraper - INFO - Found ('FRITZ!Box 3490', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:37:40,510 - scraper - INFO - Searching /fritzbox/fritzbox-3490/belgium/recover/
+2022-11-30 09:37:40,565 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3490/belgium/recover/FRITZ.Box_3490-07.30-recover.exe
+2022-11-30 09:37:40,616 - scraper - INFO - Searching /fritzbox/fritzbox-3490/deutschland/fritz.os/
+2022-11-30 09:37:40,667 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3490/deutschland/fritz.os/FRITZ.Box_3490-07.30.image
+2022-11-30 09:37:40,677 - scraper - INFO - Found info file: /fritzbox/fritzbox-3490/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:40,824 - scraper - INFO - Found ('FRITZ!Box 3490', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:37:40,869 - scraper - INFO - Searching /fritzbox/fritzbox-3490/deutschland/recover/
+2022-11-30 09:37:40,920 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3490/deutschland/recover/FRITZ.Box_3490-07.30-recover.exe
+2022-11-30 09:37:40,975 - scraper - INFO - Searching /fritzbox/fritzbox-3490/other/fritz.os/
+2022-11-30 09:37:41,027 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3490/other/fritz.os/FRITZ.Box_3490-07.30.image
+2022-11-30 09:37:41,037 - scraper - INFO - Found info file: /fritzbox/fritzbox-3490/other/fritz.os/info_en.txt
+2022-11-30 09:37:41,180 - scraper - INFO - Found ('FRITZ!Box 3490', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:37:41,223 - scraper - INFO - Searching /fritzbox/fritzbox-3490/other/recover/
+2022-11-30 09:37:41,277 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-3490/other/recover/FRITZ.Box_3490-07.30-recover.exe
+2022-11-30 09:37:41,328 - scraper - INFO - Searching /fritzbox/fritzbox-4020/deutschland/fritz.os/
+2022-11-30 09:37:41,380 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4020/deutschland/fritz.os/FRITZ.Box_4020-07.02.image
+2022-11-30 09:37:41,393 - scraper - INFO - Found info file: /fritzbox/fritzbox-4020/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:41,519 - scraper - INFO - Found ('FRITZ!Box 4020', 'FRITZ!OS 7.02') in txt file!
+2022-11-30 09:37:41,561 - scraper - INFO - Searching /fritzbox/fritzbox-4020/deutschland/recover/
+2022-11-30 09:37:41,608 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4020/deutschland/recover/FRITZ.Box_4020%2007.02%20Recover.exe
+2022-11-30 09:37:41,647 - scraper - INFO - Searching /fritzbox/fritzbox-4020/other/fritz.os/
+2022-11-30 09:37:41,700 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4020/other/fritz.os/FRITZ.Box_4020-07.02.image
+2022-11-30 09:37:41,710 - scraper - INFO - Found info file: /fritzbox/fritzbox-4020/other/fritz.os/info_en.txt
+2022-11-30 09:37:41,833 - scraper - INFO - Found ('FRITZ!Box 4020', 'FRITZ!OS 7.02') in txt file!
+2022-11-30 09:37:41,876 - scraper - INFO - Searching /fritzbox/fritzbox-4020/other/recover/
+2022-11-30 09:37:41,936 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4020/other/recover/FRITZ.Box_4020%2007.02%20Recover.exe
+2022-11-30 09:37:41,987 - scraper - INFO - Searching /fritzbox/fritzbox-4040/deutschland/fritz.os/
+2022-11-30 09:37:42,040 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4040/deutschland/fritz.os/FRITZ.Box_4040-07.29.image
+2022-11-30 09:37:42,050 - scraper - INFO - Found info file: /fritzbox/fritzbox-4040/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:42,175 - scraper - INFO - Found ('FRITZ!Box 4040', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:42,221 - scraper - INFO - Searching /fritzbox/fritzbox-4040/deutschland/recover/
+2022-11-30 09:37:42,273 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4040/deutschland/recover/FRITZ.Box_4040-07.29-recover.exe
+2022-11-30 09:37:42,325 - scraper - INFO - Searching /fritzbox/fritzbox-4040/other/fritz.os/
+2022-11-30 09:37:42,380 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4040/other/fritz.os/FRITZ.Box_4040-07.29.image
+2022-11-30 09:37:42,391 - scraper - INFO - Found info file: /fritzbox/fritzbox-4040/other/fritz.os/info_en.txt
+2022-11-30 09:37:42,522 - scraper - INFO - Found ('FRITZ!Box 4040', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:42,564 - scraper - INFO - Searching /fritzbox/fritzbox-4040/other/recover/
+2022-11-30 09:37:42,618 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4040/other/recover/FRITZ.Box_4040-07.29-recover.exe
+2022-11-30 09:37:42,674 - scraper - INFO - Searching /fritzbox/fritzbox-4060/deutschland/fritz.os/
+2022-11-30 09:37:42,727 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4060/deutschland/fritz.os/FRITZ.Box_4060-07.30.image
+2022-11-30 09:37:42,737 - scraper - INFO - Found info file: /fritzbox/fritzbox-4060/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:42,840 - scraper - INFO - Found ('FRITZ!Box 4060', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:37:42,882 - scraper - INFO - Searching /fritzbox/fritzbox-4060/deutschland/recover/
+2022-11-30 09:37:42,935 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4060/deutschland/recover/FRITZ.Box_4060-07.30-recover.exe
+2022-11-30 09:37:42,986 - scraper - INFO - Searching /fritzbox/fritzbox-4060/other/fritz.os/
+2022-11-30 09:37:43,041 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4060/other/fritz.os/FRITZ.Box_4060-07.30.image
+2022-11-30 09:37:43,052 - scraper - INFO - Found info file: /fritzbox/fritzbox-4060/other/fritz.os/info_en.txt
+2022-11-30 09:37:43,154 - scraper - INFO - Found ('FRITZ!Box 4060', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:37:43,196 - scraper - INFO - Searching /fritzbox/fritzbox-4060/other/recover/
+2022-11-30 09:37:43,249 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-4060/other/recover/FRITZ.Box_4060-07.30-recover.exe
+2022-11-30 09:37:43,304 - scraper - INFO - Searching /fritzbox/fritzbox-5490/deutschland/fritz.os/
+2022-11-30 09:37:43,357 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5490/deutschland/fritz.os/FRITZ.Box_5490-07.29.image
+2022-11-30 09:37:43,368 - scraper - INFO - Found info file: /fritzbox/fritzbox-5490/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:43,515 - scraper - INFO - Found ('FRITZ!Box 5490', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:43,558 - scraper - INFO - Searching /fritzbox/fritzbox-5490/deutschland/recover/
+2022-11-30 09:37:43,606 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5490/deutschland/recover/FRITZ.Box_5490-07.29-Recover.exe
+2022-11-30 09:37:43,645 - scraper - INFO - Searching /fritzbox/fritzbox-5490/other/fritz.os/
+2022-11-30 09:37:43,699 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5490/other/fritz.os/FRITZ.Box_5490-07.29.image
+2022-11-30 09:37:43,710 - scraper - INFO - Found info file: /fritzbox/fritzbox-5490/other/fritz.os/info_en.txt
+2022-11-30 09:37:43,857 - scraper - INFO - Found ('FRITZ!Box 5490', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:43,901 - scraper - INFO - Searching /fritzbox/fritzbox-5490/other/recover/
+2022-11-30 09:37:43,966 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5490/other/recover/FRITZ.Box_5490-07.29-Recover.exe
+2022-11-30 09:37:44,014 - scraper - INFO - Searching /fritzbox/fritzbox-5491/deutschland/fritz.os/
+2022-11-30 09:37:44,068 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5491/deutschland/fritz.os/FRITZ.Box_5491-07.29.image
+2022-11-30 09:37:44,079 - scraper - INFO - Found info file: /fritzbox/fritzbox-5491/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:44,228 - scraper - INFO - Found ('FRITZ!Box 5491', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:44,271 - scraper - INFO - Searching /fritzbox/fritzbox-5491/deutschland/recover/
+2022-11-30 09:37:44,321 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5491/deutschland/recover/FRITZ.Box_5491-07.29-Recover.exe
+2022-11-30 09:37:44,361 - scraper - INFO - Searching /fritzbox/fritzbox-5491/other/fritz.os/
+2022-11-30 09:37:44,415 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5491/other/fritz.os/FRITZ.Box_5491-07.29.image
+2022-11-30 09:37:44,426 - scraper - INFO - Found info file: /fritzbox/fritzbox-5491/other/fritz.os/info_en.txt
+2022-11-30 09:37:44,571 - scraper - INFO - Found ('FRITZ!Box 5491', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:44,613 - scraper - INFO - Searching /fritzbox/fritzbox-5491/other/recover/
+2022-11-30 09:37:44,667 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5491/other/recover/FRITZ.Box_5491-07.29-Recover.exe
+2022-11-30 09:37:44,718 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/deutschland/fritz.os/
+2022-11-30 09:37:44,771 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5530-fiber/deutschland/fritz.os/FRITZ.Box_5530-07.30.image
+2022-11-30 09:37:44,783 - scraper - INFO - Found info file: /fritzbox/fritzbox-5530-fiber/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:44,928 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:37:44,971 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/deutschland/recover/
+2022-11-30 09:37:45,029 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5530-fiber/deutschland/recover/FRITZ.Box_5530-07.29-recover.exe
+2022-11-30 09:37:45,039 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5530-fiber/deutschland/recover/FRITZ.Box_5530-07.30-recover.exe
+2022-11-30 09:37:45,103 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/other/fritz.os/
+2022-11-30 09:37:45,157 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5530-fiber/other/fritz.os/FRITZ.Box_5530-07.30.image
+2022-11-30 09:37:45,168 - scraper - INFO - Found info file: /fritzbox/fritzbox-5530-fiber/other/fritz.os/info_en.txt
+2022-11-30 09:37:45,321 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:37:45,367 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/other/recover/
+2022-11-30 09:37:45,430 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5530-fiber/other/recover/FRITZ.Box_5530-07.29-recover.exe
+2022-11-30 09:37:45,441 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5530-fiber/other/recover/FRITZ.Box_5530-07.30-recover.exe
+2022-11-30 09:37:45,505 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/deutschland/fritz.os/
+2022-11-30 09:37:45,558 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-5590-fiber/deutschland/fritz.os/FRITZ.Box_5590-07.29.image
+2022-11-30 09:37:45,598 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/deutschland/fritz.os/
+2022-11-30 09:37:45,655 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6430-cable/deutschland/fritz.os/FRITZ.Box_6430_Cable-07.29.image
+2022-11-30 09:37:45,666 - scraper - INFO - Found info file: /fritzbox/fritzbox-6430-cable/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:45,800 - scraper - INFO - Found ('FRITZ!Box 6430 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:45,845 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/deutschland/fritz.os/
+2022-11-30 09:37:45,908 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6490-cable/deutschland/fritz.os/FRITZ.Box_6490_Cable-07.29.image
+2022-11-30 09:37:45,922 - scraper - INFO - Found info file: /fritzbox/fritzbox-6490-cable/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:46,045 - scraper - INFO - Found ('FRITZ!Box 6490 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:46,088 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/other/fritz.os/
+2022-11-30 09:37:46,157 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6490-cable/other/fritz.os/FRITZ.Box_6490_Cable-07.29.image
+2022-11-30 09:37:46,168 - scraper - INFO - Found info file: /fritzbox/fritzbox-6490-cable/other/fritz.os/info_en.txt
+2022-11-30 09:37:46,292 - scraper - INFO - Found ('FRITZ!Box 6490 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:46,334 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/deutschland/fritz.os/
+2022-11-30 09:37:46,392 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6590-cable/deutschland/fritz.os/FRITZ.Box_6590_Cable-07.29.image
+2022-11-30 09:37:46,403 - scraper - INFO - Found info file: /fritzbox/fritzbox-6590-cable/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:46,527 - scraper - INFO - Found ('FRITZ!Box 6590 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:46,572 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/other/fritz.os/
+2022-11-30 09:37:46,640 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6590-cable/other/fritz.os/FRITZ.Box_6590_Cable-07.29.image
+2022-11-30 09:37:46,650 - scraper - INFO - Found info file: /fritzbox/fritzbox-6590-cable/other/fritz.os/info_en.txt
+2022-11-30 09:37:46,776 - scraper - INFO - Found ('FRITZ!Box 6590 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:46,819 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/deutschland/fritz.os/
+2022-11-30 09:37:46,878 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6591-cable/deutschland/fritz.os/FRITZ.Box_6591_Cable-07.29.image
+2022-11-30 09:37:46,888 - scraper - INFO - Found info file: /fritzbox/fritzbox-6591-cable/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:47,017 - scraper - INFO - Found ('FRITZ!Box 6591 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:47,061 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/other/fritz.os/
+2022-11-30 09:37:47,128 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6591-cable/other/fritz.os/FRITZ.Box_6591_Cable-07.29.image
+2022-11-30 09:37:47,139 - scraper - INFO - Found info file: /fritzbox/fritzbox-6591-cable/other/fritz.os/info_en.txt
+2022-11-30 09:37:47,264 - scraper - INFO - Found ('FRITZ!Box 6591 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:47,308 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/deutschland/fritz.os/
+2022-11-30 09:37:47,378 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6660-cable/deutschland/fritz.os/FRITZ.Box_6660_Cable-07.29.image
+2022-11-30 09:37:47,389 - scraper - INFO - Found info file: /fritzbox/fritzbox-6660-cable/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:47,515 - scraper - INFO - Found ('FRITZ!Box 6660 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:47,559 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/other/fritz.os/
+2022-11-30 09:37:47,618 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6660-cable/other/fritz.os/FRITZ.Box_6660_Cable-07.29.image
+2022-11-30 09:37:47,628 - scraper - INFO - Found info file: /fritzbox/fritzbox-6660-cable/other/fritz.os/info_en.txt
+2022-11-30 09:37:47,754 - scraper - INFO - Found ('FRITZ!Box 6660 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:47,800 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/deutschland/fritz.os/
+2022-11-30 09:37:47,914 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/other/fritz.os/
+2022-11-30 09:37:47,985 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6690-cable/other/fritz.os/FRITZ.Box_6690_Cable-07.29.image
+2022-11-30 09:37:47,996 - scraper - INFO - Found info file: /fritzbox/fritzbox-6690-cable/other/fritz.os/info_en.txt
+2022-11-30 09:37:48,122 - scraper - INFO - Found ('FRITZ!Box 6690 Cable', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:48,164 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/deutschland/fritz.os/
+2022-11-30 09:37:48,231 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6810-lte/deutschland/fritz.os/FRITZ.Box_6810_LTE.108.06.34.image
+2022-11-30 09:37:48,271 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/deutschland/recover/
+2022-11-30 09:37:48,340 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6810-lte/deutschland/recover/fritz.box_6810_lte.06.34.recover-image.exe
+2022-11-30 09:37:48,379 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/other/fritz.os/
+2022-11-30 09:37:48,448 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6810-lte/other/fritz.os/FRITZ.Box_6810_LTE.en-de-es-it-fr.108.06.34.image
+2022-11-30 09:37:48,457 - scraper - INFO - Found info file: /fritzbox/fritzbox-6810-lte/other/fritz.os/info_en.txt
+2022-11-30 09:37:48,584 - scraper - INFO - Found ('FRITZ!Box 6810 LTE', 'FRITZ!OS 6.34') in txt file!
+2022-11-30 09:37:48,629 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/other/recover/
+2022-11-30 09:37:48,686 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6810-lte/other/recover/fritz.box_6810_lte.en-de-es-it-fr.06.34.recover-image.exe
+2022-11-30 09:37:48,740 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/deutschland/fritz.os/
+2022-11-30 09:37:48,812 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte/deutschland/fritz.os/FRITZ.Box_6820v1_LTE-07.29.image
+2022-11-30 09:37:48,823 - scraper - INFO - Found info file: /fritzbox/fritzbox-6820-lte/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:48,969 - scraper - INFO - Found ('FRITZ!Box 6820 LTE', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:49,015 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/deutschland/recover/
+2022-11-30 09:37:49,075 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte/deutschland/recover/FRITZ.Box_6820v1_LTE-07.29-recover.exe
+2022-11-30 09:37:49,127 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/other/fritz.os/
+2022-11-30 09:37:49,200 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte/other/fritz.os/FRITZ.Box_6820v1_LTE-07.29.image
+2022-11-30 09:37:49,210 - scraper - INFO - Found info file: /fritzbox/fritzbox-6820-lte/other/fritz.os/info_en.txt
+2022-11-30 09:37:49,353 - scraper - INFO - Found ('FRITZ!Box 6820 LTE', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:49,416 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/other/recover/
+2022-11-30 09:37:49,475 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte/other/recover/FRITZ.Box_6820v1_LTE-07.29-recover.exe
+2022-11-30 09:37:49,539 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/deutschland/fritz.os/
+2022-11-30 09:37:49,603 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte-v2/deutschland/fritz.os/FRITZ.Box_6820v2_LTE-07.29.image
+2022-11-30 09:37:49,615 - scraper - INFO - Found info file: /fritzbox/fritzbox-6820-lte-v2/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:49,739 - scraper - INFO - Found ('FRITZ!Box 6820 LTE v2', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:49,791 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/deutschland/recover/
+2022-11-30 09:37:49,848 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte-v2/deutschland/recover/FRITZ.Box_6820v2_LTE-07.29-recover.exe
+2022-11-30 09:37:49,910 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/other/fritz.os/
+2022-11-30 09:37:49,962 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte-v2/other/fritz.os/FRITZ.Box_6820v2_LTE-07.29.image
+2022-11-30 09:37:49,973 - scraper - INFO - Found info file: /fritzbox/fritzbox-6820-lte-v2/other/fritz.os/info_en.txt
+2022-11-30 09:37:50,097 - scraper - INFO - Found ('FRITZ!Box 6820 LTE v2', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:50,145 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/other/recover/
+2022-11-30 09:37:50,196 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte-v2/other/recover/FRITZ.Box_6820v2_LTE-07.29-recover.exe
+2022-11-30 09:37:50,251 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/deutschland/fritz.os/
+2022-11-30 09:37:50,303 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte-v3/deutschland/fritz.os/FRITZ.Box_6820v3_LTE-07.29.image
+2022-11-30 09:37:50,314 - scraper - INFO - Found info file: /fritzbox/fritzbox-6820-lte-v3/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:50,436 - scraper - INFO - Found ('FRITZ!Box 6820 LTE v3', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:50,479 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/deutschland/recover/
+2022-11-30 09:37:50,533 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte-v3/deutschland/recover/FRITZ.Box_6820v3_LTE-07.29-recover.exe
+2022-11-30 09:37:50,583 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/other/fritz.os/
+2022-11-30 09:37:50,633 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte-v3/other/fritz.os/FRITZ.Box_6820v3_LTE-07.29.image
+2022-11-30 09:37:50,644 - scraper - INFO - Found info file: /fritzbox/fritzbox-6820-lte-v3/other/fritz.os/info_en.txt
+2022-11-30 09:37:50,766 - scraper - INFO - Found ('FRITZ!Box 6820 LTE v3', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:50,808 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/other/recover/
+2022-11-30 09:37:50,860 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6820-lte-v3/other/recover/FRITZ.Box_6820v3_LTE-07.29-recover.exe
+2022-11-30 09:37:50,913 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/deutschland/fritz.os/
+2022-11-30 09:37:50,964 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6840-lte/deutschland/fritz.os/FRITZ.Box_6840_LTE.105.06.87.image
+2022-11-30 09:37:51,002 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/deutschland/recover/
+2022-11-30 09:37:51,053 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6840-lte/deutschland/recover/FRITZ.Box_6840_LTE.06.87.recover-image.exe
+2022-11-30 09:37:51,094 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/other/fritz.os/
+2022-11-30 09:37:51,149 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6840-lte/other/fritz.os/FRITZ.Box_6840_LTE.en-de-es-it-fr-pl.105.06.87.image
+2022-11-30 09:37:51,160 - scraper - INFO - Found info file: /fritzbox/fritzbox-6840-lte/other/fritz.os/info_en.txt
+2022-11-30 09:37:51,304 - scraper - INFO - Found ('FRITZ!Box 6840 LTE', 'FRITZ!OS 6.87') in txt file!
+2022-11-30 09:37:51,347 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/other/recover/
+2022-11-30 09:37:51,398 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6840-lte/other/recover/FRITZ.Box_6840_LTE.en-de-es-it-fr-pl.06.87.recover-image.exe
+2022-11-30 09:37:51,448 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/deutschland/fritz.os/
+2022-11-30 09:37:51,500 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6842-lte/deutschland/fritz.os/FRITZ.Box_6842_LTE.123.06.34.image
+2022-11-30 09:37:51,541 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/deutschland/recover/
+2022-11-30 09:37:51,593 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6842-lte/deutschland/recover/fritz.box_6842_lte.06.34.recover-image.exe
+2022-11-30 09:37:51,637 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/deutschland/fritz.os/
+2022-11-30 09:37:51,690 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6850-5g/deutschland/fritz.os/FRITZ.Box_6850_5G-07.30.image
+2022-11-30 09:37:51,701 - scraper - INFO - Found info file: /fritzbox/fritzbox-6850-5g/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:51,829 - scraper - INFO - Found ('FRITZ!Box 6850 5G', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:37:51,872 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/deutschland/recover/
+2022-11-30 09:37:51,926 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6850-5g/deutschland/recover/FRITZ.Box_6850_5G-07.30-recover.exe
+2022-11-30 09:37:51,976 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/other/fritz.os/
+2022-11-30 09:37:52,027 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6850-5g/other/fritz.os/FRITZ.Box_6850_5G-07.30.image
+2022-11-30 09:37:52,037 - scraper - INFO - Found info file: /fritzbox/fritzbox-6850-5g/other/fritz.os/info_en.txt
+2022-11-30 09:37:52,163 - scraper - INFO - Found ('FRITZ!Box 6850 5G', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:37:52,209 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/other/recover/
+2022-11-30 09:37:52,260 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6850-5g/other/recover/FRITZ.Box_6850_5G-07.30-recover.exe
+2022-11-30 09:37:52,310 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/deutschland/fritz.os/
+2022-11-30 09:37:52,365 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6850-lte/deutschland/fritz.os/FRITZ.Box_6850_LTE-07.29.image
+2022-11-30 09:37:52,375 - scraper - INFO - Found info file: /fritzbox/fritzbox-6850-lte/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:52,501 - scraper - INFO - Found ('FRITZ!Box 6850 LTE', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:52,543 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/deutschland/recover/
+2022-11-30 09:37:52,595 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6850-lte/deutschland/recover/FRITZ.Box_6850_LTE-07.29-recover.exe
+2022-11-30 09:37:52,646 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/other/fritz.os/
+2022-11-30 09:37:52,700 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6850-lte/other/fritz.os/FRITZ.Box_6850_LTE-07.29.image
+2022-11-30 09:37:52,711 - scraper - INFO - Found info file: /fritzbox/fritzbox-6850-lte/other/fritz.os/info_en.txt
+2022-11-30 09:37:52,838 - scraper - INFO - Found ('FRITZ!Box 6850 LTE', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:52,881 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/other/recover/
+2022-11-30 09:37:52,932 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6850-lte/other/recover/FRITZ.Box_6850_LTE-07.29-recover.exe
+2022-11-30 09:37:52,985 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/belgium/fritz.os/
+2022-11-30 09:37:53,037 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6890-lte/belgium/fritz.os/FRITZ.Box_6890_LTE-07.29.image
+2022-11-30 09:37:53,047 - scraper - INFO - Found info file: /fritzbox/fritzbox-6890-lte/belgium/fritz.os/info_en.txt
+2022-11-30 09:37:53,205 - scraper - INFO - Found ('FRITZ!Box 6890 LTE', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:53,248 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/belgium/recover/
+2022-11-30 09:37:53,300 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6890-lte/belgium/recover/FRITZ.Box_6890_LTE-07.29-recover.exe
+2022-11-30 09:37:53,351 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/deutschland/fritz.os/
+2022-11-30 09:37:53,404 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6890-lte/deutschland/fritz.os/FRITZ.Box_6890_LTE-07.29.image
+2022-11-30 09:37:53,415 - scraper - INFO - Found info file: /fritzbox/fritzbox-6890-lte/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:53,564 - scraper - INFO - Found ('FRITZ!Box 6890 LTE', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:53,607 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/deutschland/recover/
+2022-11-30 09:37:53,659 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6890-lte/deutschland/recover/FRITZ.Box_6890_LTE-07.29-recover.exe
+2022-11-30 09:37:53,712 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/other/fritz.os/
+2022-11-30 09:37:53,764 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6890-lte/other/fritz.os/FRITZ.Box_6890_LTE-07.29.image
+2022-11-30 09:37:53,774 - scraper - INFO - Found info file: /fritzbox/fritzbox-6890-lte/other/fritz.os/info_en.txt
+2022-11-30 09:37:53,922 - scraper - INFO - Found ('FRITZ!Box 6890 LTE', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:53,967 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/other/recover/
+2022-11-30 09:37:54,018 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-6890-lte/other/recover/FRITZ.Box_6890_LTE-07.29-recover.exe
+2022-11-30 09:37:54,069 - scraper - INFO - Searching /fritzbox/fritzbox-7272/deutschland/fritz.os/
+2022-11-30 09:37:54,125 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7272/deutschland/fritz.os/FRITZ.Box_7272-06.88.image
+2022-11-30 09:37:54,134 - scraper - INFO - Found info file: /fritzbox/fritzbox-7272/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:54,283 - scraper - INFO - Found ('FRITZ!Box 7272', 'FRITZ!OS 6.88') in txt file!
+2022-11-30 09:37:54,325 - scraper - INFO - Searching /fritzbox/fritzbox-7272/deutschland/recover/
+2022-11-30 09:37:54,375 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7272/deutschland/recover/FRITZ.Box_7272.06.88-recover.exe
+2022-11-30 09:37:54,425 - scraper - INFO - Searching /fritzbox/fritzbox-7272/other/fritz.os/
+2022-11-30 09:37:54,478 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7272/other/fritz.os/FRITZ.Box_7272-06.87.image
+2022-11-30 09:37:54,488 - scraper - INFO - Found info file: /fritzbox/fritzbox-7272/other/fritz.os/info_en.txt
+2022-11-30 09:37:54,632 - scraper - INFO - Found ('FRITZ!Box 7272', 'FRITZ!OS 6.87') in txt file!
+2022-11-30 09:37:54,677 - scraper - INFO - Searching /fritzbox/fritzbox-7272/other/recover/
+2022-11-30 09:37:54,728 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7272/other/recover/FRITZ.Box_7272-06.87-recover.exe
+2022-11-30 09:37:54,779 - scraper - INFO - Searching /fritzbox/fritzbox-7312/deutschland/fritz.os/
+2022-11-30 09:37:54,827 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7312/deutschland/fritz.os/FRITZ.Box_7312-06.55.image
+2022-11-30 09:37:54,868 - scraper - INFO - Searching /fritzbox/fritzbox-7312/deutschland/recover/
+2022-11-30 09:37:54,916 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7312/deutschland/recover/fritz.box_7312-06.55-recover.exe
+2022-11-30 09:37:54,958 - scraper - INFO - Searching /fritzbox/fritzbox-7360/deutschland/fritz.os/
+2022-11-30 09:37:55,035 - scraper - INFO - Searching /fritzbox/fritzbox-7360/other/fritz.os/
+2022-11-30 09:37:55,128 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/deutschland/fritz.os/
+2022-11-30 09:37:55,178 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-sl/deutschland/fritz.os/FRITZ.Box_Fon_WLAN_7360_SL-06.34.image
+2022-11-30 09:37:55,218 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/deutschland/recover/
+2022-11-30 09:37:55,273 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-sl/deutschland/recover/fritz.box_fon_wlan_7360_sl-06.34.recover.exe
+2022-11-30 09:37:55,310 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/other/fritz.os/
+2022-11-30 09:37:55,358 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-sl/other/fritz.os/FRITZ.Box_Fon_WLAN_7360_SL.en-de-es-it-fr.109.06.30.image
+2022-11-30 09:37:55,400 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/switzerland/fritz.os/
+2022-11-30 09:37:55,449 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-sl/switzerland/fritz.os/FRITZ.Box_Fon_WLAN_7360_SL.en-de-es-it-fr.109.06.30.image
+2022-11-30 09:37:55,487 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/belgium/fritz.os/
+2022-11-30 09:37:55,537 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v1/belgium/fritz.os/FRITZ.Box_Fon_WLAN_7360.en-de-es-it-fr.111.06.31.image
+2022-11-30 09:37:55,546 - scraper - INFO - Found info file: /fritzbox/fritzbox-7360-v1/belgium/fritz.os/info_en.txt
+2022-11-30 09:37:55,669 - scraper - INFO - Found ('FRITZ!Box Fon WLAN 7360', 'FRITZ!OS 6.31') in txt file!
+2022-11-30 09:37:55,701 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/belgium/recover/
+2022-11-30 09:37:55,750 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v1/belgium/recover/FRITZ.Box_Fon_WLAN_7360.en-de-es-it-fr.06.31.recover-image.exe
+2022-11-30 09:37:55,788 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/deutschland/fritz.os/
+2022-11-30 09:37:55,842 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v1/deutschland/fritz.os/FRITZ.Box_Fon_WLAN_7360-06.35.image
+2022-11-30 09:37:55,881 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/deutschland/recover/
+2022-11-30 09:37:55,928 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v1/deutschland/recover/fritz.box_fon_wlan_7360-06.35-recover.exe
+2022-11-30 09:37:55,966 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/other/fritz.os/
+2022-11-30 09:37:56,018 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v1/other/fritz.os/FRITZ.Box_Fon_WLAN_7360-06.33.image
+2022-11-30 09:37:56,029 - scraper - INFO - Found info file: /fritzbox/fritzbox-7360-v1/other/fritz.os/info_en.txt
+2022-11-30 09:37:56,153 - scraper - INFO - Found ('FRITZ!Box Fon WLAN 7360', 'FRITZ!OS 6.33') in txt file!
+2022-11-30 09:37:56,195 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/other/recover/
+2022-11-30 09:37:56,248 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v1/other/recover/FRITZ.Box_Fon_WLAN_7360-06.33.exe
+2022-11-30 09:37:56,296 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/belgium/fritz.os/
+2022-11-30 09:37:56,352 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v2/belgium/fritz.os/FRITZ.Box_Fon_WLAN_7360.en-de-es-it-fr-pl.124.06.52.image
+2022-11-30 09:37:56,360 - scraper - INFO - Found info file: /fritzbox/fritzbox-7360-v2/belgium/fritz.os/info_en.txt
+2022-11-30 09:37:56,485 - scraper - INFO - Found ('FRITZ!Box Fon WLAN 7360', 'FRITZ!OS 6.52') in txt file!
+2022-11-30 09:37:56,518 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/belgium/recover/
+2022-11-30 09:37:56,567 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v2/belgium/recover/FRITZ.Box_Fon_WLAN_7360.en-de-es-it-fr-pl.06.52.recover-image.exe
+2022-11-30 09:37:56,606 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/deutschland/fritz.os/
+2022-11-30 09:37:56,661 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v2/deutschland/fritz.os/FRITZ.Box_Fon_WLAN_7360-06.87.image
+2022-11-30 09:37:56,702 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/deutschland/recover/
+2022-11-30 09:37:56,752 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v2/deutschland/recover/FRITZ.Box_Fon_WLAN_7360-06.87-recover.exe
+2022-11-30 09:37:56,789 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/other/fritz.os/
+2022-11-30 09:37:56,842 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v2/other/fritz.os/FRITZ.Box_Fon_WLAN_7360-06.87.image
+2022-11-30 09:37:56,853 - scraper - INFO - Found info file: /fritzbox/fritzbox-7360-v2/other/fritz.os/info_en.txt
+2022-11-30 09:37:57,003 - scraper - INFO - Found ('FRITZ!Box Fon WLAN 7360', 'FRITZ!OS 6.87') in txt file!
+2022-11-30 09:37:57,045 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/other/recover/
+2022-11-30 09:37:57,096 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7360-v2/other/recover/FRITZ.Box_Fon_WLAN_7360-06.87.exe
+2022-11-30 09:37:57,148 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/deutschland/fritz.os/
+2022-11-30 09:37:57,197 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7362-sl/deutschland/fritz.os/FRITZ.Box_7362_SL-07.13.image
+2022-11-30 09:37:57,235 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/deutschland/recover/
+2022-11-30 09:37:57,286 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7362-sl/deutschland/recover/FRITZ.Box_7362_SL-07.13-recover.exe
+2022-11-30 09:37:57,325 - scraper - INFO - Searching /fritzbox/fritzbox-7369/other/fritz.os/
+2022-11-30 09:37:57,375 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7369/other/fritz.os/FRITZ.Box_7369.en-de-es-it-fr-pl.119.06.32.image
+2022-11-30 09:37:57,383 - scraper - INFO - Found info file: /fritzbox/fritzbox-7369/other/fritz.os/info_en.txt
+2022-11-30 09:37:57,484 - scraper - INFO - Found ('FRITZ!Box 7369', 'FRITZ!OS 6.32') in txt file!
+2022-11-30 09:37:57,516 - scraper - INFO - Searching /fritzbox/fritzbox-7369/other/recover/
+2022-11-30 09:37:57,565 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7369/other/recover/FRITZ.Box_7369.en-de-es-it-fr-pl.06.32.recover-image.exe
+2022-11-30 09:37:57,603 - scraper - INFO - Searching /fritzbox/fritzbox-7390/deutschland/fritz.os/
+2022-11-30 09:37:57,652 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7390/deutschland/fritz.os/FRITZ.Box_Fon_WLAN_7390-06.87.image
+2022-11-30 09:37:57,692 - scraper - INFO - Searching /fritzbox/fritzbox-7390/deutschland/recover/
+2022-11-30 09:37:57,744 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7390/deutschland/recover/FRITZ.Box_Fon_WLAN_7390-06.87-recover.exe
+2022-11-30 09:37:57,782 - scraper - INFO - Searching /fritzbox/fritzbox-7390/other/fritz.os/
+2022-11-30 09:37:57,836 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7390/other/fritz.os/FRITZ.Box_Fon_WLAN_7390-06.87.image
+2022-11-30 09:37:57,845 - scraper - INFO - Found info file: /fritzbox/fritzbox-7390/other/fritz.os/info_en.txt
+2022-11-30 09:37:57,994 - scraper - INFO - Found ('FRITZ!Box Fon WLAN 7390', 'FRITZ!OS 6.87') in txt file!
+2022-11-30 09:37:58,036 - scraper - INFO - Searching /fritzbox/fritzbox-7390/other/recover/
+2022-11-30 09:37:58,091 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7390/other/recover/FRITZ.Box_Fon_WLAN_7390-06.87-recover.exe
+2022-11-30 09:37:58,140 - scraper - INFO - Searching /fritzbox/fritzbox-7412/deutschland/fritz.os/
+2022-11-30 09:37:58,190 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7412/deutschland/fritz.os/FRITZ.Box_7412.137.06.87.image
+2022-11-30 09:37:58,230 - scraper - INFO - Searching /fritzbox/fritzbox-7412/deutschland/recover/
+2022-11-30 09:37:58,279 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7412/deutschland/recover/FRITZ.Box_7412.06.87.recover-image.exe
+2022-11-30 09:37:58,316 - scraper - INFO - Searching /fritzbox/fritzbox-7430/belgium/fritz.os/
+2022-11-30 09:37:58,369 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7430/belgium/fritz.os/FRITZ.Box_7430-07.29.image
+2022-11-30 09:37:58,382 - scraper - INFO - Found info file: /fritzbox/fritzbox-7430/belgium/fritz.os/info_en.txt
+2022-11-30 09:37:58,507 - scraper - INFO - Found ('FRITZ!Box 7430', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:58,549 - scraper - INFO - Searching /fritzbox/fritzbox-7430/belgium/recover/
+2022-11-30 09:37:58,598 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7430/belgium/recover/FRITZ.Box_7430-07.29-recover.exe
+2022-11-30 09:37:58,623 - scraper - INFO - Searching /fritzbox/fritzbox-7430/deutschland/fritz.os/
+2022-11-30 09:37:58,680 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7430/deutschland/fritz.os/FRITZ.Box_7430-07.29.image
+2022-11-30 09:37:58,690 - scraper - INFO - Found info file: /fritzbox/fritzbox-7430/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:58,818 - scraper - INFO - Found ('FRITZ!Box 7430', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:58,880 - scraper - INFO - Searching /fritzbox/fritzbox-7430/deutschland/recover/
+2022-11-30 09:37:58,931 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7430/deutschland/recover/FRITZ.Box_7430-07.29-recover.exe
+2022-11-30 09:37:58,984 - scraper - INFO - Searching /fritzbox/fritzbox-7430/other/fritz.os/
+2022-11-30 09:37:59,039 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7430/other/fritz.os/FRITZ.Box_7430-07.29.image
+2022-11-30 09:37:59,050 - scraper - INFO - Found info file: /fritzbox/fritzbox-7430/other/fritz.os/info_en.txt
+2022-11-30 09:37:59,175 - scraper - INFO - Found ('FRITZ!Box 7430', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:59,235 - scraper - INFO - Searching /fritzbox/fritzbox-7430/other/recover/
+2022-11-30 09:37:59,285 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7430/other/recover/FRITZ.Box_7430-07.29-recover.exe
+2022-11-30 09:37:59,335 - scraper - INFO - Searching /fritzbox/fritzbox-7490/belgium/fritz.os/
+2022-11-30 09:37:59,386 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7490/belgium/fritz.os/FRITZ.Box_7490-07.29.image
+2022-11-30 09:37:59,397 - scraper - INFO - Found info file: /fritzbox/fritzbox-7490/belgium/fritz.os/info_en.txt
+2022-11-30 09:37:59,548 - scraper - INFO - Found ('FRITZ!Box 7490', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:59,594 - scraper - INFO - Searching /fritzbox/fritzbox-7490/belgium/recover/
+2022-11-30 09:37:59,643 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7490/belgium/recover/FRITZ.Box_7490-07.29-recover.exe
+2022-11-30 09:37:59,696 - scraper - INFO - Searching /fritzbox/fritzbox-7490/deutschland/fritz.os/
+2022-11-30 09:37:59,752 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7490/deutschland/fritz.os/FRITZ.Box_7490-07.29.image
+2022-11-30 09:37:59,763 - scraper - INFO - Found info file: /fritzbox/fritzbox-7490/deutschland/fritz.os/info_en.txt
+2022-11-30 09:37:59,913 - scraper - INFO - Found ('FRITZ!Box 7490', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:37:59,977 - scraper - INFO - Searching /fritzbox/fritzbox-7490/deutschland/recover/
+2022-11-30 09:38:00,033 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7490/deutschland/recover/FRITZ.Box_7490-07.29-recover.exe
+2022-11-30 09:38:00,083 - scraper - INFO - Searching /fritzbox/fritzbox-7490/other/fritz.os/
+2022-11-30 09:38:00,140 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7490/other/fritz.os/FRITZ.Box_7490-07.29.image
+2022-11-30 09:38:00,151 - scraper - INFO - Found info file: /fritzbox/fritzbox-7490/other/fritz.os/info_en.txt
+2022-11-30 09:38:00,300 - scraper - INFO - Found ('FRITZ!Box 7490', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:00,366 - scraper - INFO - Searching /fritzbox/fritzbox-7490/other/recover/
+2022-11-30 09:38:00,418 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7490/other/recover/FRITZ.Box_7490-07.29-recover.exe
+2022-11-30 09:38:00,472 - scraper - INFO - Searching /fritzbox/fritzbox-7510/deutschland/fritz.os/
+2022-11-30 09:38:00,524 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7510/deutschland/fritz.os/FRITZ.Box_7510-07.30.image
+2022-11-30 09:38:00,535 - scraper - INFO - Found info file: /fritzbox/fritzbox-7510/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:00,638 - scraper - INFO - Found ('FRITZ!Box 7510', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:38:00,684 - scraper - INFO - Searching /fritzbox/fritzbox-7510/deutschland/recover/
+2022-11-30 09:38:00,749 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7510/deutschland/recover/FRITZ.Box_7510-07.30-recover.exe
+2022-11-30 09:38:00,817 - scraper - INFO - Searching /fritzbox/fritzbox-7510/other/fritz.os/
+2022-11-30 09:38:00,876 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7510/other/fritz.os/FRITZ.Box_7510-07.30.image
+2022-11-30 09:38:00,886 - scraper - INFO - Found info file: /fritzbox/fritzbox-7510/other/fritz.os/info_en.txt
+2022-11-30 09:38:00,988 - scraper - INFO - Found ('FRITZ!Box 7510', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:38:01,031 - scraper - INFO - Searching /fritzbox/fritzbox-7510/other/recover/
+2022-11-30 09:38:01,098 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7510/other/recover/FRITZ.Box_7510-07.30-recover.exe
+2022-11-30 09:38:01,147 - scraper - INFO - Searching /fritzbox/fritzbox-7520/deutschland/fritz.os/
+2022-11-30 09:38:01,215 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7520/deutschland/fritz.os/FRITZ.Box_7520-07.29.image
+2022-11-30 09:38:01,224 - scraper - INFO - Found info file: /fritzbox/fritzbox-7520/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:01,373 - scraper - INFO - Found ('FRITZ!Box 7520', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:01,414 - scraper - INFO - Searching /fritzbox/fritzbox-7520/deutschland/recover/
+2022-11-30 09:38:01,479 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7520/deutschland/recover/FRITZ.Box_7520-07.29-recover.exe
+2022-11-30 09:38:01,529 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/deutschland/fritz.os/
+2022-11-30 09:38:01,597 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7520-B/deutschland/fritz.os/FRITZ.Box_7520_B-07.31.image
+2022-11-30 09:38:01,608 - scraper - INFO - Found info file: /fritzbox/fritzbox-7520-B/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:01,709 - scraper - INFO - Found ('FRITZ!Box 7520 Typ B', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:01,755 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/deutschland/recover/
+2022-11-30 09:38:01,811 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7520-B/deutschland/recover/FRITZ.Box_7520_B-07.31-recover.exe
+2022-11-30 09:38:01,862 - scraper - INFO - Searching /fritzbox/fritzbox-7530/belgium/fritz.os/
+2022-11-30 09:38:01,934 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530/belgium/fritz.os/FRITZ.Box_7530-07.29.image
+2022-11-30 09:38:01,946 - scraper - INFO - Found info file: /fritzbox/fritzbox-7530/belgium/fritz.os/info_en.txt
+2022-11-30 09:38:02,096 - scraper - INFO - Found ('FRITZ!Box 7530', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:02,139 - scraper - INFO - Searching /fritzbox/fritzbox-7530/belgium/recover/
+2022-11-30 09:38:02,197 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530/belgium/recover/FRITZ.Box_7530-07.29-recover.exe
+2022-11-30 09:38:02,248 - scraper - INFO - Searching /fritzbox/fritzbox-7530/deutschland/fritz.os/
+2022-11-30 09:38:02,304 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530/deutschland/fritz.os/FRITZ.Box_7530-07.29.image
+2022-11-30 09:38:02,316 - scraper - INFO - Found info file: /fritzbox/fritzbox-7530/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:02,466 - scraper - INFO - Found ('FRITZ!Box 7530', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:02,509 - scraper - INFO - Searching /fritzbox/fritzbox-7530/deutschland/recover/
+2022-11-30 09:38:02,575 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530/deutschland/recover/FRITZ.Box_7530-07.29-recover.exe
+2022-11-30 09:38:02,625 - scraper - INFO - Searching /fritzbox/fritzbox-7530/other/fritz.os/
+2022-11-30 09:38:02,683 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530/other/fritz.os/FRITZ.Box_7530-07.29.image
+2022-11-30 09:38:02,693 - scraper - INFO - Found info file: /fritzbox/fritzbox-7530/other/fritz.os/info_en.txt
+2022-11-30 09:38:02,853 - scraper - INFO - Found ('FRITZ!Box 7530', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:02,901 - scraper - INFO - Searching /fritzbox/fritzbox-7530/other/recover/
+2022-11-30 09:38:02,955 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530/other/recover/FRITZ.Box_7530-07.29-recover.exe
+2022-11-30 09:38:03,025 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/deutschland/fritz.os/
+2022-11-30 09:38:03,078 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530-ax/deutschland/fritz.os/FRITZ.Box_7530_AX-07.31.image
+2022-11-30 09:38:03,088 - scraper - INFO - Found info file: /fritzbox/fritzbox-7530-ax/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:03,238 - scraper - INFO - Found ('FRITZ!Box 7530 AX', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:03,288 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/deutschland/recover/
+2022-11-30 09:38:03,339 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530-ax/deutschland/recover/FRITZ.Box_7530_AX-07.31-recover.exe
+2022-11-30 09:38:03,398 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/other/fritz.os/
+2022-11-30 09:38:03,450 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530-ax/other/fritz.os/FRITZ.Box_7530_AX-07.31.image
+2022-11-30 09:38:03,460 - scraper - INFO - Found info file: /fritzbox/fritzbox-7530-ax/other/fritz.os/info_en.txt
+2022-11-30 09:38:03,610 - scraper - INFO - Found ('FRITZ!Box 7530 AX', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:03,655 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/other/recover/
+2022-11-30 09:38:03,708 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7530-ax/other/recover/FRITZ.Box_7530_AX-07.31-recover.exe
+2022-11-30 09:38:03,760 - scraper - INFO - Searching /fritzbox/fritzbox-7560/deutschland/fritz.os/
+2022-11-30 09:38:03,811 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7560/deutschland/fritz.os/FRITZ.Box_7560-07.29.image
+2022-11-30 09:38:03,821 - scraper - INFO - Found info file: /fritzbox/fritzbox-7560/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:03,949 - scraper - INFO - Found ('FRITZ!Box 7560', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:03,996 - scraper - INFO - Searching /fritzbox/fritzbox-7560/deutschland/recover/
+2022-11-30 09:38:04,049 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7560/deutschland/recover/FRITZ.Box_7560-07.29-recover.exe
+2022-11-30 09:38:04,101 - scraper - INFO - Searching /fritzbox/fritzbox-7560/other/fritz.os/
+2022-11-30 09:38:04,154 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7560/other/fritz.os/FRITZ.Box_7560-07.29.image
+2022-11-30 09:38:04,165 - scraper - INFO - Found info file: /fritzbox/fritzbox-7560/other/fritz.os/info_en.txt
+2022-11-30 09:38:04,288 - scraper - INFO - Found ('FRITZ!Box 7560', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:04,331 - scraper - INFO - Searching /fritzbox/fritzbox-7560/other/recover/
+2022-11-30 09:38:04,381 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7560/other/recover/FRITZ.Box_7560-07.29-recover.exe
+2022-11-30 09:38:04,407 - scraper - INFO - Searching /fritzbox/fritzbox-7580/deutschland/fritz.os/
+2022-11-30 09:38:04,459 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7580/deutschland/fritz.os/FRITZ.Box_7580-07.29.image
+2022-11-30 09:38:04,469 - scraper - INFO - Found info file: /fritzbox/fritzbox-7580/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:04,620 - scraper - INFO - Found ('FRITZ!Box 7580', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:04,664 - scraper - INFO - Searching /fritzbox/fritzbox-7580/deutschland/recover/
+2022-11-30 09:38:04,718 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7580/deutschland/recover/FRITZ.Box_7580-07.29-recover.exe
+2022-11-30 09:38:04,770 - scraper - INFO - Searching /fritzbox/fritzbox-7581/other/fritz.os/
+2022-11-30 09:38:04,822 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7581/other/fritz.os/FRITZ.Box_7581-07.16.image
+2022-11-30 09:38:04,832 - scraper - INFO - Found info file: /fritzbox/fritzbox-7581/other/fritz.os/info_en.txt
+2022-11-30 09:38:04,976 - scraper - INFO - Found ('FRITZ!Box 7581', 'FRITZ!OS 7.16') in txt file!
+2022-11-30 09:38:05,025 - scraper - INFO - Searching /fritzbox/fritzbox-7581/other/recover/
+2022-11-30 09:38:05,079 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7581/other/recover/FRITZ.Box_7581-07.16.exe
+2022-11-30 09:38:05,132 - scraper - INFO - Searching /fritzbox/fritzbox-7582/other/fritz.os/
+2022-11-30 09:38:05,195 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7582/other/fritz.os/FRITZ.Box_7582-07.16.image
+2022-11-30 09:38:05,206 - scraper - INFO - Found info file: /fritzbox/fritzbox-7582/other/fritz.os/info_en.txt
+2022-11-30 09:38:05,355 - scraper - INFO - Found ('FRITZ!Box 7582', 'FRITZ!OS 7.16') in txt file!
+2022-11-30 09:38:05,399 - scraper - INFO - Searching /fritzbox/fritzbox-7582/other/recover/
+2022-11-30 09:38:05,454 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7582/other/recover/FRITZ.Box_7582-07.16.exe
+2022-11-30 09:38:05,506 - scraper - INFO - Searching /fritzbox/fritzbox-7583/deutschland/fritz.os/
+2022-11-30 09:38:05,557 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7583/deutschland/fritz.os/FRITZ.Box_7583-07.31.image
+2022-11-30 09:38:05,567 - scraper - INFO - Found info file: /fritzbox/fritzbox-7583/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:05,711 - scraper - INFO - Found ('FRITZ!Box 7583', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:05,759 - scraper - INFO - Searching /fritzbox/fritzbox-7583/deutschland/recover/
+2022-11-30 09:38:05,812 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7583/deutschland/recover/FRITZ.Box_7583-07.31.exe
+2022-11-30 09:38:05,865 - scraper - INFO - Searching /fritzbox/fritzbox-7583/other/fritz.os/
+2022-11-30 09:38:05,919 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7583/other/fritz.os/FRITZ.Box_7583-07.31.image
+2022-11-30 09:38:05,930 - scraper - INFO - Found info file: /fritzbox/fritzbox-7583/other/fritz.os/info_en.txt
+2022-11-30 09:38:06,074 - scraper - INFO - Found ('FRITZ!Box 7583', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:06,122 - scraper - INFO - Searching /fritzbox/fritzbox-7583/other/recover/
+2022-11-30 09:38:06,183 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7583/other/recover/FRITZ.Box_7583-07.31.exe
+2022-11-30 09:38:06,237 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/deutschland/fritz.os/
+2022-11-30 09:38:06,301 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7583-vdsl/deutschland/fritz.os/FRITZ.Box_7583_VDSL-07.31.image
+2022-11-30 09:38:06,311 - scraper - INFO - Found info file: /fritzbox/fritzbox-7583-vdsl/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:06,488 - scraper - INFO - Found ('FRITZ!Box 7583 VDSL', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:06,533 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/deutschland/recover/
+2022-11-30 09:38:06,584 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7583-vdsl/deutschland/recover/FRITZ.Box_7583_VDSL-07.31.exe
+2022-11-30 09:38:06,634 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/other/fritz.os/
+2022-11-30 09:38:06,690 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7583-vdsl/other/fritz.os/FRITZ.Box_7583_VDSL-07.31.image
+2022-11-30 09:38:06,701 - scraper - INFO - Found info file: /fritzbox/fritzbox-7583-vdsl/other/fritz.os/info_en.txt
+2022-11-30 09:38:06,850 - scraper - INFO - Found ('FRITZ!Box 7583 VDSL', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:06,896 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/other/recover/
+2022-11-30 09:38:06,951 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7583-vdsl/other/recover/FRITZ.Box_7583_VDSL-07.31.exe
+2022-11-30 09:38:07,004 - scraper - INFO - Searching /fritzbox/fritzbox-7590/belgium/fritz.os/
+2022-11-30 09:38:07,061 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590/belgium/fritz.os/FRITZ.Box_7590-07.29.image
+2022-11-30 09:38:07,072 - scraper - INFO - Found info file: /fritzbox/fritzbox-7590/belgium/fritz.os/info_en.txt
+2022-11-30 09:38:07,224 - scraper - INFO - Found ('FRITZ!Box 7590', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:07,271 - scraper - INFO - Searching /fritzbox/fritzbox-7590/belgium/recover/
+2022-11-30 09:38:07,329 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590/belgium/recover/FRITZ.Box_7590-07.29-recover.exe
+2022-11-30 09:38:07,380 - scraper - INFO - Searching /fritzbox/fritzbox-7590/deutschland/fritz.os/
+2022-11-30 09:38:07,444 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590/deutschland/fritz.os/FRITZ.Box_7590-07.29.image
+2022-11-30 09:38:07,455 - scraper - INFO - Found info file: /fritzbox/fritzbox-7590/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:07,605 - scraper - INFO - Found ('FRITZ!Box 7590', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:07,672 - scraper - INFO - Searching /fritzbox/fritzbox-7590/deutschland/recover/
+2022-11-30 09:38:07,725 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590/deutschland/recover/FRITZ.Box_7590-07.29-recover.exe
+2022-11-30 09:38:07,777 - scraper - INFO - Searching /fritzbox/fritzbox-7590/other/fritz.os/
+2022-11-30 09:38:07,840 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590/other/fritz.os/FRITZ.Box_7590-07.29.image
+2022-11-30 09:38:07,851 - scraper - INFO - Found info file: /fritzbox/fritzbox-7590/other/fritz.os/info_en.txt
+2022-11-30 09:38:08,028 - scraper - INFO - Found ('FRITZ!Box 7590', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:08,094 - scraper - INFO - Searching /fritzbox/fritzbox-7590/other/recover/
+2022-11-30 09:38:08,146 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590/other/recover/FRITZ.Box_7590-07.29-recover.exe
+2022-11-30 09:38:08,203 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/deutschland/fritz.os/
+2022-11-30 09:38:08,254 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590-ax/deutschland/fritz.os/FRITZ.Box_7590_AX-07.31.image
+2022-11-30 09:38:08,266 - scraper - INFO - Found info file: /fritzbox/fritzbox-7590-ax/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:08,369 - scraper - INFO - Found ('FRITZ!Box 7590 AX', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:08,417 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/deutschland/recover/
+2022-11-30 09:38:08,470 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590-ax/deutschland/recover/FRITZ.Box_7590_AX-07.31-recover.exe
+2022-11-30 09:38:08,520 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/other/fritz.os/
+2022-11-30 09:38:08,571 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590-ax/other/fritz.os/FRITZ.Box_7590_AX-07.31.image
+2022-11-30 09:38:08,581 - scraper - INFO - Found info file: /fritzbox/fritzbox-7590-ax/other/fritz.os/info_en.txt
+2022-11-30 09:38:08,689 - scraper - INFO - Found ('FRITZ!Box 7590 AX', 'FRITZ!OS 7.31') in txt file!
+2022-11-30 09:38:08,734 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/other/recover/
+2022-11-30 09:38:08,787 - scraper - INFO - Found firmware file: /fritzbox/fritzbox-7590-ax/other/recover/FRITZ.Box_7590_AX-07.31-recover.exe
+2022-11-30 09:38:08,841 - scraper - INFO - Searching /fritzdect/fritzdect-100/deutschland/fritz.os/
+2022-11-30 09:38:08,906 - scraper - INFO - Searching /fritzdect/fritzdect-200/deutschland/fritz.os/
+2022-11-30 09:38:08,977 - scraper - INFO - Searching /fritzdect/fritzdect-210/deutschland/fritz.os/
+2022-11-30 09:38:09,048 - scraper - INFO - Searching /fritzdect/fritzdect-301/deutschland/fritz.os/
+2022-11-30 09:38:09,117 - scraper - INFO - Searching /fritzdect/fritzdect-302/deutschland/fritz.os/
+2022-11-30 09:38:09,184 - scraper - INFO - Searching /fritzdect/fritzdect-400/deutschland/fritz.os/
+2022-11-30 09:38:09,265 - scraper - INFO - Searching /fritzdect/fritzdect-440/deutschland/fritz.os/
+2022-11-30 09:38:09,343 - scraper - INFO - Searching /fritzdect/fritzdect-500/deutschland/fritz.os/
+2022-11-30 09:38:09,420 - scraper - INFO - Searching /fritzfon/fritzfon-c4/deutschland/fritz.os/
+2022-11-30 09:38:09,487 - scraper - INFO - Searching /fritzfon/fritzfon-c5/deutschland/fritz.os/
+2022-11-30 09:38:09,553 - scraper - INFO - Searching /fritzfon/fritzfon-c6/deutschland/fritz.os/
+2022-11-30 09:38:09,617 - scraper - INFO - Searching /fritzfon/fritzfon-m2/deutschland/fritz.os/
+2022-11-30 09:38:09,686 - scraper - INFO - Searching /fritzfon/fritzfon-x6/deutschland/fritz.os/
+2022-11-30 09:38:09,739 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/deutschland/fritz.os/
+2022-11-30 09:38:09,789 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1000e/deutschland/fritz.os/fritz.powerline_1000E_2130_00_tr069_42.image
+2022-11-30 09:38:09,799 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1000e/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:09,902 - scraper - INFO - Found ('FRITZ!Powerline 1000E', '2.13.0.0-42') in txt file!
+2022-11-30 09:38:09,945 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/deutschland/recover/
+2022-11-30 09:38:09,995 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1000e/deutschland/recover/fritz.powerline_1000E_200_03_200.image
+2022-11-30 09:38:10,049 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/other/fritz.os/
+2022-11-30 09:38:10,100 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1000e/other/fritz.os/fritz.powerline_1000E_2130_00_tr069_42.image
+2022-11-30 09:38:10,110 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1000e/other/fritz.os/info_en.txt
+2022-11-30 09:38:10,212 - scraper - INFO - Found ('FRITZ!Powerline 1000E', '2.13.0.0-42') in txt file!
+2022-11-30 09:38:10,256 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/other/recover/
+2022-11-30 09:38:10,312 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1000e/other/recover/fritz.powerline_1000E_200_03_200.image
+2022-11-30 09:38:10,365 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/deutschland/fritz.os/
+2022-11-30 09:38:10,417 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1000e-t/deutschland/fritz.os/fritz.powerline_1000ET_01_05.image
+2022-11-30 09:38:10,456 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/other/fritz.os/
+2022-11-30 09:38:10,510 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1000e-t/other/fritz.os/fritz.powerline_1000ET_01_05.image
+2022-11-30 09:38:10,521 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1000e-t/other/fritz.os/info_en.txt
+2022-11-30 09:38:10,623 - scraper - INFO - Found ('FRITZ!Powerline 1000E', '01.05') in txt file!
+2022-11-30 09:38:10,666 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/deutschland/fritz.os/
+2022-11-30 09:38:10,720 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1000e-v2/deutschland/fritz.os/fritz.powerline_1000E_v2_2130_00_tr069_2.image
+2022-11-30 09:38:10,730 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1000e-v2/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:10,830 - scraper - INFO - Found ('FRITZ!Powerline 1000E', '2.13.0.0-42') in txt file!
+2022-11-30 09:38:10,873 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/other/fritz.os/
+2022-11-30 09:38:10,927 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1000e-v2/other/fritz.os/fritz.powerline_1000E_v2_2130_00_tr069_2.image
+2022-11-30 09:38:10,938 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1000e-v2/other/fritz.os/info_en.txt
+2022-11-30 09:38:11,039 - scraper - INFO - Found ('FRITZ!Powerline 1000E', '2.13.0.0-42') in txt file!
+2022-11-30 09:38:11,083 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/deutschland/fritz.os/
+2022-11-30 09:38:11,136 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1220/deutschland/fritz.os/fritz.powerline_1220_cm9_2130_00_tr069_6.image
+2022-11-30 09:38:11,147 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1220/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:11,249 - scraper - INFO - Found ('FRITZ!Powerline 1220', '2.13.0.0-6') in txt file!
+2022-11-30 09:38:11,294 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/other/fritz.os/
+2022-11-30 09:38:11,346 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1220/other/fritz.os/fritz.powerline_1220_cm9_2130_00_tr069_6.image
+2022-11-30 09:38:11,357 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1220/other/fritz.os/info_en.txt
+2022-11-30 09:38:11,466 - scraper - INFO - Found ('FRITZ!Powerline 1220', '2.13.0.0-6') in txt file!
+2022-11-30 09:38:11,510 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/deutschland/fritz.os/
+2022-11-30 09:38:11,567 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1220e/deutschland/fritz.os/fritz.powerline_1220E_cm9_2130_00_tr069_37.image
+2022-11-30 09:38:11,577 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1220e/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:11,678 - scraper - INFO - Found ('FRITZ!Powerline 1220E', '2.13.0.0-37') in txt file!
+2022-11-30 09:38:11,721 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/other/fritz.os/
+2022-11-30 09:38:11,775 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1220e/other/fritz.os/fritz.powerline_1220E_cm9_2130_00_tr069_37.image
+2022-11-30 09:38:11,785 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1220e/other/fritz.os/info_en.txt
+2022-11-30 09:38:11,890 - scraper - INFO - Found ('FRITZ!Powerline 1220E', '2.13.0.0-37') in txt file!
+2022-11-30 09:38:11,934 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/deutschland/fritz.os/
+2022-11-30 09:38:11,985 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1240e/deutschland/fritz.os/FRITZ.Powerline_1240E.150.07.14.image
+2022-11-30 09:38:11,994 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1240e/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:12,098 - scraper - INFO - Found ('FRITZ!Powerline 1240E', 'FRITZ!OS 7.14') in txt file!
+2022-11-30 09:38:12,146 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/deutschland/recover/
+2022-11-30 09:38:12,197 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1240e/deutschland/recover/FRITZ.Powerline_1240E.07.14.recover-image.exe
+2022-11-30 09:38:12,248 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/other/fritz.os/
+2022-11-30 09:38:12,303 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1240e/other/fritz.os/FRITZ.Powerline_1240E.150.07.14.image
+2022-11-30 09:38:12,314 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1240e/other/fritz.os/info_en.txt
+2022-11-30 09:38:12,418 - scraper - INFO - Found ('FRITZ!Powerline 1240E', 'FRITZ!OS 7.14') in txt file!
+2022-11-30 09:38:12,462 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/other/recover/
+2022-11-30 09:38:12,516 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1240e/other/recover/FRITZ.Powerline_1240E.07.14.recover-image.exe
+2022-11-30 09:38:12,567 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/deutschland/fritz.os/
+2022-11-30 09:38:12,621 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1260/deutschland/fritz.os/FRITZ.Powerline_1260.249.07.29.image
+2022-11-30 09:38:12,631 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1260/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:12,735 - scraper - INFO - Found ('FRITZ!Powerline 1260', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:12,782 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/deutschland/recover/
+2022-11-30 09:38:12,839 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1260/deutschland/recover/FRITZ.Powerline_1260-07.29-Release-recover.exe
+2022-11-30 09:38:12,896 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/deutschland/fritz.os/
+2022-11-30 09:38:12,950 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1260e/deutschland/fritz.os/FRITZ.Powerline_1260E.157.07.29.image
+2022-11-30 09:38:12,960 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1260e/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:13,064 - scraper - INFO - Found ('FRITZ!Powerline 1260E', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:13,110 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/deutschland/recover/
+2022-11-30 09:38:13,168 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1260e/deutschland/recover/FRITZ.Powerline_1260E-07.29-Release-recover.exe
+2022-11-30 09:38:13,219 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/other/fritz.os/
+2022-11-30 09:38:13,272 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1260e/other/fritz.os/FRITZ.Powerline_1260E.157.07.29.image
+2022-11-30 09:38:13,282 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-1260e/other/fritz.os/info_en.txt
+2022-11-30 09:38:13,386 - scraper - INFO - Found ('FRITZ!Powerline 1260E', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:13,430 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/other/recover/
+2022-11-30 09:38:13,486 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-1260e/other/recover/FRITZ.Powerline_1260E-07.29-Release-recover.exe
+2022-11-30 09:38:13,537 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/deutschland/fritz.os/
+2022-11-30 09:38:13,589 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-510e-a/deutschland/fritz.os/fritz.powerline_510E_A_150_02_24.image
+2022-11-30 09:38:13,600 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-510e-a/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:13,706 - scraper - INFO - Found ('FRITZ!Powerline 510E', '1.5.0.1-24') in txt file!
+2022-11-30 09:38:13,751 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/deutschland/recover/
+2022-11-30 09:38:13,804 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-510e-a/deutschland/recover/fritz.powerline_510E_A_120_01_14.image
+2022-11-30 09:38:13,855 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/other/fritz.os/
+2022-11-30 09:38:13,905 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-510e-a/other/fritz.os/fritz.powerline_510E_A_150_02_24.image
+2022-11-30 09:38:13,915 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-510e-a/other/fritz.os/info_en.txt
+2022-11-30 09:38:14,016 - scraper - INFO - Found ('FRITZ!Powerline 510E', '1.5.0.1-24') in txt file!
+2022-11-30 09:38:14,060 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/other/recover/
+2022-11-30 09:38:14,113 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-510e-a/other/recover/fritz.powerline_510E_A_120_01_14.image
+2022-11-30 09:38:14,164 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/deutschland/fritz.os/
+2022-11-30 09:38:14,217 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-530e/deutschland/fritz.os/fritz.powerline_530E_150_02_18.image
+2022-11-30 09:38:14,228 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-530e/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:14,330 - scraper - INFO - Found ('FRITZ!Powerline 530E', '1.5.0.1-18') in txt file!
+2022-11-30 09:38:14,374 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/deutschland/recover/
+2022-11-30 09:38:14,429 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-530e/deutschland/recover/fritz.powerline_530E_120_01_10.image
+2022-11-30 09:38:14,479 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/other/fritz.os/
+2022-11-30 09:38:14,535 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-530e/other/fritz.os/fritz.powerline_530E_150_02_18.image
+2022-11-30 09:38:14,545 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-530e/other/fritz.os/info_en.txt
+2022-11-30 09:38:14,647 - scraper - INFO - Found ('FRITZ!Powerline 530E', '1.5.0.1-18') in txt file!
+2022-11-30 09:38:14,689 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/other/recover/
+2022-11-30 09:38:14,743 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-530e/other/recover/fritz.powerline_530E_120_01_10.image
+2022-11-30 09:38:14,797 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/deutschland/fritz.os/
+2022-11-30 09:38:14,848 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-540e/deutschland/fritz.os/FRITZ.Powerline_540E.129.07.14.image
+2022-11-30 09:38:14,859 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-540e/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:14,963 - scraper - INFO - Found ('FRITZ!Powerline 540E', 'FRITZ!OS 7.14') in txt file!
+2022-11-30 09:38:15,010 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/deutschland/recover/
+2022-11-30 09:38:15,061 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-540e/deutschland/recover/FRITZ.Powerline_540E.07.14.recover-image.exe
+2022-11-30 09:38:15,114 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/other/fritz.os/
+2022-11-30 09:38:15,166 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-540e/other/fritz.os/FRITZ.Powerline_540E.129.07.14.image
+2022-11-30 09:38:15,176 - scraper - INFO - Found info file: /fritzpowerline/fritzpowerline-540e/other/fritz.os/info_en.txt
+2022-11-30 09:38:15,280 - scraper - INFO - Found ('FRITZ!Powerline 540E', 'FRITZ!OS 7.14') in txt file!
+2022-11-30 09:38:15,322 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/other/recover/
+2022-11-30 09:38:15,371 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-540e/other/recover/FRITZ.Powerline_540E.07.14.recover-image.exe
+2022-11-30 09:38:15,425 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/deutschland/fritz.os/
+2022-11-30 09:38:15,478 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-546e/deutschland/fritz.os/FRITZ.Powerline_546E.118.07.14.image
+2022-11-30 09:38:15,517 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/deutschland/recover/
+2022-11-30 09:38:15,581 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-546e/deutschland/recover/FRITZ.Powerline_546E.06.50_CE.recover-image.exe
+2022-11-30 09:38:15,591 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-546e/deutschland/recover/FRITZ.Powerline_546E.06.50_EN.recover-image.exe
+2022-11-30 09:38:15,601 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-546e/deutschland/recover/FRITZ.Powerline_546E.07.14.recover-image.exe
+2022-11-30 09:38:15,666 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/other/fritz.os/
+2022-11-30 09:38:15,718 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-546e/other/fritz.os/FRITZ.Powerline_546E.en-de-es-it-fr-pl.118.06.50.image
+2022-11-30 09:38:15,758 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/other/recover/
+2022-11-30 09:38:15,815 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-546e/other/recover/FRITZ.Powerline_546E.en-de-es-it-fr-pl.06.34.recover-image.exe
+2022-11-30 09:38:15,823 - scraper - INFO - Found firmware file: /fritzpowerline/fritzpowerline-546e/other/recover/FRITZ.Powerline_546E.en-de-es-it-fr-pl.06.50.recover-image.exe
+2022-11-30 09:38:15,875 - scraper - INFO - Searching /fritzpowerline/tools/fritzpowerline/de/
+2022-11-30 09:38:15,930 - scraper - INFO - Found firmware file: /fritzpowerline/tools/fritzpowerline/de/FRITZ%21Powerline_v01.04.07.zip
+2022-11-30 09:38:15,998 - scraper - INFO - Searching /fritzpowerline/tools/fritzpowerline/en/
+2022-11-30 09:38:16,055 - scraper - INFO - Found firmware file: /fritzpowerline/tools/fritzpowerline/en/FRITZ%21Powerline_v01.04.07.zip
+2022-11-30 09:38:16,111 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/deutschland/fritz.os/
+2022-11-30 09:38:16,165 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-1200/deutschland/fritz.os/FRITZ.Repeater_1200-07.29.image
+2022-11-30 09:38:16,176 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-1200/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:16,281 - scraper - INFO - Found ('FRITZ!Repeater 1200', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:16,322 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/deutschland/recover/
+2022-11-30 09:38:16,385 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-1200/deutschland/recover/FRITZ.Repeater_1200-07.29-recover.exe
+2022-11-30 09:38:16,449 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/other/fritz.os/
+2022-11-30 09:38:16,517 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-1200/other/fritz.os/FRITZ.Repeater_1200-07.29.image
+2022-11-30 09:38:16,527 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-1200/other/fritz.os/info_en.txt
+2022-11-30 09:38:16,631 - scraper - INFO - Found ('FRITZ!Repeater 1200', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:16,674 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/other/recover/
+2022-11-30 09:38:16,741 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-1200/other/recover/FRITZ.Repeater_1200-07.29-recover.exe
+2022-11-30 09:38:16,793 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/deutschland/fritz.os/
+2022-11-30 09:38:16,868 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-1200-ax/deutschland/fritz.os/FRITZ.Repeater_1200_AX-07.30.image
+2022-11-30 09:38:16,878 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-1200-ax/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:16,979 - scraper - INFO - Found ('FRITZ!Repeater 1200 AX', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:38:17,021 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/deutschland/recover/
+2022-11-30 09:38:17,077 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-1200-ax/deutschland/recover/FRITZ.Repeater_1200_AX-07.29-recover.exe
+2022-11-30 09:38:17,128 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/other/fritz.os/
+2022-11-30 09:38:17,193 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-1200-ax/other/fritz.os/FRITZ.Repeater_1200_AX-07.30.image
+2022-11-30 09:38:17,204 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-1200-ax/other/fritz.os/info_en.txt
+2022-11-30 09:38:17,310 - scraper - INFO - Found ('FRITZ!Repeater 1200 AX', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:38:17,354 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/other/recover/
+2022-11-30 09:38:17,416 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-1200-ax/other/recover/FRITZ.Repeater_1200_AX-07.29-recover.exe
+2022-11-30 09:38:17,467 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/deutschland/fritz.os/
+2022-11-30 09:38:17,537 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-2400/deutschland/fritz.os/FRITZ.Repeater_2400-07.29.image
+2022-11-30 09:38:17,547 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-2400/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:17,650 - scraper - INFO - Found ('FRITZ!Repeater 2400', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:17,691 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/deutschland/recover/
+2022-11-30 09:38:17,758 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-2400/deutschland/recover/FRITZ.Repeater_2400-07.29-recover.exe
+2022-11-30 09:38:17,808 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/other/fritz.os/
+2022-11-30 09:38:17,876 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-2400/other/fritz.os/FRITZ.Repeater_2400-07.29.image
+2022-11-30 09:38:17,887 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-2400/other/fritz.os/info_en.txt
+2022-11-30 09:38:17,989 - scraper - INFO - Found ('FRITZ!Repeater 2400', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:18,032 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/other/recover/
+2022-11-30 09:38:18,097 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-2400/other/recover/FRITZ.Repeater_2400-07.29-recover.exe
+2022-11-30 09:38:18,150 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/deutschland/fritz.os/
+2022-11-30 09:38:18,216 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-3000/deutschland/fritz.os/FRITZ.Repeater_3000-07.29.image
+2022-11-30 09:38:18,227 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-3000/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:18,329 - scraper - INFO - Found ('FRITZ!Repeater 3000', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:18,372 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/deutschland/recover/
+2022-11-30 09:38:18,429 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-3000/deutschland/recover/FRITZ.Repeater_3000-07.29-recover.exe
+2022-11-30 09:38:18,479 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/other/fritz.os/
+2022-11-30 09:38:18,545 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-3000/other/fritz.os/FRITZ.Repeater_3000-07.29.image
+2022-11-30 09:38:18,556 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-3000/other/fritz.os/info_en.txt
+2022-11-30 09:38:18,657 - scraper - INFO - Found ('FRITZ!Repeater 3000', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:18,700 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/other/recover/
+2022-11-30 09:38:18,767 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-3000/other/recover/FRITZ.Repeater_3000-07.29-recover.exe
+2022-11-30 09:38:18,817 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/deutschland/fritz.os/
+2022-11-30 09:38:18,888 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-600/deutschland/fritz.os/FRITZ.Repeater_600-07.29.image
+2022-11-30 09:38:18,899 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-600/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:19,001 - scraper - INFO - Found ('FRITZ!Repeater 600', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:19,044 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/deutschland/recover/
+2022-11-30 09:38:19,112 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/other/fritz.os/
+2022-11-30 09:38:19,181 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-600/other/fritz.os/FRITZ.Repeater_600-07.29.image
+2022-11-30 09:38:19,191 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-600/other/fritz.os/info_en.txt
+2022-11-30 09:38:19,293 - scraper - INFO - Found ('FRITZ!Repeater 600', 'FRITZ!OS 7.29') in txt file!
+2022-11-30 09:38:19,337 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/other/recover/
+2022-11-30 09:38:19,396 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/deutschland/fritz.os/
+2022-11-30 09:38:19,464 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-6000/deutschland/fritz.os/FRITZ.Repeater_6000-07.30.image
+2022-11-30 09:38:19,474 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-6000/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:19,578 - scraper - INFO - Found ('FRITZ!Repeater\xa06000', 'FRITZ!OS\xa07.30') in txt file!
+2022-11-30 09:38:19,623 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/deutschland/recover/
+2022-11-30 09:38:19,680 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-6000/deutschland/recover/FRITZ.Repeater_6000-07.30-recover.exe
+2022-11-30 09:38:19,734 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/other/fritz.os/
+2022-11-30 09:38:19,808 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-6000/other/fritz.os/FRITZ.Repeater_6000-07.30.image
+2022-11-30 09:38:19,822 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-6000/other/fritz.os/info_en.txt
+2022-11-30 09:38:19,928 - scraper - INFO - Found ('FRITZ!Repeater\xa06000', 'FRITZ!OS\xa07.30') in txt file!
+2022-11-30 09:38:19,974 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/other/recover/
+2022-11-30 09:38:20,042 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-6000/other/recover/FRITZ.Repeater_6000-07.30-recover.exe
+2022-11-30 09:38:20,096 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/deutschland/fritz.os/
+2022-11-30 09:38:20,165 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-600v2/deutschland/fritz.os/FRITZ.Repeater_600v2-07.30.image
+2022-11-30 09:38:20,175 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-600v2/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:20,277 - scraper - INFO - Found ('FRITZ!Repeater 600', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:38:20,321 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/other/fritz.os/
+2022-11-30 09:38:20,379 - scraper - INFO - Found firmware file: /fritzwlan/fritzrepeater-600v2/other/fritz.os/FRITZ.Repeater_600v2-07.30.image
+2022-11-30 09:38:20,389 - scraper - INFO - Found info file: /fritzwlan/fritzrepeater-600v2/other/fritz.os/info_en.txt
+2022-11-30 09:38:20,492 - scraper - INFO - Found ('FRITZ!Repeater 600', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:38:20,539 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/deutschland/fritz.os/
+2022-11-30 09:38:20,599 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-1160/deutschland/fritz.os/FRITZ.Box_WLAN_Repeater_1160-07.14.image
+2022-11-30 09:38:20,610 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-1160/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:20,715 - scraper - INFO - Found ('FRITZ!WLAN Repeater 1160', 'FRITZ!OS 7.14') in txt file!
+2022-11-30 09:38:20,761 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/other/fritz.os/
+2022-11-30 09:38:20,830 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-1160/other/fritz.os/FRITZ.Box_WLAN_Repeater_1160-07.14.image
+2022-11-30 09:38:20,841 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-1160/other/fritz.os/info_en.txt
+2022-11-30 09:38:20,948 - scraper - INFO - Found ('FRITZ!Repeater 1160', 'FRITZ!OS 7.14') in txt file!
+2022-11-30 09:38:20,995 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/deutschland/fritz.os/
+2022-11-30 09:38:21,063 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-1750e/deutschland/fritz.os/FRITZ.Repeater_1750E-07.30.image
+2022-11-30 09:38:21,074 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-1750e/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:21,176 - scraper - INFO - Found ('FRITZ!Repeater 1750E', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:38:21,224 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/deutschland/recover/
+2022-11-30 09:38:21,293 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-1750e/deutschland/recover/FRITZ.Repeater_1750E-07.30-recover.exe
+2022-11-30 09:38:21,352 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/other/fritz.os/
+2022-11-30 09:38:21,411 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-1750e/other/fritz.os/FRITZ.Repeater_1750E-07.30.image
+2022-11-30 09:38:21,423 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-1750e/other/fritz.os/info_en.txt
+2022-11-30 09:38:21,532 - scraper - INFO - Found ('FRITZ!Repeater 1750E', 'FRITZ!OS 7.30') in txt file!
+2022-11-30 09:38:21,582 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/other/recover/
+2022-11-30 09:38:21,641 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-1750e/other/recover/FRITZ.Repeater_1750E-07.29-recover.exe
+2022-11-30 09:38:21,698 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/deutschland/fritz.os/
+2022-11-30 09:38:21,755 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-300e/deutschland/fritz.os/FRITZ.Box_WLAN_Repeater_300E-06.33.image
+2022-11-30 09:38:21,799 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/deutschland/recover/
+2022-11-30 09:38:21,853 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-300e/deutschland/recover/fritz.box_wlan_repeater_300e-06.33-recover.exe
+2022-11-30 09:38:21,883 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/other/fritz.os/
+2022-11-30 09:38:21,942 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-300e/other/fritz.os/FRITZ.Box_WLAN_Repeater_300E.en-de-es-it-fr-pl.101.06.33.image
+2022-11-30 09:38:21,973 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/other/recover/
+2022-11-30 09:38:22,039 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-300e/other/recover/FRITZ.Box_WLAN_Repeater_300E.en-de-es-it-fr-pl.06.33.recover-image.exe
+2022-11-30 09:38:22,069 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/deutschland/fritz.os/
+2022-11-30 09:38:22,174 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-310-a/deutschland/fritz.os/FRITZ.Repeater_310-07.15.image
+2022-11-30 09:38:22,188 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-310-a/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:22,291 - scraper - INFO - Found ('FRITZ!Repeater 310', 'FRITZ!OS 7.15') in txt file!
+2022-11-30 09:38:22,343 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/deutschland/recover/
+2022-11-30 09:38:22,402 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/other/fritz.os/
+2022-11-30 09:38:22,458 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-310-a/other/fritz.os/FRITZ.Repeater_310-07.15.image
+2022-11-30 09:38:22,469 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-310-a/other/fritz.os/info_en.txt
+2022-11-30 09:38:22,571 - scraper - INFO - Found ('FRITZ!Repeater 310', 'FRITZ!OS 7.15') in txt file!
+2022-11-30 09:38:22,639 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/deutschland/fritz.os/
+2022-11-30 09:38:22,692 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-310-b/deutschland/fritz.os/FRITZ.Repeater_310_-07.15.image
+2022-11-30 09:38:22,703 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-310-b/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:22,808 - scraper - INFO - Found ('FRITZ!Repeater 310', 'FRITZ!OS 7.15') in txt file!
+2022-11-30 09:38:22,859 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/deutschland/recover/
+2022-11-30 09:38:22,919 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/other/fritz.os/
+2022-11-30 09:38:22,971 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-310-b/other/fritz.os/FRITZ.Repeater_310_-07.15.image
+2022-11-30 09:38:22,980 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-310-b/other/fritz.os/info_en.txt
+2022-11-30 09:38:23,085 - scraper - INFO - Found ('FRITZ!Repeater 310', 'FRITZ!OS 7.15') in txt file!
+2022-11-30 09:38:23,140 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/deutschland/fritz.os/
+2022-11-30 09:38:23,190 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-450e/deutschland/fritz.os/FRITZ.Box_WLAN_Repeater_450E-07.14.image
+2022-11-30 09:38:23,233 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/deutschland/recover/
+2022-11-30 09:38:23,294 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-450e/deutschland/recover/FRITZ.Box_WLAN_Repeater_450E-07.14-recover.exe
+2022-11-30 09:38:23,348 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/other/fritz.os/
+2022-11-30 09:38:23,399 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-450e/other/fritz.os/FRITZ.Box_WLAN_Repeater_450E-07.14.image
+2022-11-30 09:38:23,409 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-450e/other/fritz.os/info_en.txt
+2022-11-30 09:38:23,515 - scraper - INFO - Found ('FRITZ!Repeater 450E', 'FRITZ!OS 7.14') in txt file!
+2022-11-30 09:38:23,561 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/other/recover/
+2022-11-30 09:38:23,611 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-450e/other/recover/FRITZ.Box_WLAN_Repeater_450E-07.14-recover.exe
+2022-11-30 09:38:23,662 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/deutschland/fritz.os/
+2022-11-30 09:38:23,715 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-dvb-c/deutschland/fritz.os/FRITZ.Box_WLAN_Repeater_DVB_C.en-de-es-it-fr-pl.133.07.02.image
+2022-11-30 09:38:23,724 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-dvb-c/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:23,828 - scraper - INFO - Found ('FRITZ!WLAN Repeater DVB-C', 'FRITZ!OS 7.02') in txt file!
+2022-11-30 09:38:23,870 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/deutschland/recover/
+2022-11-30 09:38:23,924 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-dvb-c/deutschland/recover/FRITZ.Box_WLAN_Repeater_DVB_C.en-de-es-it-fr-pl.07.02.recover.exe
+2022-11-30 09:38:23,973 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/other/fritz.os/
+2022-11-30 09:38:24,025 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-dvb-c/other/fritz.os/FRITZ.Box_WLAN_Repeater_DVB_C.en-de-es-it-fr-pl.133.07.02.image
+2022-11-30 09:38:24,036 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-repeater-dvb-c/other/fritz.os/info_en.txt
+2022-11-30 09:38:24,139 - scraper - INFO - Found ('FRITZ!WLAN DVB-C', 'FRITZ!OS 7.02') in txt file!
+2022-11-30 09:38:24,180 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/other/recover/
+2022-11-30 09:38:24,233 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-repeater-dvb-c/other/recover/FRITZ.Box_WLAN_Repeater_DVB_C.en-de-es-it-fr-pl.07.02.recover.exe
+2022-11-30 09:38:24,284 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/deutschland/fritz.os/
+2022-11-30 09:38:24,343 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-430/deutschland/fritz.os/AVM_FRITZ%21WLAN_USB_Stick_AC_430_32Bit_Build_180612.zip
+2022-11-30 09:38:24,351 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-430/deutschland/fritz.os/AVM_FRITZ%21WLAN_USB_Stick_AC_430_64Bit_Build_180612.zip
+2022-11-30 09:38:24,402 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/
+2022-11-30 09:38:24,463 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/AVM_FRITZ%21WLAN_USB_Stick_AC_430_32Bit_Build_180612e.zip
+2022-11-30 09:38:24,475 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/info_en.txt
+2022-11-30 09:38:24,575 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:24,576 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/AVM_FRITZ%21WLAN_USB_Stick_AC_430_64Bit_Build_180612e.zip
+2022-11-30 09:38:24,587 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-ac-430/other/fritz.os/info_en.txt
+2022-11-30 09:38:24,688 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:24,742 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/deutschland/fritz.os/
+2022-11-30 09:38:24,798 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/deutschland/fritz.os/avm_fritz%21wlanusb_stick_ac430_mu_mimo_32Bit_Build_061221.zip
+2022-11-30 09:38:24,806 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/deutschland/fritz.os/avm_fritz%21wlanusb_stick_ac430_mu_mimo_64Bit_Build_061221.zip
+2022-11-30 09:38:24,857 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/
+2022-11-30 09:38:24,915 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/avm_fritz%21wlanusb_stick_ac430_mu_mimo_x64_english_Build_061221.zip
+2022-11-30 09:38:24,926 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/info_en.txt
+2022-11-30 09:38:25,028 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:25,028 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/avm_fritz%21wlanusb_stick_ac430_mu_mimo_x86_english_Build_061221.zip
+2022-11-30 09:38:25,040 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/other/fritz.os/info_en.txt
+2022-11-30 09:38:25,141 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:25,196 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/
+2022-11-30 09:38:25,253 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/avm_fritz%21wlanusb_stick_ac860_32Bit_build_180612.zip
+2022-11-30 09:38:25,265 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:25,365 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:25,365 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/avm_fritz%21wlanusb_stick_ac860_64Bit_build_220315.zip
+2022-11-30 09:38:25,376 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-ac-860/deutschland/fritz.os/info_en.txt
+2022-11-30 09:38:25,476 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:25,529 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/
+2022-11-30 09:38:25,586 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/avm_fritz%21wlanusb_stick_ac860_32Bit_english_build_180612.zip
+2022-11-30 09:38:25,599 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/info_en.txt
+2022-11-30 09:38:25,702 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:25,702 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/avm_fritz%21wlanusb_stick_ac860_64Bit_english_build_220315.zip
+2022-11-30 09:38:25,716 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-ac-860/other/fritz.os/info_en.txt
+2022-11-30 09:38:25,818 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:25,871 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/deutschland/fritz.os/
+2022-11-30 09:38:25,927 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-nv2/deutschland/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_32Bit_build_180612.zip
+2022-11-30 09:38:25,936 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-nv2/deutschland/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_64Bit_build_180612.zip
+2022-11-30 09:38:25,986 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/
+2022-11-30 09:38:26,046 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_32Bit_build_180612e.zip
+2022-11-30 09:38:26,058 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt
+2022-11-30 09:38:26,164 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:26,164 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_64Bit_build_180612e.zip
+2022-11-30 09:38:26,175 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt
+2022-11-30 09:38:26,277 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:26,328 - scraper - INFO - Searching /fritzbox/fritzbox-7360/deutschland/fritz.os/read.me
+2022-11-30 09:38:26,389 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_32Bit_build_180612e.zip
+2022-11-30 09:38:26,407 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt
+2022-11-30 09:38:26,511 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:26,511 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_64Bit_build_180612e.zip
+2022-11-30 09:38:26,523 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt
+2022-11-30 09:38:26,626 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:26,655 - scraper - INFO - Searching /fritzbox/fritzbox-7360/other/fritz.os/read.me
+2022-11-30 09:38:26,710 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_32Bit_build_180612e.zip
+2022-11-30 09:38:26,722 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt
+2022-11-30 09:38:26,823 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:26,823 - scraper - INFO - Found firmware file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/avm_fritz%21wlan_usb_stick_n_v2_64Bit_build_180612e.zip
+2022-11-30 09:38:26,835 - scraper - INFO - Found info file: /fritzwlan/fritzwlan-usb-stick-nv2/other/fritz.os/info_en.txt
+2022-11-30 09:38:26,938 - scraper - INFO - Could not parse text file: list index out of range
+2022-11-30 09:38:26,965 - scraper - INFO - Searching /fritzpowerline/tools/fritzpowerline/de/mac/
+2022-11-30 09:38:27,015 - scraper - INFO - Found firmware file: /fritzpowerline/tools/fritzpowerline/de/mac/FRITZ%21Powerline-v01.04.07.dmg
+2022-11-30 09:38:27,055 - scraper - INFO - Searching /fritzpowerline/tools/fritzpowerline/de/other/
+2022-11-30 09:38:27,107 - scraper - INFO - Found firmware file: /fritzpowerline/tools/fritzpowerline/de/other/powerlineDPWcheck.zip
+2022-11-30 09:38:27,147 - scraper - INFO - Searching /fritzpowerline/tools/fritzpowerline/en/mac/
+2022-11-30 09:38:27,196 - scraper - INFO - Found firmware file: /fritzpowerline/tools/fritzpowerline/en/mac/FRITZ%21Powerline-v01.04.07.dmg
+2022-11-30 09:38:27,233 - scraper - Important - AVMScraper done.
+2022-11-30 09:38:27,233 - scraper - Important - Insert AVMScraper catalogue into DB.
+2022-11-30 09:38:32,272 - scraper - Important - Start scraping.
+2022-11-30 09:38:32,272 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 10:53:26,391 - scraper - Important - Start scraping.
+2022-11-30 10:53:26,391 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 10:53:27,625 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 10:53:28,933 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 10:53:28,934 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 10:53:30,469 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 10:53:31,062 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 10:53:31,545 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 10:53:32,109 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 10:53:32,722 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 10:53:33,200 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 10:53:34,079 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 10:53:34,809 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 10:53:35,534 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 10:53:36,084 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 10:53:36,084 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 11:59:04,430 - scraper - Important - Start scraping.
+2022-11-30 11:59:04,431 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 11:59:06,038 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 11:59:07,400 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 11:59:07,400 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 11:59:08,862 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 11:59:09,447 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 11:59:09,910 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 11:59:10,503 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 11:59:11,017 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 11:59:11,502 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 11:59:12,052 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 11:59:12,823 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 11:59:13,367 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 11:59:13,880 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 11:59:13,880 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 11:59:13,880 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 11:59:13,881 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-30 11:59:13,881 - scraper - Important - Start AVMScraper.
+2022-11-30 11:59:14,052 - scraper - INFO - Connected Successfully!
+2022-11-30 11:59:14,052 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-11-30 11:59:14,143 - scraper - INFO - Searching /fritzbox/
+2022-11-30 11:59:14,970 - scraper - INFO - Searching /fritzdect/
+2022-11-30 11:59:15,159 - scraper - INFO - Searching /fritzfon/
+2022-11-30 11:59:15,294 - scraper - INFO - Searching /fritzpowerline/
+2022-11-30 11:59:15,558 - scraper - INFO - Searching /fritzwlan/
+2022-11-30 11:59:15,887 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/
+2022-11-30 11:59:15,973 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/
+2022-11-30 11:59:16,066 - scraper - INFO - Searching /fritzbox/beta/
+2022-11-30 11:59:16,202 - scraper - INFO - Searching /fritzbox/fritzbox-3272/
+2022-11-30 11:59:16,295 - scraper - INFO - Searching /fritzbox/fritzbox-3490/
+2022-11-30 11:59:16,393 - scraper - INFO - Searching /fritzbox/fritzbox-4020/
+2022-11-30 11:59:16,485 - scraper - INFO - Searching /fritzbox/fritzbox-4040/
+2022-11-30 11:59:16,579 - scraper - INFO - Searching /fritzbox/fritzbox-4060/
+2022-11-30 11:59:16,671 - scraper - INFO - Searching /fritzbox/fritzbox-5490/
+2022-11-30 11:59:16,769 - scraper - INFO - Searching /fritzbox/fritzbox-5491/
+2022-11-30 11:59:16,861 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/
+2022-11-30 11:59:16,946 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/
+2022-11-30 11:59:17,014 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/
+2022-11-30 11:59:17,086 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/
+2022-11-30 11:59:17,180 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/
+2022-11-30 11:59:17,265 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/
+2022-11-30 11:59:17,359 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/
+2022-11-30 11:59:17,452 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/
+2022-11-30 11:59:17,549 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/
+2022-11-30 11:59:17,644 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/
+2022-11-30 11:59:17,740 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/
+2022-11-30 11:59:17,836 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/
+2022-11-30 11:59:17,932 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/
+2022-11-30 11:59:18,030 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/
+2022-11-30 11:59:18,111 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/
+2022-11-30 11:59:18,202 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/
+2022-11-30 11:59:18,299 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/
+2022-11-30 11:59:18,414 - scraper - INFO - Searching /fritzbox/fritzbox-7272/
+2022-11-30 11:59:18,511 - scraper - INFO - Searching /fritzbox/fritzbox-7312/
+2022-11-30 11:59:18,593 - scraper - INFO - Searching /fritzbox/fritzbox-7360/
+2022-11-30 11:59:18,687 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/
+2022-11-30 11:59:18,807 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/
+2022-11-30 11:59:18,919 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/
+2022-11-30 11:59:19,032 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/
+2022-11-30 11:59:19,104 - scraper - INFO - Searching /fritzbox/fritzbox-7369/
+2022-11-30 11:59:19,186 - scraper - INFO - Searching /fritzbox/fritzbox-7390/
+2022-11-30 11:59:19,283 - scraper - INFO - Searching /fritzbox/fritzbox-7412/
+2022-11-30 11:59:19,365 - scraper - INFO - Searching /fritzbox/fritzbox-7430/
+2022-11-30 11:59:19,472 - scraper - INFO - Searching /fritzbox/fritzbox-7490/
+2022-11-30 11:59:19,586 - scraper - INFO - Searching /fritzbox/fritzbox-7510/
+2022-11-30 11:59:19,690 - scraper - INFO - Searching /fritzbox/fritzbox-7520/
+2022-11-30 11:59:19,777 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/
+2022-11-30 11:59:19,854 - scraper - INFO - Searching /fritzbox/fritzbox-7530/
+2022-11-30 11:59:19,969 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/
+2022-11-30 11:59:20,070 - scraper - INFO - Searching /fritzbox/fritzbox-7560/
+2022-11-30 11:59:20,171 - scraper - INFO - Searching /fritzbox/fritzbox-7580/
+2022-11-30 11:59:20,254 - scraper - INFO - Searching /fritzbox/fritzbox-7581/
+2022-11-30 11:59:20,338 - scraper - INFO - Searching /fritzbox/fritzbox-7582/
+2022-11-30 11:59:20,421 - scraper - INFO - Searching /fritzbox/fritzbox-7583/
+2022-11-30 11:59:20,523 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/
+2022-11-30 11:59:20,625 - scraper - INFO - Searching /fritzbox/fritzbox-7590/
+2022-11-30 11:59:20,737 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/
+2022-11-30 11:59:20,834 - scraper - INFO - Searching /fritzbox/tools/
+2022-11-30 11:59:20,913 - scraper - INFO - Searching /fritzdect/fritzdect-100/
+2022-11-30 11:59:20,983 - scraper - INFO - Searching /fritzdect/fritzdect-200/
+2022-11-30 11:59:21,070 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-11-30 11:59:21,155 - scraper - INFO - Searching /fritzdect/fritzdect-301/
+2022-11-30 11:59:21,238 - scraper - INFO - Searching /fritzdect/fritzdect-302/
+2022-11-30 11:59:21,319 - scraper - INFO - Searching /fritzdect/fritzdect-400/
+2022-11-30 11:59:21,399 - scraper - INFO - Searching /fritzdect/fritzdect-440/
+2022-11-30 11:59:21,487 - scraper - INFO - Searching /fritzdect/fritzdect-500/
+2022-11-30 11:59:21,567 - scraper - INFO - Searching /fritzfon/fritzfon-c4/
+2022-11-30 11:59:21,645 - scraper - INFO - Searching /fritzfon/fritzfon-c5/
+2022-11-30 11:59:21,718 - scraper - INFO - Searching /fritzfon/fritzfon-c6/
+2022-11-30 11:59:21,804 - scraper - INFO - Searching /fritzfon/fritzfon-m2/
+2022-11-30 11:59:21,908 - scraper - INFO - Searching /fritzfon/fritzfon-x6/
+2022-11-30 11:59:22,004 - scraper - INFO - Searching /fritzpowerline/beta/
+2022-11-30 11:59:22,117 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/
+2022-11-30 11:59:22,207 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/
+2022-11-30 11:59:22,296 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/
+2022-11-30 11:59:22,384 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/
+2022-11-30 11:59:22,476 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/
+2022-11-30 11:59:22,568 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/
+2022-11-30 11:59:22,655 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/
+2022-11-30 11:59:22,732 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/
+2022-11-30 13:55:41,480 - scraper - Important - Start scraping.
+2022-11-30 13:55:41,481 - scraper - Important - Start SchneiderElectricScraper.
+2022-11-30 13:55:43,208 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-11-30 13:55:45,779 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-11-30 13:55:45,780 - scraper - INFO - Start scraping metadata of firmware products.
+2022-11-30 13:55:47,581 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-11-30 13:55:48,363 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-11-30 13:55:49,081 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-11-30 13:55:49,846 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-11-30 13:55:50,613 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-11-30 13:55:51,330 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-11-30 13:55:51,949 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-11-30 13:55:52,540 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-11-30 13:55:53,361 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-11-30 13:55:53,995 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-11-30 13:55:53,995 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-11-30 13:55:53,995 - scraper - Important - SchneiderElectricScraper done.
+2022-11-30 13:55:53,995 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
+2022-11-30 13:55:53,996 - scraper - Important - Start AVMScraper.
+2022-11-30 13:55:54,103 - scraper - INFO - Connected Successfully!
+2022-11-30 13:55:54,103 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-12-04 11:37:28,546 - scraper - Important - Start scraping.
+2022-12-04 11:37:28,546 - scraper - Important - Start SchneiderElectricScraper.
+2022-12-04 11:37:30,804 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-12-04 11:37:32,580 - scraper - INFO - Identified 10.0 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-12-04 11:37:32,581 - scraper - INFO - Start scraping metadata of firmware products.
+2022-12-04 11:38:08,797 - scraper - Important - Start scraping.
+2022-12-04 11:38:08,797 - scraper - Important - Start SchneiderElectricScraper.
+2022-12-04 11:38:10,507 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
+2022-12-04 11:38:12,104 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
+2022-12-04 11:38:12,104 - scraper - INFO - Start scraping metadata of firmware products.
+2022-12-04 11:38:13,285 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
+2022-12-04 11:38:13,775 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
+2022-12-04 11:38:14,310 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
+2022-12-04 11:38:14,824 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
+2022-12-04 11:38:15,475 - scraper - INFO - Scraped product 'STW6 Firmware'.
+2022-12-04 11:38:15,991 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
+2022-12-04 11:38:16,490 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
+2022-12-04 11:38:17,157 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
+2022-12-04 11:38:17,718 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-12-04 11:38:18,255 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
+2022-12-04 11:38:18,255 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
+2022-12-04 11:38:18,255 - scraper - Important - SchneiderElectricScraper done.
+2022-12-04 11:38:18,255 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
