@@ -1,7 +1,7 @@
 from src.logger import create_logger
 from src.Vendors import AVMScraper
 
-logger = create_logger(name="tests")
+logger = create_logger()
 
 
 def test_init():
@@ -19,4 +19,5 @@ def test_connection():
 
 def test_scraping():
     AVM = AVMScraper(logger=logger)
-    assert AVM.scrape_metadata(max_products=1)
+    AVM.scrape_metadata(max_products=1)
+    assert len(AVM.catalog) >= 1

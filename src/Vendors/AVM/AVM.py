@@ -95,7 +95,7 @@ class AVMScraper:
                 firmware_item["product_type"] = value.strip("/").split("/")[0]
                 self.catalog.append(firmware_item)
 
-            if len(self.catalog) - 1 >= max_products:
+            if len(self.catalog) >= max_products:
                 break
 
             sub_elems = [
