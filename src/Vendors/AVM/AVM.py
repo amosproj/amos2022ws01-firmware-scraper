@@ -9,6 +9,7 @@ from os import path
 import ftputil
 import requests
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
@@ -22,6 +23,10 @@ class AVMScraper:
         self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
         self.logger = logger
+        self.options = Options()
+        self.options.add_argument("--headless")
+        self.options.add_argument("--no-sandbox")
+        self.options.add_argument("--disable-dev-shm-usage")
 
     def connect_webdriver(self):
         try:
@@ -172,7 +177,7 @@ if __name__ == "__main__":
 
     logger = setup_logger()
     AVM = AVMScraper(logger=logger)
-    firmware_data = AVM.scrape_metadata()
+    firmware_data = AVM.scrape_metadata(max_products=1)
 
     with open("../../scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
