@@ -9,6 +9,7 @@ from os import path
 import ftputil
 import requests
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
@@ -22,16 +23,21 @@ class AVMScraper:
         self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
         self.logger = logger
+        self.options = Options()
+        self.options.add_argument("--headless")
+        self.options.add_argument("--no-sandbox")
+        self.options.add_argument("--disable-dev-shm-usage")
 
     def connect_webdriver(self):
         try:
             self.driver.get(self.url)
             self.logger.info("Connected Successfully!")
         except Exception as e:
-            self.logger.info(e + ": Could not connect to AVM!")
+            self.logger.exception("Could not connect to AVM!")
+            raise (e)
 
     # List available firmware downloads
-    def scrape_metadata(self) -> list:
+    def scrape_metadata(self, max_products: int) -> list:
 
         self.connect_webdriver()
 
@@ -93,6 +99,9 @@ class AVMScraper:
                 firmware_item["download_link"] = self.url + file
                 firmware_item["product_type"] = value.strip("/").split("/")[0]
                 self.catalog.append(firmware_item)
+
+            if len(self.catalog) >= max_products:
+                break
 
             sub_elems = [
                 elem.get_property("pathname")
@@ -168,7 +177,7 @@ if __name__ == "__main__":
 
     logger = setup_logger()
     AVM = AVMScraper(logger=logger)
-    firmware_data = AVM.scrape_metadata()
+    firmware_data = AVM.scrape_metadata(max_products=1)
 
-    with open("../../../scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
+    with open("../../scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
