@@ -1,11 +1,23 @@
 import random
-from src.Vendors import SchneiderElectricScraper
+
+import pytest
+from selenium.common.exceptions import WebDriverException
+
 from src.logger import create_logger
+from src.Vendors import SchneiderElectricScraper
+from src.Vendors.schneider_electric.schneider_electric import DOWNLOAD_URL_GLOBAL
 
 
-def test_entrypoint_url():
-    scraper = SchneiderElectricScraper(create_logger())
+def test_entry_point_url_valid():
+    scraper = SchneiderElectricScraper(create_logger(), scrape_entry_url=DOWNLOAD_URL_GLOBAL)
     scraper.driver.get(scraper.scrape_entry_url)
+
+
+def test_entry_point_url_invalid():
+    with pytest.raises(WebDriverException):
+        invalid_entry_point_url = "https://www.se.con"
+        scraper = SchneiderElectricScraper(create_logger(), scrape_entry_url=invalid_entry_point_url)
+        scraper.driver.get(scraper.scrape_entry_url)
 
 
 def test_scrape_product_page_urls():
