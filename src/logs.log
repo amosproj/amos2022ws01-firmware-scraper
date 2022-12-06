@@ -1725,41 +1725,1011 @@ information_stroke'.
 2022-12-04 11:38:18,255 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
 2022-12-04 11:38:18,255 - scraper - Important - SchneiderElectricScraper done.
 2022-12-04 11:38:18,255 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
-2022-12-04 14:31:53,352 - scraper - Important - Start scraping.
-2022-12-04 14:31:53,353 - scraper - Important - Start SchneiderElectricScraper.
-2022-12-04 14:32:00,521 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
-2022-12-04 14:32:02,807 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
-2022-12-04 14:32:02,807 - scraper - INFO - Start scraping metadata of firmware products.
-2022-12-04 14:32:04,885 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
-2022-12-04 14:32:05,390 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
-2022-12-04 14:32:06,028 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
-2022-12-04 14:32:06,584 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
-2022-12-04 14:32:07,536 - scraper - INFO - Scraped product 'STW6 Firmware'.
-2022-12-04 14:32:08,214 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
-2022-12-04 14:32:08,921 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
-2022-12-04 14:32:09,647 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
-2022-12-04 14:32:10,246 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
-2022-12-04 14:32:10,894 - scraper - INFO - Scraped product 'XW Pro 6848_120V Firmware_v1.11_BN0049'.
-2022-12-04 14:32:10,894 - scraper - INFO - Finished scraping metadata of firmware products. Return metadata to core.
-2022-12-04 14:32:10,894 - scraper - Important - SchneiderElectricScraper done.
-2022-12-04 14:32:10,894 - scraper - Important - Insert SchneiderElectricScraper catalogue into DB.
-2022-12-04 14:33:04,680 - scraper - Important - Start scraping.
-2022-12-04 14:33:04,680 - scraper - Important - Start SchneiderElectricScraper.
-2022-12-04 14:33:06,348 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
-2022-12-04 14:33:08,478 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
-2022-12-04 14:33:08,479 - scraper - INFO - Start scraping metadata of firmware products.
-2022-12-04 14:33:10,109 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
-2022-12-04 14:36:27,027 - scraper - Important - Start scraping.
-2022-12-04 14:36:27,027 - scraper - Important - Start SchneiderElectricScraper.
-2022-12-04 14:36:29,555 - scraper - INFO - Successfully accessed entry point URL https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware.
-2022-12-04 14:36:32,001 - scraper - INFO - Identified 10 firmware products. (If a maximum number of products to scrape was given, there could be more.)
-2022-12-04 14:36:32,001 - scraper - INFO - Start scraping metadata of firmware products.
-2022-12-04 14:36:33,895 - scraper - INFO - Scraped product 'Network Management Card Firmware Update for Easy UPS, 1 Phase v2.3'.
-2022-12-04 14:36:34,534 - scraper - INFO - Scraped product 'Trio Q Radio Firmware'.
-2022-12-04 14:36:35,219 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Advanced Firmware'.
-2022-12-04 14:36:35,791 - scraper - INFO - Scraped product 'EcoStruxure Panel Server Universal Firmware'.
-2022-12-04 14:36:36,300 - scraper - INFO - Scraped product 'STW6 Firmware'.
-2022-12-04 14:36:36,886 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Symmetra with AP9640/41/43'.
-2022-12-04 14:36:37,462 - scraper - INFO - Scraped product 'Network Management Card 3 (NMC3) Firmware v2.3.1.1 for Smart UPS with AP9640/41/43'.
-2022-12-04 14:36:38,141 - scraper - INFO - Scraped product 'EVlink Charging stations - Firmware update - R8 - Run 6'.
-2022-12-04 14:36:38,702 - scraper - INFO - Scraped product 'XW Pro 6848_120-240V Firmware_v1.11_BN0049'.
+2022-12-05 15:17:43,635 - scraper - ERROR - Could not connect to AVM!
+Traceback (most recent call last):
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\src\Vendors\AVM\AVM.py", line 28, in connect_webdriver
+    self.driver.get(self.url)
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in get
+    self.execute(Command.GET, {"url": url})
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=108.0.5359.71)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x011AF243]
+	(No symbol) [0x01137FD1]
+	(No symbol) [0x0102CF10]
+	(No symbol) [0x010200EE]
+	(No symbol) [0x0101EA07]
+	(No symbol) [0x0101EDC2]
+	(No symbol) [0x0102EA5B]
+	(No symbol) [0x0108D187]
+	(No symbol) [0x0107858C]
+	(No symbol) [0x0108C9EB]
+	(No symbol) [0x01078386]
+	(No symbol) [0x0105163C]
+	(No symbol) [0x0105269D]
+	GetHandleVerifier [0x01449A22+2655074]
+	GetHandleVerifier [0x0143CA24+2601828]
+	GetHandleVerifier [0x01258C0A+619850]
+	GetHandleVerifier [0x01257830+614768]
+	(No symbol) [0x011405FC]
+	(No symbol) [0x01145968]
+	(No symbol) [0x01145A55]
+	(No symbol) [0x0115051B]
+	BaseThreadInitThunk [0x75046359+25]
+	RtlGetAppContainerNamedObjectPath [0x774C87A4+228]
+	RtlGetAppContainerNamedObjectPath [0x774C8774+180]
+
+2022-12-05 15:17:43,635 - scraper - ERROR - Could not connect to AVM!
+Traceback (most recent call last):
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\src\Vendors\AVM\AVM.py", line 28, in connect_webdriver
+    self.driver.get(self.url)
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in get
+    self.execute(Command.GET, {"url": url})
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=108.0.5359.71)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x011AF243]
+	(No symbol) [0x01137FD1]
+	(No symbol) [0x0102CF10]
+	(No symbol) [0x010200EE]
+	(No symbol) [0x0101EA07]
+	(No symbol) [0x0101EDC2]
+	(No symbol) [0x0102EA5B]
+	(No symbol) [0x0108D187]
+	(No symbol) [0x0107858C]
+	(No symbol) [0x0108C9EB]
+	(No symbol) [0x01078386]
+	(No symbol) [0x0105163C]
+	(No symbol) [0x0105269D]
+	GetHandleVerifier [0x01449A22+2655074]
+	GetHandleVerifier [0x0143CA24+2601828]
+	GetHandleVerifier [0x01258C0A+619850]
+	GetHandleVerifier [0x01257830+614768]
+	(No symbol) [0x011405FC]
+	(No symbol) [0x01145968]
+	(No symbol) [0x01145A55]
+	(No symbol) [0x0115051B]
+	BaseThreadInitThunk [0x75046359+25]
+	RtlGetAppContainerNamedObjectPath [0x774C87A4+228]
+	RtlGetAppContainerNamedObjectPath [0x774C8774+180]
+
+2022-12-05 15:17:46,041 - scraper - INFO - Connected Successfully!
+2022-12-05 15:17:46,041 - scraper - INFO - Connected Successfully!
+2022-12-05 15:17:46,042 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-12-05 15:17:46,042 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-12-05 15:17:46,165 - scraper - INFO - Searching /fritzbox/
+2022-12-05 15:17:46,165 - scraper - INFO - Searching /fritzbox/
+2022-12-05 15:17:47,308 - scraper - INFO - Searching /fritzdect/
+2022-12-05 15:17:47,308 - scraper - INFO - Searching /fritzdect/
+2022-12-05 15:17:47,554 - scraper - INFO - Searching /fritzfon/
+2022-12-05 15:17:47,554 - scraper - INFO - Searching /fritzfon/
+2022-12-05 15:17:47,751 - scraper - INFO - Searching /fritzpowerline/
+2022-12-05 15:17:47,751 - scraper - INFO - Searching /fritzpowerline/
+2022-12-05 15:17:48,081 - scraper - INFO - Searching /fritzwlan/
+2022-12-05 15:17:48,081 - scraper - INFO - Searching /fritzwlan/
+2022-12-05 15:17:48,529 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/
+2022-12-05 15:17:48,529 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/
+2022-12-05 15:17:48,624 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/
+2022-12-05 15:17:48,624 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/
+2022-12-05 15:17:48,735 - scraper - INFO - Searching /fritzbox/beta/
+2022-12-05 15:17:48,735 - scraper - INFO - Searching /fritzbox/beta/
+2022-12-05 15:17:48,890 - scraper - INFO - Searching /fritzbox/fritzbox-3272/
+2022-12-05 15:17:48,890 - scraper - INFO - Searching /fritzbox/fritzbox-3272/
+2022-12-05 15:17:48,998 - scraper - INFO - Searching /fritzbox/fritzbox-3490/
+2022-12-05 15:17:48,998 - scraper - INFO - Searching /fritzbox/fritzbox-3490/
+2022-12-05 15:17:49,137 - scraper - INFO - Searching /fritzbox/fritzbox-4020/
+2022-12-05 15:17:49,137 - scraper - INFO - Searching /fritzbox/fritzbox-4020/
+2022-12-05 15:17:49,253 - scraper - INFO - Searching /fritzbox/fritzbox-4040/
+2022-12-05 15:17:49,253 - scraper - INFO - Searching /fritzbox/fritzbox-4040/
+2022-12-05 15:17:49,399 - scraper - INFO - Searching /fritzbox/fritzbox-4060/
+2022-12-05 15:17:49,399 - scraper - INFO - Searching /fritzbox/fritzbox-4060/
+2022-12-05 15:17:49,502 - scraper - INFO - Searching /fritzbox/fritzbox-5490/
+2022-12-05 15:17:49,502 - scraper - INFO - Searching /fritzbox/fritzbox-5490/
+2022-12-05 15:17:49,596 - scraper - INFO - Searching /fritzbox/fritzbox-5491/
+2022-12-05 15:17:49,596 - scraper - INFO - Searching /fritzbox/fritzbox-5491/
+2022-12-05 15:17:49,705 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/
+2022-12-05 15:17:49,705 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/
+2022-12-05 15:17:49,813 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/
+2022-12-05 15:17:49,813 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/
+2022-12-05 15:17:49,902 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/
+2022-12-05 15:17:49,902 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/
+2022-12-05 15:17:49,987 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/
+2022-12-05 15:17:49,987 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/
+2022-12-05 15:17:50,088 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/
+2022-12-05 15:17:50,088 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/
+2022-12-05 15:17:50,231 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/
+2022-12-05 15:17:50,231 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/
+2022-12-05 15:17:50,362 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/
+2022-12-05 15:17:50,362 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/
+2022-12-05 15:17:50,459 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/
+2022-12-05 15:17:50,459 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/
+2022-12-05 15:17:50,563 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/
+2022-12-05 15:17:50,563 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/
+2022-12-05 15:17:50,672 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/
+2022-12-05 15:17:50,672 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/
+2022-12-05 15:17:50,782 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/
+2022-12-05 15:17:50,782 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/
+2022-12-05 15:17:50,883 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/
+2022-12-05 15:17:50,883 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/
+2022-12-05 15:17:50,993 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/
+2022-12-05 15:17:50,993 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/
+2022-12-05 15:17:51,098 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/
+2022-12-05 15:17:51,098 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/
+2022-12-05 15:17:51,182 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/
+2022-12-05 15:17:51,182 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/
+2022-12-05 15:17:51,324 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/
+2022-12-05 15:17:51,324 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/
+2022-12-05 15:17:51,490 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/
+2022-12-05 15:17:51,490 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/
+2022-12-05 15:17:51,660 - scraper - INFO - Searching /fritzbox/fritzbox-7272/
+2022-12-05 15:17:51,660 - scraper - INFO - Searching /fritzbox/fritzbox-7272/
+2022-12-05 15:17:51,769 - scraper - INFO - Searching /fritzbox/fritzbox-7312/
+2022-12-05 15:17:51,769 - scraper - INFO - Searching /fritzbox/fritzbox-7312/
+2022-12-05 15:17:51,858 - scraper - INFO - Searching /fritzbox/fritzbox-7360/
+2022-12-05 15:17:51,858 - scraper - INFO - Searching /fritzbox/fritzbox-7360/
+2022-12-05 15:17:51,966 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/
+2022-12-05 15:17:51,966 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/
+2022-12-05 15:17:52,108 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/
+2022-12-05 15:17:52,108 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/
+2022-12-05 15:17:52,227 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/
+2022-12-05 15:17:52,227 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/
+2022-12-05 15:17:52,398 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/
+2022-12-05 15:17:52,398 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/
+2022-12-05 15:17:52,480 - scraper - INFO - Searching /fritzbox/fritzbox-7369/
+2022-12-05 15:17:52,480 - scraper - INFO - Searching /fritzbox/fritzbox-7369/
+2022-12-05 15:17:52,558 - scraper - INFO - Searching /fritzbox/fritzbox-7390/
+2022-12-05 15:17:52,558 - scraper - INFO - Searching /fritzbox/fritzbox-7390/
+2022-12-05 15:17:52,664 - scraper - INFO - Searching /fritzbox/fritzbox-7412/
+2022-12-05 15:17:52,664 - scraper - INFO - Searching /fritzbox/fritzbox-7412/
+2022-12-05 15:17:52,744 - scraper - INFO - Searching /fritzbox/fritzbox-7430/
+2022-12-05 15:17:52,744 - scraper - INFO - Searching /fritzbox/fritzbox-7430/
+2022-12-05 15:17:52,858 - scraper - INFO - Searching /fritzbox/fritzbox-7490/
+2022-12-05 15:17:52,858 - scraper - INFO - Searching /fritzbox/fritzbox-7490/
+2022-12-05 15:17:52,965 - scraper - INFO - Searching /fritzbox/fritzbox-7510/
+2022-12-05 15:17:52,965 - scraper - INFO - Searching /fritzbox/fritzbox-7510/
+2022-12-05 15:17:53,059 - scraper - INFO - Searching /fritzbox/fritzbox-7520/
+2022-12-05 15:17:53,059 - scraper - INFO - Searching /fritzbox/fritzbox-7520/
+2022-12-05 15:17:53,129 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/
+2022-12-05 15:17:53,129 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/
+2022-12-05 15:17:53,202 - scraper - INFO - Searching /fritzbox/fritzbox-7530/
+2022-12-05 15:17:53,202 - scraper - INFO - Searching /fritzbox/fritzbox-7530/
+2022-12-05 15:17:53,317 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/
+2022-12-05 15:17:53,317 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/
+2022-12-05 15:17:53,409 - scraper - INFO - Searching /fritzbox/fritzbox-7560/
+2022-12-05 15:17:53,409 - scraper - INFO - Searching /fritzbox/fritzbox-7560/
+2022-12-05 15:17:53,505 - scraper - INFO - Searching /fritzbox/fritzbox-7580/
+2022-12-05 15:17:53,505 - scraper - INFO - Searching /fritzbox/fritzbox-7580/
+2022-12-05 15:17:53,569 - scraper - INFO - Searching /fritzbox/fritzbox-7581/
+2022-12-05 15:17:53,569 - scraper - INFO - Searching /fritzbox/fritzbox-7581/
+2022-12-05 15:17:53,642 - scraper - INFO - Searching /fritzbox/fritzbox-7582/
+2022-12-05 15:17:53,642 - scraper - INFO - Searching /fritzbox/fritzbox-7582/
+2022-12-05 15:17:53,715 - scraper - INFO - Searching /fritzbox/fritzbox-7583/
+2022-12-05 15:17:53,715 - scraper - INFO - Searching /fritzbox/fritzbox-7583/
+2022-12-05 15:17:53,800 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/
+2022-12-05 15:17:53,800 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/
+2022-12-05 15:17:53,885 - scraper - INFO - Searching /fritzbox/fritzbox-7590/
+2022-12-05 15:17:53,885 - scraper - INFO - Searching /fritzbox/fritzbox-7590/
+2022-12-05 15:17:53,990 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/
+2022-12-05 15:17:53,990 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/
+2022-12-05 15:17:54,074 - scraper - INFO - Searching /fritzbox/tools/
+2022-12-05 15:17:54,074 - scraper - INFO - Searching /fritzbox/tools/
+2022-12-05 15:17:54,147 - scraper - INFO - Searching /fritzdect/fritzdect-100/
+2022-12-05 15:17:54,147 - scraper - INFO - Searching /fritzdect/fritzdect-100/
+2022-12-05 15:17:54,218 - scraper - INFO - Searching /fritzdect/fritzdect-200/
+2022-12-05 15:17:54,218 - scraper - INFO - Searching /fritzdect/fritzdect-200/
+2022-12-05 15:17:54,290 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-12-05 15:17:54,290 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-12-05 15:17:54,359 - scraper - INFO - Searching /fritzdect/fritzdect-301/
+2022-12-05 15:17:54,359 - scraper - INFO - Searching /fritzdect/fritzdect-301/
+2022-12-05 15:17:54,424 - scraper - INFO - Searching /fritzdect/fritzdect-302/
+2022-12-05 15:17:54,424 - scraper - INFO - Searching /fritzdect/fritzdect-302/
+2022-12-05 15:17:54,495 - scraper - INFO - Searching /fritzdect/fritzdect-400/
+2022-12-05 15:17:54,495 - scraper - INFO - Searching /fritzdect/fritzdect-400/
+2022-12-05 15:17:54,569 - scraper - INFO - Searching /fritzdect/fritzdect-440/
+2022-12-05 15:17:54,569 - scraper - INFO - Searching /fritzdect/fritzdect-440/
+2022-12-05 15:17:54,640 - scraper - INFO - Searching /fritzdect/fritzdect-500/
+2022-12-05 15:17:54,640 - scraper - INFO - Searching /fritzdect/fritzdect-500/
+2022-12-05 15:17:54,708 - scraper - INFO - Searching /fritzfon/fritzfon-c4/
+2022-12-05 15:17:54,708 - scraper - INFO - Searching /fritzfon/fritzfon-c4/
+2022-12-05 15:17:54,783 - scraper - INFO - Searching /fritzfon/fritzfon-c5/
+2022-12-05 15:17:54,783 - scraper - INFO - Searching /fritzfon/fritzfon-c5/
+2022-12-05 15:17:54,852 - scraper - INFO - Searching /fritzfon/fritzfon-c6/
+2022-12-05 15:17:54,852 - scraper - INFO - Searching /fritzfon/fritzfon-c6/
+2022-12-05 15:17:54,918 - scraper - INFO - Searching /fritzfon/fritzfon-m2/
+2022-12-05 15:17:54,918 - scraper - INFO - Searching /fritzfon/fritzfon-m2/
+2022-12-05 15:17:54,991 - scraper - INFO - Searching /fritzfon/fritzfon-x6/
+2022-12-05 15:17:54,991 - scraper - INFO - Searching /fritzfon/fritzfon-x6/
+2022-12-05 15:17:55,058 - scraper - INFO - Searching /fritzpowerline/beta/
+2022-12-05 15:17:55,058 - scraper - INFO - Searching /fritzpowerline/beta/
+2022-12-05 15:17:55,142 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/
+2022-12-05 15:17:55,142 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/
+2022-12-05 15:17:55,243 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/
+2022-12-05 15:17:55,243 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/
+2022-12-05 15:17:55,357 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/
+2022-12-05 15:17:55,357 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/
+2022-12-05 15:17:55,446 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/
+2022-12-05 15:17:55,446 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/
+2022-12-05 15:17:55,537 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/
+2022-12-05 15:17:55,537 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/
+2022-12-05 15:17:55,625 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/
+2022-12-05 15:17:55,625 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/
+2022-12-05 15:17:55,715 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/
+2022-12-05 15:17:55,715 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/
+2022-12-05 15:17:55,785 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/
+2022-12-05 15:17:55,785 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/
+2022-12-05 15:17:55,874 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/
+2022-12-05 15:17:55,874 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/
+2022-12-05 15:17:55,966 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/
+2022-12-05 15:17:55,966 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/
+2022-12-05 15:17:56,059 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/
+2022-12-05 15:17:56,059 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/
+2022-12-05 15:17:56,151 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/
+2022-12-05 15:17:56,151 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/
+2022-12-05 15:17:56,262 - scraper - INFO - Searching /fritzpowerline/tools/
+2022-12-05 15:17:56,262 - scraper - INFO - Searching /fritzpowerline/tools/
+2022-12-05 15:17:56,367 - scraper - INFO - Searching /fritzwlan/beta/
+2022-12-05 15:17:56,367 - scraper - INFO - Searching /fritzwlan/beta/
+2022-12-05 15:17:56,508 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/
+2022-12-05 15:17:56,508 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/
+2022-12-05 15:17:56,660 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/
+2022-12-05 15:17:56,660 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/
+2022-12-05 15:17:56,784 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/
+2022-12-05 15:17:56,784 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/
+2022-12-05 15:17:56,893 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/
+2022-12-05 15:17:56,893 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/
+2022-12-05 15:17:57,011 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/
+2022-12-05 15:17:57,011 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/
+2022-12-05 15:17:57,112 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/
+2022-12-05 15:17:57,112 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/
+2022-12-05 15:17:57,228 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/
+2022-12-05 15:17:57,228 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/
+2022-12-05 15:17:57,344 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/
+2022-12-05 15:17:57,344 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/
+2022-12-05 15:17:57,441 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/
+2022-12-05 15:17:57,441 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/
+2022-12-05 15:17:57,540 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/
+2022-12-05 15:17:57,540 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/
+2022-12-05 15:17:57,645 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/
+2022-12-05 15:17:57,645 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/
+2022-12-05 15:17:57,745 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/
+2022-12-05 15:17:57,745 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/
+2022-12-05 15:17:57,835 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/
+2022-12-05 15:17:57,835 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/
+2022-12-05 15:17:57,930 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/
+2022-12-05 15:17:57,930 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/
+2022-12-05 15:17:58,031 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/
+2022-12-05 15:17:58,031 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/
+2022-12-05 15:17:58,126 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/
+2022-12-05 15:17:58,126 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/
+2022-12-05 15:17:58,221 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/
+2022-12-05 15:17:58,221 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/
+2022-12-05 15:17:58,312 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/
+2022-12-05 15:17:58,312 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/
+2022-12-05 15:17:58,410 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/deutschland/
+2022-12-05 15:17:58,410 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/deutschland/
+2022-12-05 15:17:58,486 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/
+2022-12-05 15:17:58,486 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/
+2022-12-05 15:17:58,575 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/other/
+2022-12-05 15:17:58,575 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/other/
+2022-12-05 15:17:58,658 - scraper - INFO - Searching /fritzbox/beta/frisch-aus-der-entwicklung/
+2022-12-05 15:17:58,658 - scraper - INFO - Searching /fritzbox/beta/frisch-aus-der-entwicklung/
+2022-12-05 15:17:58,720 - scraper - INFO - Searching /fritzbox/beta/international/
+2022-12-05 15:17:58,720 - scraper - INFO - Searching /fritzbox/beta/international/
+2022-12-05 15:17:58,778 - scraper - INFO - Searching /fritzbox/beta/netze/
+2022-12-05 15:17:58,778 - scraper - INFO - Searching /fritzbox/beta/netze/
+2022-12-05 15:17:58,829 - scraper - INFO - Searching /fritzbox/beta/wartung/
+2022-12-05 15:17:58,829 - scraper - INFO - Searching /fritzbox/beta/wartung/
+2022-12-05 15:17:58,883 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/
+2022-12-05 15:17:58,883 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/
+2022-12-05 15:17:58,970 - scraper - INFO - Searching /fritzbox/fritzbox-3272/other/
+2022-12-05 15:17:58,970 - scraper - INFO - Searching /fritzbox/fritzbox-3272/other/
+2022-12-05 15:17:59,058 - scraper - INFO - Searching /fritzbox/fritzbox-3490/belgium/
+2022-12-05 15:17:59,058 - scraper - INFO - Searching /fritzbox/fritzbox-3490/belgium/
+2022-12-05 15:17:59,146 - scraper - INFO - Searching /fritzbox/fritzbox-3490/deutschland/
+2022-12-05 15:17:59,146 - scraper - INFO - Searching /fritzbox/fritzbox-3490/deutschland/
+2022-12-05 15:17:59,236 - scraper - INFO - Searching /fritzbox/fritzbox-3490/other/
+2022-12-05 15:17:59,236 - scraper - INFO - Searching /fritzbox/fritzbox-3490/other/
+2022-12-05 15:17:59,330 - scraper - INFO - Searching /fritzbox/fritzbox-4020/deutschland/
+2022-12-05 15:17:59,330 - scraper - INFO - Searching /fritzbox/fritzbox-4020/deutschland/
+2022-12-05 15:17:59,417 - scraper - INFO - Searching /fritzbox/fritzbox-4020/other/
+2022-12-05 15:17:59,417 - scraper - INFO - Searching /fritzbox/fritzbox-4020/other/
+2022-12-05 15:17:59,507 - scraper - INFO - Searching /fritzbox/fritzbox-4040/deutschland/
+2022-12-05 15:17:59,507 - scraper - INFO - Searching /fritzbox/fritzbox-4040/deutschland/
+2022-12-05 15:17:59,600 - scraper - INFO - Searching /fritzbox/fritzbox-4040/other/
+2022-12-05 15:17:59,600 - scraper - INFO - Searching /fritzbox/fritzbox-4040/other/
+2022-12-05 15:17:59,686 - scraper - INFO - Searching /fritzbox/fritzbox-4060/deutschland/
+2022-12-05 15:17:59,686 - scraper - INFO - Searching /fritzbox/fritzbox-4060/deutschland/
+2022-12-05 15:17:59,779 - scraper - INFO - Searching /fritzbox/fritzbox-4060/other/
+2022-12-05 15:17:59,779 - scraper - INFO - Searching /fritzbox/fritzbox-4060/other/
+2022-12-05 15:17:59,865 - scraper - INFO - Searching /fritzbox/fritzbox-5490/deutschland/
+2022-12-05 15:17:59,865 - scraper - INFO - Searching /fritzbox/fritzbox-5490/deutschland/
+2022-12-05 15:17:59,957 - scraper - INFO - Searching /fritzbox/fritzbox-5490/other/
+2022-12-05 15:17:59,957 - scraper - INFO - Searching /fritzbox/fritzbox-5490/other/
+2022-12-05 15:18:00,045 - scraper - INFO - Searching /fritzbox/fritzbox-5491/deutschland/
+2022-12-05 15:18:00,045 - scraper - INFO - Searching /fritzbox/fritzbox-5491/deutschland/
+2022-12-05 15:18:00,142 - scraper - INFO - Searching /fritzbox/fritzbox-5491/other/
+2022-12-05 15:18:00,142 - scraper - INFO - Searching /fritzbox/fritzbox-5491/other/
+2022-12-05 15:18:00,278 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/deutschland/
+2022-12-05 15:18:00,278 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/deutschland/
+2022-12-05 15:18:00,399 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/other/
+2022-12-05 15:18:00,399 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/other/
+2022-12-05 15:18:00,493 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/deutschland/
+2022-12-05 15:18:00,493 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/deutschland/
+2022-12-05 15:18:00,564 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/deutschland/
+2022-12-05 15:18:00,564 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/deutschland/
+2022-12-05 15:18:00,643 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/deutschland/
+2022-12-05 15:18:00,643 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/deutschland/
+2022-12-05 15:18:00,713 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/other/
+2022-12-05 15:18:00,713 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/other/
+2022-12-05 15:18:00,789 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/deutschland/
+2022-12-05 15:18:00,789 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/deutschland/
+2022-12-05 15:18:00,866 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/other/
+2022-12-05 15:18:00,866 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/other/
+2022-12-05 15:18:00,939 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/deutschland/
+2022-12-05 15:18:00,939 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/deutschland/
+2022-12-05 15:18:01,009 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/other/
+2022-12-05 15:18:01,009 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/other/
+2022-12-05 15:18:01,080 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/deutschland/
+2022-12-05 15:18:01,080 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/deutschland/
+2022-12-05 15:18:01,158 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/other/
+2022-12-05 15:18:01,158 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/other/
+2022-12-05 15:18:01,231 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/deutschland/
+2022-12-05 15:18:01,231 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/deutschland/
+2022-12-05 15:18:01,308 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/other/
+2022-12-05 15:18:01,308 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/other/
+2022-12-05 15:18:01,383 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/deutschland/
+2022-12-05 15:18:01,383 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/deutschland/
+2022-12-05 15:18:01,502 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/other/
+2022-12-05 15:18:01,502 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/other/
+2022-12-05 15:18:01,595 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/deutschland/
+2022-12-05 15:18:01,595 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/deutschland/
+2022-12-05 15:18:01,683 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/other/
+2022-12-05 15:18:01,683 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/other/
+2022-12-05 15:18:01,770 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/deutschland/
+2022-12-05 15:18:01,770 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/deutschland/
+2022-12-05 15:18:01,862 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/other/
+2022-12-05 15:18:01,862 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/other/
+2022-12-05 15:18:01,951 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/deutschland/
+2022-12-05 15:18:01,951 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/deutschland/
+2022-12-05 15:18:02,042 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/other/
+2022-12-05 15:18:02,042 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/other/
+2022-12-05 15:18:02,128 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/deutschland/
+2022-12-05 15:18:02,128 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/deutschland/
+2022-12-05 15:18:02,219 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/other/
+2022-12-05 15:18:02,219 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/other/
+2022-12-05 15:18:02,322 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/deutschland/
+2022-12-05 15:18:02,322 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/deutschland/
+2022-12-05 15:18:02,418 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/deutschland/
+2022-12-05 15:18:02,418 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/deutschland/
+2022-12-05 15:18:02,529 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/other/
+2022-12-05 15:18:02,529 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/other/
+2022-12-05 15:18:02,677 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/deutschland/
+2022-12-05 15:18:02,677 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/deutschland/
+2022-12-05 15:18:02,778 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/other/
+2022-12-05 15:18:02,778 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/other/
+2022-12-05 15:18:02,871 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/belgium/
+2022-12-05 15:18:02,871 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/belgium/
+2022-12-05 15:18:02,969 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/deutschland/
+2022-12-05 15:18:02,969 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/deutschland/
+2022-12-05 15:18:03,115 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/other/
+2022-12-05 15:18:03,115 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/other/
+2022-12-05 15:18:03,396 - scraper - INFO - Searching /fritzbox/fritzbox-7272/deutschland/
+2022-12-05 15:18:03,396 - scraper - INFO - Searching /fritzbox/fritzbox-7272/deutschland/
+2022-12-05 15:18:03,548 - scraper - INFO - Searching /fritzbox/fritzbox-7272/other/
+2022-12-05 15:18:03,548 - scraper - INFO - Searching /fritzbox/fritzbox-7272/other/
+2022-12-05 15:18:03,682 - scraper - INFO - Searching /fritzbox/fritzbox-7312/deutschland/
+2022-12-05 15:18:03,682 - scraper - INFO - Searching /fritzbox/fritzbox-7312/deutschland/
+2022-12-05 15:18:03,784 - scraper - INFO - Searching /fritzbox/fritzbox-7360/deutschland/
+2022-12-05 15:18:03,784 - scraper - INFO - Searching /fritzbox/fritzbox-7360/deutschland/
+2022-12-05 15:18:03,863 - scraper - INFO - Searching /fritzbox/fritzbox-7360/other/
+2022-12-05 15:18:03,863 - scraper - INFO - Searching /fritzbox/fritzbox-7360/other/
+2022-12-05 15:18:03,945 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/deutschland/
+2022-12-05 15:18:03,945 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/deutschland/
+2022-12-05 15:18:04,044 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/other/
+2022-12-05 15:18:04,044 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/other/
+2022-12-05 15:18:04,123 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/switzerland/
+2022-12-05 15:18:04,123 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/switzerland/
+2022-12-05 15:18:04,196 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/belgium/
+2022-12-05 15:18:04,196 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/belgium/
+2022-12-05 15:18:04,296 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/deutschland/
+2022-12-05 15:18:04,296 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/deutschland/
+2022-12-05 15:18:04,392 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/other/
+2022-12-05 15:18:04,392 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/other/
+2022-12-05 15:18:04,475 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/belgium/
+2022-12-05 15:18:04,475 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/belgium/
+2022-12-05 15:18:04,560 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/deutschland/
+2022-12-05 15:18:04,560 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/deutschland/
+2022-12-05 15:18:04,645 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/other/
+2022-12-05 15:18:04,645 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/other/
+2022-12-05 15:18:04,729 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/deutschland/
+2022-12-05 15:18:04,729 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/deutschland/
+2022-12-05 15:18:04,820 - scraper - INFO - Searching /fritzbox/fritzbox-7369/other/
+2022-12-05 15:18:04,820 - scraper - INFO - Searching /fritzbox/fritzbox-7369/other/
+2022-12-05 15:18:04,910 - scraper - INFO - Searching /fritzbox/fritzbox-7390/deutschland/
+2022-12-05 15:18:04,910 - scraper - INFO - Searching /fritzbox/fritzbox-7390/deutschland/
+2022-12-05 15:18:04,997 - scraper - INFO - Searching /fritzbox/fritzbox-7390/other/
+2022-12-05 15:18:04,997 - scraper - INFO - Searching /fritzbox/fritzbox-7390/other/
+2022-12-05 15:18:05,088 - scraper - INFO - Searching /fritzbox/fritzbox-7412/deutschland/
+2022-12-05 15:18:05,088 - scraper - INFO - Searching /fritzbox/fritzbox-7412/deutschland/
+2022-12-05 15:18:05,174 - scraper - INFO - Searching /fritzbox/fritzbox-7430/belgium/
+2022-12-05 15:18:05,174 - scraper - INFO - Searching /fritzbox/fritzbox-7430/belgium/
+2022-12-05 15:18:05,288 - scraper - INFO - Searching /fritzbox/fritzbox-7430/deutschland/
+2022-12-05 15:18:05,288 - scraper - INFO - Searching /fritzbox/fritzbox-7430/deutschland/
+2022-12-05 15:18:05,396 - scraper - INFO - Searching /fritzbox/fritzbox-7430/other/
+2022-12-05 15:18:05,396 - scraper - INFO - Searching /fritzbox/fritzbox-7430/other/
+2022-12-05 15:18:05,489 - scraper - INFO - Searching /fritzbox/fritzbox-7490/belgium/
+2022-12-05 15:18:05,489 - scraper - INFO - Searching /fritzbox/fritzbox-7490/belgium/
+2022-12-05 15:18:05,580 - scraper - INFO - Searching /fritzbox/fritzbox-7490/deutschland/
+2022-12-05 15:18:05,580 - scraper - INFO - Searching /fritzbox/fritzbox-7490/deutschland/
+2022-12-05 15:18:05,670 - scraper - INFO - Searching /fritzbox/fritzbox-7490/other/
+2022-12-05 15:18:05,670 - scraper - INFO - Searching /fritzbox/fritzbox-7490/other/
+2022-12-05 15:18:05,760 - scraper - INFO - Searching /fritzbox/fritzbox-7510/deutschland/
+2022-12-05 15:18:05,760 - scraper - INFO - Searching /fritzbox/fritzbox-7510/deutschland/
+2022-12-05 15:18:05,851 - scraper - INFO - Searching /fritzbox/fritzbox-7510/other/
+2022-12-05 15:18:05,851 - scraper - INFO - Searching /fritzbox/fritzbox-7510/other/
+2022-12-05 15:18:05,940 - scraper - INFO - Searching /fritzbox/fritzbox-7520/deutschland/
+2022-12-05 15:18:05,940 - scraper - INFO - Searching /fritzbox/fritzbox-7520/deutschland/
+2022-12-05 15:18:06,026 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/deutschland/
+2022-12-05 15:18:06,026 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/deutschland/
+2022-12-05 15:18:06,114 - scraper - INFO - Searching /fritzbox/fritzbox-7530/belgium/
+2022-12-05 15:18:06,114 - scraper - INFO - Searching /fritzbox/fritzbox-7530/belgium/
+2022-12-05 15:18:06,203 - scraper - INFO - Searching /fritzbox/fritzbox-7530/deutschland/
+2022-12-05 15:18:06,203 - scraper - INFO - Searching /fritzbox/fritzbox-7530/deutschland/
+2022-12-05 15:18:06,299 - scraper - INFO - Searching /fritzbox/fritzbox-7530/other/
+2022-12-05 15:18:06,299 - scraper - INFO - Searching /fritzbox/fritzbox-7530/other/
+2022-12-05 15:18:06,404 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/deutschland/
+2022-12-05 15:18:06,404 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/deutschland/
+2022-12-05 15:18:06,502 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/other/
+2022-12-05 15:18:06,502 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/other/
+2022-12-05 15:18:06,595 - scraper - INFO - Searching /fritzbox/fritzbox-7560/deutschland/
+2022-12-05 15:18:06,595 - scraper - INFO - Searching /fritzbox/fritzbox-7560/deutschland/
+2022-12-05 15:18:06,682 - scraper - INFO - Searching /fritzbox/fritzbox-7560/other/
+2022-12-05 15:18:06,682 - scraper - INFO - Searching /fritzbox/fritzbox-7560/other/
+2022-12-05 15:18:06,773 - scraper - INFO - Searching /fritzbox/fritzbox-7580/deutschland/
+2022-12-05 15:18:06,773 - scraper - INFO - Searching /fritzbox/fritzbox-7580/deutschland/
+2022-12-05 15:18:06,860 - scraper - INFO - Searching /fritzbox/fritzbox-7581/other/
+2022-12-05 15:18:06,860 - scraper - INFO - Searching /fritzbox/fritzbox-7581/other/
+2022-12-05 15:18:06,946 - scraper - INFO - Searching /fritzbox/fritzbox-7582/other/
+2022-12-05 15:18:06,946 - scraper - INFO - Searching /fritzbox/fritzbox-7582/other/
+2022-12-05 15:18:07,031 - scraper - INFO - Searching /fritzbox/fritzbox-7583/deutschland/
+2022-12-05 15:18:07,031 - scraper - INFO - Searching /fritzbox/fritzbox-7583/deutschland/
+2022-12-05 15:18:07,131 - scraper - INFO - Searching /fritzbox/fritzbox-7583/other/
+2022-12-05 15:18:07,131 - scraper - INFO - Searching /fritzbox/fritzbox-7583/other/
+2022-12-05 15:18:07,216 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/deutschland/
+2022-12-05 15:18:07,216 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/deutschland/
+2022-12-05 15:18:07,313 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/other/
+2022-12-05 15:18:07,313 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/other/
+2022-12-05 15:18:07,398 - scraper - INFO - Searching /fritzbox/fritzbox-7590/belgium/
+2022-12-05 15:18:07,398 - scraper - INFO - Searching /fritzbox/fritzbox-7590/belgium/
+2022-12-05 15:18:07,483 - scraper - INFO - Searching /fritzbox/fritzbox-7590/deutschland/
+2022-12-05 15:18:07,483 - scraper - INFO - Searching /fritzbox/fritzbox-7590/deutschland/
+2022-12-05 15:18:07,574 - scraper - INFO - Searching /fritzbox/fritzbox-7590/other/
+2022-12-05 15:18:07,574 - scraper - INFO - Searching /fritzbox/fritzbox-7590/other/
+2022-12-05 15:18:07,661 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/deutschland/
+2022-12-05 15:18:07,661 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/deutschland/
+2022-12-05 15:18:07,745 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/other/
+2022-12-05 15:18:07,745 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/other/
+2022-12-05 15:18:07,839 - scraper - INFO - Searching /fritzbox/tools/vpn/
+2022-12-05 15:18:07,839 - scraper - INFO - Searching /fritzbox/tools/vpn/
+2022-12-05 15:18:07,921 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Box-Fernzugang_einrichten_Installation.zip
+2022-12-05 15:18:07,921 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Box-Fernzugang_einrichten_Installation.zip
+2022-12-05 15:18:07,935 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Fernzugang_german_Installation.zip
+2022-12-05 15:18:07,935 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Fernzugang_german_Installation.zip
+2022-12-05 15:18:07,946 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_Installation.zip
+2022-12-05 15:18:07,946 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_Installation.zip
+2022-12-05 15:18:07,958 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_win10_Installation.zip
+2022-12-05 15:18:07,958 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_win10_Installation.zip
+2022-12-05 15:20:52,959 - scraper - ERROR - Could not connect to AVM!
+Traceback (most recent call last):
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\src\Vendors\AVM\AVM.py", line 28, in connect_webdriver
+    self.driver.get(self.url)
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in get
+    self.execute(Command.GET, {"url": url})
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=108.0.5359.71)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x011AF243]
+	(No symbol) [0x01137FD1]
+	(No symbol) [0x0102CF10]
+	(No symbol) [0x010200EE]
+	(No symbol) [0x0101EA07]
+	(No symbol) [0x0101EDC2]
+	(No symbol) [0x0102EA5B]
+	(No symbol) [0x0108D187]
+	(No symbol) [0x0107858C]
+	(No symbol) [0x0108C9EB]
+	(No symbol) [0x01078386]
+	(No symbol) [0x0105163C]
+	(No symbol) [0x0105269D]
+	GetHandleVerifier [0x01449A22+2655074]
+	GetHandleVerifier [0x0143CA24+2601828]
+	GetHandleVerifier [0x01258C0A+619850]
+	GetHandleVerifier [0x01257830+614768]
+	(No symbol) [0x011405FC]
+	(No symbol) [0x01145968]
+	(No symbol) [0x01145A55]
+	(No symbol) [0x0115051B]
+	BaseThreadInitThunk [0x75046359+25]
+	RtlGetAppContainerNamedObjectPath [0x774C87A4+228]
+	RtlGetAppContainerNamedObjectPath [0x774C8774+180]
+
+2022-12-05 15:20:52,959 - scraper - ERROR - Could not connect to AVM!
+Traceback (most recent call last):
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\src\Vendors\AVM\AVM.py", line 28, in connect_webdriver
+    self.driver.get(self.url)
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in get
+    self.execute(Command.GET, {"url": url})
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "F:\Dokumente\Uni\MSc Computer Science\AMOS\amos2022ws01-firmware-scraper\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=108.0.5359.71)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x011AF243]
+	(No symbol) [0x01137FD1]
+	(No symbol) [0x0102CF10]
+	(No symbol) [0x010200EE]
+	(No symbol) [0x0101EA07]
+	(No symbol) [0x0101EDC2]
+	(No symbol) [0x0102EA5B]
+	(No symbol) [0x0108D187]
+	(No symbol) [0x0107858C]
+	(No symbol) [0x0108C9EB]
+	(No symbol) [0x01078386]
+	(No symbol) [0x0105163C]
+	(No symbol) [0x0105269D]
+	GetHandleVerifier [0x01449A22+2655074]
+	GetHandleVerifier [0x0143CA24+2601828]
+	GetHandleVerifier [0x01258C0A+619850]
+	GetHandleVerifier [0x01257830+614768]
+	(No symbol) [0x011405FC]
+	(No symbol) [0x01145968]
+	(No symbol) [0x01145A55]
+	(No symbol) [0x0115051B]
+	BaseThreadInitThunk [0x75046359+25]
+	RtlGetAppContainerNamedObjectPath [0x774C87A4+228]
+	RtlGetAppContainerNamedObjectPath [0x774C8774+180]
+
+2022-12-05 15:20:55,181 - scraper - INFO - Connected Successfully!
+2022-12-05 15:20:55,181 - scraper - INFO - Connected Successfully!
+2022-12-05 15:20:55,181 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-12-05 15:20:55,181 - scraper - INFO - Scraping all data from https://download.avm.de
+2022-12-05 15:20:55,369 - scraper - INFO - Searching /fritzbox/
+2022-12-05 15:20:55,369 - scraper - INFO - Searching /fritzbox/
+2022-12-05 15:20:56,557 - scraper - INFO - Searching /fritzdect/
+2022-12-05 15:20:56,557 - scraper - INFO - Searching /fritzdect/
+2022-12-05 15:20:56,786 - scraper - INFO - Searching /fritzfon/
+2022-12-05 15:20:56,786 - scraper - INFO - Searching /fritzfon/
+2022-12-05 15:20:56,966 - scraper - INFO - Searching /fritzpowerline/
+2022-12-05 15:20:56,966 - scraper - INFO - Searching /fritzpowerline/
+2022-12-05 15:20:57,344 - scraper - INFO - Searching /fritzwlan/
+2022-12-05 15:20:57,344 - scraper - INFO - Searching /fritzwlan/
+2022-12-05 15:20:57,807 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/
+2022-12-05 15:20:57,807 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/
+2022-12-05 15:20:57,936 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/
+2022-12-05 15:20:57,936 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/
+2022-12-05 15:20:58,053 - scraper - INFO - Searching /fritzbox/beta/
+2022-12-05 15:20:58,053 - scraper - INFO - Searching /fritzbox/beta/
+2022-12-05 15:20:58,213 - scraper - INFO - Searching /fritzbox/fritzbox-3272/
+2022-12-05 15:20:58,213 - scraper - INFO - Searching /fritzbox/fritzbox-3272/
+2022-12-05 15:20:58,337 - scraper - INFO - Searching /fritzbox/fritzbox-3490/
+2022-12-05 15:20:58,337 - scraper - INFO - Searching /fritzbox/fritzbox-3490/
+2022-12-05 15:20:58,472 - scraper - INFO - Searching /fritzbox/fritzbox-4020/
+2022-12-05 15:20:58,472 - scraper - INFO - Searching /fritzbox/fritzbox-4020/
+2022-12-05 15:20:58,592 - scraper - INFO - Searching /fritzbox/fritzbox-4040/
+2022-12-05 15:20:58,592 - scraper - INFO - Searching /fritzbox/fritzbox-4040/
+2022-12-05 15:20:58,717 - scraper - INFO - Searching /fritzbox/fritzbox-4060/
+2022-12-05 15:20:58,717 - scraper - INFO - Searching /fritzbox/fritzbox-4060/
+2022-12-05 15:20:58,842 - scraper - INFO - Searching /fritzbox/fritzbox-5490/
+2022-12-05 15:20:58,842 - scraper - INFO - Searching /fritzbox/fritzbox-5490/
+2022-12-05 15:20:58,950 - scraper - INFO - Searching /fritzbox/fritzbox-5491/
+2022-12-05 15:20:58,950 - scraper - INFO - Searching /fritzbox/fritzbox-5491/
+2022-12-05 15:20:59,070 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/
+2022-12-05 15:20:59,070 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/
+2022-12-05 15:20:59,195 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/
+2022-12-05 15:20:59,195 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/
+2022-12-05 15:20:59,281 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/
+2022-12-05 15:20:59,281 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/
+2022-12-05 15:20:59,388 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/
+2022-12-05 15:20:59,388 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/
+2022-12-05 15:20:59,490 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/
+2022-12-05 15:20:59,490 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/
+2022-12-05 15:20:59,635 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/
+2022-12-05 15:20:59,635 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/
+2022-12-05 15:20:59,767 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/
+2022-12-05 15:20:59,767 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/
+2022-12-05 15:20:59,897 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/
+2022-12-05 15:20:59,897 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/
+2022-12-05 15:21:00,018 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/
+2022-12-05 15:21:00,018 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/
+2022-12-05 15:21:00,162 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/
+2022-12-05 15:21:00,162 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/
+2022-12-05 15:21:00,321 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/
+2022-12-05 15:21:00,321 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/
+2022-12-05 15:21:00,471 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/
+2022-12-05 15:21:00,471 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/
+2022-12-05 15:21:00,577 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/
+2022-12-05 15:21:00,577 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/
+2022-12-05 15:21:00,696 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/
+2022-12-05 15:21:00,696 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/
+2022-12-05 15:21:00,781 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/
+2022-12-05 15:21:00,781 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/
+2022-12-05 15:21:00,895 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/
+2022-12-05 15:21:00,895 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/
+2022-12-05 15:21:01,010 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/
+2022-12-05 15:21:01,010 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/
+2022-12-05 15:21:01,156 - scraper - INFO - Searching /fritzbox/fritzbox-7272/
+2022-12-05 15:21:01,156 - scraper - INFO - Searching /fritzbox/fritzbox-7272/
+2022-12-05 15:21:01,285 - scraper - INFO - Searching /fritzbox/fritzbox-7312/
+2022-12-05 15:21:01,285 - scraper - INFO - Searching /fritzbox/fritzbox-7312/
+2022-12-05 15:21:01,390 - scraper - INFO - Searching /fritzbox/fritzbox-7360/
+2022-12-05 15:21:01,390 - scraper - INFO - Searching /fritzbox/fritzbox-7360/
+2022-12-05 15:21:01,541 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/
+2022-12-05 15:21:01,541 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/
+2022-12-05 15:21:01,676 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/
+2022-12-05 15:21:01,676 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/
+2022-12-05 15:21:01,826 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/
+2022-12-05 15:21:01,826 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/
+2022-12-05 15:21:01,963 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/
+2022-12-05 15:21:01,963 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/
+2022-12-05 15:21:02,056 - scraper - INFO - Searching /fritzbox/fritzbox-7369/
+2022-12-05 15:21:02,056 - scraper - INFO - Searching /fritzbox/fritzbox-7369/
+2022-12-05 15:21:02,160 - scraper - INFO - Searching /fritzbox/fritzbox-7390/
+2022-12-05 15:21:02,160 - scraper - INFO - Searching /fritzbox/fritzbox-7390/
+2022-12-05 15:21:02,261 - scraper - INFO - Searching /fritzbox/fritzbox-7412/
+2022-12-05 15:21:02,261 - scraper - INFO - Searching /fritzbox/fritzbox-7412/
+2022-12-05 15:21:02,350 - scraper - INFO - Searching /fritzbox/fritzbox-7430/
+2022-12-05 15:21:02,350 - scraper - INFO - Searching /fritzbox/fritzbox-7430/
+2022-12-05 15:21:02,496 - scraper - INFO - Searching /fritzbox/fritzbox-7490/
+2022-12-05 15:21:02,496 - scraper - INFO - Searching /fritzbox/fritzbox-7490/
+2022-12-05 15:21:02,637 - scraper - INFO - Searching /fritzbox/fritzbox-7510/
+2022-12-05 15:21:02,637 - scraper - INFO - Searching /fritzbox/fritzbox-7510/
+2022-12-05 15:21:02,747 - scraper - INFO - Searching /fritzbox/fritzbox-7520/
+2022-12-05 15:21:02,747 - scraper - INFO - Searching /fritzbox/fritzbox-7520/
+2022-12-05 15:21:02,827 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/
+2022-12-05 15:21:02,827 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/
+2022-12-05 15:21:02,912 - scraper - INFO - Searching /fritzbox/fritzbox-7530/
+2022-12-05 15:21:02,912 - scraper - INFO - Searching /fritzbox/fritzbox-7530/
+2022-12-05 15:21:03,047 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/
+2022-12-05 15:21:03,047 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/
+2022-12-05 15:21:03,154 - scraper - INFO - Searching /fritzbox/fritzbox-7560/
+2022-12-05 15:21:03,154 - scraper - INFO - Searching /fritzbox/fritzbox-7560/
+2022-12-05 15:21:03,273 - scraper - INFO - Searching /fritzbox/fritzbox-7580/
+2022-12-05 15:21:03,273 - scraper - INFO - Searching /fritzbox/fritzbox-7580/
+2022-12-05 15:21:03,367 - scraper - INFO - Searching /fritzbox/fritzbox-7581/
+2022-12-05 15:21:03,367 - scraper - INFO - Searching /fritzbox/fritzbox-7581/
+2022-12-05 15:21:03,460 - scraper - INFO - Searching /fritzbox/fritzbox-7582/
+2022-12-05 15:21:03,460 - scraper - INFO - Searching /fritzbox/fritzbox-7582/
+2022-12-05 15:21:03,536 - scraper - INFO - Searching /fritzbox/fritzbox-7583/
+2022-12-05 15:21:03,536 - scraper - INFO - Searching /fritzbox/fritzbox-7583/
+2022-12-05 15:21:03,633 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/
+2022-12-05 15:21:03,633 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/
+2022-12-05 15:21:03,744 - scraper - INFO - Searching /fritzbox/fritzbox-7590/
+2022-12-05 15:21:03,744 - scraper - INFO - Searching /fritzbox/fritzbox-7590/
+2022-12-05 15:21:03,879 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/
+2022-12-05 15:21:03,879 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/
+2022-12-05 15:21:03,976 - scraper - INFO - Searching /fritzbox/tools/
+2022-12-05 15:21:03,976 - scraper - INFO - Searching /fritzbox/tools/
+2022-12-05 15:21:04,069 - scraper - INFO - Searching /fritzdect/fritzdect-100/
+2022-12-05 15:21:04,069 - scraper - INFO - Searching /fritzdect/fritzdect-100/
+2022-12-05 15:21:04,158 - scraper - INFO - Searching /fritzdect/fritzdect-200/
+2022-12-05 15:21:04,158 - scraper - INFO - Searching /fritzdect/fritzdect-200/
+2022-12-05 15:21:04,235 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-12-05 15:21:04,235 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-12-05 15:21:04,312 - scraper - INFO - Searching /fritzdect/fritzdect-301/
+2022-12-05 15:21:04,312 - scraper - INFO - Searching /fritzdect/fritzdect-301/
+2022-12-05 15:21:04,407 - scraper - INFO - Searching /fritzdect/fritzdect-302/
+2022-12-05 15:21:04,407 - scraper - INFO - Searching /fritzdect/fritzdect-302/
+2022-12-05 15:21:04,486 - scraper - INFO - Searching /fritzdect/fritzdect-400/
+2022-12-05 15:21:04,486 - scraper - INFO - Searching /fritzdect/fritzdect-400/
+2022-12-05 15:21:04,568 - scraper - INFO - Searching /fritzdect/fritzdect-440/
+2022-12-05 15:21:04,568 - scraper - INFO - Searching /fritzdect/fritzdect-440/
+2022-12-05 15:21:04,667 - scraper - INFO - Searching /fritzdect/fritzdect-500/
+2022-12-05 15:21:04,667 - scraper - INFO - Searching /fritzdect/fritzdect-500/
+2022-12-05 15:21:04,759 - scraper - INFO - Searching /fritzfon/fritzfon-c4/
+2022-12-05 15:21:04,759 - scraper - INFO - Searching /fritzfon/fritzfon-c4/
+2022-12-05 15:21:04,860 - scraper - INFO - Searching /fritzfon/fritzfon-c5/
+2022-12-05 15:21:04,860 - scraper - INFO - Searching /fritzfon/fritzfon-c5/
+2022-12-05 15:21:04,962 - scraper - INFO - Searching /fritzfon/fritzfon-c6/
+2022-12-05 15:21:04,962 - scraper - INFO - Searching /fritzfon/fritzfon-c6/
+2022-12-05 15:21:05,061 - scraper - INFO - Searching /fritzfon/fritzfon-m2/
+2022-12-05 15:21:05,061 - scraper - INFO - Searching /fritzfon/fritzfon-m2/
+2022-12-05 15:21:05,160 - scraper - INFO - Searching /fritzfon/fritzfon-x6/
+2022-12-05 15:21:05,160 - scraper - INFO - Searching /fritzfon/fritzfon-x6/
+2022-12-05 15:21:05,258 - scraper - INFO - Searching /fritzpowerline/beta/
+2022-12-05 15:21:05,258 - scraper - INFO - Searching /fritzpowerline/beta/
+2022-12-05 15:21:05,445 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/
+2022-12-05 15:21:05,445 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e/
+2022-12-05 15:21:05,597 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/
+2022-12-05 15:21:05,597 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-t/
+2022-12-05 15:21:05,765 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/
+2022-12-05 15:21:05,765 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1000e-v2/
+2022-12-05 15:21:05,911 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/
+2022-12-05 15:21:05,911 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220/
+2022-12-05 15:21:06,075 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/
+2022-12-05 15:21:06,075 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1220e/
+2022-12-05 15:21:06,207 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/
+2022-12-05 15:21:06,207 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1240e/
+2022-12-05 15:21:06,334 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/
+2022-12-05 15:21:06,334 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260/
+2022-12-05 15:21:06,457 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/
+2022-12-05 15:21:06,457 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-1260e/
+2022-12-05 15:21:06,592 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/
+2022-12-05 15:21:06,592 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-510e-a/
+2022-12-05 15:21:06,696 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/
+2022-12-05 15:21:06,696 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-530e/
+2022-12-05 15:21:06,820 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/
+2022-12-05 15:21:06,820 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-540e/
+2022-12-05 15:21:06,939 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/
+2022-12-05 15:21:06,939 - scraper - INFO - Searching /fritzpowerline/fritzpowerline-546e/
+2022-12-05 15:21:07,072 - scraper - INFO - Searching /fritzpowerline/tools/
+2022-12-05 15:21:07,072 - scraper - INFO - Searching /fritzpowerline/tools/
+2022-12-05 15:21:07,174 - scraper - INFO - Searching /fritzwlan/beta/
+2022-12-05 15:21:07,174 - scraper - INFO - Searching /fritzwlan/beta/
+2022-12-05 15:21:07,286 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/
+2022-12-05 15:21:07,286 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200/
+2022-12-05 15:21:07,414 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/
+2022-12-05 15:21:07,414 - scraper - INFO - Searching /fritzwlan/fritzrepeater-1200-ax/
+2022-12-05 15:21:07,554 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/
+2022-12-05 15:21:07,554 - scraper - INFO - Searching /fritzwlan/fritzrepeater-2400/
+2022-12-05 15:21:07,679 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/
+2022-12-05 15:21:07,679 - scraper - INFO - Searching /fritzwlan/fritzrepeater-3000/
+2022-12-05 15:21:07,797 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/
+2022-12-05 15:21:07,797 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600/
+2022-12-05 15:21:07,929 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/
+2022-12-05 15:21:07,929 - scraper - INFO - Searching /fritzwlan/fritzrepeater-6000/
+2022-12-05 15:21:08,026 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/
+2022-12-05 15:21:08,026 - scraper - INFO - Searching /fritzwlan/fritzrepeater-600v2/
+2022-12-05 15:21:08,134 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/
+2022-12-05 15:21:08,134 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1160/
+2022-12-05 15:21:08,247 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/
+2022-12-05 15:21:08,247 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-1750e/
+2022-12-05 15:21:08,356 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/
+2022-12-05 15:21:08,356 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-300e/
+2022-12-05 15:21:08,468 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/
+2022-12-05 15:21:08,468 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-a/
+2022-12-05 15:21:08,580 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/
+2022-12-05 15:21:08,580 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-310-b/
+2022-12-05 15:21:08,698 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/
+2022-12-05 15:21:08,698 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-450e/
+2022-12-05 15:21:08,817 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/
+2022-12-05 15:21:08,817 - scraper - INFO - Searching /fritzwlan/fritzwlan-repeater-dvb-c/
+2022-12-05 15:21:08,980 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/
+2022-12-05 15:21:08,980 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430/
+2022-12-05 15:21:09,092 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/
+2022-12-05 15:21:09,092 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-430-mu-mimo/
+2022-12-05 15:21:09,219 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/
+2022-12-05 15:21:09,219 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-ac-860/
+2022-12-05 15:21:09,340 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/
+2022-12-05 15:21:09,340 - scraper - INFO - Searching /fritzwlan/fritzwlan-usb-stick-nv2/
+2022-12-05 15:21:09,445 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/deutschland/
+2022-12-05 15:21:09,445 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690/deutschland/
+2022-12-05 15:21:09,527 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/
+2022-12-05 15:21:09,527 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/deutschland/
+2022-12-05 15:21:09,611 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/other/
+2022-12-05 15:21:09,611 - scraper - INFO - Searching /fritzbox/FRITZ%21Box%206690%20Cable/other/
+2022-12-05 15:21:09,709 - scraper - INFO - Searching /fritzbox/beta/frisch-aus-der-entwicklung/
+2022-12-05 15:21:09,709 - scraper - INFO - Searching /fritzbox/beta/frisch-aus-der-entwicklung/
+2022-12-05 15:21:09,769 - scraper - INFO - Searching /fritzbox/beta/international/
+2022-12-05 15:21:09,769 - scraper - INFO - Searching /fritzbox/beta/international/
+2022-12-05 15:21:09,829 - scraper - INFO - Searching /fritzbox/beta/netze/
+2022-12-05 15:21:09,829 - scraper - INFO - Searching /fritzbox/beta/netze/
+2022-12-05 15:21:09,888 - scraper - INFO - Searching /fritzbox/beta/wartung/
+2022-12-05 15:21:09,888 - scraper - INFO - Searching /fritzbox/beta/wartung/
+2022-12-05 15:21:09,961 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/
+2022-12-05 15:21:09,961 - scraper - INFO - Searching /fritzbox/fritzbox-3272/deutschland/
+2022-12-05 15:21:10,072 - scraper - INFO - Searching /fritzbox/fritzbox-3272/other/
+2022-12-05 15:21:10,072 - scraper - INFO - Searching /fritzbox/fritzbox-3272/other/
+2022-12-05 15:21:10,193 - scraper - INFO - Searching /fritzbox/fritzbox-3490/belgium/
+2022-12-05 15:21:10,193 - scraper - INFO - Searching /fritzbox/fritzbox-3490/belgium/
+2022-12-05 15:21:10,330 - scraper - INFO - Searching /fritzbox/fritzbox-3490/deutschland/
+2022-12-05 15:21:10,330 - scraper - INFO - Searching /fritzbox/fritzbox-3490/deutschland/
+2022-12-05 15:21:10,467 - scraper - INFO - Searching /fritzbox/fritzbox-3490/other/
+2022-12-05 15:21:10,467 - scraper - INFO - Searching /fritzbox/fritzbox-3490/other/
+2022-12-05 15:21:10,573 - scraper - INFO - Searching /fritzbox/fritzbox-4020/deutschland/
+2022-12-05 15:21:10,573 - scraper - INFO - Searching /fritzbox/fritzbox-4020/deutschland/
+2022-12-05 15:21:10,681 - scraper - INFO - Searching /fritzbox/fritzbox-4020/other/
+2022-12-05 15:21:10,681 - scraper - INFO - Searching /fritzbox/fritzbox-4020/other/
+2022-12-05 15:21:10,775 - scraper - INFO - Searching /fritzbox/fritzbox-4040/deutschland/
+2022-12-05 15:21:10,775 - scraper - INFO - Searching /fritzbox/fritzbox-4040/deutschland/
+2022-12-05 15:21:10,889 - scraper - INFO - Searching /fritzbox/fritzbox-4040/other/
+2022-12-05 15:21:10,889 - scraper - INFO - Searching /fritzbox/fritzbox-4040/other/
+2022-12-05 15:21:11,006 - scraper - INFO - Searching /fritzbox/fritzbox-4060/deutschland/
+2022-12-05 15:21:11,006 - scraper - INFO - Searching /fritzbox/fritzbox-4060/deutschland/
+2022-12-05 15:21:11,128 - scraper - INFO - Searching /fritzbox/fritzbox-4060/other/
+2022-12-05 15:21:11,128 - scraper - INFO - Searching /fritzbox/fritzbox-4060/other/
+2022-12-05 15:21:11,228 - scraper - INFO - Searching /fritzbox/fritzbox-5490/deutschland/
+2022-12-05 15:21:11,228 - scraper - INFO - Searching /fritzbox/fritzbox-5490/deutschland/
+2022-12-05 15:21:11,347 - scraper - INFO - Searching /fritzbox/fritzbox-5490/other/
+2022-12-05 15:21:11,347 - scraper - INFO - Searching /fritzbox/fritzbox-5490/other/
+2022-12-05 15:21:11,467 - scraper - INFO - Searching /fritzbox/fritzbox-5491/deutschland/
+2022-12-05 15:21:11,467 - scraper - INFO - Searching /fritzbox/fritzbox-5491/deutschland/
+2022-12-05 15:21:11,580 - scraper - INFO - Searching /fritzbox/fritzbox-5491/other/
+2022-12-05 15:21:11,580 - scraper - INFO - Searching /fritzbox/fritzbox-5491/other/
+2022-12-05 15:21:11,673 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/deutschland/
+2022-12-05 15:21:11,673 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/deutschland/
+2022-12-05 15:21:11,777 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/other/
+2022-12-05 15:21:11,777 - scraper - INFO - Searching /fritzbox/fritzbox-5530-fiber/other/
+2022-12-05 15:21:11,873 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/deutschland/
+2022-12-05 15:21:11,873 - scraper - INFO - Searching /fritzbox/fritzbox-5590-fiber/deutschland/
+2022-12-05 15:21:11,962 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/deutschland/
+2022-12-05 15:21:11,962 - scraper - INFO - Searching /fritzbox/fritzbox-6430-cable/deutschland/
+2022-12-05 15:21:12,057 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/deutschland/
+2022-12-05 15:21:12,057 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/deutschland/
+2022-12-05 15:21:12,138 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/other/
+2022-12-05 15:21:12,138 - scraper - INFO - Searching /fritzbox/fritzbox-6490-cable/other/
+2022-12-05 15:21:12,223 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/deutschland/
+2022-12-05 15:21:12,223 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/deutschland/
+2022-12-05 15:21:12,316 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/other/
+2022-12-05 15:21:12,316 - scraper - INFO - Searching /fritzbox/fritzbox-6590-cable/other/
+2022-12-05 15:21:12,423 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/deutschland/
+2022-12-05 15:21:12,423 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/deutschland/
+2022-12-05 15:21:12,511 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/other/
+2022-12-05 15:21:12,511 - scraper - INFO - Searching /fritzbox/fritzbox-6591-cable/other/
+2022-12-05 15:21:12,602 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/deutschland/
+2022-12-05 15:21:12,602 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/deutschland/
+2022-12-05 15:21:12,686 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/other/
+2022-12-05 15:21:12,686 - scraper - INFO - Searching /fritzbox/fritzbox-6660-cable/other/
+2022-12-05 15:21:12,777 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/deutschland/
+2022-12-05 15:21:12,777 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/deutschland/
+2022-12-05 15:21:12,872 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/other/
+2022-12-05 15:21:12,872 - scraper - INFO - Searching /fritzbox/fritzbox-6690-cable/other/
+2022-12-05 15:21:12,947 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/deutschland/
+2022-12-05 15:21:12,947 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/deutschland/
+2022-12-05 15:21:13,072 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/other/
+2022-12-05 15:21:13,072 - scraper - INFO - Searching /fritzbox/fritzbox-6810-lte/other/
+2022-12-05 15:21:13,189 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/deutschland/
+2022-12-05 15:21:13,189 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/deutschland/
+2022-12-05 15:21:13,303 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/other/
+2022-12-05 15:21:13,303 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte/other/
+2022-12-05 15:21:13,417 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/deutschland/
+2022-12-05 15:21:13,417 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/deutschland/
+2022-12-05 15:21:13,527 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/other/
+2022-12-05 15:21:13,527 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v2/other/
+2022-12-05 15:21:13,652 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/deutschland/
+2022-12-05 15:21:13,652 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/deutschland/
+2022-12-05 15:21:13,761 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/other/
+2022-12-05 15:21:13,761 - scraper - INFO - Searching /fritzbox/fritzbox-6820-lte-v3/other/
+2022-12-05 15:21:13,871 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/deutschland/
+2022-12-05 15:21:13,871 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/deutschland/
+2022-12-05 15:21:13,983 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/other/
+2022-12-05 15:21:13,983 - scraper - INFO - Searching /fritzbox/fritzbox-6840-lte/other/
+2022-12-05 15:21:14,101 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/deutschland/
+2022-12-05 15:21:14,101 - scraper - INFO - Searching /fritzbox/fritzbox-6842-lte/deutschland/
+2022-12-05 15:21:14,216 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/deutschland/
+2022-12-05 15:21:14,216 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/deutschland/
+2022-12-05 15:21:14,357 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/other/
+2022-12-05 15:21:14,357 - scraper - INFO - Searching /fritzbox/fritzbox-6850-5g/other/
+2022-12-05 15:21:14,476 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/deutschland/
+2022-12-05 15:21:14,476 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/deutschland/
+2022-12-05 15:21:14,575 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/other/
+2022-12-05 15:21:14,575 - scraper - INFO - Searching /fritzbox/fritzbox-6850-lte/other/
+2022-12-05 15:21:14,695 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/belgium/
+2022-12-05 15:21:14,695 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/belgium/
+2022-12-05 15:21:14,788 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/deutschland/
+2022-12-05 15:21:14,788 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/deutschland/
+2022-12-05 15:21:14,903 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/other/
+2022-12-05 15:21:14,903 - scraper - INFO - Searching /fritzbox/fritzbox-6890-lte/other/
+2022-12-05 15:21:15,008 - scraper - INFO - Searching /fritzbox/fritzbox-7272/deutschland/
+2022-12-05 15:21:15,008 - scraper - INFO - Searching /fritzbox/fritzbox-7272/deutschland/
+2022-12-05 15:21:15,115 - scraper - INFO - Searching /fritzbox/fritzbox-7272/other/
+2022-12-05 15:21:15,115 - scraper - INFO - Searching /fritzbox/fritzbox-7272/other/
+2022-12-05 15:21:15,241 - scraper - INFO - Searching /fritzbox/fritzbox-7312/deutschland/
+2022-12-05 15:21:15,241 - scraper - INFO - Searching /fritzbox/fritzbox-7312/deutschland/
+2022-12-05 15:21:15,387 - scraper - INFO - Searching /fritzbox/fritzbox-7360/deutschland/
+2022-12-05 15:21:15,387 - scraper - INFO - Searching /fritzbox/fritzbox-7360/deutschland/
+2022-12-05 15:21:15,477 - scraper - INFO - Searching /fritzbox/fritzbox-7360/other/
+2022-12-05 15:21:15,477 - scraper - INFO - Searching /fritzbox/fritzbox-7360/other/
+2022-12-05 15:21:15,553 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/deutschland/
+2022-12-05 15:21:15,553 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/deutschland/
+2022-12-05 15:21:15,652 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/other/
+2022-12-05 15:21:15,652 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/other/
+2022-12-05 15:21:15,740 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/switzerland/
+2022-12-05 15:21:15,740 - scraper - INFO - Searching /fritzbox/fritzbox-7360-sl/switzerland/
+2022-12-05 15:21:15,817 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/belgium/
+2022-12-05 15:21:15,817 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/belgium/
+2022-12-05 15:21:15,913 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/deutschland/
+2022-12-05 15:21:15,913 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/deutschland/
+2022-12-05 15:21:16,013 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/other/
+2022-12-05 15:21:16,013 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v1/other/
+2022-12-05 15:21:16,112 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/belgium/
+2022-12-05 15:21:16,112 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/belgium/
+2022-12-05 15:21:16,217 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/deutschland/
+2022-12-05 15:21:16,217 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/deutschland/
+2022-12-05 15:21:16,328 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/other/
+2022-12-05 15:21:16,328 - scraper - INFO - Searching /fritzbox/fritzbox-7360-v2/other/
+2022-12-05 15:21:16,458 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/deutschland/
+2022-12-05 15:21:16,458 - scraper - INFO - Searching /fritzbox/fritzbox-7362-sl/deutschland/
+2022-12-05 15:21:16,586 - scraper - INFO - Searching /fritzbox/fritzbox-7369/other/
+2022-12-05 15:21:16,586 - scraper - INFO - Searching /fritzbox/fritzbox-7369/other/
+2022-12-05 15:21:16,699 - scraper - INFO - Searching /fritzbox/fritzbox-7390/deutschland/
+2022-12-05 15:21:16,699 - scraper - INFO - Searching /fritzbox/fritzbox-7390/deutschland/
+2022-12-05 15:21:16,828 - scraper - INFO - Searching /fritzbox/fritzbox-7390/other/
+2022-12-05 15:21:16,828 - scraper - INFO - Searching /fritzbox/fritzbox-7390/other/
+2022-12-05 15:21:16,924 - scraper - INFO - Searching /fritzbox/fritzbox-7412/deutschland/
+2022-12-05 15:21:16,924 - scraper - INFO - Searching /fritzbox/fritzbox-7412/deutschland/
+2022-12-05 15:21:17,043 - scraper - INFO - Searching /fritzbox/fritzbox-7430/belgium/
+2022-12-05 15:21:17,043 - scraper - INFO - Searching /fritzbox/fritzbox-7430/belgium/
+2022-12-05 15:21:17,153 - scraper - INFO - Searching /fritzbox/fritzbox-7430/deutschland/
+2022-12-05 15:21:17,153 - scraper - INFO - Searching /fritzbox/fritzbox-7430/deutschland/
+2022-12-05 15:21:17,264 - scraper - INFO - Searching /fritzbox/fritzbox-7430/other/
+2022-12-05 15:21:17,264 - scraper - INFO - Searching /fritzbox/fritzbox-7430/other/
+2022-12-05 15:21:17,381 - scraper - INFO - Searching /fritzbox/fritzbox-7490/belgium/
+2022-12-05 15:21:17,381 - scraper - INFO - Searching /fritzbox/fritzbox-7490/belgium/
+2022-12-05 15:21:17,477 - scraper - INFO - Searching /fritzbox/fritzbox-7490/deutschland/
+2022-12-05 15:21:17,477 - scraper - INFO - Searching /fritzbox/fritzbox-7490/deutschland/
+2022-12-05 15:21:17,589 - scraper - INFO - Searching /fritzbox/fritzbox-7490/other/
+2022-12-05 15:21:17,589 - scraper - INFO - Searching /fritzbox/fritzbox-7490/other/
+2022-12-05 15:21:17,701 - scraper - INFO - Searching /fritzbox/fritzbox-7510/deutschland/
+2022-12-05 15:21:17,701 - scraper - INFO - Searching /fritzbox/fritzbox-7510/deutschland/
+2022-12-05 15:21:17,810 - scraper - INFO - Searching /fritzbox/fritzbox-7510/other/
+2022-12-05 15:21:17,810 - scraper - INFO - Searching /fritzbox/fritzbox-7510/other/
+2022-12-05 15:21:17,939 - scraper - INFO - Searching /fritzbox/fritzbox-7520/deutschland/
+2022-12-05 15:21:17,939 - scraper - INFO - Searching /fritzbox/fritzbox-7520/deutschland/
+2022-12-05 15:21:18,051 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/deutschland/
+2022-12-05 15:21:18,051 - scraper - INFO - Searching /fritzbox/fritzbox-7520-B/deutschland/
+2022-12-05 15:21:18,164 - scraper - INFO - Searching /fritzbox/fritzbox-7530/belgium/
+2022-12-05 15:21:18,164 - scraper - INFO - Searching /fritzbox/fritzbox-7530/belgium/
+2022-12-05 15:21:18,292 - scraper - INFO - Searching /fritzbox/fritzbox-7530/deutschland/
+2022-12-05 15:21:18,292 - scraper - INFO - Searching /fritzbox/fritzbox-7530/deutschland/
+2022-12-05 15:21:18,401 - scraper - INFO - Searching /fritzbox/fritzbox-7530/other/
+2022-12-05 15:21:18,401 - scraper - INFO - Searching /fritzbox/fritzbox-7530/other/
+2022-12-05 15:21:18,520 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/deutschland/
+2022-12-05 15:21:18,520 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/deutschland/
+2022-12-05 15:21:18,632 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/other/
+2022-12-05 15:21:18,632 - scraper - INFO - Searching /fritzbox/fritzbox-7530-ax/other/
+2022-12-05 15:21:18,758 - scraper - INFO - Searching /fritzbox/fritzbox-7560/deutschland/
+2022-12-05 15:21:18,758 - scraper - INFO - Searching /fritzbox/fritzbox-7560/deutschland/
+2022-12-05 15:21:18,876 - scraper - INFO - Searching /fritzbox/fritzbox-7560/other/
+2022-12-05 15:21:18,876 - scraper - INFO - Searching /fritzbox/fritzbox-7560/other/
+2022-12-05 15:21:18,974 - scraper - INFO - Searching /fritzbox/fritzbox-7580/deutschland/
+2022-12-05 15:21:18,974 - scraper - INFO - Searching /fritzbox/fritzbox-7580/deutschland/
+2022-12-05 15:21:19,088 - scraper - INFO - Searching /fritzbox/fritzbox-7581/other/
+2022-12-05 15:21:19,088 - scraper - INFO - Searching /fritzbox/fritzbox-7581/other/
+2022-12-05 15:21:19,198 - scraper - INFO - Searching /fritzbox/fritzbox-7582/other/
+2022-12-05 15:21:19,198 - scraper - INFO - Searching /fritzbox/fritzbox-7582/other/
+2022-12-05 15:21:19,311 - scraper - INFO - Searching /fritzbox/fritzbox-7583/deutschland/
+2022-12-05 15:21:19,311 - scraper - INFO - Searching /fritzbox/fritzbox-7583/deutschland/
+2022-12-05 15:21:19,411 - scraper - INFO - Searching /fritzbox/fritzbox-7583/other/
+2022-12-05 15:21:19,411 - scraper - INFO - Searching /fritzbox/fritzbox-7583/other/
+2022-12-05 15:21:19,509 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/deutschland/
+2022-12-05 15:21:19,509 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/deutschland/
+2022-12-05 15:21:19,629 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/other/
+2022-12-05 15:21:19,629 - scraper - INFO - Searching /fritzbox/fritzbox-7583-vdsl/other/
+2022-12-05 15:21:19,726 - scraper - INFO - Searching /fritzbox/fritzbox-7590/belgium/
+2022-12-05 15:21:19,726 - scraper - INFO - Searching /fritzbox/fritzbox-7590/belgium/
+2022-12-05 15:21:19,822 - scraper - INFO - Searching /fritzbox/fritzbox-7590/deutschland/
+2022-12-05 15:21:19,822 - scraper - INFO - Searching /fritzbox/fritzbox-7590/deutschland/
+2022-12-05 15:21:19,951 - scraper - INFO - Searching /fritzbox/fritzbox-7590/other/
+2022-12-05 15:21:19,951 - scraper - INFO - Searching /fritzbox/fritzbox-7590/other/
+2022-12-05 15:21:20,061 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/deutschland/
+2022-12-05 15:21:20,061 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/deutschland/
+2022-12-05 15:21:20,157 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/other/
+2022-12-05 15:21:20,157 - scraper - INFO - Searching /fritzbox/fritzbox-7590-ax/other/
+2022-12-05 15:21:20,285 - scraper - INFO - Searching /fritzbox/tools/vpn/
+2022-12-05 15:21:20,285 - scraper - INFO - Searching /fritzbox/tools/vpn/
+2022-12-05 15:21:20,405 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Box-Fernzugang_einrichten_Installation.zip
+2022-12-05 15:21:20,405 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Box-Fernzugang_einrichten_Installation.zip
+2022-12-05 15:21:20,419 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Fernzugang_german_Installation.zip
+2022-12-05 15:21:20,419 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_Fernzugang_german_Installation.zip
+2022-12-05 15:21:20,430 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_Installation.zip
+2022-12-05 15:21:20,430 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_Installation.zip
+2022-12-05 15:21:20,442 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_win10_Installation.zip
+2022-12-05 15:21:20,442 - scraper - INFO - Found firmware file: /fritzbox/tools/vpn/FRITZ_VPN64_German_win10_Installation.zip

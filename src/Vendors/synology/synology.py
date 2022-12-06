@@ -316,7 +316,7 @@ if __name__ == '__main__':
     metadata = Syn.scrape_metadata()
 
     # save metadata to json file
-    with open("test/files/firmware_data_Synology.json", "w") as firmware_file:
+    with open("scraped_metadata/firmware_data_Synology.json", "w") as firmware_file:
         json.dump(metadata, firmware_file)
 
     # download 10 firmwares
