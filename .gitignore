@@ -42,3 +42,4 @@ bin/
 *.log
 geckodriver.log
 /venv/
+/.env
