@@ -89,7 +89,7 @@ class DBConnector:
             None,  # emba_tested
             None,  # emba_report_path
             None,  # embark_report_link
-            json.dumps(fw_dict["additional_data"]),
+            json.dumps(fw_dict["additional_data"])
         )
 
     # debugging method
@@ -150,6 +150,23 @@ class DBConnector:
         finally:
             con.close()
 
+    def drop_table(self, table: str):
+        """drops table with given table name in DB Schema
+
+        Args:
+            table (str): table name as string for table to drop
+        """
+        drop_table_query = f"DROP TABLE IF EXISTS {table};"
+        con = self._get_db_con()
+        try:
+            with con.cursor() as cursor:
+                cursor.execute(drop_table_query)
+                con.commit()
+        except Exception as ex:
+            print(ex)
+        finally:
+            con.close()
+
     def insert_products(self, product_list: list[dict], table: str = "products"):
         """
         Inserts a list of product records into the firmware table.
@@ -166,9 +183,13 @@ class DBConnector:
             checksum_scraped, emba_tested, emba_report_path, embark_report_link, additional_data)
             VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
-        product_list = [
-            self._convert_firmware_dict_to_tuple(fw_dict) for fw_dict in product_list
-        ]
+        try:
+            # TODO this is seriously sketchy
+            product_list = [
+                self._convert_firmware_dict_to_tuple(fw_dict) for fw_dict in product_list
+            ]
+        except Exception as ex:
+            print(ex)
         con = self._get_db_con()
         try:
             with con.cursor() as cursor:
@@ -213,9 +234,12 @@ class DBConnector:
         """
         con = self._get_db_con()
 
+        #tmp.product_name, tmp.version, tmp.release_date, tmp.download_link, tmp.checksum_scraped,
+        #tmp.additional_data, tmp.manufacturer, tmp.product_type, tmp.id, tmp2.id
+
         query = f"""select 
-                    tmp.product_name, tmp.version, tmp.release_date, tmp.download_link, tmp.checksum_scraped, 
-                    tmp.additional_data, tmp.manufacturer, tmp.product_type, tmp.id, tmp2.id 
+                    tmp.manufacturer, tmp.product_name, tmp.product_type, tmp.version, tmp.release_date, tmp.download_link, tmp.file_path, tmp.checksum_local,
+                    tmp.checksum_scraped, tmp.emba_tested, tmp.emba_report_path, tmp.embark_report_link, tmp.additional_data
                     from {table1} as tmp left join {table2} as tmp2 
                     on tmp.product_name = tmp2.product_name 
                     and tmp.version = tmp2.version 
@@ -223,7 +247,7 @@ class DBConnector:
                     and tmp.product_type = tmp2.product_type 
                     where tmp2.id is null;"""
         try:
-            with con.cursor() as cursor:
+            with con.cursor(dictionary=True) as cursor:
                 # print(query) # Debug
                 cursor.execute(query)
                 result = cursor.fetchall()
