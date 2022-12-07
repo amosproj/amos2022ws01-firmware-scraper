@@ -81,7 +81,12 @@ logging.Logger.important = partialmethod(logging.Logger.log, logging.IMPORTANT)
 logging.important = partial(logging.log, logging.IMPORTANT)
 
 
-def create_logger():
+def create_logger(level: str = "IMPORTANT"):
+    if level == "INFO":
+        con_level = logging.INFO
+    else:
+        con_level = logging.IMPORTANT
+
     file_path = str(Path(__file__).parent) + "/logs.log"
 
     logger = logging.getLogger("scraper")
@@ -94,7 +99,7 @@ def create_logger():
     file_handler.setFormatter(format)
 
     stream_handler = logging.StreamHandler()
-    stream_handler.setLevel(logging.INFO)
+    stream_handler.setLevel(con_level)
     stream_handler.setFormatter(format)
 
     logger.addHandler(file_handler)

@@ -60,7 +60,7 @@ folder_elements_4[0].click()
 
 folder_elements_5 = driver.find_elements(By.XPATH, "//button[@class='btn btn-link']")
 folder_elements_5[0].click()
-time.sleep(13)
+time.sleep(15)
 
 # WebDriverWait(driver, 10).until(EC.alert_is_present())
 
