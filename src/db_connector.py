@@ -234,9 +234,6 @@ class DBConnector:
         """
         con = self._get_db_con()
 
-        #tmp.product_name, tmp.version, tmp.release_date, tmp.download_link, tmp.checksum_scraped,
-        #tmp.additional_data, tmp.manufacturer, tmp.product_type, tmp.id, tmp2.id
-
         query = f"""select 
                     tmp.manufacturer, tmp.product_name, tmp.product_type, tmp.version, tmp.release_date, tmp.download_link, tmp.file_path, tmp.checksum_local,
                     tmp.checksum_scraped, tmp.emba_tested, tmp.emba_report_path, tmp.embark_report_link, tmp.additional_data
