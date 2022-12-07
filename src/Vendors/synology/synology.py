@@ -152,7 +152,7 @@ class Synology_scraper():
             if not url:
                 url = self.url
             self.driver.get(url)
-            self.logger.success(f'Opened Synology website {url}')
+            self.logger.debug(f'Opened Synology website {url}')
         except Exception as e:
             self.logger.error(f"Could not open Synology website {url}!")
             self.logger.error(e)
@@ -191,7 +191,7 @@ class Synology_scraper():
 
     def _close_website(self) -> None:
         self.driver.close()
-        self.logger.success('Closes Window')
+        self.logger.debug('Closes Window')
 
     def _get_release_url(self) -> Optional[str]:
         """gets release url for selected product
@@ -292,14 +292,15 @@ class Synology_scraper():
                                      'url': self.driver.current_url,
                                      'dsm': self._find_DSM_OS_Version(),
                                      'checksum_scraped': self._get_MD5_checksum(),
-                                     'download_link': self._find_download_link()
+                                     'download_link': self._find_download_link(),
+                                     "additional_data": {}
                                      }
                 tmp_metadata_dict['release_url'] = self._get_release_url()
                 tmp_metadata_dict['release_date'], tmp_metadata_dict['version'] = self._get_release_date_and_fw_version(
                 )
                 metadata.append(tmp_metadata_dict)
-            self.logger.success(f'Scraped metadata for {product_line}')
-        self.logger.success('Scraped metadata for all products')
+            self.logger.debug(f'Scraped metadata for {product_line}')
+        self.logger.debug('Scraped metadata for all products')
         self.driver.quit()
         return metadata
 
@@ -308,9 +309,7 @@ if __name__ == '__main__':
 
     import json
 
-    from loguru import logger
-
-    logger.success('Start Synology')
+    logger.debug('Start Synology')
     Syn = Synology_scraper(logger)
     metadata = Syn.scrape_metadata()
 
@@ -321,4 +320,4 @@ if __name__ == '__main__':
     # download 10 firmwares
     # Syn._download(10)
 
-    logger.success('Finished Synology')
+    logger.debug('Finished Synology')
