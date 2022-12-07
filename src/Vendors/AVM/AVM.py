@@ -16,17 +16,20 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 class AVMScraper:
-    def __init__(self, logger):
+    def __init__(self, logger, max_products: int = float("inf"), headless: bool = True):
         self.url = "https://download.avm.de"
         self.name = "AVM"
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        self.driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()))
         self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
+        self.headless = headless
         self.logger = logger
         self.options = Options()
         self.options.add_argument("--headless")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
+        self.max_products: int = float("inf")
 
     def connect_webdriver(self):
         try:
@@ -37,7 +40,7 @@ class AVMScraper:
             raise (e)
 
     # List available firmware downloads
-    def scrape_metadata(self, max_products: int) -> list:
+    def scrape_metadata(self) -> list:
 
         self.connect_webdriver()
 
@@ -90,7 +93,8 @@ class AVMScraper:
                 )
                 if text_file:
                     self.logger.info(f"Found info file: {text_file}")
-                    product, version = self._parse_txt_file(self.url + text_file)
+                    product, version = self._parse_txt_file(
+                        self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
                     firmware_item["additional_data"] = {
@@ -100,7 +104,7 @@ class AVMScraper:
                 firmware_item["product_type"] = value.strip("/").split("/")[0]
                 self.catalog.append(firmware_item)
 
-            if len(self.catalog) >= max_products:
+            if len(self.catalog) >= self.max_products:
                 break
 
             sub_elems = [
@@ -154,8 +158,10 @@ class AVMScraper:
         product, version = None, None
         try:
             txt = requests.get(file_url).text.splitlines()
-            product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
-            version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
+            product = self._get_partial_str(
+                txt, "Product").split(":")[-1].strip()
+            version = self._get_partial_str(
+                txt, "Version").split(":")[-1].strip()
             self.logger.info(f"Found {product, version} in txt file!")
         except Exception as e:
             self.logger.info(f"Could not parse text file: {e}")
@@ -177,7 +183,7 @@ if __name__ == "__main__":
 
     logger = setup_logger()
     AVM = AVMScraper(logger=logger)
-    firmware_data = AVM.scrape_metadata(max_products=1)
+    firmware_data = AVM.scrape_metadata()
 
     with open("../../scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
