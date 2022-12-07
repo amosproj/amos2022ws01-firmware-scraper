@@ -217,8 +217,9 @@ def _download(firmware_data: list[dict], max_no_downloads: int):
 
 if __name__ == "__main__":
     logger = create_logger()
-    scraper = SchneiderElectricScraper(
-        logger, DOWNLOAD_URL_GLOBAL, max_products=20, headless=False)
+
+    scraper = SchneiderElectricScraper(logger, DOWNLOAD_URL_USA, max_products=20, headless=False)
+
     firmware_data = scraper.scrape_metadata()
     with open("../../../scraped_metadata/firmware_data_schneider.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
