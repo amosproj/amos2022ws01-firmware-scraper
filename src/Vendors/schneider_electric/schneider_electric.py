@@ -39,7 +39,7 @@ class SchneiderElectricScraper(Scraper):
     def __init__(
         self,
         logger,
-        scrape_entry_url: str = DOWNLOAD_URL_GLOBAL,
+        scrape_entry_url: str = DOWNLOAD_URL_USA,
         headless: bool = True,
         max_products: int = float("inf"),
     ):
@@ -107,7 +107,7 @@ class SchneiderElectricScraper(Scraper):
             title = " ".join(el.text.split()).removesuffix("information_stroke").rstrip()
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_RELEASE_DATE):
             release_date_raw = el.text.removeprefix("Date : ").split("/")
-            release_date = f"{release_date_raw[2]}-{release_date_raw[1]}-{release_date_raw[0]}"
+            release_date = f"{release_date_raw[2]}-{release_date_raw[0]}-{release_date_raw[1]}"
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_LANGUAGES):
             languages = el.text.removeprefix("Languages : ")
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_VERSION):
@@ -210,7 +210,7 @@ def _download(firmware_data: list[dict], max_no_downloads: int):
 
 if __name__ == "__main__":
     logger = create_logger()
-    scraper = SchneiderElectricScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=20, headless=False)
+    scraper = SchneiderElectricScraper(logger, DOWNLOAD_URL_USA, max_products=20, headless=False)
     firmware_data = scraper.scrape_metadata()
     with open("../../../scraped_metadata/firmware_data_schneider.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
