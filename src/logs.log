@@ -4779,3 +4779,11 @@ Backtrace:
 2022-12-07 12:58:46,140 - scraper - INFO - Searching /fritzdect/fritzdect-200/
 2022-12-07 12:58:46,281 - scraper - INFO - Searching /fritzdect/fritzdect-210/
 2022-12-07 12:58:46,281 - scraper - INFO - Searching /fritzdect/fritzdect-210/
+2022-12-11 14:22:09,978 - scraper - INFO - Vendor list: ['AVMScraper', 'SynologyScraper']
+2022-12-11 14:22:09,978 - scraper - INFO - Vendor list: ['AVMScraper', 'SynologyScraper']
+2022-12-11 14:22:09,994 - scraper - INFO - Vendor: AVMScraper
+2022-12-11 14:22:09,994 - scraper - INFO - Vendor: AVMScraper
+2022-12-11 14:23:07,969 - scraper - INFO - Vendor list: ['AVMScraper', 'SynologyScraper']
+2022-12-11 14:23:07,969 - scraper - INFO - Vendor list: ['AVMScraper', 'SynologyScraper']
+2022-12-11 14:23:07,970 - scraper - INFO - Vendor: AVMScraper
+2022-12-11 14:23:07,970 - scraper - INFO - Vendor: AVMScraper
