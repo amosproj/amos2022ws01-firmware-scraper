@@ -71,10 +71,10 @@ Since different vendors will create different problems, please check beforehand 
 
 
 import logging
-from pathlib import Path
 from functools import partial, partialmethod
+from pathlib import Path
 
-#Add custom level "IMPORTANT" (between INFO and WARNING)
+# Add custom level "IMPORTANT" (between INFO and WARNING)
 logging.IMPORTANT = 25
 logging.addLevelName(logging.IMPORTANT, 'Important')
 logging.Logger.important = partialmethod(logging.Logger.log, logging.IMPORTANT)
@@ -87,13 +87,14 @@ def create_logger():
     logger = logging.getLogger("scraper")
     logger.setLevel(logging.INFO)
 
-    format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    format = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
     file_handler = logging.FileHandler(file_path)
     file_handler.setFormatter(format)
 
     stream_handler = logging.StreamHandler()
-    stream_handler.setLevel(logging.IMPORTANT)
+    stream_handler.setLevel(logging.INFO)
     stream_handler.setFormatter(format)
 
     logger.addHandler(file_handler)

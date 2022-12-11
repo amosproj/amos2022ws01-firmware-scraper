@@ -1,5 +1,6 @@
 # # Import packages
 
+from datetime import datetime
 from typing import Optional, Tuple, Union
 from urllib.request import urlopen
 
@@ -12,6 +13,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
+
+from logger import create_logger
+from src.Vendors.scraper import Scraper
 
 # # STATICS
 VENDOR_URL = 'https://www.synology.com/en-global/support/download/'
@@ -37,7 +41,7 @@ options.experimental_options["prefs"] = chrome_prefs
 chrome_prefs["profile.default_content_settings"] = {"images": 2}
 
 
-class Synology_scraper():
+class SynologyScraper(Scraper):
 
     def __init__(
             self,
@@ -152,7 +156,7 @@ class Synology_scraper():
             if not url:
                 url = self.url
             self.driver.get(url)
-            self.logger.debug(f'Opened Synology website {url}')
+            self.logger.important(f'Opened Synology website {url}')
         except Exception as e:
             self.logger.error(f"Could not open Synology website {url}!")
             self.logger.error(e)
@@ -191,7 +195,10 @@ class Synology_scraper():
 
     def _close_website(self) -> None:
         self.driver.close()
-        self.logger.debug('Closes Window')
+        self.logger.important('Closes Window')
+
+    def _convert_date(self, date_str: str):
+        return datetime.strptime(date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
 
     def _get_release_url(self) -> Optional[str]:
         """gets release url for selected product
@@ -221,6 +228,7 @@ class Synology_scraper():
         Returns:
             str: release date
         """
+        original_window = self.driver.current_window_handle
         try:
             #
             if self.current_release_note_url == '':
@@ -228,7 +236,6 @@ class Synology_scraper():
                     f'Could not find Release Note on {self.driver.current_url}')
                 return None, None
             # Save the current window
-            original_window = self.driver.current_window_handle
             assert len(self.driver.window_handles) == 1
             self.logger.debug('Open new tab')
             self.driver.switch_to.new_window(self.current_release_note_url)
@@ -299,8 +306,8 @@ class Synology_scraper():
                 tmp_metadata_dict['release_date'], tmp_metadata_dict['version'] = self._get_release_date_and_fw_version(
                 )
                 metadata.append(tmp_metadata_dict)
-            self.logger.debug(f'Scraped metadata for {product_line}')
-        self.logger.debug('Scraped metadata for all products')
+            self.logger.important(f'Scraped metadata for {product_line}')
+        self.logger.important('Scraped metadata for all products')
         self.driver.quit()
         return metadata
 
@@ -309,15 +316,17 @@ if __name__ == '__main__':
 
     import json
 
-    logger.debug('Start Synology')
-    Syn = Synology_scraper(logger)
+    logger = create_logger()
+
+    logger.important('Start Synology')
+    Syn = SynologyScraper(logger)
     metadata = Syn.scrape_metadata()
 
     # save metadata to json file
-    with open("test/files/firmware_data_Synology.json", "w") as firmware_file:
+    with open("scraped_metadata/firmware_data_Synology.json", "w") as firmware_file:
         json.dump(metadata, firmware_file)
 
     # download 10 firmwares
     # Syn._download(10)
 
-    logger.debug('Finished Synology')
+    logger.important('Finished Synology')

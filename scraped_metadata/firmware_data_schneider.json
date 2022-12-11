@@ -1,0 +1,435 @@
+[
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7550 V415 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "V415",
+    "release_date": "2019-03-05",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : 7550V415",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=ION7550v415.upg&p_Doc_Ref=7550V415"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 V415 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "V415",
+    "release_date": "2019-03-05",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : 7650V415",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=ION7650v415.upg&p_Doc_Ref=7650V415"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7550 RTU V415 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "V415",
+    "release_date": "2019-03-05",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : 7550RTUV415",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=ION7550RTUv415.upg&p_Doc_Ref=7550RTUV415"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "EGX100 Firmware v3.000",
+    "product_type": "EGX100",
+    "version": "v3.000",
+    "release_date": "2012-28-08",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : EGX100 Firmware v3.000",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=eg03000.bin&p_Doc_Ref=EGX100+Firmware+v3.000"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7550RTU V371 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series, PowerLogic ION7550 RTU",
+    "version": "V371",
+    "release_date": "2012-11-06",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7550RTU V371 Firmware",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=Firmware-ION7550RTUV371.zip&p_Doc_Ref=ION7550RTU+V371+Firmware"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 ICD files",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_ICD_files",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp2-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp3-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp4-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp5-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp6-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 ICD files",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_ICD_files",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp2-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp3-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp4-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp5-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp6-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp2-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 ICD files",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_ICD_files",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp2-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp3-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp4-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp5-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp6-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp3-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 ICD files",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_ICD_files",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp2-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp3-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp4-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp5-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp6-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp4-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 ICD files",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_ICD_files",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp2-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp3-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp4-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp5-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp6-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp5-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 ICD files",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_ICD_files",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp2-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp3-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp4-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp5-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp6-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp6-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 ICD files",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_ICD_files",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp2-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp3-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp4-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp5-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-Exp6-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=SE_ION_7650-Onb1-F01_E1V01.icd&p_Doc_Ref=ION7650_v360_ICD_files"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7550 v360 Template",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7550_v360_Template",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7550_v360_FAC-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7550_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7550_v360_FAC_V3.5.0.0.0.dcf&p_Doc_Ref=ION7550_v360_Template"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7550_v360_FAC-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7550_v360_Template"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7550 v360 Template",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7550_v360_Template",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7550_v360_FAC-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7550_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7550_v360_FAC_V3.5.0.0.0.dcf&p_Doc_Ref=ION7550_v360_Template"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7550_v360_FAC_V3.5.0.0.0.dcf&p_Doc_Ref=ION7550_v360_Template"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 Template",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_Template",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 Template",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_Template",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 Template",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_Template",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 v360 Template",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v360",
+    "release_date": "2011-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_v360_Template",
+      "languages": "English",
+      "other_download_links": [
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ-61850_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC-PQ_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template",
+        "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template"
+      ]
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650_v360_FAC_V3.5.0.0.0.dcf&p_Doc_Ref=ION7650_v360_Template"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "Text-ION7650 IONE Updater",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "1.0",
+    "release_date": "2011-20-04",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : Text-ION7650_IONE_Updater",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=Text-ION7650_IONE_Updater.zip&p_Doc_Ref=Text-ION7650_IONE_Updater"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "75 7650 PowerMeterV360 Update",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "V360",
+    "release_date": "2011-20-04",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : 75_7650_PowerMeterV360_Update",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=75_7650_PowerMeterV360_Update.exe&p_Doc_Ref=75_7650_PowerMeterV360_Update"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7550 V366 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "V366",
+    "release_date": "2011-23-12",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7550_V366_Firmware",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7550V366.zip&p_Doc_Ref=ION7550_V366_Firmware"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 V366 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "V366",
+    "release_date": "2012-03-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_V366_Firmware2",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650V366.zip&p_Doc_Ref=ION7650_V366_Firmware2"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7x50 V416 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v416",
+    "release_date": "2021-03-03",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7x50_V416",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7x50_v416.zip&p_Doc_Ref=ION7x50_V416"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650/7550 V373 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "V373",
+    "release_date": "2014-08-12",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : ION7650_7550_V373_Firmware",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=ION7650_7550_V373_Firmware.zip&p_Doc_Ref=ION7650_7550_V373_Firmware"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7650 V410 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v410",
+    "release_date": "2017-06-03",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : 7650V410",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7650V410.zip&p_Doc_Ref=7650V410"
+  },
+  {
+    "manufacturer": "SchneiderElectric",
+    "product_name": "ION7550 V410 Firmware",
+    "product_type": "PowerLogic ION7550/ION7650 Series",
+    "version": "v410",
+    "release_date": "2017-06-03",
+    "checksum_scraped": null,
+    "additional_data": {
+      "product_reference": "Document Number : 7550V410",
+      "languages": "English"
+    },
+    "download_link": "https://download.schneider-electric.com/files?p_enDocType=Firmware&p_File_Name=7550V410.zip&p_Doc_Ref=7550V410"
+  }
+]

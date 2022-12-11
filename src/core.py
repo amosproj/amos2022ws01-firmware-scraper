@@ -2,6 +2,7 @@
 Core module for firmware scraper
 """
 
+
 import datetime
 # Standard Libraries
 import json
@@ -12,31 +13,69 @@ from tqdm import tqdm
 
 from db_connector import DBConnector
 from logger import create_logger
+from scheduler import check_vendors_to_update
 # Vendor Modules
-from Vendors import AVMScraper, SchneiderElectricScraper, Synology_scraper
+from Vendors import *
+
+# Initialize logger
+logger = create_logger()
 
 
 class Core:
-    def __init__(self, vendor_list: list, logger):
-        self.vendor_list = vendor_list
+    def __init__(self, current_vendor: Scraper, logger):
+        """Core class for firmware scraper
+
+        Args:
+            current_vendor (str): current vendor
+            logger (_type_): logger
+        """
+        self.current_vendor = current_vendor
         self.logger = logger
         self.db = DBConnector()
+        self.logger.important("Initialized core and DB.")
 
     def get_product_catalog(self):
-        self.logger.important("Start scraping.")
-        for vendor in self.vendor_list:
-            self.logger.important(f"Start {type(vendor).__name__}.")
-            metadata = vendor.scrape_metadata()
-            self.logger.important(f"{type(vendor).__name__} done.")
-            self.logger.important(
-                f"Insert {type(vendor).__name__} catalogue into DB.")
-            self.db.insert_products(metadata)
+        """get product catalog from vendor"""
+        self.logger.important(f"Start scraping {self.current_vendor.name}.")
+
+        # call vendor specific scraping function
+        metadata = self.current_vendor.scrape_metadata()
+        self.logger.important(
+            f"Scraping done. Insert {self.current_vendor.name} catalogue into temporary table.")
+
+        # create temporary table for current vendor
+        self.db.create_table(table=f'{self.current_vendor.name}')
+        self.logger.important(
+            f"Created temporary table for {self.current_vendor.name}.")
+
+        # insert metadata into temporary table
+        self.db.insert_products(metadata, table=f'{self.current_vendor.name}')
+        self.logger.important(
+            f"Inserted catalogue into temporary table for {self.current_vendor.name}.")
 
     def compare_products(self):
+        """compare products with historized products"""
+        self.logger.important(
+            f"Compare with historized products for {self.current_vendor.name}.")
 
-        pass
+        # compare products with historized products
+        metadata_new = self.db.compare_products(
+            table1=f'{self.current_vendor.name}', table2='products')
+        self.logger.important(
+            f" {len(metadata_new)} new products for {self.current_vendor.name}.")
+
+        # insert new products into products table
+        self.db.insert_products(metadata_new, table='products')
+        self.logger.important(
+            f"Inserted new products into products for {self.current_vendor.name}.")
+
+        # delete temporary table
+        self.db.drop_table(table=f'{self.current_vendor.name}')
+        self.logger.important(
+            f"Dropped temporary table for {self.current_vendor.name}.")
 
     def download_firmware(self):
+        """download firmware from vendor"""
         self.logger.important("Download firmware.")
         firmware = self.db.retrieve_download_links()
         for url, name in tqdm(firmware):
@@ -50,8 +89,36 @@ class Core:
 
 if __name__ == "__main__":
 
-    logger = create_logger()
-    logger.debug("Start firmware scraper.")
-    core = Core(
-        [Synology_scraper(logger=logger, max_products=10)],  logger=logger)
-    core.get_product_catalog()
+    # load config (e.g. max_products, log_level, log_file, chrome settings, headless, etc.)
+    # this way we can avoid boilerplate and hardcoding settings into every vendors module
+    with open("src/config.json") as config_file:
+        config = json.load(config_file)
+
+    # get list of vendors to update
+    vendor_list = check_vendors_to_update()
+    logger.info(f'Vendor list: {str(vendor_list)}')
+
+    # iterate over vendors to update
+    for vendor in vendor_list:
+        logger.info(f'Vendor: {vendor}')
+
+        # initialize core class for each vendor
+        core = Core(
+            current_vendor=globals()[vendor](max_products=16, logger=logger),
+            logger=logger,
+        )
+
+        # scrape product catalog
+        core.get_product_catalog()
+
+        # compare products with historized products
+        core.compare_products()
+
+        # download firmware
+        # core.download_firmware()
+
+        # prepare for EMBArk
+        # core.prepare_for_embark()
+
+        # cleaning, drop temporary tables if ERROR, etc.
+        # core.cleaning()

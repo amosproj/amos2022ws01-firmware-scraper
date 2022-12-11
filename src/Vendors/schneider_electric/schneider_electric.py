@@ -14,6 +14,7 @@ from typing import Optional
 from urllib.request import urlopen
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
@@ -21,6 +22,8 @@ from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
 from logger import create_logger
+from src.logger import create_logger
+from src.Vendors.scraper import Scraper
 from Vendors.scraper import Scraper
 
 DOWNLOAD_URL_GLOBAL = (
@@ -38,16 +41,23 @@ class SchneiderElectricScraper(Scraper):
     def __init__(
         self,
         logger,
-        scrape_entry_url: str = DOWNLOAD_URL_GLOBAL,
+        scrape_entry_url: str = DOWNLOAD_URL_USA,
+        headless: bool = True,
         max_products: int = float("inf"),
     ):
         self.scrape_entry_url = scrape_entry_url
         self.max_products = max_products
+        self.headless = headless
+        self.name = "Schneider"
 
-        self.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()))
-        self.driver.implicitly_wait(0.5)  # has to be set only once
-
+        chrome_options = Options()
+        if self.headless:
+            chrome_options.add_argument("--window-size=1920,1080")
+            chrome_options.add_argument("--start-maximized")
+            chrome_options.add_argument("--headless")
+        self.driver = webdriver.Chrome(service=ChromeService(
+            ChromeDriverManager().install()), options=chrome_options)
+        self.driver.implicitly_wait(1)  # has to be set only once
         self.logger = logger
 
     def _find_element_and_check(self, product_page: WebElement, by: By, value: str) -> Optional[WebElement]:
@@ -81,7 +91,7 @@ class SchneiderElectricScraper(Scraper):
                 non_pdf_filenames.append(match.group(1))
         return non_pdf_urls, non_pdf_filenames
 
-    def _extract_info(self, product_url: str) -> list[dict]:
+    def _scrape_product_metadata(self, product_url: str) -> list[dict]:
         CSS_SELECTOR_TITLE = ".doc-title"
         CSS_SELECTOR_RELEASE_DATE = ".doc-details-desktop > div:nth-child(1) > span:nth-child(1)"
         CSS_SELECTOR_LANGUAGES = ".doc-details-desktop > div:nth-child(2) > span:nth-child(1)"
@@ -101,7 +111,7 @@ class SchneiderElectricScraper(Scraper):
                 "information_stroke").rstrip()
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_RELEASE_DATE):
             release_date_raw = el.text.removeprefix("Date : ").split("/")
-            release_date = f"{release_date_raw[2]}-{release_date_raw[1]}-{release_date_raw[0]}"
+            release_date = f"{release_date_raw[2]}-{release_date_raw[0]}-{release_date_raw[1]}"
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_LANGUAGES):
             languages = el.text.removeprefix("Languages : ")
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_VERSION):
@@ -147,7 +157,7 @@ class SchneiderElectricScraper(Scraper):
             self.logger.info(f"Scraped product '{title}'.")
             return firmware_item_list
 
-    def scrape_metadata(self) -> list[dict]:
+    def _scrape_product_page_urls(self) -> list[str]:
         self.driver.get(self.scrape_entry_url)
         self.logger.info(
             f"Successfully accessed entry point URL {self.scrape_entry_url}.")
@@ -170,19 +180,24 @@ class SchneiderElectricScraper(Scraper):
             firmware_product_urls += [
                 item.find_element(by=By.CLASS_NAME, value="title").get_attribute("href") for item in firmware_products
             ]
-            if len(firmware_product_urls) > self.max_products:
+            if len(firmware_product_urls) >= self.max_products:
                 break
 
         self.logger.info(
             f"Identified {self.max_products} firmware products."
             f" (If a maximum number of products to scrape was given, there could be more.)"
         )
+
+        return firmware_product_urls
+
+    def scrape_metadata(self) -> list[dict]:
         self.logger.info(f"Start scraping metadata of firmware products.")
+        firmware_product_urls = self._scrape_product_page_urls()
 
         # iterate over found products
         extracted_data = []
         for product_url in firmware_product_urls[: self.max_products]:
-            if firmware_items := self._extract_info(product_url):
+            if firmware_items := self._scrape_product_metadata(product_url):
                 extracted_data += firmware_items
 
         self.logger.info(
@@ -203,10 +218,12 @@ def _download(firmware_data: list[dict], max_no_downloads: int):
 
 if __name__ == "__main__":
     logger = create_logger()
+
     scraper = SchneiderElectricScraper(
-        logger, DOWNLOAD_URL_GLOBAL, max_products=20)
+        logger, DOWNLOAD_URL_USA, max_products=20, headless=False)
+
     firmware_data = scraper.scrape_metadata()
-    with open("../../../test/files/firmware_data_schneider.json", "w") as firmware_file:
+    with open("../../../scraped_metadata/firmware_data_schneider.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
 
     print("Start downloading:")
