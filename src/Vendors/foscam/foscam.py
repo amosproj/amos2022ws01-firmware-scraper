@@ -19,7 +19,7 @@ DOWNLOAD_PATH = 'downloads/'
 
 # Selenium Webdriver Options, Download Path, Headless, Screensize, Webbrowser Version
 options = Options()
-options.headless = False
+options.headless = True
 
 options.add_experimental_option("prefs", {
     "download.default_directory": rf"{DOWNLOAD_PATH}"
@@ -212,4 +212,4 @@ if __name__ == '__main__':
     with open("scraped_metadata/firmware_data_foscam.json", "w") as firmware_file:
         json.dump(metadata, firmware_file)
 
-    foscam.logger.debug('Finished foscam')
+    logger.debug('Finished foscam')
