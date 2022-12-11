@@ -25,39 +25,56 @@ class GigasetScraper:
             self.logger.exception("Could not connect to Gigaset!")
             raise (e)
 
-    # TODO: navigate back and forth between sites
+    # TODO: get release_date and version
     def scrape_metadata(self) -> list[dict]:
         self.connect_webdriver()
 
         logger.info("Scraping Gigaset Firmware.")
-        download_links = self.driver.find_elements(
-            By.CSS_SELECTOR, ".confluence-embedded-image.image-right"
+        download_elems = self.driver.find_elements(
+            By.CSS_SELECTOR, ".columnMacro.conf-macro.output-block > span > a"
         )
+        download_links = [e.get_attribute("href") for e in download_elems]
 
         logger.debug(f"Found {len(download_links)} download links.")
         for link in download_links:
 
             logger.info(f"Scraping {link}")
-            link.click()
+            self.driver.get(link)
 
-            download_link = self.driver.find_elements(By.CLASS_NAME, "external-link")[
-                0
-            ].get_attribute("href")
+            CASE_1 = self.driver.find_elements(
+                By.CSS_SELECTOR, "a[data-linked-resource-type='attachment']"
+            )
+            CASE_2 = self.driver.find_elements(By.CSS_SELECTOR, ".external-link")
+
+            self.driver.find_elements(
+                By.CSS_SELECTOR, "li[title='Show all breadcrumbs']"
+            )[0].click()
+
+            product_type = self.driver.find_element(
+                By.CSS_SELECTOR, "ol#breadcrumbs > li:nth-last-child(2)"
+            ).get_attribute("innerText")
+
+            if CASE_1:
+                download_link = CASE_1[0].get_attribute("href")
+
+            elif CASE_2:
+                download_link = CASE_2[0].get_attribute("href")
+
+            else:
+                continue
 
             firmware_item = {
                 "manufacturer": "Gigaset",
-                "product_name": None,
-                "product_type": None,
+                "product_name": product_type,
+                "product_type": product_type,
                 "version": None,
                 "release_date": None,
-                "download_link": download_link if download_link else None,
+                "download_link": download_link,
                 "checksum_scraped": None,
                 "additional_data": {},
             }
 
             self.catalog.append(firmware_item)
-
-            self.driver.get(self.url)
 
         return self.catalog
 
@@ -69,13 +86,11 @@ if __name__ == "__main__":
 
     import json
 
-    from utils import setup_logger
+    from src.logger import create_logger
 
-    logger = setup_logger()
+    logger = create_logger()
     Gigaset = GigasetScraper(logger=logger)
     firmware_data = Gigaset.scrape_metadata()
 
-    with open(
-        "../../../scraped_metadata/firmware_data_Gigaset.json", "w"
-    ) as firmware_file:
+    with open("scraped_metadata/firmware_data_Gigaset.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
