@@ -288,7 +288,7 @@ class SynologyScraper(Scraper):
         metadata = []
         for product_line in product_catalog.keys():
             self._choose_product_line(product_line)
-            for product in tqdm(product_catalog[product_line]):
+            for product in product_catalog[product_line]:
                 if len(metadata) > self.max_products:
                     break
                 self._choose_product(product)
