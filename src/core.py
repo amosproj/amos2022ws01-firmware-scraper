@@ -16,7 +16,7 @@ from scheduler import check_vendors_to_update
 from Vendors import *
 
 # Initialize logger
-#logger = create_logger("INFO")
+#logger = create_logger(level="INFO", name="test_scraper")
 logger = create_logger()
 
 
