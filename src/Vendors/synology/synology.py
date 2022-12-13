@@ -13,7 +13,7 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
-from logger import create_logger
+from src.logger import create_logger
 from src.Vendors.scraper import Scraper
 
 # # STATICS
