@@ -4,7 +4,7 @@ import time
 
 import pandas as pd
 
-from logger import create_logger
+from src.logger import create_logger
 
 # initialize logger
 logger = create_logger()

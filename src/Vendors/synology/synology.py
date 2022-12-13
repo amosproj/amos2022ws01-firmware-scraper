@@ -8,13 +8,12 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
-from logger import create_logger
+from src.logger import create_logger
 from src.Vendors.scraper import Scraper
 
 # # STATICS
@@ -289,7 +288,7 @@ class SynologyScraper(Scraper):
         metadata = []
         for product_line in product_catalog.keys():
             self._choose_product_line(product_line)
-            for product in tqdm(product_catalog[product_line]):
+            for product in product_catalog[product_line]:
                 if len(metadata) > self.max_products:
                     break
                 self._choose_product(product)

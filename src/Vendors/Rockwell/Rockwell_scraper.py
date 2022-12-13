@@ -72,13 +72,13 @@ time.sleep(2)
 
 ok_element = driver.find_element(By.XPATH, "//button[contains(text(), 'Ok')]")
 ok_element.click()
-time.sleep(2)
+time.sleep(3)
 
 download_now_element = driver.find_element(
     By.XPATH, "//button[contains(text(), 'Download Now')]"
 )
 download_now_element.click()
-time.sleep(2)
+time.sleep(3)
 
 accept_and_download_element = driver.find_element(
     By.XPATH, "//button[contains(text(), 'Accept and Download')]"
