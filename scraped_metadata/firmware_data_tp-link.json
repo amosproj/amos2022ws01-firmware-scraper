@@ -1,0 +1,2002 @@
+[
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco XE200 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.1 Build 20220810",
+    "release_date": "2022-10-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202210/20221008/Deco_XE200_V1_1.0.1_220810.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X50-4G V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.0_220526",
+    "release_date": "2022-06-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202206/20220621/Deco%20X50-4G(EU)_V1_1.0.0_220526.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco Voice X20 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.1_210714",
+    "release_date": "2021-09-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202109/20210908/Deco_Voice_X20_V1_210714.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X95 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.2 Build 20220927",
+    "release_date": "2022-11-23",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221123/Deco_X95_V1_1.0.2_20220927%20.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco XE75 Pro V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.1 Build 20220628",
+    "release_date": "2022-08-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220809/Deco_XE75Pro_1.0.1_20220628.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X90 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.1.4 Build 20221114",
+    "release_date": "2022-11-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221121/Deco_X90_V1_1.1.4_20221114.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X50-DSL V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.0 Build 20220908",
+    "release_date": "2022-11-15",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221115/Deco_X50_DSL_V1_EU_20220908.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X73-DSL V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.5_20211231",
+    "release_date": "2022-03-25",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202203/20220325/Deco_X73_DSL_V1_EU_1.0.5_20211231.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X20-DSL V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.4_Build_20210807",
+    "release_date": "2021-08-31",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202107/20210729/Deco_X20-DSL_V1_1.0.4_20210422.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X20 V4V4",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V4_1.0.2_220401",
+    "release_date": "2022-04-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202204/20220426/Deco_X20_V4_1.0.2_220401.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco PX50 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.0 Build 20220804",
+    "release_date": "2022-11-03",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221103/Deco_PX50_1.0.0_20220804.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco S7 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.3.3 Build 20221107",
+    "release_date": "2022-11-15",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221115/Deco_S7_1.3.3_221107.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco M9 Plus V2.20V2.20",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V2&V2.2_1.5.6_211018",
+    "release_date": "2022-01-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202104/20210416/Deco_M9Plus_V2_1.5.3_210309.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco M5 V3.20V3.20",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V3.2_1.6.1 Build 20220818",
+    "release_date": "2022-09-20",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202209/20220920/Deco_M5_1.6.1_220818.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X50-PoE V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.1_20220902",
+    "release_date": "2022-10-28",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202210/20221028/x50-PoE%201.0.1%20Build%2020220902%20Rel.%2058645_US_EU_up.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X50 V2V2",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V2_1.0.0_20220513",
+    "release_date": "2022-06-02",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202206/20220602/Deco_X50_V2_1.0.0_20220513.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X55 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.1.0 Build 20221102",
+    "release_date": "2022-12-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202212/20221208/Deco_X55_V1_1.1.0_221102.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco P9 V2V2",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V2_1.1.3_201228",
+    "release_date": "2021-01-27",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202101/20210127/Deco_P9_V1_V2_1.1.3_201228.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco P7 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_200918",
+    "release_date": "2020-10-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202010/20201009/Deco%20P7_V1_200918.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco S4 V4V4",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V4_220513",
+    "release_date": "2022-06-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202206/20220608/Deco_S4_V4_220513.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco M4 V4V4",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V4_1.0.2_220401",
+    "release_date": "2022-04-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202204/20220426/Deco_M4_V4_220401.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco M3W V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.6_20201013",
+    "release_date": "2020-11-03",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202011/20201103/M3W%201.0_en_1.0.6%20Build%2020201013%20Rel.%2022614.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco E4 V3V3",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V3_1.0.0 Build 20220702",
+    "release_date": "2022-08-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220826/Deco_E4S_V3_220702.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco E3 V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_190823",
+    "release_date": "2019-09-06",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2019/201909/20190906/Deco%20E4R_V1_190823.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X20-4G V1V1",
+    "product_type": "Mesh Wi-Fi, Deco",
+    "version": "V1_1.0.5_20210708",
+    "release_date": "2021-09-22",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202202/20220217/Deco_X20-4G_V1_1.0.5_20210708.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AXE75 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_220429",
+    "release_date": "2022-05-24",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202205/20220524/Archer%20AXE75(EU)_V1_220429.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX11000 V2V2",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2_2.1.2 Build 20220526",
+    "release_date": "2022-08-16",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220816/Archer%20AX11000(EU)_V2_220526.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer GX90 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_220228",
+    "release_date": "2022-04-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202204/20220426/Archer%20GX90(EU)_V1_220228.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX95 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_1.0.2 Build 20220824",
+    "release_date": "2022-09-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202209/20220926/Archer%20AX95_V1_220824.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX90 V1.20V1.20",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1&V1.2_210903",
+    "release_date": "2021-11-23",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202111/20211123/Archer%20AX90(EU)_V1_210903.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX6000 V2V2",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2_211118",
+    "release_date": "2022-01-29",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220129/Archer%20AX6000(EU)_V2_211118.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX72 Pro V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_1.0.0 Build 20220915",
+    "release_date": "2022-11-03",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221103/Archer%20AX72%20Pro(US)_V1_220915.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX72 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_1.1.2 Build 20220520",
+    "release_date": "2022-07-13",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202207/20220713/Archer%20AX72(EU)_V1_220520.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX55 Pro V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_1.0.3 Build 20220830",
+    "release_date": "2022-10-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202210/20221021/Archer%20AX55%20Pro(EU)_V1_220830.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX55 V2V2",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2_220127",
+    "release_date": "2022-03-22",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202203/20220322/Archer%20AX55(EU&JP)_V2_220127.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX53 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_1.1.2 Build 20221019",
+    "release_date": "2022-12-06",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202212/20221206/Archer%20AX53(EU)_V1_221019.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX50 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_220526",
+    "release_date": "2022-10-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202210/20221008/Archer%20AX50_V1_220526.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX23 V1.20V1.20",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1.2_220216",
+    "release_date": "2022-04-06",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202204/20220406/Archer%20AX23(EU)_V1.2_220216.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX21 V2V2",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2_221103",
+    "release_date": "2022-11-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221117/Archer%20AX21_V2_221103.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX20 V3V3",
+    "product_type": "Wi-Fi Routers",
+    "version": "V3_1.1.1 Build 20220603",
+    "release_date": "2022-07-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202207/20220721/Archer%20AX20(EU)_V3_220603.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX10 V1.20V1.20",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1.2_220401",
+    "release_date": "2022-04-29",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202204/20220429/Archer%20AX10(EU)_V1.2_220401.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer AX1500 V1.20V1.20",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1.2_220401",
+    "release_date": "2022-05-16",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202205/20220516/Archer%20AX1500(EU)_V1.20_220401.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C5400X V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_211222",
+    "release_date": "2022-01-11",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220111/Archer%20C5400X_V1_211222.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C4000 V3V3",
+    "product_type": "Wi-Fi Routers",
+    "version": "V3_191026",
+    "release_date": "2019-11-28",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2019/201911/20191128/Archer%20C4000(EU)_V3_191026.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C3200 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_160712",
+    "release_date": "2016-07-12",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/Archer_C3200(EU)_V1_160712.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C2600 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_170306",
+    "release_date": "2017-03-06",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/Archer%20C2600(UN)_V1_170306.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C2300 V2V2",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2_200918",
+    "release_date": "2020-11-12",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202011/20201112/Archer%20C2300(EU)_V2_200918.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer A9 V6V6",
+    "product_type": "Wi-Fi Routers",
+    "version": "V6_210315",
+    "release_date": "2021-06-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/firmware/2021/202106/20210610/Archer%20A9(EU)_V6_210315.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer A8 V2.20V2.20",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2.2_1.11.0 Build 220425",
+    "release_date": "2022-08-01",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220801/Archer%20A8(EU)_V2.20_220425.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Touch P5 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "P5_v1_151013",
+    "release_date": "2015-10-13",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/Touch_P5_v1_151013.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer A7 V5V5",
+    "product_type": "Wi-Fi Routers",
+    "version": "V5_1.2.1 Build 20220714",
+    "release_date": "2022-11-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221108/Archer%20A7(EU)_V5_220714.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C6U V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_1.0.6 Build 20220223",
+    "release_date": "2022-07-29",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202207/20220729/Archer%20C6U(EU)_V1_220223.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer A6 V4V4",
+    "product_type": "Wi-Fi Routers",
+    "version": "V4_1.11.0 Build 220425",
+    "release_date": "2022-07-13",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202207/20220713/Archer%20A6(EU)_V4.0_220425.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C6 V4V4",
+    "product_type": "Wi-Fi Routers",
+    "version": "V4_1.11.0 Build 220425",
+    "release_date": "2022-07-13",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202207/20220713/Archer%20C6(EU)_V4.0_220425.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C64 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_1.12.0 Build 221010",
+    "release_date": "2022-11-28",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221128/Archer%20C64(EU)_V1_221010.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer A64 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_1.12.0 Build 221010",
+    "release_date": "2022-12-01",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202212/20221201/Archer%20A64(EU)_V1_221010.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C60 V3V3",
+    "product_type": "Wi-Fi Routers",
+    "version": "V3_201231",
+    "release_date": "2021-01-18",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202101/20210118/Archer%20C60(EU)_V3_201231.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C54 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_210830",
+    "release_date": "2022-01-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220121/Archer%20C54(EU)_V1_210830.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer A5 V6V6",
+    "product_type": "Wi-Fi Routers",
+    "version": "V6_211108",
+    "release_date": "2022-02-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202202/20220209/Archer%20A5(EU)_V6_211108.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C50 V6V6",
+    "product_type": "Wi-Fi Routers",
+    "version": "V6_211108",
+    "release_date": "2022-02-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202202/20220209/Archer%20C50(EU)_V6_211108.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C24 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_210830",
+    "release_date": "2022-01-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220121/Archer%20C24(EU)_V1_210830.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C20 V5V5",
+    "product_type": "Wi-Fi Routers",
+    "version": "V5_201214",
+    "release_date": "2021-01-27",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202101/20210127/Archer%20C20(EU)_V5_201214.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C20i V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_220107",
+    "release_date": "2022-02-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202202/20220217/Archer%20C20i(EU)_V1_220107.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer C58HP V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_180717",
+    "release_date": "2018-10-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2018/201810/20181009/Archer%20C58HP(UN)%20_V1_180717.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR1043ND V4V4",
+    "product_type": "Wi-Fi Routers",
+    "version": "V4_160607",
+    "release_date": "2016-06-07",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TL-WR1043ND(EU)_V4_160607.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR941HP V2V2",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2_191125",
+    "release_date": "2020-03-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202003/20200309/TL-WR941HP(UN)_V2_191125.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR841HP V5V5",
+    "product_type": "Wi-Fi Routers",
+    "version": "V5_210914",
+    "release_date": "2022-01-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220121/TL-WR841HP(UN)_V5_210914.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR1043N V5V5",
+    "product_type": "Wi-Fi Routers",
+    "version": "V5_161118",
+    "release_date": "2016-11-18",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-WR1043N_V5_161118.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR945N V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_161028",
+    "release_date": "2016-10-28",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-WR945N(EU)_V1_161028.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR940N V6V6",
+    "product_type": "Wi-Fi Routers",
+    "version": "V6_3.20.1 Build 220801",
+    "release_date": "2022-11-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221121/TL-WR940N(EU)_V6_220801.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR845N V4V4",
+    "product_type": "Wi-Fi Routers",
+    "version": "V4_201214",
+    "release_date": "2021-03-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202103/20210317/TL-WR845N(UN)_V4_201214.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR843N V3V3",
+    "product_type": "Wi-Fi Routers",
+    "version": "V3_160624",
+    "release_date": "2016-06-24",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-WR843N(EU)_V3_160624_1482375310362z.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR841ND V11V11",
+    "product_type": "Wi-Fi Routers",
+    "version": "V11_150616",
+    "release_date": "2015-09-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TL-WR841ND_V11_150616.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR841N V14V14",
+    "product_type": "Wi-Fi Routers",
+    "version": "V14_220816",
+    "release_date": "2022-11-23",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221123/WR841N(EU)_V14_220816.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR840N V6.20V6.20",
+    "product_type": "Wi-Fi Routers",
+    "version": "V6.2_221117",
+    "release_date": "2022-12-07",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202212/20221207/TL-WR840N(EU)_V6.2_221117.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR844N V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_211011",
+    "release_date": "2022-01-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220121/TL-WR844N(EU)_V1_211011.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR820N V2V2",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2_211013",
+    "release_date": "2022-01-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220121/TL-WR820N(EU)_V2_211013.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR740N V7V7",
+    "product_type": "Wi-Fi Routers",
+    "version": "V7_160708",
+    "release_date": "2016-07-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-WR740N(EU)_V7_160708_1479286101297r.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WDR4900 V1V1",
+    "product_type": "Wi-Fi Routers",
+    "version": "V1_130424",
+    "release_date": "2013-04-24",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-WDR4900_V1_130424.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR902AC V3V3",
+    "product_type": "Wi-Fi Routers",
+    "version": "V3_0.9.1 Build 220329",
+    "release_date": "2022-08-03",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220803/TL-WR902AC(EU)_V3_220329.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR802N V4V4",
+    "product_type": "Wi-Fi Routers",
+    "version": "V4_221008",
+    "release_date": "2022-11-18",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221118/TL-WR802N(EU)_V4_221008.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WR710N V9.80V9.80",
+    "product_type": "Wi-Fi Routers",
+    "version": "V2.1_150507",
+    "release_date": "2015-05-07",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TL-WR710N_V2.1_150507.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-R860 V5V5",
+    "product_type": "Wi-Fi Routers",
+    "version": "V5_100519",
+    "release_date": "2011-01-25",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/201112513445417.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-R460 V5V5",
+    "product_type": "Wi-Fi Routers",
+    "version": "v5_120704_RU_UA",
+    "release_date": "2012-03-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-R460_v5.0_120704_RU_UA.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-R402M V7V7",
+    "product_type": "Wi-Fi Routers",
+    "version": "V7_101104",
+    "release_date": "2010-11-04",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/2010122118525815.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "PGW2440 KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_1.0.0 Build 20221101",
+    "release_date": "2022-11-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221117/PGW2440_V1_221101.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "PG2400P KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_1.0.2 Build 20221101",
+    "release_date": "2022-11-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221117/PG2400P_V1_221101.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "PG1200 KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_1.0.0 Build 20220511",
+    "release_date": "2022-07-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202207/20220726/PG1200_V1_220511.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA9610 KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_170703",
+    "release_date": "2017-07-03",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-PA9020%20KIT_V1_170703.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA8730 KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_170407(AP)",
+    "release_date": "2017-04-07",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-WPA8730(EU)_V1_170407(AP).zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA8630P KIT V2.10V2.10",
+    "product_type": "Powerline Adapters",
+    "version": "V2.1_2.1.1 Build 20220605",
+    "release_date": "2022-06-22",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202206/20220622/TL-WPA8630P_V2.1(EU&UK)_220605.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA8030P KIT V3V3",
+    "product_type": "Powerline Adapters",
+    "version": "V3_200117",
+    "release_date": "2020-03-02",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202008/20200818/TL-PA8030P%20KIT(EU)_V3_200117.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA7617 V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_1.0.10 Build 220701",
+    "release_date": "2022-08-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220817/TL-WPA7617(EU)_V1_220701.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA7617 KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_1.0.10 Build 220701",
+    "release_date": "2022-08-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220817/TL-WPA7617(EU)_V1_220701.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA7027P KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1.0_200113",
+    "release_date": "2020-03-02",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202003/20200302/TL-PA7027P%20KIT(EU)_V1.0_200113.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA7017P KIT V4V4",
+    "product_type": "Powerline Adapters",
+    "version": "V4_191101",
+    "release_date": "2019-11-28",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2019/201911/20191128/TL-PA7017P%20KIT(EU)%20V4_191101.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA7017 KIT V4V4",
+    "product_type": "Powerline Adapters",
+    "version": "V4_190426",
+    "release_date": "2019-05-27",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2019/201905/20190527/TL-PA7017KIT_V4_190426.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA4530 KIT V2V2",
+    "product_type": "Powerline Adapters",
+    "version": "V2_170406",
+    "release_date": "2017-04-06",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-WPA4530%20KIT(EU)_V2_170406.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA6030KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_140227",
+    "release_date": "2014-02-27",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA6030KIT_V1_140227.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA6010KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_131219",
+    "release_date": "2013-12-19",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA6010KIT(EU_V1_131219.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA6010 V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_131219",
+    "release_date": "2013-12-19",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA6010(UK_V1_131219.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA4030T KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_140126",
+    "release_date": "2014-01-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA4030T_KIT_V1_140126.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA4030KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_140126",
+    "release_date": "2014-01-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA4030KIT_V1_140126.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA4030 V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_140126",
+    "release_date": "2014-01-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA4030_V1_140126.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA4020P V2V2",
+    "product_type": "Powerline Adapters",
+    "version": "V2_160809",
+    "release_date": "2016-08-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-PA4020P(EU)_V2_160809_1479281653047x.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA4020 KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_141222_EU",
+    "release_date": "2014-12-22",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TL-PA4020KIT_V1_141222_EU.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA4010 V3V3",
+    "product_type": "Powerline Adapters",
+    "version": "180914",
+    "release_date": "2021-03-22",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202103/20210322/TL-PA4010(EU)V3_180914.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA2220KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_140312",
+    "release_date": "2014-03-12",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-WPA2220KIT_V1_140312.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA281KIT V3V3",
+    "product_type": "Powerline Adapters",
+    "version": "V3_140312",
+    "release_date": "2014-03-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TL-WPA281KIT_V3_140312.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WPA281 V3V3",
+    "product_type": "Powerline Adapters",
+    "version": "V3_140312",
+    "release_date": "2014-03-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TL-WPA281_V3_140312.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA2010PKIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_130807\u007f",
+    "release_date": "2013-08-07",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA2010PKIT_V1_130807_.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA2010P V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_140303",
+    "release_date": "2014-03-03",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA2010P_V1_140303.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA2010KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_131009",
+    "release_date": "2013-10-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA2010(EU_V1_131009.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA2010 V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_131009",
+    "release_date": "2013-10-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA2010(EU_V1_131009.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA211KIT V1V1",
+    "product_type": "Powerline Adapters",
+    "version": "V1_4.4",
+    "release_date": "2012-11-02",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA211(EU_V1_4.4.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-PA211 V2V2",
+    "product_type": "Powerline Adapters",
+    "version": "V2_121102",
+    "release_date": "2012-11-02",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-PA211(EU_V2_121102.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE700X V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_1.0.6 Build 20220926",
+    "release_date": "2022-10-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202210/20221017/RE700X_V1_220926.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE705X V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_1.0.4 Build 20220523",
+    "release_date": "2022-09-06",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202209/20220906/RE705X(US)_V1_220523.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE600X V3V3",
+    "product_type": "Range Extenders",
+    "version": "V3_1.0.0 Build 20220428",
+    "release_date": "2022-08-05",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220805/RE600X(EU)_V3_220428.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE605X V3V3",
+    "product_type": "Range Extenders",
+    "version": "V3_1.0.0 Build 20220428",
+    "release_date": "2022-08-05",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220805/RE605X(EU)_V3_220428.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE650 V2V2",
+    "product_type": "Range Extenders",
+    "version": "V2_211130",
+    "release_date": "2022-05-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/firmware/2021/202107/20210705/RE650_V2_210330.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE500X V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_210611",
+    "release_date": "2021-08-18",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/firmware/2021/202106/20210624/RE500X_V1_210511.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE505X V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_211107",
+    "release_date": "2021-11-12",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/firmware/2021/202106/20210623/RE505X_V1_210511.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE550 V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_1.0.11 Build 220727",
+    "release_date": "2022-09-06",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/firmware/2021/202107/20210714/RE550(V1)_210531.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE450 V4V4",
+    "product_type": "Range Extenders",
+    "version": "V4_1.0.11 Build 220727",
+    "release_date": "2022-09-27",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202209/20220927/RE450_V4_220727.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE365 V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_200923",
+    "release_date": "2020-11-11",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202011/20201111/RE365(EU_US)1.0_200923.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE360 V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_171226",
+    "release_date": "2018-01-18",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2018/201801/20180118/RE360(EU)_V1_171226.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE315 V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_1.0.10 Build 220531",
+    "release_date": "2022-07-04",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202207/20220704/RE315_V1_220531.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE305 V4V4",
+    "product_type": "Range Extenders",
+    "version": "V4_1.0.11 Build 220805",
+    "release_date": "2022-10-14",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202210/20221014/RE305_V4_220805.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE330 V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_1.0.11 Build 220805",
+    "release_date": "2022-11-25",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/firmware/2021/202107/20210729/RE330_V1_210602.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE230 V2V2",
+    "product_type": "Range Extenders",
+    "version": "V2_1.0.11 Build 220805",
+    "release_date": "2022-11-25",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202108/20210825/RE230_V2_210602.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE215 V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_210907",
+    "release_date": "2021-11-03",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202111/20211103/RE215_V1_210907.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE205 V4V4",
+    "product_type": "Range Extenders",
+    "version": "V4_1.0.11 Build 220805",
+    "release_date": "2022-10-14",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202210/20221014/RE205_V4_220805.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE200 V5V5",
+    "product_type": "Range Extenders",
+    "version": "V5_1.0.11 Build 220805",
+    "release_date": "2022-11-23",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221123/RE200_V5_220805.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE220 V3V3",
+    "product_type": "Range Extenders",
+    "version": "V3_210608",
+    "release_date": "2021-08-06",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202108/20210806/RE220_V3_210608.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE190 V5V5",
+    "product_type": "Range Extenders",
+    "version": "V5_210408",
+    "release_date": "2021-05-28",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202105/20210528/RE190(EU_NL)_V5_210408.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA860RE V6V6",
+    "product_type": "Range Extenders",
+    "version": "V6_211208",
+    "release_date": "2022-01-19",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220119/TL-WA860RE_V6_211208.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA855RE V5V5",
+    "product_type": "Range Extenders",
+    "version": "V5_211125",
+    "release_date": "2022-04-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202204/20220426/TL-WA855RE_V5_211125.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA854RE V4V4",
+    "product_type": "Range Extenders",
+    "version": "V4_211125",
+    "release_date": "2022-01-19",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220119/TL-WA854RE_V4_211125.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA850RE V7V7",
+    "product_type": "Range Extenders",
+    "version": "V7_211117",
+    "release_date": "2021-12-15",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202112/20211215/850RE_V7_211117.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE590T V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_171123",
+    "release_date": "2017-11-23",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2017/201712/20171208/RE590T(UN)_V1_171123.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE580D V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_171220",
+    "release_date": "2018-02-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2018/201803/20180320/RE580D(EU)_V1_171220.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE380D V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_160316",
+    "release_date": "2016-03-16",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/RE380D(EU)_V1_160316.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE355 V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_180204",
+    "release_date": "2018-03-07",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2018/201803/20180307/RE355_V1_180204.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "RE210 V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_171205",
+    "release_date": "2018-04-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2018/201804/20180417/RE210(US_CA)_V1_171205.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA820RE V1V1",
+    "product_type": "Range Extenders",
+    "version": "V1_180315",
+    "release_date": "2018-04-13",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2018/201804/20180413/TL-WA820RE(EU)_V1_180315.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA730RE V2V2",
+    "product_type": "Range Extenders",
+    "version": "V2_130510",
+    "release_date": "2013-05-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-WA730RE_V2_130510.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA890EA V1V1",
+    "product_type": "Access Points",
+    "version": "V1_131008",
+    "release_date": "2013-10-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-WA890EA_V1_131008.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "AP500 V1V1",
+    "product_type": "Access Points",
+    "version": "V1_180803_Beta",
+    "release_date": "2018-07-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2018/201808/20180806/AP500(EU)_V1_180803.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA1201 V3V3",
+    "product_type": "Access Points",
+    "version": "V3_220118",
+    "release_date": "2022-03-29",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202203/20220329/TL-WA1201(EU)_V3_220118.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "AP300 V1V1",
+    "product_type": "Access Points",
+    "version": "V1_180320_Beta",
+    "release_date": "2018-07-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2018/201807/20180710/AP300(EU)_V1_180320(Beta).zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "AP200 V1V1",
+    "product_type": "Access Points",
+    "version": "V1_161110",
+    "release_date": "2016-11-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/AP200(EU)_V1_161110.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA901N V6V6",
+    "product_type": "Access Points",
+    "version": "V6_220701",
+    "release_date": "2022-07-04",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202207/20220704/TL-WA901N(EU)_V6_220701.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA901ND V5V5",
+    "product_type": "Access Points",
+    "version": "V5_201030",
+    "release_date": "2020-12-02",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202012/20201202/wa901ndv5_eu_3_16_9_up_boot(201030).zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA801N V6V6",
+    "product_type": "Access Points",
+    "version": "V6_200116",
+    "release_date": "2020-04-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2020/202004/20200408/TL-WA801N(EU)_V6_200116.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA801ND V5V5",
+    "product_type": "Access Points",
+    "version": "V5_170905",
+    "release_date": "2017-09-05",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-WA801ND(EU)_V5_170905.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA701ND V2V2",
+    "product_type": "Access Points",
+    "version": "V2_160620",
+    "release_date": "2016-06-20",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TL-WA701ND(EU)_V2_160620.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-WA5110G V2V2",
+    "product_type": "Access Points",
+    "version": "V2_120217",
+    "release_date": "2012-02-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TL-WA5110G_V2_120217.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR2800v V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_170502",
+    "release_date": "2017-05-02",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/Archer%20VR2800v(DE)_V1_170502.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR2800 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_220512",
+    "release_date": "2022-08-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202202/20220223/Archer_VR2800V1_0.8.0_0.9.1_up_boot(220120)_2022-01-21_11.05.15.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR2100v V1.20V1.20",
+    "product_type": "DSL Modem Routers",
+    "version": "V1.20_211211",
+    "release_date": "2022-06-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202206/20220610/Archer_VR2100vV1_1.6.0_0.9.1_up_boot(211211).zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR2100 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_1.6.0 Build 220518",
+    "release_date": "2022-08-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220810/Archer_VR2100V1_1.6.0_0.9.1_220518.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR600v V2V2",
+    "product_type": "DSL Modem Routers",
+    "version": "V2_220112",
+    "release_date": "2022-01-13",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220113/Archer_VR600v(EU)_v2_220112.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR600 V3V3",
+    "product_type": "DSL Modem Routers",
+    "version": "V3_1.5.0 Build 220518",
+    "release_date": "2022-08-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220810/Archer_VR600V3_1.5.0_0.9.1_220518.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR400 V3V3",
+    "product_type": "DSL Modem Routers",
+    "version": "V3_1.5.0_220321",
+    "release_date": "2022-06-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202206/20220610/Archer_VR400V3_1.5.0_0.9.1_up_boot(220321).zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR300 V2V2",
+    "product_type": "DSL Modem Routers",
+    "version": "VR300(EU)_V2_210827",
+    "release_date": "2021-10-15",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202110/20211015/Archer_VR300V2_1.3.0_0.8.0_210827.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W9970 V4V4",
+    "product_type": "DSL Modem Routers",
+    "version": "V4_1.3.0 Build 220616",
+    "release_date": "2022-08-10",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220810/TD-W9970_V4_1.3.0_0.9.1_220616.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W9960v V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_210810",
+    "release_date": "2021-09-15",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202109/20210915/TD-W9960vV1_1.6.0_0.8.0_up_boot_210810.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W9960 V1.20V1.20",
+    "product_type": "DSL Modem Routers",
+    "version": "V1.2_1.4.0 Build 220621",
+    "release_date": "2022-08-18",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220818/TD-W9960V1_1.4.0_0.8.0_220621.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W8961N V4V4",
+    "product_type": "DSL Modem Routers",
+    "version": "V4_210205",
+    "release_date": "2021-04-02",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202104/20210402/TD-W8961N(EU)V4_210205.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer VR2600 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "160518",
+    "release_date": "2016-05-18",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/Archer_VR2600(EU)_160518.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W9977 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_161123",
+    "release_date": "2016-11-23",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TD-W9977(EU)_V1_161123_1481783820188s.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W8901G V6V6",
+    "product_type": "DSL Modem Routers",
+    "version": "V6_120418",
+    "release_date": "2012-04-18",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TD-W8901G_V6_120418.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W8101G V3V3",
+    "product_type": "DSL Modem Routers",
+    "version": "V3_120604",
+    "release_date": "2012-06-04",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TD-W8101G_V3_120604.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W300KIT V3V3",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_100723",
+    "release_date": "2010-07-22",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/20113321382719.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W150KIT V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V3_110408",
+    "release_date": "2011-05-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/201151911492315.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-VG3631 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_150505",
+    "release_date": "2015-05-05",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TD-VG3631_V1_150505.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-VG3511 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_130312",
+    "release_date": "2013-03-12",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/TD-VG3511_V1_130312.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-8840 V4V4",
+    "product_type": "DSL Modem Routers",
+    "version": "V4_101009",
+    "release_date": "2010-10-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/2010101516233819.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-8811 V6V6",
+    "product_type": "DSL Modem Routers",
+    "version": "V6_100903",
+    "release_date": "2010-09-03",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/20109288254711.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-8810 V6V6",
+    "product_type": "DSL Modem Routers",
+    "version": "V6_100914_AU",
+    "release_date": "2010-09-14",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/resources/software/20109289030119.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer D7b V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_150528",
+    "release_date": "2015-05-28",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/Archer_D7b_V1_150528.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-VG5612 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_160704",
+    "release_date": "2016-07-04",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TD-VG5612(UN)_V1_160704.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer D9 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "D9_v1_150826",
+    "release_date": "2015-08-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/Archer_D9_v1_150826.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer D7 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_160216",
+    "release_date": "2016-02-16",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/Archer_D7(EU)_V1_160216.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer D2 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_160216",
+    "release_date": "2016-02-16",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/Archer_D2(EU)_V1_160216.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W8980B V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_150512",
+    "release_date": "2015-05-12",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TD-W8980B_V1_150512.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Archer D20 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_160216",
+    "release_date": "2016-02-16",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/Archer_D20(EU)_V1_160216.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W8980 V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_150514",
+    "release_date": "2015-05-14",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TD-W8980_V1_150514.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-W8970B V1V1",
+    "product_type": "DSL Modem Routers",
+    "version": "V1_150526",
+    "release_date": "2015-05-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TD-W8970B_V1_150526.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TD-8840T V4V4",
+    "product_type": "DSL Modem Routers",
+    "version": "150917",
+    "release_date": "2015-09-17",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/res/down/soft/TD-8840TV4_150917.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-MR150 V2.20V2.20",
+    "product_type": "4G Wi-Fi Routers",
+    "version": "V2.20_210115",
+    "release_date": "2021-05-07",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2021/202105/20210507/TL-MR150(EU)_V2.20_210115.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-MR3620 V1V1",
+    "product_type": "4G Wi-Fi Routers",
+    "version": "V1_170921",
+    "release_date": "2017-09-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/TL-MR3620(EU)_V1_170921.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-MR3420 V5V5",
+    "product_type": "4G Wi-Fi Routers",
+    "version": "V5_211220",
+    "release_date": "2022-01-11",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202201/20220111/TL-MR3420(EU)_V5_211220.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "TL-MR3020 V3.20V3.20",
+    "product_type": "4G Wi-Fi Routers",
+    "version": "V3.20_211118",
+    "release_date": "2022-04-12",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202204/20220412/TL-MR3020(EU)_V3.20_211118.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "M7650 V1.10V1.10",
+    "product_type": "MiFi",
+    "version": "V1.1_220922",
+    "release_date": "2022-10-28",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202206/20220622/M7650(EU)_1.1_220418.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "M7350 V8V8",
+    "product_type": "MiFi",
+    "version": "V8_8.0.0 Build 221101",
+    "release_date": "2022-11-30",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221130/M7350(EU)_V8_221101.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "M7310 V2V2",
+    "product_type": "MiFi",
+    "version": "V2_181220",
+    "release_date": "2019-01-04",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2019/201901/20190104/M7310(EU)_V2_181220.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "M7300 V3V3",
+    "product_type": "MiFi",
+    "version": "V3_181220",
+    "release_date": "2019-01-04",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/2019/201901/20190104/M7300(EU)_V3_181220.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "M7200 V3V3",
+    "product_type": "MiFi",
+    "version": "V3_3.0.5 Build 220419",
+    "release_date": "2022-11-30",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221130/M7200(EU)_V3_220419.zip",
+    "additional_data": {}
+  }
+]
