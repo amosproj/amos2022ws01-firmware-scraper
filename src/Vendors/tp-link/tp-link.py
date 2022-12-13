@@ -1,28 +1,11 @@
-"""
-Schneider Electric (SE) has a unified interface for accessing software downloads: DOWNLOAD_URL_*.
-One of the categories is 'firmware'.
-Depending on the selected website region, the number of available downloads varies.
-As of 22-11-06, region 'Global' (DOWNLOAD_URL_GLOBAL) provides the highest number of downloads, which is therefore
-selected as default.
-
-Even when category 'firmware' is selected, some displayed products are just release notes with no associated binary.
-These products are therefore filtered out.
-"""
 import json
-import re
-from typing import Optional
-from urllib.request import urlopen
 
 from selenium import webdriver
 from selenium.common import WebDriverException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions
 
-from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
 from src.logger import create_logger
@@ -156,6 +139,7 @@ class TPLinkScraper(Scraper):
 
         product_categories = {}
         for category in product_categories_el:
+            product_category_name = "unknown"
             try:
                 product_category_name = category.find_element(
                     by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_CATEGORIES_NAME
@@ -167,7 +151,7 @@ class TPLinkScraper(Scraper):
                 print(product_urls)
                 product_categories[product_category_name] = product_urls
             except WebDriverException as e:
-                pass
+                self.logger.warning(f"Could not scrape URLs for product category '{product_category_name}'.\n{e}")
 
         extracted_data = []
         for category in product_categories:
