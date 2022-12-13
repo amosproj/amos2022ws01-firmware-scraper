@@ -180,7 +180,7 @@ class SchneiderElectricScraper(Scraper):
             # there might be multiple list elements of class 'next'; the last one links to the next page
             nav_element_next = self.driver.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_NEXT_PAGE)[-1]
             nav_element_next.click()
-            WebDriverWait(self.driver, timeout=15).until(expected_conditions.url_changes(self.driver.current_url))
+            WebDriverWait(self.driver, timeout=30).until(expected_conditions.url_changes(self.driver.current_url))
             self.logger.debug(f"Scraped result page {self.driver.current_url}.")
             return True
         except WebDriverException as e:
