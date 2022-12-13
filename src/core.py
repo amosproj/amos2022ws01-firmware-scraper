@@ -9,11 +9,11 @@ from urllib.request import urlopen
 
 from tqdm import tqdm
 
-from db_connector import DBConnector
-from logger import create_logger
-from scheduler import check_vendors_to_update
+from src.db_connector import DBConnector
+from src.logger import create_logger
+from src.scheduler import check_vendors_to_update
 # Vendor Modules
-from Vendors import *
+from src.Vendors import *
 
 # Initialize logger
 #logger = create_logger("INFO")

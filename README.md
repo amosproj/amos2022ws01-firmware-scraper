@@ -24,8 +24,7 @@ sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 export MYSQL_USER=<your username>
 export MYSQL_PASSWORD=<your password>
 
-cd src
-python3 core.py
+python -m src.core
 ```
 
 
