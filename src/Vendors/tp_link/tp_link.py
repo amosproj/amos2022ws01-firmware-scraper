@@ -162,7 +162,6 @@ class TPLinkScraper(Scraper):
                     el.get_attribute("href")
                     for el in category.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_LINKS)
                 ]
-                print(product_urls)
                 product_categories[product_category_name] = product_urls
             except WebDriverException as e:
                 # self.logger.warning(f"Could not scrape URLs for product category '{product_category_name}'.")
