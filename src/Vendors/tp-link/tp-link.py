@@ -26,7 +26,7 @@ class TPLinkScraper(Scraper):
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
         self.max_products = max_products
-        self.name = "TPLink"
+        self.name = "TP-Link"
 
         chrome_options = Options()
         if self.headless:
@@ -35,6 +35,19 @@ class TPLinkScraper(Scraper):
             chrome_options.add_argument("--headless")
         self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
         # self.driver.implicitly_wait(0.5)  # has to be set only once
+
+    def _clean_up_product_category(self, product_category: str) -> str:
+        if ">" in product_category:
+            product_category_substrings = [substring.strip() for substring in product_category.split(">")]
+            product_category = product_category_substrings[-1]
+
+            # deal with special cases, where multiple substrings are necessary to describe the product category
+            for s in ["Mesh Wi-Fi", "Omada Cloud SDN", "Omada Access Points"]:
+                if s in product_category_substrings:
+                    product_category = ", ".join(product_category_substrings[1:])
+                    break
+
+        return product_category
 
     def _scrape_product_metadata(self, product_url: str, product_category: str) -> dict:
         CSS_SELECTOR_FIRMWARE = "a[href='#Firmware']"
@@ -144,6 +157,7 @@ class TPLinkScraper(Scraper):
                 product_category_name = category.find_element(
                     by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_CATEGORIES_NAME
                 ).text
+                product_category_name = self._clean_up_product_category(product_category_name)
                 product_urls = [
                     el.get_attribute("href")
                     for el in category.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_LINKS)
@@ -151,7 +165,8 @@ class TPLinkScraper(Scraper):
                 print(product_urls)
                 product_categories[product_category_name] = product_urls
             except WebDriverException as e:
-                self.logger.warning(f"Could not scrape URLs for product category '{product_category_name}'.\n{e}")
+                # self.logger.warning(f"Could not scrape URLs for product category '{product_category_name}'.")
+                pass
 
         extracted_data = []
         for category in product_categories:
@@ -170,7 +185,7 @@ class TPLinkScraper(Scraper):
 if __name__ == "__main__":
     logger = create_logger(level="INFO")
 
-    scraper = TPLinkScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=10, headless=False)
+    scraper = TPLinkScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=200, headless=False)
 
     firmware_data = scraper.scrape_metadata()
     with open("../../../scraped_metadata/firmware_data_tp-link.json", "w") as firmware_file:
