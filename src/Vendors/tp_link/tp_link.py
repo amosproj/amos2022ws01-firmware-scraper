@@ -26,7 +26,7 @@ class TPLinkScraper(Scraper):
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
         self.max_products = max_products
-        self.name = "TP-Link"
+        self.name = "TPLink"
 
         chrome_options = Options()
         if self.headless:
