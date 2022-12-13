@@ -1,0 +1,102 @@
+[
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco XE200 V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.0.1 Build 20220810",
+    "release_date": "2022-10-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202210/20221008/Deco_XE200_V1_1.0.1_220810.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X50-4G V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.0.0_220526",
+    "release_date": "2022-06-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202206/20220621/Deco%20X50-4G(EU)_V1_1.0.0_220526.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco Voice X20 V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.0.1_210714",
+    "release_date": "2021-09-08",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202109/20210908/Deco_Voice_X20_V1_210714.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X95 V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.0.2 Build 20220927",
+    "release_date": "2022-11-23",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221123/Deco_X95_V1_1.0.2_20220927%20.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco XE75 Pro V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.0.1 Build 20220628",
+    "release_date": "2022-08-09",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202208/20220809/Deco_XE75Pro_1.0.1_20220628.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X90 V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.1.4 Build 20221114",
+    "release_date": "2022-11-21",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221121/Deco_X90_V1_1.1.4_20221114.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X50-DSL V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.0.0 Build 20220908",
+    "release_date": "2022-11-15",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202211/20221115/Deco_X50_DSL_V1_EU_20220908.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X73-DSL V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.0.5_20211231",
+    "release_date": "2022-03-25",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202203/20220325/Deco_X73_DSL_V1_EU_1.0.5_20211231.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X20-DSL V1V1",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V1_1.0.4_Build_20210807",
+    "release_date": "2021-08-31",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2021/202107/20210729/Deco_X20-DSL_V1_1.0.4_20210422.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "TP-Link",
+    "product_name": "Deco X20 V4V4",
+    "product_type": "Home > Mesh Wi-Fi > Deco",
+    "version": "V4_1.0.2_220401",
+    "release_date": "2022-04-26",
+    "checksum_scraped": null,
+    "download_link": "https://static.tp-link.com/upload/firmware/2022/202204/20220426/Deco_X20_V4_1.0.2_220401.zip",
+    "additional_data": {}
+  }
+]
