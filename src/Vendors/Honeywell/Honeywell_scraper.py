@@ -8,6 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
+
+# Mike: Use DNSPY and the download link (if its .net)
 # Initialize variables
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 api_header = {
