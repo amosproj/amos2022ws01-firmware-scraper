@@ -13,8 +13,8 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.logger import create_logger
-from src.Vendors.scraper import Scraper
+from logger import create_logger
+from Vendors.scraper import Scraper
 
 # # STATICS
 VENDOR_URL = 'https://www.synology.com/en-global/support/download/'
@@ -35,6 +35,8 @@ options.add_argument(f'user-agent={user_agent}')
 options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--start-maximized")
+options.add_argument("--window-size=1920,1080")
 chrome_prefs = {}
 options.experimental_options["prefs"] = chrome_prefs
 chrome_prefs["profile.default_content_settings"] = {"images": 2}

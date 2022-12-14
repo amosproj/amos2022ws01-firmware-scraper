@@ -1,4 +1,4 @@
-from src.Vendors import AVMScraper
+from Vendors import AVMScraper
 
 
 def test_init():

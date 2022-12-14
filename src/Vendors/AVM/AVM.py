@@ -19,16 +19,18 @@ class AVMScraper:
     def __init__(self, logger, max_products: int = float("inf"), headless: bool = True):
         self.url = "https://download.avm.de"
         self.name = "AVM"
-        self.driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()))
-        self.fw_types = [".image", ".exe", ".zip", ".dmg"]
-        self.catalog = []
-        self.headless = headless
-        self.logger = logger
         self.options = Options()
         self.options.add_argument("--headless")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
+        self.options.add_argument("--start-maximized")
+        self.options.add_argument("--window-size=1920,1080")
+        self.driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()), options=self.options)
+        self.fw_types = [".image", ".exe", ".zip", ".dmg"]
+        self.catalog = []
+        self.headless = headless
+        self.logger = logger
         self.max_products: int = float("inf")
 
     def connect_webdriver(self):

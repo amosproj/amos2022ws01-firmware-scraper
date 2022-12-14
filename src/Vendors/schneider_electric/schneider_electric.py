@@ -25,8 +25,6 @@ from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
 from logger import create_logger
-from src.logger import create_logger
-from src.Vendors.scraper import Scraper
 from Vendors.scraper import Scraper
 
 DOWNLOAD_URL_GLOBAL = (
@@ -54,8 +52,13 @@ class SchneiderElectricScraper(Scraper):
         chrome_options = Options()
         if self.headless:
             chrome_options.add_argument("--window-size=1920,1080")
+            chrome_options.add_argument('--no-sandbox')
             chrome_options.add_argument("--start-maximized")
             chrome_options.add_argument("--headless")
+            chrome_options.add_argument("--disable-dev-shm-usage")
+
+        print(chrome_options)
+        print(chrome_options.arguments)
         self.driver = webdriver.Chrome(service=ChromeService(
             ChromeDriverManager().install()), options=chrome_options)
         self.driver.implicitly_wait(2)  # has to be set only once
@@ -194,6 +197,7 @@ class SchneiderElectricScraper(Scraper):
                 f"Scraped result page {self.driver.current_url}.")
             return True
         except WebDriverException as e:
+            self.logger.warning(e)
             self.logger.warning(
                 f"Could not access next result page. Might scrape less than max_products.\n{e}")
             return False

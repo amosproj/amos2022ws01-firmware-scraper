@@ -1,5 +1,5 @@
-from src.logger import create_logger
-from src.Vendors import AVMScraper
+from logger import create_logger
+from Vendors import AVMScraper
 
 logger = create_logger()
 

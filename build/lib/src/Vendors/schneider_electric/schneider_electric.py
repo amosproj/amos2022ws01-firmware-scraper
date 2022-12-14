@@ -20,7 +20,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.Vendors.scraper import Scraper
+from Vendors.scraper import Scraper
 
 DOWNLOAD_URL_GLOBAL = (
     "https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware"

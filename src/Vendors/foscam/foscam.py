@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.Vendors.scraper import Scraper
+from Vendors.scraper import Scraper
 
 # # STATICS
 VENDOR_URL = 'https://www.foscam.com/downloads/index.html'
@@ -27,6 +27,10 @@ options.add_experimental_option("prefs", {
 
 user_agent = 'foscam Download Assistant/1.0'
 options.add_argument(f'user-agent={user_agent}')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument("--start-maximized")
+options.add_argument("--window-size=1920,1080")
+options.add_argument('--no-sandbox')
 # # Initialize Chrome and open Vendor Website
 
 
