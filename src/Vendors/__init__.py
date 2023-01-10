@@ -7,3 +7,4 @@ from .foscam.foscam import FoscamScraper
 from .schneider_electric.schneider_electric import SchneiderElectricScraper
 from .scraper import Scraper
 from .synology.synology import SynologyScraper
+from .Rockwell.Rockwell_scraper import RockwellScraper
