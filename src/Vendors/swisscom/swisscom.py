@@ -1,6 +1,5 @@
 import json
 
-import time
 from selenium import webdriver
 from selenium.common import WebDriverException
 from selenium.webdriver.chrome.options import Options
@@ -16,17 +15,10 @@ DOWNLOAD_URL_EN = "https://www.swisscom.ch/en/residential/help/device/firmware.h
 
 
 class SwisscomScraper(Scraper):
-    def __init__(
-        self,
-        logger,
-        scrape_entry_url: str = DOWNLOAD_URL_EN,
-        headless: bool = True,
-        max_products: int = float("inf"),
-    ):
+    def __init__(self, logger, scrape_entry_url: str = DOWNLOAD_URL_EN, headless: bool = True):
         self.logger = logger
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
-        self.max_products = max_products
         self.name = "TPLink"
 
         chrome_options = Options()
@@ -43,14 +35,17 @@ class SwisscomScraper(Scraper):
         )
         CSS_SELECTOR_DOWNLOAD_LINK = "span > div > a"
 
-        product_url = f"{self.scrape_entry_url}#tab1={category_name}&tab={product_id}"
-        # access product page
+        product_category_url = f"{self.scrape_entry_url}#tab1={category_name}"
+        product_url = product_category_url + f"&tab={product_id}"
+
+        # access product category tab
         try:
-            self.driver.get(product_url)
+            # self.driver.get(product_url)
+            if self.driver.current_url != product_category_url:
+                self.driver.get(product_category_url)
         except WebDriverException as e:
-            self.logger.warning(f"Could not access product URL '{product_url}'.")
+            self.logger.debug(f"Could not access product category tab '{product_url}'.")
             return {}
-        self.driver.get(f"{self.scrape_entry_url}#tab1={category_name}")
 
         product_name = version = download_link = product_div = None
 
@@ -96,31 +91,6 @@ class SwisscomScraper(Scraper):
             "download_link": download_link,
             "additional_data": {},
         }
-
-    def _scrape_product_urls(self) -> list:
-        CSS_SELECTOR_PRODUCT_CATEGORY_NAME_ROOT = "body > div.middle.responsiveHeader.cf > section > div.par.parsys > div.sdx-container.section > sdx-tabs > div"
-        CSS_SELECTOR_NAMES = ".tab-link"
-
-        try:
-            product_categories = self.driver.find_element(
-                by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_CATEGORY_NAME_ROOT
-            ).find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_NAMES)
-
-            product_urls = []
-            for category in product_categories:
-                category_name = category.get_attribute("data-panel")
-                products = self.driver.find_element(
-                    by=By.CSS_SELECTOR, value=f"div[data-id='{category_name}']"
-                ).find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_NAMES)
-
-                for product in products:
-                    product_name = product.get_attribute("data-panel")
-                    product_urls.append(f"{self.scrape_entry_url}#tab1={category_name}&tab={product_name}")
-            return product_urls
-
-        except WebDriverException as e:
-            self.logger.error(f"Could not scrape product URLs. Abort scraping.\n{e}")
-            return []
 
     def _scrape_product_ids(self) -> list:
         CSS_SELECTOR_PRODUCT_CATEGORY_NAME_ROOT = "body > div.middle.responsiveHeader.cf > section > div.par.parsys > div.sdx-container.section > sdx-tabs > div"
@@ -177,7 +147,7 @@ class SwisscomScraper(Scraper):
 if __name__ == "__main__":
     logger = create_logger(level="INFO")
 
-    scraper = SwisscomScraper(logger, DOWNLOAD_URL_EN, max_products=50, headless=False)
+    scraper = SwisscomScraper(logger, DOWNLOAD_URL_EN, headless=False)
 
     firmware_data = scraper.scrape_metadata()
     with open("../../../scraped_metadata/firmware_data_swisscom.json", "w") as firmware_file:
