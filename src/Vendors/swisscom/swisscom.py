@@ -15,11 +15,13 @@ DOWNLOAD_URL_EN = "https://www.swisscom.ch/en/residential/help/device/firmware.h
 
 
 class SwisscomScraper(Scraper):
-    def __init__(self, logger, scrape_entry_url: str = DOWNLOAD_URL_EN, headless: bool = True):
+    def __init__(
+        self, logger, scrape_entry_url: str = DOWNLOAD_URL_EN, headless: bool = True, max_products: int = float("inf")
+    ):
         self.logger = logger
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
-        self.name = "TPLink"
+        self.name = "Swisscom"
 
         chrome_options = Options()
         if self.headless:
