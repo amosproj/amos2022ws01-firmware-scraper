@@ -1,0 +1,2402 @@
+[
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "Mira",
+      "product_type": "TRENDnet Mira App &amp; VMS",
+      "version": " 5.5.3 build 200714",
+      "release_date": "2020-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37285",
+      "checksum_scraped": " 99FFA8A5404F6C5B74074F332316F88F5E416703",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TDM-C500",
+      "product_type": "ADSL 2/2+ Modem Router",
+      "version": " 1.03",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16369",
+      "checksum_scraped": " 797D4710C9CC14B0C3B03906E12DA6506C09C7BE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TDM-C504",
+      "product_type": "4-Port ADSL 2/2+ Modem Router",
+      "version": " 1.04",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16596",
+      "checksum_scraped": " B2C1E5E09BC72CBBA5880D67ACA8F5ECC1164457",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TE100-MP1U",
+      "product_type": "1-Port Multi-Function Print Server",
+      "version": " v2.60",
+      "release_date": "11-0 2-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=10227",
+      "checksum_scraped": " 3C4296D4BFCBB2BAB6324D692B95861C2CDAE7B1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TE100-MP1UN",
+      "product_type": "1-Port Multi-Function Print Server",
+      "version": " v1.00",
+      "release_date": "2008-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13231",
+      "checksum_scraped": " 7D2026120D4570441DFDE9D1E134BDB478B8BC7E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TE100-MP2U",
+      "product_type": "2-Port Multi-Function Print Server",
+      "version": " v2.60",
+      "release_date": "11-0 2-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=10229",
+      "checksum_scraped": " A2EE2ACE85AD95FD059D546A9E73C0AC070CDBEB",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TE100-P11",
+      "product_type": "2-Port USB/Parallel Print Server",
+      "version": " V1.0.0",
+      "release_date": "2009-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13551",
+      "checksum_scraped": " BB947FE697CD30E6387647CD126D4A88ABDE8A8C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TE100-P1P",
+      "product_type": "1-Port Parallel Print Server",
+      "version": " V4.32",
+      "release_date": "2013-0 7-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=20863",
+      "checksum_scraped": " 2E8C55E82A0532B3864F4295095CFCF64694DAAF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TE100-P1U",
+      "product_type": "1-Port Print Server",
+      "version": " V4.32",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=23036",
+      "checksum_scraped": " 499DD97E11A5D4AF0453C9CF90ACCECE01439932",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TE100-P21",
+      "product_type": "3-Port Print Server",
+      "version": " v3.43",
+      "release_date": "2013-0 7-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19530",
+      "checksum_scraped": " 9A9E3F27E66E79C5F2000DAAA132B73B6669D65A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-082WS",
+      "product_type": "10-Port Gigabit Web Smart Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40373",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-160WS",
+      "product_type": "16-Port Gigabit Web Smart Switch",
+      "version": " 1.00.17",
+      "release_date": "2018-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26070",
+      "checksum_scraped": " 61D490D574E693861D9B4EEAB01643F28796098A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-204WS",
+      "product_type": "20-Port Gigabit Web Smart Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40374",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-240WS",
+      "product_type": "24-Port Gigabit Web Smart Switch",
+      "version": " 1.00.19",
+      "release_date": "2018-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26065",
+      "checksum_scraped": " 3A71BDF772731E4615DEFF5E68D5D584D8AD5030",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-284WS",
+      "product_type": "28-Port Gigabit Web Smart Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40375",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-30102WS",
+      "product_type": "10-Port 2.5GBASE-T Web Smart Switch with 2 x 10G SFP+ Slots",
+      "version": " 1.00.21",
+      "release_date": "2021-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37983",
+      "checksum_scraped": " 77473F785DFBBBF2068A0BAEA16F7EA0E05BAE6C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-30284",
+      "product_type": "28-Port Gigabit Web Smart Switch with 10G SFP+ slots",
+      "version": " v3.00.004",
+      "release_date": "2023-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40473",
+      "checksum_scraped": " B2FA1786FE66B23FF8D3EFEFFEA0E2B3C4FF7C80",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-40128",
+      "product_type": "12-Port 10G Web Smart Switch with 8 x 10GBASE-T ports including 2 x 10G SFP+ slots and 2 x shared 10GBASE-T / 10G SFP+ slots",
+      "version": " 1.00.023",
+      "release_date": "2018-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29225",
+      "checksum_scraped": " EEA318EBE39BC6C73BB16A4E3DA127CA0C6DA4AD",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-424WS",
+      "product_type": "24-Port 10/100 Mbps Web Smart Switch",
+      "version": " 4.00.020",
+      "release_date": "2017-0 01-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=25887",
+      "checksum_scraped": " F3DF0C151BA2853FBC2821BE4D70A86689A1364E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-448WS",
+      "product_type": "48-Port Gigabit Web Smart Switch",
+      "version": " 1.00.18",
+      "release_date": "2018-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26076",
+      "checksum_scraped": " 54FBDC72AFB15B97AB7E24AE3192A50440B9DC4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-524WS",
+      "product_type": "52-Port Gigabit Web Smart Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40376",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-7080ES",
+      "product_type": "8-Port 10G EdgeSmart Switch",
+      "version": " 1.01.06",
+      "release_date": "2021-05-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37978",
+      "checksum_scraped": " 5B5A87D4D240F937504A9D2F8613271474EF681E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-S2620is",
+      "product_type": "24-Port 10/100Mbps Layer 2 Stackable Switch w/ 2 shared Gigabit Ports and Mini-GBIC Slots",
+      "version": " 1.00k301",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16683",
+      "checksum_scraped": " F75418232F4294D39EC7E5D95D279D51DE24FCAC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-S50ES",
+      "product_type": "5-Port Gigabit EdgeSmart Switch",
+      "version": " TEG-S50ES",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=36123",
+      "checksum_scraped": " 3B5A2402F6E36FDEFAD829F4981663DA7E551428",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEG-S80ES",
+      "product_type": "8-Port Gigabit EdgeSmart Switch",
+      "version": "TEG-S80ES",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=36124",
+      "checksum_scraped": " 023E8B14F1951BC2051BFF26DF9C4B7BDC3855DF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-432BRP",
+      "product_type": "54Mbps Wireless G Broadband Router",
+      "version": " 3.10B20",
+      "release_date": "2013-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14396",
+      "checksum_scraped": " 980FA85611328BC4AB7031E285811ECE6548DD6E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-434APB",
+      "product_type": "54Mbps Wireless G PoE Access Point",
+      "version": " v1.01.b02",
+      "release_date": "2008-0 12-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13092",
+      "checksum_scraped": " 03444FADC0F616F75CF0DCC29A0C1C2E9336FBAF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-435BRM",
+      "product_type": "Wireless G ADSL Firewall Modem Router",
+      "version": " FW_TEW-435BRM_D1.0(v1012).zip",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14043",
+      "checksum_scraped": " 86BB01FEFB0E84EE0664F449431805EE408D6464",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-436BRM",
+      "product_type": "54Mbps Wireless G ADSL 2/2+ Modem Router",
+      "version": " v1.01.04",
+      "release_date": "2010-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14913",
+      "checksum_scraped": " 161F535184844E367CADC1FACEE9D17C57C8CD52",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-453APB",
+      "product_type": "108Mbps Wireless Super G HotSpot Access Point",
+      "version": " v2303",
+      "release_date": "2005-0 12-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=5648",
+      "checksum_scraped": " 61797C9192D9062B6E28D556E9CB1D3C36054ED4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-630APB",
+      "product_type": "300Mbps Wireless N Access Point",
+      "version": " v2.0.1",
+      "release_date": "2009-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=10256",
+      "checksum_scraped": " 1D79DA1F50DFCCE7422EDB3F2295D644980D83FC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-632BRP",
+      "product_type": "Wireless N Home Router",
+      "version": " 1.010B32",
+      "release_date": "2011-0 6-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13025",
+      "checksum_scraped": " 2B2FA94203CEE1A8FE2234E2F190D559CDC2064F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-635BRM",
+      "product_type": "300Mbps Wireless N ADSL 2/2+ Modem Router",
+      "version": " V1.00.03",
+      "release_date": "2010-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=15149",
+      "checksum_scraped": " 62BFB9247824B21BCCB47193BFE96C6279AA8360",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-640MB",
+      "product_type": "N300 Wireless 4-Port Media Bridge",
+      "version": " November 24, 2010",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16507",
+      "checksum_scraped": " 71756A734C87238DD73FFF6F048BCEC5126124F5",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-647GA",
+      "product_type": "N300 Wireless Gaming Adapter",
+      "version": " 1.01.75",
+      "release_date": "2010-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14293",
+      "checksum_scraped": " 529782EA3D5611E0EE918D71ACC099E53B0AB7BE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-652BRP",
+      "product_type": "N300 Wireless Home Router",
+      "version": " 3.04B01",
+      "release_date": "2015-0 6-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=18711",
+      "checksum_scraped": " 4A5CC77CA99D2D0E55F21F73F5C70998177EFFBE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-652BRU",
+      "product_type": "N300 Wireless Home Router w/ USB Port",
+      "version": " 1.00b12",
+      "release_date": "2011-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19478",
+      "checksum_scraped": " 1518C076550DF933602BDA3DEACF4CFFCC2769D4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-653AP",
+      "product_type": "N300 Wireless PoE Access Point",
+      "version": " v1.2.8",
+      "release_date": "2015-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=15833",
+      "checksum_scraped": " 3B4FB7A62074C61ED62885EC23424507667EB2EF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-654TR",
+      "product_type": "N300 Wireless Travel Router Kit",
+      "version": " V1.10",
+      "release_date": "2014-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14126",
+      "checksum_scraped": " F3983F6ABE6CDC1C7E67C6759389CA55DEECA14F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-655BR3G",
+      "product_type": "3G Mobile Wireless Router",
+      "version": " 1.09b10",
+      "release_date": "2013-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16171",
+      "checksum_scraped": " DA3C0739F388ACB3FE8648E3C806AF0A2CB539E4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-656BRG",
+      "product_type": "3G Mobile Wireless Router",
+      "version": " v1.01C4",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=17599",
+      "checksum_scraped": " A6353385F6AF62A3B67746CCE022453D95E444FC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-659BRV",
+      "product_type": "N300 Wireless VPN Router",
+      "version": " 1.00.02",
+      "release_date": "17-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19183",
+      "checksum_scraped": " F15396D666281F00BE0051E66C7BE1BEDBAABB5C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-670AP",
+      "product_type": "N600 Dual Band Wireless Access Point",
+      "version": " v1.1.1.14",
+      "release_date": "2010-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=15592",
+      "checksum_scraped": " 3FB4A1E977A7EC303FC61CEB8C884B5AEB9D17A8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-671BR",
+      "product_type": "300Mbps Concurrent Dual Band Wireless N Router",
+      "version": " 1.2.6.5",
+      "release_date": "2012-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14009",
+      "checksum_scraped": " 5A1D483083B5D499F892C46160C14DC9C565D0C2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-672GR",
+      "product_type": "300Mbps Dual Band Wireless N Gigabit Router",
+      "version": " 1.0.9.161",
+      "release_date": "2010-0 01-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=12985",
+      "checksum_scraped": " 30E09C14300DF8E3FB5A0C87742438A9B39AEEF4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-673GRU",
+      "product_type": "300Mbps Concurrent Dual Band Wireless N Gigabit Router",
+      "version": " v1.00b40",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=15021",
+      "checksum_scraped": " ",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-676APBO",
+      "product_type": "12dBi N300 Wireless 5GHz Outdoor PoE Access Point",
+      "version": " 1.02",
+      "release_date": "2012-0 03-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19818",
+      "checksum_scraped": " 8199207C982B639690D54200703A9B8959867E21",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-680MB",
+      "product_type": "N900 Dual Band Wireless Media Bridge",
+      "version": " v1.0.1.0",
+      "release_date": "2011-0 12-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=18606",
+      "checksum_scraped": " 1CA07DF66C54CA2236FD9E206C167E12A46F99FE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-687GA",
+      "product_type": "N450 Wireless Gaming Adapter",
+      "version": " 1.0.1.0",
+      "release_date": "2012-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16734",
+      "checksum_scraped": " 790B03A9EE9D80ECE427C0FDC3896DE87E954A75",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-690AP",
+      "product_type": "N450 Wireless Access Point",
+      "version": " 1.0.2.0",
+      "release_date": "2012-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16382",
+      "checksum_scraped": " 524B08988512B683B7B9AC99E08AE47DF4504FEF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-711BR",
+      "product_type": "N150 Wireless Home Router",
+      "version": " 2.01B01",
+      "release_date": "2015-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=25405",
+      "checksum_scraped": " 2F018037CDEDB7F15329C7B45A21B30F5A052B10",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-712BR",
+      "product_type": "N150 Wireless Router",
+      "version": " v1.0R",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=22283",
+      "checksum_scraped": " F44C16D0107C4B2CA918B7F934A78BB9F95A2323",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-713RE",
+      "product_type": "N150 Easy-N-Range Extender",
+      "version": " 1.02",
+      "release_date": "2013-0 6-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=22274",
+      "checksum_scraped": " CCCDD6211A14389AE1C3D2D58F28D31EF714AFE0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-715APO",
+      "product_type": "N150 Wireless Outdoor PoE Access Point",
+      "version": " 1.02",
+      "release_date": "2012-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=21063",
+      "checksum_scraped": " AE2B30CFD57049D922910425AD3D34E8A2E44EB7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-716BRG",
+      "product_type": "3G Mobile Wireless Router",
+      "version": " 1.03",
+      "release_date": "2013-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=21371",
+      "checksum_scraped": " BDB4AB48C59A4BCF3534E033541A55367FCEB9F6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-721BRM",
+      "product_type": "N150 Wireless ADSL 2+ Modem Router",
+      "version": " 1.02.B07",
+      "release_date": "2015-0 12-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26425",
+      "checksum_scraped": " C65467A218DBD56607DC5A541894F94B7133BC95",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-722BRM",
+      "product_type": "N300 Wireless ADSL 2+ Modem Router",
+      "version": "1.02.B08",
+      "release_date": "2015-0 12-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26439",
+      "checksum_scraped": " 7CBE33EE888B17A6087052113488BFAD7C70CD9B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-723BRM",
+      "product_type": "N300 WiFi ADSL 2+ Modem Router",
+      "version": "1.00.01",
+      "release_date": "2016-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=30787",
+      "checksum_scraped": " 812E3035BA2381F6D00565CC4FE200C3F448E73A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-730APO",
+      "product_type": "9 dBi Outdoor PoE Access Point",
+      "version": " 1.1.1",
+      "release_date": "2015-0 07-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=28039",
+      "checksum_scraped": " 4FA78853251F9A6F3971BAD1D4625E6F2615BC6A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-731BR",
+      "product_type": "N300 WiFi Router",
+      "version": " 1.00.02",
+      "release_date": "2018-0 02-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29742",
+      "checksum_scraped": " 53D306C1EF9F6A8A3C4E14FA7B05E94D4372A83C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-733GR",
+      "product_type": "N300 Wireless Gigabit Router",
+      "version": " v1.03B01",
+      "release_date": "2015-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=22921",
+      "checksum_scraped": " A4A32CE6943962D67A7EFBB51218F6645D5A8B26",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-735AP",
+      "product_type": "N300 High Power PoE Access Point",
+      "version": " 1.0.9",
+      "release_date": "2015-0 06-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=24619",
+      "checksum_scraped": " BD63DB3F2B04B924691DF94504EDB98A6DA78553",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-737HRE",
+      "product_type": "N300 High Power Easy-N-Range Extender",
+      "version": " V1.02.B02",
+      "release_date": "2014-0 06-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=25176",
+      "checksum_scraped": " BB4CEA84526455F0AD5686BC44074C79B8AFF3BE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-738APBO",
+      "product_type": "10 dBi Outdoor PoE Access Point",
+      "version": " 1.1.12",
+      "release_date": "2017-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=31552",
+      "checksum_scraped": " B4DB7CA740AD0B80E1C74645E649B7E6A5CDC418",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-739APBO",
+      "product_type": "N300 Outdoor PoE Access Point",
+      "version": " 1.1.12",
+      "release_date": "2017-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=31566",
+      "checksum_scraped": " 457CE05C9F028D01FD20211BD994CE0D139430E6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-740APBO",
+      "product_type": "10 dBi Wireless N300 Outdoor PoE Access Point",
+      "version": " v3.1R",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39552",
+      "checksum_scraped": " 6639402086F0D9727A380CDE82D24568EABFA7D6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-740APBO2K",
+      "product_type": "10 dBi Wireless N300 Outdoor PoE Preconfigured Point-to-Point Bridge Kit",
+      "version": " v3.1R",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39551",
+      "checksum_scraped": " 4831F0B43098BF6730C22BFC74D7736C851C103C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-750DAP",
+      "product_type": "N600 Dual Band Access Point",
+      "version": " 1.01B03",
+      "release_date": "2014-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=23264",
+      "checksum_scraped": " E16500491D5CEFA901BE85D4FB6D345E946D2BCA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-751DR",
+      "product_type": "N600 Dual Band Wireless Router",
+      "version": " v1.03B03",
+      "release_date": "2016-02-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=22716",
+      "checksum_scraped": " 33B1C648FA5CF420FF003856F35ECF261E423117",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-752DRU",
+      "product_type": "N600 Dual Band Wireless Router",
+      "version": " v1.03B01",
+      "release_date": "2015-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=23292",
+      "checksum_scraped": " D34DDD9DCB00542BBE5FD0B1D2860C8614F2977F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-800MB",
+      "product_type": "AC1200 Dual Band Wireless Media Bridge",
+      "version": " 1.0.1.0",
+      "release_date": "2013-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=23178",
+      "checksum_scraped": " 377F10DCFB3570F80334B03C515F26BB5ECC987F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-810DR",
+      "product_type": "AC750 Dual Band Wireless Router",
+      "version": " v1.14B02",
+      "release_date": "2018-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26775",
+      "checksum_scraped": " 37575F86B9DC7206CF9231A112665794CB8E1F09",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-818DRU",
+      "product_type": "AC1900 Dual Band Wireless Router",
+      "version": " 1.0.14.6",
+      "release_date": "2018-0 06-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=24194",
+      "checksum_scraped": " 4F2374B216A5DF99A5EAEDD9F6353C589CE6B94E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-822DRE",
+      "product_type": "AC1200 WiFi Range Extender",
+      "version": " 1.03B02",
+      "release_date": "2017-0 12-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=30703",
+      "checksum_scraped": " 65FF567BD661ED6C67D12394C3C5BEF4180F128E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-826DAP",
+      "product_type": "AC2200 Tri-Band PoE+ Indoor Wireless Access Point",
+      "version": " 1.03B02",
+      "release_date": "2021-0 07-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=38299",
+      "checksum_scraped": " F8B6436178C7F136E5B6F49F8AAF698D7F28E166",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-828DRU",
+      "product_type": "AC3200 Tri Band Wireless Router",
+      "version": " 1.0.9.0",
+      "release_date": "2020-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=36348",
+      "checksum_scraped": " 882FFABC3E107BBD24AFE5E3D66C2E105B13545D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-841APBO",
+      "product_type": "5 dBi Wireless AC1300 Outdoor PoE+ Omni-Directional Access Point",
+      "version": " TEW-841APBO",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=35668",
+      "checksum_scraped": " 6C61A87F1C2D3CFF54CA3274B5CE897EFE690A7B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-MP2U",
+      "product_type": "Wireless 2-Port Multi-Function Print Server",
+      "version": " v2.60",
+      "release_date": "11-0 2-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=10231",
+      "checksum_scraped": " B657A816B931370485621928201E52D3C5FB77CF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-P11G",
+      "product_type": "Wireless 2-Port USB/Parallel Print Server",
+      "version": "v1.0.10",
+      "release_date": "2009-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13550",
+      "checksum_scraped": " 2DFD89999E5DD681D6F9DBF36AEDEC9B9CBA50E5",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-P1PG",
+      "product_type": "Wireless 1-Port Parallel Print Server",
+      "version": " 3.43",
+      "release_date": "2013-0 7-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=10316",
+      "checksum_scraped": " 274A746F9CEEECC655415934E1929C03D4FBEA7D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-P1UG",
+      "product_type": "Wireless 1-Port Print Server",
+      "version": " 3.43",
+      "release_date": "2013-0 7-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=11759",
+      "checksum_scraped": " 6920396440649953171DF5878EDFD824AFCC2CB8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-P21G",
+      "product_type": "Wireless 3-Port Print Server",
+      "version": " v3.43",
+      "release_date": "2013-0 7-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=11685",
+      "checksum_scraped": " 7FB349E0D6010B2D7D62481B4993190618BFFD3C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-WLC100",
+      "product_type": "Wireless LAN Controller",
+      "version": " TEW-WLC100",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37286",
+      "checksum_scraped": " 473812990A3057A2A621AC389DE3F90C4EC03AA6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TEW-WLC100P",
+      "product_type": "PoE+ Wireless LAN Controller",
+      "version": " TEW-WLC100P",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37287",
+      "checksum_scraped": " 47F18E9327CCA2C1BE5E0FB7F1FFBC6171C759B6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TFC-1600MM",
+      "product_type": "TFC-1600 SNMP Management Module",
+      "version": " 2.03",
+      "release_date": "2016-0 04-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32831",
+      "checksum_scraped": " 412BACCE89D6DEF55DD5FBAC0470F44590681EC8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-G102i",
+      "product_type": "10-Port Industrial Gigabit L2 Managed DIN-Rail Switch",
+      "version": " TI-G102i",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39938",
+      "checksum_scraped": " 4A719B29CE16C5EAF4CAA76B9AC427B890AC0A3F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-G160i",
+      "product_type": "16-Port Industrial Gigabit L2 Managed DIN-Rail Switch",
+      "version": " v1.xR",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39936",
+      "checksum_scraped": " 2F49A2C213832085EA64018B95516E7948AB8E4A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-G160i-M",
+      "product_type": "16-Port Industrial Gigabit L2 Managed DIN-Rail Switch",
+      "version": " TI-G160i-MHardware version",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40040",
+      "checksum_scraped": " CD63E94A5D2C22340F67F3EAC7764C8A2208953E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-G160WS",
+      "product_type": "16-Port Industrial Gigabit Web Smart DIN-Rail Switch",
+      "version": " TI-G160WS",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39935",
+      "checksum_scraped": " 4BD6EF4936EF00EE46614F5EA1BF8A937D598990",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-G642i",
+      "product_type": "6-Port Industrial Gigabit L2 Managed DIN-Rail Switch",
+      "version": " TI-G642i",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39937",
+      "checksum_scraped": " 7EBD88330EEF066DCE75BFAF3B7E0FA510E7CA35",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-PG102i",
+      "product_type": "10-Port Industrial Gigabit L2 Managed PoE+ DIN-Rail Switch 24 – 57V",
+      "version": " TI-PG102i",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39940",
+      "checksum_scraped": " 6987700C4635A2E8DF748B0F225721F48CD1A69C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-PG102i-M",
+      "product_type": "10-Port Industrial Gigabit L2 Managed PoE+ DIN-Rail Switch 24 – 57V",
+      "version": "TI-PG102i-M",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39941",
+      "checksum_scraped": " 7265A6EDAEB59775348BB0056900B1280278E899",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-PG1284i",
+      "product_type": "12-Port Industrial Gigabit L2+ Managed PoE+ DIN-Rail Switch",
+      "version": " v2.XR",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39942",
+      "checksum_scraped": " 53F5C362CA5559E850DF80B9DDA097BCAFB9BFBA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-PG541i",
+      "product_type": "6-Port Hardened Industrial Gigabit PoE+ Layer 2 Managed DIN-Rail Switch",
+      "version": " TI-PG541i",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39939",
+      "checksum_scraped": " 8CC8847D90F241385553E79C17D3795D90EC1F3F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TI-RP262i",
+      "product_type": "26-Port Industrial Gigabit L2 Managed PoE+ Rackmount Switch",
+      "version": " v1.XR",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=39943",
+      "checksum_scraped": " F1BD54906231AFB6B574E1FFEE2108F7C5A6097C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TK-803R",
+      "product_type": "8-Port Rackmount KVM Switch",
+      "version": "4.01",
+      "release_date": "2021-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=38993",
+      "checksum_scraped": " 05534D405F30950C11A825B87EB74A58E34DE9FD",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TK-CAT508",
+      "product_type": "8-Port CAT5 KVM Switch",
+      "version": " V1.0.5",
+      "release_date": "2015-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=27634",
+      "checksum_scraped": " 6834BD982FFC8813C404B3BEC838FD4F8B6D2749",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TN-200T1",
+      "product_type": "2-Bay NAS Media Server Enclosure (1 x 1 TB)",
+      "version": " 1.04b08",
+      "release_date": "2016-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=22777",
+      "checksum_scraped": " 1104D86A23ADDAA2C14980CABDDE68178FCA9FD9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-082WS",
+      "product_type": "10-Port Gigabit Web Smart PoE+ Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40377",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-1020WS",
+      "product_type": "10-Port Gigabit Web Smart PoE+ Switch",
+      "version": " 1.00.29",
+      "release_date": "2018-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26079",
+      "checksum_scraped": " 9DB5A7780211EB1BE85FF6D09120566454912F97",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-1021WS",
+      "product_type": "10-Port Gigabit Web Smart PoE+ Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40378",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-1620WS",
+      "product_type": "20-Port Gigabit Web Smart PoE+ Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40379",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-1620WSF",
+      "product_type": "20-Port Gigabit Web Smart 370W PoE+ Switch",
+      "version": " TPE-1620WSF",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=36121",
+      "checksum_scraped": " 51D5377ECBD66A543E1A21BA939088CC6ED327EB",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-204US",
+      "product_type": "20-Port Gigabit Web Smart Ultra PoE Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40385",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-224WS",
+      "product_type": "28-Port 10/100 Mbps Web Smart PoE+ Switch",
+      "version": " 4.00.021",
+      "release_date": "2022-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40221",
+      "checksum_scraped": " 282F06A15C699534966D9CFF8FB57356A3132F04",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-2840WS",
+      "product_type": "28-Port Gigabit Web Smart PoE+ Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40381",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-30102WS",
+      "product_type": "10-Port 2.5GBASE-T Web Smart PoE+ Switch with 2 x 10G SFP+ Slots",
+      "version": " 1.00.21",
+      "release_date": "2021-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37984",
+      "checksum_scraped": " A1283A5558A2C88267DDC77083EC1714403E5549",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-3012LS",
+      "product_type": "12-Port Gigabit PoE+ Smart Surveillance Switch",
+      "version": " TPE-3012LS",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37357",
+      "checksum_scraped": " 625BB9782CF66334F3A525E2DF961E3A581D0C29",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-3018LS",
+      "product_type": "18-Port Gigabit PoE+ Smart Surveillance Switch",
+      "version": " TPE-3018LS",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37359",
+      "checksum_scraped": " 03CC5FA41FBD9C93D11E1074725E139AD0730E02",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-30284",
+      "product_type": "28-Port Gigabit Web Smart PoE+ Switch with 10G SFP+ slots",
+      "version": " v3.00.004",
+      "release_date": "2023-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40474",
+      "checksum_scraped": " B2FA1786FE66B23FF8D3EFEFFEA0E2B3C4FF7C80",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-4840WS",
+      "product_type": "48-Port Gigabit Web Smart PoE+ Switch",
+      "version": " 1.00.10",
+      "release_date": "2018-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26733",
+      "checksum_scraped": " 45D9AFCDA622C8BF9B109A9254A24A92DF391AAD",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-5028WS",
+      "product_type": "28-Port Gigabit Web Smart PoE+ Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40382",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-5048WS",
+      "product_type": "52-Port Gigabit Web Smart PoE+ Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40383",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-5240WS",
+      "product_type": "52-Port Gigabit Web Smart PoE+ Switch",
+      "version": " v3.01.021",
+      "release_date": "2022-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=40384",
+      "checksum_scraped": " FDB385C8941535CBB2869EAA6803D7B56752515D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-80WS",
+      "product_type": "8-Port Gigabit Web Smart PoE Switch",
+      "version": " 4.1T",
+      "release_date": "2009-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14378",
+      "checksum_scraped": " 81F36A1D86D90CFFD11322AA586178C8F7799738",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-TG44ES",
+      "product_type": "8-Port Gigabit EdgeSmart PoE+ Switch",
+      "version": " 1.00.38",
+      "release_date": "2017-0 07-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32789",
+      "checksum_scraped": " 62DAD4D0366DB7121A7DB35204FACF0DD32329B2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPE-TG50ES",
+      "product_type": "5-Port Gigabit EdgeSmart PoE+ Switch",
+      "version": " TPE-TG50ES",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=36126",
+      "checksum_scraped": " 2EA03ADF513299433E68A1AEE6B817053BEAA98B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-305E",
+      "product_type": "3-Port Powerline 200 AV Adapter",
+      "version": " 4.2.0.04",
+      "release_date": "2010-0 12-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16769",
+      "checksum_scraped": " E243E003A6F44396508EA1A12A96E95C80829ECC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-306E",
+      "product_type": "200Mbps Compact Powerline AV Adapter",
+      "version": " 4.5.0.01",
+      "release_date": "2011-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19014",
+      "checksum_scraped": " 29BE4317501C93403F2EC978133766A9D2FDD176",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-306E2K",
+      "product_type": "200Mbps Compact Powerline AV Adapter Kit",
+      "version": " 4.5.0.01",
+      "release_date": "2011-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19021",
+      "checksum_scraped": " ",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-308E",
+      "product_type": "Powerline 200 AV Nano Adapter",
+      "version": " 1/2013",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=22030",
+      "checksum_scraped": " 351C7A22CE83BC372F2A822EFF3E089467704B6A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-308E2K",
+      "product_type": "Powerline 200 AV Nano Adapter Kit",
+      "version": " 1/2013",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=22032",
+      "checksum_scraped": " 351C7A22CE83BC372F2A822EFF3E089467704B6A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-401E",
+      "product_type": "Powerline 500 AV Adapter",
+      "version": " 5.2.4.03",
+      "release_date": "2014-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16248",
+      "checksum_scraped": " 44C8E5D4C83B3543C3B19AA4EF4F76B3281EFD1B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-401E2K",
+      "product_type": "Powerline 500 AV Adapter Kit",
+      "version": " 5.2.4.03",
+      "release_date": "2014-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16267",
+      "checksum_scraped": " 44C8E5D4C83B3543C3B19AA4EF4F76B3281EFD1B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-402E",
+      "product_type": "Powerline 500 AV Adapter with Built-In Outlet",
+      "version": " 5.2.4.03",
+      "release_date": "2014-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=17336",
+      "checksum_scraped": " F6BBD893CE14AF097E627A90938B2F2013C130D1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-402E2K",
+      "product_type": "Powerline 500 AV Adapter Kit with Built-In Outlet",
+      "version": " 5.2.4.03",
+      "release_date": "2014-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=17363",
+      "checksum_scraped": " F6BBD893CE14AF097E627A90938B2F2013C130D1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-405E",
+      "product_type": "4-Port Powerline 500 AV Adapter",
+      "version": " 5.2.4.03",
+      "release_date": "2014-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19431",
+      "checksum_scraped": " ED685D9BE9064DE99B10D196A59F0DF02CBFB469",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-407E",
+      "product_type": "Powerline 500 AV Nano Adapter with Built-In Outlet",
+      "version": " 1.0.0-06",
+      "release_date": "2012-0 12-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=21796",
+      "checksum_scraped": " 073A90FC8AA7A80F19B6421A2D332E644495DEC9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-410AP",
+      "product_type": "WiFi Everywhere™ Powerline 500 AV Access Point",
+      "version": " 1.00.04",
+      "release_date": "2017-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32714",
+      "checksum_scraped": " 0C54062434DCDC1B7C1A0E8BB037D44B48164405",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-410APK",
+      "product_type": "WiFi Everywhere™ Powerline 500 Kit",
+      "version": " 1.00.04",
+      "release_date": "2017-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32715",
+      "checksum_scraped": " 0C54062434DCDC1B7C1A0E8BB037D44B48164405",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-430AP",
+      "product_type": "WiFi Everywhere™ Powerline 1200 AV2 Access Point",
+      "version": " 1.0.1",
+      "release_date": "2021-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37742",
+      "checksum_scraped": " 323C928E698004B96E91EAE3C33CC78023CAE909",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TPL-430APK",
+      "product_type": "WiFi Everywhere™ Powerline 1200 AV2 Wireless Kit",
+      "version": " 1.0.1",
+      "release_date": "2021-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37744",
+      "checksum_scraped": " 323C928E698004B96E91EAE3C33CC78023CAE909",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TS-S402",
+      "product_type": "2-Bay SATA I/II Network Storage Enclosure",
+      "version": " 2.00.13",
+      "release_date": "2013-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13328",
+      "checksum_scraped": " 05E3F5C7E61B25E51C91AFF529F378B9E2D454E3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP121W",
+      "product_type": "SecurView Wireless Day/Night Network Camera",
+      "version": " V1.1.1 build 36",
+      "release_date": "2013-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13950",
+      "checksum_scraped": " 756BC9CAE1B8986DAC135AE25DE4EEB5C175E329",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP121WN",
+      "product_type": "SecurView Wireless N Day/Night Network Camera",
+      "version": "V1.2.2 build 28",
+      "release_date": "2013-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19926",
+      "checksum_scraped": " A867E1BA14BEBB0C2922E4D7BD444F67BBF49D8E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP1313PI",
+      "product_type": "Indoor/Outdoor 5MP H.265 WDR PoE Enhanced IR Network Camera",
+      "version": " 5.5.3 build 200714",
+      "release_date": "2020-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37284",
+      "checksum_scraped": " 99FFA8A5404F6C5B74074F332316F88F5E416703",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP1314PI",
+      "product_type": "Indoor / Outdoor 4MP H.265 WDR PoE IR Bullet Network Camera",
+      "version": " 5.5.3 build 200714",
+      "release_date": "2020-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37280",
+      "checksum_scraped": " 99FFA8A5404F6C5B74074F332316F88F5E416703",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP1315PI",
+      "product_type": "Indoor / Outdoor 4MP H.265 WDR PoE IR Dome Network Camera",
+      "version": " 5.5.3 build 200714",
+      "release_date": "2020-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37281",
+      "checksum_scraped": " 99FFA8A5404F6C5B74074F332316F88F5E416703",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP1318PI",
+      "product_type": "Indoor / Outdoor 8MP 4K H.265 WDR PoE IR Bullet Network Camera",
+      "version": " 5.5.3 build 200714",
+      "release_date": "2020-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37282",
+      "checksum_scraped": " 99FFA8A5404F6C5B74074F332316F88F5E416703",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP1319PI",
+      "product_type": "Indoor / Outdoor 8MP 4K H.265 WDR PoE IR Dome Network Camera",
+      "version": " 5.5.3 build 200714",
+      "release_date": "2020-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37283",
+      "checksum_scraped": " 99FFA8A5404F6C5B74074F332316F88F5E416703",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP252P",
+      "product_type": "PoE Dome Network Camera",
+      "version": " V1.1.3",
+      "release_date": "2014-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=23894",
+      "checksum_scraped": " 9844F679807F5D2BA4F9247F120499DA982FE822",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP262P",
+      "product_type": "Megapixel HD PoE Dome Network Camera",
+      "version": " 1.0.4",
+      "release_date": "2014-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=20254",
+      "checksum_scraped": " 9359E127927D61EEAAD451295648EB30A191BB0A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP262PI",
+      "product_type": "Megapixel HD PoE Day/Night Dome Network Camera",
+      "version": " 1.1.3",
+      "release_date": "2014-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=21084",
+      "checksum_scraped": " A21672947819C284CDC807C79952ABEBB4BE499B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP302PI",
+      "product_type": "Outdoor Megapixel HD PoE Day/Night Internet Camera",
+      "version": " V1.02.38",
+      "release_date": "2016-0 02-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=23150",
+      "checksum_scraped": " 685DA7D483DC9F33A9A4D53061832A1D63478233",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP310PI",
+      "product_type": "Indoor / Outdoor 3 MP Full HD PoE Day / Night Network Camera",
+      "version": " 5.3.4 Build 170802",
+      "release_date": "2017-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32991",
+      "checksum_scraped": " 33DC231B8C95C8BF7414FD23D135E5C65FADB8E2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP311PI",
+      "product_type": "Indoor / Outdoor 3 MP Full HD PoE Dome Day / Night Network Camera",
+      "version": " 5.3.4 Build 170802",
+      "release_date": "2017-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=33003",
+      "checksum_scraped": " 33DC231B8C95C8BF7414FD23D135E5C65FADB8E2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP312PI",
+      "product_type": "Indoor / Outdoor 3 MP HD PoE IR Network Camera",
+      "version": " 5.3.4 Build 170802",
+      "release_date": "2017-0 8-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32997",
+      "checksum_scraped": " 33DC231B8C95C8BF7414FD23D135E5C65FADB8E2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP312W",
+      "product_type": "SecurView Wireless Day/Night Network Camera",
+      "version": " V1.1.1 build 75",
+      "release_date": "2013-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=17704",
+      "checksum_scraped": " 2DC24EA94AB0B34F1069677393D1CCF77814131D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP312WN",
+      "product_type": "SecurView Wireless N Day/Night Network Camera",
+      "version": " V1.1.1 build 34",
+      "release_date": "2013-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=17423",
+      "checksum_scraped": " ",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP313PI",
+      "product_type": "Indoor / Outdoor 5MP H.265 WDR PoE Enhanced IR Network Camera",
+      "version": " 5.4.6 build 180418",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=33211",
+      "checksum_scraped": " 114819D0680EAFED4652CB225686B8A7FA190A67",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP314PI",
+      "product_type": "Indoor / Outdoor 4MP H.265 WDR PoE IR Bullet Network Camera",
+      "version": " 5.5.3 (190911)",
+      "release_date": "2019-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37442",
+      "checksum_scraped": " D4893E2602CD3E80A8CA50C247EA5E14A00476B3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP315PI",
+      "product_type": "Indoor / Outdoor 4MP H.265 WDR PoE IR Dome Network Camera",
+      "version": " 5.5.3 (190911)",
+      "release_date": "2019-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37443",
+      "checksum_scraped": " D4893E2602CD3E80A8CA50C247EA5E14A00476B3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP316PI",
+      "product_type": "Indoor / Outdoor 5MP H.265 WDR PoE IR Bullet Network Camera",
+      "version": " 5.4.6 build 180418",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32855",
+      "checksum_scraped": " 114819D0680EAFED4652CB225686B8A7FA190A67",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP317PI",
+      "product_type": "Indoor / Outdoor 5MP H.265 WDR PoE IR Dome Network Camera",
+      "version": " 5.4.6 build 180418",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32856",
+      "checksum_scraped": " 114819D0680EAFED4652CB225686B8A7FA190A67",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP318PI",
+      "product_type": "Indoor / Outdoor 8MP 4K H.265 WDR PoE IR Bullet Network Camera",
+      "version": " 5.4.6 build 180418",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32857",
+      "checksum_scraped": " 114819D0680EAFED4652CB225686B8A7FA190A67",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP319PI",
+      "product_type": "Indoor / Outdoor 8MP 4K H.265 WDR PoE IR Dome Network Camera",
+      "version": " 5.4.6 build 180418",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32859",
+      "checksum_scraped": " 114819D0680EAFED4652CB225686B8A7FA190A67",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP320PI",
+      "product_type": "Indoor / Outdoor 1.3 MP HD PoE IR Network Camera",
+      "version": " 5.3.4",
+      "release_date": "2021-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=33005",
+      "checksum_scraped": " 4FEF84D6EFC842F396ED382129DAF684899D4D39",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP320PI2K",
+      "product_type": "Indoor / Outdoor 1.3 MP HD PoE IR Network Camera Twin Pack",
+      "version": " 5.3.4",
+      "release_date": "2021-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32994",
+      "checksum_scraped": " 4FEF84D6EFC842F396ED382129DAF684899D4D39",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP321PI",
+      "product_type": "Indoor / Outdoor 1.3 MP HD PoE Dome IR Network Camera",
+      "version": " 5.3.4 Build 180411",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=32993",
+      "checksum_scraped": " C31D6AD6BD30ED7FB55FCEA400B0468F04D2325F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP322P",
+      "product_type": "Outdoor PoE Megapixel HD Day/Night Internet Camera",
+      "version": " 1.0.4",
+      "release_date": "2014-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=17793",
+      "checksum_scraped": " 90005BEC17DFFC3F91EDBBDD15C806B12BBF64FD",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP322WI",
+      "product_type": "Indoor / Outdoor 1.3 MP HD WiFi IR Network Camera",
+      "version": " 5.3.4",
+      "release_date": "2021-0 9-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=34094",
+      "checksum_scraped": " 64066F0D053B6CA9FC0F8A5D076F79B0C762CBA3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP323PI",
+      "product_type": "Indoor / Outdoor 4MP H.265 PoE IR Fixed Turret Network Camera",
+      "version": " 5.5.3 (181025)",
+      "release_date": "2019-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=35393",
+      "checksum_scraped": " F9660171D34919F7675E3500A373E7A9CBF1BDFE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP324PI",
+      "product_type": "Indoor/Outdoor 1MP H.264 PoE IR Bullet Network Camera",
+      "version": " 5.4.5(190222)",
+      "release_date": "2019-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=34114",
+      "checksum_scraped": " E4B6E7335CD639BC1994CED11244889FDD3B7D27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP325PI",
+      "product_type": "Indoor/Outdoor 1MP H.264 PoE IR Dome Network Camera",
+      "version": " 5.4.5(190222)",
+      "release_date": "2019-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=34115",
+      "checksum_scraped": " E4B6E7335CD639BC1994CED11244889FDD3B7D27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP326PI",
+      "product_type": "Indoor / Outdoor 2MP H.265 WDR PoE IR Bullet Network Camera",
+      "version": " 5.5.3 (181025)",
+      "release_date": "2019-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=34620",
+      "checksum_scraped": " F9660171D34919F7675E3500A373E7A9CBF1BDFE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP327PI",
+      "product_type": "Indoor / Outdoor 2MP H.265 WDR PoE IR Dome Network Camera",
+      "version": " 5.5.3 (181025)",
+      "release_date": "2019-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=34621",
+      "checksum_scraped": " F9660171D34919F7675E3500A373E7A9CBF1BDFE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP328PI",
+      "product_type": "Indoor/Outdoor 4MP H.265 PoE IR Bullet Network Camera",
+      "version": " 5.5.12 Build 190425",
+      "release_date": "2021-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37508",
+      "checksum_scraped": " 8C4B95D6692943FCF94A62D86157BA49F7B41B71",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP329PI",
+      "product_type": "Indoor/Outdoor 4MP H.265 PoE IR Dome Network Camera",
+      "version": " 5.5.12 Build 190425",
+      "release_date": "2021-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37509",
+      "checksum_scraped": " 8C4B95D6692943FCF94A62D86157BA49F7B41B71",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP340PI",
+      "product_type": "Indoor / Outdoor 2 MP 1080p Varifocal PoE IR Network Camera",
+      "version": " 5.3.4 Build 180411",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=31709",
+      "checksum_scraped": " C31D6AD6BD30ED7FB55FCEA400B0468F04D2325F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP341PI",
+      "product_type": "Indoor / Outdoor 2 MP 1080p Varifocal PoE IR Dome Network Camera",
+      "version": " 5.3.4 Build 180411",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=31710",
+      "checksum_scraped": " C31D6AD6BD30ED7FB55FCEA400B0468F04D2325F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP342PI",
+      "product_type": "Outdoor 2 MP Full HD Vari-Focal PoE Day / Night Dome Network Camera",
+      "version": " 1.03.48",
+      "release_date": "2016-0 06-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29494",
+      "checksum_scraped": " 3862E14B53E1FD6461EB48ECACE250B9BDC4A11D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP343PI",
+      "product_type": "Outdoor 2MP Full HD Vari-Focal PoE Day / Night Network Camera",
+      "version": " 1.03.48",
+      "release_date": "2016-0 06-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29495",
+      "checksum_scraped": " 3862E14B53E1FD6461EB48ECACE250B9BDC4A11D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP344PI",
+      "product_type": "Indoor/Outdoor 4MP H.265 Motorized Varifocal PoE IR Bullet Network Camera",
+      "version": " 5.5.12 build 190305",
+      "release_date": "2019-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=35415",
+      "checksum_scraped": " D1A8249461660E6323488F095ACBBB6E2DF264AC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP345PI",
+      "product_type": "Indoor/Outdoor 4MP H.265 Motorized Varifocal PoE IR Dome Network Camera",
+      "version": " 5.5.12 build 190305",
+      "release_date": "2019-0 3-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=35417",
+      "checksum_scraped": " D1A8249461660E6323488F095ACBBB6E2DF264AC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP410",
+      "product_type": "SecurView Pan/Tilt/Zoom Network Camera",
+      "version": " V1.1.2",
+      "release_date": "2013-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=12289",
+      "checksum_scraped": " 48B2083D2C21FDFA1061BF36DD9AC6F970BE7A78",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP410PI",
+      "product_type": "Indoor 2 MP 1080p WDR Mini Pan / Tilt PoE IR Network Camera",
+      "version": " 5.4.1 build180413",
+      "release_date": "2018-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=31795",
+      "checksum_scraped": " 0672CAE47AECB22698AC93C9455993C738FBEB89",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP410W",
+      "product_type": "SecurView Wireless Pan/Tilt/Zoom Network Camera",
+      "version": " V1.1.2",
+      "release_date": "2013-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=12298",
+      "checksum_scraped": " ED20BA0ADD25FDAB20AA90D72DCCAC831F56121D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP410WN",
+      "product_type": "SecurView Wireless N Pan/Tilt/Zoom Network Camera",
+      "version": " V1.1.2",
+      "release_date": "2013-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=17441",
+      "checksum_scraped": " 5C4453BD99124AE10E6603C4C9D26683BBA51F9B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP420P",
+      "product_type": "Indoor / Outdoor 3 MP Motorized PTZ Dome Network Camera",
+      "version": " 5.4.3 Build 180621",
+      "release_date": "2018-0 7-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29372",
+      "checksum_scraped": " E7C5EA3ABA23EEC3B5A18ACD948491D5521F30A9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP422W",
+      "product_type": "SecurView Wireless Day/Night Pan/Tilt/Zoom Network Camera",
+      "version": " V1.1.1 build 98",
+      "release_date": "2015-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=27004",
+      "checksum_scraped": " F22346F2670523F75F31162FB8E0EBEFAAF77019",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP422WN",
+      "product_type": "SecurView Wireless N Day/Night Pan/Tilt/Zoom Network Camera",
+      "version": " V1.1.1 build 29",
+      "release_date": "2015-0 1-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=27005",
+      "checksum_scraped": " 9C36A61B4541D9A7E9879475D46F2C0983FB7376",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP430PI",
+      "product_type": "Outdoor 2 MP Full HD 1080p PoE+ IR Mini Speed Dome Network Camera",
+      "version": " 5.3.9 build 170413",
+      "release_date": "2017-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29969",
+      "checksum_scraped": " 1CAC1715679F0DB4523DB1C906CB8F2CD2AF45F7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP440PI",
+      "product_type": "Indoor / Outdoor 2MP 1080p PoE+ IR PTZ Speed Dome Network Camera",
+      "version": " 5.4.3 Build 180621",
+      "release_date": "2018-0 7-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=34764",
+      "checksum_scraped": " E7C5EA3ABA23EEC3B5A18ACD948491D5521F30A9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP450P",
+      "product_type": "Outdoor 1.3 MP HD PoE+ Speed Dome Network Camera",
+      "version": " 5.3.9 build 170413",
+      "release_date": "2017-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29970",
+      "checksum_scraped": " 1CAC1715679F0DB4523DB1C906CB8F2CD2AF45F7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP450PI",
+      "product_type": "Outdoor 1.3 MP HD PoE IR Speed Dome Network Camera",
+      "version": " 5.3.9 build 170413",
+      "release_date": "2017-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29971",
+      "checksum_scraped": " 1CAC1715679F0DB4523DB1C906CB8F2CD2AF45F7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP501P",
+      "product_type": "ProView PoE Network Camera",
+      "version": " 3.52",
+      "release_date": "2011-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14451",
+      "checksum_scraped": " 9E34C2FAC634D35E7BDA1E69BF88933D8558A86E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP501W",
+      "product_type": "ProView Wireless Network Camera",
+      "version": " 3.52",
+      "release_date": "2011-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14463",
+      "checksum_scraped": " BC81A7E8A40C9C85D2576C11129ADB7686FE8B76",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP512P",
+      "product_type": "PoE Network Camera",
+      "version": " 1.0.4",
+      "release_date": "2013-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=15589",
+      "checksum_scraped": " B27998BBB4C8503E9314730F504E389B56AD6F6C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP512WN",
+      "product_type": "ProView Wireless N Network Camera",
+      "version": " 1.0.4",
+      "release_date": "2013-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=14768",
+      "checksum_scraped": " B27998BBB4C8503E9314730F504E389B56AD6F6C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP551W",
+      "product_type": "Wireless Network Camera",
+      "version": " v1.07.01",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19897",
+      "checksum_scraped": " B857691E0584B64ABE66F2B66DCB8DBF429DD0FE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP551WI",
+      "product_type": "Wireless Day / Night Network Camera",
+      "version": " v1.07.01",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=24926",
+      "checksum_scraped": " E65A201378CD147F8BE898258A107D7E5F260FD4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP562WI",
+      "product_type": "Megapixel HD Wireless Day/Night Network Camera",
+      "version": " 1.0.4",
+      "release_date": "2015-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26600",
+      "checksum_scraped": " 8139B32B90DEAE88DD8AE875B9C73B913B7ED207",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP572P",
+      "product_type": "Megapixel HD PoE Internet Camera",
+      "version": " 1.1.3",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=20061",
+      "checksum_scraped": " AE6218AC1541FC12087AC0EB2FDC518BD7B6B446",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP572PI",
+      "product_type": "Megapixel HD PoE Day/Night Internet Camera",
+      "version": " 1.1.3",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=20079",
+      "checksum_scraped": " 52183DC05CC21FAA9D8D0E37BFF28DCA8969EF24",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP572W",
+      "product_type": "Megapixel HD Wireless N Internet Camera",
+      "version": " 1.1.3",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=20095",
+      "checksum_scraped": " AE6218AC1541FC12087AC0EB2FDC518BD7B6B446",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP572WI",
+      "product_type": "Megapixel HD Wireless N Day/Night Internet Camera",
+      "version": " 1.1.3",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=25036",
+      "checksum_scraped": " 52183DC05CC21FAA9D8D0E37BFF28DCA8969EF24",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP600",
+      "product_type": "ProView Pan/Tilt/Zoom Network Camera",
+      "version": " 3.52",
+      "release_date": "2011-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13697",
+      "checksum_scraped": " A971123FA7007C44A43E7A00DB7FFE571254075D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP600W",
+      "product_type": "ProView Wireless Pan/Tilt/Zoom Network Camera",
+      "version": " 3.52",
+      "release_date": "2011-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13677",
+      "checksum_scraped": " 8CDF3A1E512962B5CEFC96189B20892A4141B6EA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP602WN",
+      "product_type": "ProView Wireless N Pan/Tilt/Zoom Network Camera",
+      "version": " 1.0.2",
+      "release_date": "2013-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=18378",
+      "checksum_scraped": " FEF2049BF7699108B551613B20BC208D7A6ED137",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP612P",
+      "product_type": "PoE PTZ Network Camera",
+      "version": " 1.0.4",
+      "release_date": "2015-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16052",
+      "checksum_scraped": " 5F641924C546079C8552D11A46F69D895A05A6D8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP612WN",
+      "product_type": "Wireless PTZ Network Camera",
+      "version": " 1.0.4",
+      "release_date": "2015-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=16067",
+      "checksum_scraped": " 5F641924C546079C8552D11A46F69D895A05A6D8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP651W",
+      "product_type": "Wireless PTZ Network Camera",
+      "version": " v1.07.01",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19899",
+      "checksum_scraped": " 23A3FBD62D203C0FA06C97A853577496AB99D9B9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP651WI",
+      "product_type": "Wireless Day / Night PTZ Network Camera",
+      "version": " v1.07.01",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19900",
+      "checksum_scraped": " 2E0076841726030999891C63E1D12C9C08C10033",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP662PI",
+      "product_type": "Megapixel HD PoE Day/Night PTZ Network Camera",
+      "version": " 1.0.4",
+      "release_date": "2015-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=25129",
+      "checksum_scraped": " 0652F2FE386AC99B8B5E035690460C365B4A4B4A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP662WI",
+      "product_type": "Megapixel HD Wireless Day/Night PTZ Network Camera",
+      "version": " 1.0.4",
+      "release_date": "2015-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=25130",
+      "checksum_scraped": " 0652F2FE386AC99B8B5E035690460C365B4A4B4A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP672P",
+      "product_type": "Megapixel HD PoE PTZ Internet Camera",
+      "version": " v 1.1.3",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19972",
+      "checksum_scraped": " C00EEA09AF53360BB877DA22666A2E58BA4DADAF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP672PI",
+      "product_type": "Megapixel HD PoE Day/Night PTZ Internet Camera",
+      "version": " v 1.1.3",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19984",
+      "checksum_scraped": " E17F3793B3737DCBEA0B1B5B6AB9884D82091F5E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP672W",
+      "product_type": "Megapixel HD Wireless N PTZ Internet Camera",
+      "version": " v 1.1.3",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19995",
+      "checksum_scraped": " C00EEA09AF53360BB877DA22666A2E58BA4DADAF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP672WI",
+      "product_type": "Megapixel HD Wireless Day / Night PTZ Network Camera",
+      "version": " v 1.1.3",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=31251",
+      "checksum_scraped": " E17F3793B3737DCBEA0B1B5B6AB9884D82091F5E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP743SIC",
+      "product_type": "WiFi Baby Cam",
+      "version": " 1.0.3",
+      "release_date": "2015-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=31283",
+      "checksum_scraped": " 30A7491A35C639F98AAB61AF848310E0411EF4BC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP745SIC",
+      "product_type": "WiFi HD Baby Cam",
+      "version": " 1.0.3",
+      "release_date": "2015-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=26251",
+      "checksum_scraped": " 338A91710FA57540FCA1C49A629EE4ED893B5737",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP751WC",
+      "product_type": "Wireless Cloud Camera",
+      "version": " 1.03.03",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=21145",
+      "checksum_scraped": " A6FD63FAE0066575889339FF972B79CC5EE18537",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP751WIC",
+      "product_type": "Wireless Day / Night Cloud Camera",
+      "version": " 1.03.03",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=21165",
+      "checksum_scraped": " A73EEA83102925E013C0CCBED6D023B105545891",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP762IC",
+      "product_type": "HD Wireless Day/Night Cloud Camera",
+      "version": " 1.0.3",
+      "release_date": "2015-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=23779",
+      "checksum_scraped": " A4D7B63DA55F533FF31DCA6A3762A363F8E04503",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP851WC",
+      "product_type": "Wireless PTZ Cloud Camera",
+      "version": " 1.03.03",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=21362",
+      "checksum_scraped": " 092A0BBD6F56E0BFB28C3964D5B2DF4855A172AE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP851WIC",
+      "product_type": "Wireless Day / Night PTZ Cloud Camera",
+      "version": " 1.03.03",
+      "release_date": "2015-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=21363",
+      "checksum_scraped": " 6C98BAB27D5849D803FFF13C2B76A83AD2D7C252",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-IP862IC",
+      "product_type": "HD Wireless Day/Night PTZ Cloud Camera",
+      "version": " 1.0.3",
+      "release_date": "2015-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=23757",
+      "checksum_scraped": " 7217C93658B930DC44E417248900799FB294BF01",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR104",
+      "product_type": "4-Channel HD PoE NVR",
+      "version": " 2.3.7",
+      "release_date": "2015-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=31864",
+      "checksum_scraped": " 8109DF38C557169344357A8D1EF1624B8005CB0F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR104K",
+      "product_type": "4-Channel HD PoE NVR Kit",
+      "version": " 2.3.7",
+      "release_date": "2015-0 09-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=28320",
+      "checksum_scraped": " 8109DF38C557169344357A8D1EF1624B8005CB0F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR208",
+      "product_type": "8-Channel 1080p HD PoE+ NVR",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29464",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR208D2",
+      "product_type": "8-Channel HD PoE+ NVR with 2 TB HDD",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=30317",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR216",
+      "product_type": "16-Channel HD PoE+ NVR",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29919",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR216D4",
+      "product_type": "16-Channel HD PoE+ NVR with 4 TB HDD",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29930",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR2208",
+      "product_type": "8-Channel HD NVR",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29443",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR2208D2",
+      "product_type": "8-Channel HD NVR with 2 TB HDD",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=30323",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR2216",
+      "product_type": "16-Channel HD NVR",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29548",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR2216D4",
+      "product_type": "16-Channel HD NVR with 4 TB HDD",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=30212",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR2432",
+      "product_type": "32-Channel HD NVR",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=29751",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR2432D4",
+      "product_type": "32-Channel HD NVR with 4 TB HDD",
+      "version": " 3.3.4 build 180522",
+      "release_date": "2018-0 5-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=30339",
+      "checksum_scraped": " 802135AAADECA99870B8F8DF35290D4255C2EE27",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR408",
+      "product_type": "8-Channel H.265 1080p HD PoE+ NVR",
+      "version": " 3.4.98 (build 201111)",
+      "release_date": "2020-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37366",
+      "checksum_scraped": " D36E61FF7CA8B9C368FAE7A58A1160E7B13A807C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-NVR416",
+      "product_type": "16-Channel H.265 1080p HD PoE+ NVR",
+      "version": " 3.4.98 (build 201111)",
+      "release_date": "2020-0 11-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=37367",
+      "checksum_scraped": " D36E61FF7CA8B9C368FAE7A58A1160E7B13A807C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-VS1",
+      "product_type": "Single Channel Analog to IP Video Encoder",
+      "version": " V1.0.1 build 14",
+      "release_date": "2012-0 2-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=18080",
+      "checksum_scraped": " 6A88A45148DD1A4A597D4AE6127BB7B5FE44E833",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TV-VS1P",
+      "product_type": "Single Channel PoE Analog to IP Video Encoder",
+      "version": " V1.0.1 build 11",
+      "release_date": "2012-0 2-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=18098",
+      "checksum_scraped": " DEDCAA92019AE2D5443F22DA385C84B09CE7A445",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TW100-BRF114U",
+      "product_type": "Cable/DSL 4-Port Firewall Router w/ USB Print Server",
+      "version": "",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=9262",
+      "checksum_scraped": " 2EA27E05725082716281E73660CA80525ED51FF2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TW100-BRF214",
+      "product_type": "4-Port Fast Ethernet Firewall Router",
+      "version": " 1.00.04",
+      "release_date": "2013-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=20131",
+      "checksum_scraped": " 208337B2B4FF05A20F9CF041715B392B2314FD6E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TW100-BRV204",
+      "product_type": "4-Port VPN Firewall Router",
+      "version": " 2.0.1.1",
+      "release_date": "",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=12893",
+      "checksum_scraped": " 2CA1F41B65CDA0ED3DAD0B7EC59F7DA18537B959",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TW100-BRV214",
+      "product_type": "4-Port VPN Router",
+      "version": "1.00.08",
+      "release_date": "2013-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=19204",
+      "checksum_scraped": " BDC6551521147AFC568BA6AB86C295522559A8C3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TW100-BRV304",
+      "product_type": "4-Port Advanced VPN Firewall Router",
+      "version": " 2.01A",
+      "release_date": "2011-0 4-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=11385",
+      "checksum_scraped": " 977297822F67BD8B2D8E40D37DA66D48D2EC0F13",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TW100-S4W1CA",
+      "product_type": "4-Port Broadband Router",
+      "version": " 2.3.32",
+      "release_date": "2019-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=18217",
+      "checksum_scraped": " 76A8C65454F682245D4E5859B9BC3B5D27690DA5",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Trendnet",
+      "product_name": "TWG-BRF114",
+      "product_type": "4-Port Gigabit Firewall Router",
+      "version": " 1.0.0.6",
+      "release_date": "2010-0 10-01",
+      "download_link": "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile=13313",
+      "checksum_scraped": " 8D84CC5F786C1342F5FD74B31D205F8698B8D745",
+      "additional_data": {}
+    }
+  ]
