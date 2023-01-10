@@ -1,0 +1,1732 @@
+[
+    {
+      "manufacturer": "ABB",
+      "product_name": "E530 PT Firmware Build V1.0.0.10",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-12-18",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108467A6461&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "DCS880 Firmware DCSF1x2.07.5.0",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-01-20",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADW000495R&LanguageCode=en&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex e190 Firmware Build 5905.4",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-11-28",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108467A5655&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MotiFlex e180 Firmware Build 5905.4",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-11-28",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108467A5654&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex Firmware Build 5366",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-08-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A7004&LanguageCode=en&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "NETA-21 Remote monitoring tool firmware 3.32. Update to 3.32.0.0.",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-12-21",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108467A6527&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex e100 Firmware Build 5639",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-08-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A7005&LanguageCode=en&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "NextMove ESB-2 Firmware Build 5458",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-08-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A7006&LanguageCode=en&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "DCF500 - DCF700 Firmware V 52.109",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-10-27",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108466A0816&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "NETA-21 Remote monitoring tool firmware 3.31. Update to 3.31.0.0.",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-10-04",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108467A3667&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "DCS550 Firmware V 21.125 for CON-1",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-10-27",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108466A0814&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex e190 Firmware Build 5904.6",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-02-22",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108466A5627&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MotiFlex e180 Firmware Build 5904.6",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-02-22",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108466A5628&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "DCS550B Firmware V 21.234 for CON-2",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-10-27",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108466A0815&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "NETA-21 Remote monitoring tool firmware 3.30. Update to 3.30.0.0.",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-07-05",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108467A0928&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex e190 Firmware Build 5903.4",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-04-20",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A1283&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MotiFlex e180 Firmware Build 5903.4",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-04-20",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A1282&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MotiFlex e180 Firmware Build 5901.3",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2019-11-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107680A0329&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex e190 Firmware Build 5901.3",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2019-11-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107680A0330&LanguageCode=en&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "NextMove e100 Firmware Build 5900.3",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2019-04-08",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107492A2396&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex e190 Firmware Build 5902.6",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2020-09-08",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107991A1268&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MotiFlex e180 Firmware Build 5902.6",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2020-11-10",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107991A4491&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex e190 Firmware Build 5900.4.0",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2019-04-29",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107492A3026&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MicroFlex e150 Firmware Build 5869.10.0",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2020-06-11",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107680A7953&LanguageCode=en&LanguageCode=zh&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "MotiFlex e180 Firmware Build 5900.4.0",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2019-04-29",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107492A3027&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Yocto-Meteo Sensor support IPS package 1.0-r23.1",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2021-10-21",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108466A0092&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Yocto-Meteo Sensor support IPS package 1.0-r22.1",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2019-12-20",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107680A1347&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "RCNA-01 ControlNet Adapter's EDS files for DC Drives",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2011-07-05",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADT402959R&LanguageCode=en&DocumentPartId=2&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "RETA-01 Ethernet Adapter's EDS files for DC Drives",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2011-07-05",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADT402959R&LanguageCode=en&DocumentPartId=3&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "SHA-512 checksum summary for ACS580, ACH580, ACQ580,  ACS480, ACH480, ACS380,  ACS560, ACS530, ACH531,  ACQ531, ACS180, ACQ80",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2022-06-08",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3AXD10001515758&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "RDNA-01 DeviceNet Adapter's EDS files for DC Drives",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2014-09-17",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADT402959R&LanguageCode=en&DocumentPartId=1&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "DCS800&nbsp;Winder&nbsp;Description Indirect Tension Control Package , US",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2014-05-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADW000308&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "RSLOGIX 500 Ethernet/IP Sample Program for MicroLogix Controllers",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2011-11-21",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=LVD-EOSR02U-EN&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "RSLOGIX 500 Ethernet/IP Sample Program for SLC500 system",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2011-11-21",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=LVD-EOSR04U-EN&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "RSLOGIX 500 Modbus RTU Sample Program for MicroLogix Controllers",
+      "product_type": "Frequenzumrichter und Stromrichter ",
+      "version": null,
+      "release_date": "2011-11-21",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=LVD-EOSR03U-EN&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware - CoresenseM10| Firmware revision: 3.966J | USB Update",
+      "product_type": "Mess- und Analysentechnik ",
+      "version": null,
+      "release_date": "2020-12-10",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=FW%2fCoresenseM10%2fUSB_3.966J&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware - CoresenseHM | Firmware revision: 3.966J | USB Update",
+      "product_type": "Mess- und Analysentechnik ",
+      "version": null,
+      "release_date": "2020-12-10",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=FW%2fCoresenseHM%2fUSB_3.966J&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware - CoresenseM10| Firmware revision: 3.966J | Web Update",
+      "product_type": "Mess- und Analysentechnik ",
+      "version": null,
+      "release_date": "2020-12-10",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=FW%2fCoresenseM10%2fWEB_3.966J&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Software - ARR600 configuration profile | PC to ARR600",
+      "product_type": "Mess- und Analysentechnik ",
+      "version": null,
+      "release_date": "2018-09-17",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A6959&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Software - ARR600 configuration profile | ARR600 to slave device",
+      "product_type": "Mess- und Analysentechnik ",
+      "version": null,
+      "release_date": "2018-09-17",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A6960&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "- Firmware update release 1.4.0 for SSC600 FP4",
+      "product_type": "Mittelspannungsprodukte &amp; Systeme ",
+      "version": null,
+      "release_date": "2022-12-19",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=SSC600FW&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "TCC600 Firmware",
+      "product_type": "Mittelspannungsprodukte &amp; Systeme ",
+      "version": null,
+      "release_date": "2017-03-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK106930A8114&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "WiACT - Setup - 1.0 (for firmware less 1.3) Software",
+      "product_type": "Mittelspannungsprodukte &amp; Systeme ",
+      "version": null,
+      "release_date": "2021-02-05",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1YSA160103&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "WiACT - Setup - 1.3 (for firmware higher 1.3) Software",
+      "product_type": "Mittelspannungsprodukte &amp; Systeme ",
+      "version": null,
+      "release_date": "2021-02-05",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1YSA160103-1&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "DPU2000R CPU V6.14 firmware",
+      "product_type": "Mittelspannungsprodukte &amp; Systeme ",
+      "version": null,
+      "release_date": "2009-08-13",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK104295D6800&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "DPU2000R CPU V5.35 firmware",
+      "product_type": "Mittelspannungsprodukte &amp; Systeme ",
+      "version": null,
+      "release_date": "2004-03-29",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=DPU_5_34_3&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Product Software Bulletin - WinRCP V1.22",
+      "product_type": "Mittelspannungsprodukte &amp; Systeme ",
+      "version": null,
+      "release_date": "2005-02-15",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=PSB_WINRCP_V1.22.pdf&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "ABB Ability™ Smart Sensor. Leitfaden: Aktivieren und Hinzufügen von Sensoren",
+      "product_type": "Motoren und Generatoren ",
+      "version": null,
+      "release_date": "2020-10-21",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107991A3471&LanguageCode=de&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Smart Sensor - Sensor Activation",
+      "product_type": "Motoren und Generatoren ",
+      "version": null,
+      "release_date": "2018-11-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A5706&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.TAR) [XX] ST/U10.x.1(1)-8xx",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2022-10-21",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108467A1126&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [XX] SAP/S.3, SAP/S.13, SAP-S-3-US",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2022-12-14",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A9010&LanguageCode=cs&LanguageCode=da&LanguageCode=de&LanguageCode=el&LanguageCode=en&LanguageCode=es&LanguageCode=fi&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=no&LanguageCode=pl&LanguageCode=pt&LanguageCode=ru&LanguageCode=sv&LanguageCode=tr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [XX] RT/U30.0.1(1)-8xx",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2022-01-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107991A5065&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware [EN] UD/S4.210.2.xx",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-10-19",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000292E2217&LanguageCode=de&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware [xx] UD/S4.315.2.1",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-10-19",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000192E2242&LanguageCode=de&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [XX] 6136/07-XXX-(500)",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-10-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000292E1373&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware [xx] UD/S2.315.2.xx",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-10-19",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000192E2241&LanguageCode=de&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware [DE] UD/S6.210.2.xx",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-10-19",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000292E2224&LanguageCode=de&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 6200 AP, 6200 AP-101, SAP-S-2",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2022-12-14",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A9042&LanguageCode=cs&LanguageCode=da&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=et&LanguageCode=fi&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=no&LanguageCode=pl&LanguageCode=pt&LanguageCode=ru&LanguageCode=tr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUCAB) [DE] TB/U1x",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A0832&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUCAB) [DE] TA/Ux",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A0990&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUCAB) [DE] TB/U6x",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A0840&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUCAB) [DE] TB/U4x",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A0838&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUCAB) [DE] TB/U2x",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A0837&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUCAB) [DE] TB/U12x",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A0835&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUCAB) [DE] TR/Ux",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A0992&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUCAB) [DE] TBR/U4x",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A0991&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=pl&LanguageCode=ru&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.HEX) 1516/LPxxxx",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-01-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK2017-106729&LanguageCode=da&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fi&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=no&LanguageCode=pl&LanguageCode=pt&LanguageCode=ru&LanguageCode=sv&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] SAP_S_3, SAP_S_13, SAP_S_US",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-07-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000292E2023&LanguageCode=cs&LanguageCode=da&LanguageCode=de&LanguageCode=el&LanguageCode=en&LanguageCode=es&LanguageCode=fi&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=no&LanguageCode=pl&LanguageCode=pt&LanguageCode=ru&LanguageCode=sv&LanguageCode=tr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "CMS-700 - Firmware update version 1.36",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-12-22",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108466A3565&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.ZIP) [XX] IP-Gateway 83341_V1.22",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-11-29",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108466A2245&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 8136/XX-XXX(-500)",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-08-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2069&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [XX]  6226-XXX; DP4-1-XXX",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-07-24",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2112&LanguageCode=cs&LanguageCode=da&LanguageCode=de&LanguageCode=el&LanguageCode=en&LanguageCode=es&LanguageCode=fi&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=no&LanguageCode=pl&LanguageCode=pt&LanguageCode=ru&LanguageCode=sv&LanguageCode=tr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUPD) [DE] 6131/31-XXX-(500)",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-08-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2092&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUPD) [DE] 6131/21-XXX-(500)",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-08-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2090&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUPD) [DE] 6131/20-XXX-(500)",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-08-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2089&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUPD) [DE] 6131/40-24-(500)",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-08-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2093&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.FWUPD) [DE] 6131/30-XXX(-500)",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-08-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2091&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.ZIP) [XX] IP-Gateway 83342_V6.10",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-07-28",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A5762&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware Rev 1.56 (.ZIP) [DE] DP7-S-xxx / 83221 AP",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2022-01-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107991A0281&LanguageCode=de&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Installationsanleitung Firmware",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-03-06",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A0064&LanguageCode=de&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.ZIP) [XX] IP-Gateway 83342_V6.09",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-04-28",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107992A1600&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 6120/13-500",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2019-02-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2078&LanguageCode=de&LanguageCode=en&LanguageCode=et&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 6344-XXX-101-500",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2019-02-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2073&LanguageCode=de&LanguageCode=en&LanguageCode=et&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "IoT Dashboard Server Firmware (.raucb) [XX] DBS/S 1.1.1.x",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-07-06",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107680A6150&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 6108/03",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E1660&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 6200 AP, 6200 AP-101, SAP-S-2",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-07-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000292E2024&LanguageCode=cs&LanguageCode=da&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=et&LanguageCode=fi&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=no&LanguageCode=pl&LanguageCode=pt&LanguageCode=ru&LanguageCode=tr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.ZIP) IN/Sx.1",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2017-04-28",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK2017-107475&LanguageCode=da&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fi&LanguageCode=fr&LanguageCode=it&LanguageCode=nl&LanguageCode=no&LanguageCode=pl&LanguageCode=pt&LanguageCode=ru&LanguageCode=sv&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware(.KNXPROD) [xx] UD/S6.315.2.xx",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2021-10-19",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000192E2243&LanguageCode=de&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 83341-XXX",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E1649&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.ZIP) [XX] IP-Gateway 83342_V3.52",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-11-06",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107991A4354&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 6120/12-101",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2085&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 8486/41-500",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E1646&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 8186/31-101",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2081&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 6344-XXX-101",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2074&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 6131/10-XXX",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2087&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 612X/01-XX-500",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E1702&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.ZIP) [XX] IP-Gateway 83342_V6.06",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2020-10-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107680A9554&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 8136/XX-XXX",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E2068&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware (.IMG) [DE] 612X/01-XX",
+      "product_type": "Niederspannungsprodukte und Systeme ",
+      "version": null,
+      "release_date": "2018-11-01",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=2CKA000092E1704&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: BSP UN70 V1.0.808 for CP6605",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2022-09-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR011083&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: BSP UN80 V1.0.809 for CP6407, CP6410, CP6415",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2022-09-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR011082&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.2.0 for SM560-S (-XC), SM560-S-FD-1 (-XC) and SM560-S-FD-4 (-XC) including previous firmware versions",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2022-03-10",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR010180&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: BSP UN65 V1.3.717 for CP6607, CP6610, CP6615, CP6621",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2022-12-20",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR011061&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: BSP UN60 V1.0.808 for CP604, CP607, CP610",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2022-09-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR011080&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V3.4.1 HF5 for AC500 V3",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2021-12-10",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR010959&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: BSP UN65 V1.0.800 for CP6607, CP6610, CP6615, CP6621",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2022-09-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR011081&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V3.4.1 HF1 for AC500 V3",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2021-07-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR010841&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: BSP UN60 V1.3.718 for CP604, CP607, CP610, CP6407, CP6410, CP6415, CP6605",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2022-12-20",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR011060&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "FIRMWARE UPDATE, Firmware update files for AC500 Communication modules CM597-ETH or PM595-4ETH to V1.2.1.20, FW5xx-CMxxx-ETH",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2017-10-20",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R1212&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.8.4 for all AC500 V2 CPUs (memory card image)",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2021-04-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR010715&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V1.2.18.21 for AC500 communication module CM597, CM597-XC (memory card image)",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2021-04-22",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR010713&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: board support package UN30, V2.31, for CP651(-WEB)...CP676(-WEB)",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2019-06-05",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BSPCP600UN30V231&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.8.9.21 for AC500 communication modules CM579-PNIO (-XC) and PM595-4ETH (-XC)",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2020-04-28",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR010532&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: board support package UN31, V2.31, for CP620(-WEB)...CP635(-WEB), CP635-B",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2019-06-05",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BSPCP600UN31V231&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V1.11.1.20 for AC500 Communication modules CM598-CN (-XC) (1SAPx73800R0001), FW5xx-CM598-CN",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2017-03-24",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R1111&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V4.4.1.20 for AC500 Communication modules CM579-ETHCAT or PM595-4ETH to V4.4.1.20, FW5xx-CMxxx-ETHCAT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2017-06-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R4412&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V1.6.2.20 for AC500 communication modules CM589-PNIO and -4 to V1.6.2.20, FW5xx-CMxxx-PNIO",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2017-07-11",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R1622&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.8.5 for AC500 CPU V2 PM572, PM573-ETH, PM582 and PM583-ETH (also for XC products) (memory card image)",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2021-01-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=3ADR010669&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V4.3.0.2 for EtherCAT FW internal communication module from PM595 CPU",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2015-12-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R4302&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.7.2 for AC500 CPU V2 and AC500-eCo with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2018-04-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0272&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.7.0 for AC500 CPU V2 and V2.5.1/V2.5.4 for AC500-eCo with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2018-04-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0270&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.2.0 for AC500-eCo CPUs with/without onboard ETH: PM554, PM554-ETH, PM564, PM564-ETH - FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190801R0220&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "FIRMWARE UPDATE - ARCHIVFirmware update: V2.2.1 for AC500 CPUs FW V2.x (Rubric R0271 and R0201) with/without onboard ETHE, Firmware update files V2.2.1 for AC500 CPUs FW V2.x (Rubric R0271 and R0201) with/without onboard ETH",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0221&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.6.2 for AC500 CPU V2 and V2.5.1/V2.5.4 for AC500-eCo with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2017-07-21",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0262&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.1.3 for AC500 CPUs FW V2.x PM554, PM564, PM572, PM582 without onboard Ethernet , FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0213_B&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.4.4 for AC500 and AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2015-05-13",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0244&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.5.1 for AC500 and AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2016-01-22",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0251&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.4.2 for AC500 and AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2015-02-04",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0242&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.3.3 for AC500 and AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2014-03-07",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0233&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.5.3 for AC500 and V2.5.1 for AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2016-11-29",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0253&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V1.4.2 for AC500 CLASSIC CPUs PM571, PM581, PM582 and V1.4.5 for PM590, PM591with/without ETH, FW5xx-UPDT,",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R014x&LanguageCode=de&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.5.2 for AC500 and V2.5.1 for AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2016-04-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0252&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: files for AC500 Communication modules CM579-ETHCAT V2.6.4.0 (1SAP170902R0001) only usable with Control Builder Plus from V2.1.x, FW5xx-CM5xx",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R0202&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.6.9 for AC500 Communication modules CM579-ETHCAT (1SAP170902R0001) USABLE WITH Automation Builder from V1.0.1 or CBP from V2.3.x, FW5xx-CM5xx",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2014-02-28",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R0269&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.3.2 for AC500 and AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC (eXtreme Conditions products),FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2014-01-15",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0232&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.5.4 for AC500/AC500-eCo with Ethernet and V2.5.1 for AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC products, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2017-02-17",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0254&LanguageCode=de&LanguageCode=en&LanguageCode=es&LanguageCode=fr&LanguageCode=zh&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V1.2.2 for AC500 CPUs and couplers, PM571, PM581, PM582, PM590, PM591with/without ETH/ARCNET, CM572, CM575, CM577, CM578, FW5xx-UPDT,",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0122&LanguageCode=de&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V1.2.4 for AC500 CPUs and couplers, PM571, PM581, PM582, PM590, PM591 with/without ETH/ARCNET, CM572, CM575, CM577, CM578, FW5xx-UPDT,",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0124&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.1.3 for AC500 communication modules CM574-RS/CM574-RCOM (1SAP17040xR0201) only used with AC500 CPU rubrics (R02xx) AND from FW version V2.0.x, FW5xx-CM574",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R0213&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V1.3.2 / V1.3.4 for AC500 and AC500-eCo CPUs and couplers: PM55x, PM56x and PM57x, PM58x, PM59x with/without ETH/ARCNET, CM572, CM574, CM575, CM577, CM578",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0132&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: files for AC500 communication modules CM577-ETH V01.100, CM579-ETHCAT V2.3.703 and AC500 ethernet CPUs V01.100 with integrated ethernet coupler (R0170 or R0270), FW5xx-CM5xx",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R0201&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.4.2 and RCOM FW V7 for AC500 Communication modules CM574-RS/CM574-RCOM (1SAP17040xR0201) ONLY USED with AC500 CPU rubrics (R02xx) AND from FW version V2.0.x, FW5xx-CM574",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2015-05-13",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R0242&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.3.0 and RCOM FW V7 for AC500 Communication modules CM574-RS/CM574-RCOM (1SAP17040xR0201) ONLY USED with AC500 CPU rubrics (R02xx) AND from FW version V2.0.x, FW5xx-CM574",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-12-18",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R0230&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.1.9 for AC500-eCo CPUs from FW V2.x PM554(-ETH) or PM564(-ETH) and AC500 CPUs FW V2.x (Rubric R0271 and R0201) with/without onboard ETH",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0219&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.2.0 and RCOM FW V7 for AC500 Communication modules CM574-RS/CM574-RCOM (1SAP17040xR0201) ONLY USED with AC500 CPU rubrics (R02xx) AND from FW version V2.0.x, FW5xx-CM574",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R0220&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: AC500 Fieldbus Communication modules CM572-DP V01.097 for PROFIBUS-DP, CM575-DN V01.109 for DeviceNet and CM578-CN V01.101 for CANopen - also valid for XC versions for eXtreme Conditions, FW5xx-CM5xx",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP192000R0205&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.1.5 for AC500 CPUs FW V2.x (Rubric R0271) with onboard ETH: PM554-ETH, PM564-ETH, PM573-ETH, PM583-ETH, PM590-ETH, PM591-ETH and PM592-ETH also for XC (eXtreme Conditions products), FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0215&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.2.0 for AC500 CPUs FW V2.x (Rubric R0271 and R0201) with/without onboard ETH: PM572, PM573-ETH, PM582, PM583-ETH, PM590-ETH, PM591-ETH and PM592-ETH also for XC (eXtreme Conditions products), FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0220&LanguageCode=de&LanguageCode=en&LanguageCode=fr&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Firmware update: V2.3.0 for AC500 and AC500-eCo CPUs FW V2.x with/without onboard ETH also for XC (eXtreme Conditions products), To be mandatory used with AC500-S safety controller, FW5xx-UPDT",
+      "product_type": "PLC Automation ",
+      "version": null,
+      "release_date": "2013-11-12",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=1SAP190800R0230&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Harmony NCC operating firmware revision A_4",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-09-17",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=NCC_A4_firmware&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "BRC100 firmware revision F_2 for Composer",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BRC100F2C&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "BRC100 firmware revision F_1 for Wintools",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BRC100F1W&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "BRC100 firmware revision F_2 for Wintools",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BRC100F2W&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "BRC100 firmware revision F_1 for Composer",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BRC100F1C&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "BRC100 firmware revision F_4 for Composer",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BRC100F4C&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "BRC100 firmware revision F_4 for Wintools",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BRC100F4W&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "BRC100 firmware revision E_0 for Composer",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BRC100E0C&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "BRC100 firmware revision E_0 for Wintools",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BRC100E0W&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Harmony NCC boot firmware A_1 ( Af)",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-09-17",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=NCC_Af_boot&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Harmony Block firmware revision E_1 for Composer",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BLKE1C&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Harmony Block firmware revision E_0 for Wintools",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BLKE0W&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Harmony Block firmware revision F_0 for Wintools",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BLKF0W&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Harmony Block firmware revision F_0 for Composer",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BLKF0C&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Harmony Block firmware revision E_1 for Wintools",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BLKE1W&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "Harmony Block firmware revision E_0 for Composer",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-02-09",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=BLKE0C&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "ProduceIT 1.2 SP4b Release Notes",
+      "product_type": "Prozessleitsysteme ",
+      "version": null,
+      "release_date": "2003-08-25",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=ProduceIT%201.2%20SP4b%20Release%20Notes&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "IRB14000 Gripper Software v3.56",
+      "product_type": "Robotertechnik ",
+      "version": null,
+      "release_date": "2019-08-05",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107492A6781&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "IRB14000 Gripper Software v3.55",
+      "product_type": "Robotertechnik ",
+      "version": null,
+      "release_date": "2019-01-30",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A9281&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "IRB14000 Gripper Software v3.54",
+      "product_type": "Robotertechnik ",
+      "version": null,
+      "release_date": "2018-07-02",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A4445&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "IRB14000 Gripper Software v3.53",
+      "product_type": "Robotertechnik ",
+      "version": null,
+      "release_date": "2017-10-26",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK107045A5668&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "IRB14000 Gripper Software v3.4",
+      "product_type": "Robotertechnik ",
+      "version": null,
+      "release_date": "2016-10-28",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK106930A2650&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "IRB14000 Gripper Software v3.52",
+      "product_type": "Robotertechnik ",
+      "version": null,
+      "release_date": "2017-01-23",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK106930A5516&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "ABB",
+      "product_name": "IRB14000 Gripper Software v3.2",
+      "product_type": "Robotertechnik ",
+      "version": null,
+      "release_date": "2016-06-16",
+      "download_link": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK10103A2296&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "checksum_scraped": null,
+      "additional_data": {}
+    }
+  ]

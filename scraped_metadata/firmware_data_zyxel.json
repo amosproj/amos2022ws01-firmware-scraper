@@ -1,0 +1,3272 @@
+[
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "USG2200",
+      "product_type": "Next-Gen Firewall",
+      "version": "4.73(ABAE.0)C0",
+      "release_date": "2022-12-01",
+      "download_link": "https://portal.myzyxel.com/my/firmwares?fw_version=4.73(ABAE.0)C0&model=USG2200",
+      "checksum_scraped": "SHA1: AF2B3722917CA3ABA36F03776C29A6A78E33FA8F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "USG2200",
+      "product_type": "Next-Gen Firewall",
+      "version": "4.72(ABAE.0)C0",
+      "release_date": "2022-12-18",
+      "download_link": "https://portal.myzyxel.com/my/firmwares?fw_version=4.72(ABAE.0)C0&model=USG2200",
+      "checksum_scraped": "SHA1: E80F4F1CDAB377A4869C4901AC913A6B91368E36",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "USG2200",
+      "product_type": "Next-Gen Firewall",
+      "version": "4.71(ABAE.0)C0",
+      "release_date": "2022-12-01",
+      "download_link": "https://portal.myzyxel.com/my/firmwares?fw_version=4.71(ABAE.0)C0&model=USG2200",
+      "checksum_scraped": "SHA1: CE8ADC977B4AF260131552ADBF9DF308033D3EEA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "USG2200-VPN",
+      "product_type": "VPN Firewall",
+      "version": "4.31(ABAE.0)C0",
+      "release_date": "2018-04-18",
+      "download_link": "https://portal.myzyxel.com/my/firmwares?fw_version=4.31(ABAE.0)C0&model=USG2200-VPN",
+      "checksum_scraped": "SHA1: 42C47B20CF584C4B71C91378690DF03A952312F8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "USG2200-VPN",
+      "product_type": "VPN Firewall",
+      "version": "4.30(ABAE.0)C0",
+      "release_date": "2017-12-11",
+      "download_link": "https://portal.myzyxel.com/my/firmwares?fw_version=4.30(ABAE.0)C0&model=USG2200-VPN",
+      "checksum_scraped": "SHA1: 9C56C4C7123C1B8CE76CD104D5DCA63F98235B6E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "USG2200-VPN",
+      "product_type": "VPN Firewall",
+      "version": "4.25(ABAE.1)C0",
+      "release_date": "2017-12-27",
+      "download_link": "https://portal.myzyxel.com/my/firmwares?fw_version=4.25(ABAE.1)C0&model=USG2200-VPN",
+      "checksum_scraped": "SHA1: 52786B37B4FF783E5B57020F4A603C67550EA02A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS3800-28",
+      "product_type": "Switch",
+      "version": "4.80(ABML.1)C0",
+      "release_date": "2022-11-14",
+      "download_link": "https://download.zyxel.com/XS3800-28/firmware/XS3800-28_4.80(ABML.1)C0.zip",
+      "checksum_scraped": "SHA1: E78213B22BF1325D8BA482E387BFDDB93B451D62",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS3800-28",
+      "product_type": "Switch",
+      "version": "4.80(ABML.0)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/XS3800-28/firmware/XS3800-28_4.80(ABML.0)C0.zip",
+      "checksum_scraped": "SHA1: C0827D1378E0BFCFA5114937C99152224165FA58",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS3800-28",
+      "product_type": "Switch",
+      "version": "4.70(ABML.1)C0",
+      "release_date": "2021-04-08",
+      "download_link": "https://download.zyxel.com/XS3800-28/firmware/XS3800-28_4.70(ABML.1)C0.zip",
+      "checksum_scraped": "SHA1: F457ADC4184D1BEEF31B48611D6D90E8ADB7EA62",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "RGS200-12P",
+      "product_type": "Switch",
+      "version": "1.00(ABEP.1)C0",
+      "release_date": "2019-12-23",
+      "download_link": "https://download.zyxel.com/RGS200-12P/firmware/RGS200-12P_1.00(ABEP.1)C0.zip",
+      "checksum_scraped": "SHA1: 71D1DCBD439F7CE20BA2D5CCD7E88E6054CABC93",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "RGS200-12P",
+      "product_type": "Switch",
+      "version": "1.00(ABEP.0)C0",
+      "release_date": "2016-11-17",
+      "download_link": "https://download.zyxel.com/RGS200-12P/firmware/RGS200-12P_1.00(ABEP.0)C0.zip",
+      "checksum_scraped": "SHA1: 1A90F2574FA955231FDE13437AF3431A8602DC2D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1250-12",
+      "product_type": "Switch",
+      "version": "V1.00(ABWE.2)C0",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.zyxel.com/XGS1250-12/firmware/XGS1250-12_V1.00(ABWE.2)C0.zip",
+      "checksum_scraped": "SHA1: 85A026D88AAA41D7D9082699647287A885AA0BD7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1250-12",
+      "product_type": "Switch",
+      "version": "V1.00(ABWE.1)C0",
+      "release_date": "2022-01-04",
+      "download_link": "https://download.zyxel.com/XGS1250-12/firmware/XGS1250-12_V1.00(ABWE.1)C0.zip",
+      "checksum_scraped": "SHA1: 99CF9969A816E5A9FFC5AE51E53FCD8259FEA543",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1250-12",
+      "product_type": "Switch",
+      "version": "V1.00(ABWE.0)C0",
+      "release_date": "2021-12-18",
+      "download_link": "https://download.zyxel.com/XGS1250-12/firmware/XGS1250-12_V1.00(ABWE.0)C0.zip",
+      "checksum_scraped": "SHA1: 465F29F86DF10D779ABBB7B5D873D9C0EA1B19B6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1210-12",
+      "product_type": "Switch",
+      "version": "V1.00(ABTY.6)C0",
+      "release_date": "2022-12-17",
+      "download_link": "https://download.zyxel.com/XGS1210-12/firmware/XGS1210-12_V1.00(ABTY.6)C0.zip",
+      "checksum_scraped": "SHA1: F6D3AEA962387C26D5D89E9319BF55C2A493D728",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1210-12",
+      "product_type": "Switch",
+      "version": "V1.00(ABTY.5)C0",
+      "release_date": "2022-01-04",
+      "download_link": "https://download.zyxel.com/XGS1210-12/firmware/XGS1210-12_V1.00(ABTY.5)C0.zip",
+      "checksum_scraped": "SHA1: 296670DB2E6B33251B5B7BE091B5450FFE2655C7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1210-12",
+      "product_type": "Switch",
+      "version": "V1.00(ABTY.4)C0",
+      "release_date": "2021-12-28",
+      "download_link": "https://download.zyxel.com/XGS1210-12/firmware/XGS1210-12_V1.00(ABTY.4)C0.zip",
+      "checksum_scraped": "SHA1: A97F3441EA681D6E9CE9769F55713A231149D957",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGN100C",
+      "product_type": "Switch",
+      "version": "XGN100C_Windows driver_2.1.18.20.0330",
+      "release_date": "2020-12-14",
+      "download_link": "https://download.zyxel.com/XGN100C/driver/XGN100C_XGN100C_Windows%20driver_2.1.18.20.0330.zip",
+      "checksum_scraped": "SHA1: 8D39CC32969A70F7F60DAFBF28B597A5301145B2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGN100C",
+      "product_type": "Switch",
+      "version": "XGN100C_Linux driver_2.0.15.20.0330",
+      "release_date": "2020-12-14",
+      "download_link": "https://download.zyxel.com/XGN100C/driver/XGN100C_XGN100C_Linux%20driver_2.0.15.20.0330.zip",
+      "checksum_scraped": "SHA1: 0DD9C3A72227C9446F248A86C180AA23C9093534",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGN100F",
+      "product_type": "Switch",
+      "version": "XGN100F_Windows driver_2.1.17.20.0325",
+      "release_date": "2020-12-14",
+      "download_link": "https://download.zyxel.com/XGN100F/driver/XGN100F_XGN100F_Windows%20driver_2.1.17.20.0325.zip",
+      "checksum_scraped": "SHA1: 5134C4CC6AADE014B219A8D1E2CA59936D7046B0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGN100F",
+      "product_type": "Switch",
+      "version": "XGN100F_Linuxdriver_2.3.4.20.0325",
+      "release_date": "2020-12-13",
+      "download_link": "https://download.zyxel.com/XGN100F/driver/XGN100F_XGN100F_Linuxdriver_2.3.4.20.0325.zip",
+      "checksum_scraped": "SHA1: 26E295CFD0432862951E6F641D9B402ED02FCE7D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX655E",
+      "product_type": "Wireless",
+      "version": "6.45(ACDO.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/WAX655E/firmware/WAX655E_6.45(ACDO.0)C0.zip",
+      "checksum_scraped": "SHA1: EFDBB50089CC759CC77408CDEA2FCD7F8721F322",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX640S-6E",
+      "product_type": "Wireless",
+      "version": "6.45(ACCM.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/WAX640S-6E/firmware/WAX640S-6E_6.45(ACCM.0)C0.zip",
+      "checksum_scraped": "SHA1: 0A04621F97B78679F5A64846AE71EA383799D110",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX640S-6E",
+      "product_type": "Wireless",
+      "version": "6.40(ACCM.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/WAX640S-6E/firmware/WAX640S-6E_6.40(ACCM.6)C0.zip",
+      "checksum_scraped": "SHA1: F008C106AF3EE5A489524C0FE09F5F66F0B6A3DF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX620D-6E",
+      "product_type": "Wireless",
+      "version": "6.45(ACCN.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/WAX620D-6E/firmware/WAX620D-6E_6.45(ACCN.0)C0.zip",
+      "checksum_scraped": "SHA1: 61A491719426FD1B2DD9466E38AA363C57ACB81C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX620D-6E",
+      "product_type": "Wireless",
+      "version": "6.40(ACCN.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/WAX620D-6E/firmware/WAX620D-6E_6.40(ACCN.6)C0.zip",
+      "checksum_scraped": "SHA1: CB64A35C23B3C989590D11DF9A66D11B2D2EDE09",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX650S",
+      "product_type": "Wireless",
+      "version": "6.45(ABRM.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/WAX650S/firmware/WAX650S_6.45(ABRM.0)C0.zip",
+      "checksum_scraped": "SHA1: BB23DF0FDDE14045CE50AE9D71BE0AA389D00C3F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX650S",
+      "product_type": "Wireless",
+      "version": "6.40(ABRM.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/WAX650S/firmware/WAX650S_6.40(ABRM.6)C0.zip",
+      "checksum_scraped": "SHA1: 2DDAE526B14901F631CF2396424C7FB3D4CC5CD7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX650S",
+      "product_type": "Wireless",
+      "version": "6.30(ABRM.4)C0",
+      "release_date": "2022-12-06",
+      "download_link": "https://download.zyxel.com/WAX650S/firmware/WAX650S_6.30(ABRM.4)C0.zip",
+      "checksum_scraped": "SHA1: 89C415EDD6809E942DC9E23DDE7ED381905E2CA1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX630S",
+      "product_type": "Wireless",
+      "version": "6.45(ABZD.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/WAX630S/firmware/WAX630S_6.45(ABZD.0)C0.zip",
+      "checksum_scraped": "SHA1: C48006D65CB5F70D2E75ACB67B1981F17B9E29B2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX630S",
+      "product_type": "Wireless",
+      "version": "6.40(ABZD.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/WAX630S/firmware/WAX630S_6.40(ABZD.6)C0.zip",
+      "checksum_scraped": "SHA1: 2FEBDD78835A824E00D68DA9F8B4509FB72A37C9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX630S",
+      "product_type": "Wireless",
+      "version": "6.30(ABZD.4)C0",
+      "release_date": "2022-12-06",
+      "download_link": "https://download.zyxel.com/WAX630S/firmware/WAX630S_6.30(ABZD.4)C0.zip",
+      "checksum_scraped": "SHA1: 40E467AE34C7DA1344E59F03CB1C7F1FA10AFCBE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX610D",
+      "product_type": "Wireless",
+      "version": "6.45(ABTE.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/WAX610D/firmware/WAX610D_6.45(ABTE.0)C0.zip",
+      "checksum_scraped": "SHA1: D876CAB4EA848E4EDAE7C0F8B2FDE7C3BE62AC5F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX610D",
+      "product_type": "Wireless",
+      "version": "6.40(ABTE.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/WAX610D/firmware/WAX610D_6.40(ABTE.6)C0.zip",
+      "checksum_scraped": "SHA1: FAE9978DC0DD52B1C3B79036F785089B1FA05AAC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX610D",
+      "product_type": "Wireless",
+      "version": "6.30(ABTE.4)C0",
+      "release_date": "2022-12-06",
+      "download_link": "https://download.zyxel.com/WAX610D/firmware/WAX610D_6.30(ABTE.4)C0.zip",
+      "checksum_scraped": "SHA1: 8D6873B8AC3F21909EC10683CD40107E05074E68",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC6303D-S",
+      "product_type": "Wireless",
+      "version": "6.25(ABGL.9)C0",
+      "release_date": "2022-04-08",
+      "download_link": "https://download.zyxel.com/WAC6303D-S/firmware/WAC6303D-S_6.25(ABGL.9)C0.zip",
+      "checksum_scraped": "SHA1: 6DE7F9A9E6FBB1081516BE1BA2241E1DD6F231B5",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC6303D-S",
+      "product_type": "Wireless",
+      "version": "6.25(ABGL.6)C0",
+      "release_date": "2022-12-09",
+      "download_link": "https://download.zyxel.com/WAC6303D-S/firmware/WAC6303D-S_6.25(ABGL.6)C0.zip",
+      "checksum_scraped": "SHA1: 3F551A5495C87039CEA8972EC1911E562A8B760E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC6303D-S",
+      "product_type": "Wireless",
+      "version": "6.25(ABGL.4)C0",
+      "release_date": "2021-12-13",
+      "download_link": "https://download.zyxel.com/WAC6303D-S/firmware/WAC6303D-S_6.25(ABGL.4)C0.zip",
+      "checksum_scraped": "SHA1: CD4F236410AE606A767F252598472E8E55DB6184",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX510D",
+      "product_type": "Wireless",
+      "version": "6.45(ABTF.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/WAX510D/firmware/WAX510D_6.45(ABTF.0)C0.zip",
+      "checksum_scraped": "SHA1: D1C11A2E1F9C2DAF7D45142D3EA41F95F7A18C6D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX510D",
+      "product_type": "Wireless",
+      "version": "6.40(ABTF.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/WAX510D/firmware/WAX510D_6.40(ABTF.6)C0.zip",
+      "checksum_scraped": "SHA1: 39F612CB3BF1F9D5C4E24CDB6BD182B047570A46",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAX510D",
+      "product_type": "Wireless",
+      "version": "6.30(ABTF.4)C0",
+      "release_date": "2022-12-06",
+      "download_link": "https://download.zyxel.com/WAX510D/firmware/WAX510D_6.30(ABTF.4)C0.zip",
+      "checksum_scraped": "SHA1: 366603C29240BEB427AF91472C9A7B37154F75D2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC5302D-Sv2",
+      "product_type": "Wireless",
+      "version": "6.25(ABVZ.9)C0",
+      "release_date": "2022-04-08",
+      "download_link": "https://download.zyxel.com/WAC5302D-Sv2/firmware/WAC5302D-Sv2_6.25(ABVZ.9)C0.zip",
+      "checksum_scraped": "SHA1: 7C0ABCF101883CE730CA60CB16BAC8E490669FCA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC5302D-Sv2",
+      "product_type": "Wireless",
+      "version": "6.25(ABVZ.6)C0",
+      "release_date": "2022-12-09",
+      "download_link": "https://download.zyxel.com/WAC5302D-Sv2/firmware/WAC5302D-Sv2_6.25(ABVZ.6)C0.zip",
+      "checksum_scraped": "SHA1: 31F748CDAA216C076F8B77A9813E3955F0A94901",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC5302D-Sv2",
+      "product_type": "Wireless",
+      "version": "6.25(ABVZ.4)C0",
+      "release_date": "2021-12-13",
+      "download_link": "https://download.zyxel.com/WAC5302D-Sv2/firmware/WAC5302D-Sv2_6.25(ABVZ.4)C0.zip",
+      "checksum_scraped": "SHA1: DB4CBCA6AD7CC55AE1BC2AE531A1CA7D4DB43E39",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC500H",
+      "product_type": "Wireless",
+      "version": "6.45(ABWA.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/WAC500H/firmware/WAC500H_6.45(ABWA.0)C0.zip",
+      "checksum_scraped": "SHA1: AF6EF87904CB580F24F86783FD5192BF89F07D95",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC500H",
+      "product_type": "Wireless",
+      "version": "6.40(ABWA.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/WAC500H/firmware/WAC500H_6.40(ABWA.6)C0.zip",
+      "checksum_scraped": "SHA1: A92BF86BC41E7817266DA989CA9B3F32749B3220",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAC500H",
+      "product_type": "Wireless",
+      "version": "6.30(ABWA.3)C0",
+      "release_date": "2022-04-08",
+      "download_link": "https://download.zyxel.com/WAC500H/firmware/WAC500H_6.30(ABWA.3)C0.zip",
+      "checksum_scraped": "SHA1: 9C1E40357300EFE7646F809F17B6E6EA7A0C63BC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA220AX-6E",
+      "product_type": "Wireless",
+      "version": "6.45(ACCO.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/NWA220AX-6E/firmware/NWA220AX-6E_6.45(ACCO.0)C0.zip",
+      "checksum_scraped": "SHA1: 1F3375A86DDA2D1899B0D6C5DB0194F6D27529E8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA220AX-6E",
+      "product_type": "Wireless",
+      "version": "6.40(ACCO.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/NWA220AX-6E/firmware/NWA220AX-6E_6.40(ACCO.6)C0.zip",
+      "checksum_scraped": "SHA1: 78628C3BB8DD2355BA18C6A87A351D76426A1698",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA1123ACv3",
+      "product_type": "Wireless",
+      "version": "6.45(ABVT.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/NWA1123ACv3/firmware/NWA1123ACv3_6.45(ABVT.0)C0.zip",
+      "checksum_scraped": "SHA1: 801A6E0BB1C690EA1F9DD3B1B18643DC7CA9E85B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA1123ACv3",
+      "product_type": "Wireless",
+      "version": "6.40(ABVT.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/NWA1123ACv3/firmware/NWA1123ACv3_6.40(ABVT.6)C0.zip",
+      "checksum_scraped": "SHA1: C9ABD481DD5061AA0F566C55AF3C0DF72134CF0B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA1123ACv3",
+      "product_type": "Wireless",
+      "version": "6.30(ABVT.3)C0",
+      "release_date": "2022-04-08",
+      "download_link": "https://download.zyxel.com/NWA1123ACv3/firmware/NWA1123ACv3_6.30(ABVT.3)C0.zip",
+      "checksum_scraped": "SHA1: 9C22990312F8D3C86E291DC6F49A2965D252F308",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA210AX",
+      "product_type": "Wireless",
+      "version": "6.45(ABTD.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/NWA210AX/firmware/NWA210AX_6.45(ABTD.0)C0.zip",
+      "checksum_scraped": "SHA1: D745B902F2B4B89AE38C11D381D6E39B92E00FD9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA210AX",
+      "product_type": "Wireless",
+      "version": "6.40(ABTD.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/NWA210AX/firmware/NWA210AX_6.40(ABTD.6)C0.zip",
+      "checksum_scraped": "SHA1: 3CD86DF60396C118626402A06CB3AC8E7A55B90B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA210AX",
+      "product_type": "Wireless",
+      "version": "6.30(ABTD.4)C0",
+      "release_date": "2022-12-06",
+      "download_link": "https://download.zyxel.com/NWA210AX/firmware/NWA210AX_6.30(ABTD.4)C0.zip",
+      "checksum_scraped": "SHA1: 1058263A7B10863C776A7E500026B8CA3D0664E2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA110AX",
+      "product_type": "Wireless",
+      "version": "6.45(ABTG.0)C0",
+      "release_date": "2022-11-02",
+      "download_link": "https://download.zyxel.com/NWA110AX/firmware/NWA110AX_6.45(ABTG.0)C0.zip",
+      "checksum_scraped": "SHA1: F6F7EE8DBBD2285E9047804E1EF327355C8240CE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA110AX",
+      "product_type": "Wireless",
+      "version": "6.40(ABTG.6)C0",
+      "release_date": "2022-12-27",
+      "download_link": "https://download.zyxel.com/NWA110AX/firmware/NWA110AX_6.40(ABTG.6)C0.zip",
+      "checksum_scraped": "SHA1: 73464361C5A33E37331001B3B2C9CB016927BE3D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA110AX",
+      "product_type": "Wireless",
+      "version": "6.30(ABTG.4)C0",
+      "release_date": "2022-12-06",
+      "download_link": "https://download.zyxel.com/NWA110AX/firmware/NWA110AX_6.30(ABTG.4)C0.zip",
+      "checksum_scraped": "SHA1: 16B3F72303C582CCA0C595483106DDC707BD93CB",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA55AXE",
+      "product_type": "Wireless",
+      "version": "6.29(ABZL.1)C0",
+      "release_date": "2022-11-14",
+      "download_link": "https://download.zyxel.com/NWA55AXE/firmware/NWA55AXE_6.29(ABZL.1)C0.zip",
+      "checksum_scraped": "SHA1: 1E94B74FE22A95BAE70DCFE718A52BCB7B8CCCC1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA55AXE",
+      "product_type": "Wireless",
+      "version": "6.25(ABZL.10)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/NWA55AXE/firmware/NWA55AXE_6.25(ABZL.10)C0.zip",
+      "checksum_scraped": "SHA1: 75ABBDEB87D0D81AE1B4F72B35BF7DBF0703CC66",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA55AXE",
+      "product_type": "Wireless",
+      "version": "6.25(ABZL.8)C0",
+      "release_date": "2022-04-08",
+      "download_link": "https://download.zyxel.com/NWA55AXE/firmware/NWA55AXE_6.25(ABZL.8)C0.zip",
+      "checksum_scraped": "SHA1: FD7FDA50517AD92A1953BDFA899E80E50ABFC0E0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA90AX",
+      "product_type": "Wireless",
+      "version": "6.29(ACCV.1)C0",
+      "release_date": "2022-11-14",
+      "download_link": "https://download.zyxel.com/NWA90AX/firmware/NWA90AX_6.29(ACCV.1)C0.zip",
+      "checksum_scraped": "SHA1: 82A17E663E63764DD5AC79AE71174C758D1B534F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA90AX",
+      "product_type": "Wireless",
+      "version": "6.27(ACCV.4)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/NWA90AX/firmware/NWA90AX_6.27(ACCV.4)C0.zip",
+      "checksum_scraped": "SHA1: E5156489232B2CCC18D070AB12D1F70E24B2057A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA90AX",
+      "product_type": "Wireless",
+      "version": "6.27(ACCV.3)C0",
+      "release_date": "2022-04-08",
+      "download_link": "https://download.zyxel.com/NWA90AX/firmware/NWA90AX_6.27(ACCV.3)C0.zip",
+      "checksum_scraped": "SHA1: A2ABE355484F8BE6DF74C40BC92AD4233EEA24E2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA50AX",
+      "product_type": "Wireless",
+      "version": "6.29(ABYW.1)C0",
+      "release_date": "2022-11-14",
+      "download_link": "https://download.zyxel.com/NWA50AX/firmware/NWA50AX_6.29(ABYW.1)C0.zip",
+      "checksum_scraped": "SHA1: E5E44A72A2351FFE23F99364183F362E023D1CCA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA50AX",
+      "product_type": "Wireless",
+      "version": "6.25(ABYW.10)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/NWA50AX/firmware/NWA50AX_6.25(ABYW.10)C0.zip",
+      "checksum_scraped": "SHA1: CB4019D6F5E3D8CC3F704434A825A76B519E9703",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWA50AX",
+      "product_type": "Wireless",
+      "version": "6.25(ABYW.8)C0",
+      "release_date": "2022-04-08",
+      "download_link": "https://download.zyxel.com/NWA50AX/firmware/NWA50AX_6.25(ABYW.8)C0.zip",
+      "checksum_scraped": "SHA1: 9B677922556536280623F3F718FBB65AF439234D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NXC5500",
+      "product_type": "Wireless",
+      "version": "6.10(AAOS.2)C0",
+      "release_date": "2021-02-04",
+      "download_link": "https://download.zyxel.com/NXC5500/firmware/NXC5500_6.10(AAOS.2)C0.zip",
+      "checksum_scraped": "SHA1: D5CCA086413CA0D674ED74DBA2AE4879661855DF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NXC5500",
+      "product_type": "Wireless",
+      "version": "6.10(AAOS.1)C0",
+      "release_date": "2021-01-07",
+      "download_link": "https://download.zyxel.com/NXC5500/firmware/NXC5500_6.10(AAOS.1)C0.zip",
+      "checksum_scraped": "SHA1: 68C4EC1805DF842DF3F3A4AA2E5A0432D35F57AF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NXC5500",
+      "product_type": "Wireless",
+      "version": "6.10(AAOS.0)C0",
+      "release_date": "2020-12-13",
+      "download_link": "https://download.zyxel.com/NXC5500/firmware/NXC5500_6.10(AAOS.0)C0.zip",
+      "checksum_scraped": "SHA1: 9754A244D2F3979F7EEC96144DD75E6A761AA5B7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NXC2500",
+      "product_type": "Wireless",
+      "version": "6.10(AAIG.2)C0",
+      "release_date": "2021-02-04",
+      "download_link": "https://download.zyxel.com/NXC2500/firmware/NXC2500_6.10(AAIG.2)C0.zip",
+      "checksum_scraped": "SHA1: 5FA8509A8B13B6C81B8DF96615616A259D4BB738",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NXC2500",
+      "product_type": "Wireless",
+      "version": "6.10(AAIG.1)C0",
+      "release_date": "2021-01-07",
+      "download_link": "https://download.zyxel.com/NXC2500/firmware/NXC2500_6.10(AAIG.1)C0.zip",
+      "checksum_scraped": "SHA1: 24F5B9886103FCA6763C6C1C35B476E0A1FBC72B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NXC2500",
+      "product_type": "Wireless",
+      "version": "6.10(AAIG.0)C0",
+      "release_date": "2020-12-13",
+      "download_link": "https://download.zyxel.com/NXC2500/firmware/NXC2500_6.10(AAIG.0)C0.zip",
+      "checksum_scraped": "SHA1: C0BC7B7E1FF247D60F269381FF94CFE164EC377F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NR7102",
+      "product_type": "Mobile Broadband",
+      "version": "V1.00(ABYD.2)C0",
+      "release_date": "2023-01-06",
+      "download_link": "https://download.zyxel.com/NR7102/firmware/NR7102_V1.00(ABYD.2)C0.zip",
+      "checksum_scraped": "SHA1: D36323BEC735EAB0A945C622A40827377A0609D6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE7490-M904",
+      "product_type": "Mobile Broadband",
+      "version": "V1.00(ABQY.5)C0",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.zyxel.com/LTE7490-M904/firmware/LTE7490-M904_V1.00(ABQY.5)C0.zip",
+      "checksum_scraped": "SHA1: D0EAFEDC1AFCA9C472C5EC2D289919066A9B85B1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE7490-M904",
+      "product_type": "Mobile Broadband",
+      "version": "V1.00(ABQY.4)C0",
+      "release_date": "2022-12-26",
+      "download_link": "https://download.zyxel.com/LTE7490-M904/firmware/LTE7490-M904_V1.00(ABQY.4)C0.zip",
+      "checksum_scraped": "SHA1: 23E71D7D09058580E0E3DFA63C84185AE8444A26",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE7490-M904",
+      "product_type": "Mobile Broadband",
+      "version": "V1.00(ABQY.3)C0",
+      "release_date": "2022-04-20",
+      "download_link": "https://download.zyxel.com/LTE7490-M904/firmware/LTE7490-M904_V1.00(ABQY.3)C0.zip",
+      "checksum_scraped": "SHA1: 2266519009313F61399373ECC85168D881F91D37",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE7240-M403",
+      "product_type": "Mobile Broadband",
+      "version": "V2.00(ABMG.5)C0",
+      "release_date": "2022-11-07",
+      "download_link": "https://download.zyxel.com/LTE7240-M403/firmware/LTE7240-M403_V2.00(ABMG.5)C0.zip",
+      "checksum_scraped": "SHA1: C131B45EC5D19A787FA70058F0C307D951A44A64",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE7240-M403",
+      "product_type": "Mobile Broadband",
+      "version": "V2.00(ABMG.4)C0",
+      "release_date": "2021-12-06",
+      "download_link": "https://download.zyxel.com/LTE7240-M403/firmware/LTE7240-M403_V2.00(ABMG.4)C0.zip",
+      "checksum_scraped": "SHA1: D0717ECBD9097A9ECFC31A3BDB6645D37A91AA96",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE7240-M403",
+      "product_type": "Mobile Broadband",
+      "version": "V2.00(ABMG.2)C0",
+      "release_date": "2021-01-12",
+      "download_link": "https://download.zyxel.com/LTE7240-M403/firmware/LTE7240-M403_V2.00(ABMG.2)C0.zip",
+      "checksum_scraped": "SHA1: 3EC5C02EBC49922DD63147A85B53277EC03D6D81",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE7461-M602",
+      "product_type": "Mobile Broadband",
+      "version": "V2.00(ABQN.5)C0",
+      "release_date": "2022-12-26",
+      "download_link": "https://download.zyxel.com/LTE7461-M602/firmware/LTE7461-M602_V2.00(ABQN.5)C0.zip",
+      "checksum_scraped": "SHA1: 448541C61C27EF8138439416437397394BB34E15",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE7461-M602",
+      "product_type": "Mobile Broadband",
+      "version": "V2.00(ABQN.4)C0",
+      "release_date": "2022-04-20",
+      "download_link": "https://download.zyxel.com/LTE7461-M602/firmware/LTE7461-M602_V2.00(ABQN.4)C0.zip",
+      "checksum_scraped": "SHA1: BC6A6505740F7A6DD668D2B29ABA394B1E5D049B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "LTE5398-M904",
+      "product_type": "Mobile Broadband",
+      "version": "V1.00(ABQV.2)C0",
+      "release_date": "2022-11-14",
+      "download_link": "https://download.zyxel.com/LTE5398-M904/firmware/LTE5398-M904_V1.00(ABQV.2)C0.zip",
+      "checksum_scraped": "SHA1: 14BFE84FFD28943D9AAD0640AFD957F020B62549",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6615",
+      "product_type": "WiFi Router",
+      "version": "V1.00(ABMV.6)C0",
+      "release_date": "2022-09-29",
+      "download_link": "https://download.zyxel.com/NBG6615/firmware/NBG6615_V1.00(ABMV.6)C0.zip",
+      "checksum_scraped": "SHA1: 60DBAEA4A22A11A8659C1D4408671799D36A31EF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6615",
+      "product_type": "WiFi Router",
+      "version": "V1.00(ABMV.5)C0",
+      "release_date": "2022-12-24",
+      "download_link": "https://download.zyxel.com/NBG6615/firmware/NBG6615_V1.00(ABMV.5)C0.zip",
+      "checksum_scraped": "SHA1: 3CC83BD20D58F6C0C5AC4755E42334DF83B438D5",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6615",
+      "product_type": "WiFi Router",
+      "version": "V1.00(ABMV.4)C0",
+      "release_date": "2021-01-29",
+      "download_link": "https://download.zyxel.com/NBG6615/firmware/NBG6615_V1.00(ABMV.4)C0.zip",
+      "checksum_scraped": "SHA1: 4E95193C19882C8B98D9FC1C686CC332E9F42248",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6604",
+      "product_type": "WiFi Router",
+      "version": "V1.00(ABIR.9)C0",
+      "release_date": "2021-12-28",
+      "download_link": "https://download.zyxel.com/NBG6604/firmware/NBG6604_V1.00(ABIR.9)C0.zip",
+      "checksum_scraped": "SHA1: A62111D6E66011A56ED24A38E3FA1B11A0141586",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6604",
+      "product_type": "WiFi Router",
+      "version": "V1.00(ABIR.8)C0",
+      "release_date": "2021-12-20",
+      "download_link": "https://download.zyxel.com/NBG6604/firmware/NBG6604_V1.00(ABIR.8)C0.zip",
+      "checksum_scraped": "SHA1: A6A6B18E13682ABF37030A62B69C6E441464D647",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6604",
+      "product_type": "WiFi Router",
+      "version": "V1.00(ABIR.7)C0",
+      "release_date": "2021-04-23",
+      "download_link": "https://download.zyxel.com/NBG6604/firmware/NBG6604_V1.00(ABIR.7)C0.zip",
+      "checksum_scraped": "SHA1: 7ACFFB300469657198E16179C215CB30258F6865",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6515",
+      "product_type": "WiFi Router",
+      "version": "V1.00(AAXS.9)C0",
+      "release_date": "2022-08-15",
+      "download_link": "https://download.zyxel.com/NBG6515/firmware/NBG6515_V1.00(AAXS.9)C0.zip",
+      "checksum_scraped": "SHA1: C0B351885B47C2DD12E02DC79FCD3B9C4A73B54C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6515",
+      "product_type": "WiFi Router",
+      "version": "V1.00(AAXS.7)C0",
+      "release_date": "2020-12-09",
+      "download_link": "https://download.zyxel.com/NBG6515/firmware/NBG6515_V1.00(AAXS.7)C0.zip",
+      "checksum_scraped": "SHA1: A26E0A730DF92A4BC42584880DE393811DF431F2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NBG6515",
+      "product_type": "WiFi Router",
+      "version": "V1.00(AAXS.6)C0",
+      "release_date": "2019-01-30",
+      "download_link": "https://download.zyxel.com/NBG6515/firmware/NBG6515_V1.00(AAXS.6)C0.zip",
+      "checksum_scraped": "SHA1: 88E37B30C83A9EE93121C319AFF5C5B832880B36",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WX3100-T0",
+      "product_type": "WiFi Extender",
+      "version": "5.50(ABVL.1.1)C0",
+      "release_date": "2023-01-06",
+      "download_link": "https://download.zyxel.com/WX3100-T0/firmware/WX3100-T0_5.50(ABVL.1.1)C0.zip",
+      "checksum_scraped": "SHA1: 31E42EA2D97FC542246B0DB4536B679D99FD6E73",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WX3100-T0",
+      "product_type": "WiFi Extender",
+      "version": "550ABVL1C0",
+      "release_date": "2022-12-10",
+      "download_link": "https://download.zyxel.com/WX3100-T0/firmware/WX3100-T0_550ABVL1C0.zip",
+      "checksum_scraped": "SHA1: 4359778912E678C4B6BEF96A95540F35B66F1D23",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WX3100-T0",
+      "product_type": "WiFi Extender",
+      "version": "5.50(ABVL.0)C0",
+      "release_date": "2022-12-10",
+      "download_link": "https://download.zyxel.com/WX3100-T0/firmware/WX3100-T0_5.50(ABVL.0)C0.zip",
+      "checksum_scraped": "SHA1: C8F8182612DBD1413B97584624B3775E5B3F25CB",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAP6804",
+      "product_type": "WiFi Extender",
+      "version": "V1.00(ABKH.2)C0",
+      "release_date": "2018-12-16",
+      "download_link": "https://download.zyxel.com/WAP6804/firmware/WAP6804_V1.00(ABKH.2)C0.zip",
+      "checksum_scraped": "SHA1: 42CCCFF01022AC7FF451DA2170C5517A06D55203",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WAP6804",
+      "product_type": "WiFi Extender",
+      "version": "V1.00(ABKH.1)C0",
+      "release_date": "2017-11-06",
+      "download_link": "https://download.zyxel.com/WAP6804/firmware/WAP6804_V1.00(ABKH.1)C0.zip",
+      "checksum_scraped": "SHA1: CF96CA26357351F1C02E1E9ECD08ED01DEE29453",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WRE6605",
+      "product_type": "WiFi Extender",
+      "version": "V1.00(ABKK.7)C0",
+      "release_date": "2022-11-09",
+      "download_link": "https://download.zyxel.com/WRE6605/firmware/WRE6605_V1.00(ABKK.7)C0.zip",
+      "checksum_scraped": "SHA1: D9B4D50A1D7ECDDB58F5A87B3D57BEC5C64A9230",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WRE6605",
+      "product_type": "WiFi Extender",
+      "version": "V1.00(ABKK.6)C0",
+      "release_date": "2022-12-24",
+      "download_link": "https://download.zyxel.com/WRE6605/firmware/WRE6605_V1.00(ABKK.6)C0.zip",
+      "checksum_scraped": "SHA1: 9641F67D0BC3778EC0D4ACAD2BD14F09969062D9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WRE6605",
+      "product_type": "WiFi Extender",
+      "version": "V1.00(ABKK.4)C0",
+      "release_date": "2020-04-10",
+      "download_link": "https://download.zyxel.com/WRE6605/firmware/WRE6605_V1.00(ABKK.4)C0.zip",
+      "checksum_scraped": "SHA1: 48B814F10D220D0616F6557AF7E7FB51F99E37A6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "V4.0.0.22.0418(Windows)",
+      "release_date": "2022-04-27",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_V4.0.0.22.0418(Windows).zip",
+      "checksum_scraped": "SHA1: 515DC8E68EC45E013B34047815FDC30D061E0163",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "V5.0.0.20.0518(MacOS)",
+      "release_date": "2020-11-23",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_V5.0.0.20.0518(MacOS).zip",
+      "checksum_scraped": "SHA1: F4B2D79B148D28E582E65DD67DE95CD6D397F91B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "V4.0.0.16.1115(Windows)",
+      "release_date": "2018-11-15",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_V4.0.0.16.1115(Windows).zip",
+      "checksum_scraped": "SHA1: E28A7446DEE7218B3FF91D42A91F23BE9B7A4B45",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "V4.0.0.16.1029(MacOS)",
+      "release_date": "2018-11-02",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_V4.0.0.16.1029(MacOS).zip",
+      "checksum_scraped": "SHA1: 4181204D929AAE317194C8EB6489E439F1D89484",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "V3.0.0.15.0805(MacOS)",
+      "release_date": "2015-09-01",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_V3.0.0.15.0805(MacOS).zip",
+      "checksum_scraped": "SHA1: F4750F3B37CDA94C77DE21C606FF45B88D00D27B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "V3.0.0.15.0505(Windows)",
+      "release_date": "2015-09-01",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_V3.0.0.15.0505(Windows).zip",
+      "checksum_scraped": "SHA1: 36792C3A45843FF53E3749148D0691E908852D34",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "V2.0.0.14.0930(Windows)",
+      "release_date": "2014-12-06",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_V2.0.0.14.0930(Windows).zip",
+      "checksum_scraped": "SHA1: D858C3A90DBFEA6D65B518C4AF32485E4B6898F2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "V2.0.0(MacOS)",
+      "release_date": "2014-09-01",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_V2.0.0(MacOS).zip",
+      "checksum_scraped": "SHA1: 763EB6E3E052ED7722CFBE83509D185C0A1B7855",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "1.0.0(MacOS)",
+      "release_date": "2013-12-15",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_1.0.0(MacOS).zip",
+      "checksum_scraped": "SHA1: 0969B7A23955ED510E0DA50F49CF9CBACCF9229D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6605",
+      "product_type": "WiFi Extender",
+      "version": "1.0.0",
+      "release_date": "2013-08-19",
+      "download_link": "https://download.zyxel.com/NWD6605/driver/NWD6605_1.0.0.zip",
+      "checksum_scraped": "SHA1: DD6BB28611BD3F5D7F1EA3EFA0FBE582657143C8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6602",
+      "product_type": "WiFi Extender",
+      "version": "V1.0.0.22.0418(Windows)",
+      "release_date": "2022-04-27",
+      "download_link": "https://download.zyxel.com/NWD6602/driver/NWD6602_V1.0.0.22.0418(Windows).zip",
+      "checksum_scraped": "SHA1: FCBEEF40632E9A3FAE5E0DF6389124C46FBF2B33",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6602",
+      "product_type": "WiFi Extender",
+      "version": "1.0.0.21.1224Win",
+      "release_date": "2022-01-18",
+      "download_link": "https://download.zyxel.com/NWD6602/driver/NWD6602_1.0.0.21.1224Win.zip",
+      "checksum_scraped": "SHA1: 704324B08B8D58A6E8517191E79CA43752489B40",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6602",
+      "product_type": "WiFi Extender",
+      "version": "1.0.0.20.0826Win",
+      "release_date": "2021-12-07",
+      "download_link": "https://download.zyxel.com/NWD6602/driver/NWD6602_1.0.0.20.0826Win.zip",
+      "checksum_scraped": "SHA1: 2F042181E86774DA30DA367CCA22A88D17F946DA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6602",
+      "product_type": "WiFi Extender",
+      "version": "1.0.0.20.0826Linux_2",
+      "release_date": "2021-08-05",
+      "download_link": "https://download.zyxel.com/NWD6602/driver/NWD6602_1.0.0.20.0826Linux_2.zip",
+      "checksum_scraped": "SHA1: E9FBBC0F37D20AB62BFCAC1EDA35F0F15000493E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD6602",
+      "product_type": "WiFi Extender",
+      "version": "1.0.0.20.0826 MAC",
+      "release_date": "2020-11-30",
+      "download_link": "https://download.zyxel.com/NWD6602/driver/NWD6602_1.0.0.20.0826%20MAC.zip",
+      "checksum_scraped": "SHA1: 4305F631B19D1F6EB72616EFE494AF68A3E0E0C9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WRE2206",
+      "product_type": "WiFi Extender",
+      "version": "V1.00(AAVZ.4)C0",
+      "release_date": "2018-01-25",
+      "download_link": "https://download.zyxel.com/WRE2206/firmware/WRE2206_V1.00(AAVZ.4)C0.zip",
+      "checksum_scraped": "SHA1: 22E85CB6E30CE5AE894B0E0B3AF8182808C4BB40",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WRE2206",
+      "product_type": "WiFi Extender",
+      "version": "V1.00(AAVZ.3)C0_20171115(KRACK_hotfix)",
+      "release_date": "2017-11-17",
+      "download_link": "https://download.zyxel.com/WRE2206/firmware/WRE2206_V1.00(AAVZ.3)C0_20171115(KRACK_hotfix).zip",
+      "checksum_scraped": "SHA1: 64A41386A2307279653B4244DF7DCEACBC4C516D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "WRE2206",
+      "product_type": "WiFi Extender",
+      "version": "V1.00(AAVZ.3)C0",
+      "release_date": "2017-12-23",
+      "download_link": "https://download.zyxel.com/WRE2206/firmware/WRE2206_V1.00(AAVZ.3)C0.zip",
+      "checksum_scraped": "SHA1: 8C5935C598409B6A9A81518A8D2939FD59F76421",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD7605",
+      "product_type": "WiFi Extender",
+      "version": "Win_Driver_1.0.0.22.1130",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/NWD7605/driver/NWD7605_Win_Driver_1.0.0.22.1130.zip",
+      "checksum_scraped": "SHA1: 3538D68589577B6186CA0136A7275E5AAC91FE93",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD7605",
+      "product_type": "WiFi Extender",
+      "version": "Win_Driver_1.0.0.22.0602",
+      "release_date": "2022-08-03",
+      "download_link": "https://download.zyxel.com/NWD7605/driver/NWD7605_Win_Driver_1.0.0.22.0602.zip",
+      "checksum_scraped": "SHA1: 48CDAED82324D191D9954BDC80903F3CA6CF95CD",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD7605",
+      "product_type": "WiFi Extender",
+      "version": "Win_Driver_1.0.0.22.0428",
+      "release_date": "2022-12-12",
+      "download_link": "https://download.zyxel.com/NWD7605/driver/NWD7605_Win_Driver_1.0.0.22.0428.zip",
+      "checksum_scraped": "SHA1: 4C1209CD32869241B0C810F55F70914508006740",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NWD7605",
+      "product_type": "WiFi Extender",
+      "version": "Linux_Driver_1.0.0.22.0225",
+      "release_date": "2022-12-12",
+      "download_link": "https://download.zyxel.com/NWD7605/driver/NWD7605_Linux_Driver_1.0.0.22.0225.zip",
+      "checksum_scraped": "SHA1: D75CE27A187B4FC19DA87A4D219B36C95380C104",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "EX3301-T0",
+      "product_type": "DSL CPE",
+      "version": "5.50(ABVY.3.1)C0",
+      "release_date": "2022-09-29",
+      "download_link": "https://download.zyxel.com/EX3301-T0/firmware/EX3301-T0_5.50(ABVY.3.1)C0.zip",
+      "checksum_scraped": "SHA1: 83D4B3CD1F499F3707ED1D7511BDE831A580A543",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "EX3301-T0",
+      "product_type": "DSL CPE",
+      "version": "5.50(ABVY.1)C0",
+      "release_date": "2022-12-10",
+      "download_link": "https://download.zyxel.com/EX3301-T0/firmware/EX3301-T0_5.50(ABVY.1)C0.zip",
+      "checksum_scraped": "SHA1: AFBF4102755B8F9DC1AF02B48A1E4A9506CAF2F2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "DX3301-T0",
+      "product_type": "DSL CPE",
+      "version": "5.50(ABVY.3.1)C0",
+      "release_date": "2022-09-29",
+      "download_link": "https://download.zyxel.com/DX3301-T0/firmware/DX3301-T0_5.50(ABVY.3.1)C0.zip",
+      "checksum_scraped": "SHA1: B31D8D98B2B1C0790269E0B863895254D4ED6991",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "DX3301-T0",
+      "product_type": "DSL CPE",
+      "version": "5.50(ABVY.1)C0",
+      "release_date": "2022-12-10",
+      "download_link": "https://download.zyxel.com/DX3301-T0/firmware/DX3301-T0_5.50(ABVY.1)C0.zip",
+      "checksum_scraped": "SHA1: AFBF4102755B8F9DC1AF02B48A1E4A9506CAF2F2",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "EMG6726-B10A",
+      "product_type": "DSL CPE",
+      "version": "5.13(ABNP.2)C0",
+      "release_date": "2019-12-04",
+      "download_link": "https://www.zyxel.com/global/en/support/download?model=EMG6726-B10A#",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG3927-B50A",
+      "product_type": "DSL CPE",
+      "version": "5.17(ABMT.6)C0",
+      "release_date": "2021-12-24",
+      "download_link": "https://download.zyxel.com/XMG3927-B50A/firmware/XMG3927-B50A_5.17(ABMT.6)C0.zip",
+      "checksum_scraped": "SHA1: 7B2BEC2D8A4E5378C84CCCD589F7BBD1A6F2F015",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG3927-B50A",
+      "product_type": "DSL CPE",
+      "version": "5.17(ABMT.5)C0",
+      "release_date": "2021-12-03",
+      "download_link": "https://download.zyxel.com/XMG3927-B50A/firmware/XMG3927-B50A_5.17(ABMT.5)C0.zip",
+      "checksum_scraped": "SHA1: 2A004731454CFA4AA3D210BB286F7FD0FE4F8FFD",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG3927-B50A",
+      "product_type": "DSL CPE",
+      "version": "5.13(ABMT.0)C0",
+      "release_date": "2019-02-18",
+      "download_link": "https://download.zyxel.com/XMG3927-B50A/firmware/XMG3927-B50A_5.13(ABMT.0)C0.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG8825-T50K",
+      "product_type": "DSL CPE",
+      "version": "5.50(ABOM.8.1)C0",
+      "release_date": "2022-09-29",
+      "download_link": "https://download.zyxel.com/VMG8825-T50K/firmware/VMG8825-T50K_5.50(ABOM.8.1)C0.zip",
+      "checksum_scraped": "SHA1: 81DAA68688D70F25E228551F63D342F2560B33D7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG8825-T50K",
+      "product_type": "DSL CPE",
+      "version": "5.50(ABOM.7)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/VMG8825-T50K/firmware/VMG8825-T50K_5.50(ABOM.7)C0.zip",
+      "checksum_scraped": "SHA1: 5C14702264C53B678AE2BA377D4C930324903050",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG8825-T50K",
+      "product_type": "DSL CPE",
+      "version": "5.50(ABOM.6)C0",
+      "release_date": "2021-12-07",
+      "download_link": "https://download.zyxel.com/VMG8825-T50K/firmware/VMG8825-T50K_5.50(ABOM.6)C0.zip",
+      "checksum_scraped": "SHA1: 740F1C56D76CDAD9F5D802CF3452BD4187322D67",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG3625-T50B",
+      "product_type": "DSL CPE",
+      "version": "V550ABPM6C0",
+      "release_date": "2022-09-29",
+      "download_link": "https://download.zyxel.com/VMG3625-T50B/firmware/VMG3625-T50B_V550ABPM6C0.zip",
+      "checksum_scraped": "SHA1: 5271EC8BD9E3D4E00BCEE639D20E1A5E6478863D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG3625-T50B",
+      "product_type": "DSL CPE",
+      "version": "5.50(ABPM7.1)C0",
+      "release_date": "2022-09-29",
+      "download_link": "https://download.zyxel.com/VMG3625-T50B/firmware/VMG3625-T50B_5.50(ABPM7.1)C0.zip",
+      "checksum_scraped": "SHA1: B3247905D62734651E8C27F27D997345F7B7763C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG3312-T20A",
+      "product_type": "DSL CPE",
+      "version": "530ABFX5C0",
+      "release_date": "2020-04-08",
+      "download_link": "https://download.zyxel.com/VMG3312-T20A/firmware/VMG3312-T20A_530ABFX5C0.zip",
+      "checksum_scraped": "SHA1: 431562ACD784D7B5CD0DC109746B0CFE920DA216",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG3312-T20A",
+      "product_type": "DSL CPE",
+      "version": "5.30(ABFX.3)C0",
+      "release_date": "2018-12-29",
+      "download_link": "https://download.zyxel.com/VMG3312-T20A/firmware/VMG3312-T20A_5.30(ABFX.3)C0.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG3312-T20A",
+      "product_type": "DSL CPE",
+      "version": "5.30(ABFX.1)C0",
+      "release_date": "2017-12-25",
+      "download_link": "https://download.zyxel.com/VMG3312-T20A/firmware/VMG3312-T20A_5.30(ABFX.1)C0.zip",
+      "checksum_scraped": "SHA1: 131BB6124645F8945D304606F493EB7D0163C857",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG1312-T20B",
+      "product_type": "DSL CPE",
+      "version": "5.30(ABSB.5)C0",
+      "release_date": "2021-11-30",
+      "download_link": "https://download.zyxel.com/VMG1312-T20B/firmware/VMG1312-T20B_5.30(ABSB.5)C0.zip",
+      "checksum_scraped": "SHA1: 6EFD09D4CD3D8657DE1FEF0A3CCBA086EF5A55E8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG1312-T20B",
+      "product_type": "DSL CPE",
+      "version": "5.30(ABSB.2)C0",
+      "release_date": "2021-12-12",
+      "download_link": "https://download.zyxel.com/VMG1312-T20B/firmware/VMG1312-T20B_5.30(ABSB.2)C0.zip",
+      "checksum_scraped": "SHA1: E9A037A2B4B0F79A1D730B295C62CC72C9818F68",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG4005-B50A",
+      "product_type": "DSL CPE",
+      "version": "5.15(ABQA.2)C0",
+      "release_date": "2023-01-06",
+      "download_link": "https://download.zyxel.com/VMG4005-B50A/firmware/VMG4005-B50A_5.15(ABQA.2)C0.zip",
+      "checksum_scraped": "SHA1: 885234A6F31AB9C2D09D2D456A8FB9416D447AC1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG4005-B50A",
+      "product_type": "DSL CPE",
+      "version": "5.15(ABQA.1)C0",
+      "release_date": "2021-11-26",
+      "download_link": "https://download.zyxel.com/VMG4005-B50A/firmware/VMG4005-B50A_5.15(ABQA.1)C0.zip",
+      "checksum_scraped": "SHA1: 7D68A2F21B89F478986112CF05F93C0BC5DC1E9B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VMG4005-B50A",
+      "product_type": "DSL CPE",
+      "version": "5.15(ABQA.0)C0",
+      "release_date": "2019-12-06",
+      "download_link": "https://download.zyxel.com/VMG4005-B50A/firmware/VMG4005-B50A_5.15(ABQA.0)C0.zip",
+      "checksum_scraped": "SHA1: B50B3A28A6F19691848C56D3EFCBC87C0F9DEF12",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "PLA6457",
+      "product_type": "Powerline",
+      "version": "V1.00(ACAJ.0)C0",
+      "release_date": "2021-08-04",
+      "download_link": "https://download.zyxel.com/PLA6457/firmware/PLA6457_V1.00(ACAJ.0)C0.zip",
+      "checksum_scraped": "SHA1: BF292A99FF5025631179B939802D8F587284239D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "PLA6456",
+      "product_type": "Powerline",
+      "version": "V1.00(ABSU.7)C0_US",
+      "release_date": "2022-12-14",
+      "download_link": "https://download.zyxel.com/PLA6456/firmware/PLA6456_V1.00(ABSU.7)C0_US.zip",
+      "checksum_scraped": "SHA1: 859978C3B78D27FA1FBB6C07DF488B90B53CF4D1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "PLA6456",
+      "product_type": "Powerline",
+      "version": "V1.00(ABSU.6)C0_US",
+      "release_date": "2022-04-22",
+      "download_link": "https://download.zyxel.com/PLA6456/firmware/PLA6456_V1.00(ABSU.6)C0_US.zip",
+      "checksum_scraped": "SHA1: 4264A0489BB78872341550EAFDA379026866EF9D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "PLA6456",
+      "product_type": "Powerline",
+      "version": "V1.00(ABSU.5)C0_US",
+      "release_date": "2021-12-24",
+      "download_link": "https://download.zyxel.com/PLA6456/firmware/PLA6456_V1.00(ABSU.5)C0_US.zip",
+      "checksum_scraped": "SHA1: F3D35ECF21E1979164512BEA8386C223EFA00AEC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NAS326",
+      "product_type": "Personal Cloud Storage",
+      "version": "V5.21(AAZF.12)C0",
+      "release_date": "2022-08-26",
+      "download_link": "https://download.zyxel.com/NAS326/firmware/NAS326_V5.21(AAZF.12)C0.zip",
+      "checksum_scraped": "SHA1: C8E32944C4C48F9FDD0CB7FA5D4E7026D043FD26",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NAS326",
+      "product_type": "Personal Cloud Storage",
+      "version": "V5.21(AAZF.11)C0",
+      "release_date": "2022-12-18",
+      "download_link": "https://download.zyxel.com/NAS326/firmware/NAS326_V5.21(AAZF.11)C0.zip",
+      "checksum_scraped": "SHA1: F14D0A733380D6E898DC860597F03A368329597B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "NAS326",
+      "product_type": "Personal Cloud Storage",
+      "version": "V5.21(AAZF.10)C0",
+      "release_date": "2021-04-28",
+      "download_link": "https://download.zyxel.com/NAS326/firmware/NAS326_V5.21(AAZF.10)C0.zip",
+      "checksum_scraped": "SHA1: 86E81F3D2AB392B09D2D27CABFB1B7FD921BB376",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG1930-30HP",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XMG1930-30HP/driver/XMG1930-30HP_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG1930-30HP",
+      "product_type": "Switch",
+      "version": "V4.70(ACAS.1)C0",
+      "release_date": "2022-12-31",
+      "download_link": "https://download.zyxel.com/XMG1930-30HP/firmware/XMG1930-30HP_V4.70(ACAS.1)C0.zip",
+      "checksum_scraped": "SHA1: 82092D5C08EB22541E07EEB97DB1C445A697A12F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG1930-30HP",
+      "product_type": "Switch",
+      "version": "USB Type-C",
+      "release_date": "2022-12-17",
+      "download_link": "https://download.zyxel.com/XMG1930-30HP/driver/XMG1930-30HP_USB%20Type-C.zip",
+      "checksum_scraped": "SHA1: 4F379ED21A29E8DB0B99798F3F3DCFF8E69B3F2B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG1930-30",
+      "product_type": "Switch",
+      "version": "USB Type-C (v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XMG1930-30/driver/XMG1930-30_USB%20Type-C%20(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG1930-30",
+      "product_type": "Switch",
+      "version": "V4.70(ACAR.1)C0",
+      "release_date": "2022-12-31",
+      "download_link": "https://download.zyxel.com/XMG1930-30/firmware/XMG1930-30_V4.70(ACAR.1)C0.zip",
+      "checksum_scraped": "SHA1: 49DC1D498C0AFAD551A4502D4ED34E01E1FECE75",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XMG1930-30",
+      "product_type": "Switch",
+      "version": "USB Type-C",
+      "release_date": "2022-12-17",
+      "download_link": "https://download.zyxel.com/XMG1930-30/driver/XMG1930-30_USB%20Type-C.zip",
+      "checksum_scraped": "SHA1: 4F379ED21A29E8DB0B99798F3F3DCFF8E69B3F2B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-32",
+      "product_type": "Switch",
+      "version": "4.70(ABBH.4)C0",
+      "release_date": "2022-11-14",
+      "download_link": "https://download.zyxel.com/XGS4600-32/firmware/XGS4600-32_4.70(ABBH.4)C0.zip",
+      "checksum_scraped": "SHA1: 2CF412FE058F3E8AC4A45834A232CD680B9A3D01",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-32",
+      "product_type": "Switch",
+      "version": "4.70(ABBH.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/XGS4600-32/firmware/XGS4600-32_4.70(ABBH.3)C0.zip",
+      "checksum_scraped": "SHA1: 4B0C0B707107F4A182751E5F29B36302F269780B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-32",
+      "product_type": "Switch",
+      "version": "4.70(ABBH.2)C0",
+      "release_date": "2022-01-26",
+      "download_link": "https://download.zyxel.com/XGS4600-32/firmware/XGS4600-32_4.70(ABBH.2)C0.zip",
+      "checksum_scraped": "SHA1: 56447484C6C964726BE6D6F102CC19397E848A26",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-52F",
+      "product_type": "Switch",
+      "version": "4.70(ABIK.4)C0",
+      "release_date": "2022-11-14",
+      "download_link": "https://download.zyxel.com/XGS4600-52F/firmware/XGS4600-52F_4.70(ABIK.4)C0.zip",
+      "checksum_scraped": "SHA1: 6E7D1560489C35E6337B384AD438FFD8D21B8415",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-52F",
+      "product_type": "Switch",
+      "version": "4.70(ABIK.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/XGS4600-52F/firmware/XGS4600-52F_4.70(ABIK.3)C0.zip",
+      "checksum_scraped": "SHA1: 07B03D6B8E479E169BBE885CC811A2BED35BC75B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-52F",
+      "product_type": "Switch",
+      "version": "4.70(ABIK.2)C0",
+      "release_date": "2022-01-26",
+      "download_link": "https://download.zyxel.com/XGS4600-52F/firmware/XGS4600-52F_4.70(ABIK.2)C0.zip",
+      "checksum_scraped": "SHA1: 43D233CB8495C97C79D634ADED8051DE68B54625",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-32F",
+      "product_type": "Switch",
+      "version": "4.70(ABBI.4)C0",
+      "release_date": "2022-11-14",
+      "download_link": "https://download.zyxel.com/XGS4600-32F/firmware/XGS4600-32F_4.70(ABBI.4)C0.zip",
+      "checksum_scraped": "SHA1: E681653B63720D83D70633C245ED836A6B56AC3F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-32F",
+      "product_type": "Switch",
+      "version": "4.70(ABBI.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/XGS4600-32F/firmware/XGS4600-32F_4.70(ABBI.3)C0.zip",
+      "checksum_scraped": "SHA1: D0F43E0E34361632006DEFBFD1EDE570656BA123",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS4600-32F",
+      "product_type": "Switch",
+      "version": "4.70(ABBI.2)C0",
+      "release_date": "2022-01-26",
+      "download_link": "https://download.zyxel.com/XGS4600-32F/firmware/XGS4600-32F_4.70(ABBI.2)C0.zip",
+      "checksum_scraped": "SHA1: 0A9D943D3DF5055D368FE089AE609EF84A5C9772",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30",
+      "product_type": "Switch",
+      "version": "V4.80(ABXN.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-30/firmware/XGS2220-30_V4.80(ABXN.0)C0.zip",
+      "checksum_scraped": "SHA1: F10730B5CCA3383756BC56AA01EA40B4BE6801A4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30",
+      "product_type": "Switch",
+      "version": "V4.80(ABXN.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-30/firmware/XGS2220-30_V4.80(ABXN.1)C0.zip",
+      "checksum_scraped": "SHA1: 1D01A24784893A6CC13BF1E85319458BDBB6CE54",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-30/driver/XGS2220-30_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30HP",
+      "product_type": "Switch",
+      "version": "4.80(ABXO.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-30HP/firmware/XGS2220-30HP_4.80(ABXO.0)C0.zip",
+      "checksum_scraped": "SHA1: 355C5D004B47B68F02CF6506FE148E73DB62D656",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30HP",
+      "product_type": "Switch",
+      "version": "4.80(ABXO.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-30HP/firmware/XGS2220-30HP_4.80(ABXO.1)C0.zip",
+      "checksum_scraped": "SHA1: EE737DA26EB6111C144F8B2D57E40589B7A1ADAE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30HP",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-30HP/driver/XGS2220-30HP_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30F",
+      "product_type": "Switch",
+      "version": "4.80(ABYE.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-30F/firmware/XGS2220-30F_4.80(ABYE.0)C0.zip",
+      "checksum_scraped": "SHA1: 2EC5706236F5F20810A0B64ABA93EBB906EA2A4D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30F",
+      "product_type": "Switch",
+      "version": "4.80(ABYE.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-30F/firmware/XGS2220-30F_4.80(ABYE.1)C0.zip",
+      "checksum_scraped": "SHA1: 1797CF0FDEE900390201D480966E034576E8DE74",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30F",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-30F/driver/XGS2220-30F_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54FP",
+      "product_type": "Switch",
+      "version": "4.80(ACCE.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-54FP/firmware/XGS2220-54FP_4.80(ACCE.0)C0.zip",
+      "checksum_scraped": "SHA1: 1965BCA6B5FB0561B255BDBC5FFAA9BAA84C8D82",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54FP",
+      "product_type": "Switch",
+      "version": "4.80(ACCE.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-54FP/firmware/XGS2220-54FP_4.80(ACCE.1)C0.zip",
+      "checksum_scraped": "SHA1: 1DAD6F35CB7861954681EC08AE77334E1AF32641",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54FP",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-54FP/driver/XGS2220-54FP_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54",
+      "product_type": "Switch",
+      "version": "4.80(ABXP.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-54/firmware/XGS2220-54_4.80(ABXP.0)C0.zip",
+      "checksum_scraped": "SHA1: D893E89A43D157C8E8D824F334B3284868899F89",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54",
+      "product_type": "Switch",
+      "version": "4.80(ABXP.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-54/firmware/XGS2220-54_4.80(ABXP.1)C0.zip",
+      "checksum_scraped": "SHA1: E3F9F1D5C1B1056DBDF1D5B9FA04EA6C75BBBED0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-54/driver/XGS2220-54_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54HP",
+      "product_type": "Switch",
+      "version": "4.80(ABXQ.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-54HP/firmware/XGS2220-54HP_4.80(ABXQ.0)C0.zip",
+      "checksum_scraped": "SHA1: 90575FD155E65A48A4DE0D1DCD36A1B01B959235",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54HP",
+      "product_type": "Switch",
+      "version": "4.80(ABXQ.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-54HP/firmware/XGS2220-54HP_4.80(ABXQ.1)C0.zip",
+      "checksum_scraped": "SHA1: F55B00966D26BDF33D183901A1F8465EA6A400A8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54HP",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-54HP/driver/XGS2220-54HP_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-28",
+      "product_type": "Switch",
+      "version": "4.70(AAZJ.2)C0",
+      "release_date": "2022-11-08",
+      "download_link": "https://download.zyxel.com/XGS2210-28/firmware/XGS2210-28_4.70(AAZJ.2)C0.zip",
+      "checksum_scraped": "SHA1: 82B83E6CBEECE1A4A1D95D5D5FFBD79697036D6B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-28",
+      "product_type": "Switch",
+      "version": "4.70(AAZJ.1)C0",
+      "release_date": "2021-12-07",
+      "download_link": "https://download.zyxel.com/XGS2210-28/firmware/XGS2210-28_4.70(AAZJ.1)C0.zip",
+      "checksum_scraped": "SHA1: 042B6C61E3C850C5DD3F0F4575FA244814BF8C4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-28",
+      "product_type": "Switch",
+      "version": "4.70(AAZJ.0)C0",
+      "release_date": "2021-02-05",
+      "download_link": "https://download.zyxel.com/XGS2210-28/firmware/XGS2210-28_4.70(AAZJ.0)C0.zip",
+      "checksum_scraped": "SHA1: 225D590CA5D6835DBCB1E414AF58E38841FE1F57",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-52HP",
+      "product_type": "Switch",
+      "version": "V4.70(AAZM.2)C0",
+      "release_date": "2022-11-08",
+      "download_link": "https://download.zyxel.com/XGS2210-52HP/firmware/XGS2210-52HP_V4.70(AAZM.2)C0.zip",
+      "checksum_scraped": "SHA1: 30145F461E2CC62119BCDBAFBB00D04991F1CC95",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-52HP",
+      "product_type": "Switch",
+      "version": "4.70(AAZM.1)C0",
+      "release_date": "2021-12-07",
+      "download_link": "https://download.zyxel.com/XGS2210-52HP/firmware/XGS2210-52HP_4.70(AAZM.1)C0.zip",
+      "checksum_scraped": "SHA1: 1DE894B5E2367B9C71AC8032CAC9C7F317C3854C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-52HP",
+      "product_type": "Switch",
+      "version": "4.70(AAZM.0)C0",
+      "release_date": "2021-02-05",
+      "download_link": "https://download.zyxel.com/XGS2210-52HP/firmware/XGS2210-52HP_4.70(AAZM.0)C0.zip",
+      "checksum_scraped": "SHA1: F8F40671DD34353941B0F5053DC8DA8E6602FCAB",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-28HP",
+      "product_type": "Switch",
+      "version": "V4.70(AAZK.2)C0",
+      "release_date": "2022-11-08",
+      "download_link": "https://download.zyxel.com/XGS2210-28HP/firmware/XGS2210-28HP_V4.70(AAZK.2)C0.zip",
+      "checksum_scraped": "SHA1: 503AF068E2978D5623C2A3DAAF64CD970C5DF2B4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-28HP",
+      "product_type": "Switch",
+      "version": "4.70(AAZK.1)C0",
+      "release_date": "2021-12-07",
+      "download_link": "https://download.zyxel.com/XGS2210-28HP/firmware/XGS2210-28HP_4.70(AAZK.1)C0.zip",
+      "checksum_scraped": "SHA1: 27509B17A95B532CFD62FFC35613AF774D25BD0A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-28HP",
+      "product_type": "Switch",
+      "version": "4.70(AAZK.0)C0",
+      "release_date": "2021-02-05",
+      "download_link": "https://download.zyxel.com/XGS2210-28HP/firmware/XGS2210-28HP_4.70(AAZK.0)C0.zip",
+      "checksum_scraped": "SHA1: 42ECC6916EE01F5B7D8C4F28E806A5E165298CC0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-52",
+      "product_type": "Switch",
+      "version": "V4.70(AAZL.2)C0",
+      "release_date": "2022-11-08",
+      "download_link": "https://download.zyxel.com/XGS2210-52/firmware/XGS2210-52_V4.70(AAZL.2)C0.zip",
+      "checksum_scraped": "SHA1: B4568A5F71F42F8C46FACE32EAB8A323B7560847",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-52",
+      "product_type": "Switch",
+      "version": "4.70(AAZL.1)C0",
+      "release_date": "2021-12-07",
+      "download_link": "https://download.zyxel.com/XGS2210-52/firmware/XGS2210-52_4.70(AAZL.1)C0.zip",
+      "checksum_scraped": "SHA1: 0E2EB1CA2506F7086B83BA9A6D96C4C6F136BFBE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2210-52",
+      "product_type": "Switch",
+      "version": "4.70(AAZL.0)C0",
+      "release_date": "2021-02-05",
+      "download_link": "https://download.zyxel.com/XGS2210-52/firmware/XGS2210-52_4.70(AAZL.0)C0.zip",
+      "checksum_scraped": "SHA1: FD4AEAEDC365D6C7E3CA61DE74FA09BC477A6FBB",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-28HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRR.6)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/GS2220-28HP/firmware/GS2220-28HP_4.70(ABRR.6)C0.zip",
+      "checksum_scraped": "SHA1: D468A9BD761713C3942858705114150CF2DE26B6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-28HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRR.5)C0",
+      "release_date": "2021-12-28",
+      "download_link": "https://download.zyxel.com/GS2220-28HP/firmware/GS2220-28HP_4.70(ABRR.5)C0.zip",
+      "checksum_scraped": "SHA1: C3A617A785CD230E644AB67E910B347E7A0C16BD",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-28HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRR.4)C0",
+      "release_date": "2021-12-25",
+      "download_link": "https://download.zyxel.com/GS2220-28HP/firmware/GS2220-28HP_4.70(ABRR.4)C0.zip",
+      "checksum_scraped": "SHA1: CFFCCCFDC36A9DADAE5BEAD8F0DD38E47B437470",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-10",
+      "product_type": "Switch",
+      "version": "4.70(ABRO.6)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/GS2220-10/firmware/GS2220-10_4.70(ABRO.6)C0.zip",
+      "checksum_scraped": "SHA1: D708999D278E56F4E1F94EAE8B971A28DFFDC863",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-10",
+      "product_type": "Switch",
+      "version": "4.70(ABRO.5)C0",
+      "release_date": "2021-12-28",
+      "download_link": "https://download.zyxel.com/GS2220-10/firmware/GS2220-10_4.70(ABRO.5)C0.zip",
+      "checksum_scraped": "SHA1: 9BCD7288DBD890445A9A2E1DCACE5071185E1015",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-10",
+      "product_type": "Switch",
+      "version": "4.70(ABRO.4)C0",
+      "release_date": "2021-12-25",
+      "download_link": "https://download.zyxel.com/GS2220-10/firmware/GS2220-10_4.70(ABRO.4)C0.zip",
+      "checksum_scraped": "SHA1: DD68A36C0821432B54BCA33FADF7CF8A81AD36E4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-50HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRT.6)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/GS2220-50HP/firmware/GS2220-50HP_4.70(ABRT.6)C0.zip",
+      "checksum_scraped": "SHA1: 0D1A39281D8A5EAD7B132442D4A9A774C03FF586",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-50HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRT.5)C0",
+      "release_date": "2021-12-28",
+      "download_link": "https://download.zyxel.com/GS2220-50HP/firmware/GS2220-50HP_4.70(ABRT.5)C0.zip",
+      "checksum_scraped": "SHA1: 7F2F04D0304428FFB254A396482CF30F78E829EE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-50HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRT.4)C0",
+      "release_date": "2021-12-25",
+      "download_link": "https://download.zyxel.com/GS2220-50HP/firmware/GS2220-50HP_4.70(ABRT.4)C0.zip",
+      "checksum_scraped": "SHA1: 1900AB6E6F6A92C3298FDFBFF8AA7B55E70E00F9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-50",
+      "product_type": "Switch",
+      "version": "4.70(ABRS.6)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/GS2220-50/firmware/GS2220-50_4.70(ABRS.6)C0.zip",
+      "checksum_scraped": "SHA1: E117DC779CAA2642B963052F4E33C0337F00BB63",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-50",
+      "product_type": "Switch",
+      "version": "4.70(ABRS.5)C0",
+      "release_date": "2021-12-28",
+      "download_link": "https://download.zyxel.com/GS2220-50/firmware/GS2220-50_4.70(ABRS.5)C0.zip",
+      "checksum_scraped": "SHA1: 49E685C1A0E8DBB63C2CF0401FDCA7B439321CDE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-50",
+      "product_type": "Switch",
+      "version": "4.70(ABRS.4)C0",
+      "release_date": "2021-12-25",
+      "download_link": "https://download.zyxel.com/GS2220-50/firmware/GS2220-50_4.70(ABRS.4)C0.zip",
+      "checksum_scraped": "SHA1: DB3532D078A47535516550688B2D65C9C32D83B0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-28",
+      "product_type": "Switch",
+      "version": "4.70(ABRQ.6)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/GS2220-28/firmware/GS2220-28_4.70(ABRQ.6)C0.zip",
+      "checksum_scraped": "SHA1: 3E849A6CDC449021DC072BE3DCBFA5C8E5EF4522",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-28",
+      "product_type": "Switch",
+      "version": "4.70(ABRQ.5)C0",
+      "release_date": "2021-12-28",
+      "download_link": "https://download.zyxel.com/GS2220-28/firmware/GS2220-28_4.70(ABRQ.5)C0.zip",
+      "checksum_scraped": "SHA1: 86CBA72D11F733DE849A334C5F17CABE91E30927",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-28",
+      "product_type": "Switch",
+      "version": "4.70(ABRQ.4)C0",
+      "release_date": "2021-12-25",
+      "download_link": "https://download.zyxel.com/GS2220-28/firmware/GS2220-28_4.70(ABRQ.4)C0.zip",
+      "checksum_scraped": "SHA1: 8B7C1860B43A3F16A83A5F72A00799EAEEFC0A80",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-10HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRP.6)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/GS2220-10HP/firmware/GS2220-10HP_4.70(ABRP.6)C0.zip",
+      "checksum_scraped": "SHA1: 04E8440940B8145D6FE72AB29CAED2E4F8E74F09",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-10HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRP.5)C0",
+      "release_date": "2021-12-28",
+      "download_link": "https://download.zyxel.com/GS2220-10HP/firmware/GS2220-10HP_4.70(ABRP.5)C0.zip",
+      "checksum_scraped": "SHA1: 53826A85B7F8689D9EB539B492E6D06DBCB9CE0F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS2220-10HP",
+      "product_type": "Switch",
+      "version": "4.70(ABRP.4)C0",
+      "release_date": "2021-12-25",
+      "download_link": "https://download.zyxel.com/GS2220-10HP/firmware/GS2220-10HP_4.70(ABRP.4)C0.zip",
+      "checksum_scraped": "SHA1: 8A67A4E65392EDBCC84C15D5AC03E8451FE53D14",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30",
+      "product_type": "Switch",
+      "version": "V4.80(ABXN.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-30/firmware/XGS2220-30_V4.80(ABXN.0)C0.zip",
+      "checksum_scraped": "SHA1: F10730B5CCA3383756BC56AA01EA40B4BE6801A4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30",
+      "product_type": "Switch",
+      "version": "V4.80(ABXN.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-30/firmware/XGS2220-30_V4.80(ABXN.1)C0.zip",
+      "checksum_scraped": "SHA1: 1D01A24784893A6CC13BF1E85319458BDBB6CE54",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-30/driver/XGS2220-30_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30HP",
+      "product_type": "Switch",
+      "version": "4.80(ABXO.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-30HP/firmware/XGS2220-30HP_4.80(ABXO.0)C0.zip",
+      "checksum_scraped": "SHA1: 355C5D004B47B68F02CF6506FE148E73DB62D656",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30HP",
+      "product_type": "Switch",
+      "version": "4.80(ABXO.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-30HP/firmware/XGS2220-30HP_4.80(ABXO.1)C0.zip",
+      "checksum_scraped": "SHA1: EE737DA26EB6111C144F8B2D57E40589B7A1ADAE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30HP",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-30HP/driver/XGS2220-30HP_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30F",
+      "product_type": "Switch",
+      "version": "4.80(ABYE.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-30F/firmware/XGS2220-30F_4.80(ABYE.0)C0.zip",
+      "checksum_scraped": "SHA1: 2EC5706236F5F20810A0B64ABA93EBB906EA2A4D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30F",
+      "product_type": "Switch",
+      "version": "4.80(ABYE.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-30F/firmware/XGS2220-30F_4.80(ABYE.1)C0.zip",
+      "checksum_scraped": "SHA1: 1797CF0FDEE900390201D480966E034576E8DE74",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-30F",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-30F/driver/XGS2220-30F_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54FP",
+      "product_type": "Switch",
+      "version": "4.80(ACCE.0)C0",
+      "release_date": "2022-12-22",
+      "download_link": "https://download.zyxel.com/XGS2220-54FP/firmware/XGS2220-54FP_4.80(ACCE.0)C0.zip",
+      "checksum_scraped": "SHA1: 1965BCA6B5FB0561B255BDBC5FFAA9BAA84C8D82",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54FP",
+      "product_type": "Switch",
+      "version": "4.80(ACCE.1)C0",
+      "release_date": "2022-12-21",
+      "download_link": "https://download.zyxel.com/XGS2220-54FP/firmware/XGS2220-54FP_4.80(ACCE.1)C0.zip",
+      "checksum_scraped": "SHA1: 1DAD6F35CB7861954681EC08AE77334E1AF32641",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS2220-54FP",
+      "product_type": "Switch",
+      "version": "USBType-C(v11.2.0)",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/XGS2220-54FP/driver/XGS2220-54FP_USBType-C(v11.2.0).zip",
+      "checksum_scraped": "SHA1: 286BCD1468BF2F9122A943F1EA000F1C9C167E4F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-12HP",
+      "product_type": "Switch",
+      "version": "4.70(ABQF.4)C0",
+      "release_date": "2022-08-01",
+      "download_link": "https://download.zyxel.com/XS1930-12HP/firmware/XS1930-12HP_4.70(ABQF.4)C0.zip",
+      "checksum_scraped": "SHA1: 661F77D88A5EFC6D94B62127D2419180D969747D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-12HP",
+      "product_type": "Switch",
+      "version": "4.70(ABQF.2)C0",
+      "release_date": "2022-04-19",
+      "download_link": "https://download.zyxel.com/XS1930-12HP/firmware/XS1930-12HP_4.70(ABQF.2)C0.zip",
+      "checksum_scraped": "SHA1: 6E829FB0E8449273F12C620633AB9BDBE31AF80F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-12HP",
+      "product_type": "Switch",
+      "version": "4.70(ABQF.1)C0",
+      "release_date": "2022-04-19",
+      "download_link": "https://download.zyxel.com/XS1930-12HP/firmware/XS1930-12HP_4.70(ABQF.1)C0.zip",
+      "checksum_scraped": "SHA1: F5E87CA03D5C81F842F487B2868526351AAEC592",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-12F",
+      "product_type": "Switch",
+      "version": "4.70(ABZV.5)C0",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.zyxel.com/XS1930-12F/firmware/XS1930-12F_4.70(ABZV.5)C0.zip",
+      "checksum_scraped": "SHA1: 491348EFC867A0446E685D5F35918CFF31682A90",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-12F",
+      "product_type": "Switch",
+      "version": "4.70(ABZV.4)C0",
+      "release_date": "2022-08-01",
+      "download_link": "https://download.zyxel.com/XS1930-12F/firmware/XS1930-12F_4.70(ABZV.4)C0.zip",
+      "checksum_scraped": "SHA1: 0A5D3F4AB9C299A02052059F85867DE37FB5F547",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-12F",
+      "product_type": "Switch",
+      "version": "4.70(ABZV.2)C0",
+      "release_date": "2022-04-19",
+      "download_link": "https://download.zyxel.com/XS1930-12F/firmware/XS1930-12F_4.70(ABZV.2)C0.zip",
+      "checksum_scraped": "SHA1: 936EBD3C9A96150A6CB4CE906A383198A5DE2E8E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-10",
+      "product_type": "Switch",
+      "version": "4.70(ABQE.4)C0",
+      "release_date": "2022-08-01",
+      "download_link": "https://download.zyxel.com/XS1930-10/firmware/XS1930-10_4.70(ABQE.4)C0.zip",
+      "checksum_scraped": "SHA1: D03478099281EC735078A952336E589957D43214",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-10",
+      "product_type": "Switch",
+      "version": "4.70(ABQE.2)C0",
+      "release_date": "2022-04-19",
+      "download_link": "https://download.zyxel.com/XS1930-10/firmware/XS1930-10_4.70(ABQE.2)C0.zip",
+      "checksum_scraped": "SHA1: B4CBA624F0029A9D710DE3BF715BF5E3497ACCB3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XS1930-10",
+      "product_type": "Switch",
+      "version": "4.70(ABQE.1)C0",
+      "release_date": "2022-04-19",
+      "download_link": "https://download.zyxel.com/XS1930-10/firmware/XS1930-10_4.70(ABQE.1)C0.zip",
+      "checksum_scraped": "SHA1: 8040C1B3053CC8C27BE107659827F372EEC95E54",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-28HP",
+      "product_type": "Switch",
+      "version": "4.70(ABHS.5)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/XGS1930-28HP/firmware/XGS1930-28HP_4.70(ABHS.5)C0.zip",
+      "checksum_scraped": "SHA1: 6F467F81B09CACBD342130D8754AFCE4D054E23C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-28HP",
+      "product_type": "Switch",
+      "version": "4.70(ABHS.4)C0",
+      "release_date": "2022-12-18",
+      "download_link": "https://download.zyxel.com/XGS1930-28HP/firmware/XGS1930-28HP_4.70(ABHS.4)C0.zip",
+      "checksum_scraped": "SHA1: 33D6A704D1D11DA221144A96EBFE2E2D79B080B3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-28HP",
+      "product_type": "Switch",
+      "version": "4.70(ABHS.3)C0",
+      "release_date": "2021-11-26",
+      "download_link": "https://download.zyxel.com/XGS1930-28HP/firmware/XGS1930-28HP_4.70(ABHS.3)C0.zip",
+      "checksum_scraped": "SHA1: 452E7AC4116D3E88EE38DD6C4C0EADEC0A3AB65A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-52HP",
+      "product_type": "Switch",
+      "version": "4.70(ABHV.5)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/XGS1930-52HP/firmware/XGS1930-52HP_4.70(ABHV.5)C0.zip",
+      "checksum_scraped": "SHA1: B4EFF00781DE3C1711E38C28004249DDDC3BF0F0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-52HP",
+      "product_type": "Switch",
+      "version": "4.70(ABHV.4)C0",
+      "release_date": "2022-12-18",
+      "download_link": "https://download.zyxel.com/XGS1930-52HP/firmware/XGS1930-52HP_4.70(ABHV.4)C0.zip",
+      "checksum_scraped": "SHA1: 5B7893E039EE73F734F6D314AA488F1AEF687532",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-52HP",
+      "product_type": "Switch",
+      "version": "4.70(ABHV.3)C0",
+      "release_date": "2021-11-26",
+      "download_link": "https://download.zyxel.com/XGS1930-52HP/firmware/XGS1930-52HP_4.70(ABHV.3)C0.zip",
+      "checksum_scraped": "SHA1: C92721842985ABE24D03F095F879FAD599AD0877",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-28",
+      "product_type": "Switch",
+      "version": "4.70(ABHT.5)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/XGS1930-28/firmware/XGS1930-28_4.70(ABHT.5)C0.zip",
+      "checksum_scraped": "SHA1: 6D5384D2C3A26B76C27DA8681B6D79ED5BE4C0A7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-28",
+      "product_type": "Switch",
+      "version": "4.70(ABHT.4)C0",
+      "release_date": "2022-12-18",
+      "download_link": "https://download.zyxel.com/XGS1930-28/firmware/XGS1930-28_4.70(ABHT.4)C0.zip",
+      "checksum_scraped": "SHA1: AA9683CE75E50D396545F9BC19941F7769B85D98",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-28",
+      "product_type": "Switch",
+      "version": "4.70(ABHT.3)C0",
+      "release_date": "2021-11-26",
+      "download_link": "https://download.zyxel.com/XGS1930-28/firmware/XGS1930-28_4.70(ABHT.3)C0.zip",
+      "checksum_scraped": "SHA1: D5884E58CE8DC7EF86991FC07DA19E83C27887EF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-52",
+      "product_type": "Switch",
+      "version": "4.70(ABHU.5)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/XGS1930-52/firmware/XGS1930-52_4.70(ABHU.5)C0.zip",
+      "checksum_scraped": "SHA1: 79119A00AAA9B0ECBF65B23243AABE2F3F411D13",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-52",
+      "product_type": "Switch",
+      "version": "4.70(ABHU.4)C0",
+      "release_date": "2022-12-18",
+      "download_link": "https://download.zyxel.com/XGS1930-52/firmware/XGS1930-52_4.70(ABHU.4)C0.zip",
+      "checksum_scraped": "SHA1: 3EFBF1886ED0D63AE01698DC5F3FCD474F87FD1F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "XGS1930-52",
+      "product_type": "Switch",
+      "version": "4.70(ABHU.4)C0",
+      "release_date": "2022-12-18",
+      "download_link": "https://download.zyxel.com/XGS1930-52/firmware/XGS1930-52_4.70(ABHU.4)C0.zip",
+      "checksum_scraped": "SHA1: 3EFBF1886ED0D63AE01698DC5F3FCD474F87FD1F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-8",
+      "product_type": "Switch",
+      "version": "V4.70(ACAP.3)C0",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/GS1915-8/firmware/GS1915-8_V4.70(ACAP.3)C0.zip",
+      "checksum_scraped": "SHA1: AF799586F9ED0F857EFFEF4F4A0548DD85B0EB84",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-8",
+      "product_type": "Switch",
+      "version": "V4.70(ACAP.2)C0",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.zyxel.com/GS1915-8/firmware/GS1915-8_V4.70(ACAP.2)C0.zip",
+      "checksum_scraped": "SHA1: B918482E7EF534E4866D530D793B5372C152DF7C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-8",
+      "product_type": "Switch",
+      "version": "V4.70(ACAP.0)C0",
+      "release_date": "2022-01-18",
+      "download_link": "https://download.zyxel.com/GS1915-8/firmware/GS1915-8_V4.70(ACAP.0)C0.zip",
+      "checksum_scraped": "SHA1: 76AB47992A1D02D33397CC69A2BB9175112E9E2E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-24EP",
+      "product_type": "Switch",
+      "version": "4.70(ACDS.3)C0",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/GS1915-24EP/firmware/GS1915-24EP_4.70(ACDS.3)C0.zip",
+      "checksum_scraped": "SHA1: 12DB04F3D0E6DB0ED21C67243B8B0D389C3232B0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-24EP",
+      "product_type": "Switch",
+      "version": "4.70(ACDS.2)C0",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.zyxel.com/GS1915-24EP/firmware/GS1915-24EP_4.70(ACDS.2)C0.zip",
+      "checksum_scraped": "SHA1: 1C942F7188D7B72BCEA459059486699CD1FF463F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-24EP",
+      "product_type": "Switch",
+      "version": "4.70(ACDS.1)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/GS1915-24EP/firmware/GS1915-24EP_4.70(ACDS.1)C0.zip",
+      "checksum_scraped": "SHA1: 70387BE1DA37F7823DF15E4D40ADA31012324E82",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-24E",
+      "product_type": "Switch",
+      "version": "4.70(ACDR.3)C0",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/GS1915-24E/firmware/GS1915-24E_4.70(ACDR.3)C0.zip",
+      "checksum_scraped": "SHA1: 1FD4791CF07D94B9C1E6F4D69F23D0B0FA6EF76F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-24E",
+      "product_type": "Switch",
+      "version": "4.70(ACDR.2)C0",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.zyxel.com/GS1915-24E/firmware/GS1915-24E_4.70(ACDR.2)C0.zip",
+      "checksum_scraped": "SHA1: 9CF9620467AC2F744356935699539E267E390C79",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-24E",
+      "product_type": "Switch",
+      "version": "4.70(ACDR.1)C0",
+      "release_date": "2022-12-20",
+      "download_link": "https://download.zyxel.com/GS1915-24E/firmware/GS1915-24E_4.70(ACDR.1)C0.zip",
+      "checksum_scraped": "SHA1: 14C28982FA961E926463D4B083042B90F0558E01",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-8EP",
+      "product_type": "Switch",
+      "version": "V4.70(ACAQ.3)C0",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/GS1915-8EP/firmware/GS1915-8EP_V4.70(ACAQ.3)C0.zip",
+      "checksum_scraped": "SHA1: A2A4759B5228ACB6D2E08E55CC79B4F9F31F6AC0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-8EP",
+      "product_type": "Switch",
+      "version": "V4.70(ACAQ.2)C0",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.zyxel.com/GS1915-8EP/firmware/GS1915-8EP_V4.70(ACAQ.2)C0.zip",
+      "checksum_scraped": "SHA1: 96C921A6D6BE1062D3C89A123CC5D1392C54A875",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1915-8EP",
+      "product_type": "Switch",
+      "version": "V4.70(ACAQ.0)C0",
+      "release_date": "2022-01-18",
+      "download_link": "https://download.zyxel.com/GS1915-8EP/firmware/GS1915-8EP_V4.70(ACAQ.0)C0.zip",
+      "checksum_scraped": "SHA1: 19CAD80AC57E2091CD568282C0FEE8646B62EE6C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-24v2",
+      "product_type": "Switch",
+      "version": "4.70(ABMH.8)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-24v2/firmware/GS1920-24v2_4.70(ABMH.8)C0.zip",
+      "checksum_scraped": "SHA1: 6354FF063057FB405CC103980D0C16927CA211C8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-24v2",
+      "product_type": "Switch",
+      "version": "4.70(ABMH.7)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-24v2/firmware/GS1920-24v2_4.70(ABMH.7)C0.zip",
+      "checksum_scraped": "SHA1: D9D4A066D988B0961C62D28DE2A6D57E16D3F0B9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-24v2",
+      "product_type": "Switch",
+      "version": "4.70(ABMH.7)C0",
+      "release_date": "2022-09-16",
+      "download_link": "https://download.zyxel.com/GS1920-24v2/firmware/GS1920-24v2_4.70(ABMH.7)C0.zip",
+      "checksum_scraped": "SHA1: E5C20B20E66BD54FA2A55789DA81A8DDEBE816B6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-48v2",
+      "product_type": "Switch",
+      "version": "4.70(ABMJ.8)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-48v2/firmware/GS1920-48v2_4.70(ABMJ.8)C0.zip",
+      "checksum_scraped": "SHA1: ED78A9EA493E3F666C60DAFA8692FCB92E872FB3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-48v2",
+      "product_type": "Switch",
+      "version": "4.70(ABMJ.7)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-48v2/firmware/GS1920-48v2_4.70(ABMJ.7)C0.zip",
+      "checksum_scraped": "SHA1: 754FADC53ACF3BD4F5A0AA86377E3C5EB17B63B7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-48v2",
+      "product_type": "Switch",
+      "version": "4.70(ABMJ.7)C0",
+      "release_date": "2022-09-16",
+      "download_link": "https://download.zyxel.com/GS1920-48v2/firmware/GS1920-48v2_4.70(ABMJ.7)C0.zip",
+      "checksum_scraped": "SHA1: B445DBBDDC29E5E1832A6F044A9DC0A235CBD2BA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-48HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABMK.8)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-48HPv2/firmware/GS1920-48HPv2_4.70(ABMK.8)C0.zip",
+      "checksum_scraped": "SHA1: 1F7636B6377F7471EFB57FB28E5DB89AC2719218",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-48HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABMK.7)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-48HPv2/firmware/GS1920-48HPv2_4.70(ABMK.7)C0.zip",
+      "checksum_scraped": "SHA1: A966F05118A87741B370E3107F4385CB4D777C12",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-48HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABMK.7)C0",
+      "release_date": "2022-09-16",
+      "download_link": "https://download.zyxel.com/GS1920-48HPv2/firmware/GS1920-48HPv2_4.70(ABMK.7)C0.zip",
+      "checksum_scraped": "SHA1: 672162E0BD7353348EE065FA9FA7225BFECA3581",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-8HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABKZ.8)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-8HPv2/firmware/GS1920-8HPv2_4.70(ABKZ.8)C0.zip",
+      "checksum_scraped": "SHA1: CCEB0B625551040CE937E018B945FC94BDCC5447",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-8HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABKZ.7)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-8HPv2/firmware/GS1920-8HPv2_4.70(ABKZ.7)C0.zip",
+      "checksum_scraped": "SHA1: 56C91CFAD97B7FA141BC6034CEA93A0D57A54B71",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-8HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABKZ.7)C0",
+      "release_date": "2022-09-16",
+      "download_link": "https://download.zyxel.com/GS1920-8HPv2/firmware/GS1920-8HPv2_4.70(ABKZ.7)C0.zip",
+      "checksum_scraped": "SHA1: 318A977AA29499FA7459D1A3D09FA9EDD77963EF",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-24HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABMI.8)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-24HPv2/firmware/GS1920-24HPv2_4.70(ABMI.8)C0.zip",
+      "checksum_scraped": "SHA1: 0D510D01B60CD4F7F4705B61E44158CDC97C9D66",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-24HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABMI.7)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1920-24HPv2/firmware/GS1920-24HPv2_4.70(ABMI.7)C0.zip",
+      "checksum_scraped": "SHA1: 74E68002859EF6721955B5DA7734A3437D20D4D1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1920-24HPv2",
+      "product_type": "Switch",
+      "version": "4.70(ABMI.7)C0",
+      "release_date": "2022-09-16",
+      "download_link": "https://download.zyxel.com/GS1920-24HPv2/firmware/GS1920-24HPv2_4.70(ABMI.7)C0.zip",
+      "checksum_scraped": "SHA1: 88D699B653484A4A3826D7A88CA5042D452FEC17",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-16",
+      "product_type": "Switch",
+      "version": "2.70(AAHJ.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-16/firmware/GS1900-16_2.70(AAHJ.3)C0.zip",
+      "checksum_scraped": "SHA1: 8C83D676D7D53F36B55F9DE638D891FE146A9EF8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-16",
+      "product_type": "Switch",
+      "version": "2.60(AAHJ.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-16/firmware/GS1900-16_2.60(AAHJ.4)C0.zip",
+      "checksum_scraped": "SHA1: 67555E4E6795EDA5415892F9215DAEC2CE767923",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-16",
+      "product_type": "Switch",
+      "version": "2.60(AAHJ.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-16/firmware/GS1900-16_2.60(AAHJ.3)C0.zip",
+      "checksum_scraped": "SHA1: AE888E0919741CD9ECB07BFCA46CC0883FCE55BC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24E",
+      "product_type": "Switch",
+      "version": "2.70(AAHK.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-24E/firmware/GS1900-24E_2.70(AAHK.3)C0.zip",
+      "checksum_scraped": "SHA1: 17FAAE8E4AA71190EE408306EB2E485A63DF140A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24E",
+      "product_type": "Switch",
+      "version": "2.60(AAHK.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-24E/firmware/GS1900-24E_2.60(AAHK.4)C0.zip",
+      "checksum_scraped": "SHA1: 1BFFD20D4DBCDC98FAE8DE8C64BF370A98B02141",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24E",
+      "product_type": "Switch",
+      "version": "2.60(AAHK.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-24E/firmware/GS1900-24E_2.60(AAHK.3)C0.zip",
+      "checksum_scraped": "SHA1: 0D04584BC1BA3E31F845A47EF36819CD9FA7DBD9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-48",
+      "product_type": "Switch",
+      "version": "2.70(AAHN.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-48/firmware/GS1900-48_2.70(AAHN.3)C0.zip",
+      "checksum_scraped": "SHA1: F3B6FFC288B247E8A5C7B34364B7F248EB7A4349",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-48",
+      "product_type": "Switch",
+      "version": "2.60(AAHN.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-48/firmware/GS1900-48_2.60(AAHN.4)C0.zip",
+      "checksum_scraped": "SHA1: 88B4BB9C628E06ABB484E6689FADE0F53321B423",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-48",
+      "product_type": "Switch",
+      "version": "2.60(AAHN.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-48/firmware/GS1900-48_2.60(AAHN.3)C0.zip",
+      "checksum_scraped": "SHA1: 51A1DC3464C9B8B4174D2136EC7E178F2AA93349",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-8HP",
+      "product_type": "Switch",
+      "version": "2.70(AAHI.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-8HP/firmware/GS1900-8HP_2.70(AAHI.3)C0.zip",
+      "checksum_scraped": "SHA1: 01A649A29DCCB73476A575DF52E915785017F26B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-8HP",
+      "product_type": "Switch",
+      "version": "2.60(AAHI.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-8HP/firmware/GS1900-8HP_2.60(AAHI.4)C0.zip",
+      "checksum_scraped": "SHA1: 21ED0FE7EBAFFAF531EEAB55F5548FC68766154F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-8HP",
+      "product_type": "Switch",
+      "version": "2.60(AAHI.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-8HP/firmware/GS1900-8HP_2.60(AAHI.3)C0.zip",
+      "checksum_scraped": "SHA1: 17E507AFA5FB9B53DBBC03068B7422D4C2496309",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24",
+      "product_type": "Switch",
+      "version": "2.70(AAHL.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-24/firmware/GS1900-24_2.70(AAHL.3)C0.zip",
+      "checksum_scraped": "SHA1: ADFF7BD950FA72B42E99C8B438410332B65B0558",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24",
+      "product_type": "Switch",
+      "version": "2.60(AAHL.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-24/firmware/GS1900-24_2.60(AAHL.4)C0.zip",
+      "checksum_scraped": "SHA1: 341E82AE6EF288CFDE24CA4701F4E01ADF457FC7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24",
+      "product_type": "Switch",
+      "version": "2.60(AAHL.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-24/firmware/GS1900-24_2.60(AAHL.3)C0.zip",
+      "checksum_scraped": "SHA1: 192779F4276C9551AA5694F2DB3DA00290A38C9A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-10HP",
+      "product_type": "Switch",
+      "version": "2.70(AAZI.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-10HP/firmware/GS1900-10HP_2.70(AAZI.3)C0.zip",
+      "checksum_scraped": "SHA1: C65147542834BD3036D2F2FA270605B9A1571192",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-10HP",
+      "product_type": "Switch",
+      "version": "2.60(AAZI.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-10HP/firmware/GS1900-10HP_2.60(AAZI.4)C0.zip",
+      "checksum_scraped": "SHA1: 009B0FCBE9A95C72D79952E7CE4286E957D1460B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-10HP",
+      "product_type": "Switch",
+      "version": "2.60(AAZI.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-10HP/firmware/GS1900-10HP_2.60(AAZI.3)C0.zip",
+      "checksum_scraped": "SHA1: 28C9C5A4CA6D5E63D521215993E9199BB932B04D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24EP",
+      "product_type": "Switch",
+      "version": "2.70(ABTO.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-24EP/firmware/GS1900-24EP_2.70(ABTO.3)C0.zip",
+      "checksum_scraped": "SHA1: 0B84D0C00C09ACBA21460E9D77B744ED51824524",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24EP",
+      "product_type": "Switch",
+      "version": "2.60(ABTO.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-24EP/firmware/GS1900-24EP_2.60(ABTO.4)C0.zip",
+      "checksum_scraped": "SHA1: F14A772F4C871EF29FD68C3FF5669DEE3907847B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24EP",
+      "product_type": "Switch",
+      "version": "2.60(ABTO.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-24EP/firmware/GS1900-24EP_2.60(ABTO.3)C0.zip",
+      "checksum_scraped": "SHA1: 961DB20FCB3170A9A1E526DAEA99573F668122DB",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24HPv2",
+      "product_type": "Switch",
+      "version": "2.70(ABTP.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-24HPv2/firmware/GS1900-24HPv2_2.70(ABTP.3)C0.zip",
+      "checksum_scraped": "SHA1: 6729511D4872829B1DDDDC4DFF10133B6C57E8AB",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24HPv2",
+      "product_type": "Switch",
+      "version": "2.60(ABTP.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-24HPv2/firmware/GS1900-24HPv2_2.60(ABTP.4)C0.zip",
+      "checksum_scraped": "SHA1: 217626434583D795BB713D12584AC1F2E3336A03",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-24HPv2",
+      "product_type": "Switch",
+      "version": "2.60(ABTP.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-24HPv2/firmware/GS1900-24HPv2_2.60(ABTP.3)C0.zip",
+      "checksum_scraped": "SHA1: CCECD9B8982D12D728739CC940ABB1C0259FBE75",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-48HPv2",
+      "product_type": "Switch",
+      "version": "2.70(ABTQ.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-48HPv2/firmware/GS1900-48HPv2_2.70(ABTQ.3)C0.zip",
+      "checksum_scraped": "SHA1: 3BBB65B6C75535EE9E35FD7B287990DDEE6B61DC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-48HPv2",
+      "product_type": "Switch",
+      "version": "2.60(ABTQ.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-48HPv2/firmware/GS1900-48HPv2_2.60(ABTQ.4)C0.zip",
+      "checksum_scraped": "SHA1: 8AAB64CCBA28CA47C9B32BD19B780F643FAE16BA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-48HPv2",
+      "product_type": "Switch",
+      "version": "2.60(ABTQ.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-48HPv2/firmware/GS1900-48HPv2_2.60(ABTQ.3)C0.zip",
+      "checksum_scraped": "SHA1: 36031F947B5EDD0D7DCF249B4C3BE0C985698380",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-8",
+      "product_type": "Switch",
+      "version": "2.70(AAHH.3)C0",
+      "release_date": "2022-11-01",
+      "download_link": "https://download.zyxel.com/GS1900-8/firmware/GS1900-8_2.70(AAHH.3)C0.zip",
+      "checksum_scraped": "SHA1: B47B24745BA1F3309A91D49E017199FC6D6691F4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-8",
+      "product_type": "Switch",
+      "version": "2.60(AAHH.4)C0",
+      "release_date": "2021-12-15",
+      "download_link": "https://download.zyxel.com/GS1900-8/firmware/GS1900-8_2.60(AAHH.4)C0.zip",
+      "checksum_scraped": "SHA1: 3BA3675223650B67F126317A15FFD29273BDC50A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1900-8",
+      "product_type": "Switch",
+      "version": "2.60(AAHH.3)C0",
+      "release_date": "2021-02-02",
+      "download_link": "https://download.zyxel.com/GS1900-8/firmware/GS1900-8_2.60(AAHH.3)C0.zip",
+      "checksum_scraped": "SHA1: A4D5CC8099835CD864C77D60631B98C9DE1FFAEC",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-12HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPJ.5)C0",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/GS1350-12HP/firmware/GS1350-12HP_4.70(ABPJ.5)C0.zip",
+      "checksum_scraped": "SHA1: FB09945D856A88AA9B0B692B817592EA19F4ECCA",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-12HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPJ.4)C0",
+      "release_date": "2022-09-14",
+      "download_link": "https://download.zyxel.com/GS1350-12HP/firmware/GS1350-12HP_4.70(ABPJ.4)C0.zip",
+      "checksum_scraped": "SHA1: DE343EA2103330A2AD25CA7BF6BA79408DEAB33C",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-12HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPJ.1)C0",
+      "release_date": "2021-04-27",
+      "download_link": "https://download.zyxel.com/GS1350-12HP/firmware/GS1350-12HP_4.70(ABPJ.1)C0.zip",
+      "checksum_scraped": "SHA1: 4F74AC9AF775B85EDA3A7071CC34EB5173B00331",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-26HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPL.5)C0",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/GS1350-26HP/firmware/GS1350-26HP_4.70(ABPL.5)C0.zip",
+      "checksum_scraped": "SHA1: 0E94C966FBE51C91ED335A5BE33679A7A4384A1D",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-26HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPL.4)C0",
+      "release_date": "2022-09-14",
+      "download_link": "https://download.zyxel.com/GS1350-26HP/firmware/GS1350-26HP_4.70(ABPL.4)C0.zip",
+      "checksum_scraped": "SHA1: BC3B6127C6B0A2B640F40C1D472AF3165D64A747",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-26HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPL.1)C0",
+      "release_date": "2021-04-27",
+      "download_link": "https://download.zyxel.com/GS1350-26HP/firmware/GS1350-26HP_4.70(ABPL.1)C0.zip",
+      "checksum_scraped": "SHA1: ABF679AC14A82B79A37F7BC49970AAB890263F3E",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-6HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPI.5)C0",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/GS1350-6HP/firmware/GS1350-6HP_4.70(ABPI.5)C0.zip",
+      "checksum_scraped": "SHA1: F8153C40881BB5227CD7BACE473F2E7F476FEF66",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-6HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPI.4)C0",
+      "release_date": "2022-09-14",
+      "download_link": "https://download.zyxel.com/GS1350-6HP/firmware/GS1350-6HP_4.70(ABPI.4)C0.zip",
+      "checksum_scraped": "SHA1: 4EC16F5B3AE499875FF0196521356ACA163B9716",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-6HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPI.1)C0",
+      "release_date": "2021-04-27",
+      "download_link": "https://download.zyxel.com/GS1350-6HP/firmware/GS1350-6HP_4.70(ABPI.1)C0.zip",
+      "checksum_scraped": "SHA1: C69569CAD6BA9477DB93EDDBAC14E96E340C8FC5",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-18HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPK.5)C0",
+      "release_date": "2022-11-16",
+      "download_link": "https://download.zyxel.com/GS1350-18HP/firmware/GS1350-18HP_4.70(ABPK.5)C0.zip",
+      "checksum_scraped": "SHA1: 3D49B2E36FA4BBE10F98A09C66AF898A929510A3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-18HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPK.4)C0",
+      "release_date": "2022-09-14",
+      "download_link": "https://download.zyxel.com/GS1350-18HP/firmware/GS1350-18HP_4.70(ABPK.4)C0.zip",
+      "checksum_scraped": "SHA1: 0203C90BC6C19095F696CC3B95E780CBA6603FC8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1350-18HP",
+      "product_type": "Switch",
+      "version": "4.70(ABPK.1)C0",
+      "release_date": "2021-04-27",
+      "download_link": "https://download.zyxel.com/GS1350-18HP/firmware/GS1350-18HP_4.70(ABPK.1)C0.zip",
+      "checksum_scraped": "SHA1: D7C76996271ACD1A0869BD0205B337470572248A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1200-5",
+      "product_type": "Switch",
+      "version": "V2.00(ABKM.2)C0",
+      "release_date": "2022-11-09",
+      "download_link": "https://download.zyxel.com/GS1200-5/firmware/GS1200-5_V2.00(ABKM.2)C0.zip",
+      "checksum_scraped": "SHA1: FA20B79DFB1D47E1BB86CF2FF80A6ECB21483041",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1200-5",
+      "product_type": "Switch",
+      "version": "V2.00(ABKM.1)C0",
+      "release_date": "2021-12-13",
+      "download_link": "https://download.zyxel.com/GS1200-5/firmware/GS1200-5_V2.00(ABKM.1)C0.zip",
+      "checksum_scraped": "SHA1: A9A1E379DF059341536C9102F357614858B8E368",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1200-5",
+      "product_type": "Switch",
+      "version": "V2.00(ABKM.0)C0",
+      "release_date": "2021-01-20",
+      "download_link": "https://download.zyxel.com/GS1200-5/firmware/GS1200-5_V2.00(ABKM.0)C0.zip",
+      "checksum_scraped": "SHA1: EA7EB36405AA3F80E5321FB97D1B9D3F1E5A777B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1200-8",
+      "product_type": "Switch",
+      "version": "V2.00(ABME.2)C0",
+      "release_date": "2022-11-09",
+      "download_link": "https://download.zyxel.com/GS1200-8/firmware/GS1200-8_V2.00(ABME.2)C0.zip",
+      "checksum_scraped": "SHA1: 2AB4AE5CB2AF894FA8D678D819BB71E8E750CB34",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1200-8",
+      "product_type": "Switch",
+      "version": "V2.00(ABME.1)C0",
+      "release_date": "2021-12-13",
+      "download_link": "https://download.zyxel.com/GS1200-8/firmware/GS1200-8_V2.00(ABME.1)C0.zip",
+      "checksum_scraped": "SHA1: 65E4D90F2087D7889A688A18C2C22B3072E053AE",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "GS1200-8",
+      "product_type": "Switch",
+      "version": "V2.00(ABME.0)C0",
+      "release_date": "2020-11-09",
+      "download_link": "https://download.zyxel.com/GS1200-8/firmware/GS1200-8_V2.00(ABME.0)C0.zip",
+      "checksum_scraped": "SHA1: BB0FC2E455FF73DBF5A339FD96191DE0C98C942F",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VES1724-55C",
+      "product_type": "DSL CPE",
+      "version": "1.00(AATL.9)C0",
+      "release_date": "2018-12-25",
+      "download_link": "https://download.zyxel.com/VES1724-55C/firmware/VES1724-55C_1.00(AATL.9)C0.zip",
+      "checksum_scraped": "SHA1: 203D7AA247AE3C56B7ADEC18D79251293E585041",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VES1724-55C",
+      "product_type": "DSL CPE",
+      "version": "1.00(AATL.8)C0",
+      "release_date": "2018-04-19",
+      "download_link": "https://download.zyxel.com/VES1724-55C/firmware/VES1724-55C_1.00(AATL.8)C0.zip",
+      "checksum_scraped": "SHA1: 956A58A1B75D35FB2DBFF4FAAC1710D7699C9439",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VES1724-55C",
+      "product_type": "DSL CPE",
+      "version": "1.00(AATL.5)C0",
+      "release_date": "2017-04-06",
+      "download_link": "https://download.zyxel.com/VES1724-55C/firmware/VES1724-55C_1.00(AATL.5)C0.zip",
+      "checksum_scraped": "SHA1: 693C9B20BE881C396955CE7F2599D956571C12DD",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VES1724-56B2",
+      "product_type": "DSL CPE",
+      "version": "1.00(AARC.10)C0",
+      "release_date": "2018-12-25",
+      "download_link": "https://download.zyxel.com/VES1724-56B2/firmware/VES1724-56B2_1.00(AARC.10)C0.zip",
+      "checksum_scraped": "SHA1: B8D3C63F9167A941790F21442FE3BA4C128A077B",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VES1724-56B2",
+      "product_type": "DSL CPE",
+      "version": "1.00(AARC.9)C0",
+      "release_date": "2018-04-19",
+      "download_link": "https://download.zyxel.com/VES1724-56B2/firmware/VES1724-56B2_1.00(AARC.9)C0.zip",
+      "checksum_scraped": "SHA1: D6280C6F5EDB1D87E93059217B05C6FB3940C57A",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Zyxel",
+      "product_name": "VES1724-56B2",
+      "product_type": "DSL CPE",
+      "version": "1.00(AARC.6)C0",
+      "release_date": "2017-12-09",
+      "download_link": "https://download.zyxel.com/VES1724-56B2/firmware/VES1724-56B2_1.00(AARC.6)C0.zip",
+      "checksum_scraped": "SHA1: 3C4A040B42C627B6260E0005F9611570E1D640CC",
+      "additional_data": {}
+    }
+  ]
