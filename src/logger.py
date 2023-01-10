@@ -81,7 +81,7 @@ logging.Logger.important = partialmethod(logging.Logger.log, logging.IMPORTANT)
 logging.important = partial(logging.log, logging.IMPORTANT)
 
 
-def create_logger(level: str = "IMPORTANT"):
+def create_logger(level: str = "IMPORTANT", name: str = "scraper"):
     if level == "INFO":
         con_level = logging.INFO
     else:
@@ -89,7 +89,7 @@ def create_logger(level: str = "IMPORTANT"):
 
     file_path = str(Path(__file__).parent) + "/logs.log"
 
-    logger = logging.getLogger("scraper")
+    logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
 
     format = logging.Formatter(
