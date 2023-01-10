@@ -282,3 +282,6 @@ class RockwellScraper:
 #     with open(r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\src\Vendors\Rockwell\firmware2.json", "w") as fw_file:
 #         json.dump(RWS.list_of_product_dicts, fw_file)
 #     #RWS.download_firmware(RWS.list_of_product_dicts)f
+
+# Rockwell	0	2023-01-08	2023-01-09	RockwellScraper
+
