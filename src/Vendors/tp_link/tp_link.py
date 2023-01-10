@@ -184,7 +184,7 @@ class TPLinkScraper(Scraper):
 if __name__ == "__main__":
     logger = create_logger(level="INFO")
 
-    scraper = TPLinkScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=200, headless=False)
+    scraper = TPLinkScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=50, headless=False)
 
     firmware_data = scraper.scrape_metadata()
     with open("../../../scraped_metadata/firmware_data_tp-link.json", "w") as firmware_file:
