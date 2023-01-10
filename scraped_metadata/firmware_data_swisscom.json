@@ -2,7 +2,7 @@
   {
     "manufacturer": "Swisscom",
     "product_name": "Internet-Box 4",
-    "product_type": "internetrouter",
+    "product_type": "Internet router",
     "version": "13.01.24",
     "release_date": null,
     "checksum_scraped": null,
@@ -12,7 +12,7 @@
   {
     "manufacturer": "Swisscom",
     "product_name": "Internet-Box 3",
-    "product_type": "internetrouter",
+    "product_type": "Internet router",
     "version": "13.01.24",
     "release_date": null,
     "checksum_scraped": null,
@@ -22,7 +22,7 @@
   {
     "manufacturer": "Swisscom",
     "product_name": "Internet-Box 2",
-    "product_type": "internetrouter",
+    "product_type": "Internet router",
     "version": "13.01.24",
     "release_date": null,
     "checksum_scraped": null,
@@ -32,7 +32,7 @@
   {
     "manufacturer": "Swisscom",
     "product_name": "Internet-Box plus",
-    "product_type": "internetrouter",
+    "product_type": "Internet router",
     "version": "11.04.22",
     "release_date": null,
     "checksum_scraped": null,
@@ -42,7 +42,7 @@
   {
     "manufacturer": "Swisscom",
     "product_name": "Internet-Box standard",
-    "product_type": "internetrouter",
+    "product_type": "Internet router",
     "version": "11.04.22",
     "release_date": null,
     "checksum_scraped": null,
@@ -52,7 +52,7 @@
   {
     "manufacturer": "Swisscom",
     "product_name": "Internet-Box light",
-    "product_type": "internetrouter",
+    "product_type": "Internet router",
     "version": "08.06.06",
     "release_date": null,
     "checksum_scraped": null,
@@ -62,7 +62,7 @@
   {
     "manufacturer": "Swisscom",
     "product_name": "Centro Business 1.0",
-    "product_type": "internetrouter",
+    "product_type": "Internet router",
     "version": "7.12.20 sig",
     "release_date": null,
     "checksum_scraped": null,
@@ -71,8 +71,8 @@
   },
   {
     "manufacturer": "Swisscom",
-    "product_name": "WLAN-Box 3",
-    "product_type": "heimvernetzung",
+    "product_name": "",
+    "product_type": "Home networking accessories",
     "version": "13.06.45",
     "release_date": null,
     "checksum_scraped": null,
@@ -81,8 +81,8 @@
   },
   {
     "manufacturer": "Swisscom",
-    "product_name": "WLAN-Box 2",
-    "product_type": "heimvernetzung",
+    "product_name": "",
+    "product_type": "Home networking accessories",
     "version": "13.01.01",
     "release_date": null,
     "checksum_scraped": null,
@@ -91,8 +91,8 @@
   },
   {
     "manufacturer": "Swisscom",
-    "product_name": "WLAN-Box",
-    "product_type": "heimvernetzung",
+    "product_name": "",
+    "product_type": "Home networking accessories",
     "version": "13.01.03",
     "release_date": null,
     "checksum_scraped": null,

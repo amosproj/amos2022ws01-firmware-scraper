@@ -96,6 +96,14 @@ class SwisscomScraper(Scraper):
         CSS_SELECTOR_PRODUCT_CATEGORY_NAME_ROOT = "body > div.middle.responsiveHeader.cf > section > div.par.parsys > div.sdx-container.section > sdx-tabs > div"
         CSS_SELECTOR_IDS = ".tab-link"
 
+        # this mapping is used as a fallback in case a clean category name cannot be scraped
+        product_category_map = {
+            "internetrouter": "Internet router",
+            "heimvernetzung": "Home networking accessories",
+            "festnetz": "Fixed-network telephony",
+            "bluetv": "Swisscom blue tv",
+        }
+
         try:
             product_categories = self.driver.find_element(
                 by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_CATEGORY_NAME_ROOT
@@ -104,13 +112,22 @@ class SwisscomScraper(Scraper):
             product_ids = []
             for category in product_categories:
                 category_name = category.get_attribute("data-panel")
+
+                css_selector_product_category_name_clean_root = f"body > div.middle.responsiveHeader.cf > section > div.par.parsys > div > div[data-id='{category_name}']"
+                category_name_clean_root = self.driver.find_element(
+                    by=By.CSS_SELECTOR, value=css_selector_product_category_name_clean_root
+                )
+                category_name_clean = category_name_clean_root.find_element(by=By.CSS_SELECTOR, value=f"h2").text
+                if not category_name_clean and category_name in product_category_map:
+                    category_name_clean = product_category_map[category_name]
+
                 products = self.driver.find_element(
                     by=By.CSS_SELECTOR, value=f"div[data-id='{category_name}']"
                 ).find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_IDS)
 
                 for product in products:
                     product_id = product.get_attribute("data-panel")
-                    product_ids.append((category_name, product_id))
+                    product_ids.append((category_name_clean, product_id))
             return product_ids
 
         except WebDriverException as e:
