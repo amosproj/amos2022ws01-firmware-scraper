@@ -9,3 +9,6 @@ from .tp_link.tp_link import TPLinkScraper
 from .scraper import Scraper
 from .synology.synology import SynologyScraper
 from .swisscom.swisscom import SwisscomScraper
+from .Zyxel.Zyxel import ZyxelScraper
+from .ABB.ABB import ABBScraper
+from .Trendnet.Trendnet import TrendnetScraper
