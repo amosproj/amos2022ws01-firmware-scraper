@@ -35,7 +35,6 @@ class TrendnetScraper:
     def __get_product_download_links(self):
         self.driver.get(self.vendor_url)
         
-        #andere methode
         selector = self.driver.find_element(By.NAME, "subtype_id")
         options = selector.find_elements(By.XPATH, ".//*")
         
@@ -59,9 +58,9 @@ class TrendnetScraper:
         downlod_link = DOWNLOAD_BASE_LINK + ifile
         return downlod_link
     
+    #doesnt work properly bc some dates come in different format
     #convert date to Year-Month-Day
     def __convert_date(self, date_to_convert: str) -> str:
-        #5/2018
         splited_date = date_to_convert.split('/')
         
         if len(splited_date) < 2:
@@ -155,7 +154,7 @@ class TrendnetScraper:
             firmware_item["release_date"] = "2023-01-01"
             #firmware_item["release_date"] = self.__convert_date(release_date)
             firmware_item["download_link"] = download_link
-            firmware_item["checksum_scraped"] = check_sum
+            firmware_item["checksum_scraped"] = check_sum.lstrip()
 
             meta_data.append(firmware_item)
 
@@ -177,7 +176,6 @@ def main():
     meta_data = Scraper.scrape_metadata()
 
     print(json.dumps(meta_data))
-    #Scraper.test_scrape()
 
 if __name__ == "__main__":
     main()
