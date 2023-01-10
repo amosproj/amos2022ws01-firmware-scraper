@@ -272,7 +272,6 @@ class RockwellScraper:
 
         return self.list_of_product_dicts
 
-
 # if __name__ == "__main__":
 #
 #     logger = create_logger()
