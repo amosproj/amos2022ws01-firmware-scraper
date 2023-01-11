@@ -16,7 +16,7 @@ DOWNLOAD_URL_EN = "https://www.swisscom.ch/en/residential/help/device/firmware.h
 
 class SwisscomScraper(Scraper):
     def __init__(
-        self, logger, scrape_entry_url: str = DOWNLOAD_URL_EN, headless: bool = True, max_products: int = float("inf")
+        self, logger, scrape_entry_url: str = DOWNLOAD_URL_EN, headless: bool = False, max_products: int = float("inf")
     ):
         self.logger = logger
         self.scrape_entry_url = scrape_entry_url
@@ -31,7 +31,7 @@ class SwisscomScraper(Scraper):
         self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
         self.driver.implicitly_wait(0.5)  # has to be set only once
 
-    def _scrape_product_metadata(self, category_name: str, product_id: str) -> dict:
+    def _scrape_product_metadata(self, category_name: str, category_name_clean: str, product_id: str) -> dict:
         CSS_SELECTOR_SOFTWARE_VERSION = (
             "div:nth-child(5) > div > div > div > div > div.accordion__toggle > div.accordion__header > h4"
         )
@@ -43,6 +43,8 @@ class SwisscomScraper(Scraper):
         # access product category tab
         try:
             # self.driver.get(product_url)
+            print(self.driver.current_url)
+            print(product_category_url)
             if self.driver.current_url != product_category_url:
                 self.driver.get(product_category_url)
         except WebDriverException as e:
@@ -86,7 +88,7 @@ class SwisscomScraper(Scraper):
         return {
             "manufacturer": "Swisscom",
             "product_name": product_name,
-            "product_type": category_name,
+            "product_type": category_name_clean,
             "version": version,
             "release_date": None,
             "checksum_scraped": None,
@@ -129,7 +131,7 @@ class SwisscomScraper(Scraper):
 
                 for product in products:
                     product_id = product.get_attribute("data-panel")
-                    product_ids.append((category_name_clean, product_id))
+                    product_ids.append((category_name, category_name_clean, product_id))
             return product_ids
 
         except WebDriverException as e:
@@ -155,8 +157,8 @@ class SwisscomScraper(Scraper):
 
         product_ids = self._scrape_product_ids()
         extracted_data = []
-        for (cat_name, prod_id) in product_ids:
-            if metadata := self._scrape_product_metadata(cat_name, prod_id):
+        for (cat_name, cat_name_clean, prod_id) in product_ids:
+            if metadata := self._scrape_product_metadata(cat_name, cat_name_clean, prod_id):
                 extracted_data.append(metadata)
 
         self.logger.info(f"Finished scraping metadata of firmware products. Return metadata to core.")
