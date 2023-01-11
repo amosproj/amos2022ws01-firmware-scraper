@@ -42,9 +42,6 @@ class SwisscomScraper(Scraper):
 
         # access product category tab
         try:
-            # self.driver.get(product_url)
-            print(self.driver.current_url)
-            print(product_category_url)
             if self.driver.current_url != product_category_url:
                 self.driver.get(product_category_url)
         except WebDriverException as e:
