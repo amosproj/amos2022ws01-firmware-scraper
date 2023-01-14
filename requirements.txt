@@ -55,4 +55,4 @@ pytest-cov==4.0.0
 pytest==7.2.0
 openpyxl==3.0.10
 loguru==0.6.0
-beautifulsoup4=4.11.1
+beautifulsoup4==4.11.1
