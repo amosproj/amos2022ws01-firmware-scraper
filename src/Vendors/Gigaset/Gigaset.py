@@ -41,6 +41,10 @@ class GigasetScraper:
             logger.info(f"Scraping {link}")
             self.driver.get(link)
 
+            import pdb
+
+            pdb.set_trace()
+
             CASE_1 = self.driver.find_elements(
                 By.CSS_SELECTOR, "a[data-linked-resource-type='attachment']"
             )
