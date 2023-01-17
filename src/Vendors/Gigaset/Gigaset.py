@@ -25,7 +25,7 @@ class GigasetScraper:
             self.logger.exception("Could not connect to Gigaset!")
             raise (e)
 
-    # TODO: get release_date and version
+    # TODO: get release_date
     def scrape_metadata(self) -> list[dict]:
         self.connect_webdriver()
 
@@ -40,10 +40,6 @@ class GigasetScraper:
 
             logger.info(f"Scraping {link}")
             self.driver.get(link)
-
-            import pdb
-
-            pdb.set_trace()
 
             CASE_1 = self.driver.find_elements(
                 By.CSS_SELECTOR, "a[data-linked-resource-type='attachment']"
@@ -67,11 +63,14 @@ class GigasetScraper:
             else:
                 continue
 
+            version = self.driver.find_elements(By.ID, "title-text")[0]
+            version = version.get_attribute("innerText").split()[-1]
+
             firmware_item = {
                 "manufacturer": "Gigaset",
                 "product_name": product_type,
                 "product_type": product_type,
-                "version": None,
+                "version": version,
                 "release_date": None,
                 "download_link": download_link,
                 "checksum_scraped": None,
@@ -83,7 +82,7 @@ class GigasetScraper:
         return self.catalog
 
     def get_attributes_to_compare(self) -> list[str]:
-        pass
+        return self.catalog["version"]
 
 
 if __name__ == "__main__":
