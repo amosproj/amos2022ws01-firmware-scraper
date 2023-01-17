@@ -13,3 +13,4 @@ from .swisscom.swisscom import SwisscomScraper
 from .Zyxel.Zyxel import ZyxelScraper
 from .ABB.ABB import ABBScraper
 from .Trendnet.Trendnet import TrendnetScraper
+from .Engenius.Engenius import EngeniusScraper
