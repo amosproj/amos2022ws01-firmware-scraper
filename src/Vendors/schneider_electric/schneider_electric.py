@@ -24,8 +24,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
-from logger import create_logger
-from Vendors.scraper import Scraper
+from src.logger import create_logger
+from src.Vendors.scraper import Scraper
 
 DOWNLOAD_URL_GLOBAL = (
     "https://www.se.com/ww/en/download/doc-group-type/3541958-Software%20&%20Firmware/?docType=1555893-Firmware"

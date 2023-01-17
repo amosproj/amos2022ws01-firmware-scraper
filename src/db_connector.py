@@ -12,17 +12,26 @@ import os
 import mysql.connector
 from mysql.connector import connect
 
+# if Docker flag set in ENV
+if os.getenv("DOCKER_PYTHON_SCRAPER"):
+    HOST = 'mysql_db'
+else:
+    HOST = "127.0.0.1"
+
 
 class DBConnector:
     def __init__(self):
-        self.db_user = 'amos'  # os.getenv("MYSQL_USER")
-        self.db_password = 'AMOSroot'  # os.getenv("MYSQL_PASSWORD")
+        self.db_user = os.getenv("MYSQL_USER")
+        self.db_password = os.getenv("MYSQL_PASSWORD")
         print(self.db_user, self.db_password)
+        print(HOST)
         # create firmware DB if it doesn't exist yet
         create_query = "CREATE DATABASE IF NOT EXISTS firmware;"
         try:
             with connect(
-                user=self.db_user, password=self.db_password, host="mysql_server", port="3306", db='firmware'
+                user=self.db_user,
+                password=self.db_password,
+                host=HOST,
             ) as con:
                 with con.cursor() as curser:
                     curser.execute(create_query)
@@ -63,9 +72,8 @@ class DBConnector:
         config = {
             "user": self.db_user,
             "password": self.db_password,
-            "host": "mysql_server",
-            "database": "firmware"  # ,
-            # "port": "3307",
+            "host": HOST,  # "127.0.0.1",  #
+            "database": "firmware",  # ,
         }
         try:
             con = mysql.connector.connect(**config)

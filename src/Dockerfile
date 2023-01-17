@@ -1,7 +1,7 @@
 # Dockerfile AMOS
 FROM python:3.10
 
-# install chtrome and chromedriver: https://gist.github.com/varyonic/dea40abcf3dd891d204ef235c6e8dd79
+# install chrome and chromedriver: https://gist.github.com/varyonic/dea40abcf3dd891d204ef235c6e8dd79
 RUN apt-get update && \
     apt-get install -y xvfb gnupg wget curl unzip --no-install-recommends && \
     wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
@@ -20,10 +20,22 @@ RUN mv /chromedriver/chromedriver /usr/bin/chromedriver
 
 # Set display port as an environment variable as selenium is using it
 ENV DISPLAY=:99
+ENV MYSQL_USER=amos
+ENV MYSQL_PASSWORD=AMOSroot
+# set flag so db_connecor.py routes to docker container mysql_db
+ENV DOCKER_PYTHON_SCRAPER=1
 
-# copy app
-WORKDIR /src
+# install dependencies
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
-COPY . .  
+
+# copy app
+# missing
+# create folder /src
+WORKDIR /amos_project
+# create folder test
+RUN mkdir src
+# change to folder src
+# copy code in src
+COPY . src
 CMD ["python", "-m", "src.core"]

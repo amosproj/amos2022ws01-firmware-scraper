@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-from Vendors.scraper import Scraper
+from src.Vendors.scraper import Scraper
 
 # # STATICS
 VENDOR_URL = 'https://www.foscam.com/downloads/index.html'

@@ -4,13 +4,13 @@ import time
 
 import pandas as pd
 
-from logger import create_logger
+from src.logger import create_logger
 
 # initialize logger
 logger = create_logger()
 
 
-def _check_vendors_to_update(schedule_file_path: str = "schedule.xlsx", logger=logger) -> list:
+def _check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logger=logger) -> list:
     """check if vendors need to be updated
 
     Args:
@@ -37,7 +37,7 @@ def _check_vendors_to_update(schedule_file_path: str = "schedule.xlsx", logger=l
     return vendor_list
 
 
-def check_vendors_to_update(schedule_file_path: str = "schedule.xlsx", logger=logger) -> list:
+def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logger=logger) -> list:
     """check if vendors need to be updated
 
     Args:
@@ -65,22 +65,22 @@ def check_vendors_to_update(schedule_file_path: str = "schedule.xlsx", logger=lo
 # TODO
 
 
-def update_schedule(schedule_file_path: str = "schedule.xlsx", logger=logger):
+def update_schedule(schedule_file_path: str = "src/schedule.xlsx", logger=logger):
     """update schedule file AFTER vendor finished
 
     Args:
-        schedule_file_path (str, optional): _description_. Defaults to "schedule.xlsx".
+        schedule_file_path (str, optional): _description_. Defaults to "src/schedule.xlsx".
         logger (_type_, optional): _description_. Defaults to logger.
     """
     schedule_file = pd.read_excel(
-        "schedule.xlsx")
+        "src/schedule.xlsx")
 
     next_update = row["Last_update"] + \
         datetime.timedelta(days=row["Intervall"])
     schedule_file.at[index, "Last_update"] = now
     schedule_file.at[index, "Next_update"] = next_update
 
-    schedule_file.to_excel("schedule.xlsx", index=False)
+    schedule_file.to_excel("src/schedule.xlsx", index=False)
     pass
 
 
