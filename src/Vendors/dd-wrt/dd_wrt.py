@@ -49,71 +49,76 @@ class DDWRTScraper(Scraper):
 
         return product_category
 
-    def _scrape_product_metadata(self, product_name: str, product_url: str) -> tuple[list[dict], dict]:
+    def _scrape_product_metadata(self, product_name: str, product_url: str) -> list[dict]:
         CSS_SELECTOR_TABLE_ELEMENTS = "#dd_downloads > table > tbody > tr"
         CSS_SELECTOR_URL = "td:nth-child(1) > a"
         CSS_SELECTOR_ENTRY_TYPE = "td:nth-child(2)"
         CSS_SELECTOR_RELEASE_DATE = "td:nth-child(4)"
 
-        # access product page
-        try:
-            self.driver.get(product_url)
-        except WebDriverException as e:
-            self.logger.warning(f"Could not access product URL '{product_url}'.")
-            return []
-
-        table_entries = []
-        try:
-            table_entries = self.driver.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_TABLE_ELEMENTS)
-            # The first 3 elements from the table are not real products
-            table_entries = table_entries[3:]
-        except WebDriverException as e:
-            self.logger.debug(f"Couldn't scrape download urls for '{product_url}'.")
-
         product_metadata = []
-        urls = {}
-        for i, entry in enumerate(table_entries):
+        # sometimes product tables contain subdirectories with additional firmware
+        # the url to these subdirectories is appended to the worklist to be scraped in the next iteration
+        worklist = [product_url]
+
+        while worklist:
+            # access product page
             try:
-                entry_el = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_URL)
-                entry_name = entry_el.text
-                url = entry_el.get_attribute("href")
+                self.driver.get(worklist[0])
             except WebDriverException as e:
-                self.logger.warning(f"Couldn't scrape URL for entry {i} in table '{product_url}'.")
-                return [], {}
+                self.logger.warning(f"Could not access product URL '{product_url}'.")
+                return []
 
+            table_entries = []
             try:
-                release_date = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_RELEASE_DATE).text
+                table_entries = self.driver.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_TABLE_ELEMENTS)
+                # The first 3 elements from the table are not real products
+                table_entries = table_entries[3:]
             except WebDriverException as e:
-                release_date = None
-                self.logger.warning(f"Couldn't scrape release date for entry {i} in table '{product_url}'.")
+                self.logger.warning(f"Couldn't scrape download urls for '{product_url}'.")
 
-            try:
-                entry_type = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_ENTRY_TYPE).text
-                if "DIR" in entry_type:
-                    sub_metadata, sub_urls = self._scrape_product_metadata(product_name, url)
-                    product_metadata.extend(sub_metadata)
-                    urls.update(sub_urls)
-                else:
-                    urls[entry_name] = url
-            except WebDriverException as e:
-                self.logger.warning(f"Couldn't scrape type for entry {i} in table '{product_url}'.")
+            for i, entry in enumerate(table_entries):
+                try:
+                    entry_el = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_URL)
+                    entry_name = entry_el.text
+                    # we exclude txt files from the scraped metadata
+                    if ".txt" in entry_name:
+                        continue
+                    url = entry_el.get_attribute("href")
+                except WebDriverException as e:
+                    self.logger.warning(f"Couldn't scrape URL for entry {i} in table '{product_url}'.")
+                    return []
 
-            product_metadata.append(
-                {
-                    "manufacturer": "DD-WRT",
-                    "product_name": product_name,
-                    # DD-WRT offers firmware for routers
-                    "product_type": "Router",
-                    # DD-WRT offers release dates instead of version numbers
-                    "version": None,
-                    "release_date": release_date,
-                    "checksum_scraped": None,
-                    "download_link": url,
-                    "additional_data": {},
-                }
-            )
+                try:
+                    release_date = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_RELEASE_DATE).text
+                except WebDriverException as e:
+                    release_date = None
+                    self.logger.warning(f"Couldn't scrape release date for entry {i} in table '{product_url}'.")
 
-        return product_metadata, urls
+                try:
+                    entry_type = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_ENTRY_TYPE).text
+                    if "DIR" in entry_type:
+                        worklist.append(url)
+                    else:
+                        product_metadata.append(
+                            {
+                                "manufacturer": "DD-WRT",
+                                "product_name": product_name,
+                                # DD-WRT offers firmware for routers
+                                "product_type": "Router",
+                                # DD-WRT offers release dates instead of version numbers
+                                "version": None,
+                                "release_date": release_date,
+                                "checksum_scraped": None,
+                                "download_link": url,
+                                "additional_data": {},
+                            }
+                        )
+                except WebDriverException as e:
+                    self.logger.warning(f"Couldn't scrape type for entry {i} in table '{product_url}'.")
+
+            worklist.pop(0)
+
+        return product_metadata
 
     def _scrape_product_urls(self) -> list[tuple]:
         CSS_SELECTOR_PRODUCT_ELEMENTS = "#dd_downloads > table > tbody > tr"
@@ -128,7 +133,7 @@ class DDWRTScraper(Scraper):
             return []
 
         product_urls = []
-        for product in products[24 : self.max_products]:
+        for product in products[: self.max_products]:
             try:
                 product_url_el = product.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_URL)
                 product_url = product_url_el.get_attribute("href")
@@ -185,8 +190,10 @@ class DDWRTScraper(Scraper):
 
         extracted_data = []
         for tuple_ in product_urls:
-            product_metadata, urls = self._scrape_product_metadata(*tuple_)
-            print(product_metadata, urls)
+            product_metadata = self._scrape_product_metadata(*tuple_)
+            extracted_data.extend(product_metadata)
+
+        return extracted_data
 
 
 if __name__ == "__main__":
