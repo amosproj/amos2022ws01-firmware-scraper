@@ -1,0 +1,2262 @@
+[
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1200H",
+      "product_type": "Indoor AP",
+      "version": "v3.1.2",
+      "release_date": "2019-09-16",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/09/16133559/EAP1200H_FWv3.1.2.1-all.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1200H",
+      "product_type": "Indoor AP",
+      "version": "20160505",
+      "release_date": "2018-12-24",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/12/24032806/EAP1200H_FW_v2.0.197_2016.05.05.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1200H",
+      "product_type": "Indoor AP",
+      "version": "20180803",
+      "release_date": "2018-09-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/24032534/EAP1200H_FW_v3.1.1_2018.08.03.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1250",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171725/EAP1250-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1250",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.7_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110845/EAP1250-v3.9.1.7_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1250",
+      "product_type": "Indoor AP",
+      "version": "v3.7.20.1_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26123728/EAP1250-v3.7.20.1_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300",
+      "product_type": "Indoor AP",
+      "version": "FWv3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171734/EAP1300-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.7_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110901/EAP1300-v3.9.1.7_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300",
+      "product_type": "Indoor AP",
+      "version": "v3.7.20.1_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26124702/EAP1300-v3.7.20.1_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300",
+      "product_type": "Indoor AP",
+      "version": "v3.7.8.2_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15141936/EAP1300-FWv3.7.8.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300",
+      "product_type": "Indoor AP",
+      "version": "v3.6.8_c1.9.30",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29145954/EAP1300_FWv3.6.8_c1.9.30_20200115.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300",
+      "product_type": "Indoor AP",
+      "version": "v3.3.1_c1.8.59",
+      "release_date": "2018-09-10",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/22103408/v3.3.1_c1.8.59_2018.04.10-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300EXT",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03173800/EAP1300EXT-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300EXT",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.7_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110853/EAP1300EXT-v3.9.1.7_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300EXT",
+      "product_type": "Indoor AP",
+      "version": "v3.7.20.1_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26123956/EAP1300EXT-v3.7.20.1_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300EXT",
+      "product_type": "Indoor AP",
+      "version": "v3.7.8.2_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15142138/EAP1300EXT-FWv3.7.8.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300EXT",
+      "product_type": "Indoor AP",
+      "version": "v3.6.8_c1.9.30",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29144935/EAP1300EXT_FWv3.6.8_c1.9.30_20200115.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300EXT",
+      "product_type": "Indoor AP",
+      "version": "v3.5.6_c1.9.04-all",
+      "release_date": "2019-06-21",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/06/21163022/EAP1300EXT_FWv3.5.6_c1.9.04-all_KIT.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1300EXT",
+      "product_type": "Indoor AP",
+      "version": "v3.3.1_c1.8.59",
+      "release_date": "2018-09-10",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/22102516/v3.3.1_c1.8.59_2018.04.10.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1750H",
+      "product_type": "Indoor AP",
+      "version": "v3.6.7_c1.9.30",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29150537/EAP1750H_FWv3.6.7_c1.9.30_20200115.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1750H",
+      "product_type": "Indoor AP",
+      "version": "v3.6.5_c1.9.30",
+      "release_date": "2019-09-30",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/09/30144905/EAP1750H_FWv3.6.5_c1.9.30_20190926.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1750H",
+      "product_type": "Indoor AP",
+      "version": "v3.5.0.2_c1.9.04 (all)",
+      "release_date": "2019-01-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/01/08152824/EAP1750H_FWv3.5.0.2_c1.9.04.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP1750H",
+      "product_type": "Indoor AP",
+      "version": "v3.1",
+      "release_date": "2018-09-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/11020042/EAP1750H_FWv3.1.1_20180803.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP2200",
+      "product_type": "Indoor AP",
+      "version": "v3.6.1_c1.9.20",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29151022/EAP2200_FWv3.6.1_c1.9.20_20200115.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP2200",
+      "product_type": "Indoor AP",
+      "version": "v3.5.1_c1.9.04",
+      "release_date": "2019-03-06",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/03/06123903/EAP2200_FWv3.5.1_c1.9.04_2018.12.18.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP2200",
+      "product_type": "Indoor AP",
+      "version": "v3.0.4_c1.8.59",
+      "release_date": "2018-09-10",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/10094019/v3.0.4_c1.8.59_2017.12.14-For-ETSI-only.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EAP350",
+      "product_type": "Indoor AP",
+      "version": "v1.6.50",
+      "release_date": "2018-09-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/11021249/ETSI.7z",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ECB1200",
+      "product_type": "Indoor AP",
+      "version": "20171102",
+      "release_date": "2018-12-24",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/12/24034943/ECB1200_FW_v3.0.0.4.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ECB1750",
+      "product_type": "Indoor AP",
+      "version": "201711_v3.0",
+      "release_date": "2018-09-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/11021844/v3.0.0_2017.11.02.7z",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS300AP",
+      "product_type": "Indoor AP",
+      "version": "v2.0.350.0_c1.8.57",
+      "release_date": "2019-01-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/01/08095424/EWS300_FWv2.0.350.0_c1.8.57.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS300AP",
+      "product_type": "Indoor AP",
+      "version": "v3.5.1_c1.9.04",
+      "release_date": "2018-09-13",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/13074504/v3.5.1_c1.9.04_2018.09.03-1.7z",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS310AP",
+      "product_type": "Indoor AP",
+      "version": "v3.0.45_c1.8.57",
+      "release_date": "2019-01-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/01/11125239/EWS310AP_FWv3.0.45_c1.8.57_2017.11.15.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS310AP",
+      "product_type": "Indoor AP",
+      "version": "v3.5.1_c1.9.04",
+      "release_date": "2018-09-13",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/13074712/v3.5.1_c1.9.04_2018.09.03-2.7z",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS330AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171808/EWS330AP-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS330AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.7_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110740/EWS330AP-v3.9.1.7_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS330AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.20.1_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26133412/EWS330AP-v3.7.20.1_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS350AP",
+      "product_type": "Indoor AP",
+      "version": "v3.5.0_c1.9.04 (All)",
+      "release_date": "2018-11-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/11/22094338/v3.5.0_c1.9.04_2018.09.28.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS350AP",
+      "product_type": "Indoor AP",
+      "version": "v3.0.7_c1.8.59",
+      "release_date": "2018-09-13",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/22094217/v3.0.7_c1.8.59_2017.11.15-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS355AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171817/EWS355AP-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS355AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.7_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110748/EWS355AP-v3.9.1.7_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS355AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.20.1_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26133521/EWS355AP-v3.7.20.1_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS355AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.8.2_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15143103/EWS355AP-FWv3.7.8.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS355AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.4_c1.9.51",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01151043/EWS355AP_FWv3.7.4_c1.9.51_20200821.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS357AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171845/EWS357APv3-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS357AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171836/EWS357APv2-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS357AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171826/EWS357APv1-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS357AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.24_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110757/EWS357APv2-v3.9.1.24_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS357AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.24_c1.9.51",
+      "release_date": "2021-09-30",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/09/30172708/EWS357APv3v3.9.1.24_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS357AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.11.5_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15143632/EWS357AP-v3.7.11.5_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS357AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.11.5_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15143400/EWS357APv2-FWv3.7.11.5_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS357AP",
+      "product_type": "Indoor AP",
+      "version": "v3.8.4_c1.9.51",
+      "release_date": "2021-02-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/08093359/EWS357APv3_FWv3.8.4_c1.9.51_2021.01.29.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS370AP",
+      "product_type": "Indoor AP",
+      "version": "v3.5.1_c1.9.04",
+      "release_date": "2019-05-20",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/05/20125709/EWS370AP_FWv3.5.1_c1.9.04_20190418_all.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS370AP",
+      "product_type": "Indoor AP",
+      "version": "v3.0.1_c1.8.59",
+      "release_date": "2018-09-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/11023855/v3.0.1_c1.8.59_2017.11.15-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS371AP",
+      "product_type": "Indoor AP",
+      "version": "v3.5.1_c1.9.04 all",
+      "release_date": "2019-05-20",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/05/20130201/EWS371AP_FWv3.5.1_c1.9.04_20190418_all-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS371AP",
+      "product_type": "Indoor AP",
+      "version": "v3.0.1_c1.8.59",
+      "release_date": "2018-09-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/11023554/v3.0.1_c1.8.59_2017.11.15.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS377AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171916/EWS377APv3-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS377AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171905/EWS377APv2-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS377AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171855/EWS377APv1-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS377AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.24_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110817/EWS377APv2-v3.9.1.24_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS377AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.1.24_c1.9.51",
+      "release_date": "2021-09-30",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/09/30172725/EWS377APv3-v3.9.1.24_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS377AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.11.5_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15172357/EWS377AP-FWv3.7.11.5_c1.9.51_.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS377AP",
+      "product_type": "Indoor AP",
+      "version": "v3.8.8.4_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15144048/EWS377APv3-FWv3.8.8.4_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS377AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.11.5_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15143850/EWS377APv2-v3.7.11.5_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS385AP",
+      "product_type": "Indoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171937/EWS850AP-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS385AP",
+      "product_type": "Indoor AP",
+      "version": "v3.7.20.1_c1.9.51",
+      "release_date": "2021-09-06",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/09/06164112/EWS385AP_FW_v3.7.20.1_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS385AP",
+      "product_type": "Indoor AP",
+      "version": "v3.6.6_c1.9.50",
+      "release_date": "2020-02-24",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/02/24091118/EWS385AP_FWv3.6.6_c1.9.50_2020.02.19.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS500AP",
+      "product_type": "Indoor AP",
+      "version": "v3.5.1_c1.9.04",
+      "release_date": "2018-11-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/11/23014805/v3.5.1_c1.9.04_2018.09.03-3.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS550AP",
+      "product_type": "Indoor AP",
+      "version": "v3.6.7_c1.9.30",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29160235/EWS550AP_FWv3.6.7_c1.9.30_20200117.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS550AP",
+      "product_type": "Indoor AP",
+      "version": "v3.5.1_c1.9.04",
+      "release_date": "2018-11-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/11/22073940/v3.5.1_c1.9.04_2018.09.03-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1350EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171742/ENH1350EXT-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1350EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.9.1.7_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110910/ENH1350EXT-v3.9.1.7_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1350EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.20.1_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26125114/ENH1350EXT-all-v3.7.20.1_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1350EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.8.2_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15142717/ENH1350EXT-FWv3.7.8.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1350EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.5_c1.9.51",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01144731/ENH1350EXT_FWv3.7.5_c1.9.51_20200901.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1350EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.4_c1.9.51",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01144640/ENH1350EXT_FWv3.7.4_c1.9.51_20200821.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1350EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.7_c1.9.04",
+      "release_date": "2019-06-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/06/04120049/ENH1350EXT_FWv3.5.7_c1.9.04_20190529.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1750EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.20.3_c1.9.30",
+      "release_date": "2021-08-09",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/08/09152647/ENH1750EXT_all_FW_v3.6.20.3_c1.9.30.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1750EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.10.2_c1.9.30",
+      "release_date": "2021-05-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/05/03134742/ENH1750EXT_FWv3.6.10.2_c1.9.30_20210429.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH1750EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.9_c1.9.04",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01144822/ENH1750EXT_FWv3.5.9_c1.9.04_20200901.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH202",
+      "product_type": "Outdoor AP",
+      "version": "v1.6.70",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02060356/enh202v2-etsi-v1.6.70.1.bin_-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH220EXT",
+      "product_type": "Outdoor AP",
+      "version": "v2.0.250",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02032247/enh220ext-etsi-v2.0.250.0.bin_.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH500",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.21.3_c1.9.51",
+      "release_date": "2021-08-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/08/23112937/ENH500v3_all_FW_v3.7.21.3_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH500",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.20.2_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26125017/ENH500v3-all-v3.7.20.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH500",
+      "product_type": "Outdoor AP",
+      "version": "v1.5.101",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02035054/enh500v2-etsi-v1.5.101.0.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENH710EXT",
+      "product_type": "Outdoor AP",
+      "version": "v2.0.300",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02031608/enh710ext-etsi-v2.0.300.0.bin_.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS1750",
+      "product_type": "Outdoor AP",
+      "version": "v2.0.201",
+      "release_date": "2018-09-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/26092221/ens1750-etsi-v2.0.201.0.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS202",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.10_c1.9.30",
+      "release_date": "2021-02-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/01141556/ENS202v2_FWv3.6.10_c1.9.30_2021.01.29.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS202",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.8",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01145121/ENS202V2_FWv3.6.8_20200901.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS202",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.5_c1.9.30",
+      "release_date": "2019-09-30",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/09/30151415/ENS202V2_FWv3.6.5_20190926.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS202",
+      "product_type": "Outdoor AP",
+      "version": "v1.5.100",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02061355/ens202-etsi-v1.5.100.0.bin_.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS202EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.10_c1.9.30",
+      "release_date": "2021-02-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/01141816/ENS202EXTv2_FWv3.6.10_c1.9.30_2021.01.29.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS202EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.8",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01145041/ENS202EXTV2_FWv3.6.8_20200901.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS202EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.5_c1.9.30",
+      "release_date": "2019-09-30",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/09/30151833/ENS202EXTV2_FWv3.6.5_20190926.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS202EXT",
+      "product_type": "Outdoor AP",
+      "version": "v1.6.3",
+      "release_date": "2018-09-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/26102300/ens202ext-etsi-v1.6.3.0.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS500",
+      "product_type": "Outdoor AP",
+      "version": "v.1.5.100",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02035351/ens500-etsi-v1.5.100.0.bin_.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS500-AC",
+      "product_type": "Outdoor AP",
+      "version": "v.1.5.100",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02035351/ens500-etsi-v1.5.100.0.bin_.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS500EXT",
+      "product_type": "Outdoor AP",
+      "version": "1.5.100",
+      "release_date": "2018-10-12",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/12091929/v1.5.100_2017.11.16.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS500EXT-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.21.3_c1.9.51",
+      "release_date": "2021-08-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/08/23112959/ENS500EXT-AC_v2_all_FW_v3.7.21.3_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS500EXT-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.20.2_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26125525/ENS500EXTACv2-all-v3.7.20.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS500EXT-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.3_c1.9.51",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01145656/ENS500EXTACv2_FWv3.7.3_c1.9.51_20200911.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS500EXT-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.7_c1.9.30",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/04110248/ens500extac_v3.6.7.2_c1.9.30.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS620EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171759/ENS620EXT-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS620EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.9.1.7_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110931/ENS620EXT-v3.9.1.7_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS620EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.20.1_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26125858/ENS620EXT-all-v3.7.20.1_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS620EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.9.6_c1.9.51",
+      "release_date": "2021-07-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/08100109/ENS620EXT-v3.7.9.6_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS620EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.7",
+      "release_date": "2019-06-18",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/06/18121148/ENS620EXT_FWupgradeKit_v3.5.7.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS620EXT",
+      "product_type": "Outdoor AP",
+      "version": "v1.0.0_c1.8.53",
+      "release_date": "2018-11-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/11/11143114/ENS620EXT_FWadd_Controlled_function_1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ENS620EXT",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.1.12_c1.9.04",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/11143429/ENS620EXT_FWv3.5.1_c1.9.04_2.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStation2",
+      "product_type": "Outdoor AP",
+      "version": "v1.5.120",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02033118/enstation2-etsi-v1.5.120.0.bin_.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStation5",
+      "product_type": "Outdoor AP",
+      "version": "v1.5.150",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02033643/enstation5-etsi-v1.5.150.0.bin_.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStation5-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.21.3_c1.9.51",
+      "release_date": "2021-08-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/08/23113008/EnStation5AC_v2_all_FW_v3.7.21.3_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStation5-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.20.2_c1.9.51",
+      "release_date": "2021-08-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/08/02124256/EnStation5ACv2-all-v3.7.20.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStation5-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.3_c1.9.51",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01150242/EnStation5ACv2_FWv3.7.3_c1.9.51_20200911.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStation5-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.0_c1.9.20",
+      "release_date": "2019-02-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/02/18121258/EnStation5-AC_FWv3.5.0_c1.9.20_2019.01.07-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStation5-AC",
+      "product_type": "Outdoor AP",
+      "version": "v3.0.1_c1.8.53",
+      "release_date": "2018-10-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/02034111/v3.0.1_c1.8.53_2017.11.17-6.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStationAC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.21.3_c1.9.51",
+      "release_date": "2021-08-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/08/23113016/EnStationACv2_all_v3.7.21.3_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStationAC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.20.2_c1.9.51",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26130001/EnStationACv2-all-v3.7.20.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStationAC",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.7_c1.9.30",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01150701/EnStationAC_FWv3.6.7_c1.9.30_20200820-2.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EnStationAC",
+      "product_type": "Outdoor AP",
+      "version": "v3.7.3_c1.9.51",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01150452/EnStation5ACv2_FWv3.7.3_c1.9.51_20200911-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS660AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.20.3_c1.9.30",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26133827/EWS660AP-all-v3.6.20.3_c1.9.30.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS660AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.8_c1.9.30",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140955/EWS660AP_FWv3.6.8_c1.9.30_20201014.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS660AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.7_c1.9.30",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29140131/EWS660AP_FWv3.6.7_c1.9.30_20200117.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS660AP",
+      "product_type": "Outdoor AP",
+      "version": " v3.6.6_c1.9.30",
+      "release_date": "2019-11-12",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/11/12114918/EWS660AP_FWv3.6.6_c1.9.30_20191108.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS660AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.5_c1.9.30",
+      "release_date": "2019-10-10",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/10/10111626/EWS660AP_FWv3.6.5_c1.9.30_20191004.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS660AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.2_c1.9.30",
+      "release_date": "2019-08-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/08/14135809/EWS660AP_FWv3.6.2_c1.9.30_20190802.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS660AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.0_c1.9.04",
+      "release_date": "2018-09-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/26090743/EWS660AP-v3.5.0_c1.9.04.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS660AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.0.7_c1.8.59",
+      "release_date": "2018-09-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/26090700/EWS660AP-v3.0.7_c1.8.59.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS850AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.9.3.2_c1.9.51",
+      "release_date": "2022-01-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2022/01/03171937/EWS850AP-FWv3.9.3.2_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS850AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.9.1.24_c1.9.51",
+      "release_date": "2021-10-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/10/04110836/EWS850AP-v3.9.1.24_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS850AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.8.4.4_c1.9.51",
+      "release_date": "2021-02-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/02/15144200/EWS850ap-all-FWv3.8.4.4_c1.9.51.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS860AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.20.3_c1.9.30",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26133911/EWS860AP-all-v3.6.20.3_c1.9.30.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS860AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.10_c1.9.30",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03141005/EWS860AP_FWv3.6.10_c1.9.30_20201014.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS860AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.7_c1.9.30",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29135634/EWS860AP_FWv3.6.7_c1.9.30_20200117.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS860AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.6_c1.9.30",
+      "release_date": "2019-11-12",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/11/12114806/EWS860AP_FWv3.6.6_c1.9.30_20191108.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS860AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.5_c1.9.30",
+      "release_date": "2019-10-10",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/10/10111715/EWS860AP_FWv3.6.5_c1.9.30_20191004.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS860AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.6.2_c1.9.30",
+      "release_date": "2019-08-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/08/14135700/EWS860AP_FWv3.6.2_c1.9.30_20190802.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS860AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.0_c1.9.04",
+      "release_date": "2018-09-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/26091753/EWS860AP-v3.5.0_c1.9.04.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS860AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.0.7_c1.8.59",
+      "release_date": "2018-09-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/26091708/v3.0.7_c1.8.59_2017.11.15.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS870AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.1_c1.9.04-all",
+      "release_date": "2019-05-21",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/05/21101214/EWS870AP_FWv3.5.1_c1.9.04-all_20190418.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS870AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.0.1_c1.8.59",
+      "release_date": "2018-09-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/26090404/v3.0.1_c1.8.59_2017.11.15-4.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS871AP",
+      "product_type": "Outdoor AP",
+      "version": "v3.5.1_c1.9.04-all",
+      "release_date": "2019-05-21",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/05/21100652/EWS871AP_FWv3.5.1_c1.9.04-all_20190418.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS871AP",
+      "product_type": "Outdoor AP",
+      "version": " v3.0.1_c1.8.59",
+      "release_date": "2018-09-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/09/26085128/v3.0.1_c1.8.59_2017.11.15-2.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMD1",
+      "product_type": "Home Wi-Fi",
+      "version": "v3.5.5_c1.9.04",
+      "release_date": "2020-07-17",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/07/17145258/EMD1_FWv3.5.5_c1.9.04_20200515.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMD1",
+      "product_type": "Home Wi-Fi",
+      "version": "v3.5.4_c1.9.04",
+      "release_date": "2019-09-16",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/09/16133719/EMD1_FWv3.5.4_c1.9.04_20190911.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMD1",
+      "product_type": "Home Wi-Fi",
+      "version": "v3.5.3_c1.9.04",
+      "release_date": "2019-07-16",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/07/16092650/EMD1_FWv3.5.3_c1.9.04_2019.07.12.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.6.8",
+      "release_date": "2020-02-24",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/02/24090924/EMR3000_FWv1.6.8_2020.02.13.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.6.7",
+      "release_date": "2019-06-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/06/04135339/EMR3000_FWv1.6.7_20190528.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3500",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.18.3",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26124804/EMR3500-v1.0.18.3.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3500",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.17",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03151231/EMR3500_FWv1.0.17_20201029.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3500",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.16",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01144058/EMR3500_FWv1.0.16_20200820.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3500",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.15",
+      "release_date": "2020-05-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/05/11171107/EMR3500_FWv1.0.15_2020508.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3500",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.14_2020.02.11",
+      "release_date": "2020-02-24",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/02/24090754/EMR3500_FWv1.0.14_2020.02.11.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3500",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.13",
+      "release_date": "2020-01-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/14122847/EMR3500_FWv1.0.13_20200108.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3500",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.12",
+      "release_date": "2020-01-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/14122740/EMR3500_FWv1.0.12_20191230.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR3500",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.11",
+      "release_date": "2019-12-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/12/04173936/EMR3500_FWv1.0.11_20191127.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR5000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.18.3",
+      "release_date": "2021-07-26",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/07/26124926/EMR5000-v1.0.18.3.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR5000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.17",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03151241/EMR5000_FWv1.0.17_20201029.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR5000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.16",
+      "release_date": "2020-10-01",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/10/01144158/EMR5000_FWv1.0.16_20200820.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR5000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.15",
+      "release_date": "2020-05-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/05/11171206/EMR5000_FWv1.0.15_20200508.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR5000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.14",
+      "release_date": "2020-02-24",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/02/24091027/EMR5000_FWv1.0.14_2020.02.11.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR5000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.13",
+      "release_date": "2020-01-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/14123636/EMR5000_FWv1.0.13_20200108.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR5000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.12",
+      "release_date": "2020-01-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/14123456/EMR5000_FWv1.0.12_20191230.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EMR5000",
+      "product_type": "Home Wi-Fi",
+      "version": "v1.0.11",
+      "release_date": "2019-12-04",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/12/04174038/EMR5000_FWv1.0.11_20191127.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch Aggregate 8XG",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121750/ECSx5xxFP-RTL93xx_fw_1.1.42-3.01.154_20201104-1558.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch Aggregate 8XG",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140945/ECSx5xxFP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch Aggregate 8XG Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121750/ECSx5xxFP-RTL93xx_fw_1.1.42-3.01.154_20201104-1558.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch Aggregate 8XG Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140945/ECSx5xxFP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 24 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.50",
+      "release_date": "2021-05-25",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/05/25174505/ECS1528FPv2_1552FPv2_fw_v1.1.50.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 24 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.47",
+      "release_date": "2021-03-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/08110006/ECS1528FP_1552FP_fw_1.1.47-20210208.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 24 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121750/ECSx5xxFP-RTL93xx_fw_1.1.42-3.01.154_20201104-1558.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 24 PoE",
+      "product_type": "Switch",
+      "version": "v1.1.47",
+      "release_date": "2021-03-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/08110006/ECS1528FP_1552FP_fw_1.1.47-20210208.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 48",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121750/ECSx5xxFP-RTL93xx_fw_1.1.42-3.01.154_20201104-1558.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 48",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140945/ECSx5xxFP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 48 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.50",
+      "release_date": "2021-05-25",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/05/25174505/ECS1528FPv2_1552FPv2_fw_v1.1.50.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 48 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.47",
+      "release_date": "2021-03-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/08110006/ECS1528FP_1552FP_fw_1.1.47-20210208.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 48 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121750/ECSx5xxFP-RTL93xx_fw_1.1.42-3.01.154_20201104-1558.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 48 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140945/ECSx5xxFP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 48 PoE",
+      "product_type": "Switch",
+      "version": "v1.1.47",
+      "release_date": "2021-03-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/08110006/ECS1528FP_1552FP_fw_1.1.47-20210208.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 8 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121652/ECS1008P-ECS11xxFP-RTL83xx_fw_1.1.42-2.01.154_20201104-1552.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 8 Full PoE",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140913/ECS1008P-1112FP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 8 PoE",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121652/ECS1008P-ECS11xxFP-RTL83xx_fw_1.1.42-2.01.154_20201104-1552.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "CloudSwitch L2Plus 8 PoE",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140913/ECS1008P-1112FP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ECS1528",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121750/ECSx5xxFP-RTL93xx_fw_1.1.42-3.01.154_20201104-1558.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ECS1528",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140945/ECSx5xxFP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ECS2512",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121750/ECSx5xxFP-RTL93xx_fw_1.1.42-3.01.154_20201104-1558.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ECS2512",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140945/ECSx5xxFP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ECS2512FP",
+      "product_type": "Switch",
+      "version": "v1.1.42",
+      "release_date": "2020-12-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/12/22121750/ECSx5xxFP-RTL93xx_fw_1.1.42-3.01.154_20201104-1558.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ECS2512FP",
+      "product_type": "Switch",
+      "version": "v1.1.40",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03140945/ECSx5xxFP_FWv1.1.40_20201008.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200-28T",
+      "product_type": "Switch",
+      "version": "v1.07.34_c1.9.31",
+      "release_date": "2019-05-22",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/05/22163924/EWS1200-28T_FWv1.07.34_c1.9.31_20190503.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200-28T",
+      "product_type": "Switch",
+      "version": "v1.07.22_c1.9.21",
+      "release_date": "2018-11-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/11/23033250/v1.07.22_c1.9.21_2018.10.26-6.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200-28TFP",
+      "product_type": "Switch",
+      "version": "1.07.43_c1.9.37",
+      "release_date": "2021-03-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/23163727/ews1200-28tfpv2_fw_1.07.43_c1.9.37_210312-1021.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200-28TFP",
+      "product_type": "Switch",
+      "version": "v1.07.40_c1.9.33",
+      "release_date": "2020-04-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/04/14161611/EWS1200-28TFP_FWv1.07.40_c1.9.33_20200407.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200-28TFP",
+      "product_type": "Switch",
+      "version": "v1.06.21_c1.8.77",
+      "release_date": "2019-01-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/01/28112123/EWS1200-28TFP_FWv1.06.21_c1.8.77_20180910.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200-52T",
+      "product_type": "Switch",
+      "version": "v1.07.37_c1.9.32",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29163942/EWS1200-52T_FWv1.07.37_c1.9.32_20191022.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200-52T",
+      "product_type": "Switch",
+      "version": "v1.06.21_c1.8.77",
+      "release_date": "2019-01-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/01/15152537/ews1200-52t_fw_v1.06.21_c1.8.77.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200D-10T",
+      "product_type": "Switch",
+      "version": "v1.07.37_c1.9.32",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29163153/EWS1200D-10T_FWv1.07.37_c1.9.32_20191022.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS1200D-10T",
+      "product_type": "Switch",
+      "version": "v1.06.21_c1.8.77",
+      "release_date": "2019-03-06",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/03/06130135/EWS1200D-10T_FWv1.06.21_c1.8.77_2018.09.10.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS2908P",
+      "product_type": "Switch",
+      "version": "1.07.43_c1.9.37",
+      "release_date": "2021-03-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/23163734/ews2908p_fw_1.07.43_c1.9.37_210311-1751.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS2908P",
+      "product_type": "Switch",
+      "version": "v1.07.40_c1.9.33",
+      "release_date": "2020-04-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/04/14160520/EWS2908P_FWv1.07.40_c1.9.33_20200407.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS2910P",
+      "product_type": "Switch",
+      "version": "1.07.43_c1.9.37",
+      "release_date": "2021-03-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/23163749/ews2910pv2_fw_1.07.43_c1.9.37_210311-1807.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS2910P",
+      "product_type": "Switch",
+      "version": "1.07.43_c1.9.37",
+      "release_date": "2021-03-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/23163743/ews2910p_fw_1.07.43_c1.9.37_210311-1807.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS2910P",
+      "product_type": "Switch",
+      "version": "v1.07.40_c1.9.33",
+      "release_date": "2020-04-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/04/14160736/EWS2910P_FWv1.07.40_c1.9.33_20200407.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS2910P",
+      "product_type": "Switch",
+      "version": "v1.06.21_c1.8.77",
+      "release_date": "2019-01-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/01/15151949/ews2910p_fw_v1.06.21_c1.8.77.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS5912FP",
+      "product_type": "Switch",
+      "version": "v1.07.43_c1.9.37_210312-0947",
+      "release_date": "2021-03-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/04122630/EWS5912FP_FWv1.07.43_c1.9.37_210312-0947-1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS5912FP",
+      "product_type": "Switch",
+      "version": "v1.06.21_c1.8.77",
+      "release_date": "2019-01-15",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/01/15151551/ews5912fp_fw_v1.06.21_c1.8.77.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7926EFP",
+      "product_type": "Switch",
+      "version": "1.07.27_c1.9.37",
+      "release_date": "2021-03-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/23163757/ews7926efp_fw_1.07.27_c1.9.37_210312-1805.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7926EFP",
+      "product_type": "Switch",
+      "version": "v1.07.26_c1.9.33",
+      "release_date": "2020-04-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/04/14161734/EWS7926EFP_FWv1.07.26_c1.9.33_20200407.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7926EFP",
+      "product_type": "Switch",
+      "version": "v1.07.25_c1.9.33",
+      "release_date": "2020-02-11",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/02/11142619/EWS7926EFP_FWv1.07.25_c1.9.33_2020.02.07.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7926EFP",
+      "product_type": "Switch",
+      "version": "v1.06.23_c1.8.77",
+      "release_date": "2018-11-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/11/23030008/v1.06.23_c1.8.77_2018.11.05.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7928FP",
+      "product_type": "Switch",
+      "version": "1.07.43_c1.9.37",
+      "release_date": "2021-03-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/23163804/ews7928fp_fw_1.07.43_c1.9.37_210312-1031.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7928FP",
+      "product_type": "Switch",
+      "version": "v1.07.37_c1.9.32",
+      "release_date": "2020-01-29",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/01/29162233/EWS7928FP_FWv1.07.37_c1.9.32_20191.22.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7928FP",
+      "product_type": "Switch",
+      "version": "v1.06.21_c1.8.77",
+      "release_date": "2019-03-06",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/03/06131422/EWS7928FP_FWv1.06.21_c1.8.77_2018.09.10.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7928P",
+      "product_type": "Switch",
+      "version": "1.07.43_c1.9.37",
+      "release_date": "2021-03-23",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/03/23163812/ews7928pv2_fw_1.07.43_c1.9.37_210312-1011.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7928P",
+      "product_type": "Switch",
+      "version": "v1.07.40_c1.9.33",
+      "release_date": "2020-04-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/04/14160958/EWS7928P_FWv1.07.40_c1.9.33_20200407.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7928P",
+      "product_type": "Switch",
+      "version": "v1.07.16_c1.9.18",
+      "release_date": "2018-10-05",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/10/23024520/v1.07.16_c1.9.18_2018.09.14-2.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7952FP",
+      "product_type": "Switch",
+      "version": "v1.07.40_c1.9.33",
+      "release_date": "2020-04-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/04/14161114/EWS7952FP_FWv1.07.40_c1.9.33_20200407.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7952FP",
+      "product_type": "Switch",
+      "version": "v1.06.21_c1.8.77",
+      "release_date": "2018-12-21",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/12/21150409/ews7952fp_fw_v1.06.21_c1.8.77.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7952P",
+      "product_type": "Switch",
+      "version": "v1.07.40_c1.9.33",
+      "release_date": "2020-04-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/04/14161254/EWS7952P_FWv1.07.40_c1.9.33_20200407.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "EWS7952P",
+      "product_type": "Switch",
+      "version": "v1.06.21_c1.8.77",
+      "release_date": "2018-12-19",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2018/12/19114054/ews7952p_fw_v1.06.21_c1.8.77.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ezMaster",
+      "product_type": "Software",
+      "version": "v1.0.49A_c1.9.58 ",
+      "release_date": "2020-11-03",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/11/03141014/ezMaster_v1.0.49A_c1.9.58_20201014.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ezMaster",
+      "product_type": "Software",
+      "version": "v1.0.53_c1.9.54",
+      "release_date": "2020-03-18",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2020/03/18095904/ezMaster_v1.0.53_c1.9.54_update_file.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ezMaster",
+      "product_type": "Software",
+      "version": "v1.0.48_c1.9.32",
+      "release_date": "2019-12-09",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/12/09153358/ezMaster_Update_v1.0.48_c1.9.32.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ezMaster",
+      "product_type": "Software",
+      "version": "v1.0.43_c1.9.30",
+      "release_date": "2019-09-16",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/09/16141430/ezMaster_Update_v1.0.43_c1.9.30.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "ezMaster",
+      "product_type": "Software",
+      "version": "v1.0.42_c1.9.30",
+      "release_date": "2019-09-02",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2019/09/02165820/ezMaster_Update_v1.0.42_c1.9.30.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "SkyKey I",
+      "product_type": "Software",
+      "version": "v1.0.67S_c1.9.67",
+      "release_date": "2021-09-14",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/09/14090553/SkyKey_I_v1.0.67S_c1.9.67.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Engenius",
+      "product_name": "SkyKey I",
+      "product_type": "Software",
+      "version": "v1.0.66s_2021.06.04",
+      "release_date": "2021-06-08",
+      "download_link": "https://static.engeniuscdn.com/wp-content/uploads/2021/06/08121018/SkyKeyI_FWv1.0.66s_2021.06.04.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    }
+  ]
