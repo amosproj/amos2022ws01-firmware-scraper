@@ -31,7 +31,7 @@ class Core:
         """
         self.current_vendor = current_vendor
         self.logger = logger
-        # self.db = DBConnector()
+        self.db = DBConnector()
         self.logger.important("Initialized core and DB.")
 
     def get_product_catalog(self):
