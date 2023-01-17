@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 class GigasetScraper:
-    def __init__(self, logger):
+    def __init__(self, logger, max_products):
         self.url = "https://teamwork.gigaset.com/gigawiki/pages/viewpage.action?pageId=37486876"
         self.options = Options()
         self.name = "Gigaset"
@@ -30,16 +30,16 @@ class GigasetScraper:
     def scrape_metadata(self) -> list[dict]:
         self.connect_webdriver()
 
-        logger.info("Scraping Gigaset Firmware.")
+        self.logger.info("Scraping Gigaset Firmware.")
         download_elems = self.driver.find_elements(
             By.CSS_SELECTOR, ".columnMacro.conf-macro.output-block > span > a"
         )
         download_links = [e.get_attribute("href") for e in download_elems]
 
-        logger.debug(f"Found {len(download_links)} download links.")
+        self.logger.debug(f"Found {len(download_links)} download links.")
         for link in download_links:
 
-            logger.info(f"Scraping {link}")
+            self.logger.info(f"Scraping {link}")
             self.driver.get(link)
 
             CASE_1 = self.driver.find_elements(
