@@ -1,0 +1,2622 @@
+[
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "8devices-carambola2",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/8devices-carambola2/dd-wrt-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "8devices-carambola2",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/8devices-carambola2/factory-flash-uimage.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "8devices-lima",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/8devices-lima/8devices-lima-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "8devices-lima",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/8devices-lima/factory-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "8devices-rambutan",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/8devices-rambutan/8devices-rambutan-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "8devices-rambutan",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/8devices-rambutan/factory-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Aceex-NR22",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Aceex-NR22/Aceex-NR22-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Aceex-NR22",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Aceex-NR22/firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Belkin-F5D8235-4_v2",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Belkin-F5D8235-4_v2/Belkin-F5D8235-4v2-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Belkin-F5D8235-4_v2",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Belkin-F5D8235-4_v2/original-to-dd-wrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Edimax-BR6574N",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Edimax-BR6574N/BR6574N-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Edimax-BR6574N",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Edimax-BR6574N/image.tftp",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "GL.iNet-AR150",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/GL.iNet-AR150/dd-wrt-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "GL.iNet-AR150",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/GL.iNet-AR150/factory-flash-uimage.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "OSBRiDGE 5GXi v1",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/OSBRiDGE%205GXi%20v1/dd-wrt-webflash-osbridge.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "OSBRiDGE 5GXi v1",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/OSBRiDGE%205GXi%20v1/osbridge-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "OSBRiDGE 5XLi",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/OSBRiDGE%205XLi/dd-wrt-webflash-osbridge.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "OSBRiDGE 5XLi",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/OSBRiDGE%205XLi/osbridge-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Repotec_RP-WR5422",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Repotec_RP-WR5422/RP-WR5422-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Repotec_RP-WR5422",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Repotec_RP-WR5422/factory-to-ddwrt.dat",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Tonze-AP120",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Tonze-AP120/AP120-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "Tonze-AP120",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/Tonze-AP120/image.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "WHR-G300N",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/WHR-G300N/WHR-G300N-openvpn-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "WHR-G300N",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/WHR-G300N/WHR-G300N-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "WHR-G300N",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/WHR-G300N/firmware-openvpn.tftp",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "WHR-G300N",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/WHR-G300N/firmware.tftp",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "WLA-9000AP",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/WLA-9000AP/WLA9000AP-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "WLA-9000AP",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/WLA-9000AP/original-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "actiontec-mi424wr",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/actiontec-mi424wr/actiontec-mi424wr-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "actiontec-mi424wr",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/actiontec-mi424wr/linux.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "airlink101-ar430w",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/airlink101-ar430w/ar430w-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "airlink101-ar430w",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/airlink101-ar430w/linux.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "airlink101-ar670w",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/airlink101-ar670w/airlink-factory-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "airlink101-ar670w",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/airlink101-ar670w/ar670w-ddwrt-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "airlink101-ar690w",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/airlink101-ar690w/airlink-ar690w-factory-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "airlink101-ar690w",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/airlink101-ar690w/ar690w-ddwrt-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "airmax5",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/airmax5/airmax5-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "airmax5",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/airmax5/original-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa-aip-w411",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa-aip-w411/alfa-aip-w411-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa-aip-w411",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa-aip-w411/factory-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa-aip-w502u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa-aip-w502u/alfa-aip-w502u-ddwrt-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa-aip-w502u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa-aip-w502u/uImage.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa-solo48",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa-solo48/linux.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa-solo48",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa-solo48/solo48-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa/alfa-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa/root.fs",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "alfa",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/alfa/vmlinux.bin.l7",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asrock-g10",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asrock-g10/dd-wrt-webupgrade.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asrock-g10",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asrock-g10/factory-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac1900p",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac1900p/asus_rt-ac1900p-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac3100",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac3100/asus_rt-ac3100-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac3100",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac3100/experimental_driver/asus_rt-ac3100-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac3200",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac3200/asus_rt-ac3200-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac3200",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac3200/experimental_driver/asus_rt-ac3200-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac5300",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac5300/asus_rt-ac5300-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac5300",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac5300/experimental_driver/asus_rt-ac5300-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac56u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac56u/asus_rt-ac56u-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac66u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac66u/dd-wrt-51362-Asus_RT-AC66U.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac68u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac68u/asus_rt-ac68u-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac87u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac87u/asus_rt-ac87u-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac88u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac88u/asus_rt-ac88u-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-ac88u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-ac88u/experimental_driver/asus_rt-ac88u-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-g32",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-g32/Asus_RTG32-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-g32",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-g32/asus-to-dd-wrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-n10plus",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-n10plus/asus-rt-n10plus-ddwrt-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-n10plus",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-n10plus/factory-to-ddwrt.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-n15",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-n15/asus-rt-n15-ddwrt-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-n15",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-n15/factory-to-ddwrt.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rt-n18u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rt-n18u/asus_rt-n18u-firmware.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rtn13u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rtn13u/Asus-RTN13U-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rtn13u",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rtn13u/asus-to-ddwrt.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rtn13ub1",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rtn13ub1/Asus-RTN13UB1-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "asus-rtn13ub1",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/asus-rtn13ub1/asus-to-ddwrt.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "aw6600",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/aw6600/aw6600-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "aw6600",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/aw6600/lzma_vmlinus",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "aw6600",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/aw6600/root.fs",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "aw6600",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/aw6600/original_to_dd-wrt/2nd.img",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "aw6600",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/aw6600/original_to_dd-wrt/firmware.img",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "aw6600",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/aw6600/original_to_dd-wrt/preflash.img",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "bountiful-bwrg1000",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/bountiful-bwrg1000/ap51.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "bountiful-bwrg1000",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/bountiful-bwrg1000/ap51.rom",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "bountiful-bwrg1000",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/bountiful-bwrg1000/bwrg1000-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "bountiful-bwrg1000",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/bountiful-bwrg1000/linux.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "bountiful-bwrg1000",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/bountiful-bwrg1000/tftpsrv.zip",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_big-nv60k.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_big-nv64k.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_big.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_big_RT-N66U.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mega-nv60k.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mega-nv64k.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mega.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNDR3400.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNDR3400_CVNA.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNDR3700v3.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNDR4000.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNR2000v2.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNR3500L.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNR3500U.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNR3500v2.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-WNR3500v2_VC.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e1200v1.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e1200v2.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e1500.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e1550.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e2000.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e2500.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e3000.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e3200.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e4200.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e800.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-e900.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-nv60k.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini-nv64k.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N10.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N10PLUSD1.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N10U.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N12.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N12B1.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N12C1.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N16.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N53.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_RT-N66U.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_e1000v1.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_e1000v2.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_f5d8235v3.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_f7d3301.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_f7d3302.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_f7d4302.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_f7d7301.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_f7d7302.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_f7d8302.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_hotspot.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_m10.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_m20.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_usb.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_usb_nas.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_wrt160nv3.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_wrt310nv2.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_wrt320n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_mini_wrt610nv2.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_std_nokaid_small.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K26",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K26/dd-wrt.v24-51362_NEWD-2_K2.6_voip_small.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x-big-RT-N16.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x-big-RT-N66U.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_big.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNDR3400.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNDR3400_CVNA.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNDR3700v3.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNDR4000.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNR2000v2.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNR3500L.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNR3500U.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNR3500v2.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-WNR3500v2_VC.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e1200v1.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e1200v2.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e1500.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e1550.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e2000.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e2500.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e3000.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e3200.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e4200.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-e900.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega-nv64k.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N10.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N10PLUSD1.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N10U.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N12.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N12B1.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N12C1.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N16.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N53.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_RT-N66U.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_e1000v1.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_e1000v2.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_f5d8235v3.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_f7d3301.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_f7d3302.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_f7d4302.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_f7d7301.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_f7d7302.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_f7d8302.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_m10.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_m20.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_wrt160nv3.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_wrt310nv2.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_wrt320n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X/dd-wrt.v24-51362_NEWD-2_K3.x_mega_wrt610nv2.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X_mipsel32r1",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X_mipsel32r1/dd-wrt.v24-51362_NEWD-2_K3.x_mega-nv64k.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom_K3X_mipsel32r1",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom_K3X_mipsel32r1/dd-wrt.v24-51362_NEWD-2_K3.x_mega.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mega_DIR-330.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mega_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mega_special_DIR-330.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mega_special_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mega_special_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mega_special_wrt610n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mega_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mega_wrt610n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_WRH54G.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_WRH54G_webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_olsrd_WRH54G.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_olsrd_WRH54G_webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_olsrd_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_olsrd_we800g.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_olsrd_wr850g.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_special_WRH54G.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_special_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_we800g.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_micro_wr850g.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini-wgr614v8-L.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini-wnr834bv2.chk",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_asus.trx",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_special_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_special_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_we800g.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wr850g.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrt300n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrt300nv11.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrt310n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrt350n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrt54g.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrt54gs.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrt54gsv4.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_mini_wrtsl54gs.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_nokaid_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_nokaid_special_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_std_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_std_special_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_std_special_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_std_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_usb_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_voip_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_voip_special_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_voip_special_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_voip_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_vpn_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_vpn_special_generic.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_vpn_special_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "broadcom",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/broadcom/dd-wrt.v24_vpn_wrt600n.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo-bhr-4grv",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo-bhr-4grv/bhr-4grv-dd-wrt-webupgrade-MULTI.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo-bhr-4grv",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo-bhr-4grv/bhr-4grv-factory-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo-wzr-450hp2",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo-wzr-450hp2/buffalo_wzr_450hp2-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo-wzr-450hp2",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo-wzr-450hp2/uimage.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo-wzr-hp-g450h",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo-wzr-hp-g450h/wzr_hp_g450h-dd-wrt-webupgrade-MULTI.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo-wzr-hp-g450h",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo-wzr-hp-g450h/wzr_hp_g450h-factory-to-ddwrt.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_wbmr_g300h",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_wbmr_g300h/buffalo_to_dd-wrt_MULTI.enc",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_wbmr_g300h",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_wbmr_g300h/uImage.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_wbmr_g300h",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_wbmr_g300h/wbmr_g300h-webflash-firmware.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_wcr-gn",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_wcr-gn/WCR-GN-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_wcr-gn",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_wcr-gn/firmware.tftp",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_whr_1166d",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_whr_1166d/buffalo_whr_1166d-webflash.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_whr_1166d",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_whr_1166d/firmware-eu.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_whr_1166d",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_whr_1166d/firmware-jp.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_whr_1166d",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_whr_1166d/firmware-us.bin",
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "DD-WRT",
+    "product_name": "buffalo_whr_1166d",
+    "product_type": "Router",
+    "version": null,
+    "release_date": "2023-01-16",
+    "checksum_scraped": null,
+    "download_link": "https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2023/01-16-2023-r51362/buffalo_whr_1166d/firmware.uimage",
+    "additional_data": {}
+  }
+]
