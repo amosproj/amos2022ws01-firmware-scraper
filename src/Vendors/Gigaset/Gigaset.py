@@ -16,6 +16,7 @@ class GigasetScraper:
         self.options.add_argument("--disable-dev-shm-usage")
         self.catalog: list[dict] = []
         self.logger = logger
+        self.max_products = int = float("inf")
 
     def connect_webdriver(self):
         try:
@@ -78,6 +79,9 @@ class GigasetScraper:
             }
 
             self.catalog.append(firmware_item)
+
+            if len(self.catalog) >= self.max_products:
+                break
 
         return self.catalog
 
