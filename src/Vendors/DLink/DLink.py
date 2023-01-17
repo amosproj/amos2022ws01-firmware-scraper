@@ -284,6 +284,22 @@ class DLinkScraper:
             if self.__scrape_cnt == self.max_products:
                 break
 
+    def download_link(self, links: list):
+        try:
+            self.driver.get(self.vendor_url)
+            self.logger.info(
+                "Successfully accessed entry point URL " +
+                self.vendor_url)
+        except ignored_exceptions as e:
+            self.logger.error(
+                "Abort Downloading. Could not access entry point URL" + e)
+            self.driver.quit()
+            return []
+
+        for link in links:
+            self.logger.info("Download Firmware -> " + link["product_name"])
+            self.driver.execute_script(link["download_link"])
+
     def scrape_metadata(self) -> list:
         meta_data = []
         self.__scrape_cnt = 0
@@ -301,19 +317,18 @@ class DLinkScraper:
 
         time.sleep(10)
         self._loop_categorys()
-        #print(self.__meta_data)
+        # print(self.__meta_data)
 
         meta_data = json.dumps(self.__meta_data)
-
+        scraped_data = self.__meta_data
         print(meta_data)
-		
-		scraped_data = self.__meta_data
         self.logger.info('Done Scraping DLink Firmware')
         self.logger.info('Total DLink Firmware Scraped -> ' +
                          str(len(meta_data)))
 
         self.__scrape_cnt = 0
-		self.__meta_data = []
+        self.__meta_data = []
+
         self.driver.quit()
 
         return scraped_data
