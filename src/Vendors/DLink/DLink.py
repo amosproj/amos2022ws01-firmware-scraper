@@ -31,7 +31,7 @@ class DLinkScraper:
         headless: bool = True,
         max_products: int = float("inf")
     ):
-        self.vendor_url = scrape_entry_url
+        self.scrape_entry_url = scrape_entry_url
         self.logger = LOGGER
         self.max_products = max_products
         self.headless = headless
@@ -286,10 +286,10 @@ class DLinkScraper:
 
     def download_link(self, links: list):
         try:
-            self.driver.get(self.vendor_url)
+            self.driver.get(self.scrape_entry_url)
             self.logger.info(
                 "Successfully accessed entry point URL " +
-                self.vendor_url)
+                self.scrape_entry_url)
         except ignored_exceptions as e:
             self.logger.error(
                 "Abort Downloading. Could not access entry point URL" + e)
@@ -305,10 +305,10 @@ class DLinkScraper:
         self.__scrape_cnt = 0
 
         try:
-            self.driver.get(self.vendor_url)
+            self.driver.get(self.scrape_entry_url)
             self.logger.info(
                 "Successfully accessed entry point URL " +
-                self.vendor_url)
+                self.scrape_entry_url)
         except ignored_exceptions as e:
             self.logger.error(
                 "Abort scraping. Could not access entry point URL" + e)
@@ -332,7 +332,7 @@ class DLinkScraper:
 
 
 def main():
-    Scraper = DLinkScraper(LOGGER, headless=False)
+    Scraper = DLinkScraper(LOGGER, headless=False, max_products=10)
     meta_data = Scraper.scrape_metadata()
     json_data = json.dumps(meta_data)
     print(json_data)

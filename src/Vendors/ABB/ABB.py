@@ -27,25 +27,37 @@ class ABBScraper:
             max_products: int = float("inf")
         ):
         self.vendor_url = scrape_entry_url
+        self.max_products = max_products
+        self.name = MANUFACTURER
+        self.__scrape_cnt = 0
+        self.headless = headless
         chromeOptions = webdriver.ChromeOptions() 
         webdriver.ChromeOptions()
-        self.name = MANUFACTURER
+
+
+        if self.headless:
+            chromeOptions.add_argument("--headless")
+
         chromeOptions.add_argument("--disable-dev-shm-using") 
         chromeOptions.add_argument("--remote-debugging-port=9222")
+
         self.driver = webdriver.Chrome(options=chromeOptions, service=ChromeService(ChromeDriverManager().install()))
         
     def _accept_cookies(self):
         self.driver.get(self.vendor_url)
         self.driver.maximize_window()
 
+        time.sleep(5)
         accept_btn = self.driver.find_element(By.XPATH, '//button[@data-locator="privacy-notice-confirmation-accept-btn"]')
         accept_btn.click()
 
     def _navigate_to_category(self):
+        time.sleep(3)
         btn = WebDriverWait(self.driver, 10, ignored_exceptions=ignored_exceptions)\
                         .until(expected_conditions.presence_of_element_located((By.XPATH, 
                         '//*[@id="app"]/div/div/div[2]/div[2]/div[1]/div/div/div/div[1]/button')))
 
+        time.sleep(3)                
         btn.click()
         time.sleep(1)
         inner_btn = self.driver.find_element(By.XPATH, '//*[@id="app"]/div/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div/div/div/div[1]/button')
@@ -97,6 +109,10 @@ class ABBScraper:
             firmware_item["download_link"] = links[i].get_attribute('href')
 
             meta_data.append(firmware_item)
+            self.__scrape_cnt += 1
+
+            if self.__scrape_cnt == self.max_products:
+                break
 
         return meta_data
 
@@ -119,13 +135,17 @@ class ABBScraper:
             meta_data = meta_data + category_data
             self.driver.execute_script("window.history.go(-1)")
 
+            if self.__scrape_cnt == self.max_products:
+                break
+
         self.driver.quit()
         
         return meta_data
 
 def main():
-    Scraper = ABBScraper()
-    Scraper.scrape_metadata()
+    Scraper = ABBScraper(max_products=10, logger=None, headless=False)
+    meta_data = Scraper.scrape_metadata()
+    print(meta_data)
 
 if __name__ == "__main__":
     main()
