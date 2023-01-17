@@ -14,3 +14,4 @@ from .Zyxel.Zyxel import ZyxelScraper
 from .ABB.ABB import ABBScraper
 from .Trendnet.Trendnet import TrendnetScraper
 from .dd_wrt.dd_wrt import DDWRTScraper
+from .Engenius.Engenius import EngeniusScraper
