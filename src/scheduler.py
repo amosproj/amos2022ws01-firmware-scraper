@@ -7,10 +7,12 @@ import pandas as pd
 from src.logger import create_logger
 
 # initialize logger
-schedule_logger = create_logger(name = "schedule_logger")
+schedule_logger = create_logger(name="schedule_logger")
 
 
-def _check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger) -> list:
+def _check_vendors_to_update(
+    schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger
+) -> list:
     """check if vendors need to be updated
 
     Args:
@@ -39,13 +41,9 @@ def _check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logg
     return vendor_list
 
 
-<<<<<<< HEAD
 def check_vendors_to_update(
-    schedule_file_path: str = "src/schedule.xlsx", logger=logger
+    schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger
 ) -> list:
-=======
-def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger) -> list:
->>>>>>> main
     """check if vendors need to be updated
 
     Args:
@@ -73,7 +71,9 @@ def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logge
 # TODO
 
 
-def update_schedule(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger):
+def update_schedule(
+    schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger
+):
     """update schedule file AFTER vendor finished
 
     Args:
