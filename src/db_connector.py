@@ -23,8 +23,6 @@ class DBConnector:
     def __init__(self):
         self.db_user = os.getenv("MYSQL_USER")
         self.db_password = os.getenv("MYSQL_PASSWORD")
-        print(self.db_user, self.db_password)
-        print(HOST)
         # create firmware DB if it doesn't exist yet
         create_query = "CREATE DATABASE IF NOT EXISTS firmware;"
         try:
