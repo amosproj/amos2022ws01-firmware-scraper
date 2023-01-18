@@ -110,6 +110,7 @@ class DDWRTScraper(Scraper):
                                 "release_date": release_date,
                                 "checksum_scraped": None,
                                 "download_link": url,
+                                "product_url": worklist[0],
                                 "additional_data": {},
                             }
                         )
