@@ -84,15 +84,20 @@ class Core:
 
     def download_firmware(self):
         """download firmware from vendor"""
-        self.logger.important("Download firmware.")
-        firmware = self.db.retrieve_download_links()
-        for url, name in tqdm(firmware):
-            save_as = f"../downloads/{name.replace('/', '-')}"
-            with urlopen(url) as file:
-                content = file.read()
-            with open(save_as, "wb") as out_file:
-                out_file.write(content)
-        self.logger.important("Download done.")
+        vendor_download_func = getattr(self.current_vendor, "download_firmware", None)
+        if callable(vendor_download_func):
+            firmware = self.db.retrieve_download_links()
+            self.current_vendor.download_firmware(firmware)
+        else:
+            self.logger.important("Download firmware.")
+            firmware = self.db.retrieve_download_links()
+            for url, name in tqdm(firmware):
+                save_as = f"../downloads/{name.replace('/', '-')}"
+                with urlopen(url) as file:
+                    content = file.read()
+                with open(save_as, "wb") as out_file:
+                    out_file.write(content)
+            self.logger.important("Download done.")
 
 
 if __name__ == "__main__":

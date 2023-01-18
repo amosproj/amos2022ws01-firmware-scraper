@@ -16,3 +16,5 @@ from .synology.synology import SynologyScraper
 from .tp_link.tp_link import TPLinkScraper
 from .Trendnet.Trendnet import TrendnetScraper
 from .Zyxel.Zyxel import ZyxelScraper
+from .dd_wrt.dd_wrt import DDWRTScraper
+from .Engenius.Engenius import EngeniusScraper

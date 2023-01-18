@@ -31,7 +31,7 @@ class EngeniusScraper:
         headless: bool = True,
         max_products: int = float("inf")
     ):
-        self.vendor_url = scrape_entry_url
+        self.scrape_entry_url = scrape_entry_url
         self.logger = LOGGER
         self.max_products = max_products
         self.headless = headless
@@ -226,10 +226,10 @@ class EngeniusScraper:
         self.__scrape_cnt = 0
 
         try:
-            self.driver.get(self.vendor_url)
+            self.driver.get(self.scrape_entry_url)
             self.logger.info(
                 "Successfully accessed entry point URL " +
-                self.vendor_url)
+                self.scrape_entry_url)
         except ignored_exceptions as e:
             self.logger.error(
                 "Abort scraping. Could not access entry point URL" + e)
@@ -262,8 +262,8 @@ class EngeniusScraper:
 
 
 def main():
-    Scraper = EngeniusScraper(LOGGER)
-    Scraper.scrape_metadata()
+    Scraper = EngeniusScraper(LOGGER, max_products=5)
+    print(Scraper.scrape_metadata())
 
 
 if __name__ == "__main__":
