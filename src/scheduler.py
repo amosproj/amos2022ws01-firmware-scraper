@@ -7,10 +7,12 @@ import pandas as pd
 from src.logger import create_logger
 
 # initialize logger
-schedule_logger = create_logger(name = "schedule_logger")
+schedule_logger = create_logger(name="schedule_logger")
 
 
-def _check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger) -> list:
+def _check_vendors_to_update(
+    schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger
+) -> list:
     """check if vendors need to be updated
 
     Args:
@@ -23,21 +25,25 @@ def _check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logg
     vendor_list = []
     schedule_file = pd.read_excel(schedule_file_path)
     now = datetime.datetime.now().date()
-    schedule_file["Next_update"] = pd.to_datetime(
-        schedule_file["Next_update"]).dt.date
+    schedule_file["Next_update"] = pd.to_datetime(schedule_file["Next_update"]).dt.date
     todays_schedule = schedule_file[schedule_file["Next_update"] <= now]
 
     for index, row in todays_schedule.iterrows():
         if math.isnan(row["max_products"]):
             vendor_list.append(row["Vendor_class"](logger=logger))
         else:
-            vendor_list.append(row["Vendor_class"](
-                logger=logger, max_products=int(row["max_products"])))
+            vendor_list.append(
+                row["Vendor_class"](
+                    logger=logger, max_products=int(row["max_products"])
+                )
+            )
 
     return vendor_list
 
 
-def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger) -> list:
+def check_vendors_to_update(
+    schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger
+) -> list:
     """check if vendors need to be updated
 
     Args:
@@ -50,8 +56,7 @@ def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logge
     vendor_list = []
     schedule_file = pd.read_excel(schedule_file_path)
     now = datetime.datetime.now().date()
-    schedule_file["Next_update"] = pd.to_datetime(
-        schedule_file["Next_update"]).dt.date
+    schedule_file["Next_update"] = pd.to_datetime(schedule_file["Next_update"]).dt.date
     todays_schedule = schedule_file[schedule_file["Next_update"] <= now]
 
     for index, row in todays_schedule.iterrows():
@@ -62,21 +67,22 @@ def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logge
 
     return vendor_list
 
+
 # TODO
 
 
-def update_schedule(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger):
+def update_schedule(
+    schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger
+):
     """update schedule file AFTER vendor finished
 
     Args:
         schedule_file_path (str, optional): _description_. Defaults to "schedule.xlsx".
         logger (_type_, optional): _description_. Defaults to logger.
     """
-    schedule_file = pd.read_excel(
-        "src/schedule.xlsx")
+    schedule_file = pd.read_excel("src/schedule.xlsx")
 
-    next_update = row["Last_update"] + \
-        datetime.timedelta(days=row["Intervall"])
+    next_update = row["Last_update"] + datetime.timedelta(days=row["Intervall"])
     schedule_file.at[index, "Last_update"] = now
     schedule_file.at[index, "Next_update"] = next_update
 
