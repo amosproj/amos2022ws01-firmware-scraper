@@ -8,6 +8,7 @@ MYSQL_PASSWORD
 """
 import json
 import os
+import datetime
 
 import mysql.connector
 from mysql.connector import connect
@@ -21,9 +22,7 @@ class DBConnector:
         # create firmware DB if it doesn't exist yet
         create_query = "CREATE DATABASE IF NOT EXISTS firmware;"
         try:
-            with connect(
-                user=self.db_user, password=self.db_password, host="127.0.0.1"
-            ) as con:
+            with connect(user=self.db_user, password=self.db_password, host="127.0.0.1") as con:
                 with con.cursor() as curser:
                     curser.execute(create_query)
         except Exception as ex:
@@ -33,18 +32,21 @@ class DBConnector:
         create_products_table_query = """
                     CREATE TABLE IF NOT EXISTS products(
                         id INT AUTO_INCREMENT PRIMARY KEY,
+                        inserted_at DATE,
                         manufacturer VARCHAR(128),
                         product_name VARCHAR(255),
                         product_type VARCHAR(255),
                         version VARCHAR(64),
                         release_date DATE,
                         download_link VARCHAR(1024),
+                        product_url VARCHAR(1024),
                         file_path VARCHAR(1024),
                         checksum_local CHAR(128),
                         checksum_scraped CHAR(128),
                         emba_tested BOOLEAN,
                         emba_report_path VARCHAR(1024),
                         embark_report_link VARCHAR(1024),
+                        runner_uuid CHAR(128),
                         additional_data JSON
                     );
                 """
@@ -75,13 +77,20 @@ class DBConnector:
 
     def _convert_firmware_dict_to_tuple(self, fw_dict):
         """Expects dict of firmware metadata and returns tuple in expected format for insertion into DB."""
+
+        inserted_at = datetime.datetime.now().strftime("%Y-%m-%d")
+        # TODO allow vendors to omit "product_url" during transition period
+        product_url = fw_dict.get("product_url", None)
+
         return (
+            inserted_at,
             fw_dict["manufacturer"],
             fw_dict["product_name"],
             fw_dict["product_type"],
             fw_dict["version"],
             fw_dict["release_date"],
             fw_dict["download_link"],
+            product_url,
             # assumption: we first add to the db and download afterwards
             None,  # file_path
             None,  # checksum_local
@@ -89,7 +98,8 @@ class DBConnector:
             None,  # emba_tested
             None,  # emba_report_path
             None,  # embark_report_link
-            json.dumps(fw_dict["additional_data"])
+            None,  # runner_uuid
+            json.dumps(fw_dict["additional_data"]),
         )
 
     # debugging method
@@ -125,18 +135,21 @@ class DBConnector:
         """
         create_table_query = f"""CREATE TABLE IF NOT EXISTS {table}(
                         id INT AUTO_INCREMENT PRIMARY KEY,
+                        inserted_at DATE,
                         manufacturer VARCHAR(128),
                         product_name VARCHAR(255),
                         product_type VARCHAR(255),
                         version VARCHAR(64),
                         release_date DATE,
                         download_link VARCHAR(1024),
+                        product_url VARCHAR(1024),
                         file_path VARCHAR(1024),
                         checksum_local CHAR(128),
                         checksum_scraped CHAR(128),
                         emba_tested BOOLEAN,
                         emba_report_path VARCHAR(1024),
                         embark_report_link VARCHAR(1024),
+                        runner_uuid CHAR(128),
                         additional_data JSON
                     );
                 """
@@ -179,15 +192,14 @@ class DBConnector:
         """
         insert_products_query = f"""
             INSERT INTO {table}
-            (manufacturer, product_name, product_type, version, release_date, download_link, file_path, checksum_local,
-            checksum_scraped, emba_tested, emba_report_path, embark_report_link, additional_data)
-            VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
+            (inserted_at, manufacturer, product_name, product_type, version, release_date, download_link, product_url, 
+            file_path, checksum_local, checksum_scraped, emba_tested, emba_report_path, embark_report_link, runner_uuid, 
+            additional_data)
+            VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
         try:
             # TODO this is seriously sketchy
-            product_list = [
-                self._convert_firmware_dict_to_tuple(fw_dict) for fw_dict in product_list
-            ]
+            product_list = [self._convert_firmware_dict_to_tuple(fw_dict) for fw_dict in product_list]
         except Exception as ex:
             print(ex)
         con = self._get_db_con()
@@ -235,8 +247,10 @@ class DBConnector:
         con = self._get_db_con()
 
         query = f"""select 
-                    tmp.manufacturer, tmp.product_name, tmp.product_type, tmp.version, tmp.release_date, tmp.download_link, tmp.file_path, tmp.checksum_local,
-                    tmp.checksum_scraped, tmp.emba_tested, tmp.emba_report_path, tmp.embark_report_link, tmp.additional_data
+                    tmp.inserted_at, tmp.manufacturer, tmp.product_name, tmp.product_type, tmp.version, tmp.release_date, 
+                    tmp.download_link, tmp.product_url, tmp.file_path, tmp.checksum_local,
+                    tmp.checksum_scraped, tmp.emba_tested, tmp.emba_report_path, tmp.embark_report_link, tmp.runner_uuid,
+                    tmp.additional_data
                     from {table1} as tmp left join {table2} as tmp2 
                     on tmp.product_name = tmp2.product_name 
                     and tmp.version = tmp2.version 
@@ -316,10 +330,4 @@ if __name__ == "__main__":
     )
 
     # compare schneider table with products table
-    print(
-        len(
-            db.compare_products(
-                table1="new_compare_schneider", table2="compare_schneider"
-            )
-        )
-    )
+    print(len(db.compare_products(table1="new_compare_schneider", table2="compare_schneider")))
