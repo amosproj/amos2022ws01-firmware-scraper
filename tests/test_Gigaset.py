@@ -1,3 +1,6 @@
+import pytest
+from selenium.common.exceptions import WebDriverException
+
 from src.logger import create_logger
 from src.Vendors import GigasetScraper
 
@@ -10,12 +13,13 @@ def test_init():
 
 
 def test_connection():
-    Gigaset = GigasetScraper(logger=logger)
-    Gigaset.url = "download"
-    Gigaset.connect_webdriver()
+    with pytest.raises(WebDriverException):
+        Gigaset = GigasetScraper(logger=logger)
+        Gigaset.url = "download"
+        Gigaset.connect_webdriver()
 
 
 def test_scraping():
-    Gigaset = GigasetScraper(logger=logger)
-    Gigaset.scrape_metadata(max_products=1)
+    Gigaset = GigasetScraper(logger=logger, max_products=1)
+    Gigaset.scrape_metadata()
     assert len(Gigaset.catalog) >= 1

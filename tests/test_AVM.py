@@ -1,3 +1,6 @@
+import pytest
+from selenium.common.exceptions import WebDriverException
+
 from src.logger import create_logger
 from src.Vendors import AVMScraper
 
@@ -12,12 +15,13 @@ def test_init():
 
 
 def test_connection():
-    AVM = AVMScraper(logger=logger)
-    AVM.url = "download"
-    AVM.connect_webdriver()
+    with pytest.raises(WebDriverException):
+        AVM = AVMScraper(logger=logger)
+        AVM.url = "download"
+        AVM.connect_webdriver()
 
 
 def test_scraping():
-    AVM = AVMScraper(logger=logger)
-    AVM.scrape_metadata(max_products=1)
+    AVM = AVMScraper(logger=logger, max_products=1)
+    AVM.scrape_metadata()
     assert len(AVM.catalog) >= 1

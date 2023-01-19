@@ -28,7 +28,7 @@ class AVMScraper:
         self.options.add_argument("--headless")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
-        self.max_products: int = float("inf")
+        self.max_products = max_products
 
     def connect_webdriver(self):
         try:

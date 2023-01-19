@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 class GigasetScraper:
-    def __init__(self, logger, max_products):
+    def __init__(self, logger, max_products: int = float("inf")):
         self.url = "https://teamwork.gigaset.com/gigawiki/pages/viewpage.action?pageId=37486876"
         self.options = Options()
         self.name = "Gigaset"
@@ -16,7 +16,7 @@ class GigasetScraper:
         self.options.add_argument("--disable-dev-shm-usage")
         self.catalog: list[dict] = []
         self.logger = logger
-        self.max_products = int = float("inf")
+        self.max_products = max_products
 
     def connect_webdriver(self):
         try:
@@ -51,9 +51,13 @@ class GigasetScraper:
                 By.CSS_SELECTOR, "li[title='Show all breadcrumbs']"
             )[0].click()
 
-            product_type = self.driver.find_element(
-                By.CSS_SELECTOR, "ol#breadcrumbs > li:nth-last-child(2)"
-            ).get_attribute("innerText")
+            product_type = (
+                self.driver.find_element(
+                    By.CSS_SELECTOR, "ol#breadcrumbs > li:nth-last-child(2)"
+                )
+                .get_attribute("innerText")
+                .lstrip()
+            )
 
             if CASE_1:
                 download_link = CASE_1[0].get_attribute("href")
@@ -96,7 +100,7 @@ if __name__ == "__main__":
     from src.logger import create_logger
 
     logger = create_logger()
-    Gigaset = GigasetScraper(logger=logger)
+    Gigaset = GigasetScraper(logger=logger, max_products=10)
     firmware_data = Gigaset.scrape_metadata()
 
     with open("scraped_metadata/firmware_data_Gigaset.json", "w") as firmware_file:
