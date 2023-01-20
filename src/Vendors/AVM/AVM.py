@@ -2,7 +2,7 @@
 Scraper module for AVM vendor
 """
 
-import sys
+
 from datetime import datetime
 from os import path
 
@@ -181,5 +181,5 @@ if __name__ == "__main__":
     AVM = AVMScraper(logger=logger)
     firmware_data = AVM.scrape_metadata()
 
-    with open("../../scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
+    with open("scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
