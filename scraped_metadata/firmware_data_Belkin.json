@@ -1,0 +1,1002 @@
+[
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1124",
+        "product_type": "F9K1124",
+        "version": "Ver. 1.04.13",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1124_WW_1.04.13.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1118",
+        "product_type": "F9K1118",
+        "version": "Ver. 2.03.43",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1118v2_WW_2.03.43.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1118",
+        "product_type": "F9K1118",
+        "version": "Ver. 1.03.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1118_WW_1.03.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1115",
+        "product_type": "F9K1115",
+        "version": "Ver. 2.04.11",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1115_WW_2.04.11.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1119",
+        "product_type": "F9K1119",
+        "version": "Ver. 2.02.05",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1119_WW_2.02.05.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1119",
+        "product_type": "F9K1119",
+        "version": "Ver. 1.00.01",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1119_WW_1.00.01.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1113",
+        "product_type": "F9K1113",
+        "version": "Ver. 5.04.03",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1113_WW_5.04.03.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1113",
+        "product_type": "F9K1113",
+        "version": "Ver. 4.04.07",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1113_WW_4.04.07.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1113",
+        "product_type": "F9K1113",
+        "version": "Ver. 2.03.40",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1113v2_WW_2.03.40.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1113",
+        "product_type": "F9K1113",
+        "version": "Ver. 1.03.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1113_WW_1.03.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1123",
+        "product_type": "F9K1123",
+        "version": "Ver. 2.03.02",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1123_WW_2.03.02.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1123",
+        "product_type": "F9K1123",
+        "version": "Ver. 1.03.11",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1123_WW_1.03.11.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1112",
+        "product_type": "F9K1112",
+        "version": "Ver. 1.00.28",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1112_WW_1.00.28.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1117",
+        "product_type": "F9K1117",
+        "version": "Ver. 2.00.12",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f9k1117_ww_2.00.12.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1117",
+        "product_type": "F9K1117",
+        "version": "Ver. 1.00.23",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1117_WW_1.00.23.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1116",
+        "product_type": "F9K1116",
+        "version": "Ver. 2.03.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1116_WW_2.03.04.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1116",
+        "product_type": "F9K1116",
+        "version": "Ver. 1.03.11",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1116_WW_1.03.11.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1126",
+        "product_type": "F9K1126",
+        "version": "Ver. 1.0.04.001",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/assets/belkin/firmware/FW_F9K1126_v1.0.04.001_20211118.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1103",
+        "product_type": "F9K1103",
+        "version": "Ver. 1.10.23",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1103_WW_1.10.23.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1110",
+        "product_type": "F9K1110",
+        "version": "Ver. 1.10.23",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1110_WW_1.10.23.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1109",
+        "product_type": "F9K1109",
+        "version": "Ver. 1.10.16",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1109_WW_1.10.16.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1102",
+        "product_type": "F9K1102",
+        "version": "Ver. 5.04.15",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/assets/belkin/firmware/F9K1102_WW_5.04.15.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1102",
+        "product_type": "F9K1102",
+        "version": "Ver. 4.04.01",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1102_WW_4.04.01.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1102",
+        "product_type": "F9K1102",
+        "version": "Ver. 3.04.13",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1102_WW_3.04.13.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1102",
+        "product_type": "F9K1102",
+        "version": "Ver. 2.14.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1102_WW_2.14.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1102",
+        "product_type": "F9K1102",
+        "version": "Ver. 1.00.19",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1102_WW_1.00.19.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9J1102",
+        "product_type": "F9J1102",
+        "version": "Ver. 2.03.11",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9J1102_WW_2.03.11.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9J1102",
+        "product_type": "F9J1102",
+        "version": "Ver. 1.00.10",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9J1102-4_WW_1.00.10.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1121",
+        "product_type": "F9K1121",
+        "version": "Ver. 1.04.34",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1121_WW_1.04.34.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F7D8302",
+        "product_type": "F7D8302",
+        "version": "Ver. 1.5",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F7D4302-8302_WW_1.00.28.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1105",
+        "product_type": "F9K1105",
+        "version": "Ver. 5.04.09",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1105_WW_5.04.09.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1105",
+        "product_type": "F9K1105",
+        "version": "Ver. 4.03.05",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1105_WW_4.03.05.gpg.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1105",
+        "product_type": "F9K1105",
+        "version": "Ver. 3.04.06",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1105_WW_3.04.06.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1105",
+        "product_type": "F9K1105",
+        "version": "Ver. 2.10.07",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1105_WW_2.10.07.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1105",
+        "product_type": "F9K1105",
+        "version": "Ver. 1.00.06",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1105_WW_1.00.06.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9J1105",
+        "product_type": "F9J1105",
+        "version": "Ver. 2.00.11",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9J1105v2_WW_2.00.11.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9J1105",
+        "product_type": "F9J1105",
+        "version": "Ver. 1.00.09",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9J1105-4_WW_1.00.09.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1002",
+        "product_type": "F9K1002",
+        "version": "Ver. 5.03.20",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1002_WW_5.03.20.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1002",
+        "product_type": "F9K1002",
+        "version": "Ver. 4.00.07",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1002_WW_4.00.07.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1002",
+        "product_type": "F9K1002",
+        "version": "Ver. 3.00.07\u200b",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1002_WW_3.00.07.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1002",
+        "product_type": "F9K1002",
+        "version": "Ver. 2.00.08",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1002_WW_2.00.08.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1002",
+        "product_type": "F9K1002",
+        "version": "Ver. 1.00.16\u200b",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1002_WW_1.00.16.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9J1002",
+        "product_type": "F9J1002",
+        "version": "Ver. 1.00.51",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9J1002_WW_1.00.51.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1010",
+        "product_type": "F9K1010",
+        "version": "Ver. 2.00.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1010_WW_2.00.04.img",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F7D6301",
+        "product_type": "F7D6301",
+        "version": "Ver. 3.00.11",
+        "release_date": null,
+        "download_link": "http://networking.belkin.com/update/files/F7D6301/v3/WW/F7D6301_WW_3.00.11.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F7D6301",
+        "product_type": "F7D6301",
+        "version": "Ver. 1.5",
+        "release_date": null,
+        "download_link": "http://networking.belkin.com/update/files/F7D6301/v1/WW/F7D6301_WW_1.00.16.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1001",
+        "product_type": "F9K1001",
+        "version": "Ver. 5.03.21",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1001_WW_5.03.21.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1001",
+        "product_type": "F9K1001",
+        "version": "Ver. 4.00.07",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1001_WW_4.00.07.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1001",
+        "product_type": "F9K1001",
+        "version": "Download OS Compatibility:\u00a0 Any; Size:\u00a0 1.3 MB",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1001_WW_3.00.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9K1001",
+        "product_type": "F9K1001",
+        "version": "Ver. 1.00.08",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9K1001_US_1.00.08.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F9J1001",
+        "product_type": "F9J1001",
+        "version": "Ver. 1.00.51",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F9J1001_WW_1.00.51.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F7D2401",
+        "product_type": "F7D2401",
+        "version": "Ver. 4.0.3.19106",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F7D2401-B_WW_1.00.42.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F7D2401",
+        "product_type": "F7D2401",
+        "version": "Ver. 1.00.42\u00a0(Annex-B)",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F7D2401-B_WW_1.00.42.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F7D8301",
+        "product_type": "F7D8301",
+        "version": "Ver. 1.5",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F7D4301-8301_WW_1.00.30.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8230-4",
+        "product_type": "F5D8230-4",
+        "version": "Ver. 2.01.02",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8230-4-v2_2.01.02_usa.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8230-4",
+        "product_type": "F5D8230-4",
+        "version": "Ver. 1.01.03",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F5D8230v1_UK_1.01.03.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8231-4",
+        "product_type": "F5D8231-4",
+        "version": "Ver. 5.01.05",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8231v5_ww_5.01.05.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8231-4",
+        "product_type": "F5D8231-4",
+        "version": "Ver. 4.00.09",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8231-4%20v4000%20ww%20v4.00.09.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8231-4",
+        "product_type": "F5D8231-4",
+        "version": "Ver. 3.10.12",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8231v3_ww_3.10.12.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8231-4",
+        "product_type": "F5D8231-4",
+        "version": "Ver. 2.01.27",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8231-4v2_ww_2.01.27.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8231-4",
+        "product_type": "F5D8231-4",
+        "version": "Ver. 1.01.23",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8231-4_us_1.01.23.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8232-4",
+        "product_type": "F5D8232-4",
+        "version": "Ver. 2.00.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8232-4%20ww%20v2.00.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8232-4",
+        "product_type": "F5D8232-4",
+        "version": "Ver. 1.00.15",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8232-4%20ww%20v1.00.15.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8233-4",
+        "product_type": "F5D8233-4",
+        "version": "Ver. 4.00.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8233-4_ww_4.00.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8233-4",
+        "product_type": "F5D8233-4",
+        "version": "Ver. 3.01.29",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8233-4v3_ww3.01.29.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8233-4",
+        "product_type": "F5D8233-4",
+        "version": "Ver. 1.01.15",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8233-4_ww_1.01.15.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8235-4",
+        "product_type": "F5D8235-4",
+        "version": "Ver. 3.00.15",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F5D8235-4v3_ww_3.00.15.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8235-4",
+        "product_type": "F5D8235-4",
+        "version": "Ver. 2.01.09",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F5D8235v2_WW_2.01.09.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8235-4",
+        "product_type": "F5D8235-4",
+        "version": "Ver. 1.01.28",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8235v1_ww_1.01.28.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8236-4",
+        "product_type": "F5D8236-4",
+        "version": "Ver. 3.00.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F5D8236-4_%20WW_v3.00.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8236-4",
+        "product_type": "F5D8236-4",
+        "version": "Ver. 2.00.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8236-4_ww_2.00.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8236-4",
+        "product_type": "F5D8236-4",
+        "version": "Ver. 1.00.02",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8236-4v1_ww_1.00.02.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8630-4A",
+        "product_type": "F5D8630-4A",
+        "version": "Ver. 1.00.07",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8630-4av1_uk_1.00.07.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8632-4A",
+        "product_type": "F5D8632-4A",
+        "version": "Ver. 1.00.06",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8632-4_v1000_ww_1.00.06.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8633-4",
+        "product_type": "F5D8633-4",
+        "version": "Ver. 1.01.06",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8633-4_ww_1.01.06.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8635-4",
+        "product_type": "F5D8635-4",
+        "version": "Ver. 1.00.23",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8635v1_ww_1.00.23.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8636-4A",
+        "product_type": "F5D8636-4A",
+        "version": "Ver. 2.00.20",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8636-4_ww_2.00.20.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D8636-4A",
+        "product_type": "F5D8636-4A",
+        "version": "Ver. 1.00.03",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d8636-4_ww_1.00.03.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F6D4230-4",
+        "product_type": "F6D4230-4",
+        "version": "Ver. 3.00.03",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f6d4230-4_ww_3.00.03.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F6D4230-4",
+        "product_type": "F6D4230-4",
+        "version": "Ver. 2.00.04",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f6d4230-4_ww_2.00.04.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F6D4230-4",
+        "product_type": "F6D4230-4",
+        "version": "Ver. 1.00.05",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f6d4230-4%20ww%20v1.00.05.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7231-4",
+        "product_type": "F5D7231-4",
+        "version": "Ver. 5.01.03",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F5D7231-4v2_UK_5.01.03.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7231-4",
+        "product_type": "F5D7231-4",
+        "version": "Ver. 4.07.07",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/F5D7231-4v1_UK_4.07.07.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7231-4",
+        "product_type": "F5D7231-4",
+        "version": "Ver. 3.00.06",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d7231v300_ver3.00.06.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7231-4",
+        "product_type": "F5D7231-4",
+        "version": "Ver. 5.01.11",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d7231-4%20us%20v5.01.11.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7231-4",
+        "product_type": "F5D7231-4",
+        "version": "Ver. 4.07.07",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d7231-4_4.07.07_usa.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7233",
+        "product_type": "F5D7233",
+        "version": "Ver. 1.01.20",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d7233v1_us_1_01_20.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7234-4",
+        "product_type": "F5D7234-4",
+        "version": "Ver. 5.00.12",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d7234-4_ww_5.00.12.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7234-4",
+        "product_type": "F5D7234-4",
+        "version": "Ver. 4.00.05",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d7234-4_ww_4.00.05.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7234-4",
+        "product_type": "F5D7234-4",
+        "version": "Ver. 3.00.03",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d7234-4_ww_3.00.03.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D7234-4",
+        "product_type": "F5D7234-4",
+        "version": "Ver. 1.00.01",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d7234-4%20v1000_v1.00.01.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D9230-4",
+        "product_type": "F5D9230-4",
+        "version": "Ver. 5.01.16",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d9230-4_ww_5.01.16.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D9230-4",
+        "product_type": "F5D9230-4",
+        "version": "Ver. 4.01.09",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/20061222_belkin_f5d9230us4_4.01.09(mr).bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D9230-4",
+        "product_type": "F5D9230-4",
+        "version": "Ver. 3.01.53",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d9230-4v3_uk_3.01.53.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D9230-4",
+        "product_type": "F5D9230-4",
+        "version": "Ver. 2.00.02",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d9230-4-v2_usa_2.00.02.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D9231-4",
+        "product_type": "F5D9231-4",
+        "version": "Ver. 2.00.02",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d9231-4v2_ww_2.00.02.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D9231-4",
+        "product_type": "F5D9231-4",
+        "version": "Ver. 1.00.02",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d9231-4v1_ww_1.00.02.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D6231-4",
+        "product_type": "F5D6231-4",
+        "version": "Ver. 2.00.002",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d6231-4_v2-2.00.002.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D6231-4",
+        "product_type": "F5D6231-4",
+        "version": "Ver. 1.00.00",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d6231-4_v1-1.00.00.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    },
+    {
+        "manufacturer": "Belkin",
+        "product_name": "F5D5231-4",
+        "product_type": "F5D5231-4",
+        "version": "Ver. 3.01.06",
+        "release_date": null,
+        "download_link": "https://s3.belkin.com/support/dl/f5d5231v3_us_3.01.06.bin",
+        "checksum_scraped": null,
+        "additional_data": {}
+    }
+]
