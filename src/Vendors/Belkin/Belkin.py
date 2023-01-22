@@ -20,12 +20,13 @@ class BelkinScraper:
         self.logger = logger
         self.max_products = max_products
 
+    # TODO: handle missing firmware for some versions
     def connect_webdriver(self):
         try:
             self.driver.get(self.url)
             self.logger.info("Connected Successfully!")
         except Exception as e:
-            self.logger.exception("Could not connect to Gigaset!")
+            self.logger.exception("Could not connect to Belkin!")
             raise (e)
 
     def scrape_metadata(self) -> list[dict]:
@@ -52,13 +53,13 @@ class BelkinScraper:
             )
 
             product_name = product_name.get_attribute("innerText").split()[0]
-            logger.info(f"Scraping product number: {product_name}")
+            self.logger.info(f"Scraping product number: {product_name}")
 
             version_list = self.driver.find_elements(
                 By.CSS_SELECTOR,
                 "div#support-article-downloads > div.article-accordian.daccordion-is-closed",
             )
-            logger.info(f"Found {len(version_list)} versions.")
+            self.logger.info(f"Found {len(version_list)} versions.")
 
             for i in range(len(version_list)):
 
@@ -93,14 +94,16 @@ class BelkinScraper:
                 fw_links = [fw.get_attribute("href") for fw in fw_links]
 
                 if not fw_links:
-                    logger.info("Could not find firmware download links. Skipping.")
+                    self.logger.info(
+                        "Could not find firmware download links. Skipping."
+                    )
                     break
 
                 elif len(fw_links) != len(version_list):
                     logger.info("Could not find links for all versions. Skipping.")
                     break
 
-                logger.info(f"Found {len(fw_links)} firmware downloads.")
+                self.logger.info(f"Found {len(fw_links)} firmware downloads.")
 
                 firmware_item = {
                     "manufacturer": "Belkin",
@@ -114,8 +117,9 @@ class BelkinScraper:
                 }
 
                 self.catalog.append(firmware_item)
-                if len(self.catalog) == self.max_products:
-                    break
+
+            if len(self.catalog) >= self.max_products:
+                break
 
         return self.catalog
 
@@ -130,7 +134,7 @@ if __name__ == "__main__":
     from src.logger import create_logger
 
     logger = create_logger(level="INFO")
-    Belkin = BelkinScraper(logger=logger)
+    Belkin = BelkinScraper(logger=logger, max_products=1)
     firmware_data = Belkin.scrape_metadata()
 
     with open("scraped_metadata/firmware_data_Belkin.json", "w") as firmware_file:
