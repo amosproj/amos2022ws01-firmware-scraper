@@ -19,8 +19,7 @@ class AVMScraper:
     def __init__(self, logger, max_products: int = float("inf"), headless: bool = True):
         self.url = "https://download.avm.de"
         self.name = "AVM"
-        self.driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()))
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
         self.headless = headless
@@ -29,7 +28,7 @@ class AVMScraper:
         self.options.add_argument("--headless")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
-        self.max_products: int = float("inf")
+        self.max_products = max_products
 
     def connect_webdriver(self):
         try:
@@ -93,8 +92,7 @@ class AVMScraper:
                 )
                 if text_file:
                     self.logger.info(f"Found info file: {text_file}")
-                    product, version = self._parse_txt_file(
-                        self.url + text_file)
+                    product, version = self._parse_txt_file(self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
                     firmware_item["additional_data"] = {
@@ -158,10 +156,8 @@ class AVMScraper:
         product, version = None, None
         try:
             txt = requests.get(file_url).text.splitlines()
-            product = self._get_partial_str(
-                txt, "Product").split(":")[-1].strip()
-            version = self._get_partial_str(
-                txt, "Version").split(":")[-1].strip()
+            product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
+            version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
             self.logger.info(f"Found {product, version} in txt file!")
         except Exception as e:
             self.logger.info(f"Could not parse text file: {e}")
@@ -179,9 +175,9 @@ if __name__ == "__main__":
 
     import json
 
-    from utils import setup_logger
+    from src.logger import create_logger
 
-    logger = setup_logger()
+    logger = create_logger()
     AVM = AVMScraper(logger=logger)
     firmware_data = AVM.scrape_metadata()
 
