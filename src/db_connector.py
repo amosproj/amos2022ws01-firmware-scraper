@@ -13,6 +13,12 @@ import datetime
 import mysql.connector
 from mysql.connector import connect
 
+# if Docker flag set in ENV, run as Docker container
+if os.getenv("DOCKER_PYTHON_SCRAPER"):
+    HOST = 'mysql_db'
+else:
+    HOST = "127.0.0.1"
+
 
 class DBConnector:
     def __init__(self):
@@ -22,7 +28,7 @@ class DBConnector:
         # create firmware DB if it doesn't exist yet
         create_query = "CREATE DATABASE IF NOT EXISTS firmware;"
         try:
-            with connect(user=self.db_user, password=self.db_password, host="127.0.0.1") as con:
+            with connect(user=self.db_user, password=self.db_password, host=HOST) as con:
                 with con.cursor() as curser:
                     curser.execute(create_query)
         except Exception as ex:
@@ -65,7 +71,7 @@ class DBConnector:
         config = {
             "user": self.db_user,
             "password": self.db_password,
-            "host": "127.0.0.1",
+            "host": HOST,
             "database": "firmware",
         }
         try:
@@ -199,7 +205,8 @@ class DBConnector:
         """
         try:
             # TODO this is seriously sketchy
-            product_list = [self._convert_firmware_dict_to_tuple(fw_dict) for fw_dict in product_list]
+            product_list = [self._convert_firmware_dict_to_tuple(
+                fw_dict) for fw_dict in product_list]
         except Exception as ex:
             print(ex)
         con = self._get_db_con()
@@ -330,4 +337,5 @@ if __name__ == "__main__":
     )
 
     # compare schneider table with products table
-    print(len(db.compare_products(table1="new_compare_schneider", table2="compare_schneider")))
+    print(len(db.compare_products(
+        table1="new_compare_schneider", table2="compare_schneider")))
