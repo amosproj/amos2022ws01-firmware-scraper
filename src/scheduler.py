@@ -10,7 +10,7 @@ from src.logger import create_logger
 schedule_logger = create_logger(name = "schedule_logger")
 
 
-def _check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger) -> list:
+def _check_vendors_to_update(schedule_file_path: str = "src/schedule.csv", logger=schedule_logger) -> list:
     """check if vendors need to be updated
 
     Args:
@@ -37,7 +37,7 @@ def _check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logg
     return vendor_list
 
 
-def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger) -> list:
+def check_vendors_to_update(schedule_file_path: str = "src/schedule.csv", logger=schedule_logger) -> list:
     """check if vendors need to be updated
 
     Args:
@@ -48,7 +48,7 @@ def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logge
         _type_: list of vendor objects
     """
     vendor_list = []
-    schedule_file = pd.read_excel(schedule_file_path)
+    schedule_file = pd.read_csv(schedule_file_path)
     now = datetime.datetime.now().date()
     schedule_file["Next_update"] = pd.to_datetime(
         schedule_file["Next_update"]).dt.date
@@ -65,7 +65,7 @@ def check_vendors_to_update(schedule_file_path: str = "src/schedule.xlsx", logge
 # TODO
 
 
-def update_schedule(schedule_file_path: str = "src/schedule.xlsx", logger=schedule_logger):
+def update_schedule(schedule_file_path: str = "src/schedule.csv", logger=schedule_logger):
     """update schedule file AFTER vendor finished
 
     Args:

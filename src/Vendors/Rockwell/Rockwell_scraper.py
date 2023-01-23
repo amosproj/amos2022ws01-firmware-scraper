@@ -18,7 +18,7 @@ from tqdm import tqdm
 
 
 class RockwellScraper:
-    def __init__(self, logger, max_products: int = float("inf"), headless: bool = False):
+    def __init__(self, logger, max_products: int = float("inf"), headless: bool = True):
         self.login_url = (
             "https://compatibility.rockwellautomation.com/Pages/MyProfile.aspx"
         )
