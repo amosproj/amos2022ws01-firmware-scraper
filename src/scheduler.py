@@ -9,7 +9,6 @@ from src.logger import create_logger
 # initialize logger
 schedule_logger = create_logger(name = "schedule_logger")
 
-
 def _check_vendors_to_update(schedule_file_path: str = "src/schedule.csv", logger=schedule_logger) -> list:
     """check if vendors need to be updated
 
