@@ -1,0 +1,902 @@
+[
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2148 build 20220905",
+      "release_date": "2022-09-22",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/QuTScloud_c5.0.1.2148.VMware.zip",
+      "checksum_scraped": "1e643f9d0c03f1f720d33fe80ed18da3",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2148 build 20220905",
+      "release_date": "2022-09-22",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/QuTScloud_c5.0.1.2148.HyperV.zip",
+      "checksum_scraped": "6975e7c952ae30220b425b6637567606",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2148 build 20220905",
+      "release_date": "2022-09-22",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20220905-c5.0.1.2148.zip",
+      "checksum_scraped": "64f8cb38f7bdca39fc3c6c70006575d0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2148 build 20220905",
+      "release_date": "2022-09-22",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/F_TS-KVM-CLD_20220905-c5.0.1.img.vhd",
+      "checksum_scraped": "8e83067b6d5ec8ddb993d602df26a426",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2148 build 20220905",
+      "release_date": "2022-09-22",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/F_TS-KVM-CLD_20220905-c5.0.1.img.vmdk",
+      "checksum_scraped": "a9dbdebb39aa8d3020b84b95d606546c",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2148 build 20220905",
+      "release_date": "2022-09-22",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/F_TS-KVM-CLD_20220905-c5.0.1.img",
+      "checksum_scraped": "5fdd3d15d48a15d5d60c1c1ba13bf5f7",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2148 build 20220905",
+      "release_date": "2022-09-22",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/QuTScloud_c5.0.1.2148.qcow2",
+      "checksum_scraped": "12fda0813d85876c73d59f4a0323f7b1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2148 build 20220905",
+      "release_date": "2022-09-22",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/QuTScloud_c5.0.1.2148.ova.zip",
+      "checksum_scraped": "5ddc92eea604207c00926cfc2e47df6f",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.2044 build 20220524",
+      "release_date": "2022-06-02",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20220524-c5.0.1.2044.zip",
+      "checksum_scraped": "10bf84738f17d4a86ae304ed543832a5",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.1998 build 20220408",
+      "release_date": "2022-04-21",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20220408-c5.0.1.1998.zip",
+      "checksum_scraped": "c169fc604da4b1fda73746b22e4460da",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.1.1949 build 20220218",
+      "release_date": "2022-03-15",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20220218-c5.0.1.1949.zip",
+      "checksum_scraped": "78fcf652e43c55c3e6dd34c0eb04413f",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c5.0.0.1919 build 20220119",
+      "release_date": "2022-01-24",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20220119-c5.0.0.1919.zip",
+      "checksum_scraped": "58a453dea7a9bd09db68525d0619eb19",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c4.5.7.1864 build 20211126",
+      "release_date": "2021-12-02",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20211126-c4.5.7.1864.zip",
+      "checksum_scraped": "b13338fb061fa378ac2ca34cbbad91fe",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c4.5.6.1755 build 20210809",
+      "release_date": "2021-08-16",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20210809-c4.5.6.1755.zip",
+      "checksum_scraped": "07ded28bd5ab9708455a9e64dbb0656b",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c4.5.5.1656 build 20210503",
+      "release_date": "2021-05-05",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20210503-c4.5.5.1656.zip",
+      "checksum_scraped": "3cbc2a325b0581cdc561404c758a01fb",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c4.5.4.1601 build 20210309",
+      "release_date": "2021-03-11",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20210309-c4.5.4.1601.zip",
+      "checksum_scraped": "7f223c7731f30e2a8c2296490da91d9e",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c4.5.3.1454 build 20201013",
+      "release_date": "2020-10-15",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20201013-c4.5.3.1454.zip",
+      "checksum_scraped": "37d5ab072f265dec4ee4a494ee1fe38b",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c4.5.2.1379 build 20200730",
+      "release_date": "2020-08-03",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20200730-c4.5.2.1379.zip",
+      "checksum_scraped": "4190d8a701232b80bfd9c40b4a3165fb",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QuTScloud",
+      "product_type": "QuTScloud",
+      "version": "c4.5.1.1350 build 20200701",
+      "release_date": "2020-07-02",
+      "download_link": "https://download.qnap.com/Storage/QuTScloud/TS-KVM-CLD/TS-KVM-CLD_20200701-c4.5.1.1350.zip",
+      "checksum_scraped": "eca5172cb83c15862005d01c85088390",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QBoat Sunny",
+      "product_type": "QBoat",
+      "version": "5.0.1.2277 build 20230112",
+      "release_date": "2023-01-18",
+      "download_link": "https://download.qnap.com/Storage/QB-103/QB-103_20230112-5.0.1.2277.zip",
+      "checksum_scraped": "67a6fee09493a90964964187f5f25f02",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QBoat Sunny",
+      "product_type": "QBoat",
+      "version": "Fixed a domain issue for QTS 4.5.4, 5.0.0, 5.0.1",
+      "release_date": "2022-12-19",
+      "download_link": "https://download.qnap.com/Storage/Qfix/Kerberos_Patch_QTS_1.0_arm_al.zip",
+      "checksum_scraped": "187b8ed03eaed30e6deb95f6088bb291",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QBoat Sunny",
+      "product_type": "QBoat",
+      "version": "5.0.1.2248 build 20221215",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.qnap.com/Storage/QB-103/QB-103_20221215-5.0.1.2248.zip",
+      "checksum_scraped": "c95cda734a410349d11db999c16f844d",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QBoat Sunny",
+      "product_type": "QBoat",
+      "version": "5.0.0.2131 build 20220815",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.qnap.com/Storage/QB-103/QB-103_20220815-5.0.0.2131.zip",
+      "checksum_scraped": "4cf542c5eddd1542e47385f92f3aaaec",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QBoat Sunny",
+      "product_type": "QBoat",
+      "version": "4.5.4.2117 build 20220802",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.qnap.com/Storage/QB-103/QB-103_20220802-4.5.4.2117.zip",
+      "checksum_scraped": "7c2675809bd367f6cb2e773f5f9191d9",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QBoat Sunny",
+      "product_type": "QBoat",
+      "version": "5.0.0.2055 build 20220531",
+      "release_date": "2022-06-08",
+      "download_link": "https://download.qnap.com/Storage/QB-103/QB-103_20220531-5.0.0.2055.zip",
+      "checksum_scraped": "fe074b5046fa6aff54613692fbc72d69",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QBoat Sunny",
+      "product_type": "QBoat",
+      "version": "4.5.4.2012 build 20220419",
+      "release_date": "2022-04-25",
+      "download_link": "https://download.qnap.com/Storage/QB-103/QB-103_20220419-4.5.4.2012.zip",
+      "checksum_scraped": "ebb32af174a842a7cdb70822422955c4",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QBoat Sunny",
+      "product_type": "QBoat",
+      "version": "5.0.0.1986 build 20220324",
+      "release_date": "2022-03-29",
+      "download_link": "https://download.qnap.com/Storage/QB-103/QB-103_20220324-5.0.0.1986.zip",
+      "checksum_scraped": "001829a2b5070fb4f52a4856f0f30776",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QG-103N",
+      "product_type": "QGenie",
+      "version": "3.2.3",
+      "release_date": "2018-08-10",
+      "download_link": "https://download.qnap.com/Storage/QGenie-103N/QGenie_20180726-3.2.3.bin",
+      "checksum_scraped": "3C82B3A05F84227AC9364B705EAFABC6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QG-103N",
+      "product_type": "QGenie",
+      "version": "3.2.2 (2016/08/19)",
+      "release_date": "2016-09-02",
+      "download_link": "https://download.qnap.com/Storage/QGenie-103N/QGenie_20160819-3.2.2.bin",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QG-103N",
+      "product_type": "QGenie",
+      "version": "1.0.0",
+      "release_date": "2014-10-28",
+      "download_link": "https://eu1.qnap.com/Storage/QGenie-103N/QGenie_Recovery.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2277 build 20230112",
+      "release_date": "2023-01-18",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20230112-5.0.1.2277.zip",
+      "checksum_scraped": "c8237828c0f4cea6f25325da9dc033bb",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2248 build 20221215",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20221215-5.0.1.2248.zip",
+      "checksum_scraped": "211a08aba9dcbbd6eae4c66479bede37",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200",
+      "product_type": "Computing Accelerators",
+      "version": "Fixed a domain issue for QTS 5.0.0, 5.0.1",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.qnap.com/Storage/Qfix/Kerberos_Patch_QTS_1.0_x86.zip",
+      "checksum_scraped": "3c7d59e3da71023063f8c3318d354a56",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2131 build 20220815",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220815-5.0.0.2131.zip",
+      "checksum_scraped": "a65c507f78c4c903f4579f1651c38f1d",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2117 build 20220802",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220802-4.5.4.2117.zip",
+      "checksum_scraped": "fc04120777653f044a51dc934560522c",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2055 build 20220531",
+      "release_date": "2022-06-08",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220531-5.0.0.2055.zip",
+      "checksum_scraped": "1ee7898cb36fa85caff38090fd8447e8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2012 build 20220419",
+      "release_date": "2022-04-25",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220419-4.5.4.2012.zip",
+      "checksum_scraped": "a1ebeb302ef0de6e3eaf9f32075ba78a",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.1986 build 20220324",
+      "release_date": "2022-03-29",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220324-5.0.0.1986.zip",
+      "checksum_scraped": "affc6e050acd946e04d73d30113e083f",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-C-8G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2277 build 20230112",
+      "release_date": "2023-01-18",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20230112-5.0.1.2277.zip",
+      "checksum_scraped": "c8237828c0f4cea6f25325da9dc033bb",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-C-8G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2248 build 20221215",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20221215-5.0.1.2248.zip",
+      "checksum_scraped": "211a08aba9dcbbd6eae4c66479bede37",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-C-8G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "Fixed a domain issue for QTS 5.0.0, 5.0.1",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.qnap.com/Storage/Qfix/Kerberos_Patch_QTS_1.0_x86.zip",
+      "checksum_scraped": "3c7d59e3da71023063f8c3318d354a56",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-C-8G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2131 build 20220815",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220815-5.0.0.2131.zip",
+      "checksum_scraped": "a65c507f78c4c903f4579f1651c38f1d",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-C-8G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2117 build 20220802",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220802-4.5.4.2117.zip",
+      "checksum_scraped": "fc04120777653f044a51dc934560522c",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-C-8G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2055 build 20220531",
+      "release_date": "2022-06-08",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220531-5.0.0.2055.zip",
+      "checksum_scraped": "1ee7898cb36fa85caff38090fd8447e8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-C-8G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2012 build 20220419",
+      "release_date": "2022-04-25",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220419-4.5.4.2012.zip",
+      "checksum_scraped": "a1ebeb302ef0de6e3eaf9f32075ba78a",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-C-8G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.1986 build 20220324",
+      "release_date": "2022-03-29",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220324-5.0.0.1986.zip",
+      "checksum_scraped": "affc6e050acd946e04d73d30113e083f",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i5-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2277 build 20230112",
+      "release_date": "2023-01-18",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20230112-5.0.1.2277.zip",
+      "checksum_scraped": "c8237828c0f4cea6f25325da9dc033bb",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i5-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2248 build 20221215",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20221215-5.0.1.2248.zip",
+      "checksum_scraped": "211a08aba9dcbbd6eae4c66479bede37",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i5-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "Fixed a domain issue for QTS 5.0.0, 5.0.1",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.qnap.com/Storage/Qfix/Kerberos_Patch_QTS_1.0_x86.zip",
+      "checksum_scraped": "3c7d59e3da71023063f8c3318d354a56",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i5-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2131 build 20220815",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220815-5.0.0.2131.zip",
+      "checksum_scraped": "a65c507f78c4c903f4579f1651c38f1d",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i5-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2117 build 20220802",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220802-4.5.4.2117.zip",
+      "checksum_scraped": "fc04120777653f044a51dc934560522c",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i5-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2055 build 20220531",
+      "release_date": "2022-06-08",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220531-5.0.0.2055.zip",
+      "checksum_scraped": "1ee7898cb36fa85caff38090fd8447e8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i5-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2012 build 20220419",
+      "release_date": "2022-04-25",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220419-4.5.4.2012.zip",
+      "checksum_scraped": "a1ebeb302ef0de6e3eaf9f32075ba78a",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i5-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.1986 build 20220324",
+      "release_date": "2022-03-29",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220324-5.0.0.1986.zip",
+      "checksum_scraped": "affc6e050acd946e04d73d30113e083f",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i7-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2277 build 20230112",
+      "release_date": "2023-01-18",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20230112-5.0.1.2277.zip",
+      "checksum_scraped": "c8237828c0f4cea6f25325da9dc033bb",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i7-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2248 build 20221215",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20221215-5.0.1.2248.zip",
+      "checksum_scraped": "211a08aba9dcbbd6eae4c66479bede37",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i7-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "Fixed a domain issue for QTS 5.0.0, 5.0.1",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.qnap.com/Storage/Qfix/Kerberos_Patch_QTS_1.0_x86.zip",
+      "checksum_scraped": "3c7d59e3da71023063f8c3318d354a56",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i7-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2131 build 20220815",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220815-5.0.0.2131.zip",
+      "checksum_scraped": "a65c507f78c4c903f4579f1651c38f1d",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i7-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2117 build 20220802",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220802-4.5.4.2117.zip",
+      "checksum_scraped": "fc04120777653f044a51dc934560522c",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i7-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2055 build 20220531",
+      "release_date": "2022-06-08",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220531-5.0.0.2055.zip",
+      "checksum_scraped": "1ee7898cb36fa85caff38090fd8447e8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i7-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2012 build 20220419",
+      "release_date": "2022-04-25",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220419-4.5.4.2012.zip",
+      "checksum_scraped": "a1ebeb302ef0de6e3eaf9f32075ba78a",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-200-i7-1T-32G-R10",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.1986 build 20220324",
+      "release_date": "2022-03-29",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220324-5.0.0.1986.zip",
+      "checksum_scraped": "affc6e050acd946e04d73d30113e083f",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-F100",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2277 build 20230112",
+      "release_date": "2023-01-18",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20230112-5.0.1.2277.zip",
+      "checksum_scraped": "c8237828c0f4cea6f25325da9dc033bb",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-F100",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.1.2248 build 20221215",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20221215-5.0.1.2248.zip",
+      "checksum_scraped": "211a08aba9dcbbd6eae4c66479bede37",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-F100",
+      "product_type": "Computing Accelerators",
+      "version": "Fixed a domain issue for QTS 5.0.0, 5.0.1",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.qnap.com/Storage/Qfix/Kerberos_Patch_QTS_1.0_x86.zip",
+      "checksum_scraped": "3c7d59e3da71023063f8c3318d354a56",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-F100",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2131 build 20220815",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220815-5.0.0.2131.zip",
+      "checksum_scraped": "a65c507f78c4c903f4579f1651c38f1d",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-F100",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2117 build 20220802",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220802-4.5.4.2117.zip",
+      "checksum_scraped": "fc04120777653f044a51dc934560522c",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-F100",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.2055 build 20220531",
+      "release_date": "2022-06-08",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220531-5.0.0.2055.zip",
+      "checksum_scraped": "1ee7898cb36fa85caff38090fd8447e8",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-F100",
+      "product_type": "Computing Accelerators",
+      "version": "4.5.4.2012 build 20220419",
+      "release_date": "2022-04-25",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220419-4.5.4.2012.zip",
+      "checksum_scraped": "a1ebeb302ef0de6e3eaf9f32075ba78a",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "Mustang-F100",
+      "product_type": "Computing Accelerators",
+      "version": "5.0.0.1986 build 20220324",
+      "release_date": "2022-03-29",
+      "download_link": "https://download.qnap.com/Storage/Mustang-200/Mustang-200_20220324-5.0.0.1986.zip",
+      "checksum_scraped": "affc6e050acd946e04d73d30113e083f",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "5.0.1.2277 build 20230112",
+      "release_date": "2023-01-18",
+      "download_link": "https://download.qnap.com/Storage/QGD-1600/QGD-1600_20230112-5.0.1.2277.zip",
+      "checksum_scraped": "0bdae43331e1db888fa67fd007c1e7c1",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "5.0.1.2248 build 20221215",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.qnap.com/Storage/QGD-1600/QGD-1600_20221215-5.0.1.2248.zip",
+      "checksum_scraped": "a19d445bf0b494682f3dc90e42563ea6",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "Fixed a domain issue for QTS 5.0.0, 5.0.1",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.qnap.com/Storage/Qfix/Kerberos_Patch_QTS_1.0_x86.zip",
+      "checksum_scraped": "3c7d59e3da71023063f8c3318d354a56",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "1.0.3.q229",
+      "release_date": "2022-11-01",
+      "download_link": "https://qne-archive.qnap.com/repo/pool/stable/q/qts-firmware/qne-adra-firmware_1.0.3.q229_amd64_stable.deb",
+      "checksum_scraped": "069fef0b89e4ccef5c2e93fa4aa5fb1e",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "5.0.0.2131 build 20220815",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.qnap.com/Storage/QGD-1600/QGD-1600_20220815-5.0.0.2131.zip",
+      "checksum_scraped": "e11c2b25f82c450279cd3197fcf422bc",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "4.5.4.2117 build 20220802",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.qnap.com/Storage/QGD-1600/QGD-1600_20220802-4.5.4.2117.zip",
+      "checksum_scraped": "4fe82031f4cd1c3a4e3474c86c29bfdf",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "1.0.3.q221",
+      "release_date": "2022-08-01",
+      "download_link": "https://qne-archive.qnap.com/repo/pool/stable/q/qts-firmware/qne-adra-firmware_1.0.3.q221_amd64_stable.deb",
+      "checksum_scraped": "7ac910fa28502a67ff7a4615f26be076",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "1.0.3.q208",
+      "release_date": "2022-06-30",
+      "download_link": "https://qne-archive.qnap.com/repo/pool/stable/q/qts-firmware/qne-adra-firmware_1.0.3.q208_amd64_stable.deb",
+      "checksum_scraped": "2bd7409e39d72116144275dc266ed214",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "5.0.1.2067 build 20220617",
+      "release_date": "2022-06-24",
+      "download_link": "https://download.qnap.com/Storage/QGD-1600/QGD-1600_20220617-5.0.1.2067.zip",
+      "checksum_scraped": "220bf2f0c7951663fdb1add0e42e78ca",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "5.0.0.2055 build 20220531",
+      "release_date": "2022-06-08",
+      "download_link": "https://download.qnap.com/Storage/QGD-1600/QGD-1600_20220531-5.0.0.2055.zip",
+      "checksum_scraped": "670b24360bacdfa4f6e4de1818dac2e5",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "4.5.4.2012 build 20220419",
+      "release_date": "2022-04-25",
+      "download_link": "https://download.qnap.com/Storage/QGD-1600/QGD-1600_20220419-4.5.4.2012.zip",
+      "checksum_scraped": "80eded3080d945a85a2ee0456670b369",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1600P",
+      "product_type": "Switch",
+      "version": "5.0.0.1986 build 20220324",
+      "release_date": "2022-03-29",
+      "download_link": "https://download.qnap.com/Storage/QGD-1600/QGD-1600_20220324-5.0.0.1986.zip",
+      "checksum_scraped": "a5413a60fc30fd1c8cfc402f3a0d8dee",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1602P",
+      "product_type": "Switch",
+      "version": "5.0.1.2277 build 20230112",
+      "release_date": "2023-01-18",
+      "download_link": "https://download.qnap.com/Storage/QGD-3014/QGD-3014_20230112-5.0.1.2277.zip",
+      "checksum_scraped": "b1831a23280ab56298d2d1d68a0542be",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1602P",
+      "product_type": "Switch",
+      "version": "5.0.1.2248 build 20221215",
+      "release_date": "2022-12-16",
+      "download_link": "https://download.qnap.com/Storage/QGD-3014/QGD-3014_20221215-5.0.1.2248.zip",
+      "checksum_scraped": "21d8756136c9f06cc5e7a0f48113983d",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1602P",
+      "product_type": "Switch",
+      "version": "Fixed a domain issue for QTS 5.0.0, 5.0.1",
+      "release_date": "2022-12-01",
+      "download_link": "https://download.qnap.com/Storage/Qfix/Kerberos_Patch_QTS_1.0_x86.zip",
+      "checksum_scraped": "3c7d59e3da71023063f8c3318d354a56",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1602P",
+      "product_type": "Switch",
+      "version": "5.0.0.2131 build 20220815",
+      "release_date": "2022-08-19",
+      "download_link": "https://download.qnap.com/Storage/QGD-3014/QGD-3014_20220815-5.0.0.2131.zip",
+      "checksum_scraped": "29fa7b4b15512002ff968e7da860db6c",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1602P",
+      "product_type": "Switch",
+      "version": "4.5.4.2117 build 20220802",
+      "release_date": "2022-08-16",
+      "download_link": "https://download.qnap.com/Storage/QGD-3014/QGD-3014_20220802-4.5.4.2117.zip",
+      "checksum_scraped": "70ff4f3f2fc1d9a74db742a879787b06",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1602P",
+      "product_type": "Switch",
+      "version": "5.0.0.2055 build 20220531",
+      "release_date": "2022-06-08",
+      "download_link": "https://download.qnap.com/Storage/QGD-3014/QGD-3014_20220531-5.0.0.2055.zip",
+      "checksum_scraped": "6278f0ff0a9e97af8d323bcf23460ec0",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1602P",
+      "product_type": "Switch",
+      "version": "4.5.4.2012 build 20220419",
+      "release_date": "2022-04-25",
+      "download_link": "https://download.qnap.com/Storage/QGD-3014/QGD-3014_20220419-4.5.4.2012.zip",
+      "checksum_scraped": "77104da7b0cbc68b08e809a4ae071805",
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Qnap",
+      "product_name": "QGD-1602P",
+      "product_type": "Switch",
+      "version": "5.0.0.1986 build 20220324",
+      "release_date": "2022-03-29",
+      "download_link": "https://download.qnap.com/Storage/QGD-3014/QGD-3014_20220324-5.0.0.1986.zip",
+      "checksum_scraped": "97e9f8f4367f97a0d923af8dd6502cba",
+      "additional_data": {}
+    }
+  ]
