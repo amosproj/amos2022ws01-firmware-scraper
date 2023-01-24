@@ -1,0 +1,13 @@
+﻿Vendor,Intervall,Last_update,Next_update,Vendor_class,max_products
+Linksys,0,2023-01-08,2023-01-09,LinksysScraper,
+Rockwell,0,2023-01-08,2023-01-09,RockwellScraper,
+Siemens,100,2022-11-29 00:00:00,2023-03-08,,
+Asus,100,2022-11-28 00:00:00,2023-12-01,,
+Schneider,0,2022-12-06 00:00:00,2023-01-12,SchneiderElectricScraper,10
+AVM,0,2022-12-07 00:00:00,2023-12-01,AVMScraper,
+Synology,0,2022-12-07,2023-12-01,SynologyScraper,
+Swisscom,0,2022-12-07,2023-01-01,SwisscomScraper,
+Zyxel,0,"2022-12-07,2022-12-07,",2023-01-01,ZyxelScraper,
+ABB,0,"2022-12-07,2022-12-07,"",",2023-01-01,ABBScraper,
+Trendnet,0,2022-12-07,2023-01-01,TrendnetScraper,
+TP-Link,100,2022-12-07,2023-12-01,TPLinkScraper,20
