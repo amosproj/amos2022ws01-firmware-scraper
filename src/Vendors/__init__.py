@@ -18,3 +18,6 @@ from .Trendnet.Trendnet import TrendnetScraper
 from .Zyxel.Zyxel import ZyxelScraper
 from .dd_wrt.dd_wrt import DDWRTScraper
 from .Engenius.Engenius import EngeniusScraper
+from .DLink.DLink import DLinkScraper
+from .Qnap.Qnap import QnapScraper
+from .Netgear.Netgear import NetgearScraper
