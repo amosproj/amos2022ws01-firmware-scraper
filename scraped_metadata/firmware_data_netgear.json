@@ -1,0 +1,772 @@
+[
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE290 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.7.62",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE290/RAXE290-V1.0.7.62.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE300 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.7.62",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE300/RAXE300-V1.0.7.62.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE300 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.5.56",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE300/RAXE300-V1.0.5.56_1.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE450 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.12.96",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE450/RAXE450-V1.0.12.96.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE450 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.11.94",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE450/RAXE450-V1.0.11.94_2.0.44.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE450 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.9.78",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE450/RAXE450-V1.0.9.78_2.0.38.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE450 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.8.70",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE450/RAXE450-V1.0.8.70_2.0.36.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE450 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.7.68",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE450/RAXE450-V1.0.7.68_2.0.35.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE450 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.6.64",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE450/RAXE450-V1.0.6.64_2.0.35.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE450 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.5.62",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE450/RAXE450-V1.0.5.62_2.0.35.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE450 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.1.52",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE450/RAXE450-V1.0.1.52_2.0.34.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.12.96",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.12.96.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.11.94",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.11.94.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.10.86",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.10.86.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.10.82",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.10.82.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.9.78",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.9.78_2.0.38.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.8.70",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.8.70_2.0.36.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.7.68",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.7.68_2.0.35.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.6.64",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.6.64_2.0.35.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.5.62",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.5.62_2.0.35.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.1.52",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.1.52_2.0.34.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAXE500 ",
+      "product_type": "Nighthawk WiFi 6E Routers",
+      "version": "Firmware Version 1.0.0.48",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAXE500/RAXE500-V1.0.0.48_2.0.34.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "LAX20 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.1.6.34",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/LAX20/LAX20-V1.1.6.34_2.0.52.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "LAX20 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.1.6.30",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/LAX20/LAX20-V1.1.6.30_2.0.50.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "LAX20 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.1.6.28",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/LAX20/LAX20-V1.1.6.28_2.0.49.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "LAX20 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.1.4.20",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/LAX20/LAX20-V1.1.4.20_2.0.45.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "LAX20 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.1.4.6",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/LAX20/LAX20-V1.1.4.6_2.0.42.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.13.128",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.13.128.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.12.114",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.12.114.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.11.112",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.11.112.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.10.110",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.10.110.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.5.108",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.5.108.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.3.92",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.3.92.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.2.88",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.2.88.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.80",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.1.80.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AX ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.78",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.1.78.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.13.128",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.13.128.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.12.114",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.12.114.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.11.112",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.11.112.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.10.110",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.10.110.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.5.108",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.5.108.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.3.92",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.3.92.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.2.88",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.2.88.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.80",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.1.80.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "R6700AXS ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.78",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/R6700AX/R6700AX-V1.0.1.78.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.13.128",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.13.128.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.12.114",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.12.114.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.11.112",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.11.112.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.10.110",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.10.110.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.5.108",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.5.108.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.3.92",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.3.92.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.2.88",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.2.88.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.80",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.1.80.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.78",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.1.78.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.72",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.1.72.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX10 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.68",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX10/RAX10-V1.0.1.68.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.8.40",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2v1-V1.2.8.40.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.3.28",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2v1-V1.2.3.28.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.2.24",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2v1-V1.2.2.24.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.1.22",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2v1-V1.2.1.22.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.0.16",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2-V1.2.0.16.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.2.136",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.2.136.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.136",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.1.136.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.128",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.1.128.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.122",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.1.122.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.118",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.1.118.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.114",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.1.114.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.1.108",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.1.108.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.0.84",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.0.84.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.0.78",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.0.78.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.0.64",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.0.64.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 ",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.0.0.58",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120-V1.0.0.58.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 v2",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.8.40",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2v1-V1.2.8.40.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 v2",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.3.28",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2v1-V1.2.3.28.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 v2",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.2.24",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2v1-V1.2.2.24.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 v2",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.1.22",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2v1-V1.2.1.22.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    },
+    {
+      "manufacturer": "Netgear",
+      "product_name": "RAX120 v2",
+      "product_type": "Nighthawk WiFi 6 Routers",
+      "version": "Firmware Version 1.2.0.16",
+      "release_date": null,
+      "download_link": "https://www.downloads.netgear.com/files/GDC/RAX120/RAX120v2-V1.2.0.16.zip",
+      "checksum_scraped": null,
+      "additional_data": {}
+    }
+  ]
