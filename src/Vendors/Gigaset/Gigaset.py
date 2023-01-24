@@ -9,11 +9,12 @@ class GigasetScraper:
     def __init__(self, logger, max_products: int = float("inf")):
         self.url = "https://teamwork.gigaset.com/gigawiki/pages/viewpage.action?pageId=37486876"
         self.options = Options()
-        self.name = "Gigaset"
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         self.options.add_argument("--headless")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
+        self.name = "Gigaset"
+        self.driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()), options=self.options)
         self.catalog: list[dict] = []
         self.logger = logger
         self.max_products = max_products
@@ -45,7 +46,8 @@ class GigasetScraper:
             CASE_1 = self.driver.find_elements(
                 By.CSS_SELECTOR, "a[data-linked-resource-type='attachment']"
             )
-            CASE_2 = self.driver.find_elements(By.CSS_SELECTOR, ".external-link")
+            CASE_2 = self.driver.find_elements(
+                By.CSS_SELECTOR, ".external-link")
 
             self.driver.find_elements(
                 By.CSS_SELECTOR, "li[title='Show all breadcrumbs']"
