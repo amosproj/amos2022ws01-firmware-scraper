@@ -179,7 +179,8 @@ class DLinkScraper:
                     self.logger.info(
                         'Successfully Scraped Max Products Firmware Amount -> '
                         + str(self.max_products))
-                    break
+                    self.driver.refresh()
+                    return
             except ignored_exceptions:
                 self.logger.error('Could not click on selected Firmware')
                 continue
@@ -218,7 +219,7 @@ class DLinkScraper:
             self._scrape_product_firmware(category_name)
 
             if self.__scrape_cnt == self.max_products:
-                break
+                return
 
         sel_products = self.__get_product_selectors()
 
@@ -282,7 +283,7 @@ class DLinkScraper:
             self._loop_products(category_name)
 
             if self.__scrape_cnt == self.max_products:
-                break
+                return
 
     def download_link(self, links: list):
         try:
@@ -332,7 +333,7 @@ class DLinkScraper:
 
 
 def main():
-    Scraper = DLinkScraper(LOGGER, headless=False, max_products=10)
+    Scraper = DLinkScraper(LOGGER, headless=True, max_products=10)
     meta_data = Scraper.scrape_metadata()
     json_data = json.dumps(meta_data)
     print(json_data)
