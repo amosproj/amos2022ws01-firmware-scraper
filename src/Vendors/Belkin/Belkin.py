@@ -131,10 +131,10 @@ if __name__ == "__main__":
 
     import json
 
-    from src.logger import create_logger
+    from src.logger_old import create_logger_old
 
-    logger = create_logger(level="INFO")
-    Belkin = BelkinScraper(logger=logger, max_products=1)
+    logger = create_logger_old(level="INFO")
+    Belkin = BelkinScraper(logger=logger, max_products=10)
     firmware_data = Belkin.scrape_metadata()
 
     with open("scraped_metadata/firmware_data_Belkin.json", "w") as firmware_file:
