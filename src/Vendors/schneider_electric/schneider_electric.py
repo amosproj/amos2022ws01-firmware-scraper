@@ -50,6 +50,8 @@ class SchneiderElectricScraper(Scraper):
             chrome_options.add_argument("--window-size=1920,1080")
             chrome_options.add_argument("--start-maximized")
             chrome_options.add_argument("--headless")
+            chrome_options.add_argument("--no-sandbox")
+            chrome_options.add_argument("--disable-dev-shm-usage")
         self.driver = webdriver.Chrome(
             service=ChromeService(ChromeDriverManager().install()),
             options=chrome_options,
@@ -111,9 +113,11 @@ class SchneiderElectricScraper(Scraper):
 
         try:
             self.driver.get(product_url)
-            product_page = self.driver.find_element(by=By.TAG_NAME, value="html")
+            product_page = self.driver.find_element(
+                by=By.TAG_NAME, value="html")
         except WebDriverException as e:
-            self.logger.warning(f"Could not access product URL '{product_url}'.")
+            self.logger.warning(
+                f"Could not access product URL '{product_url}'.")
             return []
 
         if el := self._find_element_and_check(
@@ -122,7 +126,8 @@ class SchneiderElectricScraper(Scraper):
             # Some product titles are accompanied by an information stroke element. If it exists, it corrupts the
             # extracted title. Therefore, it is removed (if existent).
             title = (
-                " ".join(el.text.split()).removesuffix("information_stroke").rstrip()
+                " ".join(el.text.split()).removesuffix(
+                    "information_stroke").rstrip()
             )
         if el := self._find_element_and_check(
             product_page, By.CSS_SELECTOR, CSS_SELECTOR_RELEASE_DATE
@@ -195,7 +200,8 @@ class SchneiderElectricScraper(Scraper):
                 by=By.CLASS_NAME, value="result-list"
             ).find_elements(by=By.CLASS_NAME, value="result-list-item")
             firmware_product_urls += [
-                item.find_element(by=By.CLASS_NAME, value="title").get_attribute("href")
+                item.find_element(by=By.CLASS_NAME,
+                                  value="title").get_attribute("href")
                 for item in firmware_products
             ]
         except WebDriverException as e:
@@ -216,7 +222,8 @@ class SchneiderElectricScraper(Scraper):
             WebDriverWait(self.driver, timeout=30).until(
                 expected_conditions.url_changes(self.driver.current_url)
             )
-            self.logger.debug(f"Scraped result page {self.driver.current_url}.")
+            self.logger.debug(
+                f"Scraped result page {self.driver.current_url}.")
             return True
         except WebDriverException as e:
             self.logger.warning(
