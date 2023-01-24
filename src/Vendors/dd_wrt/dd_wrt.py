@@ -107,7 +107,7 @@ class DDWRTScraper(Scraper):
                                 # DD-WRT offers firmware for routers
                                 "product_type": "Router",
                                 # DD-WRT offers release dates instead of version numbers
-                                "version": None,
+                                "version": "NA",
                                 "release_date": release_date,
                                 "checksum_scraped": None,
                                 "download_link": url,
