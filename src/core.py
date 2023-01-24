@@ -55,7 +55,7 @@ class Core:
 
         # compare products with historized products
         metadata_new = self.db.compare_products(table1=f"{self.current_vendor.name}", table2="products")
-        self.logger.important(f" {len(metadata_new)} new products for {self.current_vendor.name}.")
+        self.logger.important(f"{len(metadata_new)} new products for {self.current_vendor.name}.")
 
         # insert new products into products table
         self.db.insert_products(metadata_new, table="products")
