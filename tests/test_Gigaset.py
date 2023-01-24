@@ -1,10 +1,10 @@
 import pytest
 from selenium.common.exceptions import WebDriverException
 
-from src.logger import create_logger
+from src.logger_old import create_logger_old
 from src.Vendors import GigasetScraper
 
-logger = create_logger()
+logger = create_logger_old()
 
 
 def test_init():

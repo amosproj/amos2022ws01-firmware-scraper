@@ -47,11 +47,7 @@ class AVMScraper:
         self.logger.info(f"Scraping all data from {self.url}")
 
         elem_list = self.driver.find_elements(By.XPATH, "//pre/a")
-        elem_list = [
-            "/" + elem.text
-            for elem in elem_list
-            if elem.text not in ["../", "archive/"]
-        ]
+        elem_list = ["/" + elem.text for elem in elem_list if elem.text not in ["../", "archive/"]]
 
         # Iterate through index links and append all subdirectories
         for index, value in enumerate(elem_list):
@@ -65,8 +61,7 @@ class AVMScraper:
                     elem.get_property("pathname"),
                 )
                 for elem in sub_elems
-                if self._get_file_extension(elem.get_property("pathname"))
-                in self.fw_types
+                if self._get_file_extension(elem.get_property("pathname")) in self.fw_types
             ]
             for (date, file) in fw_files:
 
@@ -95,9 +90,7 @@ class AVMScraper:
                     product, version = self._parse_txt_file(self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
-                    firmware_item["additional_data"] = {
-                        "info_url": self.url + text_file
-                    }
+                    firmware_item["additional_data"] = {"info_url": self.url + text_file}
                 firmware_item["download_link"] = self.url + file
                 firmware_item["product_type"] = value.strip("/").split("/")[0]
                 self.catalog.append(firmware_item)
@@ -125,14 +118,10 @@ class AVMScraper:
             products.remove("archive")
             for product in products:
                 for root, dirs, files in ftp_host.walk(product):
-                    if not any(
-                        _ for _ in files if self.get_file_extension(_) == ".image"
-                    ):
+                    if not any(_ for _ in files if self.get_file_extension(_) == ".image"):
                         continue
                     else:
-                        if not any(
-                            _ for _ in files if self.get_file_extension(_) == ".txt"
-                        ):
+                        if not any(_ for _ in files if self.get_file_extension(_) == ".txt"):
                             print("No info.txt available.")
                             dict_["manufacturer"].append("AVM")
                             dict_["product_name"].append(root.split("/")[1])
@@ -175,9 +164,9 @@ if __name__ == "__main__":
 
     import json
 
-    from src.logger import create_logger
+    from src.logger_old import create_logger_old
 
-    logger = create_logger()
+    logger = create_logger_old()
     AVM = AVMScraper(logger=logger)
     firmware_data = AVM.scrape_metadata()
 

@@ -1,74 +1,23 @@
-'''
-Logging module callable by all other moduels
+"""
+Logging module
 
 Concept:
-- Logger is set up in module logger.py
-- Three different levels of log messages:
-    - Info (mainly success messages, processes started, finished etc.)
-    - Warning (No dangerous errors, but something did not work as planned)
-    - Error (All errors occuring)
+
+- Five different levels of log messages:
+    (see https://docs.python.org/3/howto/logging.html)
+
+    - DEBUG (Detailed information, relevant to developers.)
+    - INFO (Confirmation that things are working as expected - less important.)
+    - IMPORTANT (Confirmation that things are working as expected - important.)
+    - WARNING (Something unexpected happened, but the software continues to work.)
+    - ERROR (All errors occurring.)
+
 - Two different handlers, one who logs to the console and one who logs to a log file
-    - All information gets logged to file for a clear history - (levels: info, warning and error)
-    - Important information gets logged to console - (levels: warning and error)
+    - Default:
+        - All levels are logged to the logfile
+        - Only levels >= INFO are logged to the console
 
-Logging in scheduler:
-    - Scheduler started check_schedule (once per day)
-    - Which vendors are scheduled for today
-    - Handed vendor over to core
-
-Logging in core:
-    - Scan started vor vendor x
-    - Scan finished for vendor x (return value recieved from vendor module); X new firmwares have been found and will be downloaded
-
-Either in core or vendor:
-    - Download for product x succesful (file)
-    - Summary for vendor to console (eg. 8/8 files have been downloaded)
-
-Logging in vendor modules:
-    - Accesed main url (download center of vendor)
-    - Vendor-depending messages like 'found url of product page',
-    - Scanned product X - downloaded metadata
-    - Scan finished - return to core
-
-log_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-    - Timestamp
-    - name --> filename (where does the log come from)
-    - message needs to be formatted as well
-
-
-Message guide:
-- Scheduler:
-    - INFO - checking_schedule() started
-    - INFO - checking schedule finished; the following vendors are schedules for today: vendor X, vendor Y, vendor Z
-    - INFO - handed vendor x over to core
-    - INFO - scheduled next scan for vendor X for xx.xx.xxxx
-
-    - Warning -
-    - ERROR -
-
-- Core
-    - INFO - Scan started for vendor X
-    - INFO - Scan finished for vendor x; X new firmwares have been found and will be downloaded
-
-    - INFO - Download for product x succesful (file) ToDO: How do we identify products in the logs? Name and vendor? ID?
-    - WARNING - Summary for vendor to console (eg. 8/8 files have been downloaded)
-
-- Vendor modules:
-    - INFO - Accesed main url (download center of vendor)
-    - INFO - scraped url of product page,
-    - INFO - Scanned product X - downloaded metadata
-    - INFO - Scan finished - return metadata  to core
-
-    - IMPORTANT - Scan started in Vendor X.py
-    - WARNING -
-
-
-- Idea to move forward:
-Since different vendors will create different problems, please check beforehand if a warning / error message for a new issue already exists here in the concept.
-    - If yes: Use given structure
-    - If not: add new message structure here
-'''
-
+"""
 
 import logging
 from functools import partial, partialmethod
@@ -76,33 +25,103 @@ from pathlib import Path
 
 # Add custom level "IMPORTANT" (between INFO and WARNING)
 logging.IMPORTANT = 25
-logging.addLevelName(logging.IMPORTANT, 'Important')
+logging.addLevelName(logging.IMPORTANT, "IMPORTANT")
 logging.Logger.important = partialmethod(logging.Logger.log, logging.IMPORTANT)
 logging.important = partial(logging.log, logging.IMPORTANT)
 
+file_path = str(Path(__file__).parent) + "/logs.log"
 
-def create_logger(level: str = "IMPORTANT", name: str = "scraper"):
-    if level == "INFO":
-        con_level = logging.INFO
-    else:
-        con_level = logging.IMPORTANT
+root_logger = logging.getLogger("logger")
+root_logger.setLevel(logging.INFO)
 
-    file_path = str(Path(__file__).parent) + "/logs.log"
+format = logging.Formatter("%(asctime)s - %(mod_name)s - %(levelname)s - %(message)s")
 
-    logger = logging.getLogger(name)
-    logger.setLevel(logging.INFO)
+file_handler = logging.FileHandler(file_path)
+file_handler.setFormatter(format)
 
-    format = logging.Formatter(
-        '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+con_level = logging.INFO
+stream_handler = logging.StreamHandler()
+stream_handler.setLevel(con_level)
+stream_handler.setFormatter(format)
 
-    file_handler = logging.FileHandler(file_path)
-    file_handler.setFormatter(format)
+root_logger.addHandler(file_handler)
+root_logger.addHandler(stream_handler)
 
-    stream_handler = logging.StreamHandler()
-    stream_handler.setLevel(con_level)
-    stream_handler.setFormatter(format)
 
-    logger.addHandler(file_handler)
-    logger.addHandler(stream_handler)
+class Logger:
+    def __init__(self, mod_name: str):
+        self.logger = root_logger
+        self.mod_name = mod_name
+        self.extra_dict = {"mod_name": self.mod_name}
 
-    return logger
+    ### Common vendor functions
+    # Vendor modules: use these whenever possible
+
+    def start_scraping(self):
+        """Use when scraping begins"""
+        self.important("Started scraping")
+
+    def finish_scraping(self):
+        """Use when scraping finishes successfully"""
+        self.important("Finished scraping")
+
+    def abort_scraping(self):
+        """Use when scraping is stopped prematurely due to an error"""
+        self.important("Aborted scraping")
+
+    def entry_point_url_success(self, string):
+        """Use when driver.get() succeeds on the entry point URL"""
+        self.info(f"Successfully accessed entry point URL {string}")
+
+    def entry_point_url_failure(self, string):
+        """Use when driver.get() fails on the entry point URL"""
+        self.error(f"Could not access entry point URL {string}")
+
+    # (optional)
+    def firmware_url_success(self, url):
+        """Typically not needed. Use when driver.get() succeeds on URL of firmware page"""
+        self.debug(f"Successfully accessed firmware URL {url}")
+
+    def firmware_url_failure(self, url):
+        """Use when driver.get() fails on URL of firmware page"""
+        self.warning(f"Could not access firmware URL {url}")
+
+    def firmware_scraping_success(self, string):
+        """Use when db entry for a firmware product was successfully generated"""
+        # string: product name and/or product url
+        self.info(f"Successfully scraped firmware of {string}")
+
+    def firmware_scraping_failure(self, string):
+        """Use when db entry for a firmware product could not be generated"""
+        # string: product name and/or product url
+        self.warning(f"Could not scrape firmware of {string}")
+
+    # (optional)
+    def attribute_scraping_success(self, string):
+        """Typically not needed. Use when one attribute of a db entry for a firmware product was successfully scraped"""
+        self.debug(f"Successfully scraped {string}")
+
+    def attribute_scraping_failure(self, string):
+        """Use when one attribute of a db entry for a firmware product could not be scraped"""
+        self.warning(f"Could not scrape {string}")
+
+    ### Wrapper functions
+    # Vendor modules: only use for isolated cases
+
+    def debug(self, msg, *args, **kwargs):
+        self.logger.debug(msg, *args, **kwargs, extra=self.extra_dict)
+
+    def info(self, msg, *args, **kwargs):
+        self.logger.info(msg, *args, **kwargs, extra=self.extra_dict)
+
+    def important(self, msg, *args, **kwargs):
+        self.logger.important(msg, *args, **kwargs, extra=self.extra_dict)
+
+    def warning(self, msg, *args, **kwargs):
+        self.logger.warning(msg, *args, **kwargs, extra=self.extra_dict)
+
+    def error(self, msg, *args, **kwargs):
+        self.logger.error(msg, *args, **kwargs, extra=self.extra_dict)
+
+    def critical(self, msg, *args, **kwargs):
+        self.logger.critical(msg, *args, **kwargs, extra=self.extra_dict)

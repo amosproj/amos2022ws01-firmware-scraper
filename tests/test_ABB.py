@@ -1,25 +1,25 @@
 import pytest
 from selenium.common.exceptions import WebDriverException
 
-from src.logger import create_logger
+from src.logger_old import create_logger_old
 from src.Vendors import ABBScraper
 from src.Vendors.ABB.ABB import HOME_URL
 
 
 def test_entry_point_url_valid():
-    scraper = ABBScraper(create_logger(), scrape_entry_url=HOME_URL, headless=False)
+    scraper = ABBScraper(create_logger_old(), scrape_entry_url=HOME_URL, headless=False)
     scraper.driver.get(scraper.scrape_entry_url)
 
 
 def test_entry_point_url_invalid():
     with pytest.raises(WebDriverException):
         invalid_entry_point_url = "https://library.abb.con/r?dkg=dkg_software&q=firmwarexx"
-        scraper = ABBScraper(create_logger(), scrape_entry_url=invalid_entry_point_url, headless=False)
+        scraper = ABBScraper(create_logger_old(), scrape_entry_url=invalid_entry_point_url, headless=False)
         scraper.driver.get(scraper.scrape_entry_url)
 
 
 def test_scrape_product_metadata():
-    scraper = ABBScraper(create_logger(), headless=False, max_products=5)
+    scraper = ABBScraper(create_logger_old(), headless=False, max_products=5)
     scraped_data = scraper.scrape_metadata()
     for entry in scraped_data:
         assert entry["manufacturer"] == "ABB"

@@ -8,8 +8,8 @@ from selenium.webdriver.common.by import By
 
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.logger2 import Logger
-from src.logger import create_logger
+from src.logger import Logger
+from src.logger_old import create_logger_old
 from src.Vendors.scraper import Scraper
 
 DOWNLOAD_URL = "https://dd-wrt.com/support/other-downloads/?path=betas"

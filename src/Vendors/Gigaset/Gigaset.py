@@ -13,8 +13,7 @@ class GigasetScraper:
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
         self.name = "Gigaset"
-        self.driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()), options=self.options)
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.options)
         self.catalog: list[dict] = []
         self.logger = logger
         self.max_products = max_products
@@ -32,9 +31,7 @@ class GigasetScraper:
         self.connect_webdriver()
 
         self.logger.info("Scraping Gigaset Firmware.")
-        download_elems = self.driver.find_elements(
-            By.CSS_SELECTOR, ".columnMacro.conf-macro.output-block > span > a"
-        )
+        download_elems = self.driver.find_elements(By.CSS_SELECTOR, ".columnMacro.conf-macro.output-block > span > a")
         download_links = [e.get_attribute("href") for e in download_elems]
 
         self.logger.debug(f"Found {len(download_links)} download links.")
@@ -43,20 +40,13 @@ class GigasetScraper:
             self.logger.info(f"Scraping {link}")
             self.driver.get(link)
 
-            CASE_1 = self.driver.find_elements(
-                By.CSS_SELECTOR, "a[data-linked-resource-type='attachment']"
-            )
-            CASE_2 = self.driver.find_elements(
-                By.CSS_SELECTOR, ".external-link")
+            CASE_1 = self.driver.find_elements(By.CSS_SELECTOR, "a[data-linked-resource-type='attachment']")
+            CASE_2 = self.driver.find_elements(By.CSS_SELECTOR, ".external-link")
 
-            self.driver.find_elements(
-                By.CSS_SELECTOR, "li[title='Show all breadcrumbs']"
-            )[0].click()
+            self.driver.find_elements(By.CSS_SELECTOR, "li[title='Show all breadcrumbs']")[0].click()
 
             product_type = (
-                self.driver.find_element(
-                    By.CSS_SELECTOR, "ol#breadcrumbs > li:nth-last-child(2)"
-                )
+                self.driver.find_element(By.CSS_SELECTOR, "ol#breadcrumbs > li:nth-last-child(2)")
                 .get_attribute("innerText")
                 .lstrip()
             )
@@ -99,9 +89,9 @@ if __name__ == "__main__":
 
     import json
 
-    from src.logger import create_logger
+    from src.logger_old import create_logger_old
 
-    logger = create_logger()
+    logger = create_logger_old()
     Gigaset = GigasetScraper(logger=logger, max_products=10)
     firmware_data = Gigaset.scrape_metadata()
 

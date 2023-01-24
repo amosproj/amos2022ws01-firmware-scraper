@@ -1,9 +1,9 @@
 import pytest
 
-from src.logger import create_logger
+from src.logger_old import create_logger_old
 from src.Vendors.synology.synology import SynologyScraper
 
-logger = create_logger()
+logger = create_logger_old()
 
 
 @pytest.fixture(scope="session")

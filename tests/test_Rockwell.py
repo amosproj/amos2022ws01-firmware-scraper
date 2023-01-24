@@ -1,17 +1,17 @@
 import pytest
 from selenium.common.exceptions import WebDriverException
 
-from src.logger import create_logger
+from src.logger_old import create_logger_old
 from src.Vendors import RockwellScraper
 
 
 def test_connection_and_login():
-    RWS = RockwellScraper(create_logger())
+    RWS = RockwellScraper(create_logger_old())
     RWS.login()
 
 
 def test_scrape_product_metadata():
-    RWS = RockwellScraper(create_logger(), max_products=5)
+    RWS = RockwellScraper(create_logger_old(), max_products=5)
     scraped_data = RWS.scrape_metadata()
     for entry in scraped_data:
         assert entry["manufacturer"] == "Rockwell"

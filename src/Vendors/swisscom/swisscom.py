@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.logger import create_logger
+from src.logger_old import create_logger_old
 from src.Vendors.scraper import Scraper
 
 DOWNLOAD_URL_EN = "https://www.swisscom.ch/en/residential/help/device/firmware.html"
@@ -30,8 +30,7 @@ class SwisscomScraper(Scraper):
             chrome_options.add_argument("--no-sandbox")
             chrome_options.add_argument("--disable-dev-shm-usage")
             chrome_options.add_argument("--headless")
-        self.driver = webdriver.Chrome(service=ChromeService(
-            ChromeDriverManager().install()), options=chrome_options)
+        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
         self.driver.implicitly_wait(0.5)  # has to be set only once
 
     def _scrape_product_metadata(self, category_name: str, category_name_clean: str, product_id: str) -> dict:
@@ -48,29 +47,24 @@ class SwisscomScraper(Scraper):
             if self.driver.current_url != product_category_url:
                 self.driver.get(product_category_url)
         except WebDriverException as e:
-            self.logger.debug(
-                f"Could not access product category tab '{product_url}'.")
+            self.logger.debug(f"Could not access product category tab '{product_url}'.")
             return {}
 
         product_name = version = download_link = product_div = None
 
         # scrape product div
         try:
-            product_div = self.driver.find_element(
-                by=By.CSS_SELECTOR, value=f"div[data-id='{product_id}']")
+            product_div = self.driver.find_element(by=By.CSS_SELECTOR, value=f"div[data-id='{product_id}']")
         except WebDriverException as e:
             self.logger.debug(f"Couldn't scrape metadata for '{product_url}'.")
             return {}
 
         # scrape product name
         try:
-            parent_el = self.driver.find_element(
-                by=By.CSS_SELECTOR, value=f"a[data-track-label='{product_id}']")
-            product_name = parent_el.find_element(
-                by=By.CSS_SELECTOR, value="h6").text.strip()
+            parent_el = self.driver.find_element(by=By.CSS_SELECTOR, value=f"a[data-track-label='{product_id}']")
+            product_name = parent_el.find_element(by=By.CSS_SELECTOR, value="h6").text.strip()
         except WebDriverException as e:
-            self.logger.debug(
-                f"Couldn't scrape product name for '{product_url}'.")
+            self.logger.debug(f"Couldn't scrape product name for '{product_url}'.")
 
         # scrape download link
         try:
@@ -78,8 +72,7 @@ class SwisscomScraper(Scraper):
                 by=By.CSS_SELECTOR, value=CSS_SELECTOR_DOWNLOAD_LINK
             ).get_attribute("href")
         except WebDriverException as e:
-            self.logger.debug(
-                f"Couldn't scrape download link for '{product_url}'.")
+            self.logger.debug(f"Couldn't scrape download link for '{product_url}'.")
             return {}
 
         # scrape version
@@ -127,8 +120,7 @@ class SwisscomScraper(Scraper):
                 category_name_clean_root = self.driver.find_element(
                     by=By.CSS_SELECTOR, value=css_selector_product_category_name_clean_root
                 )
-                category_name_clean = category_name_clean_root.find_element(
-                    by=By.CSS_SELECTOR, value=f"h2").text
+                category_name_clean = category_name_clean_root.find_element(by=By.CSS_SELECTOR, value=f"h2").text
                 if not category_name_clean and category_name in product_category_map:
                     category_name_clean = product_category_map[category_name]
 
@@ -138,13 +130,11 @@ class SwisscomScraper(Scraper):
 
                 for product in products:
                     product_id = product.get_attribute("data-panel")
-                    product_ids.append(
-                        (category_name, category_name_clean, product_id))
+                    product_ids.append((category_name, category_name_clean, product_id))
             return product_ids
 
         except WebDriverException as e:
-            self.logger.error(
-                f"Could not scrape product names. Abort scraping.\n{e}")
+            self.logger.error(f"Could not scrape product names. Abort scraping.\n{e}")
             return []
 
     def scrape_metadata(self) -> list[dict]:
@@ -153,17 +143,14 @@ class SwisscomScraper(Scraper):
         self.logger.info(f"Start scraping metadata of firmware products.")
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.info(
-                f"Successfully accessed entry point URL {self.scrape_entry_url}.")
+            self.logger.info(f"Successfully accessed entry point URL {self.scrape_entry_url}.")
         except WebDriverException as e:
-            self.logger.error(
-                f"Could not access entry point URL {self.scrape_entry_url}. Abort scraping.\n{e}")
+            self.logger.error(f"Could not access entry point URL {self.scrape_entry_url}. Abort scraping.\n{e}")
             return []
 
         # when first accessing the website, cookies must be accepted
         try:
-            self.driver.find_element(
-                by=By.CSS_SELECTOR, value=CSS_SELECTOR_ACCEPT_COOKIES).click()
+            self.driver.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_ACCEPT_COOKIES).click()
         except WebDriverException as e:
             pass
 
@@ -173,13 +160,12 @@ class SwisscomScraper(Scraper):
             if metadata := self._scrape_product_metadata(cat_name, cat_name_clean, prod_id):
                 extracted_data.append(metadata)
 
-        self.logger.info(
-            f"Finished scraping metadata of firmware products. Return metadata to core.")
+        self.logger.info(f"Finished scraping metadata of firmware products. Return metadata to core.")
         return extracted_data
 
 
 if __name__ == "__main__":
-    logger = create_logger(level="INFO")
+    logger = create_logger_old(level="INFO")
 
     scraper = SwisscomScraper(logger, DOWNLOAD_URL_EN, headless=False)
 
