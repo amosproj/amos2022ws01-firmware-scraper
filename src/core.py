@@ -10,14 +10,14 @@ from urllib.request import urlopen
 from tqdm import tqdm
 
 from src.db_connector import DBConnector
-from src.logger import Logger
 from src.scheduler import check_vendors_to_update
+from src.logger import get_logger
 
 # Vendor Modules
 from src.Vendors import *
 
 # Initialize logger
-logger = Logger("Core")
+logger = get_logger()
 
 
 class Core:
@@ -84,7 +84,6 @@ class Core:
 
 
 if __name__ == "__main__":
-
     # load config (e.g. max_products, log_level, log_file, chrome settings, headless, etc.)
     # this way we can avoid boilerplate and hardcoding settings into every vendors module
     with open("src/config.json") as config_file:

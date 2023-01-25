@@ -8,9 +8,9 @@ from selenium.webdriver.common.by import By
 
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.logger import Logger
-from src.logger_old import create_logger_old
 from src.Vendors.scraper import Scraper
+
+from src.logger import *
 
 DOWNLOAD_URL = "https://dd-wrt.com/support/other-downloads/?path=betas"
 
@@ -24,7 +24,7 @@ class DDWRTScraper(Scraper):
         max_products: int = float("inf"),
     ):
         self.name = "DDWRT"
-        self.logger = Logger(self.name)
+        self.logger = get_logger()
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
         self.max_products = max_products
@@ -66,7 +66,7 @@ class DDWRTScraper(Scraper):
             try:
                 self.driver.get(worklist[0])
             except WebDriverException as e:
-                self.logger.firmware_url_failure(product_url)
+                self.logger.warning(firmware_url_failure(product_url))
                 return []
 
             table_entries = []
@@ -75,7 +75,7 @@ class DDWRTScraper(Scraper):
                 # The first 3 elements from the table are not real products
                 table_entries = table_entries[3:]
             except WebDriverException as e:
-                self.logger.attribute_scraping_failure(f"download URLs for '{product_url}'")
+                self.logger.warning(attribute_scraping_failure(f"download URLs for '{product_url}'"))
 
             for i, entry in enumerate(table_entries):
                 try:
@@ -86,14 +86,16 @@ class DDWRTScraper(Scraper):
                         continue
                     url = entry_el.get_attribute("href")
                 except WebDriverException as e:
-                    self.logger.attribute_scraping_failure(f"URL for entry {i} in table {product_url}")
+                    self.logger.warning(attribute_scraping_failure(f"URL for entry {i} in table {product_url}"))
                     return []
 
                 try:
                     release_date = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_RELEASE_DATE).text
                 except WebDriverException as e:
                     release_date = None
-                    self.logger.attribute_scraping_failure(f"release date for entry {i} in table {product_url}")
+                    self.logger.warning(
+                        attribute_scraping_failure(f"release date for entry {i} in table {product_url}")
+                    )
 
                 try:
                     entry_type = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_ENTRY_TYPE).text
@@ -115,9 +117,9 @@ class DDWRTScraper(Scraper):
                                 "additional_data": {},
                             }
                         )
-                        self.logger.firmware_scraping_success(f"{product_name} ({entry_name}) {worklist[0]}")
+                        self.logger.info(firmware_scraping_success(f"{product_name} ({entry_name}) {worklist[0]}"))
                 except WebDriverException as e:
-                    self.logger.attribute_scraping_failure(f"type for entry {i} in table {product_url}")
+                    self.logger.warning(attribute_scraping_failure(f"type for entry {i} in table {product_url}"))
 
             worklist.pop(0)
 
@@ -133,7 +135,7 @@ class DDWRTScraper(Scraper):
             products = products[3:]
         except WebDriverException as e:
             self.logger.error(f"Could not scrape product URLs.\n{e}")
-            self.logger.abort_scraping()
+            self.logger.important(abort_scraping())
             return []
 
         product_urls = []
@@ -156,12 +158,12 @@ class DDWRTScraper(Scraper):
         CSS_SELECTOR_MOST_RECENT_REVISION = "#dd_downloads > table > tbody > tr:last-child > td:nth-child(1) > a"
 
         # self.logger.info(f"Start scraping metadata of firmware products.")
-        self.logger.start_scraping()
+        self.logger.important(start_scraping())
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.entry_point_url_success(self.scrape_entry_url)
+            self.logger.info(entry_point_url_success(self.scrape_entry_url))
         except WebDriverException as e:
-            self.logger.entry_point_url_failure(self.scrape_entry_url)
+            self.logger.error(entry_point_url_failure(self.scrape_entry_url))
             return []
 
         # when first accessing the website, an overlay window asking to agree to a privacy policy might block other
@@ -179,7 +181,7 @@ class DDWRTScraper(Scraper):
             self.driver.get(link_to_current_year)
         except WebDriverException as e:
             self.logger.error(f"Could not scrape most current firmware versions\n{e}")
-            self.logger.abort_scraping()
+            self.logger.important(abort_scraping())
             return []
 
         # to find current firmware versions for the selected year, the most recent revision has be selected from a list
@@ -190,7 +192,7 @@ class DDWRTScraper(Scraper):
             self.driver.get(link_to_revision)
         except WebDriverException as e:
             self.logger.error(f"Could not scrape most current firmware versions\n{e}")
-            self.logger.abort_scraping()
+            self.logger.important(abort_scraping())
             return []
 
         product_urls = self._scrape_product_urls()
@@ -200,13 +202,11 @@ class DDWRTScraper(Scraper):
             product_metadata = self._scrape_product_metadata(*tuple_)
             extracted_data.extend(product_metadata)
 
-        self.logger.finish_scraping()
+        self.logger.important(finish_scraping())
         return extracted_data
 
 
 if __name__ == "__main__":
-    # logger = create_logger(level="INFO")
-
     scraper = DDWRTScraper(None, DOWNLOAD_URL, max_products=50, headless=False)
 
     firmware_data = scraper.scrape_metadata()
