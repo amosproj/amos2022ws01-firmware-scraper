@@ -6,7 +6,6 @@ import sys
 from datetime import datetime
 from os import path
 
-import ftputil
 import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -47,7 +46,11 @@ class AVMScraper:
         self.logger.info(f"Scraping all data from {self.url}")
 
         elem_list = self.driver.find_elements(By.XPATH, "//pre/a")
-        elem_list = ["/" + elem.text for elem in elem_list if elem.text not in ["../", "archive/"]]
+        elem_list = [
+            "/" + elem.text
+            for elem in elem_list
+            if elem.text not in ["../", "archive/"]
+        ]
 
         # Iterate through index links and append all subdirectories
         for index, value in enumerate(elem_list):
@@ -61,7 +64,8 @@ class AVMScraper:
                     elem.get_property("pathname"),
                 )
                 for elem in sub_elems
-                if self._get_file_extension(elem.get_property("pathname")) in self.fw_types
+                if self._get_file_extension(elem.get_property("pathname"))
+                in self.fw_types
             ]
             for (date, file) in fw_files:
 
@@ -90,7 +94,9 @@ class AVMScraper:
                     product, version = self._parse_txt_file(self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
-                    firmware_item["additional_data"] = {"info_url": self.url + text_file}
+                    firmware_item["additional_data"] = {
+                        "info_url": self.url + text_file
+                    }
                 firmware_item["download_link"] = self.url + file
                 firmware_item["product_type"] = value.strip("/").split("/")[0]
                 self.catalog.append(firmware_item)
@@ -107,34 +113,6 @@ class AVMScraper:
             ]
             elem_list.extend(sub_elems)
         return self.catalog
-
-    def scrape_metadata_via_ftp(self):
-
-        dict_ = {}
-
-        with ftputil.FTPHost("ftp.avm.de", "anonymous", "") as ftp_host:
-
-            products = ftp_host.listdir(ftp_host.curdir)
-            products.remove("archive")
-            for product in products:
-                for root, dirs, files in ftp_host.walk(product):
-                    if not any(_ for _ in files if self.get_file_extension(_) == ".image"):
-                        continue
-                    else:
-                        if not any(_ for _ in files if self.get_file_extension(_) == ".txt"):
-                            print("No info.txt available.")
-                            dict_["manufacturer"].append("AVM")
-                            dict_["product_name"].append(root.split("/")[1])
-                            dict_["product_type"].append("NA")
-                            dict_["version"].append("NA")
-                            dict_["release_date"].append("NA")
-                            dict_["checksum_scraped"].append("NA")
-                            dict_["download_link"].append("NA")
-                            dict_["additional_data"] = {}
-                        else:
-                            for f in files:
-                                if f == "info_en.txt":
-                                    txt = self.read_txt_file(f)
 
     def _get_file_extension(self, filename):
         return path.splitext(filename)[-1]
@@ -170,5 +148,5 @@ if __name__ == "__main__":
     AVM = AVMScraper(logger=logger)
     firmware_data = AVM.scrape_metadata()
 
-    with open("../../scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
+    with open("scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
