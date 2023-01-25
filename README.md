@@ -24,9 +24,37 @@ export MYSQL_PASSWORD=<your password>
 
 python -m src.core
 ```
+**Requirements**: Git and Python 3.10 must be installed on your machine.
+
+The preferred way to run the application is to use Docker Compose. This option lets you quickly and seamlessly start the application using a single command.
 
 
-## Links
+```shell
+git clone https://github.com/amosproj/amos2022ws01-firmware-scraper
+#or download and unpack .zip mos2022ws01-firmware-scraper-main
+cd amos2022ws01-firmware-scraper
+python3 -m venv .AMOS
+source .AMOS/bin/activate
+pip install -r requirements.txt
 
-[Feature Board](https://github.com/orgs/amosproj/projects/4)
+# Make sure MySQL server is running
+# On macOS
+sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
+# On Linux
+/etc/init.d/mysqld start
 
+export MYSQL_USER=<your username>
+export MYSQL_PASSWORD=<your password>
+
+cd src
+python3 -m src.core
+```
+
+## Option: Docker 
+```shell
+git clone https://github.com/amosproj/amos2022ws01-firmware-scraper
+#or download and unpack .zip mos2022ws01-firmware-scraper-main
+cd amos2022ws01-firmware-scraper
+docker-compose up --build
+```
+**Requirements**: docker should be installed on your machine.
