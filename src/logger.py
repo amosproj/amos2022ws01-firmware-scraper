@@ -71,12 +71,15 @@ log_levels = {
     "ERROR": logging.ERROR,
     "CRITICAL": logging.CRITICAL,
 }
-if env_level := os.getenv("LOG_LEVEL").upper():
+if os.getenv("LOG_LEVEL"):
+    env_level = os.getenv("LOG_LEVEL").upper()
     if env_level in ["DEBUG", "INFO", "IMPORTANT", "WARNING", "ERROR", "CRITICAL"]:
         stream_level = log_levels[env_level]
+    else:
+        stream_level = log_levels["INFO"]
 
 
-##### Initialize logger
+# Initialize logger
 file_path = str(Path(__file__).parent) + "/logs.log"
 
 root_logger = logging.getLogger(logger_name)
@@ -97,7 +100,7 @@ def get_logger():
     return logging.getLogger(logger_name)
 
 
-##### Functions for common log messages
+# Functions for common log messages
 
 # level: important
 def start_scraping():
