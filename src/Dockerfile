@@ -22,6 +22,7 @@ RUN mv /chromedriver/chromedriver /usr/bin/chromedriver
 ENV DISPLAY=:99
 ENV MYSQL_USER=amos
 ENV MYSQL_PASSWORD=AMOSroot
+ENV LOG_LEVEL=DEBUG
 # set flag so db_connecor.py routes to docker container mysql_db
 ENV DOCKER_PYTHON_SCRAPER=1
 
