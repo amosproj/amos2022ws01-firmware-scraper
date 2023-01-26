@@ -1,6 +1,6 @@
 # Firmware Scraper (AMOS SS 2022)
 [![Pytest Suite](https://github.com/amosproj/amos2022ws01-firmware-scraper/actions/workflows/pytest.yml/badge.svg)](https://github.com/amosproj/amos2022ws01-firmware-scraper/actions/workflows/pytest.yml)
-![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/Deliverables/sprint-01/team-logo-black.png?raw=true)
+![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/Deliverables/sprint-01/team-logo-white.png?raw=true)
 
 ## TLDR;
 
@@ -22,7 +22,8 @@ sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 export MYSQL_USER=<your username>
 export MYSQL_PASSWORD=<your password>
 
-python -m src.core
+python -m src.core![image](https://user-images.githubusercontent.com/18518249/214767799-4d9e53a5-bf8b-4cff-b44c-77bebb41418e.png)
+
 ```
 **Requirements**: Git and Python 3.10 must be installed on your machine.
 
