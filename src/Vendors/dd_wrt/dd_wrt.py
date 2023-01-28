@@ -117,7 +117,7 @@ class DDWRTScraper(Scraper):
                                 "additional_data": {},
                             }
                         )
-                        self.logger.info(firmware_scraping_success(f"{product_name} ({entry_name}) {worklist[0]}"))
+                        self.logger.info(firmware_scraping_success(f"of {product_name} ({entry_name}) {worklist[0]}"))
                 except WebDriverException as e:
                     self.logger.warning(attribute_scraping_failure(f"type for entry {i} in table {product_url}"))
 
@@ -164,6 +164,7 @@ class DDWRTScraper(Scraper):
             self.logger.info(entry_point_url_success(self.scrape_entry_url))
         except WebDriverException as e:
             self.logger.error(entry_point_url_failure(self.scrape_entry_url))
+            self.logger.important(abort_scraping())
             return []
 
         # when first accessing the website, an overlay window asking to agree to a privacy policy might block other

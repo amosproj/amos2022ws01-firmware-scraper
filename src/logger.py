@@ -121,15 +121,15 @@ def abort_scraping():
 
 
 # level: info
-def entry_point_url_success(string):
+def entry_point_url_success(url):
     """Use when driver.get() succeeds on the entry point URL"""
-    return f"Successfully accessed entry point URL {string}"
+    return f"Successfully accessed entry point URL {url}"
 
 
 # level: error
-def entry_point_url_failure(string):
+def entry_point_url_failure(url):
     """Use when driver.get() fails on the entry point URL"""
-    return f"Could not access entry point URL {string}"
+    return f"Could not access entry point URL {url}"
 
 
 # (optional)
@@ -149,14 +149,14 @@ def firmware_url_failure(url):
 def firmware_scraping_success(string):
     """Use when db entry for a firmware product was successfully generated"""
     # string: product name and/or product url
-    return f"Successfully scraped firmware of {string}"
+    return f"Successfully scraped firmware {string}"
 
 
 # level: warning
 def firmware_scraping_failure(string):
     """Use when db entry for a firmware product could not be generated"""
     # string: product name and/or product url
-    return f"Could not scrape firmware of {string}"
+    return f"Could not scrape firmware {string}"
 
 
 # (optional)
@@ -166,7 +166,7 @@ def attribute_scraping_success(string):
     return f"Successfully scraped {string}"
 
 
-# level: warning
+# level: warning when unexpected, debug when expected
 def attribute_scraping_failure(string):
     """Use when one attribute of a db entry for a firmware product could not be scraped"""
     return f"Could not scrape {string}"
