@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.logger_old import create_logger_old
+from src.logger import *
 from src.Vendors.scraper import Scraper
 
 DOWNLOAD_URL_EN = "https://www.swisscom.ch/en/residential/help/device/firmware.html"
@@ -18,7 +18,7 @@ class SwisscomScraper(Scraper):
     def __init__(
         self, logger, scrape_entry_url: str = DOWNLOAD_URL_EN, headless: bool = True, max_products: int = float("inf")
     ):
-        self.logger = logger
+        self.logger = get_logger()
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
         self.name = "Swisscom"
@@ -56,7 +56,7 @@ class SwisscomScraper(Scraper):
         try:
             product_div = self.driver.find_element(by=By.CSS_SELECTOR, value=f"div[data-id='{product_id}']")
         except WebDriverException as e:
-            self.logger.debug(f"Couldn't scrape metadata for '{product_url}'.")
+            self.logger.warning(attribute_scraping_failure(f"metadata for '{product_url}'"))
             return {}
 
         # scrape product name
@@ -64,7 +64,7 @@ class SwisscomScraper(Scraper):
             parent_el = self.driver.find_element(by=By.CSS_SELECTOR, value=f"a[data-track-label='{product_id}']")
             product_name = parent_el.find_element(by=By.CSS_SELECTOR, value="h6").text.strip()
         except WebDriverException as e:
-            self.logger.debug(f"Couldn't scrape product name for '{product_url}'.")
+            self.logger.debug(attribute_scraping_failure(f"product name for '{product_url}'"))
 
         # scrape download link
         try:
@@ -72,7 +72,7 @@ class SwisscomScraper(Scraper):
                 by=By.CSS_SELECTOR, value=CSS_SELECTOR_DOWNLOAD_LINK
             ).get_attribute("href")
         except WebDriverException as e:
-            self.logger.debug(f"Couldn't scrape download link for '{product_url}'.")
+            self.logger.debug(attribute_scraping_failure(f"download link for '{product_url}'"))
             return {}
 
         # scrape version
@@ -82,8 +82,9 @@ class SwisscomScraper(Scraper):
             ).get_attribute("innerHTML")
             version = version_string.split("Version ")[1][:-1]
         except Exception as e:
-            self.logger.debug(f"Couldn't scrape version for '{product_url}'.")
+            self.logger.debug(attribute_scraping_failure(f"version for '{product_url}'"))
 
+        self.logger.info(firmware_scraping_success(f"of {product_name} {product_url}"))
         return {
             "manufacturer": "Swisscom",
             "product_name": product_name,
@@ -134,18 +135,20 @@ class SwisscomScraper(Scraper):
             return product_ids
 
         except WebDriverException as e:
-            self.logger.error(f"Could not scrape product names. Abort scraping.\n{e}")
+            self.logger.error(f"Could not scrape product names.\n{e}")
+            self.logger.important(abort_scraping())
             return []
 
     def scrape_metadata(self) -> list[dict]:
         CSS_SELECTOR_ACCEPT_COOKIES = "body > div.sdx-container > div.modal.modal--open > div > div > div.modal__body > div.button-group.button-group--responsive > button.button.button--responsive.button--primary"
 
-        self.logger.info(f"Start scraping metadata of firmware products.")
+        self.logger.important(start_scraping())
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.info(f"Successfully accessed entry point URL {self.scrape_entry_url}.")
+            self.logger.info(entry_point_url_success(self.scrape_entry_url))
         except WebDriverException as e:
-            self.logger.error(f"Could not access entry point URL {self.scrape_entry_url}. Abort scraping.\n{e}")
+            self.logger.error(entry_point_url_failure(self.scrape_entry_url))
+            self.logger.important(abort_scraping())
             return []
 
         # when first accessing the website, cookies must be accepted
@@ -160,12 +163,12 @@ class SwisscomScraper(Scraper):
             if metadata := self._scrape_product_metadata(cat_name, cat_name_clean, prod_id):
                 extracted_data.append(metadata)
 
-        self.logger.info(f"Finished scraping metadata of firmware products. Return metadata to core.")
+        self.logger.important(finish_scraping())
         return extracted_data
 
 
 if __name__ == "__main__":
-    logger = create_logger_old(level="INFO")
+    logger = get_logger()
 
     scraper = SwisscomScraper(logger, DOWNLOAD_URL_EN, headless=False)
 
