@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 from webdriver_manager.chrome import ChromeDriverManager
 
-from src.logger_old import create_logger_old
+from src.logger import *
 from src.Vendors.scraper import Scraper
 
 DOWNLOAD_URL_GLOBAL = "https://www.tp-link.com/en/support/download/"
@@ -22,7 +22,7 @@ class TPLinkScraper(Scraper):
         headless: bool = True,
         max_products: int = float("inf"),
     ):
-        self.logger = logger
+        self.logger = get_logger()
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
         self.max_products = max_products
@@ -66,14 +66,14 @@ class TPLinkScraper(Scraper):
         try:
             self.driver.get(product_url)
         except WebDriverException as e:
-            self.logger.warning(f"Could not access product URL '{product_url}'.")
+            self.logger.warning(firmware_url_failure(product_url))
             return {}
 
         # check if firmware download is offered
         try:
             self.driver.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_FIRMWARE).click()
         except WebDriverException as e:
-            self.logger.info(f"No firmware found for product URL '{product_url}'.")
+            self.logger.info(f"No firmware found for URL {product_url}.")
             return {}
 
         product_name = version = release_date = download_link = None
@@ -84,20 +84,20 @@ class TPLinkScraper(Scraper):
             hardware_version = self.driver.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_HARDWARE_VERSION).text
             product_name = product_name + hardware_version
         except WebDriverException as e:
-            self.logger.debug(f"Couldn't scrape product name for '{product_url}'.")
+            self.logger.debug(attribute_scraping_failure(f"product name for '{product_url}'"))
 
         # scrape version
         try:
             resource_name = self.driver.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_SOFTWARE_VERSION).text
             version = "_".join(resource_name.split("_")[1:])  # remove product name from version
         except Exception as e:
-            self.logger.debug(f"Couldn't scrape version for '{product_url}'.")
+            self.logger.debug(attribute_scraping_failure(f"version for '{product_url}'"))
 
         # scrape release date
         try:
             release_date = self.driver.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_RELEASE_DATE).text.rstrip()
         except Exception as e:
-            self.logger.debug(f"Couldn't scrape release date for '{product_url}'.")
+            self.logger.debug(attribute_scraping_failure(f"release date for '{product_url}'"))
 
         # scrape download link
         try:
@@ -110,8 +110,9 @@ class TPLinkScraper(Scraper):
                     by=By.CSS_SELECTOR, value=CSS_SELECTOR_DOWNLOAD_LINK_SIMPLE
                 ).get_attribute("href")
             except:
-                self.logger.debug(f"Couldn't scrape download link for '{product_url}'.")
+                self.logger.debug(attribute_scraping_failure(f"download link for '{product_url}'"))
 
+        self.logger.info(firmware_scraping_success(f"of {product_name} {product_url}"))
         return {
             "manufacturer": "TP-Link",
             "product_name": product_name,
@@ -129,12 +130,13 @@ class TPLinkScraper(Scraper):
         CSS_SELECTOR_PRODUCT_CATEGORIES_NAME = "h2 > span.tp-m-hide"
         CSS_SELECTOR_PRODUCT_LINKS = "div.item-box > span > a"
 
-        self.logger.info(f"Start scraping metadata of firmware products.")
+        self.logger.important(start_scraping())
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.info(f"Successfully accessed entry point URL {self.scrape_entry_url}.")
+            self.logger.info(entry_point_url_success(self.scrape_entry_url))
         except WebDriverException as e:
-            self.logger.error(f"Could not access entry point URL {self.scrape_entry_url}. Abort scraping.\n{e}")
+            self.logger.error(entry_point_url_failure(self.scrape_entry_url))
+            self.logger.important(abort_scraping())
             return []
 
         # when first accessing the website, an overlay window asking to switch to the correct region might block other
@@ -147,7 +149,8 @@ class TPLinkScraper(Scraper):
         try:
             product_categories_el = self.driver.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_CATEGORIES)
         except WebDriverException as e:
-            self.logger.error(f"Could not scrape product categories. Abort scraping.\n{e}")
+            self.logger.error(f"Could not scrape product categories.\n{e}")
+            self.logger.important(abort_scraping())
             return []
 
         product_categories = {}
@@ -177,12 +180,12 @@ class TPLinkScraper(Scraper):
                     if len(extracted_data) >= self.max_products:
                         break
 
-        self.logger.info(f"Finished scraping metadata of firmware products. Return metadata to core.")
+        self.logger.important(finish_scraping())
         return extracted_data
 
 
 if __name__ == "__main__":
-    logger = create_logger_old(level="INFO")
+    logger = get_logger()
 
     scraper = TPLinkScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=50, headless=False)
 
