@@ -150,6 +150,7 @@ if __name__ == "__main__":
             core.logger.error(f"Could not start {vendor}.")
             core.logger.error(e)
             core.logger.important("Continue with next vendor.")
+            continue
 
         # scrape product catalog
         if not core.get_product_catalog():
