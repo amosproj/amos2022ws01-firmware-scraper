@@ -1,85 +1,52 @@
+"""
+module for scheduling and updating
+"""
 import datetime
-import math
-import time
+import json
 
-import pandas as pd
-
-from src.logger_old import create_logger_old
-
-# initialize logger
-schedule_logger = create_logger_old(name="schedule_logger")
-
-
-def _check_vendors_to_update(schedule_file_path: str = "src/schedule.csv", logger=schedule_logger) -> list:
+def check_vendors_to_update(config_file_path: str = "config.json") -> list:
     """check if vendors need to be updated
 
     Args:
-        schedule_file (excel): excel file with schedule
-        logger (logger module, optional): logger.  Defaults to logger.
-
+        config_file_path (json): json file with schedule information
     Returns:
-        _type_: list of vendor objects
+        _type_: list of tuples (vendor classname, max_products)
     """
     vendor_list = []
-    schedule_file = pd.read_excel(schedule_file_path)
+    with open(config_file_path, "r", encoding="utf-8") as config_file:
+        config = json.load(config_file)
+
     now = datetime.datetime.now().date()
-    schedule_file["Next_update"] = pd.to_datetime(schedule_file["Next_update"]).dt.date
-    todays_schedule = schedule_file[schedule_file["Next_update"] <= now]
-
-    for index, row in todays_schedule.iterrows():
-        if math.isnan(row["max_products"]):
-            vendor_list.append(row["Vendor_class"](logger=logger))
-        else:
-            vendor_list.append(row["Vendor_class"](logger=logger, max_products=int(row["max_products"])))
-
+    max_products_glob = config["max_products"]
+    for vendor in config["vendors"]:
+        if datetime.datetime.strptime(vendor["next_update"], "%Y-%m-%d").date() > now or not vendor["active"]:
+            continue
+        max_products = vendor["max_products"] if vendor["max_products"] else max_products_glob
+        vendor_list.append((vendor["class_name"], max_products))
     return vendor_list
 
-
-def check_vendors_to_update(schedule_file_path: str = "src/schedule.csv", logger=schedule_logger) -> list:
-    """check if vendors need to be updated
-
-    Args:
-        schedule_file (excel): excel file with schedule
-        logger (logger module, optional): logger.  Defaults to logger.
-
-    Returns:
-        _type_: list of vendor objects
-    """
-    vendor_list = []
-    schedule_file = pd.read_csv(schedule_file_path)
-    now = datetime.datetime.now().date()
-    schedule_file["Next_update"] = pd.to_datetime(schedule_file["Next_update"]).dt.date
-    todays_schedule = schedule_file[schedule_file["Next_update"] <= now]
-
-    for index, row in todays_schedule.iterrows():
-        if math.isnan(row["max_products"]):
-            vendor_list.append(row["Vendor_class"])
-        else:
-            vendor_list.append(row["Vendor_class"])
-
-    return vendor_list
-
-
-# TODO
-
-
-def update_schedule(schedule_file_path: str = "src/schedule.csv", logger=schedule_logger):
+def update_vendor_schedule(vendor: str, config_file_path: str = "config.json"):
     """update schedule file AFTER vendor finished
 
     Args:
-        schedule_file_path (str, optional): _description_. Defaults to "schedule.xlsx".
-        logger (_type_, optional): _description_. Defaults to logger.
+        vendor: str of vendor classname
+        config_file_path (json): json file with schedule information
     """
-    schedule_file = pd.read_excel("src/schedule.xlsx")
+    with open(config_file_path, "r", encoding="utf-8") as config_file:
+        config = json.load(config_file)
 
-    next_update = row["Last_update"] + datetime.timedelta(days=row["Intervall"])
-    schedule_file.at[index, "Last_update"] = now
-    schedule_file.at[index, "Next_update"] = next_update
+    now = datetime.datetime.now().date()
+    for i in range(len(config["vendors"])):
+        if config["vendors"][i]["class_name"] == vendor:
+            config["vendors"][i]["last_update"] = now.strftime("%Y-%m-%d")
+            config["vendors"][i]["next_update"] = (now + datetime.timedelta(
+                days=int(config["vendors"][i]["interval"]))).strftime("%Y-%m-%d")
+            break
 
-    schedule_file.to_excel("src/schedule.xlsx", index=False)
-    pass
+    with open(config_file_path, "w", encoding="utf-8") as config_file:
+        json.dump(config, config_file)
 
 
 if __name__ == "__main__":
-
+    update_vendor_schedule("DDWRTScraper")
     check_vendors_to_update()

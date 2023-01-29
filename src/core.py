@@ -10,7 +10,7 @@ from urllib.request import urlopen
 from tqdm import tqdm
 
 from src.db_connector import DBConnector
-from src.scheduler import check_vendors_to_update
+from src.scheduler import check_vendors_to_update, update_vendor_schedule
 from src.logger import get_logger
 
 # Vendor Modules
@@ -130,7 +130,7 @@ class Core:
 if __name__ == "__main__":
     # load config (e.g. max_products, log_level, log_file, chrome settings, headless, etc.)
     # this way we can avoid boilerplate and hardcoding settings into every vendors module
-    with open("src/config.json") as config_file:
+    with open("config.json") as config_file:
         config = json.load(config_file)
 
     # get list of vendors to update
@@ -141,11 +141,12 @@ if __name__ == "__main__":
     core = Core(logger=logger)
 
     # iterate over vendors to update
-    for vendor in vendor_list:
+    for entry in vendor_list:
+        vendor, max_products = entry
         logger.important(f"Next: {vendor}")
 
         try:
-            core.set_current_vendor(globals()[vendor](max_products=10, logger=logger))
+            core.set_current_vendor(globals()[vendor](max_products=max_products, logger=logger))
         except Exception as e:
             core.logger.error(f"Could not start {vendor}.")
             core.logger.error(e)
@@ -153,12 +154,12 @@ if __name__ == "__main__":
             continue
 
         # scrape product catalog
-        if not core.get_product_catalog():
-            continue
+        # if not core.get_product_catalog():
+        #     continue
 
         # compare products with historized products
-        if not core.compare_products():
-            continue
+        # if not core.compare_products():
+        #     continue
 
         # download firmware
         # core.download_firmware()
@@ -168,3 +169,5 @@ if __name__ == "__main__":
 
         # cleaning, drop temporary tables if ERROR, etc.
         # core.cleaning()
+
+        update_vendor_schedule(vendor)
