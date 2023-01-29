@@ -9,12 +9,9 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
-
-from src.logger_old import create_logger_old
+from src.logger import *
+from src.logger import get_logger
 from tqdm import tqdm
-
-# logger = create_logger(level="INFO", name="test_scraper")
-# logger.important(name=)
 
 
 class RockwellScraper:
@@ -43,7 +40,11 @@ class RockwellScraper:
 
     def login(self):
         try:
-            self.driver.get(self.login_url)
+            try:
+                self.driver.get(self.login_url)
+                self.logger.important(f"Successfully accessed entry point URL {self.login_url}")
+            except:
+                self.logger.error(entry_point_url_failure(self.login_url))
             username_element = self.driver.find_element(By.ID, "userNameInput")
             username_element.send_keys(self.email)
 
@@ -52,7 +53,7 @@ class RockwellScraper:
             password_element.send_keys(Keys.ENTER)
             self.logger.important("Successfully logged in!")
         except Exception as e:
-            self.logger.warning("Could not log in!")
+            self.logger.error("Could not log in!")
             raise (e)
 
     def get_all_products(self):
@@ -63,10 +64,10 @@ class RockwellScraper:
             time.sleep(1)
             download_elements = self.driver.find_elements(By.XPATH, "//a[@class='tmpbs_list-group-item cstm-pt']")
             text_elements = self.driver.find_elements(By.XPATH, "//span[@class='pull-right']")
-            # self.logger.info()
+            self.logger.Important("Succesfully identified all product elements")
             return download_elements, text_elements
         except Exception as e:
-            self.logger.warning("Could not find products!")
+            self.logger.warning("Could not find all product elements")
             raise (e)
 
     def start_scraping(self, download_elements: list, text_elements: list):
@@ -80,7 +81,6 @@ class RockwellScraper:
                 new_list_of_product_dicts = self.scrape_10_products(download_elements, text_elements, t)
                 self.list_of_product_dicts += new_list_of_product_dicts
             except Exception as e:
-                self.logger.warning("Could not find products!")
                 raise (e)
 
     def scrape_10_products(self, download_elements: list, text_elements: list, t: int):
@@ -155,7 +155,7 @@ class RockwellScraper:
                         prod_fams.append(prod_fam)
                         time.sleep(0.5)
             except:
-                self.logger.warning("can't find " + text_elements[i].text)
+                logger.warning(firmware_scraping_failure(text_elements[i].text))
                 continue
 
         time.sleep(1)
@@ -188,7 +188,7 @@ class RockwellScraper:
                 "additional_data": {"product_family": prod_fams[t]},
             }
             list_of_product_dicts.append(firmware_item)
-            self.logger.important("Succesfully scraped " + prod_names[t] + " " + versions[t])
+            self.logger.info(firmware_scraping_success(f"{prod_names[t]} {download_links[t]}"))
 
         if prod_cats:
             trash_element = self.driver.find_element(By.ID, "MPS1TrashCmd")
@@ -203,7 +203,7 @@ class RockwellScraper:
         return list_of_product_dicts
 
     def download_firmware(self, firmware):
-        self.logger.important("Download firmware.")
+        self.logger.important("Started downloading")
         for url, name in tqdm(firmware):
             self.driver.get(url)
             firmware_only_elements = self.driver.find_elements(By.XPATH, "//span[contains(text(), 'Firmware Only')]")
@@ -229,10 +229,10 @@ class RockwellScraper:
                 By.XPATH, "//button[contains(text(), 'Accept and Download')]"
             )
             accept_and_download_element.click()
-        self.logger.important("Download done.")
+        self.logger.important("Finished downloading")
 
     def scrape_metadata(self) -> list[dict]:
-        self.logger.important("Rockwell - Start scraping metadata of firmware products.")
+        self.logger.important(start_scraping())
         self.login()
         download_elements, text_elements = self.get_all_products()
         self.start_scraping(download_elements, text_elements)
@@ -242,7 +242,7 @@ class RockwellScraper:
 
 if __name__ == "__main__":
 
-    logger = create_logger_old()
+    logger = get_logger()
     RWS = RockwellScraper(logger=logger)
 
     RWS.login()
