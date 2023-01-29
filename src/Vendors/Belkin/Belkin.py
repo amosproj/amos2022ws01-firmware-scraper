@@ -14,7 +14,7 @@ class BelkinScraper:
         self.url = "https://www.belkin.com/support-article/?articleNum=10807"
         self.name = "Belkin"
         self.options = Options()
-        # self.options.add_argument("--headless")
+        self.options.add_argument("--headless")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
         self.options.add_argument("--start-maximized")
@@ -138,9 +138,6 @@ class BelkinScraper:
         self.logger.important(finish_scraping())
 
         return self.catalog
-
-    def get_attributes_to_compare(self) -> list[str]:
-        return self.catalog["version"]
 
 
 if __name__ == "__main__":

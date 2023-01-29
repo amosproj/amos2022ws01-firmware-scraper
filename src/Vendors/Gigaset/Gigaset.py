@@ -87,15 +87,12 @@ class GigasetScraper:
             }
 
             self.catalog.append(firmware_item)
-            self.logger.info(firmware_scraping_success(product_type))
+            self.logger.info(firmware_scraping_success(product_type + " " + version))
 
             if len(self.catalog) >= self.max_products:
                 break
         self.logger.important(finish_scraping())
         return self.catalog
-
-    def get_attributes_to_compare(self) -> list[str]:
-        return self.catalog["version"]
 
 
 if __name__ == "__main__":
