@@ -4,44 +4,46 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
+from src.logger import *
+
 
 class GigasetScraper:
-    def __init__(self, logger, max_products: int = float("inf")):
+    def __init__(self, max_products: int = float("inf")):
         self.url = "https://teamwork.gigaset.com/gigawiki/pages/viewpage.action?pageId=37486876"
         self.options = Options()
         self.options.add_argument("--headless")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
+        self.options.add_argument("--start-maximized")
+        self.options.add_argument("--window-size=1920,1080")
         self.name = "Gigaset"
         self.driver = webdriver.Chrome(
             service=Service(ChromeDriverManager().install()), options=self.options
         )
         self.catalog: list[dict] = []
-        self.logger = logger
+        self.logger = get_logger()
         self.max_products = max_products
 
     def connect_webdriver(self):
         try:
             self.driver.get(self.url)
-            self.logger.info("Connected Successfully!")
+            self.logger.info(entry_point_url_success(self.url))
         except Exception as e:
-            self.logger.exception("Could not connect to Gigaset!")
+            self.logger.error(entry_point_url_failure(self.url))
             raise (e)
 
     # TODO: get release_date
     def scrape_metadata(self) -> list[dict]:
         self.connect_webdriver()
 
-        self.logger.info("Scraping Gigaset Firmware.")
+        self.logger.important(start_scraping())
         download_elems = self.driver.find_elements(
             By.CSS_SELECTOR, ".columnMacro.conf-macro.output-block > span > a"
         )
         download_links = [e.get_attribute("href") for e in download_elems]
 
-        self.logger.debug(f"Found {len(download_links)} download links.")
         for link in download_links:
 
-            self.logger.info(f"Scraping {link}")
             self.driver.get(link)
 
             CASE_1 = self.driver.find_elements(
@@ -85,10 +87,11 @@ class GigasetScraper:
             }
 
             self.catalog.append(firmware_item)
+            self.logger.info(firmware_scraping_success(product_type))
 
             if len(self.catalog) >= self.max_products:
                 break
-
+        self.logger.important(finish_scraping())
         return self.catalog
 
     def get_attributes_to_compare(self) -> list[str]:
@@ -99,10 +102,7 @@ if __name__ == "__main__":
 
     import json
 
-    from src.logger_old import create_logger_old
-
-    logger = create_logger_old()
-    Gigaset = GigasetScraper(logger=logger, max_products=10)
+    Gigaset = GigasetScraper(max_products=10)
     firmware_data = Gigaset.scrape_metadata()
 
     with open("scraped_metadata/firmware_data_Gigaset.json", "w") as firmware_file:

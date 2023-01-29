@@ -13,37 +13,42 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
+from src.logger import *
+
 
 class AVMScraper:
-    def __init__(self, logger, max_products: int = float("inf"), headless: bool = True):
+    def __init__(self, max_products: int = float("inf")):
         self.url = "https://download.avm.de"
         self.name = "AVM"
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
-        self.headless = headless
-        self.logger = logger
+        self.logger = get_logger()
         self.options = Options()
         self.options.add_argument("--headless")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
+        self.options.add_argument("--start-maximized")
+        self.options.add_argument("--window-size=1920,1080")
+        self.driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()), options=self.options
+        )
         self.max_products = max_products
 
     def connect_webdriver(self):
         try:
             self.driver.get(self.url)
-            self.logger.info("Connected Successfully!")
+            self.logger.info(entry_point_url_success(self.url))
         except Exception as e:
-            self.logger.exception("Could not connect to AVM!")
+            self.logger.error(entry_point_url_failure(self.url))
             raise (e)
 
-    # List available firmware downloads
+    # TODO: Scrape product name
     def scrape_metadata(self) -> list:
 
         self.connect_webdriver()
 
         # Get all links on index page
-        self.logger.info(f"Scraping all data from {self.url}")
+        self.logger.important(start_scraping())
 
         elem_list = self.driver.find_elements(By.XPATH, "//pre/a")
         elem_list = [
@@ -54,7 +59,7 @@ class AVMScraper:
 
         # Iterate through index links and append all subdirectories
         for index, value in enumerate(elem_list):
-            self.logger.info(f"Searching {value}")
+
             self.driver.get(self.url + value)
             sub_elems = self.driver.find_elements(By.XPATH, "//pre/a")
 
@@ -80,7 +85,6 @@ class AVMScraper:
                     "additional_data": {},
                 }
 
-                self.logger.info(f"Found firmware file: {file}")
                 text_file = next(
                     (
                         elem.get_property("pathname")
@@ -90,7 +94,7 @@ class AVMScraper:
                     None,
                 )
                 if text_file:
-                    self.logger.info(f"Found info file: {text_file}")
+
                     product, version = self._parse_txt_file(self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
@@ -100,6 +104,9 @@ class AVMScraper:
                 firmware_item["download_link"] = self.url + file
                 firmware_item["product_type"] = value.strip("/").split("/")[0]
                 self.catalog.append(firmware_item)
+                self.logger.info(
+                    firmware_scraping_success(firmware_item["product_type"])
+                )
 
             if len(self.catalog) >= self.max_products:
                 break
@@ -112,6 +119,8 @@ class AVMScraper:
                 not in [".txt", ".image", ".exe", ".zip", ".dmg"]
             ]
             elem_list.extend(sub_elems)
+
+        self.logger.important(finish_scraping())
         return self.catalog
 
     def _get_file_extension(self, filename):
@@ -125,9 +134,8 @@ class AVMScraper:
             txt = requests.get(file_url).text.splitlines()
             product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
             version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
-            self.logger.info(f"Found {product, version} in txt file!")
         except Exception as e:
-            self.logger.info(f"Could not parse text file: {e}")
+            pass
 
         return product, version
 
@@ -142,10 +150,7 @@ if __name__ == "__main__":
 
     import json
 
-    from src.logger_old import create_logger_old
-
-    logger = create_logger_old()
-    AVM = AVMScraper(logger=logger)
+    AVM = AVMScraper()
     firmware_data = AVM.scrape_metadata()
 
     with open("scraped_metadata/firmware_data_AVM.json", "w") as firmware_file:
