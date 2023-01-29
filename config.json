@@ -1,0 +1,29 @@
+{
+  "database": {
+    "user": "root",
+    "password": null
+  },
+  "download_dir": "./downloads",
+  "max_products": 50,
+  "log_level": "DEBUG",
+  "vendors": [
+    {
+      "name": "DDWRT",
+      "class_name": "DDWRTScaper",
+      "active": true,
+      "interval": "10",
+      "last_update": "2023-01-08",
+      "next_update": "2023-01-09",
+      "max_products": 40
+    },
+    {
+      "name": "ABB",
+      "class_name": "ABBScaper",
+      "active": true,
+      "interval": "10",
+      "last_update": "2023-01-08",
+      "next_update": "2023-01-09",
+      "max_products": null
+    }
+  ]
+}
