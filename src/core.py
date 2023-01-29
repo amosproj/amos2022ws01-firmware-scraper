@@ -21,49 +21,93 @@ logger = get_logger()
 
 
 class Core:
-    def __init__(self, current_vendor: Scraper, logger):
+    def __init__(self, logger):
         """Core class for firmware scraper
 
         Args:
-            current_vendor (str): current vendor
             logger (_type_): logger
         """
-        self.current_vendor = current_vendor
+        # self.current_vendor = current_vendor
+        self.current_vendor = None
         self.logger = logger
         self.db = DBConnector()
-        self.logger.important("Initialized core and DB.")
+        self.logger.info("Initialized core and DB.")
+
+    def get_current_vendor(self):
+        return self.current_vendor
+
+    def set_current_vendor(self, new_vendor):
+        self.current_vendor = new_vendor
 
     def get_product_catalog(self):
         """get product catalog from vendor"""
-        self.logger.important(f"Start scraping {self.current_vendor.name}.")
+        # self.logger.important(f"Start scraping {self.current_vendor.name}.")
 
-        # call vendor specific scraping function
-        metadata = self.current_vendor.scrape_metadata()
-        self.logger.important(f"Scraping done. Insert {self.current_vendor.name} catalogue into temporary table.")
+        try:
+            # call vendor specific scraping function
+            metadata = self.current_vendor.scrape_metadata()
+            # self.logger.important(f"Scraping done. Insert {self.current_vendor.name} catalogue into temporary table.")
+        except Exception as e:
+            self.logger.error(f"Could not scrape {self.current_vendor.name}.")
+            self.logger.error(e)
+            self.logger.important("Continue with next vendor.")
+            return False
 
-        # create temporary table for current vendor
-        self.db.create_table(table=f"{self.current_vendor.name}")
-        self.logger.important(f"Created temporary table for {self.current_vendor.name}.")
+        try:
+            # create temporary table for current vendor
+            self.db.create_table(table=f"{self.current_vendor.name}")
+            self.logger.info(f"Created temporary table for {self.current_vendor.name}.")
+        except Exception as e:
+            self.logger.error(f"Could not create temporary table for {self.current_vendor.name}.")
+            self.logger.error(e)
+            self.logger.important("Continue with next vendor.")
+            return False
 
-        # insert metadata into temporary table
-        self.db.insert_products(metadata, table=f"{self.current_vendor.name}")
-        self.logger.important(f"Inserted catalogue into temporary table for {self.current_vendor.name}.")
+        try:
+            # insert metadata into temporary table
+            self.db.insert_products(metadata, table=f"{self.current_vendor.name}")
+            self.logger.info(f"Inserted {self.current_vendor.name} catalogue into temporary table.")
+        except Exception as e:
+            self.logger.error(f"Could not insert {self.current_vendor.name} catalogue into temporary table.")
+            self.logger.error(e)
+            self.logger.important("Continue with next vendor.")
+            return False
+
+        return True
 
     def compare_products(self):
         """compare products with historized products"""
-        self.logger.important(f"Compare with historized products for {self.current_vendor.name}.")
 
-        # compare products with historized products
-        metadata_new = self.db.compare_products(table1=f"{self.current_vendor.name}", table2="products")
-        self.logger.important(f"{len(metadata_new)} new products for {self.current_vendor.name}.")
+        try:
+            # compare products with historized products
+            self.logger.info(f"Compare {self.current_vendor.name} catalogue with historized products.")
+            metadata_new = self.db.compare_products(table1=f"{self.current_vendor.name}", table2="products")
+            self.logger.important(f"{len(metadata_new)} new products for {self.current_vendor.name}.")
+        except Exception as e:
+            self.logger.error(f"Could not compare {self.current_vendor.name} catalogue with historized products.")
+            self.logger.error(e)
+            self.logger.important("Continue with next vendor.")
+            return False
 
-        # insert new products into products table
-        self.db.insert_products(metadata_new, table="products")
-        self.logger.important(f"Inserted new products into products for {self.current_vendor.name}.")
+        try:
+            # insert new products into products table
+            self.db.insert_products(metadata_new, table="products")
+            self.logger.info(f"Inserted new products of {self.current_vendor.name} into products table.")
+        except Exception as e:
+            self.logger.error(f"Could not insert new products of {self.current_vendor.name} into products table.")
+            self.logger.error(e)
+            self.logger.important("Continue with next vendor.")
+            return False
 
-        # delete temporary table
-        self.db.drop_table(table=f"{self.current_vendor.name}")
-        self.logger.important(f"Dropped temporary table for {self.current_vendor.name}.")
+        try:
+            # delete temporary table
+            self.db.drop_table(table=f"{self.current_vendor.name}")
+            self.logger.info(f"Dropped temporary table for {self.current_vendor.name}.")
+        except Exception as e:
+            self.logger.important(f"Could not drop temporary table for {self.current_vendor.name}.")
+            self.logger.error(e)
+
+        return True
 
     def download_firmware(self):
         """download firmware from vendor"""
@@ -93,21 +137,27 @@ if __name__ == "__main__":
     vendor_list = check_vendors_to_update()
     logger.info(f"Vendor list: {str(vendor_list)}")
 
+    # initialize core object
+    core = Core(logger=logger)
+
     # iterate over vendors to update
     for vendor in vendor_list:
-        logger.info(f"Vendor: {vendor}")
+        logger.important(f"Next: {vendor}")
 
-        # initialize core class for each vendor
-        core = Core(
-            current_vendor=globals()[vendor](max_products=16, logger=logger),
-            logger=logger,
-        )
+        try:
+            core.set_current_vendor(globals()[vendor](max_products=10, logger=logger))
+        except Exception as e:
+            core.logger.error(f"Could not start {vendor}.")
+            core.logger.error(e)
+            core.logger.important("Continue with next vendor.")
 
         # scrape product catalog
-        core.get_product_catalog()
+        if not core.get_product_catalog():
+            continue
 
         # compare products with historized products
-        core.compare_products()
+        if not core.compare_products():
+            continue
 
         # download firmware
         # core.download_firmware()
