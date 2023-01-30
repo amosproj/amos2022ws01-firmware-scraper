@@ -8,6 +8,10 @@ import json
 from urllib.request import urlopen
 
 from tqdm import tqdm
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 from src.db_connector import DBConnector
 from src.scheduler import check_vendors_to_update, update_vendor_schedule
@@ -16,8 +20,14 @@ from src.logger import get_logger
 # Vendor Modules
 from src.Vendors import *
 
-# Initialize logger
+# Initialize logger and Options for selenium
 logger = get_logger()
+options = Options()
+options.add_argument("--headless")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--start-maximized")
+options.add_argument("--window-size=1920,1080")
 
 
 class Core:
@@ -39,7 +49,7 @@ class Core:
     def set_current_vendor(self, new_vendor):
         self.current_vendor = new_vendor
 
-    def get_product_catalog(self):
+    def get_product_catalog(self) -> bool:
         """get product catalog from vendor"""
         # self.logger.important(f"Start scraping {self.current_vendor.name}.")
 
@@ -56,35 +66,44 @@ class Core:
         try:
             # create temporary table for current vendor
             self.db.create_table(table=f"{self.current_vendor.name}")
-            self.logger.info(f"Created temporary table for {self.current_vendor.name}.")
+            self.logger.info(
+                f"Created temporary table for {self.current_vendor.name}.")
         except Exception as e:
-            self.logger.error(f"Could not create temporary table for {self.current_vendor.name}.")
+            self.logger.error(
+                f"Could not create temporary table for {self.current_vendor.name}.")
             self.logger.error(e)
             self.logger.important("Continue with next vendor.")
             return False
 
         try:
             # insert metadata into temporary table
-            self.db.insert_products(metadata, table=f"{self.current_vendor.name}")
-            self.logger.info(f"Inserted {self.current_vendor.name} catalogue into temporary table.")
+            self.db.insert_products(
+                metadata, table=f"{self.current_vendor.name}")
+            self.logger.info(
+                f"Inserted {self.current_vendor.name} catalogue into temporary table.")
         except Exception as e:
-            self.logger.error(f"Could not insert {self.current_vendor.name} catalogue into temporary table.")
+            self.logger.error(
+                f"Could not insert {self.current_vendor.name} catalogue into temporary table.")
             self.logger.error(e)
             self.logger.important("Continue with next vendor.")
             return False
 
         return True
 
-    def compare_products(self):
+    def compare_products(self) -> bool:
         """compare products with historized products"""
 
         try:
             # compare products with historized products
-            self.logger.info(f"Compare {self.current_vendor.name} catalogue with historized products.")
-            metadata_new = self.db.compare_products(table1=f"{self.current_vendor.name}", table2="products")
-            self.logger.important(f"{len(metadata_new)} new products for {self.current_vendor.name}.")
+            self.logger.info(
+                f"Compare {self.current_vendor.name} catalogue with historized products.")
+            metadata_new = self.db.compare_products(
+                table1=f"{self.current_vendor.name}", table2="products")
+            self.logger.important(
+                f"{len(metadata_new)} new products for {self.current_vendor.name}.")
         except Exception as e:
-            self.logger.error(f"Could not compare {self.current_vendor.name} catalogue with historized products.")
+            self.logger.error(
+                f"Could not compare {self.current_vendor.name} catalogue with historized products.")
             self.logger.error(e)
             self.logger.important("Continue with next vendor.")
             return False
@@ -92,9 +111,11 @@ class Core:
         try:
             # insert new products into products table
             self.db.insert_products(metadata_new, table="products")
-            self.logger.info(f"Inserted new products of {self.current_vendor.name} into products table.")
+            self.logger.info(
+                f"Inserted new products of {self.current_vendor.name} into products table.")
         except Exception as e:
-            self.logger.error(f"Could not insert new products of {self.current_vendor.name} into products table.")
+            self.logger.error(
+                f"Could not insert new products of {self.current_vendor.name} into products table.")
             self.logger.error(e)
             self.logger.important("Continue with next vendor.")
             return False
@@ -102,16 +123,19 @@ class Core:
         try:
             # delete temporary table
             self.db.drop_table(table=f"{self.current_vendor.name}")
-            self.logger.info(f"Dropped temporary table for {self.current_vendor.name}.")
+            self.logger.info(
+                f"Dropped temporary table for {self.current_vendor.name}.")
         except Exception as e:
-            self.logger.important(f"Could not drop temporary table for {self.current_vendor.name}.")
+            self.logger.important(
+                f"Could not drop temporary table for {self.current_vendor.name}.")
             self.logger.error(e)
 
         return True
 
     def download_firmware(self):
         """download firmware from vendor"""
-        vendor_download_func = getattr(self.current_vendor, "download_firmware", None)
+        vendor_download_func = getattr(
+            self.current_vendor, "download_firmware", None)
         if callable(vendor_download_func):
             firmware = self.db.retrieve_download_links()
             self.current_vendor.download_firmware(firmware)
@@ -130,7 +154,7 @@ class Core:
 if __name__ == "__main__":
     # load config (e.g. max_products, log_level, log_file, chrome settings, headless, etc.)
     # this way we can avoid boilerplate and hardcoding settings into every vendors module
-    with open("config.json") as config_file:
+    with open("src/config.json") as config_file:
         config = json.load(config_file)
 
     # get list of vendors to update
@@ -141,12 +165,16 @@ if __name__ == "__main__":
     core = Core(logger=logger)
 
     # iterate over vendors to update
-    for entry in vendor_list:
-        vendor, max_products = entry
+    for vendor, max_products in vendor_list:
         logger.important(f"Next: {vendor}")
 
         try:
-            core.set_current_vendor(globals()[vendor](max_products=max_products, logger=logger))
+            driver = webdriver.Chrome(
+                service=Service(ChromeDriverManager().install()),
+                options=options
+            )
+            core.set_current_vendor(globals()[vendor](
+                max_products=max_products, driver=driver))
         except Exception as e:
             core.logger.error(f"Could not start {vendor}.")
             core.logger.error(e)
