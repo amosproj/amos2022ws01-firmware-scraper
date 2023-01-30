@@ -2,36 +2,23 @@
 Scraper module for AVM vendor
 """
 
-import sys
 from datetime import datetime
 from os import path
 
 import requests
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-
+from src.Vendors.scraper import Scraper
 from src.logger import *
 
 
-class AVMScraper:
-    def __init__(self, max_products: int = float("inf")):
+class AVMScraper(Scraper):
+    def __init__(self, driver, max_products: int = float("inf")):
         self.url = "https://download.avm.de"
         self.name = "AVM"
         self.fw_types = [".image", ".exe", ".zip", ".dmg"]
         self.catalog = []
         self.logger = get_logger()
-        self.options = Options()
-        self.options.add_argument("--headless")
-        self.options.add_argument("--no-sandbox")
-        self.options.add_argument("--disable-dev-shm-usage")
-        self.options.add_argument("--start-maximized")
-        self.options.add_argument("--window-size=1920,1080")
-        self.driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()), options=self.options
-        )
+        self.driver = driver
         self.max_products = max_products
 
     def connect_webdriver(self):
@@ -95,7 +82,8 @@ class AVMScraper:
                 )
                 if text_file:
 
-                    product, version = self._parse_txt_file(self.url + text_file)
+                    product, version = self._parse_txt_file(
+                        self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
                     firmware_item["additional_data"] = {
@@ -132,8 +120,10 @@ class AVMScraper:
         product, version = None, None
         try:
             txt = requests.get(file_url).text.splitlines()
-            product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
-            version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
+            product = self._get_partial_str(
+                txt, "Product").split(":")[-1].strip()
+            version = self._get_partial_str(
+                txt, "Version").split(":")[-1].strip()
         except Exception as e:
             pass
 
@@ -149,6 +139,7 @@ class AVMScraper:
 if __name__ == "__main__":
 
     import json
+    logger = get_logger()
 
     AVM = AVMScraper()
     firmware_data = AVM.scrape_metadata()

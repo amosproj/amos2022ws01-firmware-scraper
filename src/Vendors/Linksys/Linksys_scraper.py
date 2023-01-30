@@ -1,37 +1,25 @@
 # Imports
 import datetime
 import time
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
 
 from src.logger import *
+from src.Vendors.scraper import Scraper
 #from src.logger import get_logger
 # import json
 
 
-class LinksysScraper:
+class LinksysScraper(Scraper):
     def __init__(
-        self, logger, max_products: int = float("inf"), headless: bool = True
+        self, driver, max_products: int = float("inf"), headless: bool = True
     ):
         self.url = "https://www.linksys.com/sitemap"
         self.name = "Linksys"
-        self.logger = logger
+        self.driver = driver
+        self.logger = get_logger()
         self.max_products: int = max_products
 
         self.headless: bool = headless
-        chrome_options = Options()
-        if self.headless:
-            chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--start-maximized")
-            chrome_options.add_argument("--headless")
-        self.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()),
-            options=chrome_options,
-        )
         self.driver.implicitly_wait(3)
         self.list_of_product_dicts = []
 
@@ -186,15 +174,11 @@ class LinksysScraper:
         return self.list_of_product_dicts
 
 
-# if __name__ == "__main__":
-#
-#     logger = get_logger()
-#
-#     LS = LinksysScraper(logger=logger)#, max_products=5)
-#
-#     product_urls = LS.get_all_product_urls()
-#     LS.scrape_metadata_from_product_urls(product_urls)
-#     with open(
-#         r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\src\Vendors\Linksys\firmware.json", "w"
-#     ) as fw_file:
-#         json.dump(LS.list_of_product_dicts, fw_file)
+if __name__ == "__main__":
+    logger = get_logger()
+    LS = LinksysScraper(logger=logger, max_products=5)
+    product_urls = LS.get_all_product_urls()
+    LS.scrape_metadata_from_product_urls(product_urls)
+
+    with open("scraped_metadata/firmware_data_Linksys.json", "w") as firmware_file:
+        json.dump(LS.list_of_product_dicts, firmware_file)

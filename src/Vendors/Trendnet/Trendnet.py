@@ -1,42 +1,29 @@
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service as ChromeService
 
-from loguru import logger as LOGGER
+from src.logger import * 
 import json
+from src.Vendors.scraper import Scraper
 
 HOME_URL = "https://www.trendnet.com/support/"
 MANUFACTURER = "Trendnet"
 DOWNLOAD_BASE_LINK = "https://www.trendnet.com/asp/download_manager/inc_downloading.asp?button=Continue+with+Download&Continue=yes&iFile="
 
 
-class TrendnetScraper:
+class TrendnetScraper(Scraper):
     def __init__(
         self,
-        logger=LOGGER,
+        driver,
         scrape_entry_url: str = HOME_URL,
         headless: bool = True,
         max_products: int = float("inf")
     ):
         self.name = MANUFACTURER
         self.scrape_entry_url = scrape_entry_url
-        self.logger = LOGGER
+        self.logger = get_logger()
         self.__scrape_cnt = 0
         self.max_products = max_products
         self.headless = headless
-
-        chromeOptions = webdriver.ChromeOptions()
-        webdriver.ChromeOptions()
-
-        if self.headless:
-            chromeOptions.add_argument("--headless")
-        chromeOptions.add_argument("--disable-dev-shm-using")
-        chromeOptions.add_argument("--remote-debugging-port=9222")
-
-        self.driver = webdriver.Chrome(
-            options=chromeOptions, service=ChromeService(ChromeDriverManager()
-                                                         .install()))
+        self.driver = driver
 
     def __get_product_download_links(self):
         self.logger.info('Scrape Product Links -> Start')
@@ -226,12 +213,8 @@ class TrendnetScraper:
         return meta_data
 
 
-def main():
-    Scraper = TrendnetScraper(LOGGER, max_products=1)
+if __name__ == "__main__":
+    Scraper = TrendnetScraper(get_logger(), max_products=1)
     meta_data = Scraper.scrape_metadata()
 
     print(json.dumps(meta_data))
-
-
-if __name__ == "__main__":
-    main()

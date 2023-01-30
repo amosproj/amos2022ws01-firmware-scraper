@@ -4,16 +4,12 @@ from datetime import datetime
 from typing import Optional, Tuple, Union
 from urllib.request import urlopen
 
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from tqdm import tqdm
-from webdriver_manager.chrome import ChromeDriverManager
 
-from src.logger_old import create_logger_old
+from src.logger import *
 from src.Vendors.scraper import Scraper
 
 # # STATICS
@@ -28,35 +24,23 @@ SELECTOR_MD5 = (
 SELECTOR_DOWNLOAD = (
     "/html/body/div[5]/main/div[1]/div[2]/div[3]/div[2]/div[1]/div/div[1]/div[1]/div/div/div[3]/div/div/div/div[1]/a"
 )
-DOWNLOAD_PATH = "test/"
-
-# Selenium Webdriver Options, Download Path, Headless, Screensize, Webbrowser Version
-options = Options()
-options.headless = True
-
-options.add_experimental_option("prefs", {"download.default_directory": rf"{DOWNLOAD_PATH}"})
-
-user_agent = "Synology Download Assistant/1.0"
-options.add_argument(f"user-agent={user_agent}")
-# # Initialize Chrome and open Vendor Website
 
 
 class SynologyScraper(Scraper):
     def __init__(
         self,
-        logger,
+        driver,
         url: str = VENDOR_URL,
         headless: bool = True,
-        options: Options = options,
         max_products: int = float("inf"),
     ):
         self.headless = headless
         self.url = url
         self.name = "Synology"
         self.max_products = max_products
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        self.driver = driver
         self.driver.implicitly_wait(0.5)  # has to be set only once
-        self.logger = logger
+        self.logger = get_logger()
         self.current_product_line = ""
         self.current_product = ""
         self.last_checksum = ""
@@ -69,15 +53,19 @@ class SynologyScraper(Scraper):
             dict: product catalog
         """
 
-        sel = Select(self.driver.find_element(By.CSS_SELECTOR, value=f"{PRODUCT_TYPE_SELECTOR}"))
+        sel = Select(self.driver.find_element(
+            By.CSS_SELECTOR, value=f"{PRODUCT_TYPE_SELECTOR}"))
 
         # set keys as product_lines
-        product_catalog = dict.fromkeys([elem.text for elem in sel.options[1:]], None)
+        product_catalog = dict.fromkeys(
+            [elem.text for elem in sel.options[1:]], None)
         # set values from products of product line
         for product in product_catalog.keys():
             sel.select_by_visible_text(product)
-            selector_products = Select(self.driver.find_element(By.XPATH, value=f"{SELECTOR_PRODUCT}"))
-            product_catalog[product] = [elem.text for elem in selector_products.options[1:]]
+            selector_products = Select(self.driver.find_element(
+                By.XPATH, value=f"{SELECTOR_PRODUCT}"))
+            product_catalog[product] = [
+                elem.text for elem in selector_products.options[1:]]
         self.logger.debug("Created product_catalog")
         self.product_catalog = product_catalog
         return product_catalog
@@ -90,7 +78,8 @@ class SynologyScraper(Scraper):
         """
         # select product line
         Select(
-            self.driver.find_element(By.CSS_SELECTOR, value="div.margin_bottom20 > select:nth-child(1)")
+            self.driver.find_element(
+                By.CSS_SELECTOR, value="div.margin_bottom20 > select:nth-child(1)")
         ).select_by_visible_text(product_line)
         # set current product line
         self.current_product_line = product_line
@@ -102,7 +91,8 @@ class SynologyScraper(Scraper):
             product (str): product to select
         """
         # select product
-        Select(self.driver.find_element(By.XPATH, value=f"{SELECTOR_PRODUCT}")).select_by_visible_text(product)
+        Select(self.driver.find_element(
+            By.XPATH, value=f"{SELECTOR_PRODUCT}")).select_by_visible_text(product)
         self.driver.implicitly_wait(1)
 
     def _has_numbers(self, input_string: str) -> bool:
@@ -118,11 +108,13 @@ class SynologyScraper(Scraper):
         try:
             self.driver.implicitly_wait(1)
             # return DSM newest OS Version
-            dsm_element = self.driver.find_element(By.XPATH, value=f"{SELECTOR_NEWEST_OS}").text
+            dsm_element = self.driver.find_element(
+                By.XPATH, value=f"{SELECTOR_NEWEST_OS}").text
             # if any(char.isdigit() for char in inputString)
             return dsm_element if self._has_numbers(dsm_element) else None
         except Exception as e:
-            self.logger.debug(f"Could not find DSM OS for {self.current_product}, {self.driver.current_url}")
+            self.logger.debug(
+                f"Could not find DSM OS for {self.current_product}, {self.driver.current_url}")
             self.logger.debug(e)
             return None
 
@@ -159,10 +151,12 @@ class SynologyScraper(Scraper):
             str or None: download link
         """
         try:
-            download_link = self.driver.find_element(By.XPATH, "//*[text()='Download']").get_attribute("href")
+            download_link = self.driver.find_element(
+                By.XPATH, "//*[text()='Download']").get_attribute("href")
             return None if download_link.endswith(".pdf") else download_link
         except Exception as e:
-            self.logger.debug(f"Download link not found for {self.driver.current_url}")
+            self.logger.debug(
+                f"Download link not found for {self.driver.current_url}")
             self.logger.debug(e)
             return None
 
@@ -207,7 +201,8 @@ class SynologyScraper(Scraper):
             return self.current_release_note_url
         except Exception as e:
             self.current_release_note_url = ""
-            self.logger.debug(f"Could not find Release Note on {self.driver.current_url}")
+            self.logger.debug(
+                f"Could not find Release Note on {self.driver.current_url}")
             self.logger.debug(e)
             return None
 
@@ -221,7 +216,8 @@ class SynologyScraper(Scraper):
         try:
             #
             if self.current_release_note_url == "":
-                self.logger.debug(f"Could not find Release Note on {self.driver.current_url}")
+                self.logger.debug(
+                    f"Could not find Release Note on {self.driver.current_url}")
                 return None, None
             # Save the current window
             assert len(self.driver.window_handles) == 1
@@ -242,7 +238,8 @@ class SynologyScraper(Scraper):
                 ).get_attribute("innerHTML")
                 start, end = "<div>", "</div>"
                 release_date = (
-                    html_str[html_str.find(start) + len(start) : html_str.rfind(end)]
+                    html_str[html_str.find(
+                        start) + len(start): html_str.rfind(end)]
                     .split("\n")[0]
                     .replace("</div>", "")
                     .replace("(", "")
@@ -251,7 +248,8 @@ class SynologyScraper(Scraper):
                 version_str = self.driver.find_element(By.TAG_NAME, "h3").text
                 return release_date, version_str
             except Exception as e:
-                self.logger.debug(f"Could not find Release Note on {self.driver.current_url}")
+                self.logger.debug(
+                    f"Could not find Release Note on {self.driver.current_url}")
                 self.logger.debug(e)
                 return None, None
             finally:
@@ -276,6 +274,7 @@ class SynologyScraper(Scraper):
         Returns:
             list[dict]: list of dicts with metadata
         """
+        self.logger.important(start_scraping())
         # open website
         self._open_website()
         # create product catalog
@@ -306,6 +305,7 @@ class SynologyScraper(Scraper):
                 metadata.append(tmp_metadata_dict)
             self.logger.important(f"Scraped metadata for {product_line}")
         self.logger.important("Scraped metadata for all products")
+        self.logger.important(finish_scraping())
         self.driver.quit()
         return metadata
 
@@ -314,7 +314,7 @@ if __name__ == "__main__":
 
     import json
 
-    logger = create_logger_old()
+    logger = get_logger()
 
     logger.important("Start Synology")
     Syn = SynologyScraper(logger)

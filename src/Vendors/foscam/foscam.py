@@ -2,42 +2,24 @@
 
 import time
 from datetime import datetime
-from typing import Optional, Tuple, Union
 
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
 
 from src.Vendors.scraper import Scraper
+from src.logger import *
 
 # # STATICS
 VENDOR_URL = 'https://www.foscam.com/downloads/index.html'
-DOWNLOAD_PATH = 'downloads/'
-
-# Selenium Webdriver Options, Download Path, Headless, Screensize, Webbrowser Version
-options = Options()
-options.headless = True
-
-options.add_experimental_option("prefs", {
-    "download.default_directory": rf"{DOWNLOAD_PATH}"
-})
-
-user_agent = 'foscam Download Assistant/1.0'
-options.add_argument(f'user-agent={user_agent}')
-# # Initialize Chrome and open Vendor Website
 
 
 class FoscamScraper(Scraper):
 
     def __init__(
             self,
-            logger,
+            driver,
             url: str = VENDOR_URL,
             headless: bool = True,
-            options: Options = options,
             max_products: int = float('inf')
 
     ):
@@ -45,10 +27,9 @@ class FoscamScraper(Scraper):
         self.url = url
         self.name = "foscam"
         self.max_products = max_products
-        self.driver = webdriver.Chrome(service=Service(
-            ChromeDriverManager().install()), options=options)
+        self.driver = driver
         self.driver.implicitly_wait(0.5)  # has to be set only once
-        self.logger = logger
+        self.logger = get_logger()
 
     def _open_website(self, url: str = '') -> None:
         try:
@@ -146,7 +127,8 @@ class FoscamScraper(Scraper):
             return product_metadata
         except Exception as ex:
             self.logger.error(ex)
-            self.logger.debug('No metadata table, skip product')
+            self.logger.warning(
+                f'No metadata table, skip product: {product_url}')
 
     def _convert_date(self, date_str: str):
         try:
@@ -162,11 +144,13 @@ class FoscamScraper(Scraper):
         Returns:
             list[dict]: list of dicts with metadata
         """
+        self.logger.important(start_scraping())
         self._open_website()
         self._create_product_catalog()
 
         metadata = []
-        self.logger.debug(f'Iterate over product catalog and scrape metadata')
+        self.logger.important()
+        self.logger.info(f'Iterate over product catalog and scrape metadata')
         for product, product_url in self.products_list:
             if len(metadata) > self.max_products:
                 break
@@ -189,21 +173,23 @@ class FoscamScraper(Scraper):
                                          }
 
                     metadata.append(tmp_metadata_dict)
-                print(f'Finished scraping {product=}, {product_url=}')
+                self.logger.info(firmware_scraping_success(
+                    f'Finished scraping {product=}, {product_url=}'))
             except Exception as ex:
-                self.logger.debug(
+                self.logger.warning(
                     f'{product=}, {product_url=} is missing crucial data')
-                self.logger.debug(ex)
+                self.logger.warning(ex)
                 pass
             time.sleep(1)
         self.driver.quit()
+        self.logger.important(finish_scraping())
         return metadata
 
 
 if __name__ == '__main__':
     import json
 
-    from loguru import logger
+    logger = get_logger('foscam')
     logger.debug('Start foscam')
     foscam = FoscamScraper(logger)
     metadata = foscam.scrape_metadata()
