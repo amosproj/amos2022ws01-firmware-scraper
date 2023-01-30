@@ -15,7 +15,7 @@ from src.logger import *
 
 class LinksysScraper:
     def __init__(
-        self, logger, max_products: int = float("inf"), headless: bool = False
+        self, logger, max_products: int = float("inf"), headless: bool = True
     ):
         self.url = "https://www.linksys.com/sitemap"
         self.name = "Linksys"

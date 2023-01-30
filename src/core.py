@@ -154,12 +154,12 @@ if __name__ == "__main__":
             continue
 
         # scrape product catalog
-        # if not core.get_product_catalog():
-        #     continue
+        if not core.get_product_catalog():
+            continue
 
         # compare products with historized products
-        # if not core.compare_products():
-        #     continue
+        if not core.compare_products():
+            continue
 
         # download firmware
         # core.download_firmware()
