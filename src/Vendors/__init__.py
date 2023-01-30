@@ -20,3 +20,4 @@ from .synology.synology import SynologyScraper
 from .tp_link.tp_link import TPLinkScraper
 from .Trendnet.Trendnet import TrendnetScraper
 from .Zyxel.Zyxel import ZyxelScraper
+from .Gigaset.Gigaset import GigasetScraper
