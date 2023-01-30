@@ -28,11 +28,12 @@ class RockwellScraper:
             chrome_options.add_argument("--window-size=1920,1080")
             chrome_options.add_argument("--start-maximized")
             chrome_options.add_argument("--headless")
+            chrome_options.add_argument("--no-sandbox")
+            chrome_options.add_argument("--disable-dev-shm-usage")
         self.driver = webdriver.Chrome(
             service=ChromeService(ChromeDriverManager().install()),
             options=chrome_options,
         )
-        self.driver.implicitly_wait(1)
 
         self.email = os.getenv("Rockwell_email", "")
         self.password = os.getenv("Rockwell_password", "")
@@ -61,10 +62,10 @@ class RockwellScraper:
             self.driver.get(self.url)
             search_element = self.driver.find_element(By.XPATH, "//button[@onclick='MPS1.Search();']")
             search_element.click()
-            time.sleep(1)
+            time.sleep(2)
             download_elements = self.driver.find_elements(By.XPATH, "//a[@class='tmpbs_list-group-item cstm-pt']")
             text_elements = self.driver.find_elements(By.XPATH, "//span[@class='pull-right']")
-            self.logger.Important("Succesfully identified all product elements")
+            self.logger.important("Succesfully identified all product elements")
             return download_elements, text_elements
         except Exception as e:
             self.logger.warning("Could not find all product elements")
@@ -101,12 +102,12 @@ class RockwellScraper:
                 prod_cat = text.split("/")[0].split("(")[-1]
                 prod_fam = text.split("/")[1].split(")")[0]
                 download_elements[i].click()
-
+                self.driver.implicitly_wait(5)
                 active_version_elements = self.driver.find_elements(
                     By.XPATH,
                     "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
                 )
-                # self.driver.implicitly_wait(5)
+
                 if not active_version_elements:
                     prod_cats.append(prod_cat)
                     prod_fams.append(prod_fam)
@@ -117,48 +118,48 @@ class RockwellScraper:
                     for k in range(len(serieses)):
                         series_element = self.driver.find_element(By.LINK_TEXT, serieses[k])
                         series_element.click()
-                        time.sleep(0.3)
+                        time.sleep(0.5)
                         active_version_elements = self.driver.find_elements(
                             By.XPATH,
                             "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
                         )
                         if not active_version_elements:
                             download_elements[i].click()
-                        time.sleep(0.3)
+                        time.sleep(0.5)
                         for j in range(len(serieses) - 1, len(active_version_elements)):
                             if active_version_elements[j].get_attribute("title") != "Retired":
                                 active_version_elements[j].click()
                                 prod_cats.append(prod_cat)
                                 prod_fams.append(prod_fam)
                             download_elements[i].click()
-                            time.sleep(0.3)
+                            time.sleep(0.5)
                             self.driver.find_element(By.LINK_TEXT, serieses[k]).click()
-                            time.sleep(0.3)
+                            time.sleep(0.5)
                             active_version_elements = self.driver.find_elements(
                                 By.XPATH,
                                 "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
                             )
-                            time.sleep(0.3)
+                            time.sleep(0.5)
                         continue
-
-                for j in range(len(active_version_elements)):
-                    download_elements[i].click()
-                    time.sleep(0.5)
-                    active_version_elements = self.driver.find_elements(
-                        By.XPATH,
-                        "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
-                    )
-                    time.sleep(0.5)
-                    if active_version_elements[j].get_attribute("title") != "Retired":
-                        active_version_elements[j].click()
-                        prod_cats.append(prod_cat)
-                        prod_fams.append(prod_fam)
+                else:
+                    for j in range(len(active_version_elements)):
+                        download_elements[i].click()
                         time.sleep(0.5)
+                        active_version_elements = self.driver.find_elements(
+                            By.XPATH,
+                            "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
+                        )
+                        time.sleep(0.5)
+                        if active_version_elements[j].get_attribute("title") != "Retired":
+                            active_version_elements[j].click()
+                            prod_cats.append(prod_cat)
+                            prod_fams.append(prod_fam)
+                            time.sleep(0.5)
             except:
-                logger.warning(firmware_scraping_failure(text_elements[i].text))
+                self.logger.warning(firmware_scraping_failure(text_elements[i].text))
                 continue
 
-        time.sleep(1)
+        time.sleep(0.5)
         name_and_version_list = self.driver.find_element(By.ID, "MPS1CompareListing").text.split("\n")
         ids = self.driver.find_element(By.ID, "MPS1VersionList").get_attribute("value").split(",")
 
@@ -197,7 +198,7 @@ class RockwellScraper:
                 trash_element.click()
             except:
                 download_elements[i].click()
-                # time.sleep(0.3)
+                # time.sleep(0.5)
                 trash_element.click()
 
         return list_of_product_dicts
@@ -240,18 +241,18 @@ class RockwellScraper:
         return self.list_of_product_dicts
 
 
-if __name__ == "__main__":
-
-    logger = get_logger()
-    RWS = RockwellScraper(logger=logger)
-
-    RWS.login()
-    download_elements, text_elements = RWS.get_all_products()
-    RWS.start_scraping(download_elements, text_elements)
-    with open(
-        r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\src\Vendors\Rockwell\firmware2.json", "w"
-    ) as fw_file:
-        json.dump(RWS.list_of_product_dicts, fw_file)
-    # RWS.download_firmware(RWS.list_of_product_dicts)f
+# if __name__ == "__main__":
+#
+#     logger = get_logger()
+#     RWS = RockwellScraper(logger=logger)
+#
+#     RWS.login()
+#     download_elements, text_elements = RWS.get_all_products()
+#     RWS.start_scraping(download_elements, text_elements)
+#     with open(
+#         r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\src\Vendors\Rockwell\firmware2.json", "w"
+#     ) as fw_file:
+#         json.dump(RWS.list_of_product_dicts, fw_file)
+#     # RWS.download_firmware(RWS.list_of_product_dicts)f
 
 # Rockwell	0	2023-01-08	2023-01-09	RockwellScraper
