@@ -21,6 +21,7 @@ Concept:
 
 import logging
 import os
+import json
 from functools import partial, partialmethod
 from pathlib import Path
 
@@ -71,12 +72,25 @@ log_levels = {
     "ERROR": logging.ERROR,
     "CRITICAL": logging.CRITICAL,
 }
+
+# Set stream level according to env variable / config.json
+user_level = None
+try:
+    with open("config.json") as config_file:
+        config = json.load(config_file)
+    if config.get("log_level", None):
+        user_level = config.get("log_level").upper()
+except Exception as e:
+    print(e)
+
+# Env variable takes precedence over config.json
 if os.getenv("LOG_LEVEL"):
-    env_level = os.getenv("LOG_LEVEL").upper()
-    if env_level in ["DEBUG", "INFO", "IMPORTANT", "WARNING", "ERROR", "CRITICAL"]:
-        stream_level = log_levels[env_level]
-    else:
-        stream_level = log_levels["INFO"]
+    user_level = os.getenv("LOG_LEVEL").upper()
+
+if user_level in ["DEBUG", "INFO", "IMPORTANT", "WARNING", "ERROR", "CRITICAL"]:
+    stream_level = log_levels[user_level]
+else:
+    stream_level = log_levels["INFO"]
 
 
 # Initialize logger

@@ -37,7 +37,6 @@ class Core:
         Args:
             logger (_type_): logger
         """
-        # self.current_vendor = current_vendor
         self.current_vendor = None
         self.logger = logger
         self.db = DBConnector()
@@ -152,14 +151,15 @@ class Core:
 
 
 if __name__ == "__main__":
+
     # load config (e.g. max_products, log_level, log_file, chrome settings, headless, etc.)
     # this way we can avoid boilerplate and hardcoding settings into every vendors module
     with open("src/config.json") as config_file:
         config = json.load(config_file)
-
     # get list of vendors to update
-    vendor_list = check_vendors_to_update()
-    logger.info(f"Vendor list: {str(vendor_list)}")
+    vendor_max_products_pairs = check_vendors_to_update()
+    vendors_to_scrape = [name for name, _ in vendor_max_products_pairs]
+    logger.info(f"Scheduled scrapers: {str(vendors_to_scrape)}")
 
     # initialize core object
     core = Core(logger=logger)

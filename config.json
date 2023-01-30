@@ -8,15 +8,6 @@
   "log_level": "DEBUG",
   "vendors": [
     {
-      "name": "DDWRT",
-      "class_name": "DDWRTScraper",
-      "active": false,
-      "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
-      "max_products": 40
-    },
-    {
       "name": "ABB",
       "class_name": "ABBScraper",
       "active": true,
@@ -30,8 +21,8 @@
       "class_name": "AVMScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -39,17 +30,26 @@
       "class_name": "BelkinScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
+    },
+    {
+      "name": "DDWRT",
+      "class_name": "DDWRTScraper",
+      "active": false,
+      "interval": "10",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-01",
+      "max_products": 40
     },
     {
       "name": "DLink",
       "class_name": "DLinkScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -57,8 +57,8 @@
       "class_name": "EugeniusScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -75,8 +75,8 @@
       "class_name": "GigasetScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -84,7 +84,8 @@
       "class_name": "LinksysScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-30",
+      "last_update": "2023-01-29",
+      "next_update": "2023-02-08",
       "max_products": null
     },
     {
@@ -92,8 +93,8 @@
       "class_name": "NetgearScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -101,8 +102,8 @@
       "class_name": "QnapScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -110,8 +111,8 @@
       "class_name": "RockwellScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -119,8 +120,8 @@
       "class_name": "SchneiderElectricScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -128,8 +129,8 @@
       "class_name": "SwisscomScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -137,8 +138,8 @@
       "class_name": "SynologyScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -146,8 +147,8 @@
       "class_name": "TPLinkScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -155,8 +156,8 @@
       "class_name": "TrendnetScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     },
     {
@@ -164,8 +165,8 @@
       "class_name": "ZyxelScraper",
       "active": true,
       "interval": "10",
-      "last_update": "2023-01-29",
-      "next_update": "2023-02-08",
+      "last_update": "2023-01-01",
+      "next_update": "2023-01-27",
       "max_products": null
     }
   ]

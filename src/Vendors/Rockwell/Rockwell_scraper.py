@@ -95,12 +95,12 @@ class RockwellScraper(Scraper):
                 prod_cat = text.split("/")[0].split("(")[-1]
                 prod_fam = text.split("/")[1].split(")")[0]
                 download_elements[i].click()
-
+                self.driver.implicitly_wait(5)
                 active_version_elements = self.driver.find_elements(
                     By.XPATH,
                     "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
                 )
-                # self.driver.implicitly_wait(5)
+
                 if not active_version_elements:
                     prod_cats.append(prod_cat)
                     prod_fams.append(prod_fam)
@@ -113,14 +113,14 @@ class RockwellScraper(Scraper):
                         series_element = self.driver.find_element(
                             By.LINK_TEXT, serieses[k])
                         series_element.click()
-                        time.sleep(0.3)
+                        time.sleep(0.5)
                         active_version_elements = self.driver.find_elements(
                             By.XPATH,
                             "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
                         )
                         if not active_version_elements:
                             download_elements[i].click()
-                        time.sleep(0.3)
+                        time.sleep(0.5)
                         for j in range(len(serieses) - 1, len(active_version_elements)):
                             if active_version_elements[j].get_attribute("title") != "Retired":
                                 active_version_elements[j].click()
@@ -135,22 +135,22 @@ class RockwellScraper(Scraper):
                                 By.XPATH,
                                 "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
                             )
-                            time.sleep(0.3)
+                            time.sleep(0.5)
                         continue
-
-                for j in range(len(active_version_elements)):
-                    download_elements[i].click()
-                    time.sleep(0.5)
-                    active_version_elements = self.driver.find_elements(
-                        By.XPATH,
-                        "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
-                    )
-                    time.sleep(0.5)
-                    if active_version_elements[j].get_attribute("title") != "Retired":
-                        active_version_elements[j].click()
-                        prod_cats.append(prod_cat)
-                        prod_fams.append(prod_fam)
+                else:
+                    for j in range(len(active_version_elements)):
+                        download_elements[i].click()
                         time.sleep(0.5)
+                        active_version_elements = self.driver.find_elements(
+                            By.XPATH,
+                            "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
+                        )
+                        time.sleep(0.5)
+                        if active_version_elements[j].get_attribute("title") != "Retired":
+                            active_version_elements[j].click()
+                            prod_cats.append(prod_cat)
+                            prod_fams.append(prod_fam)
+                            time.sleep(0.5)
             except:
                 self.logger.warning(firmware_scraping_failure(
                     text_elements[i].text))
@@ -161,6 +161,7 @@ class RockwellScraper(Scraper):
             By.ID, "MPS1CompareListing").text.split("\n")
         ids = self.driver.find_element(
             By.ID, "MPS1VersionList").get_attribute("value").split(",")
+
 
         for r in range(len(name_and_version_list)):
             download_links.append(
@@ -198,7 +199,7 @@ class RockwellScraper(Scraper):
                 trash_element.click()
             except:
                 download_elements[i].click()
-                # time.sleep(0.3)
+                # time.sleep(0.5)
                 trash_element.click()
 
         return list_of_product_dicts

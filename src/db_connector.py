@@ -2,7 +2,8 @@
 Module to connect to and interact with a local MySQL Server.
 
 Currently, this module assumes that the MySQL server is running on the machine where it is executed.
-Username and password for the server are provided by exporting the following environment variables:
+Username and password for the server are provided via the config.json file, or, alternatively, 
+by exporting the following environment variables, which take precedence over config.json:
 MYSQL_USER
 MYSQL_PASSWORD
 """
@@ -12,27 +13,63 @@ import datetime
 
 import mysql.connector
 from mysql.connector import connect
+from src.helpers import get_config
+from src.logger import get_logger
+
+logger = get_logger()
 
 # if Docker flag set in ENV, run as Docker container
 if os.getenv("DOCKER_PYTHON_SCRAPER"):
-    HOST = 'mysql_db'
+    HOST = "mysql_db"
 else:
     HOST = "127.0.0.1"
 
 
+def _get_mysql_user_password():
+    config = get_config()
+    user = os.getenv("MYSQL_USER")
+    password = os.getenv("MYSQL_PASSWORD")
+
+    try:
+        if not user:
+            user = config["database"]["user"]
+    except Exception as e:
+        logger.error(
+            "Could not retrieve mysql username from field ['database']['user'] of config.json. Username is also not set \
+             via environment variable MYSQL_USER."
+        )
+        logger.error(e)
+
+    try:
+        if not password:
+            password = config["database"]["password"]
+    except Exception as e:
+        logger.error(
+            "Could not retrieve mysql password from field ['database']['password'] of config.json. Password is also \
+            not set via environment variable MYSQL_PASSWORD."
+        )
+        logger.error(e)
+
+    return user, password
+
+
 class DBConnector:
     def __init__(self):
-        self.db_user = os.getenv("MYSQL_USER")
-        self.db_password = os.getenv("MYSQL_PASSWORD")
+        self.db_user, self.db_password = _get_mysql_user_password()
 
         # create firmware DB if it doesn't exist yet
         create_query = "CREATE DATABASE IF NOT EXISTS firmware;"
         try:
-            with connect(user=self.db_user, password=self.db_password, host=HOST) as con:
+            with connect(
+                user=self.db_user, password=self.db_password, host=HOST
+            ) as con:
                 with con.cursor() as curser:
                     curser.execute(create_query)
-        except Exception as ex:
-            print(ex)
+        except Exception as e:
+            logger.error(
+                "Could not connect to MYSQL database. Please check username and password."
+            )
+            logger.error(e)
 
         # create product table if it doesn't exist yet
         create_products_table_query = """
@@ -61,10 +98,12 @@ class DBConnector:
             with con.cursor() as cursor:
                 cursor.execute(create_products_table_query)
                 con.commit()
-        except Exception as ex:
-            print(ex)
-        finally:
             con.close()
+        except Exception as e:
+            logger.error(
+                "Could not connect to MYSQL database. Please check username and password."
+            )
+            logger.error(e)
 
     def _get_db_con(self):
         """Return a MySQLConnection to the firmware database."""
@@ -205,8 +244,10 @@ class DBConnector:
         """
         try:
             # TODO this is seriously sketchy
-            product_list = [self._convert_firmware_dict_to_tuple(
-                fw_dict) for fw_dict in product_list]
+            product_list = [
+                self._convert_firmware_dict_to_tuple(fw_dict)
+                for fw_dict in product_list
+            ]
         except Exception as ex:
             print(ex)
         con = self._get_db_con()
@@ -337,5 +378,10 @@ if __name__ == "__main__":
     )
 
     # compare schneider table with products table
-    print(len(db.compare_products(
-        table1="new_compare_schneider", table2="compare_schneider")))
+    print(
+        len(
+            db.compare_products(
+                table1="new_compare_schneider", table2="compare_schneider"
+            )
+        )
+    )
