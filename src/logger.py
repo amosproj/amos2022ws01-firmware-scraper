@@ -76,7 +76,7 @@ log_levels = {
 # Set stream level according to env variable / config.json
 user_level = None
 try:
-    with open("config.json") as config_file:
+    with open("src/config.json") as config_file:
         config = json.load(config_file)
     if config.get("log_level", None):
         user_level = config.get("log_level").upper()

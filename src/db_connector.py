@@ -26,7 +26,7 @@ else:
 
 def _get_mysql_user_password():
     try:
-        with open("config.json") as config_file:
+        with open("src/config.json") as config_file:
             config = json.load(config_file)
     except Exception as e:
         config = None
