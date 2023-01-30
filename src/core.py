@@ -65,24 +65,25 @@ class Core:
         try:
             # create temporary table for current vendor
             self.db.create_table(table=f"{self.current_vendor.name}")
-            self.logger.info(
-                f"Created temporary table for {self.current_vendor.name}.")
+            self.logger.info(f"Created temporary table for {self.current_vendor.name}.")
         except Exception as e:
             self.logger.error(
-                f"Could not create temporary table for {self.current_vendor.name}.")
+                f"Could not create temporary table for {self.current_vendor.name}."
+            )
             self.logger.error(e)
             self.logger.important("Continue with next vendor.")
             return False
 
         try:
             # insert metadata into temporary table
-            self.db.insert_products(
-                metadata, table=f"{self.current_vendor.name}")
+            self.db.insert_products(metadata, table=f"{self.current_vendor.name}")
             self.logger.info(
-                f"Inserted {self.current_vendor.name} catalogue into temporary table.")
+                f"Inserted {self.current_vendor.name} catalogue into temporary table."
+            )
         except Exception as e:
             self.logger.error(
-                f"Could not insert {self.current_vendor.name} catalogue into temporary table.")
+                f"Could not insert {self.current_vendor.name} catalogue into temporary table."
+            )
             self.logger.error(e)
             self.logger.important("Continue with next vendor.")
             return False
@@ -95,14 +96,18 @@ class Core:
         try:
             # compare products with historized products
             self.logger.info(
-                f"Compare {self.current_vendor.name} catalogue with historized products.")
+                f"Compare {self.current_vendor.name} catalogue with historized products."
+            )
             metadata_new = self.db.compare_products(
-                table1=f"{self.current_vendor.name}", table2="products")
+                table1=f"{self.current_vendor.name}", table2="products"
+            )
             self.logger.important(
-                f"{len(metadata_new)} new products for {self.current_vendor.name}.")
+                f"{len(metadata_new)} new products for {self.current_vendor.name}."
+            )
         except Exception as e:
             self.logger.error(
-                f"Could not compare {self.current_vendor.name} catalogue with historized products.")
+                f"Could not compare {self.current_vendor.name} catalogue with historized products."
+            )
             self.logger.error(e)
             self.logger.important("Continue with next vendor.")
             return False
@@ -111,10 +116,12 @@ class Core:
             # insert new products into products table
             self.db.insert_products(metadata_new, table="products")
             self.logger.info(
-                f"Inserted new products of {self.current_vendor.name} into products table.")
+                f"Inserted new products of {self.current_vendor.name} into products table."
+            )
         except Exception as e:
             self.logger.error(
-                f"Could not insert new products of {self.current_vendor.name} into products table.")
+                f"Could not insert new products of {self.current_vendor.name} into products table."
+            )
             self.logger.error(e)
             self.logger.important("Continue with next vendor.")
             return False
@@ -122,19 +129,18 @@ class Core:
         try:
             # delete temporary table
             self.db.drop_table(table=f"{self.current_vendor.name}")
-            self.logger.info(
-                f"Dropped temporary table for {self.current_vendor.name}.")
+            self.logger.info(f"Dropped temporary table for {self.current_vendor.name}.")
         except Exception as e:
             self.logger.important(
-                f"Could not drop temporary table for {self.current_vendor.name}.")
+                f"Could not drop temporary table for {self.current_vendor.name}."
+            )
             self.logger.error(e)
 
         return True
 
     def download_firmware(self):
         """download firmware from vendor"""
-        vendor_download_func = getattr(
-            self.current_vendor, "download_firmware", None)
+        vendor_download_func = getattr(self.current_vendor, "download_firmware", None)
         if callable(vendor_download_func):
             firmware = self.db.retrieve_download_links()
             self.current_vendor.download_firmware(firmware)
@@ -165,16 +171,16 @@ if __name__ == "__main__":
     core = Core(logger=logger)
 
     # iterate over vendors to update
-    for vendor, max_products in vendor_list:
+    for vendor, max_products in vendor_max_products_pairs:
         logger.important(f"Next: {vendor}")
 
         try:
             driver = webdriver.Chrome(
-                service=Service(ChromeDriverManager().install()),
-                options=options
+                service=Service(ChromeDriverManager().install()), options=options
             )
-            core.set_current_vendor(globals()[vendor](
-                max_products=max_products, driver=driver))
+            core.set_current_vendor(
+                globals()[vendor](max_products=max_products, driver=driver)
+            )
         except Exception as e:
             core.logger.error(f"Could not start {vendor}.")
             core.logger.error(e)
