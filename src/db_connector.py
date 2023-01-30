@@ -13,7 +13,6 @@ import datetime
 
 import mysql.connector
 from mysql.connector import connect
-from src.helpers import get_config
 from src.logger import get_logger
 
 logger = get_logger()
@@ -26,7 +25,12 @@ else:
 
 
 def _get_mysql_user_password():
-    config = get_config()
+    try:
+        with open("config.json") as config_file:
+            config = json.load(config_file)
+    except Exception as e:
+        config = None
+
     user = os.getenv("MYSQL_USER")
     password = os.getenv("MYSQL_PASSWORD")
 
