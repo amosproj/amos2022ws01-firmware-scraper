@@ -10,9 +10,10 @@ def get_config():
     try:
         with open("config.json") as config_file:
             config = json.load(config_file)
+        return config
     except Exception as e:
-        logger.error(
-            "Could not read in 'config.json'. This file must be present in the project's root directory."
-        )
-        logger.error(e)
-    return config
+        #     logger.error(
+        #         "Could not read in 'config.json'. This file must be present in the project's root directory."
+        #     )
+        #     logger.error(e)
+        return None

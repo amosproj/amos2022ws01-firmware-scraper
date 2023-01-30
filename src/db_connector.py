@@ -30,25 +30,26 @@ def _get_mysql_user_password():
     user = os.getenv("MYSQL_USER")
     password = os.getenv("MYSQL_PASSWORD")
 
-    try:
-        if not user:
-            user = config["database"]["user"]
-    except Exception as e:
-        logger.error(
-            "Could not retrieve mysql username from field ['database']['user'] of config.json. Username is also not set \
-             via environment variable MYSQL_USER."
-        )
-        logger.error(e)
+    if config:
+        try:
+            if not user:
+                user = config["database"]["user"]
+        except Exception as e:
+            logger.error(
+                "Could not retrieve mysql username from field ['database']['user'] of config.json. Username is also not set \
+                 via environment variable MYSQL_USER."
+            )
+            logger.error(e)
 
-    try:
-        if not password:
-            password = config["database"]["password"]
-    except Exception as e:
-        logger.error(
-            "Could not retrieve mysql password from field ['database']['password'] of config.json. Password is also \
-            not set via environment variable MYSQL_PASSWORD."
-        )
-        logger.error(e)
+        try:
+            if not password:
+                password = config["database"]["password"]
+        except Exception as e:
+            logger.error(
+                "Could not retrieve mysql password from field ['database']['password'] of config.json. Password is also \
+                not set via environment variable MYSQL_PASSWORD."
+            )
+            logger.error(e)
 
     return user, password
 
