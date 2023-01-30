@@ -1,14 +1,9 @@
 import time
 import json
 import re
-
-from webdriver_manager.chrome import ChromeDriverManager
-
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service as ChromeService
 
-from loguru import logger as LOGGER
+from src.logger import *
 
 HOME_URL = "https://www.netgear.com/support/"
 BASE_URL = "https://www.netgear.com"
@@ -20,32 +15,18 @@ SEL_CHILD_XPATH = './*'
 class NetgearScraper:
     def __init__(
         self,
-        logger,
+        driver,
         scrape_entry_url: str = HOME_URL,
         headless: bool = True,
         max_products: int = float("inf")
     ):
         self.scrape_entry_url = scrape_entry_url
-        self.logger = LOGGER
+        self.name = MANUFACTURER
+        self.logger = get_logger()
         self.max_products = max_products
         self.headless = headless
-        self.name = MANUFACTURER
         self.__scrape_cnt = 0
-
-        chromeOptions = webdriver.ChromeOptions()
-        webdriver.ChromeOptions()
-
-        if self.headless:
-            chromeOptions.add_argument("--headless")
-
-        chromeOptions.add_argument("--window-size=1920,1080")
-        chromeOptions.add_argument("--disable-dev-shm-using")
-        chromeOptions.add_argument("--remote-debugging-port=9222")
-        chromeOptions.add_argument("--start-maximized")
-
-        self.driver = webdriver.Chrome(
-            options=chromeOptions, service=ChromeService(ChromeDriverManager()
-                                                         .install()))
+        self.driver = driver
 
     def __get_download_elems(self, link: str) -> list:
         try:
@@ -180,14 +161,14 @@ class NetgearScraper:
 
         self.__scrape_cnt = 0
 
-        self.logger.success('Start Scrape Vendor -> Netgear')
-        self.logger.success(
+        self.logger.important('Start Scrape Vendor -> Netgear')
+        self.logger.important(
             'Scrape in Headless Mode Set -> ' + str(self.headless))
-        self.logger.success('Max Products Set-> ' + str(self.max_products))
+        self.logger.important('Max Products Set-> ' + str(self.max_products))
 
         self.__scrape_cnt = 0
 
-        self.logger.info('Start Scrape Vendor Qnap')
+        self.logger.info(f'Start Scrape Vendor {MANUFACTURER}')
 
         try:
             self.driver.get(self.scrape_entry_url)
@@ -204,7 +185,7 @@ class NetgearScraper:
         links = self.__get_intern_product_link()
         meta_data = self.__scrape_firmware(links)
 
-        self.logger.success(
+        self.logger.important(
             'Successfully Scraped Qnap Firmware -> ' + str(len(meta_data)))
         self.logger.info('Done.')
         self.driver.quit()
@@ -212,10 +193,8 @@ class NetgearScraper:
         return meta_data
 
 
-def main():
-    Scraper = NetgearScraper(LOGGER, headless=False, max_products=10)
-    print(json.dumps(Scraper.scrape_metadata()))
-
-
 if __name__ == "__main__":
-    main()
+    Scraper = NetgearScraper(get_logger(), headless=False, max_products=10)
+    firmware_data = Scraper.scrape_metadata()
+    with open("scraped_metadata/firmware_data_Netgear.json", "w") as firmware_file:
+        json.dump(firmware_data, firmware_file)

@@ -1,47 +1,29 @@
 import time
 import json
-
-from webdriver_manager.chrome import ChromeDriverManager
-
-from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service as ChromeService
-
-from loguru import logger as LOGGER
+from src.Vendors.scraper import Scraper
+from src.logger import get_logger
 
 HOME_URL = "https://www.qnap.com/en/download?model=qutscloud&category=firmware"
 MANUFACTURER = "Qnap"
 
 
-class QnapScraper:
+class QnapScraper(Scraper):
     def __init__(
         self,
-        logger,
+        driver,
         scrape_entry_url: str = HOME_URL,
         headless: bool = True,
         max_products: int = float("inf")
     ):
         self.scrape_entry_url = scrape_entry_url
-        self.logger = LOGGER
+        self.logger = get_logger()
         self.max_products = max_products
         self.headless = headless
         self.name = MANUFACTURER
         self.__scrape_cnt = 0
-
-        chromeOptions = webdriver.ChromeOptions()
-        webdriver.ChromeOptions()
-
-        if self.headless:
-            chromeOptions.add_argument("--headless")
-
-        chromeOptions.add_argument("--disable-dev-shm-using")
-        chromeOptions.add_argument("--remote-debugging-port=9222")
-        chromeOptions.add_argument("--start-maximized")
-
-        self.driver = webdriver.Chrome(
-            options=chromeOptions, service=ChromeService(ChromeDriverManager()
-                                                         .install()))
+        self.driver = driver
 
     """BUG: CANT CLICK ON REACT BUTTON """
 
@@ -226,10 +208,10 @@ class QnapScraper:
 
     def scrape_metadata(self) -> list:
         meta_data = []
-        self.logger.success('Start Scrape Vendor -> Qnap')
-        self.logger.success(
+        self.logger.important('Start Scrape Vendor -> Qnap')
+        self.logger.important(
             'Scrape in Headless Mode Set -> ' + str(self.headless))
-        self.logger.success('Max Products Set-> ' + str(self.max_products))
+        self.logger.important('Max Products Set-> ' + str(self.max_products))
 
         self.__scrape_cnt = 0
 
@@ -249,7 +231,7 @@ class QnapScraper:
 
         meta_data = self.__loop_products()
 
-        self.logger.success(
+        self.logger.important(
             'Successfully Scraped Qnap Firmware -> ' + str(len(meta_data)))
         self.logger.info('Done.')
         self.driver.quit()
@@ -257,10 +239,6 @@ class QnapScraper:
         return meta_data
 
 
-def main():
-    Scraper = QnapScraper(LOGGER, headless=True, max_products=10)
-    print(json.dumps(Scraper.scrape_metadata()))
-
-
 if __name__ == "__main__":
-    main()
+    Scraper = QnapScraper(get_logger(), headless=True, max_products=10)
+    print(json.dumps(Scraper.scrape_metadata()))

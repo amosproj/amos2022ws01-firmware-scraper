@@ -13,16 +13,11 @@ import re
 from typing import Optional
 from urllib.request import urlopen
 
-from selenium import webdriver
 from selenium.common import WebDriverException
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-from tqdm import tqdm
-from webdriver_manager.chrome import ChromeDriverManager
 
 from src.logger import *
 from src.Vendors.scraper import Scraper
@@ -39,28 +34,17 @@ DOWNLOAD_URL_USA = (
 class SchneiderElectricScraper(Scraper):
     def __init__(
         self,
-        logger,
+        driver,
         scrape_entry_url: str = DOWNLOAD_URL_USA,
         headless: bool = True,
         max_products: int = float("inf"),
     ):
-        self.logger = get_logger()
         self.scrape_entry_url = scrape_entry_url
         self.max_products = max_products
         self.headless = headless
         self.name = "Schneider"
-
-        chrome_options = Options()
-        if self.headless:
-            chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--start-maximized")
-            chrome_options.add_argument("--headless")
-            chrome_options.add_argument("--no-sandbox")
-            chrome_options.add_argument("--disable-dev-shm-usage")
-        self.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()),
-            options=chrome_options,
-        )
+        self.logger = get_logger()
+        self.driver = driver
         self.driver.implicitly_wait(2)  # has to be set only once
 
     def _find_element_and_check(self, product_page: WebElement, by: By, value: str) -> Optional[WebElement]:
@@ -106,7 +90,8 @@ class SchneiderElectricScraper(Scraper):
 
         try:
             self.driver.get(product_url)
-            product_page = self.driver.find_element(by=By.TAG_NAME, value="html")
+            product_page = self.driver.find_element(
+                by=By.TAG_NAME, value="html")
         except WebDriverException as e:
             self.logger.warning(firmware_url_failure(product_url))
             return []
@@ -114,7 +99,8 @@ class SchneiderElectricScraper(Scraper):
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_TITLE):
             # Some product titles are accompanied by an information stroke element. If it exists, it corrupts the
             # extracted title. Therefore, it is removed (if existent).
-            title = " ".join(el.text.split()).removesuffix("information_stroke").rstrip()
+            title = " ".join(el.text.split()).removesuffix(
+                "information_stroke").rstrip()
         if el := self._find_element_and_check(product_page, By.CSS_SELECTOR, CSS_SELECTOR_RELEASE_DATE):
             release_date_raw = el.text.removeprefix("Date : ").split("/")
             release_date = f"{release_date_raw[2]}-{release_date_raw[0]}-{release_date_raw[1]}"
@@ -141,15 +127,18 @@ class SchneiderElectricScraper(Scraper):
 
         if len(download_links) == 0:
             self.logger.debug(
-                attribute_scraping_failure(f"download link for firmware of '{title}' with URL '{product_url}'")
+                attribute_scraping_failure(
+                    f"download link for firmware of '{title}' with URL '{product_url}'")
             )
             return []
         elif len(download_links) == 1:
             firmware_item["download_link"] = download_links[0]
-            self.logger.info(firmware_scraping_success(f"{title} {product_url}"))
+            self.logger.info(firmware_scraping_success(
+                f"{title} {product_url}"))
             return [firmware_item]
         elif len(download_links) > 1:
-            self.logger.debug(f"Found multiple download links for firmware '{title}' with URL '{product_url}'.")
+            self.logger.debug(
+                f"Found multiple download links for firmware '{title}' with URL '{product_url}'.")
             # When multiple (non-PDF) download links for a single product are found, a separate metadata dict for every
             # link is returned
             firmware_item_list = []
@@ -158,7 +147,8 @@ class SchneiderElectricScraper(Scraper):
                 firmware_item_copy["download_link"] = link
                 firmware_item_copy["additional_data"]["other_download_links"] = download_links
                 firmware_item_list.append(firmware_item_copy)
-            self.logger.info(firmware_scraping_success(f"{title} {product_url}"))
+            self.logger.info(firmware_scraping_success(
+                f"{title} {product_url}"))
             return firmware_item_list
 
     def _scrape_product_page_urls(self) -> list[str]:
@@ -180,13 +170,17 @@ class SchneiderElectricScraper(Scraper):
         CSS_SELECTOR_NEXT_PAGE = "#paginationFrm > ul > li.next"
         try:
             # there might be multiple list elements of class 'next'; the last one links to the next page
-            nav_element_next = self.driver.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_NEXT_PAGE)[-1]
+            nav_element_next = self.driver.find_elements(
+                by=By.CSS_SELECTOR, value=CSS_SELECTOR_NEXT_PAGE)[-1]
             nav_element_next.click()
-            WebDriverWait(self.driver, timeout=30).until(expected_conditions.url_changes(self.driver.current_url))
-            self.logger.debug(f"Successfully scraped result page {self.driver.current_url}.")
+            WebDriverWait(self.driver, timeout=30).until(
+                expected_conditions.url_changes(self.driver.current_url))
+            self.logger.debug(
+                f"Successfully scraped result page {self.driver.current_url}.")
             return True
         except WebDriverException as e:
-            self.logger.warning(f"Could not access next result page. Might scrape less than max_products.\n{e}")
+            self.logger.warning(
+                f"Could not access next result page. Might scrape less than max_products.\n{e}")
             return False
 
     def scrape_metadata(self) -> list[dict]:
@@ -195,7 +189,8 @@ class SchneiderElectricScraper(Scraper):
         CSS_SELECTOR_REJECT_COOKIES = "#onetrust-reject-all-handler"
         try:
             self.driver.get(self.scrape_entry_url)
-            self.driver.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_REJECT_COOKIES).click()
+            self.driver.find_element(
+                by=By.CSS_SELECTOR, value=CSS_SELECTOR_REJECT_COOKIES).click()
             self.logger.info(entry_point_url_success(self.scrape_entry_url))
         except WebDriverException as e:
             self.logger.error(entry_point_url_failure(self.scrape_entry_url))
@@ -224,7 +219,8 @@ class SchneiderElectricScraper(Scraper):
 if __name__ == "__main__":
     logger = get_logger()
 
-    scraper = SchneiderElectricScraper(logger, DOWNLOAD_URL_GLOBAL, max_products=50, headless=False)
+    scraper = SchneiderElectricScraper(
+        logger, DOWNLOAD_URL_GLOBAL, max_products=50, headless=False)
 
     firmware_data = scraper.scrape_metadata()
     with open("../../../scraped_metadata/firmware_data_schneider.json", "w") as firmware_file:

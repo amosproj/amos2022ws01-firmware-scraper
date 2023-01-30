@@ -1,12 +1,8 @@
 import json
 
-from selenium import webdriver
 from selenium.common import WebDriverException
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 
-from webdriver_manager.chrome import ChromeDriverManager
 
 from src.logger import *
 from src.Vendors.scraper import Scraper
@@ -17,7 +13,7 @@ DOWNLOAD_URL_GLOBAL = "https://www.tp-link.com/en/support/download/"
 class TPLinkScraper(Scraper):
     def __init__(
         self,
-        logger,
+        driver,
         scrape_entry_url: str = DOWNLOAD_URL_GLOBAL,
         headless: bool = True,
         max_products: int = float("inf"),
@@ -27,13 +23,7 @@ class TPLinkScraper(Scraper):
         self.headless = headless
         self.max_products = max_products
         self.name = "TPLink"
-
-        chrome_options = Options()
-        if self.headless:
-            chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--start-maximized")
-            chrome_options.add_argument("--headless")
-        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
+        self.driver = driver
         # self.driver.implicitly_wait(0.5)  # has to be set only once
 
     def _clean_up_product_category(self, product_category: str) -> str:

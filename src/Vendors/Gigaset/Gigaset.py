@@ -1,25 +1,15 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
 
 from src.logger import *
+# import scraper
+from src.Vendors.scraper import Scraper
 
 
-class GigasetScraper:
-    def __init__(self, max_products: int = float("inf")):
+class GigasetScraper(Scraper):
+    def __init__(self, driver, max_products: int = float("inf")):
         self.url = "https://teamwork.gigaset.com/gigawiki/pages/viewpage.action?pageId=37486876"
-        self.options = Options()
-        self.options.add_argument("--headless")
-        self.options.add_argument("--no-sandbox")
-        self.options.add_argument("--disable-dev-shm-usage")
-        self.options.add_argument("--start-maximized")
-        self.options.add_argument("--window-size=1920,1080")
         self.name = "Gigaset"
-        self.driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()), options=self.options
-        )
+        self.driver = driver
         self.catalog: list[dict] = []
         self.logger = get_logger()
         self.max_products = max_products
@@ -49,7 +39,8 @@ class GigasetScraper:
             CASE_1 = self.driver.find_elements(
                 By.CSS_SELECTOR, "a[data-linked-resource-type='attachment']"
             )
-            CASE_2 = self.driver.find_elements(By.CSS_SELECTOR, ".external-link")
+            CASE_2 = self.driver.find_elements(
+                By.CSS_SELECTOR, ".external-link")
 
             self.driver.find_elements(
                 By.CSS_SELECTOR, "li[title='Show all breadcrumbs']"
@@ -87,7 +78,8 @@ class GigasetScraper:
             }
 
             self.catalog.append(firmware_item)
-            self.logger.info(firmware_scraping_success(product_type + " " + version))
+            self.logger.info(firmware_scraping_success(
+                product_type + " " + version))
 
             if len(self.catalog) >= self.max_products:
                 break

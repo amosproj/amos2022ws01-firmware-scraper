@@ -1,12 +1,7 @@
 import json
 
-from selenium import webdriver
 from selenium.common import WebDriverException
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
-
-from webdriver_manager.chrome import ChromeDriverManager
 
 from src.logger import *
 from src.Vendors.scraper import Scraper
@@ -16,21 +11,13 @@ DOWNLOAD_URL_EN = "https://www.swisscom.ch/en/residential/help/device/firmware.h
 
 class SwisscomScraper(Scraper):
     def __init__(
-        self, logger, scrape_entry_url: str = DOWNLOAD_URL_EN, headless: bool = True, max_products: int = float("inf")
+        self, driver, scrape_entry_url: str = DOWNLOAD_URL_EN, headless: bool = True, max_products: int = float("inf")
     ):
         self.logger = get_logger()
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
         self.name = "Swisscom"
-
-        chrome_options = Options()
-        if self.headless:
-            chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--start-maximized")
-            chrome_options.add_argument("--no-sandbox")
-            chrome_options.add_argument("--disable-dev-shm-usage")
-            chrome_options.add_argument("--headless")
-        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
+        self.driver = driver
         self.driver.implicitly_wait(0.5)  # has to be set only once
 
     def _scrape_product_metadata(self, category_name: str, category_name_clean: str, product_id: str) -> dict:
@@ -47,24 +34,30 @@ class SwisscomScraper(Scraper):
             if self.driver.current_url != product_category_url:
                 self.driver.get(product_category_url)
         except WebDriverException as e:
-            self.logger.debug(f"Could not access product category tab '{product_url}'.")
+            self.logger.debug(
+                f"Could not access product category tab '{product_url}'.")
             return {}
 
         product_name = version = download_link = product_div = None
 
         # scrape product div
         try:
-            product_div = self.driver.find_element(by=By.CSS_SELECTOR, value=f"div[data-id='{product_id}']")
+            product_div = self.driver.find_element(
+                by=By.CSS_SELECTOR, value=f"div[data-id='{product_id}']")
         except WebDriverException as e:
-            self.logger.warning(attribute_scraping_failure(f"metadata for '{product_url}'"))
+            self.logger.warning(attribute_scraping_failure(
+                f"metadata for '{product_url}'"))
             return {}
 
         # scrape product name
         try:
-            parent_el = self.driver.find_element(by=By.CSS_SELECTOR, value=f"a[data-track-label='{product_id}']")
-            product_name = parent_el.find_element(by=By.CSS_SELECTOR, value="h6").text.strip()
+            parent_el = self.driver.find_element(
+                by=By.CSS_SELECTOR, value=f"a[data-track-label='{product_id}']")
+            product_name = parent_el.find_element(
+                by=By.CSS_SELECTOR, value="h6").text.strip()
         except WebDriverException as e:
-            self.logger.debug(attribute_scraping_failure(f"product name for '{product_url}'"))
+            self.logger.debug(attribute_scraping_failure(
+                f"product name for '{product_url}'"))
 
         # scrape download link
         try:
@@ -72,7 +65,8 @@ class SwisscomScraper(Scraper):
                 by=By.CSS_SELECTOR, value=CSS_SELECTOR_DOWNLOAD_LINK
             ).get_attribute("href")
         except WebDriverException as e:
-            self.logger.debug(attribute_scraping_failure(f"download link for '{product_url}'"))
+            self.logger.debug(attribute_scraping_failure(
+                f"download link for '{product_url}'"))
             return {}
 
         # scrape version
@@ -82,9 +76,11 @@ class SwisscomScraper(Scraper):
             ).get_attribute("innerHTML")
             version = version_string.split("Version ")[1][:-1]
         except Exception as e:
-            self.logger.debug(attribute_scraping_failure(f"version for '{product_url}'"))
+            self.logger.debug(attribute_scraping_failure(
+                f"version for '{product_url}'"))
 
-        self.logger.info(firmware_scraping_success(f"of {product_name} {product_url}"))
+        self.logger.info(firmware_scraping_success(
+            f"of {product_name} {product_url}"))
         return {
             "manufacturer": "Swisscom",
             "product_name": product_name,
@@ -121,7 +117,8 @@ class SwisscomScraper(Scraper):
                 category_name_clean_root = self.driver.find_element(
                     by=By.CSS_SELECTOR, value=css_selector_product_category_name_clean_root
                 )
-                category_name_clean = category_name_clean_root.find_element(by=By.CSS_SELECTOR, value=f"h2").text
+                category_name_clean = category_name_clean_root.find_element(
+                    by=By.CSS_SELECTOR, value=f"h2").text
                 if not category_name_clean and category_name in product_category_map:
                     category_name_clean = product_category_map[category_name]
 
@@ -131,7 +128,8 @@ class SwisscomScraper(Scraper):
 
                 for product in products:
                     product_id = product.get_attribute("data-panel")
-                    product_ids.append((category_name, category_name_clean, product_id))
+                    product_ids.append(
+                        (category_name, category_name_clean, product_id))
             return product_ids
 
         except WebDriverException as e:
@@ -153,7 +151,8 @@ class SwisscomScraper(Scraper):
 
         # when first accessing the website, cookies must be accepted
         try:
-            self.driver.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_ACCEPT_COOKIES).click()
+            self.driver.find_element(
+                by=By.CSS_SELECTOR, value=CSS_SELECTOR_ACCEPT_COOKIES).click()
         except WebDriverException as e:
             pass
 
@@ -173,5 +172,5 @@ if __name__ == "__main__":
     scraper = SwisscomScraper(logger, DOWNLOAD_URL_EN, headless=False)
 
     firmware_data = scraper.scrape_metadata()
-    with open("../../../scraped_metadata/firmware_data_swisscom.json", "w") as firmware_file:
+    with open("scraped_metadata/firmware_data_swisscom.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)

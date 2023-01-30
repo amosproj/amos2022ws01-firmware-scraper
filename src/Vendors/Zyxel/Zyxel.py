@@ -1,16 +1,13 @@
 import time
 
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service as ChromeService
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import StaleElementReferenceException
 from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import ElementClickInterceptedException
-
-from loguru import logger as LOGGER
+from src.Vendors.scraper import Scraper
+from src.logger import *
 
 HOME_URL = "https://www.zyxel.com/global/en"
 PRODUCT_PATH = "/global/en/products"
@@ -23,10 +20,10 @@ ignored_exceptions = (NoSuchElementException,
                       ElementClickInterceptedException)
 
 
-class ZyxelScraper:
+class ZyxelScraper(Scraper):
     def __init__(
         self,
-        logger,
+        driver,
         scrape_entry_url: str = DOWNLOAD_URL,
         headless: bool = True,
         max_products: int = float("inf"),
@@ -36,20 +33,8 @@ class ZyxelScraper:
         self.__scrape_cnt = 0
         self.max_products = max_products
         self.headless = headless
-        self.logger = LOGGER
-
-        chromeOptions = webdriver.ChromeOptions()
-        webdriver.ChromeOptions()
-
-        if self.headless:
-            chromeOptions.add_argument("--headless")
-
-        chromeOptions.add_argument("--disable-dev-shm-using")
-        chromeOptions.add_argument("--remote-debugging-port=9222")
-
-        self.driver = webdriver.Chrome(
-            options=chromeOptions, service=ChromeService(ChromeDriverManager()
-                                                         .install()))
+        self.logger = get_logger()
+        self.driver = driver
 
     """Get Links to each category where products can be found"""
 
@@ -76,9 +61,9 @@ class ZyxelScraper:
                 'Abort Scraper. Failed to Scrape Category Urls -> ' + str(e))
             return []
 
-        self.logger.success('Successfully Scraped -> Category URLs -> '
-                            + str(len(category_urls))
-                            + " Categorys found")
+        self.logger.important('Successfully Scraped -> Category URLs -> '
+                              + str(len(category_urls))
+                              + " Categorys found")
         return category_urls
 
     def __get_products(self, category_urls: list):
@@ -197,8 +182,8 @@ class ZyxelScraper:
 
         products = products + ser
 
-        self.logger.success('Scraped Category Product URLs. Products Found -> '
-                            + str(len(products)))
+        self.logger.important('Scraped Category Product URLs. Products Found -> '
+                              + str(len(products)))
         return products
 
     """convert date to Year-Month-Day"""
@@ -328,22 +313,22 @@ class ZyxelScraper:
 
                 meta_data.append(firmware_item)
 
-        self.logger.success('Scraped Products -> (Total)'
-                            + str(len(products))
-                            + ' -> Found Firmware -> (Total)'
-                            + str(len(meta_data)))
+        self.logger.important('Scraped Products -> (Total)'
+                              + str(len(products))
+                              + ' -> Found Firmware -> (Total)'
+                              + str(len(meta_data)))
         return meta_data
 
     def scrape_metadata(self) -> list:
-        self.logger.success('Start Scrape Vendor -> Zyxel')
-        self.logger.success(
+        self.logger.important('Start Scrape Vendor -> Zyxel')
+        self.logger.important(
             'Scrape in Headless Mode Set -> ' + str(self.headless))
-        self.logger.success('Max Products Set-> ' + str(self.max_products))
+        self.logger.important('Max Products Set-> ' + str(self.max_products))
 
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.success("Successfully accessed entry point URL -> "
-                                + self.scrape_entry_url)
+            self.logger.important("Successfully accessed entry point URL -> "
+                                  + self.scrape_entry_url)
         except Exception as e:
             self.logger\
                 .error("Abort scraping. Could not access entry point URL -> "
@@ -367,11 +352,6 @@ class ZyxelScraper:
         return meta_data
 
 
-def main():
+if __name__ == "__main__":
     Scraper = ZyxelScraper(max_products=15, logger=None)
     meta_data = Scraper.scrape_metadata()
-
-
-
-if __name__ == "__main__":
-    main()

@@ -1,26 +1,23 @@
 import json
 import time
 
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
-from loguru import logger as LOGGER
-
+from src.logger import * 
+from src.Vendors.scraper import Scraper
 HOME_URL = "https://library.abb.com/r?dkg=dkg_software&q=firmware"
 MANUFACTURER = "ABB"
 ignored_exceptions = (NoSuchElementException, StaleElementReferenceException)
 
 
-class ABBScraper:
+class ABBScraper(Scraper):
     def __init__(
         self,
-        logger,
+        driver,
         scrape_entry_url: str = HOME_URL,
         headless: bool = True,
         max_products: int = float("inf")
@@ -30,21 +27,8 @@ class ABBScraper:
         self.name = MANUFACTURER
         self.__scrape_cnt = 0
         self.headless = headless
-        self.logger = LOGGER
-        chromeOptions = webdriver.ChromeOptions()
-        webdriver.ChromeOptions()
-
-        if headless:
-            self.logger.warning('Headless mode not available for ABB')
-            self.headless = False
-            # chromeOptions.add_argument("--headless")
-
-        chromeOptions.add_argument("--disable-dev-shm-using")
-        chromeOptions.add_argument("--remote-debugging-port=9222")
-
-        self.driver = webdriver.Chrome(
-            options=chromeOptions, service=ChromeService(ChromeDriverManager()
-                                                         .install()))
+        self.logger = get_logger()
+        self.driver = driver
 
     def _accept_cookies(self):
         SEL_BTN_XPATH =\
@@ -56,7 +40,7 @@ class ABBScraper:
                 .find_element(By.XPATH,
                               SEL_BTN_XPATH)
             accept_btn.click()
-            self.logger.success('Successfully Accepted Cookies')
+            self.logger.important('Successfully Accepted Cookies')
         except Exception as e:
             self.logger.error('Could not Accept Cookies -> ' + str(e))
         time.sleep(5)
@@ -161,7 +145,7 @@ class ABBScraper:
         try:
             self.driver.get(self.scrape_entry_url)
             self.driver.maximize_window()
-            self.logger.success(
+            self.logger.important(
                 "Successfully accessed entry point URL " +
                 self.scrape_entry_url)
         except ignored_exceptions as e:
@@ -200,24 +184,21 @@ class ABBScraper:
             self.driver.execute_script("window.history.go(-1)")
 
             if self.__scrape_cnt == self.max_products:
-                self.logger.success('Successfully Scraped Max Products -> '
+                self.logger.important('Successfully Scraped Max Products -> '
                                     + str(self.max_products))
                 break
 
         self.driver.quit()
 
-        self.logger.success(
+        self.logger.important(
             'Successfully Scraped ABB Firmware -> ' + str(len(meta_data)))
         self.logger.info('Done.')
 
         return meta_data
 
 
-def main():
-    Scraper = ABBScraper(logger=None, headless=True)
-    meta_data = Scraper.scrape_metadata()
-    print(json.dumps(meta_data))
-
-
 if __name__ == "__main__":
-    main()
+    Scraper = ABBScraper(logger=get_logger(), headless=True)
+    meta_data = Scraper.scrape_metadata()
+    with open("scraped_metadata/firmware_data_ABB.json", "w") as firmware_file:
+        json.dump(meta_data, firmware_file)

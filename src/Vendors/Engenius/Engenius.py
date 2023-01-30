@@ -1,19 +1,15 @@
 import time
-
-from webdriver_manager.chrome import ChromeDriverManager
-
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.chrome.service import Service as ChromeService
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import StaleElementReferenceException
 from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import ElementClickInterceptedException
 
-from loguru import logger as LOGGER
+from src.logger import *
+from src.Vendors.scraper import Scraper
 
 HOME_URL = "https://www.engeniusnetworks.eu/downloads/"
 MANUFACTURER = "Engenius"
@@ -23,34 +19,21 @@ ignored_exceptions = (NoSuchElementException,
                       ElementClickInterceptedException)
 
 
-class EngeniusScraper:
+class EngeniusScraper(Scraper):
     def __init__(
         self,
-        logger,
+        driver,
         scrape_entry_url: str = HOME_URL,
         headless: bool = True,
         max_products: int = float("inf")
     ):
         self.scrape_entry_url = scrape_entry_url
-        self.logger = LOGGER
+        self.name = MANUFACTURER
+        self.logger = get_logger()
         self.max_products = max_products
         self.headless = headless
-        self.name = MANUFACTURER
         self.__scrape_cnt = 0
-
-        chromeOptions = webdriver.ChromeOptions()
-        webdriver.ChromeOptions()
-
-        if self.headless:
-            chromeOptions.add_argument("--headless")
-
-        chromeOptions.add_argument("--disable-dev-shm-using")
-        chromeOptions.add_argument("--remote-debugging-port=9222")
-        chromeOptions.add_argument("--start-maximized")
-
-        self.driver = webdriver.Chrome(
-            options=chromeOptions, service=ChromeService(ChromeDriverManager()
-                                                         .install()))
+        self.driver = driver
 
     def _accept_cookies(self):
         SEL_COOKIE_ID = 'cn-accept-cookie'
@@ -261,10 +244,8 @@ class EngeniusScraper:
         return meta_data
 
 
-def main():
-    Scraper = EngeniusScraper(LOGGER, max_products=5)
-    print(Scraper.scrape_metadata())
-
-
 if __name__ == "__main__":
-    main()
+    Scraper = EngeniusScraper(get_logger(), max_products=5)
+    metadata = Scraper.scrape_metadata()
+    with open("scraped_metadata/firmware_data_Engenius.json", "w") as firmware_file:
+        json.dump(metadata, firmware_file)

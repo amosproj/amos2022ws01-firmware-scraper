@@ -4,7 +4,8 @@ module for scheduling and updating
 import datetime
 import json
 
-def check_vendors_to_update(config_file_path: str = "config.json") -> list:
+
+def check_vendors_to_update(config_file_path: str = "src/config.json") -> list:
     """check if vendors need to be updated
 
     Args:
@@ -15,7 +16,6 @@ def check_vendors_to_update(config_file_path: str = "config.json") -> list:
     vendor_list = []
     with open(config_file_path, "r", encoding="utf-8") as config_file:
         config = json.load(config_file)
-
     now = datetime.datetime.now().date()
     max_products_glob = config["max_products"]
     for vendor in config["vendors"]:
@@ -25,7 +25,8 @@ def check_vendors_to_update(config_file_path: str = "config.json") -> list:
         vendor_list.append((vendor["class_name"], max_products))
     return vendor_list
 
-def update_vendor_schedule(vendor: str, config_file_path: str = "config.json"):
+
+def update_vendor_schedule(vendor: str, config_file_path: str = "src/config.json"):
     """update schedule file AFTER vendor finished
 
     Args:

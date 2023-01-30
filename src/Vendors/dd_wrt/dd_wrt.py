@@ -1,12 +1,7 @@
 import json
 
-from selenium import webdriver
 from selenium.common import WebDriverException
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
-
-from webdriver_manager.chrome import ChromeDriverManager
 
 from src.Vendors.scraper import Scraper
 
@@ -19,6 +14,7 @@ class DDWRTScraper(Scraper):
     def __init__(
         self,
         logger,
+        driver,
         scrape_entry_url: str = DOWNLOAD_URL,
         headless: bool = True,
         max_products: int = float("inf"),
@@ -28,24 +24,20 @@ class DDWRTScraper(Scraper):
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
         self.max_products = max_products
-
-        chrome_options = Options()
-        if self.headless:
-            chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--start-maximized")
-            chrome_options.add_argument("--headless")
-        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
+        self.driver = driver
         self.driver.implicitly_wait(0.5)  # has to be set only once
 
     def _clean_up_product_category(self, product_category: str) -> str:
         if ">" in product_category:
-            product_category_substrings = [substring.strip() for substring in product_category.split(">")]
+            product_category_substrings = [
+                substring.strip() for substring in product_category.split(">")]
             product_category = product_category_substrings[-1]
 
             # deal with special cases, where multiple substrings are necessary to describe the product category
             for s in ["Mesh Wi-Fi", "Omada Cloud SDN", "Omada Access Points"]:
                 if s in product_category_substrings:
-                    product_category = ", ".join(product_category_substrings[1:])
+                    product_category = ", ".join(
+                        product_category_substrings[1:])
                     break
 
         return product_category
@@ -71,34 +63,41 @@ class DDWRTScraper(Scraper):
 
             table_entries = []
             try:
-                table_entries = self.driver.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_TABLE_ELEMENTS)
+                table_entries = self.driver.find_elements(
+                    by=By.CSS_SELECTOR, value=CSS_SELECTOR_TABLE_ELEMENTS)
                 # The first 3 elements from the table are not real products
                 table_entries = table_entries[3:]
             except WebDriverException as e:
-                self.logger.warning(attribute_scraping_failure(f"download URLs for '{product_url}'"))
+                self.logger.warning(attribute_scraping_failure(
+                    f"download URLs for '{product_url}'"))
 
             for i, entry in enumerate(table_entries):
                 try:
-                    entry_el = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_URL)
+                    entry_el = entry.find_element(
+                        by=By.CSS_SELECTOR, value=CSS_SELECTOR_URL)
                     entry_name = entry_el.text
                     # we exclude txt files from the scraped metadata
                     if ".txt" in entry_name:
                         continue
                     url = entry_el.get_attribute("href")
                 except WebDriverException as e:
-                    self.logger.warning(attribute_scraping_failure(f"URL for entry {i} in table {product_url}"))
+                    self.logger.warning(attribute_scraping_failure(
+                        f"URL for entry {i} in table {product_url}"))
                     return []
 
                 try:
-                    release_date = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_RELEASE_DATE).text
+                    release_date = entry.find_element(
+                        by=By.CSS_SELECTOR, value=CSS_SELECTOR_RELEASE_DATE).text
                 except WebDriverException as e:
                     release_date = None
                     self.logger.warning(
-                        attribute_scraping_failure(f"release date for entry {i} in table {product_url}")
+                        attribute_scraping_failure(
+                            f"release date for entry {i} in table {product_url}")
                     )
 
                 try:
-                    entry_type = entry.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_ENTRY_TYPE).text
+                    entry_type = entry.find_element(
+                        by=By.CSS_SELECTOR, value=CSS_SELECTOR_ENTRY_TYPE).text
                     if "DIR" in entry_type:
                         worklist.append(url)
                     else:
@@ -117,9 +116,11 @@ class DDWRTScraper(Scraper):
                                 "additional_data": {},
                             }
                         )
-                        self.logger.info(firmware_scraping_success(f"of {product_name} ({entry_name}) {worklist[0]}"))
+                        self.logger.info(firmware_scraping_success(
+                            f"of {product_name} ({entry_name}) {worklist[0]}"))
                 except WebDriverException as e:
-                    self.logger.warning(attribute_scraping_failure(f"type for entry {i} in table {product_url}"))
+                    self.logger.warning(attribute_scraping_failure(
+                        f"type for entry {i} in table {product_url}"))
 
             worklist.pop(0)
 
@@ -130,7 +131,8 @@ class DDWRTScraper(Scraper):
         CSS_SELECTOR_PRODUCT_URL = "td > a"
 
         try:
-            products = self.driver.find_elements(by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_ELEMENTS)
+            products = self.driver.find_elements(
+                by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_ELEMENTS)
             # The first 3 elements from the table are not real products
             products = products[3:]
         except WebDriverException as e:
@@ -141,7 +143,8 @@ class DDWRTScraper(Scraper):
         product_urls = []
         for product in products[: self.max_products]:
             try:
-                product_url_el = product.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_URL)
+                product_url_el = product.find_element(
+                    by=By.CSS_SELECTOR, value=CSS_SELECTOR_PRODUCT_URL)
                 product_url = product_url_el.get_attribute("href")
                 product_name = product_url_el.text
                 product_urls.append((product_name, product_url))
@@ -170,7 +173,8 @@ class DDWRTScraper(Scraper):
         # when first accessing the website, an overlay window asking to agree to a privacy policy might block other
         # elements; close this overlay
         try:
-            self.driver.find_element(by=By.CSS_SELECTOR, value=CSS_SELECTOR_COOKIE_CONSENT).click()
+            self.driver.find_element(
+                by=By.CSS_SELECTOR, value=CSS_SELECTOR_COOKIE_CONSENT).click()
         except WebDriverException as e:
             pass
 
@@ -181,7 +185,8 @@ class DDWRTScraper(Scraper):
             ).get_attribute("href")
             self.driver.get(link_to_current_year)
         except WebDriverException as e:
-            self.logger.error(f"Could not scrape most current firmware versions\n{e}")
+            self.logger.error(
+                f"Could not scrape most current firmware versions\n{e}")
             self.logger.important(abort_scraping())
             return []
 
@@ -192,7 +197,8 @@ class DDWRTScraper(Scraper):
             ).get_attribute("href")
             self.driver.get(link_to_revision)
         except WebDriverException as e:
-            self.logger.error(f"Could not scrape most current firmware versions\n{e}")
+            self.logger.error(
+                f"Could not scrape most current firmware versions\n{e}")
             self.logger.important(abort_scraping())
             return []
 

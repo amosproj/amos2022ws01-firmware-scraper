@@ -3,37 +3,24 @@ import json
 import os
 import time
 
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from webdriver_manager.chrome import ChromeDriverManager
 from src.logger import *
-from src.logger import get_logger
 from tqdm import tqdm
+from src.Vendors.scraper import Scraper
 
 
-class RockwellScraper:
-    def __init__(self, logger, max_products: int = float("inf"), headless: bool = True):
+class RockwellScraper(Scraper):
+    def __init__(self, driver, max_products: int = float("inf"), headless: bool = True):
         self.login_url = "https://compatibility.rockwellautomation.com/Pages/MyProfile.aspx"
         self.url = "https://compatibility.rockwellautomation.com/Pages/MultiProductDownload.aspx"
         self.name = "Rockwell"
-        self.logger = logger
+        self.logger = get_logger()
+        self.driver = driver
         self.max_products: int = max_products
 
         self.headless: bool = headless
-        chrome_options = Options()
-        if self.headless:
-            chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--start-maximized")
-            chrome_options.add_argument("--headless")
-            chrome_options.add_argument("--no-sandbox")
-            chrome_options.add_argument("--disable-dev-shm-usage")
-        self.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()),
-            options=chrome_options,
-        )
+        self.driver.implicitly_wait(1)
 
         self.email = os.getenv("Rockwell_email", "")
         self.password = os.getenv("Rockwell_password", "")
@@ -43,7 +30,8 @@ class RockwellScraper:
         try:
             try:
                 self.driver.get(self.login_url)
-                self.logger.important(f"Successfully accessed entry point URL {self.login_url}")
+                self.logger.important(
+                    f"Successfully accessed entry point URL {self.login_url}")
             except:
                 self.logger.error(entry_point_url_failure(self.login_url))
             username_element = self.driver.find_element(By.ID, "userNameInput")
@@ -60,12 +48,16 @@ class RockwellScraper:
     def get_all_products(self):
         try:
             self.driver.get(self.url)
-            search_element = self.driver.find_element(By.XPATH, "//button[@onclick='MPS1.Search();']")
+            search_element = self.driver.find_element(
+                By.XPATH, "//button[@onclick='MPS1.Search();']")
             search_element.click()
-            time.sleep(2)
-            download_elements = self.driver.find_elements(By.XPATH, "//a[@class='tmpbs_list-group-item cstm-pt']")
-            text_elements = self.driver.find_elements(By.XPATH, "//span[@class='pull-right']")
-            self.logger.important("Succesfully identified all product elements")
+            time.sleep(1)
+            download_elements = self.driver.find_elements(
+                By.XPATH, "//a[@class='tmpbs_list-group-item cstm-pt']")
+            text_elements = self.driver.find_elements(
+                By.XPATH, "//span[@class='pull-right']")
+            self.logger.important(
+                "Succesfully identified all product elements")
             return download_elements, text_elements
         except Exception as e:
             self.logger.warning("Could not find all product elements")
@@ -79,7 +71,8 @@ class RockwellScraper:
             max_products = len(text_elements)
         for t in range(0, max_products, 5):
             try:
-                new_list_of_product_dicts = self.scrape_10_products(download_elements, text_elements, t)
+                new_list_of_product_dicts = self.scrape_10_products(
+                    download_elements, text_elements, t)
                 self.list_of_product_dicts += new_list_of_product_dicts
             except Exception as e:
                 raise (e)
@@ -112,11 +105,13 @@ class RockwellScraper:
                     prod_cats.append(prod_cat)
                     prod_fams.append(prod_fam)
 
-                series_listing = self.driver.find_element(By.ID, "MPS1SeriesListing")
+                series_listing = self.driver.find_element(
+                    By.ID, "MPS1SeriesListing")
                 if series_listing.text:
                     serieses = series_listing.text.split("\n")
                     for k in range(len(serieses)):
-                        series_element = self.driver.find_element(By.LINK_TEXT, serieses[k])
+                        series_element = self.driver.find_element(
+                            By.LINK_TEXT, serieses[k])
                         series_element.click()
                         time.sleep(0.5)
                         active_version_elements = self.driver.find_elements(
@@ -132,9 +127,10 @@ class RockwellScraper:
                                 prod_cats.append(prod_cat)
                                 prod_fams.append(prod_fam)
                             download_elements[i].click()
-                            time.sleep(0.5)
-                            self.driver.find_element(By.LINK_TEXT, serieses[k]).click()
-                            time.sleep(0.5)
+                            time.sleep(0.3)
+                            self.driver.find_element(
+                                By.LINK_TEXT, serieses[k]).click()
+                            time.sleep(0.3)
                             active_version_elements = self.driver.find_elements(
                                 By.XPATH,
                                 "//a[@class='tmpbs_list-group-item cstm-pt tmpbs_text-center']",
@@ -156,12 +152,16 @@ class RockwellScraper:
                             prod_fams.append(prod_fam)
                             time.sleep(0.5)
             except:
-                self.logger.warning(firmware_scraping_failure(text_elements[i].text))
+                self.logger.warning(firmware_scraping_failure(
+                    text_elements[i].text))
                 continue
 
-        time.sleep(0.5)
-        name_and_version_list = self.driver.find_element(By.ID, "MPS1CompareListing").text.split("\n")
-        ids = self.driver.find_element(By.ID, "MPS1VersionList").get_attribute("value").split(",")
+        time.sleep(1)
+        name_and_version_list = self.driver.find_element(
+            By.ID, "MPS1CompareListing").text.split("\n")
+        ids = self.driver.find_element(
+            By.ID, "MPS1VersionList").get_attribute("value").split(",")
+
 
         for r in range(len(name_and_version_list)):
             download_links.append(
@@ -189,7 +189,8 @@ class RockwellScraper:
                 "additional_data": {"product_family": prod_fams[t]},
             }
             list_of_product_dicts.append(firmware_item)
-            self.logger.info(firmware_scraping_success(f"{prod_names[t]} {download_links[t]}"))
+            self.logger.info(firmware_scraping_success(
+                f"{prod_names[t]} {download_links[t]}"))
 
         if prod_cats:
             trash_element = self.driver.find_element(By.ID, "MPS1TrashCmd")
@@ -207,22 +208,27 @@ class RockwellScraper:
         self.logger.important("Started downloading")
         for url, name in tqdm(firmware):
             self.driver.get(url)
-            firmware_only_elements = self.driver.find_elements(By.XPATH, "//span[contains(text(), 'Firmware Only')]")
+            firmware_only_elements = self.driver.find_elements(
+                By.XPATH, "//span[contains(text(), 'Firmware Only')]")
             for firmware_only_element in firmware_only_elements:
                 firmware_only_element.click()
 
-            cart_element = self.driver.find_element(By.XPATH, "//button[@onclick='cart.open();']")
+            cart_element = self.driver.find_element(
+                By.XPATH, "//button[@onclick='cart.open();']")
             cart_element.click()
 
-            download_now_element = self.driver.find_element(By.XPATH, "//button[contains(text(), 'Download Now')]")
+            download_now_element = self.driver.find_element(
+                By.XPATH, "//button[contains(text(), 'Download Now')]")
             download_now_element.click()
             time.sleep(2)
 
-            ok_element = self.driver.find_element(By.XPATH, "//button[contains(text(), 'Ok')]")
+            ok_element = self.driver.find_element(
+                By.XPATH, "//button[contains(text(), 'Ok')]")
             ok_element.click()
             time.sleep(2)
 
-            download_now_element = self.driver.find_element(By.XPATH, "//button[contains(text(), 'Download Now')]")
+            download_now_element = self.driver.find_element(
+                By.XPATH, "//button[contains(text(), 'Download Now')]")
             download_now_element.click()
             time.sleep(2)
 
@@ -233,7 +239,6 @@ class RockwellScraper:
         self.logger.important("Finished downloading")
 
     def scrape_metadata(self) -> list[dict]:
-        self.logger.important(start_scraping())
         self.login()
         download_elements, text_elements = self.get_all_products()
         self.start_scraping(download_elements, text_elements)
@@ -241,18 +246,14 @@ class RockwellScraper:
         return self.list_of_product_dicts
 
 
-# if __name__ == "__main__":
-#
-#     logger = get_logger()
-#     RWS = RockwellScraper(logger=logger)
-#
-#     RWS.login()
-#     download_elements, text_elements = RWS.get_all_products()
-#     RWS.start_scraping(download_elements, text_elements)
-#     with open(
-#         r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\src\Vendors\Rockwell\firmware2.json", "w"
-#     ) as fw_file:
-#         json.dump(RWS.list_of_product_dicts, fw_file)
-#     # RWS.download_firmware(RWS.list_of_product_dicts)f
+if __name__ == "__main__":
 
-# Rockwell	0	2023-01-08	2023-01-09	RockwellScraper
+    logger = get_logger()
+    RWS = RockwellScraper(logger=logger)
+
+    RWS.login()
+    download_elements, text_elements = RWS.get_all_products()
+    RWS.start_scraping(download_elements, text_elements)
+
+    with open("scraped_metadata/firmware_data_Rockwell.json", "w") as firmware_file:
+        json.dump(RWS.list_of_product_dicts, firmware_file)

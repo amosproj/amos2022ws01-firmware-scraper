@@ -1,28 +1,13 @@
 import time
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-
 from src.logger import *
 
 
 class BelkinScraper:
-    def __init__(self, max_products: int = float("inf")):
+    def __init__(self, driver, max_products: int = float("inf")):
         self.url = "https://www.belkin.com/support-article/?articleNum=10807"
         self.name = "Belkin"
-        self.options = Options()
-        self.options.add_argument("--headless")
-        self.options.add_argument("--no-sandbox")
-        self.options.add_argument("--disable-dev-shm-usage")
-        self.options.add_argument("--start-maximized")
-        self.options.add_argument("--window-size=1920,1080")
-        self.name = "Gigaset"
-        self.driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()), options=self.options
-        )
+        self.driver = driver
         self.catalog: list[dict] = []
         self.logger = get_logger()
         self.max_products = max_products
@@ -39,7 +24,8 @@ class BelkinScraper:
     def scrape_metadata(self) -> list[dict]:
         self.connect_webdriver()
         self.logger.important(start_scraping())
-        prod_list = self.driver.find_elements(By.CSS_SELECTOR, "a[target='_blank']")
+        prod_list = self.driver.find_elements(
+            By.CSS_SELECTOR, "a[target='_blank']")
         prod_list = [
             e for e in prod_list if e.get_attribute("pathname") == "/support-article"
         ]
