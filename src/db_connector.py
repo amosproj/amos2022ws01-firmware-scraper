@@ -286,7 +286,7 @@ class DBConnector:
             con.close()
         return result
 
-    def get_download_links(self, manufacturer="", table="products"):
+    def get_download_links(self, manufacturer, table="products"):
         """query DB for firmware on any table, optionally filtered by manufacturer
 
         Args:
@@ -297,7 +297,7 @@ class DBConnector:
         """
 
         retrieve_products_query = f"""
-            SELECT id, download_link
+            SELECT id, download_link, file_path
             FROM `{table}`
             """
         if manufacturer:
@@ -314,6 +314,30 @@ class DBConnector:
         finally:
             con.close()
         return result
+
+    def set_file_path(self, id, file_path, table="products"):
+        """Set file path of product with ID 'id'
+
+        Args:
+            table (str, optional): table to query for firmwares. Defaults to 'products'.
+        """
+        retrieve_products_query = f"""
+            UPDATE `{table}`
+            SET file_path = "%s"
+            WHERE id = %s;
+            """
+        data = (file_path, id)
+
+        con = self._get_db_con()
+        try:
+            # print(retrieve_products_query)  # debug
+            with con.cursor() as cursor:
+                cursor.execute(retrieve_products_query, data)
+                con.commit()
+        except Exception as ex:
+            print(ex)
+        finally:
+            con.close()
 
     def compare_products(self, table1: str, table2: str = "products") -> list[dict]:
         """Compares the given product catalog in DB with the products in the products table (historized) DB.
