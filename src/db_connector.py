@@ -183,7 +183,7 @@ class DBConnector:
         Args:
             table (str): table name as string for table to create
         """
-        create_table_query = f"""CREATE TABLE IF NOT EXISTS {table}(
+        create_table_query = f"""CREATE TABLE IF NOT EXISTS `{table}`(
                         id INT AUTO_INCREMENT PRIMARY KEY,
                         inserted_at DATE,
                         manufacturer VARCHAR(128),
@@ -219,7 +219,7 @@ class DBConnector:
         Args:
             table (str): table name as string for table to drop
         """
-        drop_table_query = f"DROP TABLE IF EXISTS {table};"
+        drop_table_query = f"DROP TABLE IF EXISTS `{table}`;"
         con = self._get_db_con()
         try:
             with con.cursor() as cursor:
@@ -241,7 +241,7 @@ class DBConnector:
             Values can be Null.
         """
         insert_products_query = f"""
-            INSERT INTO {table}
+            INSERT INTO `{table}`
             (inserted_at, manufacturer, product_name, product_type, version, release_date, download_link, product_url, 
             file_path, checksum_local, checksum_scraped, emba_tested, emba_report_path, embark_report_link, runner_uuid, 
             additional_data)
@@ -273,12 +273,41 @@ class DBConnector:
         """
         retrieve_links_query = f"""
             SELECT download_link, product_name
-            FROM {table};
+            FROM `{table}`;
         """
         con = self._get_db_con()
         try:
             with con.cursor() as cursor:
                 cursor.execute(retrieve_links_query)
+                result = cursor.fetchall()
+        except Exception as ex:
+            print(ex)
+        finally:
+            con.close()
+        return result
+
+    def get_download_links(self, manufacturer="", table="products"):
+        """query DB for firmware on any table, optionally filtered by manufacturer
+
+        Args:
+            manufacturer (str, optional): get products filtered with WHERE clause on manufacturer. Defaults to ''.
+            table (str, optional): table to query for firmwares. Defaults to 'products'.
+        Returns:
+            result: returns list of tuples with all products
+        """
+
+        retrieve_products_query = f"""
+            SELECT id, download_link
+            FROM `{table}`
+            """
+        if manufacturer:
+            # WHERE clause set to manufacturer string
+            retrieve_products_query += f'WHERE manufacturer = "{manufacturer}";'
+        con = self._get_db_con()
+        try:
+            # print(retrieve_products_query)  # debug
+            with con.cursor() as cursor:
+                cursor.execute(retrieve_products_query)
                 result = cursor.fetchall()
         except Exception as ex:
             print(ex)
@@ -304,7 +333,7 @@ class DBConnector:
                     tmp.download_link, tmp.product_url, tmp.file_path, tmp.checksum_local,
                     tmp.checksum_scraped, tmp.emba_tested, tmp.emba_report_path, tmp.embark_report_link, tmp.runner_uuid,
                     tmp.additional_data
-                    from {table1} as tmp left join {table2} as tmp2 
+                    from `{table1}` as tmp left join `{table2}` as tmp2 
                     on tmp.product_name = tmp2.product_name 
                     and tmp.version = tmp2.version 
                     and tmp.manufacturer = tmp2.manufacturer 
@@ -333,7 +362,7 @@ class DBConnector:
 
         retrieve_products_query = f"""
             SELECT *
-            FROM {table}
+            FROM `{table}`
             """
         if manufacturer:
             # WHERE clause set to manufacturer string
