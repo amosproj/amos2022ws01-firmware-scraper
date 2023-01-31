@@ -160,14 +160,18 @@ class Core:
         # Check if vendor implements specific download function
         vendor_download_func = getattr(self.current_vendor, "download_firmware", None)
         if callable(vendor_download_func):
-            download_links = [item[:2] for item in download_links]
-            self.current_vendor.download_firmware(download_links)
+            try:
+                download_links = [item[:2] for item in download_links]
+                self.current_vendor.download_firmware(download_links)
+            except Exception as e:
+                self.logger.warning(f"Could not finish downloading {vendor_name}.")
+                self.logger.warning(e)
         else:
             num_downloads = len(download_links)
 
             for i, (id, url, _) in enumerate(download_links):
                 try:
-                    firmware_name = url.split("/")[-1]
+                    firmware_name = url.split("/")[-1].split("?")[0]
                     save_as = os.path.join(vendor_download_dir, firmware_name)
                     with urlopen(url) as file:
                         content = file.read()
@@ -180,8 +184,9 @@ class Core:
                     )
                 except Exception as e:
                     self.logger.warning(
-                        "[{i+1}/{num_downloads}] Could not download {firmware_name}"
+                        f"[{i+1}/{num_downloads}] Could not download {firmware_name}"
                     )
+                    self.logger.warning(e)
         self.logger.important(f"Finished downloading firmware of {vendor_name}.")
 
 
@@ -246,7 +251,18 @@ if __name__ == "__main__":
 
     for vendor, _ in vendor_and_max_products:
         try:
-            core.set_current_vendor(globals()[vendor](max_products=None, driver=None))
+            # TODO we need the name attribute from the class
+            # initialize with useless driver to make sure Object creation is successful
+            # there is certainly a better way
+            core.set_current_vendor(
+                globals()[vendor](
+                    max_products=None,
+                    driver=webdriver.Chrome(
+                        service=Service(ChromeDriverManager().install()),
+                        options=options,
+                    ),
+                )
+            )
             core.download_firmware(download_dir)
         except Exception as e:
             logger.warning(
