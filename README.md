@@ -8,15 +8,12 @@ This [Selenium-based](https://github.com/SeleniumHQ/selenium) firmware scraper g
 
 ## Installation
 ## Option 1: On your local machine
-**Requirements**: Git and Python 3.10 must be installed on your machine.
 
 ```shell
 git clone https://github.com/amosproj/amos2022ws01-firmware-scraper
-#or download and unpack .zip mos2022ws01-firmware-scraper-main
+# or download and unpack .zip amos2022ws01-firmware-scraper-main
 cd amos2022ws01-firmware-scraper
-python3 -m venv .AMOS
-source .AMOS/bin/activate
-pip install -r requirements.txt
+sudo ./install.sh
 
 # Make sure MySQL server is running
 # On macOS
