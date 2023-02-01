@@ -13,7 +13,7 @@ This [Selenium-based](https://github.com/SeleniumHQ/selenium) firmware scraper g
 git clone https://github.com/amosproj/amos2022ws01-firmware-scraper
 # or download and unpack .zip amos2022ws01-firmware-scraper-main
 cd amos2022ws01-firmware-scraper
-sudo ./install.sh
+./install.sh
 source .venv/bin/activate
 
 # Make sure MySQL server is running
