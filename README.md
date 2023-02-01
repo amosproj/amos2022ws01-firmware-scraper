@@ -24,7 +24,6 @@ export MYSQL_PASSWORD=<your password>
 export LOG_LEVEL=DEBUG
 
 # Start the scraper:
-
 python -m src.core
 ```
 
@@ -33,7 +32,7 @@ python -m src.core
 
 ```shell
 git clone https://github.com/amosproj/amos2022ws01-firmware-scraper
-#or download and unpack .zip mos2022ws01-firmware-scraper-main
+#or download and unpack .zip amos2022ws01-firmware-scraper
 cd amos2022ws01-firmware-scraper
 docker-compose up --build
 ```
