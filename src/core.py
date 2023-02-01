@@ -5,9 +5,10 @@ Core module for firmware scraper
 
 # Standard Libraries
 import json
+import os
+
 from urllib.request import urlopen
 
-from tqdm import tqdm
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -138,22 +139,55 @@ class Core:
 
         return True
 
-    def download_firmware(self):
+    def download_firmware(self, download_dir):
         """download firmware from vendor"""
+        vendor_name = self.get_current_vendor().name
+        logger.important(f"Next: {vendor_name}")
+
+        # (id, URL, file_path)
+        download_links = self.db.get_download_links(vendor_name)
+        # remove all URLs that have already been downloaded (file_path is not None)
+        download_links = [item for item in download_links if item[2] is None]
+        if len(download_links) == 0:
+            logger.important(f"No new firmware to download for {vendor_name}.")
+            return
+
+        # Create vendor-specific download dir
+        vendor_download_dir = os.path.join(download_dir, vendor_name)
+        if not os.path.exists(vendor_download_dir):
+            os.makedirs(vendor_download_dir)
+
+        # Check if vendor implements specific download function
         vendor_download_func = getattr(self.current_vendor, "download_firmware", None)
         if callable(vendor_download_func):
-            firmware = self.db.retrieve_download_links()
-            self.current_vendor.download_firmware(firmware)
+            try:
+                download_links = [item[:2] for item in download_links]
+                self.current_vendor.download_firmware(download_links)
+            except Exception as e:
+                self.logger.warning(f"Could not finish downloading {vendor_name}.")
+                self.logger.warning(e)
         else:
-            self.logger.important("Download firmware.")
-            firmware = self.db.retrieve_download_links()
-            for url, name in tqdm(firmware):
-                save_as = f"../downloads/{name.replace('/', '-')}"
-                with urlopen(url) as file:
-                    content = file.read()
-                with open(save_as, "wb") as out_file:
-                    out_file.write(content)
-            self.logger.important("Download done.")
+            num_downloads = len(download_links)
+
+            for i, (id, url, _) in enumerate(download_links):
+                try:
+                    firmware_name = url.split("/")[-1].split("?")[0]
+                    save_as = os.path.join(vendor_download_dir, firmware_name)
+                    with urlopen(url) as file:
+                        content = file.read()
+                    with open(save_as, "wb") as out_file:
+                        out_file.write(content)
+
+                    self.db.set_file_path(id, save_as)
+                    self.logger.info(
+                        f"[{i+1}/{num_downloads}] Successfully downloaded {firmware_name}"
+                    )
+                except Exception as e:
+                    self.logger.warning(
+                        f"[{i+1}/{num_downloads}] Could not download {firmware_name}"
+                    )
+                    self.logger.warning(e)
+        self.logger.important(f"Finished downloading firmware of {vendor_name}.")
 
 
 if __name__ == "__main__":
@@ -163,21 +197,22 @@ if __name__ == "__main__":
     with open("src/config.json") as config_file:
         config = json.load(config_file)
     # get list of vendors to update
-    vendor_max_products_pairs = check_vendors_to_update()
-    vendors_to_scrape = [name for name, _ in vendor_max_products_pairs]
+    vendor_and_max_products = check_vendors_to_update()
+    vendors_to_scrape = [name for name, _ in vendor_and_max_products]
     logger.info(f"Scheduled scrapers: {str(vendors_to_scrape)}")
 
     # initialize core object
     core = Core(logger=logger)
 
     # iterate over vendors to update
-    for vendor, max_products in vendor_max_products_pairs:
+    for vendor, max_products in vendor_and_max_products:
         logger.important(f"Next: {vendor}")
 
         try:
             driver = webdriver.Chrome(
                 service=Service(ChromeDriverManager().install()), options=options
             )
+            glob = globals()
             core.set_current_vendor(
                 globals()[vendor](max_products=max_products, driver=driver)
             )
@@ -195,9 +230,6 @@ if __name__ == "__main__":
         if not core.compare_products():
             continue
 
-        # download firmware
-        # core.download_firmware()
-
         # prepare for EMBArk
         # core.prepare_for_embark()
 
@@ -205,3 +237,36 @@ if __name__ == "__main__":
         # core.cleaning()
 
         update_vendor_schedule(vendor)
+
+    # Download firmware
+    logger.important("Start firmware download.")
+    try:
+        download_dir = os.path.realpath(config["download_dir"])
+        logger.important(f"Download directory: {download_dir}")
+    except Exception as e:
+        download_dir = os.path.realpath("../downloads")
+        logger.important(
+            f"Download directory not specified in config.json. Will download into '../downloads'."
+        )
+
+    for vendor, _ in vendor_and_max_products:
+        try:
+            # TODO we need the name attribute from the class
+            # initialize with useless driver to make sure Object creation is successful
+            # there is certainly a better way
+            core.set_current_vendor(
+                globals()[vendor](
+                    max_products=None,
+                    driver=webdriver.Chrome(
+                        service=Service(ChromeDriverManager().install()),
+                        options=options,
+                    ),
+                )
+            )
+            core.download_firmware(download_dir)
+        except Exception as e:
+            logger.warning(
+                f"Could not finish downloading firmware of {core.get_current_vendor().name}."
+            )
+            core.logger.error(e)
+            core.logger.important("Continue with next vendor.")

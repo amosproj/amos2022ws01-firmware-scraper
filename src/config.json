@@ -1,1 +1,173 @@
-{"database": {"user": "root", "password": "null"}, "download_dir": "./downloads", "max_products": 5, "log_level": "DEBUG", "vendors": [{"name": "ABB", "class_name": "ABBScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "AVM", "class_name": "AVMScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "Belkin", "class_name": "BelkinScraper", "active": false, "interval": "10", "last_update": "2023-01-29", "next_update": "2023-01-29", "max_products": null}, {"name": "DLink", "class_name": "DLinkScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "DDWRT", "class_name": "DDWRTScraper", "active": false, "interval": "10", "last_update": "2023-01-29", "next_update": "2023-01-29", "max_products": 40}, {"name": "Engenius", "class_name": "EngeniusScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "Foscam", "class_name": "FoscamScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "Gigaset", "class_name": "GigasetScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "Linksys", "class_name": "LinksysScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "Netgear", "class_name": "NetgearScraper", "active": false, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-01-29", "max_products": null}, {"name": "Qnap", "class_name": "QnapScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "Rockwell", "class_name": "RockwellScraper", "active": false, "interval": "10", "last_update": "2023-01-29", "next_update": "2023-01-29", "max_products": null}, {"name": "SchneiderElectric", "class_name": "SchneiderElectricScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-01-29", "max_products": null}, {"name": "Swisscom", "class_name": "SwisscomScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-02-09", "max_products": null}, {"name": "Synology", "class_name": "SynologyScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-01-29", "max_products": null}, {"name": "TPLink", "class_name": "TPLinkScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-01-29", "max_products": null}, {"name": "Trendnet", "class_name": "TrendnetScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-01-29", "max_products": null}, {"name": "Zyxel", "class_name": "ZyxelScraper", "active": true, "interval": "10", "last_update": "2023-01-30", "next_update": "2023-01-29", "max_products": null}]}
+{
+  "database": {
+    "user": "root",
+    "password": "null"
+  },
+  "download_dir": "./downloads",
+  "max_products": 3,
+  "log_level": "DEBUG",
+  "vendors": [
+    {
+      "name": "ABB",
+      "class_name": "ABBScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-01-31",
+      "next_update": "2023-01-31",
+      "max_products": null
+    },
+    {
+      "name": "AVM",
+      "class_name": "AVMScraper",
+      "active": true,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "Belkin",
+      "class_name": "BelkinScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-01-31",
+      "next_update": "2023-01-31",
+      "max_products": null
+    },
+    {
+      "name": "DLink",
+      "class_name": "DLinkScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "DDWRT",
+      "class_name": "DDWRTScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-01-31",
+      "next_update": "2023-01-31",
+      "max_products": null
+    },
+    {
+      "name": "Engenius",
+      "class_name": "EngeniusScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "Foscam",
+      "class_name": "FoscamScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-01-30",
+      "next_update": "2023-01-30",
+      "max_products": null
+    },
+    {
+      "name": "Gigaset",
+      "class_name": "GigasetScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "Linksys",
+      "class_name": "LinksysScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "Netgear",
+      "class_name": "NetgearScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "Qnap",
+      "class_name": "QnapScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "Rockwell",
+      "class_name": "RockwellScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "SchneiderElectric",
+      "class_name": "SchneiderElectricScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-01-31",
+      "next_update": "2023-01-31",
+      "max_products": null
+    },
+    {
+      "name": "Swisscom",
+      "class_name": "SwisscomScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-01-31",
+      "next_update": "2023-01-31",
+      "max_products": null
+    },
+    {
+      "name": "Synology",
+      "class_name": "SynologyScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": null
+    },
+    {
+      "name": "TPLink",
+      "class_name": "TPLinkScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-01-31",
+      "next_update": "2023-01-31",
+      "max_products": null
+    },
+    {
+      "name": "Trendnet",
+      "class_name": "TrendnetScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": 50
+    },
+    {
+      "name": "Zyxel",
+      "class_name": "ZyxelScraper",
+      "active": false,
+      "interval": "0",
+      "last_update": "2023-02-01",
+      "next_update": "2023-02-01",
+      "max_products": 20
+    }
+  ]
+}

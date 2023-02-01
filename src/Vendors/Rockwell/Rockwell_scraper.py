@@ -213,7 +213,7 @@ class RockwellScraper(Scraper):
 
     def download_firmware(self, firmware):
         self.logger.important("Started downloading")
-        for url, name in tqdm(firmware):
+        for id, url in tqdm(firmware):
             self.driver.get(url)
             firmware_only_elements = self.driver.find_elements(
                 By.XPATH, "//span[contains(text(), 'Firmware Only')]")
