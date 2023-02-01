@@ -42,27 +42,31 @@ fi
 # Check if git exists and install if not
 echo -e "$NC""Installing necessary packages..."
 if ! command -v git > /dev/null ; then
-apt-get install -y git
+sudo apt-get install -y git
 fi
 
 # Check if python exists and install if not
 if ! command -v python3.10 > /dev/null ; then
-apt-get install -y python3.10
+sudo apt-get install -y python3.10
 fi
 if ! command -v python-is-python3 > /dev/null ; then
-apt-get install -y python-is-python3
+sudo apt-get install -y python-is-python3
 fi
 if ! command -v pip3.10 > /dev/null ; then
-apt-get install -y python3-pip
+sudo apt-get install -y python3-pip
 fi
 if ! command -v python3.10-venv > /dev/null ; then
-apt-get install -y python3.10-venv
+sudo apt-get install -y python3.10-venv
 fi
 
 # Check if mysql exists and install if not
 if ! command -v mysql > /dev/null ; then
-apt-get install -y mysql-server
+sudo apt-get install -y mysql-server
 fi
+
+# Install chrome
+wget -nc https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+sudo apt install -f ./google-chrome-stable_current_amd64.deb
 
 echo -e "$NC""Setting up virtual environment..."
 python -m venv .venv
