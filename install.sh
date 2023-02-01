@@ -59,6 +59,11 @@ if ! command -v python3.10-venv > /dev/null ; then
 apt-get install -y python3.10-venv
 fi
 
+# Check if mysql exists and install if not
+if ! command -v mysql > /dev/null ; then
+apt-get install -y mysql-server
+fi
+
 # Clone git repository
 echo -e "$NC""Cloning code repository..."
 git clone https://github.com/amosproj/amos2022ws01-firmware-scraper.git
