@@ -2,17 +2,18 @@
 Module to connect to and interact with a local MySQL Server.
 
 Currently, this module assumes that the MySQL server is running on the machine where it is executed.
-Username and password for the server are provided via the config.json file, or, alternatively, 
+Username and password for the server are provided via the config.json file, or, alternatively,
 by exporting the following environment variables, which take precedence over config.json:
 MYSQL_USER
 MYSQL_PASSWORD
 """
+import datetime
 import json
 import os
-import datetime
 
 import mysql.connector
 from mysql.connector import connect
+
 from src.logger import get_logger
 
 logger = get_logger()
@@ -28,7 +29,7 @@ def _get_mysql_user_password():
     try:
         with open("src/config.json") as config_file:
             config = json.load(config_file)
-    except Exception as e:
+    except Exception:
         config = None
 
     user = os.getenv("MYSQL_USER")
@@ -38,22 +39,22 @@ def _get_mysql_user_password():
         try:
             if not user:
                 user = config["database"]["user"]
-        except Exception as e:
+        except Exception as error:
             logger.error(
                 "Could not retrieve mysql username from field ['database']['user'] of config.json. Username is also not set \
                  via environment variable MYSQL_USER."
             )
-            logger.error(e)
+            logger.error(error)
 
         try:
             if not password:
                 password = config["database"]["password"]
-        except Exception as e:
+        except Exception as error:
             logger.error(
                 "Could not retrieve mysql password from field ['database']['password'] of config.json. Password is also \
                 not set via environment variable MYSQL_PASSWORD."
             )
-            logger.error(e)
+            logger.error(error)
 
     return user, password
 
@@ -70,11 +71,11 @@ class DBConnector:
             ) as con:
                 with con.cursor() as curser:
                     curser.execute(create_query)
-        except Exception as e:
+        except Exception as error:
             logger.error(
                 "Could not connect to MYSQL database. Please check username and password."
             )
-            logger.error(e)
+            logger.error(error)
 
         # create product table if it doesn't exist yet
         create_products_table_query = """
@@ -104,11 +105,11 @@ class DBConnector:
                 cursor.execute(create_products_table_query)
                 con.commit()
             con.close()
-        except Exception as e:
+        except Exception as error:
             logger.error(
                 "Could not connect to MYSQL database. Please check username and password."
             )
-            logger.error(e)
+            logger.error(error)
 
     def _get_db_con(self):
         """Return a MySQLConnection to the firmware database."""
@@ -120,8 +121,8 @@ class DBConnector:
         }
         try:
             con = mysql.connector.connect(**config)
-        except Exception as ex:
-            print(ex)
+        except Exception as error:
+            print(error)
         else:
             return con
 
@@ -242,8 +243,8 @@ class DBConnector:
         """
         insert_products_query = f"""
             INSERT INTO `{table}`
-            (inserted_at, manufacturer, product_name, product_type, version, release_date, download_link, product_url, 
-            file_path, checksum_local, checksum_scraped, emba_tested, emba_report_path, embark_report_link, runner_uuid, 
+            (inserted_at, manufacturer, product_name, product_type, version, release_date, download_link, product_url,
+            file_path, checksum_local, checksum_scraped, emba_tested, emba_report_path, embark_report_link, runner_uuid,
             additional_data)
             VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
@@ -352,16 +353,16 @@ class DBConnector:
         """
         con = self._get_db_con()
 
-        query = f"""select 
+        query = f"""select
                     tmp.inserted_at, tmp.manufacturer, tmp.product_name, tmp.product_type, tmp.version, tmp.release_date, 
                     tmp.download_link, tmp.product_url, tmp.file_path, tmp.checksum_local,
                     tmp.checksum_scraped, tmp.emba_tested, tmp.emba_report_path, tmp.embark_report_link, tmp.runner_uuid,
                     tmp.additional_data
-                    from `{table1}` as tmp left join `{table2}` as tmp2 
-                    on tmp.product_name = tmp2.product_name 
-                    and tmp.version = tmp2.version 
-                    and tmp.manufacturer = tmp2.manufacturer 
-                    and tmp.product_type = tmp2.product_type 
+                    from `{table1}` as tmp left join `{table2}` as tmp2
+                    on tmp.product_name = tmp2.product_name
+                    and tmp.version = tmp2.version
+                    and tmp.manufacturer = tmp2.manufacturer
+                    and tmp.product_type = tmp2.product_type
                     where tmp2.id is null;"""
         try:
             with con.cursor(dictionary=True) as cursor:

@@ -7,8 +7,9 @@ from os import path
 
 import requests
 from selenium.webdriver.common.by import By
-from src.Vendors.scraper import Scraper
+
 from src.logger import *
+from src.Vendors.scraper import Scraper
 
 
 class AVMScraper(Scraper):
@@ -82,8 +83,7 @@ class AVMScraper(Scraper):
                 )
                 if text_file:
 
-                    product, version = self._parse_txt_file(
-                        self.url + text_file)
+                    product, version = self._parse_txt_file(self.url + text_file)
                     firmware_item["product_name"] = product
                     firmware_item["version"] = version
                     firmware_item["additional_data"] = {
@@ -120,12 +120,10 @@ class AVMScraper(Scraper):
         product, version = None, None
         try:
             txt = requests.get(file_url).text.splitlines()
-            product = self._get_partial_str(
-                txt, "Product").split(":")[-1].strip()
-            version = self._get_partial_str(
-                txt, "Version").split(":")[-1].strip()
+            product = self._get_partial_str(txt, "Product").split(":")[-1].strip()
+            version = self._get_partial_str(txt, "Version").split(":")[-1].strip()
         except Exception as e:
-            pass
+            self.logger.error("Info.txt could not be parsed! Skipping.")
 
         return product, version
 
@@ -139,6 +137,7 @@ class AVMScraper(Scraper):
 if __name__ == "__main__":
 
     import json
+
     logger = get_logger()
 
     AVM = AVMScraper()

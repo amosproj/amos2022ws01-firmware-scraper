@@ -6,7 +6,6 @@ Core module for firmware scraper
 # Standard Libraries
 import json
 import os
-
 from urllib.request import urlopen
 
 from selenium import webdriver
@@ -15,8 +14,8 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 from src.db_connector import DBConnector
-from src.scheduler import check_vendors_to_update, update_vendor_schedule
 from src.logger import get_logger
+from src.scheduler import check_vendors_to_update, update_vendor_schedule
 
 # Vendor Modules
 from src.Vendors import *
@@ -57,9 +56,9 @@ class Core:
             # call vendor specific scraping function
             metadata = self.current_vendor.scrape_metadata()
             # self.logger.important(f"Scraping done. Insert {self.current_vendor.name} catalogue into temporary table.")
-        except Exception as e:
+        except Exception as error:
             self.logger.error(f"Could not scrape {self.current_vendor.name}.")
-            self.logger.error(e)
+            self.logger.error(error)
             self.logger.important("Continue with next vendor.")
             return False
 
@@ -67,11 +66,11 @@ class Core:
             # create temporary table for current vendor
             self.db.create_table(table=f"{self.current_vendor.name}")
             self.logger.info(f"Created temporary table for {self.current_vendor.name}.")
-        except Exception as e:
+        except Exception as error:
             self.logger.error(
                 f"Could not create temporary table for {self.current_vendor.name}."
             )
-            self.logger.error(e)
+            self.logger.error(error)
             self.logger.important("Continue with next vendor.")
             return False
 
@@ -81,11 +80,11 @@ class Core:
             self.logger.info(
                 f"Inserted {self.current_vendor.name} catalogue into temporary table."
             )
-        except Exception as e:
+        except Exception as error:
             self.logger.error(
                 f"Could not insert {self.current_vendor.name} catalogue into temporary table."
             )
-            self.logger.error(e)
+            self.logger.error(error)
             self.logger.important("Continue with next vendor.")
             return False
 
@@ -105,11 +104,11 @@ class Core:
             self.logger.important(
                 f"{len(metadata_new)} new products for {self.current_vendor.name}."
             )
-        except Exception as e:
+        except Exception as error:
             self.logger.error(
                 f"Could not compare {self.current_vendor.name} catalogue with historized products."
             )
-            self.logger.error(e)
+            self.logger.error(error)
             self.logger.important("Continue with next vendor.")
             return False
 
@@ -119,11 +118,11 @@ class Core:
             self.logger.info(
                 f"Inserted new products of {self.current_vendor.name} into products table."
             )
-        except Exception as e:
+        except Exception as error:
             self.logger.error(
                 f"Could not insert new products of {self.current_vendor.name} into products table."
             )
-            self.logger.error(e)
+            self.logger.error(error)
             self.logger.important("Continue with next vendor.")
             return False
 
@@ -131,11 +130,11 @@ class Core:
             # delete temporary table
             self.db.drop_table(table=f"{self.current_vendor.name}")
             self.logger.info(f"Dropped temporary table for {self.current_vendor.name}.")
-        except Exception as e:
+        except Exception as error:
             self.logger.important(
                 f"Could not drop temporary table for {self.current_vendor.name}."
             )
-            self.logger.error(e)
+            self.logger.error(error)
 
         return True
 
@@ -163,9 +162,9 @@ class Core:
             try:
                 download_links = [item[:2] for item in download_links]
                 self.current_vendor.download_firmware(download_links)
-            except Exception as e:
+            except Exception as error:
                 self.logger.warning(f"Could not finish downloading {vendor_name}.")
-                self.logger.warning(e)
+                self.logger.warning(error)
         else:
             num_downloads = len(download_links)
 
@@ -182,11 +181,11 @@ class Core:
                     self.logger.info(
                         f"[{i+1}/{num_downloads}] Successfully downloaded {firmware_name}"
                     )
-                except Exception as e:
+                except Exception as error:
                     self.logger.warning(
                         f"[{i+1}/{num_downloads}] Could not download {firmware_name}"
                     )
-                    self.logger.warning(e)
+                    self.logger.warning(error)
         self.logger.important(f"Finished downloading firmware of {vendor_name}.")
 
 
@@ -246,7 +245,7 @@ if __name__ == "__main__":
     except Exception as e:
         download_dir = os.path.realpath("../downloads")
         logger.important(
-            f"Download directory not specified in config.json. Will download into '../downloads'."
+            "Download directory not specified in config.json. Will download into '../downloads'."
         )
 
     for vendor, _ in vendor_and_max_products:

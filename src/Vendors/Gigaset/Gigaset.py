@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 
 from src.logger import *
+
 # import scraper
 from src.Vendors.scraper import Scraper
 
@@ -18,9 +19,9 @@ class GigasetScraper(Scraper):
         try:
             self.driver.get(self.url)
             self.logger.info(entry_point_url_success(self.url))
-        except Exception as e:
+        except Exception as error:
             self.logger.error(entry_point_url_failure(self.url))
-            raise (e)
+            raise error
 
     # TODO: get release_date
     def scrape_metadata(self) -> list[dict]:
@@ -36,11 +37,10 @@ class GigasetScraper(Scraper):
 
             self.driver.get(link)
 
-            CASE_1 = self.driver.find_elements(
+            case_1 = self.driver.find_elements(
                 By.CSS_SELECTOR, "a[data-linked-resource-type='attachment']"
             )
-            CASE_2 = self.driver.find_elements(
-                By.CSS_SELECTOR, ".external-link")
+            case_2 = self.driver.find_elements(By.CSS_SELECTOR, ".external-link")
 
             self.driver.find_elements(
                 By.CSS_SELECTOR, "li[title='Show all breadcrumbs']"
@@ -54,11 +54,11 @@ class GigasetScraper(Scraper):
                 .lstrip()
             )
 
-            if CASE_1:
-                download_link = CASE_1[0].get_attribute("href")
+            if case_1:
+                download_link = case_1[0].get_attribute("href")
 
-            elif CASE_2:
-                download_link = CASE_2[0].get_attribute("href")
+            elif case_2:
+                download_link = case_2[0].get_attribute("href")
 
             else:
                 continue
@@ -78,8 +78,7 @@ class GigasetScraper(Scraper):
             }
 
             self.catalog.append(firmware_item)
-            self.logger.info(firmware_scraping_success(
-                product_type + " " + version))
+            self.logger.info(firmware_scraping_success(product_type + " " + version))
 
             if len(self.catalog) >= self.max_products:
                 break

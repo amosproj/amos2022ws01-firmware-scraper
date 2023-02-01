@@ -19,9 +19,9 @@ Concept:
 
 """
 
+import json
 import logging
 import os
-import json
 from functools import partial, partialmethod
 from pathlib import Path
 
@@ -176,7 +176,8 @@ def firmware_scraping_failure(string):
 # (optional)
 # level: debug
 def attribute_scraping_success(string):
-    """Typically not needed. Use when one attribute of a db entry for a firmware product was successfully scraped"""
+    """Typically not needed.
+    Use when one attribute of a db entry for a firmware product was successfully scraped"""
     return f"Successfully scraped {string}"
 
 
