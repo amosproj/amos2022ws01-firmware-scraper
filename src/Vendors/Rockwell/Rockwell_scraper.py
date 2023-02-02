@@ -69,7 +69,8 @@ class RockwellScraper(Scraper):
             max_products = self.max_products
         else:
             max_products = len(text_elements)
-        for t in range(0, max_products, 5):
+        print(max_products)
+        for t in range(0, max_products, 10):
             try:
                 new_list_of_product_dicts = self.scrape_10_products(
                     download_elements, text_elements, t)
@@ -87,7 +88,7 @@ class RockwellScraper(Scraper):
             list_of_product_dicts,
         ) = ([], [], [], [], [], [])
 
-        for i in range(t, t + 5):
+        for i in range(t, t + 10):
             if i > self.max_products:
                 break
             try:
@@ -157,56 +158,62 @@ class RockwellScraper(Scraper):
                 continue
 
         time.sleep(1)
-        name_and_version_list = self.driver.find_element(
-            By.ID, "MPS1CompareListing").text.split("\n")
-        ids = self.driver.find_element(
-            By.ID, "MPS1VersionList").get_attribute("value").split(",")
-
-
-        for r in range(len(name_and_version_list)):
-            download_links.append(
-                "https://compatibility.rockwellautomation.com/Pages/MultiProductFindDownloads.aspx?crumb=112&refSoft=1&toggleState=&versions="
-                + ids[r]
-            )
+        try:
+            name_and_version_list = self.driver.find_element(
+                By.ID, "MPS1CompareListing").text.split("\n")
             try:
-                splitted_n_v = name_and_version_list[r].split("   ")
-                prod_names.append(splitted_n_v[0].strip())
-                versions.append(splitted_n_v[1].strip())
+                name_and_version_list.remove(" ")
             except:
-                splitted_n_v = name_and_version_list[r].split("  ")
-                prod_names.append(splitted_n_v[0].strip())
-                versions.append(splitted_n_v[1].strip())
+                pass
+            ids = self.driver.find_element(
+                By.ID, "MPS1VersionList").get_attribute("value").split(",")
 
-        for t in range(len(prod_cats)):
-            firmware_item = {
-                "manufacturer": "Rockwell",
-                "product_name": prod_names[t],
-                "product_type": prod_cats[t],
-                "version": versions[t],
-                "download_link": download_links[t],
-                "release_date": None,
-                "checksum_scraped": None,
-                "additional_data": {"product_family": prod_fams[t]},
-            }
-            list_of_product_dicts.append(firmware_item)
-            self.logger.info(firmware_scraping_success(
-                f"{prod_names[t]} {download_links[t]}"))
+            for r in range(len(name_and_version_list)):
+                download_links.append(
+                    "https://compatibility.rockwellautomation.com/Pages/MultiProductFindDownloads.aspx?crumb=112&refSoft=1&toggleState=&versions="
+                    + ids[r]
+                )
+                try:
+                    splitted_n_v = name_and_version_list[r].split("   ")
+                    versions.append(splitted_n_v[1].strip())
+                    prod_names.append(splitted_n_v[0].strip())
+                except:
+                    splitted_n_v = name_and_version_list[r].split("  ")
+                    prod_names.append(splitted_n_v[1])
+                    versions.append(splitted_n_v[2])
 
-        if prod_cats:
-            trash_element = self.driver.find_element(By.ID, "MPS1TrashCmd")
+            for t in range(len(prod_cats)):
+                firmware_item = {
+                    "manufacturer": "Rockwell",
+                    "product_name": prod_names[t],
+                    "product_type": prod_cats[t],
+                    "version": versions[t],
+                    "download_link": download_links[t],
+                    "release_date": None,
+                    "checksum_scraped": None,
+                    "additional_data": {"product_family": prod_fams[t]},
+                }
+                list_of_product_dicts.append(firmware_item)
+                self.logger.info(firmware_scraping_success(
+                    f"{prod_names[t]} {versions[t]} {download_links[t]}"))
 
-            try:
-                trash_element.click()
-            except:
-                download_elements[i].click()
-                # time.sleep(0.5)
-                trash_element.click()
+            if prod_cats:
+                trash_element = self.driver.find_element(By.ID, "MPS1TrashCmd")
+
+                try:
+                    trash_element.click()
+                except:
+                    download_elements[i].click()
+                    # time.sleep(0.5)
+                    trash_element.click()
+        except:
+            pass
 
         return list_of_product_dicts
 
     def download_firmware(self, firmware):
         self.logger.important("Started downloading")
-        for url, name in tqdm(firmware):
+        for id, url in tqdm(firmware):
             self.driver.get(url)
             firmware_only_elements = self.driver.find_elements(
                 By.XPATH, "//span[contains(text(), 'Firmware Only')]")
@@ -242,7 +249,10 @@ class RockwellScraper(Scraper):
         self.login()
         download_elements, text_elements = self.get_all_products()
         self.start_scraping(download_elements, text_elements)
-
+        self.logger.important(finish_scraping())
+#ToDO: Change path (delete src)
+        with open(r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\scraped_metadata\firmware_data_rockwell.json", "w") as firmware_file:
+            json.dump(self.list_of_product_dicts, firmware_file)
         return self.list_of_product_dicts
 
 
@@ -254,6 +264,6 @@ if __name__ == "__main__":
     RWS.login()
     download_elements, text_elements = RWS.get_all_products()
     RWS.start_scraping(download_elements, text_elements)
-
-    with open("scraped_metadata/firmware_data_Rockwell.json", "w") as firmware_file:
+# ToDO: Change path (delete src)
+    with open("scraped_metadata/firmware_data_rockwell.json", "w") as firmware_file:
         json.dump(RWS.list_of_product_dicts, firmware_file)

@@ -38,6 +38,7 @@ class LinksysScraper(Scraper):
                 max_products = self.max_products
             else:
                 max_products = len(product_elements)
+#ToDO: Delete 30...(for demonstration purpose only, because all the first products dont have firmware)
             for i in range(max_products):
                 product_url = product_elements[i].get_attribute("href")
                 product_urls.append(product_url)

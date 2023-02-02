@@ -1,0 +1,2324 @@
+[
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6900 AC1900 Smart WiFi Dual-Band Router",
+    "product_type": null,
+    "version": "2.0.3.186963",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6900v2_2.0.3.186963_prod.img",
+    "release_date": "22.03.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6900 AC1900 Smart WiFi Dual-Band Router",
+    "product_type": null,
+    "version": "1.1.43",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6900_1.1.43.182871_prod.gpg.img",
+    "release_date": "15.08.2017",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (For US)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6900 AC1900 Smart WiFi Dual-Band Router",
+    "product_type": null,
+    "version": "1.1.43",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6900_1.1.43.182871_prod.img",
+    "release_date": "15.08.2017",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (For Other Regions)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA7200 - Dual-Band AC1750 WiFi 5 Router",
+    "product_type": null,
+    "version": "1.0.3.208179",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7200_1.0.3.208179_prod.img",
+    "release_date": "18.10.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA7250 MAX-STREAM Dual-Band WiFi 5 Router",
+    "product_type": null,
+    "version": "1.0.1.209812",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7250_1.0.1.209812_prod.img",
+    "release_date": "20.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA7300 MAX-STREAM\u2122 AC1750 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "2.0.4.208179",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7300v2_2.0.4.208179_prod.img",
+    "release_date": "18.10.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA7300 MAX-STREAM\u2122 AC1750 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "1.0.11.200282",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7300_1.0.11.200282_prod.img",
+    "release_date": "30.03.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA7400 Max-Stream\u2122 AC1750 MU-MIMO Gigabit Router",
+    "product_type": null,
+    "version": "1.1.4.192824",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7400_1.1.4.192824_prod.gpg.img",
+    "release_date": "05.03.2019",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (For US only)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA7400 Max-Stream\u2122 AC1750 MU-MIMO Gigabit Router",
+    "product_type": null,
+    "version": "1.1.4.192824",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7400_1.1.4.192824_prod.img",
+    "release_date": "05.03.2019",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (For Other Regions)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA7430 - Dual-Band AC1900 WiFi 5 Router",
+    "product_type": null,
+    "version": "1.0.1.209812",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7430_1.0.1.209812_prod.img",
+    "release_date": "20.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA7450 - Dual-Band AC1900 WiFi 5 Router",
+    "product_type": null,
+    "version": "1.0.4.208179",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7450_1.0.4.208179_prod.img",
+    "release_date": "18.10.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA7500 Max-Stream\u2122 AC1900 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "3.0.1.207964",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7500v3_3.0.1.207964_prod.img",
+    "release_date": "13.09.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA7500 Max-Stream\u2122 AC1900 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "2.0.8.194281",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7500v2_2.0.8.194281_prod.img",
+    "release_date": "15.08.2019",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA7500 Max-Stream\u2122 AC1900 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "1.1.5.190349",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA7500_1.1.5.190349_prod.gpg.img",
+    "release_date": "29.08.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for US only) "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA7500 Max-Stream\u2122 AC1900 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "1.1.5.190349",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA7500_1.1.5.190349_prod.img",
+    "release_date": "29.08.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for other regions) "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA8100 - Dual-Band AC2600 WiFi 5 Router",
+    "product_type": null,
+    "version": "2.0.4.209758",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA8100_2.0.4.209758_prod.img",
+    "release_date": "24.01.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA8100 - Dual-Band AC2600 WiFi 5 Router",
+    "product_type": null,
+    "version": "1.0.3.204298",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA8100_1.0.3.204298_prod.img",
+    "release_date": "06.04.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware for StarHub"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA8300 - Tri-Band AC2200 WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.6.209797",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA8300_1.1.6.209797_prod.img",
+    "release_date": "28.02.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA8300 - Tri-Band AC2200 WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.6.209797",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA8300_1.1.6.209797_prod.img",
+    "release_date": "28.02.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA9200 AC3200 Tri-Band Wi-Fi Router",
+    "product_type": null,
+    "version": "1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9200_1.1.9.183676_prod.gpg.img",
+    "release_date": "06.10.2017",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for US)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA9200 AC3200 Tri-Band Wi-Fi Router",
+    "product_type": null,
+    "version": "1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9200_1.1.9.183676_prod.img",
+    "release_date": "06.10.2017",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for Other Regions)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA9200 AC3200 Tri-Band Wi-Fi Router",
+    "product_type": null,
+    "version": "1.1.7",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9200_1.1.7.172584_prod.img",
+    "release_date": "25.05.2016",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA9300 Max-Stream AC4000 Tri-Band WiFi Router",
+    "product_type": null,
+    "version": "1.1.9.183697",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9300_1.1.9.183697_prod.img",
+    "release_date": "10.10.2017",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA9400 AC5000 Tri-Band MU-MIMO Wi-Fi Router",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9400_1.0.3.181249_prod.gpg.img",
+    "release_date": "29.06.2017",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (For US only)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "EA9400 AC5000 Tri-Band MU-MIMO Wi-Fi Router",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9400_1.0.3.181249_prod.img",
+    "release_date": "29.06.2017",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (For Other Regions)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA9500 Max-Stream\u2122 AC5400 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "2.1.1.186574",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9500v2_EA9500S_2.1.1.186574_prod.img",
+    "release_date": [
+      "Ver. 2.1.1.186574",
+      "Latest Date: 3/9/2018",
+      "Download 42.3 MB",
+      "",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA9500 Max-Stream\u2122 AC5400 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "1.1.9.210876",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA9500_1.1.9.210876_prod.gpg.img",
+    "release_date": [
+      "Ver. 1.1.9.210876",
+      "Latest Date: 9/1/2022",
+      "Download 20.4 MB",
+      "",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA9500 Max-Stream\u2122 AC5400 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "1.1.9.210876",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA9500_1.1.9.210876_prod.gpg.img",
+    "release_date": [
+      "Ver. 1.1.9.210876",
+      "Latest Date: 9/1/2022",
+      "Download 20.4 MB",
+      "",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LAPAC1200C Business AC1200 Dual-Band Access Point",
+    "product_type": null,
+    "version": "3.5.0",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1200C_3.5.0_Customer_Release_Note.txt",
+    "release_date": "30.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LAPAC1200C Business AC1200 Dual-Band Access Point",
+    "product_type": null,
+    "version": "1.0.01.000",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_LAPAC1200C_LAPAC1750C_1.0.01.000_prod.gpg.img",
+    "release_date": "30.08.2019",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business Cloud Managed AC1300 WiFi 5 Indoor Wireless Access Point TAA Compliant LAPAC1300C",
+    "product_type": null,
+    "version": "3.5.0",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1300CV1_3.5.0_Customer_Release_Note.txt",
+    "release_date": "30.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business Cloud Managed AC1300 WiFi 5 Outdoor Wireless Access Point TAA Compliant LAPAC1300CE",
+    "product_type": null,
+    "version": "3.5.0",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1300CEv1_3.5.0_Customer_Release_Note.txt",
+    "release_date": "30.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Cloud Managed AC1300 WiFi 5 In-Wall Wireless Access Point TAA Compliant LAPAC1300CW",
+    "product_type": null,
+    "version": "3.5.0",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1300CWv1_3.5.0_Customer_Release_Note.txt",
+    "release_date": "30.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LAPAC1750C Business AC1750 Dual-Band Cloud Wireless Access Point",
+    "product_type": null,
+    "version": "3.5.0",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1750C_3.5.0_Customer_Release_Note.txt",
+    "release_date": "30.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LAPAC1750C Business AC1750 Dual-Band Cloud Wireless Access Point",
+    "product_type": null,
+    "version": "1.0.01.000",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_LAPAC1200C_LAPAC1750C_1.0.01.000_prod.gpg.img",
+    "release_date": "30.08.2019",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LAPAC1750PRO Business AC1750 Pro Dual-Band Access Point",
+    "product_type": null,
+    "version": "1.0.8.001",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_LAPAC1750PRO_1.0.8.build.001.gpg.tar",
+    "release_date": "27.02.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LAPAC1750PRO Business AC1750 Pro Dual-Band Access Point",
+    "product_type": null,
+    "version": "1.0.7.007",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_LAPAC1750PRO_1.0.7.build.007.tar",
+    "release_date": "26.08.2016",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys LAPAC2600 Business Pro Series Wireless-AC Dual-Band Wave 2 MU-MIMO Access Point",
+    "product_type": null,
+    "version": "1.0.04.001",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_LAPAC2600_1.0.04.001.gpg.img",
+    "release_date": "21.12.2017",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LAPAC2600C Business AC2600 Dual-Band Cloud AC Wave 2 Wireless Access Point",
+    "product_type": null,
+    "version": "3.5.0",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC2600C_3.5.0_Customer_Release_Note.txt",
+    "release_date": "30.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LAPAC2600C Business AC2600 Dual-Band Cloud AC Wave 2 Wireless Access Point",
+    "product_type": null,
+    "version": "1.0.00.003",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_LAPAC2600C_1.0.00.003_prod.gpg.img",
+    "release_date": "20.03.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Cloud Managed AX3600 WiFi 6 Indoor Wireless Access Point TAA Compliant LAPAX3600C",
+    "product_type": null,
+    "version": "3.10.2",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAX3600CV1_3.10.2_Customer_Release_Note.txt",
+    "release_date": "24.10.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Outdoor Bullet Camera 1080p 3MP Night Vision LCAB03VLNOD for Business",
+    "product_type": null,
+    "version": "1.0.1.05",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/LCAB03VLNOD_1.0.1.05_FW.bin",
+    "release_date": "05.05.2015",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Indoor Dome Camera 1080p 3MP Night Vision LCAD03FLN for Business",
+    "product_type": null,
+    "version": "1.0.1.05",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/LCAD03FLN_1.0.1.05_FW.bin",
+    "release_date": "05.05.2015",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Outdoor Dome Camera 1080p 3MP Night Vision LCAD03VLNOD for Business",
+    "product_type": null,
+    "version": "1.0.1.05",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/LCAD03VLNOD_1.0.1.05_FW.bin",
+    "release_date": "05.05.2015",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Indoor/Outdoor 360 Mini-Dome Camera 1080p 3MP Low Light Vision LCAM0336OD for Business",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/LCAM0336OD_1.0.1.05_FW.bin",
+    "release_date": "05.05.2015",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business LGS308MP PoE+ Smart 8 Port Gigabit Network Switch (130W)",
+    "product_type": null,
+    "version": "1.1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
+    "release_date": [
+      "Ver. 1.1.1.9",
+      "Latest Date: 05/22/2018",
+      "Download 6.8 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LGS308P 8-Port Business Smart Gigabit PoE+ Switch",
+    "product_type": null,
+    "version": "1.1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
+    "release_date": [
+      "Ver. 1.1.1.9",
+      "Latest Date: 05/22/2018",
+      "Download 6.8 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "8-Port Managed Gigabit Ethernet Switch with 2 1G SFP Uplinks TAA Compliant LGS310C",
+    "product_type": null,
+    "version": "1.01.02.02",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS310MPC-LGS310C_v1.01.02.02.imag",
+    "release_date": "02.06.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "8-Port Managed Gigabit PoE+ Switch with 2 1G SFP Uplinks 110W TAA Compliant (LGS310MPC)",
+    "product_type": null,
+    "version": "1.01.02.02",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS310MPC-LGS310C_v1.01.02.02.imag",
+    "release_date": "02.06.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business LGS318 16-Port Gigabit Smart Managed Switch + 2x Gigabit SFP/RJ45 Combo Ports",
+    "product_type": null,
+    "version": "1.1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
+    "release_date": [
+      "Ver. 1.1.1.9",
+      "Latest Date: 05/22/2018",
+      "Download 6.8 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business LGS318P 16-Port Gigabit PoE+ (125W) Smart Managed Switch + 2x Gigabit SFP/RJ45 Combo Ports",
+    "product_type": null,
+    "version": "1.1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
+    "release_date": [
+      "Ver. 1.1.1.9",
+      "Latest Date: 05/22/2018",
+      "Download 6.8 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Gigabit Smart Managed",
+    "product_type": null,
+    "version": "1.1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
+    "release_date": [
+      "Ver. 1.1.1.9",
+      "Latest Date: 05/22/2018",
+      "Download 6.8 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business LGS326MP PoE+ Smart 24 Port Gigabit Network Switch + 2X Gigabit SFP/RJ45 Combo Ports (384W)",
+    "product_type": null,
+    "version": "1.1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
+    "release_date": [
+      "Ver. 1.1.1.9",
+      "Latest Date: 05/22/2018",
+      "Download 6.8 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business LGS326P 24-Port Gigabit PoE+ (192W) Smart Managed Switch + 2x Gigabit SFP/RJ45 Combo Ports",
+    "product_type": null,
+    "version": "1.1.1.9",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
+    "release_date": [
+      "Ver. 1.1.1.9",
+      "Latest Date: 05/22/2018",
+      "Download 6.8 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "24-Port Managed Gigabit Ethernet Switch with 4 10G SFP+ Uplinks LGS328C",
+    "product_type": null,
+    "version": "1.01.01.02",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328C-LGS352C_v1.01.01.02.imag",
+    "release_date": "21.03.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "24-Port Managed Gigabit PoE+ Switch with 4 10G SFP+ Uplinks 410W TAA Compliant LGS328MPC",
+    "product_type": null,
+    "version": "1.01.01.02",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328MPC-LGS352MPC_v1.01.01.02.imag",
+    "release_date": "21.03.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "24-Port Managed Gigabit PoE+ Switch 250W with 4 1G SFP Uplinks TAA Compliant LGS328PC",
+    "product_type": null,
+    "version": "1.01.02.02",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328PC_v1.01.02.02.imag",
+    "release_date": "02.06.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "48-Port Managed Gigabit Ethernet Switch with 4 10G SFP+ Uplinks LGS352C",
+    "product_type": null,
+    "version": "1.01.01.02",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328C-LGS352C_v1.01.01.02.imag",
+    "release_date": "21.03.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "48-Port Managed Gigabit PoE+ Switch with 4 10G SFP+ Uplinks 740W TAA Compliant LGS352MPC",
+    "product_type": null,
+    "version": "1.01.01.02",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328MPC-LGS352MPC_v1.01.01.02.imag",
+    "release_date": "21.03.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business LGS528 24-Port Gigabit Managed Switch + 2x Gigabit Ethernet + 2x Gigabit SFP/RJ45 Combo Ports",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS500-11029.ros",
+    "release_date": "10.06.2019",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business LGS528P 24-Port Gigabit PoE+ (192W) Managed Switch + 2x Gigabit Ethernet + 2x Gigabit SFP/RJ45 Combo Ports",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS500-11029.ros",
+    "release_date": "10.06.2019",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Business LGS552 48-Port Gigabit Managed Switch + 2x Gigabit SFP/RJ45 Combo Ports + 2x 10G SFP+ Ports",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS500-11029.ros",
+    "release_date": "10.06.2019",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Network Video Recorder (NVR) 2-Bay LNR0208C for Business",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224703272375/LNR0208C_1.0.01.04_082014.bin",
+    "release_date": "30.10.2014",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LRT214 Business Gigabit VPN Router",
+    "product_type": null,
+    "version": "1.0.7.06",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LRT2x4_v1.0.7.06_20201016.bin",
+    "release_date": "18.03.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "LRT224 Dual WAN Business Gigabit VPN Router",
+    "product_type": null,
+    "version": "1.0.7.06",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/LRT2x4_v1.0.7.06_20201016.bin",
+    "release_date": "18.03.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.5.210166",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR2000_1.1.5.210166_prod.img",
+    "release_date": "12.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR20EC - Dual-Band Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.5.210166",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR2000_1.1.5.210166_prod.img",
+    "release_date": "12.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR5500 - Dual-Band AX5400 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.2.209598",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR5500_1.1.2.209598_prod.img",
+    "release_date": "17.12.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR6350 - Dual-Band AC1300 Mesh WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.3.210129",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR6350_1.1.3.210129_prod.img",
+    "release_date": "19.05.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Mesh WiFi 6 Router (AX1500)",
+    "product_type": null,
+    "version": "1.1.7.209317",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7350_1.1.7.209317_prod.img",
+    "release_date": "21.12.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Mesh WiFi 6 Router (AX1800)",
+    "product_type": null,
+    "version": "1.1.7.209317",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7350_1.1.7.209317_prod.img",
+    "release_date": "21.12.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band AX1500 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.7.209317",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7350_1.1.7.209317_prod.img",
+    "release_date": "21.12.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR7350 - Dual-Band AX1800 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.7.209317",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7350_1.1.7.209317_prod.img",
+    "release_date": "21.12.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR7500 - Tri-Band AXE6600 Mesh WiFi 6E Router",
+    "product_type": null,
+    "version": "1.1.11.211424",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7500_1.1.11.211424_prod.img",
+    "release_date": "21.10.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Hydra Pro 6E: Tri-Band Mesh WiFi 6E Router",
+    "product_type": null,
+    "version": "1.1.11.211424",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7500_1.1.11.211424_prod.img",
+    "release_date": "21.10.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR8300 - Tri-Band AC2200 Mesh WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.10.210186",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR8300_1.1.10.210186_prod.img",
+    "release_date": "19.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR8300 - Tri-Band AC2200 Mesh WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.10.210186",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR8300_1.1.10.210186_prod.img",
+    "release_date": "19.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band AC3000 Mesh WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.3.210125",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9000_1.1.3.210125_prod.img",
+    "release_date": "06.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR9600 - Dual-Band AX6000 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "2.0.6.206937",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9600_2.0.6.206937_prod.img",
+    "release_date": "23.06.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MR9600 - Dual-Band AX6000 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.0.4.205530",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9600_1.0.4.205530_prod.img",
+    "release_date": "22.04.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Mesh WiFi 6 Router (AX6000)",
+    "product_type": null,
+    "version": "2.0.6.206937",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9600_2.0.6.206937_prod.img",
+    "release_date": "23.06.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Mesh WiFi 6 Router (AX6000)",
+    "product_type": null,
+    "version": "1.0.4.205530",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9600_1.0.4.205530_prod.img",
+    "release_date": "22.04.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX10600 - Tri-Band AX5300 Mesh WiFi 6 System 2-Pack",
+    "product_type": null,
+    "version": "1.1.12.210066",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5300_1.1.12.210066_prod.img",
+    "release_date": "14.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX12600 - Tri-Band AX4200 Mesh WiFi 6 System 3-Pack",
+    "product_type": null,
+    "version": "2.0.6.210829",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_2.0.6.210829_prod.img",
+    "release_date": "14.07.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX12600 - Tri-Band AX4200 Mesh WiFi 6 System 3-Pack",
+    "product_type": null,
+    "version": "1.0.13.210200",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_1.0.13.210200_prod.img",
+    "release_date": "14.09.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX12600 - Tri-Band AX4200 Mesh WiFi 6 System 3-Pack",
+    "product_type": null,
+    "version": "1.0.10.210447",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX42SH_1.0.10.210447_prod.img",
+    "release_date": "01.08.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware upgrade for StarHub routers   "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX2001 - Dual-Band Mesh WiFi 6 System, 1-Pack",
+    "product_type": null,
+    "version": "1.1.7.210469",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000_1.1.7.210469_prod.img",
+    "release_date": "29.06.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX2001 - Dual-Band Mesh WiFi 6 System, 1-Pack",
+    "product_type": null,
+    "version": "1.1.7.211289",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000SH_1.1.7.211289_prod.img",
+    "release_date": "26.10.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware upgrade for StarHub routers   "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX2002 - Dual-Band Mesh WiFi 6 System, 2-Pack",
+    "product_type": null,
+    "version": "1.1.7.210469",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000_1.1.7.210469_prod.img",
+    "release_date": "29.06.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX2002 - Dual-Band Mesh WiFi 6 System, 2-Pack",
+    "product_type": null,
+    "version": "1.1.7.211289",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000SH_1.1.7.211289_prod.img",
+    "release_date": "26.10.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware upgrade for StarHub routers   "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX2003 - Dual-Band Mesh WiFi 6 System, 3-Pack",
+    "product_type": null,
+    "version": "1.1.7.210469",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000_1.1.7.210469_prod.img",
+    "release_date": "29.06.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX2003 - Dual-Band Mesh WiFi 6 System, 3-Pack",
+    "product_type": null,
+    "version": "1.1.7.211289",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000SH_1.1.7.211289_prod.img",
+    "release_date": "26.10.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware upgrade for StarHub routers   "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX4200 - Tri-Band AX4200 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "2.0.6.210829",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_2.0.6.210829_prod.img",
+    "release_date": "14.07.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX4200 - Tri-Band AX4200 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.0.13.210200",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_1.0.13.210200_prod.img",
+    "release_date": "14.09.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX4200 - Tri-Band AX4200 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.0.10.210447",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX42SH_1.0.10.210447_prod.img",
+    "release_date": "01.08.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware upgrade for StarHub routers   "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "HomeWRK for Business System, 1-Pack",
+    "product_type": null,
+    "version": "3.10.2",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/MX4300V1_3.10.2_Customer_Release_Note.txt",
+    "release_date": "18.10.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "HomeWRK for Business System, 2-Pack",
+    "product_type": null,
+    "version": "3.10.2",
+    "download_link": "https://downloads.linksys.com/support/assets/releasenotes/MX4300V1_3.10.2_Customer_Release_Note.txt",
+    "release_date": "18.10.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX5300 - Tri-Band AX5300 Mesh WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.12.210066",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5300_1.1.12.210066_prod.img",
+    "release_date": "14.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys MX5330 Velop Whole Home System",
+    "product_type": null,
+    "version": "1.1.12.210066",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5300_1.1.12.210066_prod.img",
+    "release_date": "14.04.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX5501 - Dual-Band AX5400 Mesh WiFi 6 Router 1-Pack",
+    "product_type": null,
+    "version": "1.1.5.209977",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5500_1.1.5.209977_prod.img",
+    "release_date": "07.03.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX5502 - Dual-Band AX5400 Mesh WiFi 6 System 2-Pack",
+    "product_type": null,
+    "version": "1.1.5.209977",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5500_1.1.5.209977_prod.img",
+    "release_date": "07.03.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX5503 - Dual-Band AX5400 Mesh WiFi 6 System 3-Pack",
+    "product_type": null,
+    "version": "1.1.5.209977",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5500_1.1.5.209977_prod.img",
+    "release_date": "07.03.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Atlas Pro 6: Dual-Band Mesh WiFi 6 System, 3-Pack",
+    "product_type": null,
+    "version": "1.1.5.209977",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5500_1.1.5.209977_prod.img",
+    "release_date": "07.03.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band AX4000 Mesh WiFi 6 System 2-Pack",
+    "product_type": null,
+    "version": "2.0.6.210829",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_2.0.6.210829_prod.img",
+    "release_date": "14.07.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band AX4000 Mesh WiFi 6 System 2-Pack",
+    "product_type": null,
+    "version": "1.0.13.210200",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_1.0.13.210200_prod.img",
+    "release_date": "14.09.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band AX4000 Mesh WiFi 6 System 2-Pack",
+    "product_type": null,
+    "version": "1.0.10.210447",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX42SH_1.0.10.210447_prod.img",
+    "release_date": "01.08.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware upgrade for StarHub routers   "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band AX4200 Mesh WiFi 6 System 2-Pack",
+    "product_type": null,
+    "version": "2.0.6.210829",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_2.0.6.210829_prod.img",
+    "release_date": "14.07.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band AX4200 Mesh WiFi 6 System 2-Pack",
+    "product_type": null,
+    "version": "1.0.13.210200",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_1.0.13.210200_prod.img",
+    "release_date": "14.09.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band AX4200 Mesh WiFi 6 System 2-Pack",
+    "product_type": null,
+    "version": "1.0.10.210447",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX42SH_1.0.10.210447_prod.img",
+    "release_date": "01.08.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware upgrade for StarHub routers   "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX8501 - Tri-Band AXE8400 Mesh WiFi 6E Router",
+    "product_type": null,
+    "version": "1.0.11.208937",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX8500_1.0.11.208937_prod.img",
+    "release_date": "03.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX8502 - Tri-Band AXE8400 Mesh WiFi 6E System 2-Pack",
+    "product_type": null,
+    "version": "1.0.11.208937",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX8500_1.0.11.208937_prod.img",
+    "release_date": "03.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "MX8503 - Tri-Band AXE8400 Mesh WiFi 6E System 3-Pack",
+    "product_type": null,
+    "version": "1.0.11.208937",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX8500_1.0.11.208937_prod.img",
+    "release_date": "03.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE1000 Wireless Range Extender N300",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE1000v2_v2.0.04.001_20180227.bin",
+    "release_date": "11.05.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE1000 Wireless Range Extender N300",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224668719651/FW_RE1000_1.0.02.001_US_20120214_SHIPPING.bin",
+    "release_date": "13.02.2012",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE1000 Wireless Range Extender N300",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224668719651/FW_RE1000_1.0.02.001_US_20120214_SHIPPING.bin",
+    "release_date": "13.02.2012",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE2000 N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE2000v2_v2.0.01.005_20180321.bin",
+    "release_date": "11.05.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE2000 N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE2000_v1.0.03.001_20180205.bin",
+    "release_date": "11.05.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE3000W N300 WiFi Extender",
+    "product_type": null,
+    "version": "2.0.05.001",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE3000Wv2_v2.0.05.001_20200226.bin",
+    "release_date": [
+      "Ver. 2.0.05.001",
+      "Latest Date: 3/11/2020",
+      "Download 3.5 MB"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE3000W N300 WiFi Extender",
+    "product_type": null,
+    "version": "1.0.01.001",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE3000W_v1.0.01.001_20180306.bin",
+    "release_date": [
+      "Ver. 1.0.01.001",
+      "Latest Date: 05/04/2018",
+      "Download 3.3 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE4000W N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.01.001",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4000W_v1.0.01.001_20180321.bin",
+    "release_date": [
+      "Ver. 1.0.01.001",
+      "Latest Date: 5/11/2018",
+      "Download 3.2 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE4100W N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.03.002",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.03.002_20171228.gpg.bin",
+    "release_date": "13.03.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE4100W N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.01.009",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.01.009_20160304.bin",
+    "release_date": "21.03.2016",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE4100W N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.03.002",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.03.002_20171228.bin",
+    "release_date": "13.03.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE4100W N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.03.002",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.03.002_20171228.gpg.bin",
+    "release_date": "13.03.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE4100W N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.01.009",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.01.009_20160304.bin",
+    "release_date": "21.03.2016",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE4100W N600 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.03.002",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.03.002_20171228.bin",
+    "release_date": "13.03.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6250 AC750 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.04.001",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6250_v1.0.04.001_20211028.gpg.bin",
+    "release_date": "03.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6300 AC750 BOOST WiFi Extender",
+    "product_type": null,
+    "version": "2.0.05.115",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6300_2.0.05.115_prod.img",
+    "release_date": "30.08.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6300 AC750 BOOST WiFi Extender",
+    "product_type": null,
+    "version": "1.2.07.001",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6300_RE6400_v1.2.07.001_20210917.gpg.bin",
+    "release_date": "13.10.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6350 AC1200 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.04.001",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6350_v1.0.04.001_20211028.gpg.bin",
+    "release_date": "03.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6400 AC1200 BOOST EX WiFi Extender",
+    "product_type": null,
+    "version": "2.0.05.128",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6400_2.0.05.128_prod.img",
+    "release_date": "26.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6400 AC1200 BOOST EX WiFi Extender",
+    "product_type": null,
+    "version": "1.2.07.001",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6300_RE6400_v1.2.07.001_20210917.gpg.bin",
+    "release_date": "13.10.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6500 AC1200 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.013.001",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6500_v1.0.013.001_20210924.gpg.bin",
+    "release_date": "19.10.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6500 AC1200 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.05.003",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE6500_v1.0.05.003_20160305.bin",
+    "release_date": "29.04.2016",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6700 AC1200 AMPLIFY Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.2.07.001",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6700_v1.2.07.001_20210917.gpg.bin",
+    "release_date": "12.10.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6800 AC1750 WiFi Extender",
+    "product_type": null,
+    "version": "1.1.05.003",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6800_v1.1.05.003_20211214.gpg.bin",
+    "release_date": "29.12.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE7000 Max-Stream AC1900+ WiFi Extender",
+    "product_type": null,
+    "version": "2.0.15",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/RE7000v2_PROD_FW_v2.0.15_211230_1012.bin",
+    "release_date": "30.12.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE7000 Max-Stream AC1900+ WiFi Extender",
+    "product_type": null,
+    "version": "1.1.05.003",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE7000_v1.1.05.003_20211214.gpg.bin",
+    "release_date": "29.12.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band WiFi 6 Range Extender (AX1800)",
+    "product_type": null,
+    "version": "1.0.04.246",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE7350_RE7310_1.0.04.246_prod.bin",
+    "release_date": "14.02.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band WiFi 6 Range Extender (AX1800)",
+    "product_type": null,
+    "version": "1.0.04.246",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE7350_RE7310_1.0.04.246_prod.bin",
+    "release_date": "14.02.2022",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE9000 MU-MIMO WiFi Extender",
+    "product_type": null,
+    "version": "1.0.04.002",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE9000_v1.0.04.002_20211108.gpg.bin",
+    "release_date": "19.11.2021",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Wireless Range Extender",
+    "product_type": null,
+    "version": "1.0.00.006",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4000W_v1.0.00.006_20140402,0.bin",
+    "release_date": [
+      "Ver. 1.0.00.006",
+      "Latest Date: 04/02/2014",
+      "Download 3.2 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Intelligent Mesh WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.13.202617",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
+    "release_date": "18.09.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Intelligent Mesh WiFi 5 Router (Black)",
+    "product_type": null,
+    "version": "1.1.13.202617",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
+    "release_date": "18.09.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Intelligent Mesh WiFi 5 System 2-Pack",
+    "product_type": null,
+    "version": "1.1.13.202617",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
+    "release_date": "18.09.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Intelligent Mesh WiFi 5 System 3-Pack",
+    "product_type": null,
+    "version": "1.1.13.202617",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
+    "release_date": "18.09.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band Intelligent Mesh WiFi 5 System 3-Pack (Black)",
+    "product_type": null,
+    "version": "1.1.13.202617",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
+    "release_date": "18.09.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Velop Intelligent Mesh WiFi System, Tri-Band, 3-Pack White (AC4600)",
+    "product_type": null,
+    "version": "2.1.19.209783",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
+    "release_date": [
+      "Ver. 2.1.19.209783",
+      "Latest Date: 6/20/2022",
+      "Download 57.4 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Velop Intelligent Mesh WiFi System, Tri-Band, 3-Pack White (AC4600)",
+    "product_type": null,
+    "version": "1.1.19.209880",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
+    "release_date": [
+      "Ver. 1.1.19.209880",
+      "Latest Date: 6/20/2022",
+      "Download 122 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Wireless-N Access Point",
+    "product_type": null,
+    "version": "1.0.06.001",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WAP300N_v1.0.06.001_20180126.gpg.bin",
+    "release_date": [
+      "Ver. 1.0.06.001",
+      "Latest Date: 5/2/2018",
+      "Download 5.2 MB"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Wireless-N Access Point",
+    "product_type": null,
+    "version": "1.0.04.005",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WAP300N_v1.0.04.005_20160310.bin",
+    "release_date": [
+      "Ver. 1.0.04.005",
+      "Latest Date: 3/10/2016",
+      "Download 5.3 MB"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0101 - Dual-Band Intelligent Mesh WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.13.202617",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
+    "release_date": "18.09.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Velop Mesh WiFi Extender",
+    "product_type": null,
+    "version": "1.1.13.202795",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01P_1.1.13.202795_prod.img",
+    "release_date": "21.10.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0102 - Dual-Band Intelligent Mesh WiFi 5 System 2-Pack",
+    "product_type": null,
+    "version": "1.1.13.202617",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
+    "release_date": "18.09.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0103 - Dual-Band Intelligent Mesh WiFi 5 System 3-Pack",
+    "product_type": null,
+    "version": "1.1.13.202617",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
+    "release_date": "18.09.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band & Dual-Band Intelligent Mesh WiFi 5 System",
+    "product_type": null,
+    "version": "2.1.19.209783",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
+    "release_date": [
+      "Ver. 2.1.19.209783",
+      "Latest Date: 6/20/2022",
+      "Download 57.4 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Tri-Band & Dual-Band Intelligent Mesh WiFi 5 System",
+    "product_type": null,
+    "version": "1.1.19.209880",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
+    "release_date": [
+      "Ver. 1.1.19.209880",
+      "Latest Date: 6/20/2022",
+      "Download 122 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Velop Intelligent Mesh WiFi System, Tri-Band, 3-Pack with Plug-Ins (AC4800)",
+    "product_type": null,
+    "version": "2.1.19.209783",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
+    "release_date": [
+      "Ver. 2.1.19.209783",
+      "Latest Date: 6/20/2022",
+      "Download 57.4 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Velop Intelligent Mesh WiFi System, Tri-Band, 3-Pack with Plug-Ins (AC4800)",
+    "product_type": null,
+    "version": "1.1.19.209880",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
+    "release_date": [
+      "Ver. 1.1.19.209880",
+      "Latest Date: 6/20/2022",
+      "Download 122 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0301 - Tri-Band Intelligent Mesh\u2122 WiFi 5 Router",
+    "product_type": null,
+    "version": "2.1.19.209783",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
+    "release_date": [
+      "Ver. 2.1.19.209783",
+      "Latest Date: 6/20/2022",
+      "Download 57.4 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0301 - Tri-Band Intelligent Mesh\u2122 WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.19.209880",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
+    "release_date": [
+      "Ver. 1.1.19.209880",
+      "Latest Date: 6/20/2022",
+      "Download 122 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0302 - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 2-Pack",
+    "product_type": null,
+    "version": "2.1.19.209783",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
+    "release_date": [
+      "Ver. 2.1.19.209783",
+      "Latest Date: 6/20/2022",
+      "Download 57.4 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0302 - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 2-Pack",
+    "product_type": null,
+    "version": "1.1.19.209880",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
+    "release_date": [
+      "Ver. 1.1.19.209880",
+      "Latest Date: 6/20/2022",
+      "Download 122 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0302B - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 2-Pack (Black)",
+    "product_type": null,
+    "version": "2.1.19.209783",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
+    "release_date": [
+      "Ver. 2.1.19.209783",
+      "Latest Date: 6/20/2022",
+      "Download 57.4 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0302B - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 2-Pack (Black)",
+    "product_type": null,
+    "version": "1.1.19.209880",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
+    "release_date": [
+      "Ver. 1.1.19.209880",
+      "Latest Date: 6/20/2022",
+      "Download 122 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0303 - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 3-Pack",
+    "product_type": null,
+    "version": "2.1.19.209783",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
+    "release_date": [
+      "Ver. 2.1.19.209783",
+      "Latest Date: 6/20/2022",
+      "Download 57.4 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0303 - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 3-Pack",
+    "product_type": null,
+    "version": "1.1.19.209880",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
+    "release_date": [
+      "Ver. 1.1.19.209880",
+      "Latest Date: 6/20/2022",
+      "Download 122 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0303B - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 3-Pack (Black)",
+    "product_type": null,
+    "version": "2.1.19.209783",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
+    "release_date": [
+      "Ver. 2.1.19.209783",
+      "Latest Date: 6/20/2022",
+      "Download 57.4 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WHW0303B - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 3-Pack (Black)",
+    "product_type": null,
+    "version": "1.1.19.209880",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
+    "release_date": [
+      "Ver. 1.1.19.209880",
+      "Latest Date: 6/20/2022",
+      "Download 122 MB",
+      "Release Notes"
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WRT1200AC AC1200 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "2.0.6.191786",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1200ACV2_2.0.6.191786_prod.img",
+    "release_date": "10.12.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WRT1200AC AC1200 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.0.5.187766",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1200AC_1.0.5.187766_prod.img",
+    "release_date": "01.05.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WRT1900AC AC1900 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "2.0.8.187766",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1900ACv2_2.0.8.187766_prod.img",
+    "release_date": "26.04.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WRT1900AC AC1900 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.1.10.187766",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1900AC_1.1.10.187766_prod.img",
+    "release_date": "12.04.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WRT1900ACS Dual-Band Wi-Fi Router with Ultra-Fast 1.6 GHz CPU",
+    "product_type": null,
+    "version": "2.0.3.201002",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WRT1900ACSV2_2.0.3.201002_prod.img",
+    "release_date": "01.05.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WRT1900ACS Dual-Band Wi-Fi Router with Ultra-Fast 1.6 GHz CPU",
+    "product_type": null,
+    "version": "1.0.3.187766",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1900ACS_1.0.3.187766_prod.img",
+    "release_date": "20.04.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WRT3200ACM AC3200 MU-MIMO Gigabit WiFi Router",
+    "product_type": null,
+    "version": "1.0.8.199531",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WRT3200ACM_1.0.8.199531_prod.img",
+    "release_date": "13.02.2020",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WRT32X AC3200 Dual-Band WiFi Gaming Router with Killer Prioritization Engine",
+    "product_type": null,
+    "version": "1.0.180404.58",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT32X_1.0.180404.58.img",
+    "release_date": "23.04.2018",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WRT54GL Wireless-G WiFi Router",
+    "product_type": null,
+    "version": "(build",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT54GL_4.30.18.006_ETSI_20160108.bin",
+    "release_date": [
+      "Ver.4.30.18 (build 6)",
+      "Latest Date: 01/22/2016",
+      "Download 3.4 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (EMEA Only)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WRT54GL Wireless-G WiFi Router",
+    "product_type": null,
+    "version": "(build",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT54GL_4.30.18.006_ETSI_20160108.bin",
+    "release_date": [
+      "Ver.4.30.18 (build 6)",
+      "Latest Date: 01/22/2016",
+      "Download 3.4 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (EMEA Only)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WUMC710 Wireless-AC Universal Media Connector",
+    "product_type": null,
+    "version": "1.0.02",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224694326986/FW_WUMC710_v1.0.02.03_20140625.bin",
+    "release_date": [
+      "Ver.1.0.02",
+      "Latest Date: 08/29/2013",
+      "Download 3.77 MB "
+    ],
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  }
+]

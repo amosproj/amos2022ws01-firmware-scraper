@@ -149,7 +149,6 @@ class FoscamScraper(Scraper):
         self._create_product_catalog()
 
         metadata = []
-        self.logger.important()
         self.logger.info(f'Iterate over product catalog and scrape metadata')
         for product, product_url in self.products_list:
             if len(metadata) > self.max_products:
