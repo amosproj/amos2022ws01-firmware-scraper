@@ -6,7 +6,6 @@ Core module for firmware scraper
 # Standard Libraries
 import json
 import os
-
 from urllib.request import urlopen
 
 from selenium import webdriver
@@ -15,8 +14,8 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 from src.db_connector import DBConnector
-from src.scheduler import check_vendors_to_update, update_vendor_schedule
 from src.logger import get_logger
+from src.scheduler import check_vendors_to_update, update_vendor_schedule
 
 # Vendor Modules
 from src.Vendors import *

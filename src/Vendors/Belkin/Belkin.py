@@ -1,5 +1,7 @@
 import time
+
 from selenium.webdriver.common.by import By
+
 from src.logger import *
 
 
@@ -11,6 +13,7 @@ class BelkinScraper:
         self.catalog: list[dict] = []
         self.logger = get_logger()
         self.max_products = max_products
+        self.user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.56 Safari/537.36"
 
     # TODO: handle missing firmware for some versions
     def connect_webdriver(self):
@@ -24,8 +27,7 @@ class BelkinScraper:
     def scrape_metadata(self) -> list[dict]:
         self.connect_webdriver()
         self.logger.important(start_scraping())
-        prod_list = self.driver.find_elements(
-            By.CSS_SELECTOR, "a[target='_blank']")
+        prod_list = self.driver.find_elements(By.CSS_SELECTOR, "a[target='_blank']")
         prod_list = [
             e for e in prod_list if e.get_attribute("pathname") == "/support-article"
         ]
@@ -40,8 +42,11 @@ class BelkinScraper:
             ad_bar = self.driver.find_elements(By.ID, "adroll_reject")
 
             if ad_bar and ad_bar_clicked == False:
-                ad_bar[0].click()
-                ad_bar_clicked = True
+                try:
+                    ad_bar[0].click()
+                    ad_bar_clicked = True
+                except Exception:
+                    self.logger.error(error)
 
             product_name = self.driver.find_element(
                 By.CLASS_NAME, "support-article__heading.h2.m-0"
@@ -56,13 +61,11 @@ class BelkinScraper:
 
             for i in range(len(version_list)):
 
-                version_list[i].click()
-
                 version = self.driver.find_elements(
                     By.CSS_SELECTOR, "div.article-accordian-content.collapse-me"
                 )
 
-                version = version[i].get_attribute("outerText").splitlines()[1]
+                version = version_list[i].get_attribute("outerText")
 
                 case_1 = self.driver.find_elements(
                     By.CSS_SELECTOR,
@@ -116,7 +119,6 @@ class BelkinScraper:
                 self.logger.info(
                     firmware_scraping_success(product_name + " " + version)
                 )
-                version_list[i].click()
 
             if len(self.catalog) >= self.max_products:
                 break
