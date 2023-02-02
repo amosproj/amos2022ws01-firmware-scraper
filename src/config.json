@@ -4,7 +4,7 @@
     "password": "null"
   },
   "download_dir": "./downloads",
-  "max_products": 3,
+  "max_products": 1000,
   "log_level": "DEBUG",
   "vendors": [
     {
@@ -19,7 +19,7 @@
     {
       "name": "AVM",
       "class_name": "AVMScraper",
-      "active": true,
+      "active": false,
       "interval": "0",
       "last_update": "2023-02-01",
       "next_update": "2023-02-01",
@@ -28,7 +28,7 @@
     {
       "name": "Belkin",
       "class_name": "BelkinScraper",
-      "active": false,
+      "active": true,
       "interval": "0",
       "last_update": "2023-01-31",
       "next_update": "2023-01-31",
