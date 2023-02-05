@@ -2,10 +2,6 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import StaleElementReferenceException
-from selenium.common.exceptions import ElementNotInteractableException
-from selenium.common.exceptions import ElementClickInterceptedException
 from src.Vendors.scraper import Scraper
 from src.logger import *
 
@@ -14,10 +10,7 @@ PRODUCT_PATH = "/global/en/products"
 MANUFACTURER = "Zyxel Networks"
 DOWNLOAD_URL = "https://www.zyxel.com/global/en/support/download"
 
-ignored_exceptions = (NoSuchElementException,
-                      StaleElementReferenceException,
-                      ElementNotInteractableException,
-                      ElementClickInterceptedException)
+ignored_exceptions = (Exception)
 
 
 class ZyxelScraper(Scraper):
@@ -30,7 +23,6 @@ class ZyxelScraper(Scraper):
     ):
         self.scrape_entry_url = scrape_entry_url
         self.name = "Zyxel"
-        self.__scrape_cnt = 0
         self.max_products = max_products
         self.headless = headless
         self.logger = get_logger()
@@ -41,71 +33,100 @@ class ZyxelScraper(Scraper):
     def __get_product_category_ulrs(self) -> list:
         category_urls = []
 
-        self.logger.info('Start Scrape -> Category URLs')
+        self.logger.debug('Start Scrape Category URLs')
 
         try:
             menu = self.driver.find_element(
-                By.ID, "block-product-category-mega-menu")
+                By.ID,
+                "block-product-category-mega-menu"
+            )
+
             wrapper = menu.find_elements(
-                By.CLASS_NAME, "product-category-mega-menu-item")
+                By.CLASS_NAME,
+                "product-category-mega-menu-item"
+            )
 
             for category in wrapper:
                 links = category.find_elements(By.TAG_NAME, "a")
-
                 for link in links:
                     if type(link.get_attribute("href")) == str:
                         if PRODUCT_PATH in link.get_attribute("href"):
                             category_urls.append(link.get_attribute("href"))
-        except Exception as e:
+        except Exception:
             self.logger.error(
-                'Abort Scraper. Failed to Scrape Category Urls -> ' + str(e))
+                'Abort Scraper. Failed to Scrape Category Urls'
+            )
             return []
 
-        self.logger.important('Successfully Scraped -> Category URLs -> '
-                              + str(len(category_urls))
-                              + " Categorys found")
+        self.logger.debug(
+            'Successfully Scraped -> Category URLs -> '
+            + str(len(category_urls))
+            + " Categorys found"
+        )
         return category_urls
+
+    def __load_more_products(self):
+        try:
+            while True:
+                more_btn = self.driver\
+                    .find_element(By.XPATH, '//li[@class="pager__item"]')\
+                    .find_element(By.CLASS_NAME, 'button')
+
+                more_btn.click()
+                time.sleep(2)
+        except Exception:
+            time.sleep(2)
+            pass
 
     def __get_products(self, category_urls: list):
         products = []
 
-        self.logger.info('Start Scrape -> Product URLs')
+        self.logger.debug('Start Scrape -> Product URLs')
 
         # get all products of each category
         for category_url in category_urls:
             try:
                 self.driver.get(category_url)
+                self.__load_more_products()
 
                 # get name of the category
                 cat_name = self.driver.find_element(
-                    By.CLASS_NAME, "category-name")
+                    By.CLASS_NAME,
+                    "category-name"
+                )
+
                 product_type = (cat_name.find_element(
-                    By.CLASS_NAME, "field")).get_attribute("innerHTML")
+                    By.CLASS_NAME,
+                    "field")
+                ).get_attribute("innerHTML")
 
-                # get element of table which contains all products of this category
+                # get element of table which contains  products of category
                 products_of_category = self.driver.find_elements(
-                    By.CLASS_NAME, "product-item-info")
+                    By.CLASS_NAME,
+                    "product-item-info"
+                )
 
-                self.logger.info('Start searching for Products -> (Category)'
-                                 + product_type)
-            except Exception as e:
-                self.logger\
-                    .error("Failed to get category url. Skip Category -> " + str(e))
+                self.logger.debug(
+                    'Start searching for Products in -> (Category)'
+                    + product_type
+                )
+            except Exception:
+                self.logger.warning(
+                    "Failed to get category url. Skip Category"
+                )
                 continue
 
             # loop through each product in category
             for product in products_of_category:
-
                 try:
                     # get product name
-                    product_name = (product.find_element(
-                        By.TAG_NAME, "h5")).get_attribute("innerHTML")
-                except Exception as e:
-                    self.logger\
-                        .error("Failed to Get Product. Skip product -> (Category)"
-                               + product_type
-                               + " -> "
-                               + str(e))
+                    product_name = (product.find_element(By.TAG_NAME, "h5"))\
+                        .get_attribute("innerHTML")
+                except Exception:
+                    self.logger.warning(
+                        "Failed to Get Product. Skip product in -> (Category)"
+                        + product_type
+                    )
                     continue
 
                 # dont insert again if product is already in list
@@ -129,39 +150,44 @@ class ZyxelScraper(Scraper):
                     }
                     products.append(firmware_item)
 
-        self.logger.info('Scrape individual Product of Product Series.')
+        self.logger.debug('Scrape individual Product of Product Series.')
+
         # get products of series
         ser = []
         for p in products:
             if "Series" in p["product_name"]:
                 try:
                     self.driver.get(
-                        "https://www.zyxel.com/global/en/support/download")
+                        "https://www.zyxel.com/global/en/support/download"
+                    )
+
                     element = self.driver.find_element(By.NAME, "model")
                     pname = p["product_name"].replace("Series", " ")
                     element.send_keys(pname)
                     element.send_keys(" ")
                     time.sleep(1)
+
                     suggestions = self.driver.find_elements(
-                        By.CLASS_NAME, "ui-menu-item")
-                except Exception as e:
-                    self.logger\
-                        .error("Failed to open suggestion window -> (Product)"
-                               + p["product_name"]
-                               + " -> "
-                               + str(e))
+                        By.CLASS_NAME,
+                        "ui-menu-item"
+                    )
+                except Exception:
+                    self.logger.warning(
+                        "Failed to open suggestion window -> (Product)"
+                        + p["product_name"]
+                    )
                     continue
 
                 for s in suggestions:
                     try:
                         new_name = s.find_element(
-                            By.CLASS_NAME, "autocomplete-suggestion-label").get_attribute("innerHTML")
-                    except Exception as e:
-                        self.logger\
-                            .error("Failed to get autocomplete suggestion, skip -> (Product in Series)"
-                                   + p["product_name"]
-                                   + " ->"
-                                   + str(e))
+                            By.CLASS_NAME, "autocomplete-suggestion-label"
+                        ).get_attribute("innerHTML")
+                    except Exception:
+                        self.logger.warning(
+                            "Failed to get autocomplete suggestion, skip -> "
+                            + p["product_name"]
+                        )
                         continue
 
                     firmware_item = {
@@ -179,11 +205,13 @@ class ZyxelScraper(Scraper):
                     ser.append(firmware_item)
 
         products = [i for i in products if not ("Series" in i['product_name'])]
-
         products = products + ser
 
-        self.logger.important('Scraped Category Product URLs. Products Found -> '
-                              + str(len(products)))
+        self.logger.debug(
+            'Scraped Category Product URLs. Products Found -> '
+            + str(len(products))
+        )
+
         return products
 
     """convert date to Year-Month-Day"""
@@ -226,46 +254,52 @@ class ZyxelScraper(Scraper):
     def __get_download_links(self, products: list):
         meta_data = []
 
-        self.logger.info('Start Scraping Firmware')
+        self.logger.debug('Start Scraping Firmware')
 
         for p in products:
             # type in product name in searchbar
             try:
                 self.driver.get(
-                    "https://www.zyxel.com/global/en/support/download")
+                    "https://www.zyxel.com/global/en/support/download"
+                )
+
                 element = self.driver.find_element(By.NAME, "model")
                 send_button = self.driver.find_element(
-                    By.ID, "edit-submit-product-list-by-model")
+                    By.ID,
+                    "edit-submit-product-list-by-model"
+                )
+
                 pname = p["product_name"]
                 ptype = p["product_type"]
                 element.send_keys(pname)
                 send_button.click()
 
                 table_elements = self.driver.find_elements(By.TAG_NAME, "tr")
-            except Exception as e:
-                self.logger\
-                    .error("Failed to Scrape Firmware. Skip -> (Product)"
-                           + p["product_name"]
-                           + " -> "
-                           + str(e))
+            except Exception:
+                self.logger.debug(
+                    "Failed to Scrape Firmware. Skip -> (Product)"
+                    + p["product_name"]
+                )
                 continue
+
+            time.sleep(1)
 
             # scrape metadata from table
             for element in table_elements:
+                time.sleep(1)
                 try:
                     val = element.find_elements(By.TAG_NAME, "td")
-                except Exception as e:
-                    self.logger.error(
-                        "Failed to Scrape Download Table Row. Skip Row -> (Product)"
+                except Exception:
+                    self.logger.debug(
+                        "Failed to Scrape Download Table Row. Skip Row -> "
                         + pname
-                        + " -> "
-                        + str(e))
+                    )
                     continue
 
-                # first read view-nothing-2-table-column to check if it is firmware or driver... if not skip
                 if len(val) == 0:
                     continue
-                if not "Driver" in val[1].text and not "Firmware" in val[1].text:
+
+                if "Driver" and "Firmware" not in val[1].text:
                     continue
 
                 firmware_item = {
@@ -288,53 +322,73 @@ class ZyxelScraper(Scraper):
                             pass
                         elif "view-nothing-2-table-column" in header:
                             pass
-                        elif "view-field-version-table-column" in header:  # version
+                        elif "view-field-version-table-column" in header:
                             firmware_item["version"] = con.text
-                        elif "view-nothing-1-table-column" in header:  # download link
+                        elif "view-nothing-1-table-column" in header:
                             tmp = con.find_element(
-                                By.CLASS_NAME, "modal-footer")
+                                By.CLASS_NAME,
+                                "modal-footer"
+                            )
+
                             firmware_item["download_link"] = tmp.find_element(
-                                By.TAG_NAME, "a").get_attribute("href")
+                                By.TAG_NAME,
+                                "a"
+                            ).get_attribute("href")
                         elif "view-nothing-table-column" in header:  # checksum
-                            tmp = con.find_element(
-                                By.CLASS_NAME, "modal-body").find_elements(By.TAG_NAME, "p")
-                            firmware_item["checksum_scraped"] = tmp[1].get_attribute(
-                                "innerHTML")
-                        elif "view-field-release-date-table-column" in header:  # release date
-                            firmware_item["release_date"] = self.__convert_date(
-                                con.text)
-                    except Exception as e:
-                        self.logger.error(
-                            "Failed to Scrape Firmware. Skip Firmware -> (Product)"
+                            try:
+                                tmp = con.find_element(
+                                    By.CLASS_NAME,
+                                    "modal-body"
+                                ).find_elements(By.TAG_NAME, "p")
+
+                                firmware_item["checksum_scraped"] = tmp[1]\
+                                    .get_attribute("innerHTML")
+                            except Exception:
+                                firmware_item["checksum_scraped"] = None
+                                self.logger.debug('Could not Find Checksum')
+                        elif "view-field-release-date-table-column" in header:
+                            firmware_item["release_date"] = self\
+                                .__convert_date(con.text)
+                    except Exception:
+                        self.logger.debug(
+                            "Failed to Scrape Firmware. Skip Firmware -> "
                             + pname
-                            + " -> "
-                            + str(e))
+                        )
                         continue
 
+                self.logger.info(
+                    firmware_scraping_success(
+                        f"{pname} {firmware_item['download_link']}"
+                    )
+                )
                 meta_data.append(firmware_item)
 
-        self.logger.important('Scraped Products -> (Total)'
-                              + str(len(products))
-                              + ' -> Found Firmware -> (Total)'
-                              + str(len(meta_data)))
+        self.logger.debug('Scraped Products -> (Total)'
+                          + str(len(products))
+                          + ' -> Found Firmware -> (Total)'
+                          + str(len(meta_data)))
         return meta_data
 
     def scrape_metadata(self) -> list:
-        self.logger.important('Start Scrape Vendor -> Zyxel')
-        self.logger.important(
-            'Scrape in Headless Mode Set -> ' + str(self.headless))
-        self.logger.important('Max Products Set-> ' + str(self.max_products))
+        self.logger.important(start_scraping())
+
+        self.logger.debug(
+            'Scrape in Headless Mode Set -> '
+            + str(self.headless)
+        )
+
+        self.logger.debug(
+            'Max Products Set-> '
+            + str(self.max_products)
+        )
 
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.important("Successfully accessed entry point URL -> "
-                                  + self.scrape_entry_url)
-        except Exception as e:
-            self.logger\
-                .error("Abort scraping. Could not access entry point URL -> "
-                       + self.scrape_entry_url
-                       + " -> "
-                       + str(e))
+            self.logger.important(
+                entry_point_url_success(self.scrape_entry_url)
+            )
+        except Exception:
+            self.logger.error(entry_point_url_failure(self.scrape_entry_url))
             self.driver.quit()
             return []
 
@@ -347,11 +401,25 @@ class ZyxelScraper(Scraper):
         meta_data = self.__get_download_links(products)
 
         self.driver.quit()
-        self.logger.info('Meta Data found -> ' + str(len(meta_data)))
-        self.logger.info('Finished Scraping Zyxel.')
+        self.logger.debug('Meta Data found -> ' + str(len(meta_data)))
+        self.logger.important(finish_scraping())
         return meta_data
 
 
 if __name__ == "__main__":
-    Scraper = ZyxelScraper(max_products=15, logger=None)
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    options = Options()
+    # options.add_argument("--headless")
+    # options.add_argument("--no-sandbox")
+    # options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--start-maximized")
+    options.add_argument("--window-size=1920,1080")
+
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()), options=options
+    )
+    Scraper = ZyxelScraper(driver=driver, headless=False)
     meta_data = Scraper.scrape_metadata()
