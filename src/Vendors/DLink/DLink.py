@@ -2,6 +2,7 @@ import time
 import json
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
 from src.Vendors.scraper import Scraper
 
@@ -296,9 +297,31 @@ class DLinkScraper(Scraper):
             if self.__scrape_cnt == self.max_products:
                 return
 
-    def download_link(self, links: list):
+    def download_firmware(self, links: list):
         try:
             self.driver.get(DOWNLOAD_URL)
+            TYPE_SELECTOR = '//select[@name="ModelCategory_home"]'
+            MODEL_SELECTOR = '//select[@name="ModelSno_home"]'
+
+            type_sel = self.driver.find_element(
+                By.XPATH,
+                TYPE_SELECTOR
+            )
+
+            model_sel = self.driver.find_element(
+                By.XPATH,
+                MODEL_SELECTOR
+            )
+
+            type_select = Select(type_sel)
+            type_select.select_by_visible_text('ANT24')
+
+            model_select = Select(model_sel)
+            model_select.select_by_visible_text('0501')
+
+            self.driver.execute_script("javascript:s1(document.form1)")
+            self.driver.execute_script("dwn('EFFGEIGEJH','1')")
+
             self.logger.important(firmware_url_success(DOWNLOAD_URL))
         except ignored_exceptions:
             self.logger.error(firmware_scraping_failure(DOWNLOAD_URL))
@@ -306,16 +329,19 @@ class DLinkScraper(Scraper):
             return []
 
         for link in links:
-            self.logger.debug("Download Firmware -> " + link["product_name"])
-            self.driver.execute_script(link["download_link"])
+            self.logger.info("Download Firmware -> " + link[1])
+            self.driver.execute_script(link[1])
 
     def scrape_metadata(self) -> list:
         meta_data = []
         self.__scrape_cnt = 0
-        
+
         self.logger.important(start_scraping())
         self.logger.debug('Headless -> ' + str(self.headless))
-        self.logger.debug('Max Products to Scrape -> ' + str(self.max_products))
+        self.logger.debug(
+            'Max Products to Scrape -> ' +
+            str(self.max_products)
+        )
 
         try:
             self.driver.get(self.scrape_entry_url)
@@ -329,10 +355,10 @@ class DLinkScraper(Scraper):
         self._loop_categorys()
 
         meta_data = self.__meta_data
-        
+
         self.logger.debug('Metadata Found -> ' + str(len(meta_data)))
         self.logger.important(finish_scraping())
-        
+
         self.__scrape_cnt = 0
         self.__meta_data = []
 
@@ -356,7 +382,7 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()), options=options
     )
-    
+
     Scraper = DLinkScraper(headless=False, max_products=50, driver=driver)
     meta_data = Scraper.scrape_metadata()
     with open("scraped_metadata/firmware_data_DLink.json", "w") as firmware_file:
