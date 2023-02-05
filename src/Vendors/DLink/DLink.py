@@ -4,19 +4,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from src.Vendors.scraper import Scraper
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import StaleElementReferenceException
-from selenium.common.exceptions import ElementNotInteractableException
-from selenium.common.exceptions import ElementClickInterceptedException
 
 from src.logger import *
 
 HOME_URL = "https://tsd.dlink.com.tw/"
+DOWNLOAD_URL = "https://tsd.dlink.com.tw/ddgo"
 MANUFACTURER = "DLink"
-ignored_exceptions = (NoSuchElementException,
-                      StaleElementReferenceException,
-                      ElementNotInteractableException,
-                      ElementClickInterceptedException)
+ignored_exceptions = (Exception)
 
 
 class DLinkScraper(Scraper):
@@ -43,7 +37,9 @@ class DLinkScraper(Scraper):
         sel_products = []
         try:
             sel_product_table = self.driver.find_element(
-                By.XPATH, SEL_PRODUCT_TABLE_XPATH)
+                By.XPATH,
+                SEL_PRODUCT_TABLE_XPATH
+            )
             sel_products = sel_product_table.find_elements(By.XPATH, './*')
         except ignored_exceptions:
             self.logger.error('Could not find Product Table')
@@ -56,7 +52,7 @@ class DLinkScraper(Scraper):
             time.sleep(1)
             sel_rows = self.driver.find_elements(By.ID, 'rsq')
         except ignored_exceptions:
-            self.logger.error('Failed to find Firmware Table')
+            self.logger.debug('Failed to find Firmware Table')
 
         return sel_rows
 
@@ -81,14 +77,17 @@ class DLinkScraper(Scraper):
 
         try:
             product_name = self.driver.find_element(
-                By.XPATH, SEL_HEADER_XPATH).get_attribute('innerHTML')
+                By.XPATH,
+                SEL_HEADER_XPATH
+            ).get_attribute('innerHTML')
 
             sel_table = self.driver.find_element(By.XPATH, SEL_TABLE_XPATH)
             sel_rows = sel_table.find_elements(By.XPATH, './*')
 
             if len(sel_rows) < 4:
-                self.logger.error(
-                    'Could not extract Metadata from Firmware Table')
+                self.logger.debug(
+                    'Could not extract Metadata from Firmware Table'
+                )
                 self.driver.execute_script("window.history.go(-1)")
                 return None
 
@@ -115,7 +114,7 @@ class DLinkScraper(Scraper):
                 firmware_item["download_link"] = download_links[0]\
                     .get_attribute('href')
             elif len(download_links) < 2:
-                self.logger.error("Could not find Download Link")
+                self.logger.warning("Could not find Download Link")
                 self.driver.execute_script("window.history.go(-1)")
                 return None
             else:
@@ -123,7 +122,9 @@ class DLinkScraper(Scraper):
                     .get_attribute('href')
 
         except ignored_exceptions:
-            self.logger.error('Could not extract Metadata from Firmware Table')
+            self.logger.warning(
+                'Could not extract Metadata from Firmware Table'
+            )
             self.driver.execute_script("window.history.go(-1)")
             return None
 
@@ -139,12 +140,14 @@ class DLinkScraper(Scraper):
             sel_rows = self.__get_firmware_rows()
 
             if len(sel_rows) != row_amt:
-                self.logger.error("Could not Get Firmware Rows, Wrong row amt")
+                self.logger.debug("Could not Get Firmware Rows, Wrong row amt")
                 continue
 
             try:
                 file_type = sel_rows[i].find_elements(
-                    By.XPATH, './*')[0].get_attribute('innerHTML')
+                    By.XPATH,
+                    './*'
+                )[0].get_attribute('innerHTML')
 
                 if file_type != 'Firmware':
                     continue
@@ -159,14 +162,21 @@ class DLinkScraper(Scraper):
                 self.__scrape_cnt = self.__scrape_cnt + 1
                 self.__meta_data.append(extracted_data)
 
+                self.logger.info(
+                    firmware_scraping_success(
+                        f"{extracted_data['product_name']} {extracted_data['download_link']}"
+                    )
+                )
+
                 if self.__scrape_cnt == self.max_products:
-                    self.logger.info(
+                    self.logger.debug(
                         'Successfully Scraped Max Products Firmware Amount -> '
-                        + str(self.max_products))
+                        + str(self.max_products)
+                    )
                     self.driver.refresh()
                     return
             except ignored_exceptions:
-                self.logger.error('Could not click on selected Firmware')
+                self.logger.debug('Could not click on selected Firmware')
                 continue
 
         self.driver.execute_script("window.history.go(-1)")
@@ -176,14 +186,19 @@ class DLinkScraper(Scraper):
 
         try:
             sel_first_row = sel_products[0].find_element(
-                By.CLASS_NAME, 'pord_3')
+                By.CLASS_NAME,
+                'pord_3'
+            )
 
-            if sel_first_row.find_element(By.TAG_NAME, 'a').get_attribute('title') == 'N/A':
-                self.logger.info('Products in (Category)' +
-                                 category_name + ' Found -> 0')
+            if sel_first_row.find_element(By.TAG_NAME, 'a')\
+                    .get_attribute('title') == 'N/A':
+                self.logger.debug(
+                    'Products in (Category)' +
+                    category_name + ' Found -> 0'
+                )
                 return
         except ignored_exceptions:
-            self.logger.error('Could not analyze Products in Category')
+            self.logger.warning('Could not analyze Products in Category')
             return
 
         product_amt = len(sel_products)
@@ -197,7 +212,7 @@ class DLinkScraper(Scraper):
                     .find_element(By.TAG_NAME, 'a')\
                     .click()
             except ignored_exceptions:
-                self.logger.error('Could not Click on Product')
+                self.logger.warning('Could not Click on Product')
                 continue
 
             self._scrape_product_firmware(category_name)
@@ -212,29 +227,37 @@ class DLinkScraper(Scraper):
             sel_next_xpath = '//a[@href="javascript:go(\'N\')"]'
             try:
                 self.driver.refresh()
-                next_page = self.driver\
-                    .find_element(By.XPATH, sel_next_xpath)
+                time.sleep(2)
+                next_page = self.driver.find_element(
+                    By.XPATH,
+                    sel_next_xpath
+                )
 
                 next_page.click()
                 time.sleep(2)
                 self._loop_products(category_name)
-                time.sleep(1)
+                time.sleep(2)
             except ignored_exceptions:
-                self.logger.info(
-                    "Scraped all Products from Category -> " + category_name)
+                self.logger.debug(
+                    "Scraped all Products from Category -> "
+                    + category_name
+                )
 
         self.driver.execute_script("window.history.go(-1)")
+        time.sleep(2)
 
     def __get_category_selectors(self) -> list:
         SEL_CAT_TABLE_XPATH = '/html/body/form/table[3]/tbody/tr/td[1]/table[2]/tbody'
 
         try:
             sel_cat_table = self.driver.find_element(
-                By.XPATH, SEL_CAT_TABLE_XPATH)
+                By.XPATH,
+                SEL_CAT_TABLE_XPATH
+            )
 
             sel_cat_selectors = sel_cat_table.find_elements(By.TAG_NAME, 'tr')
         except ignored_exceptions:
-            self.logger.error('Could not find Category Table')
+            self.logger.warning('Could not find Category Table')
             return []
 
         return sel_cat_selectors
@@ -243,14 +266,18 @@ class DLinkScraper(Scraper):
         sel_cat_selectors = self.__get_category_selectors()
         cat_amt = len(sel_cat_selectors)
 
-        self.logger.info("Categorys Found -> " +
-                         str(len(sel_cat_selectors)))
+        self.logger.debug(
+            "Categorys Found -> " +
+            str(len(sel_cat_selectors))
+        )
 
         for i in range(1, cat_amt-1):
             try:
                 sel_cat_selectors = self.__get_category_selectors()
                 sel_product_selector = sel_cat_selectors[i].find_element(
-                    By.TAG_NAME, 'a')
+                    By.TAG_NAME,
+                    'a'
+                )
 
                 category_name = sel_product_selector.get_attribute('innerHTML')
                 time.sleep(2)
@@ -259,9 +286,9 @@ class DLinkScraper(Scraper):
                     EC.element_to_be_clickable(sel_product_selector))\
                     .click()
 
-                self.logger.info('Select -> (Category)' + category_name)
+                self.logger.debug('Select -> (Category)' + category_name)
             except ignored_exceptions:
-                self.logger.error('Could not click on Category')
+                self.logger.warning('Could not click on Category')
                 continue
 
             self._loop_products(category_name)
@@ -271,32 +298,30 @@ class DLinkScraper(Scraper):
 
     def download_link(self, links: list):
         try:
-            self.driver.get(self.scrape_entry_url)
-            self.logger.info(
-                "Successfully accessed entry point URL " +
-                self.scrape_entry_url)
-        except ignored_exceptions as e:
-            self.logger.error(
-                "Abort Downloading. Could not access entry point URL" + e)
+            self.driver.get(DOWNLOAD_URL)
+            self.logger.important(firmware_url_success(DOWNLOAD_URL))
+        except ignored_exceptions:
+            self.logger.error(firmware_scraping_failure(DOWNLOAD_URL))
             self.driver.quit()
             return []
 
         for link in links:
-            self.logger.info("Download Firmware -> " + link["product_name"])
+            self.logger.debug("Download Firmware -> " + link["product_name"])
             self.driver.execute_script(link["download_link"])
 
     def scrape_metadata(self) -> list:
         meta_data = []
         self.__scrape_cnt = 0
+        
+        self.logger.important(start_scraping())
+        self.logger.debug('Headless -> ' + str(self.headless))
+        self.logger.debug('Max Products to Scrape -> ' + str(self.max_products))
 
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.info(
-                "Successfully accessed entry point URL " +
-                self.scrape_entry_url)
-        except ignored_exceptions as e:
-            self.logger.error(
-                "Abort scraping. Could not access entry point URL" + e)
+            self.logger.important(firmware_url_success(self.scrape_entry_url))
+        except ignored_exceptions:
+            self.logger.error(firmware_scraping_failure(self.scrape_entry_url))
             self.driver.quit()
             return []
 
@@ -304,10 +329,10 @@ class DLinkScraper(Scraper):
         self._loop_categorys()
 
         meta_data = self.__meta_data
-        self.logger.info('Done Scraping DLink Firmware')
-        self.logger.info('Total DLink Firmware Scraped -> ' +
-                         str(len(meta_data)))
-
+        
+        self.logger.debug('Metadata Found -> ' + str(len(meta_data)))
+        self.logger.important(finish_scraping())
+        
         self.__scrape_cnt = 0
         self.__meta_data = []
 
@@ -316,10 +341,23 @@ class DLinkScraper(Scraper):
         return meta_data
 
 
-
 if __name__ == "__main__":
-    Scraper = DLinkScraper(get_logger(), headless=True, max_products=10)
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    options = Options()
+    # options.add_argument("--headless")
+    # options.add_argument("--no-sandbox")
+    # options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--start-maximized")
+    options.add_argument("--window-size=1920,1080")
+
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()), options=options
+    )
+    
+    Scraper = DLinkScraper(headless=False, max_products=50, driver=driver)
     meta_data = Scraper.scrape_metadata()
     with open("scraped_metadata/firmware_data_DLink.json", "w") as firmware_file:
         json.dump(meta_data, firmware_file)
-
