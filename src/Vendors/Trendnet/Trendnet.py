@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from src.logger import * 
+from src.logger import *
 import json
 from src.Vendors.scraper import Scraper
 
@@ -26,13 +26,13 @@ class TrendnetScraper(Scraper):
         self.driver = driver
 
     def __get_product_download_links(self):
-        self.logger.info('Scrape Product Links -> Start')
+        self.logger.debug('Scrape Product Links -> Start')
 
         try:
             selector = self.driver.find_element(By.NAME, "subtype_id")
             options = selector.find_elements(By.XPATH, ".//*")
-        except Exception as e:
-            self.logger.error('Could not find Product Selector -> ' + str(e))
+        except Exception:
+            self.logger.error('Could not find Product Selector')
             return []
 
         product_links = []
@@ -42,15 +42,19 @@ class TrendnetScraper(Scraper):
                 pname = d.get_attribute("innerHTML")
                 path = d.get_attribute("value")
                 if pname or path:
-                    product = dict(name=d.get_attribute("innerHTML"),
-                                   link=HOME_URL+d.get_attribute("value"))
+                    product = dict(
+                        name=d.get_attribute("innerHTML"),
+                        link=HOME_URL+d.get_attribute("value")
+                    )
                     product_links.append(product)
-            except Exception as e:
-                self.logger.error(
-                    'Could not find Product Link. Skip Product -> ' + str(e))
+            except Exception:
+                self.logger.warning(
+                    'Could not find Product Link. Skip Product'
+                )
                 continue
-
-        self.logger.info('Scrape Product Links -> Finished')
+            
+        self.logger.debug('Scrape Product Links -> Finished')
+        self.logger.debug('Products Found: ' + str(len(product_links)))
         return product_links
 
     # Extract Download link
@@ -81,29 +85,39 @@ class TrendnetScraper(Scraper):
 
         try:
             self.driver.get(p["link"])
-            product_header = self.driver.find_element(By.ID, "product-header")
+            product_header = self.driver.find_element(
+                By.ID,
+                "product-header"
+            )
 
             if not product_header:
-                self.logger.warning(
-                    'Could not Scrape Product Firmware. Skip Product')
+                self.logger.debug(
+                    'Skip Product. No Product Info Available'
+                )
                 return []
 
             product_type = product_header.find_element(
-                By.XPATH, '/html/body/main/div[1]/div/div[2]/div/div[1]/h1')\
-                .get_attribute('innerHTML').lstrip().strip()
+                By.XPATH,
+                '/html/body/main/div[1]/div/div[2]/div/div[1]/h1'
+            ).get_attribute('innerHTML').lstrip().strip()
 
             # get download links
             downloads = self.driver.find_element(By.ID, "downloads")
 
             if not downloads:
-                self.logger.warning(
-                    'Could not Scrape Product Firmware. Skip Product')
+                self.logger.debug(
+                    'Skip Product. No Downloads Available'
+                )
                 return []
 
-            cards = downloads.find_elements(By.CLASS_NAME, "card")
-        except Exception as e:
-            self.logger.warning(
-                'Could not Scrape Product Firmware. Skip Product -> ' + str(e))
+            cards = downloads.find_elements(
+                By.CLASS_NAME,
+                "card"
+            )
+        except Exception:
+            self.logger.debug(
+                firmware_scraping_failure(p["name"])
+            )
             return []
 
         for c in cards:
@@ -124,7 +138,13 @@ class TrendnetScraper(Scraper):
 
                 if not data_type == "Firmware ":
                     continue
+            except Exception:
+                self.logger.warning(
+                    firmware_scraping_failure(p["name"])
+                )
+                continue
 
+            try:
                 row = c.find_element(By.CLASS_NAME, "row")
                 tmp = row.find_element(By.TAG_NAME, "p")
 
@@ -141,25 +161,38 @@ class TrendnetScraper(Scraper):
 
                 version = splited_version[1]
                 release_date = splited_release_date[1]
-            except Exception as e:
-                self.logger.warning(
-                    'Could not Scrape Firmware. Skip Firmware -> ' + str(e))
-                continue
-            # find check sum
+            except Exception:
+                self.logger.debug(
+                    attribute_scraping_failure("Release Date")
+                )
+                self.logger.debug(
+                    attribute_scraping_failure("Version")
+                )
+
+                version = None
+                release_date = None
+
             try:
                 check_sum = (
-                    (row.find_element(By.CLASS_NAME, "g-font-size-13").text).rsplit(":"))[1]
+                    (row.find_element(By.CLASS_NAME, "g-font-size-13").text)
+                    .rsplit(":")
+                )[1]
             except Exception:
                 check_sum = " "
+                self.logger.debug(
+                    attribute_scraping_failure("Check Sum")
+                )
 
             try:
                 download_btn = row.find_element(By.CLASS_NAME, "btn")
                 download_link = self.__extract_download_link(
-                    download_btn.get_attribute('onclick'))
-            except Exception as e:
+                    download_btn.get_attribute('onclick')
+                )
+            except Exception:
                 self.logger.warning(
-                    'Could not Scrape Download link. Skip Firmware -> '
-                    + str(e))
+                    attribute_scraping_failure("Download Link")
+                )
+                continue
 
             firmware_item["product_name"] = p["name"]
             firmware_item["product_type"] = product_type
@@ -171,24 +204,26 @@ class TrendnetScraper(Scraper):
 
             meta_data.append(firmware_item)
 
+            self.logger.info(
+                firmware_scraping_success(
+                    f"{firmware_item['product_name']} {firmware_item['download_link']}"
+                )
+            )
+
         return meta_data
 
     def scrape_metadata(self) -> list:
         meta_data = []
 
-        self.logger.info('Scrape Vendor Trendnet')
-        self.logger.info('Headless -> ' + str(self.headless))
-        self.logger.info('Max Products to Scrape -> ' + str(self.max_products))
+        self.logger.important(start_scraping())
+        self.logger.debug('Headless -> ' + str(self.headless))
+        self.logger.debug('Max Products to Scrape -> ' + str(self.max_products))
 
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.info(
-                "Successfully accessed entry point URL " +
-                self.scrape_entry_url)
-        except Exception as e:
-            self.logger.error(
-                "Abort scraping. Could not access entry point URL -> "
-                + str(e))
+            self.logger.important(firmware_url_success(self.scrape_entry_url))
+        except Exception:
+            self.logger.error(firmware_scraping_failure(self.scrape_entry_url))
             self.driver.quit()
             return []
 
@@ -207,14 +242,28 @@ class TrendnetScraper(Scraper):
             if self.__scrape_cnt == self.max_products:
                 break
 
-        self.logger.info('Metadata Found -> ' + str(len(meta_data)))
-        self.logger.info('Finished to Scrape -> Trendnet')
+        self.logger.debug('Metadata Found -> ' + str(len(meta_data)))
+        self.logger.important(finish_scraping())
         self.driver.quit()
         return meta_data
 
 
 if __name__ == "__main__":
-    Scraper = TrendnetScraper(get_logger(), max_products=1)
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    options = Options()
+    options.add_argument("--headless")
+    # options.add_argument("--no-sandbox")
+    # options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--start-maximized")
+    options.add_argument("--window-size=1920,1080")
+
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()), options=options
+    )
+    Scraper = TrendnetScraper(headless=True, max_products=200, driver=driver)
     meta_data = Scraper.scrape_metadata()
 
     print(json.dumps(meta_data))
