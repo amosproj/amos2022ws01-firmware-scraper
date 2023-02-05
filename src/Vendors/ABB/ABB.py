@@ -41,7 +41,7 @@ class ABBScraper(Scraper):
             )
 
             accept_btn.click()
-            self.logger.important('Successfully Accepted Cookies')
+            self.logger.debug('Successfully Accepted Cookies')
         except Exception:
             self.logger.error('Could not Accept Cookies')
         time.sleep(5)
@@ -69,7 +69,10 @@ class ABBScraper(Scraper):
     def _click_category_button(self, id: int) -> str:
         try:
             children = self.driver.find_element(
-                By.XPATH, '//*[@id="app"]/div/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div/div/div/div/div')
+                By.XPATH,
+                '//*[@id="app"]/div/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div/div/div/div/div'
+            )
+
             time.sleep(1)
             nav = children.find_elements(By.CLASS_NAME, 'sc-hBEYId')
 
@@ -109,10 +112,12 @@ class ABBScraper(Scraper):
                     '//div[@data-locator="search-results"]'
                 )
                 self.driver.execute_script(
-                    "arguments[0].scroll(0, arguments[0].scrollHeight);", scroller)
+                    "arguments[0].scroll(0, arguments[0].scrollHeight);",
+                    scroller
+                )
                 time.sleep(2)
         except Exception:
-            self.logger.error('Could not scroll')
+            self.logger.warning('Could not scroll')
 
     def _scrape_category_data(self, cat_name: str) -> list:
         meta_data = []
@@ -193,6 +198,7 @@ class ABBScraper(Scraper):
 
     def scrape_metadata(self) -> list:
         meta_data = []
+        self.logger.important(start_scraping())
         try:
             self.driver.get(self.scrape_entry_url)
             self.driver.maximize_window()
@@ -253,7 +259,7 @@ class ABBScraper(Scraper):
             'Successfully Scraped ABB Firmware. Found -> '
             + str(len(meta_data))
         )
-        self.logger.info('Done.')
+        self.logger.important(finish_scraping())
 
         return meta_data
 
