@@ -31,16 +31,22 @@ class NetgearScraper:
     def __get_download_elems(self, link: str) -> list:
         try:
             self.driver.get(link)
+
             sel_btn = self.driver.find_element(
-                By.XPATH, '//a[@class="btn download"]')
+                By.XPATH,
+                '//a[@class="btn download"]'
+            )
+
             sel_btn.click()
+
             sel_download_elems = self.driver.find_elements(
-                By.CLASS_NAME, 'accordion-item')
-        except Exception as e:
-            self.logger.error(
+                By.CLASS_NAME,
+                'accordion-item'
+            )
+        except Exception:
+            self.logger.debug(
                 "Could not Access Product Page. Skip Product"
-                + "\n"
-                + str(e))
+            )
             return []
 
         return sel_download_elems
@@ -49,7 +55,7 @@ class NetgearScraper:
         meta_data = []
 
         for i in product_links:
-            self.logger.info('Scrape Product -> ' + i["product_name"])
+            self.logger.debug('Scrape Product -> ' + i["product_name"])
             sel_download_elems = self.__get_download_elems(i["link"])
             file_amt = len(sel_download_elems)
 
@@ -57,22 +63,29 @@ class NetgearScraper:
                 try:
                     time.sleep(1)
                     file_type = sel_download_elems[j].find_element(
-                        By.TAG_NAME, 'h1').get_attribute('innerHTML')
+                        By.TAG_NAME,
+                        'h1'
+                    ).get_attribute('innerHTML')
 
                     if 'Firmware' not in file_type:
                         continue
 
-                except Exception as e:
+                except Exception:
                     self.logger.warning(
-                        'Could not select Firmware. Skip Firmware \n'
-                        + str(e))
+                        'Could not select Firmware. Skip Firmware'
+                    )
                     continue
 
                 try:
                     sel_content = sel_download_elems[j].find_element(
-                        By.CLASS_NAME, 'links')
+                        By.CLASS_NAME,
+                        'links'
+                    )
+
                     download_link = sel_content.find_element(
-                        By.TAG_NAME, 'a').get_attribute('href')
+                        By.TAG_NAME,
+                        'a'
+                    ).get_attribute('href')
 
                     firmware_item = {
                         "manufacturer": "Netgear",
@@ -86,10 +99,16 @@ class NetgearScraper:
                     }
 
                     meta_data.append(firmware_item)
-                except Exception as e:
+
+                    self.logger.info(
+                        firmware_scraping_success(
+                            f"{firmware_item['product_name']} {firmware_item['download_link']}"
+                        )
+                    )
+                except Exception:
                     self.logger.warning(
-                        'Cound not find Firmware Element. Skip Firmware \n'
-                        + str(e))
+                        'Cound not find Firmware Element. Skip Firmware'
+                    )
                     continue
 
         return meta_data
@@ -98,13 +117,18 @@ class NetgearScraper:
         links = []
         try:
             sel_product_section = self.driver.find_element(
-                By.CLASS_NAME, 'intern-product-category')
+                By.CLASS_NAME,
+                'intern-product-category'
+            )
 
             sel_section_childs = sel_product_section.find_elements(
-                By.XPATH, SEL_CHILD_XPATH)
-        except Exception as e:
+                By.XPATH,
+                SEL_CHILD_XPATH
+            )
+        except Exception:
             self.logger.error(
-                'Abort. Could not Scrape Intern Product Links. -> \n' + str(e))
+                'Abort. Could not Scrape Intern Product Links.'
+            )
             return []
 
         for i in range(0, len(sel_section_childs)):
@@ -112,6 +136,7 @@ class NetgearScraper:
                 cat_name = sel_section_childs[i]\
                     .find_element(By.CLASS_NAME, 'internal-product')\
                     .get_attribute('innerHTML')
+
                 sel_product_intern = sel_section_childs[i]\
                     .find_element(By.CLASS_NAME,
                                   'product-category-product-intern')
@@ -119,9 +144,10 @@ class NetgearScraper:
                 sel_childs = sel_product_intern\
                     .find_element(By.XPATH, SEL_CHILD_XPATH)\
                     .find_elements(By.XPATH, SEL_CHILD_XPATH)
-            except Exception as e:
+            except Exception:
                 self.logger.warning(
-                    'Could not Scrape Intern Product Childs. -> \n' + str(e))
+                    'Could not Scrape Intern Product Childs.'
+                )
                 continue
 
             for j in range(0, len(sel_childs)):
@@ -135,10 +161,13 @@ class NetgearScraper:
                         re.search("location.href='(.*)'", raw_link).group(1)
 
                     name = sel_childs[j].find_element(
-                        By.CLASS_NAME, 'model').get_attribute('innerHTML')
-                except Exception as e:
+                        By.CLASS_NAME,
+                        'model'
+                    ).get_attribute('innerHTML')
+                except Exception:
                     self.logger.warning(
-                        'Could not Scrape Intern Product Link. -> \n' + str(e))
+                        'Could not Scrape Intern Product Link.'
+                    )
                     continue
 
                 link_wrap = {
@@ -161,40 +190,55 @@ class NetgearScraper:
 
         self.__scrape_cnt = 0
 
-        self.logger.important('Start Scrape Vendor -> Netgear')
-        self.logger.important(
-            'Scrape in Headless Mode Set -> ' + str(self.headless))
-        self.logger.important('Max Products Set-> ' + str(self.max_products))
+        self.logger.important(start_scraping())
+        self.logger.debug(
+            'Scrape in Headless Mode Set -> '
+            + str(self.headless)
+        )
+
+        self.logger.debug(
+            'Max Products Set-> '
+            + str(self.max_products)
+        )
 
         self.__scrape_cnt = 0
 
-        self.logger.info(f'Start Scrape Vendor {MANUFACTURER}')
-
         try:
             self.driver.get(self.scrape_entry_url)
-            self.logger.info(
-                "Successfully accessed entry point URL " +
-                self.scrape_entry_url)
-        except Exception as e:
-            self.logger.error(
-                "Abort scraping. Could not access entry point URL -> "
-                + str(e))
+            self.logger.important(firmware_url_success(self.scrape_entry_url))
+        except Exception:
+            self.logger.error(firmware_scraping_failure(self.scrape_entry_url))
             self.driver.quit()
             return []
 
         links = self.__get_intern_product_link()
         meta_data = self.__scrape_firmware(links)
 
-        self.logger.important(
-            'Successfully Scraped Qnap Firmware -> ' + str(len(meta_data)))
-        self.logger.info('Done.')
+        self.logger.debug(
+            'Successfully Scraped Qnap Firmware -> ' + str(len(meta_data))
+        )
+        self.logger.important(finish_scraping())
         self.driver.quit()
 
         return meta_data
 
 
 if __name__ == "__main__":
-    Scraper = NetgearScraper(get_logger(), headless=False, max_products=10)
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    options = Options()
+    # options.add_argument("--headless")
+    # options.add_argument("--no-sandbox")
+    # options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--start-maximized")
+    options.add_argument("--window-size=1920,1080")
+
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()), options=options
+    )
+    Scraper = NetgearScraper(headless=False, max_products=10, driver=driver)
     firmware_data = Scraper.scrape_metadata()
     with open("scraped_metadata/firmware_data_Netgear.json", "w") as firmware_file:
         json.dump(firmware_data, firmware_file)
