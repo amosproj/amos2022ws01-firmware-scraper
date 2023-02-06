@@ -5,8 +5,6 @@ from selenium.webdriver.common.by import By
 
 from src.logger import *
 from src.Vendors.scraper import Scraper
-#from src.logger import get_logger
-# import json
 
 
 class LinksysScraper(Scraper):
@@ -38,15 +36,14 @@ class LinksysScraper(Scraper):
                 max_products = self.max_products
             else:
                 max_products = len(product_elements)
-#ToDO: Delete 30...(for demonstration purpose only, because all the first products dont have firmware)
             for i in range(max_products):
                 product_url = product_elements[i].get_attribute("href")
                 product_urls.append(product_url)
             self.logger.important("Succesfully scraped all product urls!")
             return product_urls
-        except Exception as e:
+        except Exception as exception:
             self.logger.error("Could not scrape all product urls!")
-            raise (e)
+            raise exception
 
     def scrape_metadata_from_product_urls(self, product_urls):
         for product_url in product_urls:
@@ -107,7 +104,7 @@ class LinksysScraper(Scraper):
                                         .text.split("\n")[1]
                                         .split("  ")[1],
                                         "%m/%d/%Y",
-                                    ).strftime("%d.%m.%Y")
+                                    ).strftime("%Y-%m-%d")
                                 except:
                                     release_date = final_info_p[j].text.split(
                                         "\n"
@@ -115,7 +112,7 @@ class LinksysScraper(Scraper):
                                     # release_date = datetime.datetime.strptime(
                                     #     info_p[j].text.split("\n")[1].split(" ")[2],
                                     #     "%m/%d/%Y",
-                                    # ).strftime("%d.%m.%Y")
+                                    # ).strftime("%Y-%m-%d")
                                 firmware_item = {
                                     "manufacturer": "Linksys",
                                     "product_name": prod_name,
@@ -145,7 +142,7 @@ class LinksysScraper(Scraper):
                                 release_date = datetime.datetime.strptime(
                                     info_p[j].text.split("\n")[2].split(" ")[2],
                                     "%m/%d/%Y",
-                                ).strftime("%d.%m.%Y")
+                                ).strftime("%Y-%m-%d")
                                 firmware_item = {
                                     "manufacturer": "Linksys",
                                     "product_name": prod_name,
@@ -173,13 +170,3 @@ class LinksysScraper(Scraper):
         self.scrape_metadata_from_product_urls(product_urls)
         self.logger.important(finish_scraping())
         return self.list_of_product_dicts
-
-
-if __name__ == "__main__":
-    logger = get_logger()
-    LS = LinksysScraper(logger=logger, max_products=5)
-    product_urls = LS.get_all_product_urls()
-    LS.scrape_metadata_from_product_urls(product_urls)
-
-    with open("scraped_metadata/firmware_data_Linksys.json", "w") as firmware_file:
-        json.dump(LS.list_of_product_dicts, firmware_file)

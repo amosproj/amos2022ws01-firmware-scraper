@@ -3,6 +3,8 @@ module for scheduling and updating
 """
 import datetime
 import json
+from src.logger import *
+logger = get_logger()
 
 
 def check_vendors_to_update(config_file_path: str = "src/config.json") -> list:
@@ -45,9 +47,11 @@ def update_vendor_schedule(vendor: str, config_file_path: str = "src/config.json
     for i in range(len(config["vendors"])):
         if config["vendors"][i]["class_name"] == vendor:
             config["vendors"][i]["last_update"] = now.strftime("%Y-%m-%d")
-            config["vendors"][i]["next_update"] = (
-                now + datetime.timedelta(days=int(config["vendors"][i]["interval"]))
-            ).strftime("%Y-%m-%d")
+            next_update = (now + datetime.timedelta(
+                days=int(config["vendors"][i]["interval"]))).strftime("%Y-%m-%d")
+            config["vendors"][i]["next_update"] = next_update
+            logger.important(
+                f"Succesfully scheduled next update for {vendor} on {next_update}")
             break
 
     with open(config_file_path, "w", encoding="utf-8") as config_file:
