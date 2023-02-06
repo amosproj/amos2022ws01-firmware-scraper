@@ -230,7 +230,9 @@ class DBConnector:
         finally:
             con.close()
 
-    def insert_products(self, product_list: list[dict], table: str = "products"):
+    def insert_products(
+        self, product_list: list[dict], table: str = "products"
+    ):
         """
         Inserts a list of product records into the firmware table.
 
@@ -286,7 +288,7 @@ class DBConnector:
             con.close()
         return result
 
-    def get_download_links(self, manufacturer, table="products"):
+    def get_products_to_download(self, manufacturer, table="products"):
         """query DB for firmware on any table, optionally filtered by manufacturer
 
         Args:
@@ -297,7 +299,7 @@ class DBConnector:
         """
 
         retrieve_products_query = f"""
-            SELECT id, download_link, file_path
+            SELECT id, product_name, download_link, file_path
             FROM `{table}`
             """
         if manufacturer:
@@ -339,7 +341,9 @@ class DBConnector:
         finally:
             con.close()
 
-    def compare_products(self, table1: str, table2: str = "products") -> list[dict]:
+    def compare_products(
+        self, table1: str, table2: str = "products"
+    ) -> list[dict]:
         """Compares the given product catalog in DB with the products in the products table (historized) DB.
         arguments
 

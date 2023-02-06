@@ -23,7 +23,7 @@ from src.Vendors import *
 # Initialize logger and Options for selenium
 logger = get_logger()
 options = Options()
-options.add_argument("--headless")
+# options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--start-maximized")
@@ -65,7 +65,9 @@ class Core:
         try:
             # create temporary table for current vendor
             self.db.create_table(table=f"{self.current_vendor.name}")
-            self.logger.info(f"Created temporary table for {self.current_vendor.name}.")
+            self.logger.info(
+                f"Created temporary table for {self.current_vendor.name}."
+            )
         except Exception as e:
             self.logger.error(
                 f"Could not create temporary table for {self.current_vendor.name}."
@@ -76,7 +78,9 @@ class Core:
 
         try:
             # insert metadata into temporary table
-            self.db.insert_products(metadata, table=f"{self.current_vendor.name}")
+            self.db.insert_products(
+                metadata, table=f"{self.current_vendor.name}"
+            )
             self.logger.info(
                 f"Inserted {self.current_vendor.name} catalogue into temporary table."
             )
@@ -129,7 +133,9 @@ class Core:
         try:
             # delete temporary table
             self.db.drop_table(table=f"{self.current_vendor.name}")
-            self.logger.info(f"Dropped temporary table for {self.current_vendor.name}.")
+            self.logger.info(
+                f"Dropped temporary table for {self.current_vendor.name}."
+            )
         except Exception as e:
             self.logger.important(
                 f"Could not drop temporary table for {self.current_vendor.name}."
@@ -143,11 +149,13 @@ class Core:
         vendor_name = self.get_current_vendor().name
         logger.important(f"Next: {vendor_name}")
 
-        # (id, URL, file_path)
-        download_links = self.db.get_download_links(vendor_name)
-        # remove all URLs that have already been downloaded (file_path is not None)
-        download_links = [item for item in download_links if item[2] is None]
-        if len(download_links) == 0:
+        # download_info: (id, product_name, URL, file_path)
+        products_to_download = self.db.get_products_to_download(vendor_name)
+        # remove all firmware products that have already been downloaded (file_path is not None)
+        products_to_download = [
+            item for item in products_to_download if item[3] is None
+        ]
+        if len(products_to_download) == 0:
             logger.important(f"No new firmware to download for {vendor_name}.")
             return
 
@@ -157,20 +165,34 @@ class Core:
             os.makedirs(vendor_download_dir)
 
         # Check if vendor implements specific download function
-        vendor_download_func = getattr(self.current_vendor, "download_firmware", None)
+        vendor_download_func = getattr(
+            self.current_vendor, "download_firmware", None
+        )
         if callable(vendor_download_func):
             try:
-                download_links = [item[:2] for item in download_links]
+                download_links = [
+                    (item[0], item[2]) for item in products_to_download
+                ]
                 self.current_vendor.download_firmware(download_links)
             except Exception as e:
-                self.logger.warning(f"Could not finish downloading {vendor_name}.")
+                self.logger.warning(
+                    f"Could not finish downloading {vendor_name}."
+                )
                 self.logger.warning(e)
         else:
-            num_downloads = len(download_links)
+            num_downloads = len(products_to_download)
 
-            for i, (id, url, _) in enumerate(download_links):
+            firmware_name = None
+            for i, (id, name, url, _) in enumerate(products_to_download):
                 try:
-                    firmware_name = url.split("/")[-1].split("?")[0]
+                    # for these vendors, the download url does not include a telling filename
+                    if vendor_name in ["foscam", "ABB"]:
+                        name = name.replace("/", "-")
+                        firmware_name = f"{id}_{name}"
+                    else:
+                        firmware_name = (
+                            f"{id}_{url.split('/')[-1].split('?')[0]}"
+                        )
                     save_as = os.path.join(vendor_download_dir, firmware_name)
                     with urlopen(url) as file:
                         content = file.read()
@@ -186,7 +208,9 @@ class Core:
                         f"[{i+1}/{num_downloads}] Could not download {firmware_name}"
                     )
                     self.logger.warning(e)
-        self.logger.important(f"Finished downloading firmware of {vendor_name}.")
+        self.logger.important(
+            f"Finished downloading firmware of {vendor_name}."
+        )
 
 
 if __name__ == "__main__":
@@ -209,7 +233,8 @@ if __name__ == "__main__":
 
         try:
             driver = webdriver.Chrome(
-                service=Service(ChromeDriverManager().install()), options=options
+                service=Service(ChromeDriverManager().install()),
+                options=options,
             )
             glob = globals()
             core.set_current_vendor(
@@ -249,23 +274,25 @@ if __name__ == "__main__":
         )
 
     for vendor, _ in vendor_and_max_products:
-        try:
-            # TODO we need the name attribute from the class
-            # initialize with useless driver to make sure Object creation is successful
-            # there is certainly a better way
-            core.set_current_vendor(
-                globals()[vendor](
-                    max_products=None,
-                    driver=webdriver.Chrome(
-                        service=Service(ChromeDriverManager().install()),
-                        options=options,
-                    ),
+        if vendor != "RockwellScraper":
+            try:
+                # TODO we need the name attribute from the class
+                # initialize with useless driver to make sure Object creation is successful
+                # there is certainly a better way
+                options.add_argument("--headless")
+                core.set_current_vendor(
+                    globals()[vendor](
+                        max_products=None,
+                        driver=webdriver.Chrome(
+                            service=Service(ChromeDriverManager().install()),
+                            options=options,
+                        ),
+                    )
                 )
-            )
-            core.download_firmware(download_dir)
-        except Exception as e:
-            logger.warning(
-                f"Could not finish downloading firmware of {core.get_current_vendor().name}."
-            )
-            core.logger.error(e)
-            core.logger.important("Continue with next vendor.")
+                core.download_firmware(download_dir)
+            except Exception as e:
+                logger.warning(
+                    f"Could not finish downloading firmware of {core.get_current_vendor().name}."
+                )
+                core.logger.error(e)
+                core.logger.important("Continue with next vendor.")
