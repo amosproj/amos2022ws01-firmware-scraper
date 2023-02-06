@@ -1,6 +1,9 @@
 # Firmware Scraper (AMOS SS 2022)
 [![Pytest Suite](https://github.com/amosproj/amos2022ws01-firmware-scraper/actions/workflows/pytest.yml/badge.svg)](https://github.com/amosproj/amos2022ws01-firmware-scraper/actions/workflows/pytest.yml)
-![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/Deliverables/sprint-01/team-logo-white.png?raw=true)
+
+
+![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/documentation/logos/team-logo-black-1000.png#gh-light-mode-only) 
+![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/documentation/logos/team-logo-white-1000.png#gh-dark-mode-only)
 
 ## TLDR;
 
