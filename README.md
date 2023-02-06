@@ -7,7 +7,7 @@
 
 ## TLDR;
 
-This [Selenium-based](https://github.com/SeleniumHQ/selenium) firmware scraper gathers firmware data from 25 vendors. Our automated solution scrapes meta data from numerous vendors and downloads corresponding firmwares. The results can be used for InfoSec research.
+This [Selenium-based](https://github.com/SeleniumHQ/selenium) firmware scraper gathers firmware data from 18 vendors. Our automated solution scrapes metadata and downloads corresponding firmwares. The results can be used for InfoSec research.
 
 ## Installation
 ## Option 1: On your local machine (Ubuntu only)
