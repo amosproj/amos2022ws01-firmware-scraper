@@ -41,7 +41,7 @@ class ColoredFormatter(logging.Formatter):
     red = "\x1b[31;20m"
     bold_red = "\x1b[31;1m"
 
-    format_prefix = "%(asctime)s - %(filename)14s:%(lineno)3d - "
+    format_prefix = "%(asctime)s - %(filename)12s:%(lineno)3d - "
     format_suffix = "%(levelname)9s - %(message)s"
 
     FORMATS = {
