@@ -1,10 +1,13 @@
 # Firmware Scraper (AMOS SS 2022)
 [![Pytest Suite](https://github.com/amosproj/amos2022ws01-firmware-scraper/actions/workflows/pytest.yml/badge.svg)](https://github.com/amosproj/amos2022ws01-firmware-scraper/actions/workflows/pytest.yml)
-![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/Deliverables/sprint-01/team-logo-white.png?raw=true)
+
+
+![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/documentation/logos/team-logo-black-1000.png#gh-light-mode-only) 
+![Logo of the project](https://github.com/amosproj/amos2022ws01-firmware-scraper/blob/main/documentation/logos/team-logo-white-1000.png#gh-dark-mode-only)
 
 ## TLDR;
 
-This [Selenium-based](https://github.com/SeleniumHQ/selenium) firmware scraper gathers firmware data from 25 vendors. Our automated solution scrapes meta data from numerous vendors and downloads corresponding firmwares. The results can be used for InfoSec research.
+This [Selenium-based](https://github.com/SeleniumHQ/selenium) firmware scraper gathers firmware data from 18 vendors. Our automated solution scrapes metadata and downloads corresponding firmwares. The results can be used for InfoSec research.
 
 ## Installation
 ## Option 1: On your local machine (Ubuntu only)
