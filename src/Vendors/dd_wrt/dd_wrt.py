@@ -13,13 +13,12 @@ DOWNLOAD_URL = "https://dd-wrt.com/support/other-downloads/?path=betas"
 class DDWRTScraper(Scraper):
     def __init__(
         self,
-        logger,
         driver,
         scrape_entry_url: str = DOWNLOAD_URL,
         headless: bool = True,
         max_products: int = float("inf"),
     ):
-        self.name = "DDWRT"
+        self.name = "DD-WRT"
         self.logger = get_logger()
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
@@ -103,7 +102,7 @@ class DDWRTScraper(Scraper):
                     else:
                         product_metadata.append(
                             {
-                                "manufacturer": "DD-WRT",
+                                "manufacturer": self.name,
                                 "product_name": product_name,
                                 # DD-WRT offers firmware for routers
                                 "product_type": "Router",

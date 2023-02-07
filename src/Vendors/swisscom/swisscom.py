@@ -82,7 +82,7 @@ class SwisscomScraper(Scraper):
         self.logger.info(firmware_scraping_success(
             f"of {product_name} {product_url}"))
         return {
-            "manufacturer": "Swisscom",
+            "manufacturer": self.name,
             "product_name": product_name,
             "product_type": category_name_clean,
             "version": version,

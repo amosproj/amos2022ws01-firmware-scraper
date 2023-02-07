@@ -5,7 +5,7 @@ from selenium.common.exceptions import WebDriverException
 
 from src.logger_old import create_logger_old
 from src.Vendors import SchneiderElectricScraper
-from src.Vendors.schneider_electric.schneider_electric import DOWNLOAD_URL_GLOBAL
+from src.Vendors.schneider.schneider import DOWNLOAD_URL_GLOBAL
 
 
 def test_entry_point_url_valid():

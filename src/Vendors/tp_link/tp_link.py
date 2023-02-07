@@ -22,7 +22,7 @@ class TPLinkScraper(Scraper):
         self.scrape_entry_url = scrape_entry_url
         self.headless = headless
         self.max_products = max_products
-        self.name = "TPLink"
+        self.name = "TP-Link"
         self.driver = driver
         # self.driver.implicitly_wait(0.5)  # has to be set only once
 
@@ -104,7 +104,7 @@ class TPLinkScraper(Scraper):
 
         self.logger.info(firmware_scraping_success(f"of {product_name} {product_url}"))
         return {
-            "manufacturer": "TP-Link",
+            "manufacturer": self.name,
             "product_name": product_name,
             "product_type": product_category,
             "version": version,
