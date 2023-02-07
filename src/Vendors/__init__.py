@@ -9,10 +9,10 @@ from .dd_wrt.dd_wrt import DDWRTScraper
 from .DLink.DLink import DLinkScraper
 from .Engenius.Engenius import EngeniusScraper
 from .foscam.foscam import FoscamScraper
-from .Linksys.Linksys_scraper import LinksysScraper
+from .Linksys.Linksys import LinksysScraper
 from .Netgear.Netgear import NetgearScraper
 from .Qnap.Qnap import QnapScraper
-from .Rockwell.Rockwell_scraper import RockwellScraper
+from .Rockwell.Rockwell import RockwellScraper
 from .schneider.schneider import SchneiderElectricScraper
 from .scraper import Scraper
 from .swisscom.swisscom import SwisscomScraper
