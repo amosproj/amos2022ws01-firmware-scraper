@@ -38,7 +38,7 @@ class SchneiderElectricScraper(Scraper):
         self.scrape_entry_url = scrape_entry_url
         self.max_products = max_products
         self.headless = headless
-        self.name = "Schneider"
+        self.name = "SchneiderElectric"
         self.logger = get_logger()
         self.driver = driver
         self.driver.implicitly_wait(0.5)  # has to be set only once
@@ -140,7 +140,7 @@ class SchneiderElectricScraper(Scraper):
             product_ranges = el.text.removeprefix("Product Ranges: ")
 
         firmware_item = {
-            "manufacturer": "SchneiderElectric",
+            "manufacturer": self.name,
             "product_name": title,
             "product_type": product_ranges,
             "version": version,
@@ -212,7 +212,7 @@ class SchneiderElectricScraper(Scraper):
                 by=By.CSS_SELECTOR, value=CSS_SELECTOR_NEXT_PAGE
             )[-1]
             nav_element_next.click()
-            WebDriverWait(self.driver, timeout=60).until(
+            WebDriverWait(self.driver, timeout=30).until(
                 expected_conditions.url_changes(self.driver.current_url)
             )
             self.logger.debug(
@@ -263,7 +263,7 @@ if __name__ == "__main__":
     logger = get_logger()
 
     scraper = SchneiderElectricScraper(
-        logger, DOWNLOAD_URL_GLOBAL, max_products=50, headless=False
+        logger, DOWNLOAD_URL_GLOBAL, max_products=30, headless=False
     )
 
     firmware_data = scraper.scrape_metadata()

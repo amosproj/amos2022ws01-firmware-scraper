@@ -4,7 +4,7 @@
     "password": "null"
   },
   "download_dir": "./downloads",
-  "max_products": 1000,
+  "max_products": 10,
   "log_level": "DEBUG",
   "vendors": [
     {
@@ -28,7 +28,7 @@
     {
       "name": "Belkin",
       "class_name": "BelkinScraper",
-      "active": true,
+      "active": false,
       "interval": "0",
       "last_update": "2023-01-31",
       "next_update": "2023-01-31",
@@ -44,12 +44,12 @@
       "max_products": null
     },
     {
-      "name": "DDWRT",
+      "name": "DD-WRT",
       "class_name": "DDWRTScraper",
       "active": false,
       "interval": "0",
-      "last_update": "2023-01-31",
-      "next_update": "2023-01-31",
+      "last_update": "2023-02-07",
+      "next_update": "2023-02-07",
       "max_products": null
     },
     {
@@ -118,7 +118,7 @@
     {
       "name": "SchneiderElectric",
       "class_name": "SchneiderElectricScraper",
-      "active": false,
+      "active": true,
       "interval": "0",
       "last_update": "2023-01-31",
       "next_update": "2023-01-31",
@@ -143,7 +143,7 @@
       "max_products": null
     },
     {
-      "name": "TPLink",
+      "name": "TP-Link",
       "class_name": "TPLinkScraper",
       "active": false,
       "interval": "0",

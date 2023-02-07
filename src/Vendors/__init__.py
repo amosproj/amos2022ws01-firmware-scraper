@@ -13,7 +13,7 @@ from .Linksys.Linksys_scraper import LinksysScraper
 from .Netgear.Netgear import NetgearScraper
 from .Qnap.Qnap import QnapScraper
 from .Rockwell.Rockwell_scraper import RockwellScraper
-from .schneider_electric.schneider_electric import SchneiderElectricScraper
+from .schneider.schneider import SchneiderElectricScraper
 from .scraper import Scraper
 from .swisscom.swisscom import SwisscomScraper
 from .synology.synology import SynologyScraper

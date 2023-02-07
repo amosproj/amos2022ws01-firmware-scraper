@@ -190,6 +190,8 @@ class Core:
                     if vendor_name in ["foscam", "ABB"]:
                         name = name.replace("/", "-")
                         firmware_name = f"{id}_{name}"
+                    elif vendor_name in ["SchneiderElectric"]:
+                        firmware_name = f"{id}_{url.split('&p_File_Name=')[1].split('&')[0]}"
                     else:
                         firmware_name = (
                             f"{id}_{url.split('/')[-1].split('?')[0]}"
@@ -261,7 +263,7 @@ if __name__ == "__main__":
         # cleaning, drop temporary tables if ERROR, etc.
         # core.cleaning()
 
-        update_vendor_schedule(vendor)
+        # update_vendor_schedule(vendor)
 
     # Download firmware
     logger.important("Start firmware download.")
