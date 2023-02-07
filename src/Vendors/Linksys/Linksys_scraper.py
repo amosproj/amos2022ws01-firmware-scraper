@@ -45,7 +45,7 @@ class LinksysScraper(Scraper):
             self.logger.error("Could not scrape all product urls!")
             raise exception
 
-    def scrape_metadata_from_product_urls(self, product_urls):
+    def scrape_metadata_from_product_urls(self, product_urls: list):
         for product_url in product_urls:
             try:
                 self.driver.get(product_url)

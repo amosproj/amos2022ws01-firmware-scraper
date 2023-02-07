@@ -14,7 +14,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 class RockwellScraper(Scraper):
-    def __init__(self, driver, max_products: int = float("inf"), headless: bool = True):
+    def __init__(self, driver, max_products: int = float("inf"), headless: bool = False):
         self.login_url = "https://compatibility.rockwellautomation.com/Pages/MyProfile.aspx"
         self.url = "https://compatibility.rockwellautomation.com/Pages/MultiProductDownload.aspx"
         self.name = "Rockwell"
@@ -271,9 +271,6 @@ class RockwellScraper(Scraper):
         download_elements, text_elements = self.get_all_products()
         self.start_scraping(download_elements, text_elements)
         self.logger.important(finish_scraping())
-#ToDO: Change path (delete src)
-        with open(r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\scraped_metadata\firmware_data_rockwell.json", "w") as firmware_file:
-            json.dump(self.list_of_product_dicts, firmware_file)
         return self.list_of_product_dicts
 
 
@@ -288,18 +285,9 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()), options=options
     )
-    RWS = RockwellScraper(max_products=1, driver=driver)
+    RWS = RockwellScraper(driver=driver)
 
     RWS.login()
     download_elements, text_elements = RWS.get_all_products()
     RWS.start_scraping(download_elements, text_elements)
     RWS.logger.important(finish_scraping())
-
-# ToDO: Change path (delete src)
-    with open(r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\scraped_metadata\firmware_data_rockwell.json",
-            "r") as firmware_file:
-        list_data = json.load(firmware_file)
-        list_data += RWS.list_of_product_dicts
-    with open(r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\scraped_metadata\firmware_data_rockwell.json",
-                "w") as firmware_file:
-        json.dump(list_data, firmware_file)
