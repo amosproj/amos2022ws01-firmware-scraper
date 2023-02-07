@@ -1,11 +1,557 @@
 [
   {
     "manufacturer": "Linksys",
+    "product_name": "Linksys E1000 Wireless-N Router",
+    "product_type": null,
+    "version": "2.1.03",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E1000_2.1.03.005_US_20140321.bin",
+    "release_date": "2014-03-28",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E1000 Wireless-N Router",
+    "product_type": null,
+    "version": "2.1.03",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E1000_2.1.03.005_US_20140321.bin",
+    "release_date": "2014-03-28",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E1000 Wireless-N Router",
+    "product_type": null,
+    "version": "2.1.03",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224655367374/FW_E1000_2.1.03.005_US_20140321.bin",
+    "release_date": "2014-03-28",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E1200 N300 WiFi Router",
+    "product_type": null,
+    "version": "2.0.11",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E1200_2.0.11.001_US_20180910.bin",
+    "release_date": "2018-09-25",
+    "checksum_scraped": null,
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E1200 N300 WiFi Router",
+    "product_type": null,
+    "version": "2.0.11",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E1200_2.0.11.001_US_20180910.bin",
+    "release_date": "2018-09-25",
+    "checksum_scraped": null,
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E1200 N300 WiFi Router",
+    "product_type": null,
+    "version": "1.0.04",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E1200_v1.0.04.001_US_20120307.bin",
+    "release_date": "2014-03-26",
+    "checksum_scraped": null,
+    "additional_data": {}
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Wi-Fi Router N300 SpeedBoost",
+    "product_type": null,
+    "version": "1.0.06",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224666604712/FW_E1500_v1.0.06.001_US_20140327_code.bin",
+    "release_date": "2014-04-25",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Wireless-N Router with SpeedBoost",
+    "product_type": null,
+    "version": "1.0.03",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E1550_1.0.03.002_US_20120201_code.bin",
+    "release_date": "2012-02-29",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Advanced Wireless-N Router",
+    "product_type": null,
+    "version": "build",
+    "download_link": "https://s3.belkin.com/support/dl/FW_E2000_1.0.06.001_US_20140310_code.bin",
+    "release_date": "2014-03-26",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Advanced Wireless-N Router",
+    "product_type": null,
+    "version": "(build",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224655367568/FW_E2100L_1.0.05.004_20120308_code.bin",
+    "release_date": "2012-03-30",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E2500 N600 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "4.0.00.037",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E2500V4_V4.0.00.037_Prod_20220402_code.gpg.bin",
+    "release_date": "2022-05-17",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E2500 N600 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "3.0.05",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E2500_3.0.05.002_20180914.bin",
+    "release_date": "2018-10-02",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E2500 N600 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "2.0.00",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224666609554/FW_E2500_2.0.00.001_US_20140417.bin",
+    "release_date": "2014-04-29",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E2500 N600 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "2.0.00",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224666609554/FW_E2500_2.0.00.001_US_20140417.bin",
+    "release_date": "2014-04-29",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "High Performance Wireless-N Router",
+    "product_type": null,
+    "version": "1.0.06",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E3000_1.0.06.002_US_20140409_code.bin",
+    "release_date": "2014-04-24",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "High Performance Dual-Band N Router",
+    "product_type": null,
+    "version": "1.0.05",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224666604783/FW_E3200_1.0.05.002_US_20140516_code.bin",
+    "release_date": "2014-07-01",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "WiFi Router Dual-Band AC1000",
+    "product_type": null,
+    "version": "1.0.00.037",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E5350_V1.0.00.037_Prod_20220402_code.gpg.bin",
+    "release_date": "2022-05-17",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys WiFi 5 Router Dual-Band AC1200 (E5400)",
+    "product_type": null,
+    "version": "1.0.00.037",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E5400_V1.0.00.037_Prod_20220402_code.gpg.bin",
+    "release_date": "2022-05-17",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "E5600 - Dual-Band AC1200 WiFi 5 Router",
+    "product_type": null,
+    "version": "1.1.0.26",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E5600_1.1.0.26_prod.img",
+    "release_date": "2021-12-20",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band AX1800 WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.00.033",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E7350_V1.1.00.033_Prod_20220902_code.gpg.bin",
+    "release_date": "2022-10-04",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band AX1800 WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.00.032",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E7350_V1.1.00.032_Prod_20220902_code.bin",
+    "release_date": "2022-10-04",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band AX3200 WiFi 6 Router",
+    "product_type": null,
+    "version": "1.2.00.360516",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E8450_1.2.00.360516_prod_signed.img",
+    "release_date": "2023-01-05",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band AX3200 WiFi 6 Router",
+    "product_type": null,
+    "version": "1.1.01.272918",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E8450_1.1.01.272918_PROD_unsigned.img",
+    "release_date": "2022-04-13",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys E900 N300 WiFi Router",
+    "product_type": null,
+    "version": "1.0.09",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_E900_1.0.09.002_US_20180808.bin",
+    "release_date": "2018-08-31",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Dual-Band AX5400 WiFi 6 Router (E9450)",
+    "product_type": null,
+    "version": "1.1.00.076",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_E9450_1.1.00.076_prod.bin",
+    "release_date": "2022-09-20",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA2700 N600 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA2700_1.1.40.189581_prod.img",
+    "release_date": "2018-08-15",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Certified Refurbished EA2700 N600 Dual-Band Smart Wi-Fi Wireless Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA2700_1.1.40.189581_prod.img",
+    "release_date": "2018-08-15",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA2750 N600 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.1.8",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA2750_1.1.8.184154_prod.gpg.img",
+    "release_date": "2017-10-19",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys Smart Wi-Fi Router N750 Smooth Stream",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA3500_1.1.40.162464_prod.zip",
+    "release_date": "2014-10-27",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "EA Series Linksys Smart Wi-Fi Firmware "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6200 AC900 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.1.41",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6200_1.1.41.188556_prod.img",
+    "release_date": "2018-06-05",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6300 AC1200 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6300_1.1.40.184085_prod.gpg.img",
+    "release_date": "2017-10-18",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for US)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6300 AC1200 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6300_1.1.40.184085_prod.img",
+    "release_date": "2017-10-18",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for Other Regions)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6300 AC1200 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6300_1.1.40.176337_prod.img",
+    "release_date": "2016-10-28",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6350 AC1200+ Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "4.0.4.207984",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA6350v4_4.0.4.207984_prod.img",
+    "release_date": "2021-09-15",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6350 AC1200+ Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "3.1.10.191322",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6350v3_3.1.10.191322_prod.img",
+    "release_date": "2018-10-31",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6350 AC1200+ Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "2.1.2",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6350V2_2.1.2.184309_prod.gpg.img",
+    "release_date": "2017-11-06",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for US)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6350 AC1200+ Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "2.1.1",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6350V2_2.1.1.171422_prod.img",
+    "release_date": "2016-04-29",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for Other Regions)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6350 AC1200+ Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "1.0.5",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6350_1.0.5.182871_prod.img",
+    "release_date": "2017-08-31",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6400 AC1600 Dual-Band Smart WiFi Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6400_1.1.40.184085_prod.gpg.img",
+    "release_date": "2017-10-18",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for US)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6400 AC1600 Dual-Band Smart WiFi Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6400_1.1.40.184085_prod.img",
+    "release_date": "2017-10-18",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for Other Regions)"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6400 AC1600 Dual-Band Smart WiFi Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6400_1.1.40.176337_prod.img",
+    "release_date": "2016-10-28",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6500 AC1750 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA6500v2_1.1.42.203057_prod.img",
+    "release_date": "2020-11-10",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6500 AC1750 Dual-Band WiFi Router",
+    "product_type": null,
+    "version": "",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/1224694327753/FW_EA6500_1.1.29.162351_prod.SSA",
+    "release_date": "2014-07-31",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6700 AC1750 Dual-Band Smart Wi-Fi Router",
+    "product_type": null,
+    "version": "1.1.42",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA6700_1.1.42.203057_prod.gpg.img",
+    "release_date": "2020-11-10",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for the US) "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6700 AC1750 Dual-Band Smart Wi-Fi Router",
+    "product_type": null,
+    "version": "1.1.42",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA6700_1.1.42.203057_prod.img",
+    "release_date": "2020-11-10",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware (for Other Regions) "
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys EA6700 AC1750 Dual-Band Smart Wi-Fi Router",
+    "product_type": null,
+    "version": "1.1.40",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6700_1.1.40.176451_prod.img",
+    "release_date": "2016-11-09",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
     "product_name": "Linksys EA6900 AC1900 Smart WiFi Dual-Band Router",
     "product_type": null,
     "version": "2.0.3.186963",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6900v2_2.0.3.186963_prod.img",
-    "release_date": "22.03.2018",
+    "release_date": "2018-03-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -17,7 +563,7 @@
     "product_type": null,
     "version": "1.1.43",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6900_1.1.43.182871_prod.gpg.img",
-    "release_date": "15.08.2017",
+    "release_date": "2017-08-15",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (For US)"
@@ -29,7 +575,7 @@
     "product_type": null,
     "version": "1.1.43",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA6900_1.1.43.182871_prod.img",
-    "release_date": "15.08.2017",
+    "release_date": "2017-08-15",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (For Other Regions)"
@@ -41,7 +587,7 @@
     "product_type": null,
     "version": "1.0.3.208179",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7200_1.0.3.208179_prod.img",
-    "release_date": "18.10.2021",
+    "release_date": "2021-10-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -53,7 +599,7 @@
     "product_type": null,
     "version": "1.0.1.209812",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7250_1.0.1.209812_prod.img",
-    "release_date": "20.04.2022",
+    "release_date": "2022-04-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -61,11 +607,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "EA7300 MAX-STREAM\u2122 AC1750 MU-MIMO Gigabit WiFi Router",
+    "product_name": "EA7300 MAX-STREAM AC1750 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "2.0.4.208179",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7300v2_2.0.4.208179_prod.img",
-    "release_date": "18.10.2021",
+    "release_date": "2021-10-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -73,11 +619,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "EA7300 MAX-STREAM\u2122 AC1750 MU-MIMO Gigabit WiFi Router",
+    "product_name": "EA7300 MAX-STREAM AC1750 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "1.0.11.200282",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7300_1.0.11.200282_prod.img",
-    "release_date": "30.03.2020",
+    "release_date": "2020-03-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -85,11 +631,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA7400 Max-Stream\u2122 AC1750 MU-MIMO Gigabit Router",
+    "product_name": "Linksys EA7400 Max-Stream AC1750 MU-MIMO Gigabit Router",
     "product_type": null,
     "version": "1.1.4.192824",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7400_1.1.4.192824_prod.gpg.img",
-    "release_date": "05.03.2019",
+    "release_date": "2019-03-05",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (For US only)"
@@ -97,11 +643,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA7400 Max-Stream\u2122 AC1750 MU-MIMO Gigabit Router",
+    "product_name": "Linksys EA7400 Max-Stream AC1750 MU-MIMO Gigabit Router",
     "product_type": null,
     "version": "1.1.4.192824",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7400_1.1.4.192824_prod.img",
-    "release_date": "05.03.2019",
+    "release_date": "2019-03-05",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (For Other Regions)"
@@ -113,7 +659,7 @@
     "product_type": null,
     "version": "1.0.1.209812",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7430_1.0.1.209812_prod.img",
-    "release_date": "20.04.2022",
+    "release_date": "2022-04-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -125,7 +671,7 @@
     "product_type": null,
     "version": "1.0.4.208179",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7450_1.0.4.208179_prod.img",
-    "release_date": "18.10.2021",
+    "release_date": "2021-10-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -133,11 +679,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA7500 Max-Stream\u2122 AC1900 MU-MIMO Gigabit WiFi Router",
+    "product_name": "Linksys EA7500 Max-Stream AC1900 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "3.0.1.207964",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7500v3_3.0.1.207964_prod.img",
-    "release_date": "13.09.2021",
+    "release_date": "2021-09-13",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -145,11 +691,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA7500 Max-Stream\u2122 AC1900 MU-MIMO Gigabit WiFi Router",
+    "product_name": "Linksys EA7500 Max-Stream AC1900 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "2.0.8.194281",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA7500v2_2.0.8.194281_prod.img",
-    "release_date": "15.08.2019",
+    "release_date": "2019-08-15",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -157,11 +703,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA7500 Max-Stream\u2122 AC1900 MU-MIMO Gigabit WiFi Router",
+    "product_name": "Linksys EA7500 Max-Stream AC1900 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "1.1.5.190349",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA7500_1.1.5.190349_prod.gpg.img",
-    "release_date": "29.08.2018",
+    "release_date": "2018-08-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (for US only) "
@@ -169,11 +715,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA7500 Max-Stream\u2122 AC1900 MU-MIMO Gigabit WiFi Router",
+    "product_name": "Linksys EA7500 Max-Stream AC1900 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "1.1.5.190349",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA7500_1.1.5.190349_prod.img",
-    "release_date": "29.08.2018",
+    "release_date": "2018-08-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (for other regions) "
@@ -185,7 +731,7 @@
     "product_type": null,
     "version": "2.0.4.209758",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA8100_2.0.4.209758_prod.img",
-    "release_date": "24.01.2022",
+    "release_date": "2022-01-24",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -197,7 +743,7 @@
     "product_type": null,
     "version": "1.0.3.204298",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA8100_1.0.3.204298_prod.img",
-    "release_date": "06.04.2021",
+    "release_date": "2021-04-06",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware for StarHub"
@@ -209,7 +755,7 @@
     "product_type": null,
     "version": "1.1.6.209797",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA8300_1.1.6.209797_prod.img",
-    "release_date": "28.02.2022",
+    "release_date": "2022-02-28",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -221,7 +767,7 @@
     "product_type": null,
     "version": "1.1.6.209797",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA8300_1.1.6.209797_prod.img",
-    "release_date": "28.02.2022",
+    "release_date": "2022-02-28",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -233,7 +779,7 @@
     "product_type": null,
     "version": "1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9200_1.1.9.183676_prod.gpg.img",
-    "release_date": "06.10.2017",
+    "release_date": "2017-10-06",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (for US)"
@@ -245,7 +791,7 @@
     "product_type": null,
     "version": "1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9200_1.1.9.183676_prod.img",
-    "release_date": "06.10.2017",
+    "release_date": "2017-10-06",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (for Other Regions)"
@@ -257,7 +803,7 @@
     "product_type": null,
     "version": "1.1.7",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9200_1.1.7.172584_prod.img",
-    "release_date": "25.05.2016",
+    "release_date": "2016-05-25",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -269,7 +815,7 @@
     "product_type": null,
     "version": "1.1.9.183697",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9300_1.1.9.183697_prod.img",
-    "release_date": "10.10.2017",
+    "release_date": "2017-10-10",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -281,7 +827,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9400_1.0.3.181249_prod.gpg.img",
-    "release_date": "29.06.2017",
+    "release_date": "2017-06-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (For US only)"
@@ -293,7 +839,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9400_1.0.3.181249_prod.img",
-    "release_date": "29.06.2017",
+    "release_date": "2017-06-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (For Other Regions)"
@@ -301,17 +847,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA9500 Max-Stream\u2122 AC5400 MU-MIMO Gigabit WiFi Router",
+    "product_name": "Linksys EA9500 Max-Stream AC5400 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "2.1.1.186574",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_EA9500v2_EA9500S_2.1.1.186574_prod.img",
-    "release_date": [
-      "Ver. 2.1.1.186574",
-      "Latest Date: 3/9/2018",
-      "Download 42.3 MB",
-      "",
-      "Release Notes"
-    ],
+    "release_date": "2018-03-09",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -319,17 +859,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA9500 Max-Stream\u2122 AC5400 MU-MIMO Gigabit WiFi Router",
+    "product_name": "Linksys EA9500 Max-Stream AC5400 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "1.1.9.210876",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA9500_1.1.9.210876_prod.gpg.img",
-    "release_date": [
-      "Ver. 1.1.9.210876",
-      "Latest Date: 9/1/2022",
-      "Download 20.4 MB",
-      "",
-      "Release Notes"
-    ],
+    "release_date": "2022-09-01",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -337,17 +871,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "Linksys EA9500 Max-Stream\u2122 AC5400 MU-MIMO Gigabit WiFi Router",
+    "product_name": "Linksys EA9500 Max-Stream AC5400 MU-MIMO Gigabit WiFi Router",
     "product_type": null,
     "version": "1.1.9.210876",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_EA9500_1.1.9.210876_prod.gpg.img",
-    "release_date": [
-      "Ver. 1.1.9.210876",
-      "Latest Date: 9/1/2022",
-      "Download 20.4 MB",
-      "",
-      "Release Notes"
-    ],
+    "release_date": "2022-09-01",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -359,7 +887,7 @@
     "product_type": null,
     "version": "3.5.0",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1200C_3.5.0_Customer_Release_Note.txt",
-    "release_date": "30.11.2021",
+    "release_date": "2021-11-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -371,7 +899,7 @@
     "product_type": null,
     "version": "1.0.01.000",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_LAPAC1200C_LAPAC1750C_1.0.01.000_prod.gpg.img",
-    "release_date": "30.08.2019",
+    "release_date": "2019-08-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -383,7 +911,7 @@
     "product_type": null,
     "version": "3.5.0",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1300CV1_3.5.0_Customer_Release_Note.txt",
-    "release_date": "30.11.2021",
+    "release_date": "2021-11-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -395,7 +923,7 @@
     "product_type": null,
     "version": "3.5.0",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1300CEv1_3.5.0_Customer_Release_Note.txt",
-    "release_date": "30.11.2021",
+    "release_date": "2021-11-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -407,7 +935,7 @@
     "product_type": null,
     "version": "3.5.0",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1300CWv1_3.5.0_Customer_Release_Note.txt",
-    "release_date": "30.11.2021",
+    "release_date": "2021-11-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -419,7 +947,7 @@
     "product_type": null,
     "version": "3.5.0",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC1750C_3.5.0_Customer_Release_Note.txt",
-    "release_date": "30.11.2021",
+    "release_date": "2021-11-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -431,7 +959,7 @@
     "product_type": null,
     "version": "1.0.01.000",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_LAPAC1200C_LAPAC1750C_1.0.01.000_prod.gpg.img",
-    "release_date": "30.08.2019",
+    "release_date": "2019-08-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -443,7 +971,7 @@
     "product_type": null,
     "version": "1.0.8.001",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_LAPAC1750PRO_1.0.8.build.001.gpg.tar",
-    "release_date": "27.02.2018",
+    "release_date": "2018-02-27",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -455,7 +983,7 @@
     "product_type": null,
     "version": "1.0.7.007",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_LAPAC1750PRO_1.0.7.build.007.tar",
-    "release_date": "26.08.2016",
+    "release_date": "2016-08-26",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -467,7 +995,7 @@
     "product_type": null,
     "version": "1.0.04.001",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_LAPAC2600_1.0.04.001.gpg.img",
-    "release_date": "21.12.2017",
+    "release_date": "2017-12-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -479,19 +1007,7 @@
     "product_type": null,
     "version": "3.5.0",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAC2600C_3.5.0_Customer_Release_Note.txt",
-    "release_date": "30.11.2021",
-    "checksum_scraped": null,
-    "additional_data": {
-      "region": "Firmware all regions"
-    }
-  },
-  {
-    "manufacturer": "Linksys",
-    "product_name": "LAPAC2600C Business AC2600 Dual-Band Cloud AC Wave 2 Wireless Access Point",
-    "product_type": null,
-    "version": "1.0.00.003",
-    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_LAPAC2600C_1.0.00.003_prod.gpg.img",
-    "release_date": "20.03.2020",
+    "release_date": "2021-11-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -503,7 +1019,7 @@
     "product_type": null,
     "version": "3.10.2",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/LAPAX3600CV1_3.10.2_Customer_Release_Note.txt",
-    "release_date": "24.10.2022",
+    "release_date": "2022-10-24",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -515,7 +1031,7 @@
     "product_type": null,
     "version": "1.0.1.05",
     "download_link": "https://downloads.linksys.com/downloads/firmware/LCAB03VLNOD_1.0.1.05_FW.bin",
-    "release_date": "05.05.2015",
+    "release_date": "2015-05-05",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -527,7 +1043,7 @@
     "product_type": null,
     "version": "1.0.1.05",
     "download_link": "https://downloads.linksys.com/downloads/firmware/LCAD03FLN_1.0.1.05_FW.bin",
-    "release_date": "05.05.2015",
+    "release_date": "2015-05-05",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -539,7 +1055,7 @@
     "product_type": null,
     "version": "1.0.1.05",
     "download_link": "https://downloads.linksys.com/downloads/firmware/LCAD03VLNOD_1.0.1.05_FW.bin",
-    "release_date": "05.05.2015",
+    "release_date": "2015-05-05",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -551,7 +1067,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/downloads/firmware/LCAM0336OD_1.0.1.05_FW.bin",
-    "release_date": "05.05.2015",
+    "release_date": "2015-05-05",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -563,11 +1079,7 @@
     "product_type": null,
     "version": "1.1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
-    "release_date": [
-      "Ver. 1.1.1.9",
-      "Latest Date: 05/22/2018",
-      "Download 6.8 MB "
-    ],
+    "release_date": "2018-05-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -579,11 +1091,7 @@
     "product_type": null,
     "version": "1.1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
-    "release_date": [
-      "Ver. 1.1.1.9",
-      "Latest Date: 05/22/2018",
-      "Download 6.8 MB "
-    ],
+    "release_date": "2018-05-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -595,7 +1103,7 @@
     "product_type": null,
     "version": "1.01.02.02",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS310MPC-LGS310C_v1.01.02.02.imag",
-    "release_date": "02.06.2022",
+    "release_date": "2022-06-02",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -607,7 +1115,7 @@
     "product_type": null,
     "version": "1.01.02.02",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS310MPC-LGS310C_v1.01.02.02.imag",
-    "release_date": "02.06.2022",
+    "release_date": "2022-06-02",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -619,11 +1127,7 @@
     "product_type": null,
     "version": "1.1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
-    "release_date": [
-      "Ver. 1.1.1.9",
-      "Latest Date: 05/22/2018",
-      "Download 6.8 MB "
-    ],
+    "release_date": "2018-05-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -635,11 +1139,7 @@
     "product_type": null,
     "version": "1.1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
-    "release_date": [
-      "Ver. 1.1.1.9",
-      "Latest Date: 05/22/2018",
-      "Download 6.8 MB "
-    ],
+    "release_date": "2018-05-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -651,11 +1151,7 @@
     "product_type": null,
     "version": "1.1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
-    "release_date": [
-      "Ver. 1.1.1.9",
-      "Latest Date: 05/22/2018",
-      "Download 6.8 MB "
-    ],
+    "release_date": "2018-05-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -667,11 +1163,7 @@
     "product_type": null,
     "version": "1.1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
-    "release_date": [
-      "Ver. 1.1.1.9",
-      "Latest Date: 05/22/2018",
-      "Download 6.8 MB "
-    ],
+    "release_date": "2018-05-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -683,11 +1175,7 @@
     "product_type": null,
     "version": "1.1.1.9",
     "download_link": "https://downloads.linksys.com/downloads/firmware/linksys_smart-1119.ros",
-    "release_date": [
-      "Ver. 1.1.1.9",
-      "Latest Date: 05/22/2018",
-      "Download 6.8 MB "
-    ],
+    "release_date": "2018-05-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -699,7 +1187,7 @@
     "product_type": null,
     "version": "1.01.01.02",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328C-LGS352C_v1.01.01.02.imag",
-    "release_date": "21.03.2022",
+    "release_date": "2022-03-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -711,7 +1199,7 @@
     "product_type": null,
     "version": "1.01.01.02",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328MPC-LGS352MPC_v1.01.01.02.imag",
-    "release_date": "21.03.2022",
+    "release_date": "2022-03-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -723,7 +1211,7 @@
     "product_type": null,
     "version": "1.01.02.02",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328PC_v1.01.02.02.imag",
-    "release_date": "02.06.2022",
+    "release_date": "2022-06-02",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -735,7 +1223,7 @@
     "product_type": null,
     "version": "1.01.01.02",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328C-LGS352C_v1.01.01.02.imag",
-    "release_date": "21.03.2022",
+    "release_date": "2022-03-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -747,7 +1235,7 @@
     "product_type": null,
     "version": "1.01.01.02",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS328MPC-LGS352MPC_v1.01.01.02.imag",
-    "release_date": "21.03.2022",
+    "release_date": "2022-03-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -759,7 +1247,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS500-11029.ros",
-    "release_date": "10.06.2019",
+    "release_date": "2019-06-10",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -771,7 +1259,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS500-11029.ros",
-    "release_date": "10.06.2019",
+    "release_date": "2019-06-10",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -783,7 +1271,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LGS500-11029.ros",
-    "release_date": "10.06.2019",
+    "release_date": "2019-06-10",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -795,7 +1283,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/downloads/firmware/1224703272375/LNR0208C_1.0.01.04_082014.bin",
-    "release_date": "30.10.2014",
+    "release_date": "2014-10-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -807,7 +1295,7 @@
     "product_type": null,
     "version": "1.0.7.06",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LRT2x4_v1.0.7.06_20201016.bin",
-    "release_date": "18.03.2021",
+    "release_date": "2021-03-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -819,7 +1307,7 @@
     "product_type": null,
     "version": "1.0.7.06",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/LRT2x4_v1.0.7.06_20201016.bin",
-    "release_date": "18.03.2021",
+    "release_date": "2021-03-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -831,7 +1319,7 @@
     "product_type": null,
     "version": "1.1.5.210166",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR2000_1.1.5.210166_prod.img",
-    "release_date": "12.04.2022",
+    "release_date": "2022-04-12",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -843,7 +1331,7 @@
     "product_type": null,
     "version": "1.1.5.210166",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR2000_1.1.5.210166_prod.img",
-    "release_date": "12.04.2022",
+    "release_date": "2022-04-12",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -855,7 +1343,7 @@
     "product_type": null,
     "version": "1.1.2.209598",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR5500_1.1.2.209598_prod.img",
-    "release_date": "17.12.2021",
+    "release_date": "2021-12-17",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -867,7 +1355,7 @@
     "product_type": null,
     "version": "1.1.3.210129",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR6350_1.1.3.210129_prod.img",
-    "release_date": "19.05.2022",
+    "release_date": "2022-05-19",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -879,7 +1367,7 @@
     "product_type": null,
     "version": "1.1.7.209317",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7350_1.1.7.209317_prod.img",
-    "release_date": "21.12.2021",
+    "release_date": "2021-12-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -891,7 +1379,7 @@
     "product_type": null,
     "version": "1.1.7.209317",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7350_1.1.7.209317_prod.img",
-    "release_date": "21.12.2021",
+    "release_date": "2021-12-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -903,7 +1391,7 @@
     "product_type": null,
     "version": "1.1.7.209317",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7350_1.1.7.209317_prod.img",
-    "release_date": "21.12.2021",
+    "release_date": "2021-12-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -915,7 +1403,7 @@
     "product_type": null,
     "version": "1.1.7.209317",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7350_1.1.7.209317_prod.img",
-    "release_date": "21.12.2021",
+    "release_date": "2021-12-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -927,7 +1415,7 @@
     "product_type": null,
     "version": "1.1.11.211424",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7500_1.1.11.211424_prod.img",
-    "release_date": "21.10.2022",
+    "release_date": "2022-10-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -939,7 +1427,7 @@
     "product_type": null,
     "version": "1.1.11.211424",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR7500_1.1.11.211424_prod.img",
-    "release_date": "21.10.2022",
+    "release_date": "2022-10-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -951,7 +1439,7 @@
     "product_type": null,
     "version": "1.1.10.210186",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR8300_1.1.10.210186_prod.img",
-    "release_date": "19.04.2022",
+    "release_date": "2022-04-19",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -963,7 +1451,7 @@
     "product_type": null,
     "version": "1.1.10.210186",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR8300_1.1.10.210186_prod.img",
-    "release_date": "19.04.2022",
+    "release_date": "2022-04-19",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -975,7 +1463,7 @@
     "product_type": null,
     "version": "1.1.3.210125",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9000_1.1.3.210125_prod.img",
-    "release_date": "06.04.2022",
+    "release_date": "2022-04-06",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -987,7 +1475,7 @@
     "product_type": null,
     "version": "2.0.6.206937",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9600_2.0.6.206937_prod.img",
-    "release_date": "23.06.2021",
+    "release_date": "2021-06-23",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -999,7 +1487,7 @@
     "product_type": null,
     "version": "1.0.4.205530",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9600_1.0.4.205530_prod.img",
-    "release_date": "22.04.2021",
+    "release_date": "2021-04-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1011,7 +1499,7 @@
     "product_type": null,
     "version": "2.0.6.206937",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9600_2.0.6.206937_prod.img",
-    "release_date": "23.06.2021",
+    "release_date": "2021-06-23",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1023,7 +1511,7 @@
     "product_type": null,
     "version": "1.0.4.205530",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MR9600_1.0.4.205530_prod.img",
-    "release_date": "22.04.2021",
+    "release_date": "2021-04-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1035,7 +1523,7 @@
     "product_type": null,
     "version": "1.1.12.210066",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5300_1.1.12.210066_prod.img",
-    "release_date": "14.04.2022",
+    "release_date": "2022-04-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1047,7 +1535,7 @@
     "product_type": null,
     "version": "2.0.6.210829",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_2.0.6.210829_prod.img",
-    "release_date": "14.07.2022",
+    "release_date": "2022-07-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1059,7 +1547,7 @@
     "product_type": null,
     "version": "1.0.13.210200",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_1.0.13.210200_prod.img",
-    "release_date": "14.09.2022",
+    "release_date": "2022-09-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1071,7 +1559,7 @@
     "product_type": null,
     "version": "1.0.10.210447",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX42SH_1.0.10.210447_prod.img",
-    "release_date": "01.08.2022",
+    "release_date": "2022-08-01",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware upgrade for StarHub routers   "
@@ -1083,7 +1571,7 @@
     "product_type": null,
     "version": "1.1.7.210469",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000_1.1.7.210469_prod.img",
-    "release_date": "29.06.2022",
+    "release_date": "2022-06-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1095,7 +1583,7 @@
     "product_type": null,
     "version": "1.1.7.211289",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000SH_1.1.7.211289_prod.img",
-    "release_date": "26.10.2022",
+    "release_date": "2022-10-26",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware upgrade for StarHub routers   "
@@ -1107,7 +1595,7 @@
     "product_type": null,
     "version": "1.1.7.210469",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000_1.1.7.210469_prod.img",
-    "release_date": "29.06.2022",
+    "release_date": "2022-06-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1119,7 +1607,7 @@
     "product_type": null,
     "version": "1.1.7.211289",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000SH_1.1.7.211289_prod.img",
-    "release_date": "26.10.2022",
+    "release_date": "2022-10-26",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware upgrade for StarHub routers   "
@@ -1131,7 +1619,7 @@
     "product_type": null,
     "version": "1.1.7.210469",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000_1.1.7.210469_prod.img",
-    "release_date": "29.06.2022",
+    "release_date": "2022-06-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1143,7 +1631,7 @@
     "product_type": null,
     "version": "1.1.7.211289",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX2000SH_1.1.7.211289_prod.img",
-    "release_date": "26.10.2022",
+    "release_date": "2022-10-26",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware upgrade for StarHub routers   "
@@ -1155,7 +1643,7 @@
     "product_type": null,
     "version": "2.0.6.210829",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_2.0.6.210829_prod.img",
-    "release_date": "14.07.2022",
+    "release_date": "2022-07-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1167,7 +1655,7 @@
     "product_type": null,
     "version": "1.0.13.210200",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_1.0.13.210200_prod.img",
-    "release_date": "14.09.2022",
+    "release_date": "2022-09-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1179,7 +1667,7 @@
     "product_type": null,
     "version": "1.0.10.210447",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX42SH_1.0.10.210447_prod.img",
-    "release_date": "01.08.2022",
+    "release_date": "2022-08-01",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware upgrade for StarHub routers   "
@@ -1191,7 +1679,7 @@
     "product_type": null,
     "version": "3.10.2",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/MX4300V1_3.10.2_Customer_Release_Note.txt",
-    "release_date": "18.10.2022",
+    "release_date": "2022-10-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1203,7 +1691,7 @@
     "product_type": null,
     "version": "3.10.2",
     "download_link": "https://downloads.linksys.com/support/assets/releasenotes/MX4300V1_3.10.2_Customer_Release_Note.txt",
-    "release_date": "18.10.2022",
+    "release_date": "2022-10-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1215,7 +1703,7 @@
     "product_type": null,
     "version": "1.1.12.210066",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5300_1.1.12.210066_prod.img",
-    "release_date": "14.04.2022",
+    "release_date": "2022-04-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1227,7 +1715,7 @@
     "product_type": null,
     "version": "1.1.12.210066",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5300_1.1.12.210066_prod.img",
-    "release_date": "14.04.2022",
+    "release_date": "2022-04-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1239,7 +1727,7 @@
     "product_type": null,
     "version": "1.1.5.209977",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5500_1.1.5.209977_prod.img",
-    "release_date": "07.03.2022",
+    "release_date": "2022-03-07",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1251,7 +1739,7 @@
     "product_type": null,
     "version": "1.1.5.209977",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5500_1.1.5.209977_prod.img",
-    "release_date": "07.03.2022",
+    "release_date": "2022-03-07",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1263,7 +1751,7 @@
     "product_type": null,
     "version": "1.1.5.209977",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5500_1.1.5.209977_prod.img",
-    "release_date": "07.03.2022",
+    "release_date": "2022-03-07",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1275,7 +1763,7 @@
     "product_type": null,
     "version": "1.1.5.209977",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX5500_1.1.5.209977_prod.img",
-    "release_date": "07.03.2022",
+    "release_date": "2022-03-07",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1287,7 +1775,7 @@
     "product_type": null,
     "version": "2.0.6.210829",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_2.0.6.210829_prod.img",
-    "release_date": "14.07.2022",
+    "release_date": "2022-07-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1299,7 +1787,7 @@
     "product_type": null,
     "version": "1.0.13.210200",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_1.0.13.210200_prod.img",
-    "release_date": "14.09.2022",
+    "release_date": "2022-09-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1311,7 +1799,7 @@
     "product_type": null,
     "version": "1.0.10.210447",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX42SH_1.0.10.210447_prod.img",
-    "release_date": "01.08.2022",
+    "release_date": "2022-08-01",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware upgrade for StarHub routers   "
@@ -1323,7 +1811,7 @@
     "product_type": null,
     "version": "2.0.6.210829",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_2.0.6.210829_prod.img",
-    "release_date": "14.07.2022",
+    "release_date": "2022-07-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1335,7 +1823,7 @@
     "product_type": null,
     "version": "1.0.13.210200",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX4200_1.0.13.210200_prod.img",
-    "release_date": "14.09.2022",
+    "release_date": "2022-09-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1347,7 +1835,7 @@
     "product_type": null,
     "version": "1.0.10.210447",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX42SH_1.0.10.210447_prod.img",
-    "release_date": "01.08.2022",
+    "release_date": "2022-08-01",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware upgrade for StarHub routers   "
@@ -1359,7 +1847,7 @@
     "product_type": null,
     "version": "1.0.11.208937",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX8500_1.0.11.208937_prod.img",
-    "release_date": "03.11.2021",
+    "release_date": "2021-11-03",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1371,7 +1859,7 @@
     "product_type": null,
     "version": "1.0.11.208937",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX8500_1.0.11.208937_prod.img",
-    "release_date": "03.11.2021",
+    "release_date": "2021-11-03",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1383,7 +1871,7 @@
     "product_type": null,
     "version": "1.0.11.208937",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_MX8500_1.0.11.208937_prod.img",
-    "release_date": "03.11.2021",
+    "release_date": "2021-11-03",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1395,31 +1883,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE1000v2_v2.0.04.001_20180227.bin",
-    "release_date": "11.05.2018",
-    "checksum_scraped": null,
-    "additional_data": {
-      "region": "Firmware all regions"
-    }
-  },
-  {
-    "manufacturer": "Linksys",
-    "product_name": "Linksys RE1000 Wireless Range Extender N300",
-    "product_type": null,
-    "version": "",
-    "download_link": "https://downloads.linksys.com/downloads/firmware/1224668719651/FW_RE1000_1.0.02.001_US_20120214_SHIPPING.bin",
-    "release_date": "13.02.2012",
-    "checksum_scraped": null,
-    "additional_data": {
-      "region": "Firmware all regions"
-    }
-  },
-  {
-    "manufacturer": "Linksys",
-    "product_name": "Linksys RE1000 Wireless Range Extender N300",
-    "product_type": null,
-    "version": "",
-    "download_link": "https://downloads.linksys.com/downloads/firmware/1224668719651/FW_RE1000_1.0.02.001_US_20120214_SHIPPING.bin",
-    "release_date": "13.02.2012",
+    "release_date": "2018-05-11",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1431,7 +1895,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE2000v2_v2.0.01.005_20180321.bin",
-    "release_date": "11.05.2018",
+    "release_date": "2018-05-11",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1443,7 +1907,7 @@
     "product_type": null,
     "version": "",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE2000_v1.0.03.001_20180205.bin",
-    "release_date": "11.05.2018",
+    "release_date": "2018-05-11",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1455,11 +1919,7 @@
     "product_type": null,
     "version": "2.0.05.001",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE3000Wv2_v2.0.05.001_20200226.bin",
-    "release_date": [
-      "Ver. 2.0.05.001",
-      "Latest Date: 3/11/2020",
-      "Download 3.5 MB"
-    ],
+    "release_date": "2020-03-11",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1471,11 +1931,7 @@
     "product_type": null,
     "version": "1.0.01.001",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE3000W_v1.0.01.001_20180306.bin",
-    "release_date": [
-      "Ver. 1.0.01.001",
-      "Latest Date: 05/04/2018",
-      "Download 3.3 MB "
-    ],
+    "release_date": "2018-05-04",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1487,11 +1943,7 @@
     "product_type": null,
     "version": "1.0.01.001",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4000W_v1.0.01.001_20180321.bin",
-    "release_date": [
-      "Ver. 1.0.01.001",
-      "Latest Date: 5/11/2018",
-      "Download 3.2 MB "
-    ],
+    "release_date": "2018-05-11",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1503,7 +1955,7 @@
     "product_type": null,
     "version": "1.0.03.002",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.03.002_20171228.gpg.bin",
-    "release_date": "13.03.2018",
+    "release_date": "2018-03-13",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1515,7 +1967,7 @@
     "product_type": null,
     "version": "1.0.01.009",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.01.009_20160304.bin",
-    "release_date": "21.03.2016",
+    "release_date": "2016-03-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1527,7 +1979,7 @@
     "product_type": null,
     "version": "1.0.03.002",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.03.002_20171228.bin",
-    "release_date": "13.03.2018",
+    "release_date": "2018-03-13",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1539,7 +1991,7 @@
     "product_type": null,
     "version": "1.0.03.002",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.03.002_20171228.gpg.bin",
-    "release_date": "13.03.2018",
+    "release_date": "2018-03-13",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1551,7 +2003,7 @@
     "product_type": null,
     "version": "1.0.01.009",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.01.009_20160304.bin",
-    "release_date": "21.03.2016",
+    "release_date": "2016-03-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1563,7 +2015,7 @@
     "product_type": null,
     "version": "1.0.03.002",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4100W_v1.0.03.002_20171228.bin",
-    "release_date": "13.03.2018",
+    "release_date": "2018-03-13",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1575,7 +2027,7 @@
     "product_type": null,
     "version": "1.0.04.001",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6250_v1.0.04.001_20211028.gpg.bin",
-    "release_date": "03.11.2021",
+    "release_date": "2021-11-03",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1587,7 +2039,7 @@
     "product_type": null,
     "version": "2.0.05.115",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6300_2.0.05.115_prod.img",
-    "release_date": "30.08.2021",
+    "release_date": "2021-08-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1599,7 +2051,7 @@
     "product_type": null,
     "version": "1.2.07.001",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6300_RE6400_v1.2.07.001_20210917.gpg.bin",
-    "release_date": "13.10.2021",
+    "release_date": "2021-10-13",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1611,7 +2063,7 @@
     "product_type": null,
     "version": "1.0.04.001",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6350_v1.0.04.001_20211028.gpg.bin",
-    "release_date": "03.11.2021",
+    "release_date": "2021-11-03",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1623,7 +2075,7 @@
     "product_type": null,
     "version": "2.0.05.128",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6400_2.0.05.128_prod.img",
-    "release_date": "26.11.2021",
+    "release_date": "2021-11-26",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1635,7 +2087,7 @@
     "product_type": null,
     "version": "1.2.07.001",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6300_RE6400_v1.2.07.001_20210917.gpg.bin",
-    "release_date": "13.10.2021",
+    "release_date": "2021-10-13",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1647,7 +2099,7 @@
     "product_type": null,
     "version": "1.0.013.001",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6500_v1.0.013.001_20210924.gpg.bin",
-    "release_date": "19.10.2021",
+    "release_date": "2021-10-19",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1659,7 +2111,31 @@
     "product_type": null,
     "version": "1.0.05.003",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE6500_v1.0.05.003_20160305.bin",
-    "release_date": "29.04.2016",
+    "release_date": "2016-04-29",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6500HG AC1200 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.013.001",
+    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6500_v1.0.013.001_20210924.gpg.bin",
+    "release_date": "2021-10-19",
+    "checksum_scraped": null,
+    "additional_data": {
+      "region": "Firmware all regions"
+    }
+  },
+  {
+    "manufacturer": "Linksys",
+    "product_name": "Linksys RE6500HG AC1200 Dual-Band WiFi Extender",
+    "product_type": null,
+    "version": "1.0.05.003",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE6500_v1.0.05.003_20160305.bin",
+    "release_date": "2016-04-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1671,7 +2147,7 @@
     "product_type": null,
     "version": "1.2.07.001",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6700_v1.2.07.001_20210917.gpg.bin",
-    "release_date": "12.10.2021",
+    "release_date": "2021-10-12",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1683,7 +2159,7 @@
     "product_type": null,
     "version": "1.1.05.003",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE6800_v1.1.05.003_20211214.gpg.bin",
-    "release_date": "29.12.2021",
+    "release_date": "2021-12-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1695,7 +2171,7 @@
     "product_type": null,
     "version": "2.0.15",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/RE7000v2_PROD_FW_v2.0.15_211230_1012.bin",
-    "release_date": "30.12.2021",
+    "release_date": "2021-12-30",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1707,7 +2183,7 @@
     "product_type": null,
     "version": "1.1.05.003",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE7000_v1.1.05.003_20211214.gpg.bin",
-    "release_date": "29.12.2021",
+    "release_date": "2021-12-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1719,7 +2195,7 @@
     "product_type": null,
     "version": "1.0.04.246",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE7350_RE7310_1.0.04.246_prod.bin",
-    "release_date": "14.02.2022",
+    "release_date": "2022-02-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1731,7 +2207,7 @@
     "product_type": null,
     "version": "1.0.04.246",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE7350_RE7310_1.0.04.246_prod.bin",
-    "release_date": "14.02.2022",
+    "release_date": "2022-02-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1743,7 +2219,7 @@
     "product_type": null,
     "version": "1.0.04.002",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_RE9000_v1.0.04.002_20211108.gpg.bin",
-    "release_date": "19.11.2021",
+    "release_date": "2021-11-19",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1755,11 +2231,7 @@
     "product_type": null,
     "version": "1.0.00.006",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_RE4000W_v1.0.00.006_20140402,0.bin",
-    "release_date": [
-      "Ver. 1.0.00.006",
-      "Latest Date: 04/02/2014",
-      "Download 3.2 MB "
-    ],
+    "release_date": "2014-04-02",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1771,7 +2243,7 @@
     "product_type": null,
     "version": "1.1.13.202617",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
-    "release_date": "18.09.2020",
+    "release_date": "2020-09-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1783,7 +2255,7 @@
     "product_type": null,
     "version": "1.1.13.202617",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
-    "release_date": "18.09.2020",
+    "release_date": "2020-09-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1795,7 +2267,7 @@
     "product_type": null,
     "version": "1.1.13.202617",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
-    "release_date": "18.09.2020",
+    "release_date": "2020-09-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1807,7 +2279,7 @@
     "product_type": null,
     "version": "1.1.13.202617",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
-    "release_date": "18.09.2020",
+    "release_date": "2020-09-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1819,7 +2291,7 @@
     "product_type": null,
     "version": "1.1.13.202617",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
-    "release_date": "18.09.2020",
+    "release_date": "2020-09-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1831,12 +2303,7 @@
     "product_type": null,
     "version": "2.1.19.209783",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
-    "release_date": [
-      "Ver. 2.1.19.209783",
-      "Latest Date: 6/20/2022",
-      "Download 57.4 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1848,12 +2315,7 @@
     "product_type": null,
     "version": "1.1.19.209880",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
-    "release_date": [
-      "Ver. 1.1.19.209880",
-      "Latest Date: 6/20/2022",
-      "Download 122 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1865,11 +2327,7 @@
     "product_type": null,
     "version": "1.0.06.001",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WAP300N_v1.0.06.001_20180126.gpg.bin",
-    "release_date": [
-      "Ver. 1.0.06.001",
-      "Latest Date: 5/2/2018",
-      "Download 5.2 MB"
-    ],
+    "release_date": "2018-05-02",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1881,11 +2339,7 @@
     "product_type": null,
     "version": "1.0.04.005",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WAP300N_v1.0.04.005_20160310.bin",
-    "release_date": [
-      "Ver. 1.0.04.005",
-      "Latest Date: 3/10/2016",
-      "Download 5.3 MB"
-    ],
+    "release_date": "2016-03-10",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1897,7 +2351,7 @@
     "product_type": null,
     "version": "1.1.13.202617",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
-    "release_date": "18.09.2020",
+    "release_date": "2020-09-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1909,7 +2363,7 @@
     "product_type": null,
     "version": "1.1.13.202795",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01P_1.1.13.202795_prod.img",
-    "release_date": "21.10.2020",
+    "release_date": "2020-10-21",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1921,7 +2375,7 @@
     "product_type": null,
     "version": "1.1.13.202617",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
-    "release_date": "18.09.2020",
+    "release_date": "2020-09-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1933,7 +2387,7 @@
     "product_type": null,
     "version": "1.1.13.202617",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW01_1.1.13.202617_prod.img",
-    "release_date": "18.09.2020",
+    "release_date": "2020-09-18",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1945,12 +2399,7 @@
     "product_type": null,
     "version": "2.1.19.209783",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
-    "release_date": [
-      "Ver. 2.1.19.209783",
-      "Latest Date: 6/20/2022",
-      "Download 57.4 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1962,12 +2411,7 @@
     "product_type": null,
     "version": "1.1.19.209880",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
-    "release_date": [
-      "Ver. 1.1.19.209880",
-      "Latest Date: 6/20/2022",
-      "Download 122 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1979,12 +2423,7 @@
     "product_type": null,
     "version": "2.1.19.209783",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
-    "release_date": [
-      "Ver. 2.1.19.209783",
-      "Latest Date: 6/20/2022",
-      "Download 57.4 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -1996,12 +2435,7 @@
     "product_type": null,
     "version": "1.1.19.209880",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
-    "release_date": [
-      "Ver. 1.1.19.209880",
-      "Latest Date: 6/20/2022",
-      "Download 122 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2009,16 +2443,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0301 - Tri-Band Intelligent Mesh\u2122 WiFi 5 Router",
+    "product_name": "WHW0301 - Tri-Band Intelligent Mesh WiFi 5 Router",
     "product_type": null,
     "version": "2.1.19.209783",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
-    "release_date": [
-      "Ver. 2.1.19.209783",
-      "Latest Date: 6/20/2022",
-      "Download 57.4 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2026,16 +2455,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0301 - Tri-Band Intelligent Mesh\u2122 WiFi 5 Router",
+    "product_name": "WHW0301 - Tri-Band Intelligent Mesh WiFi 5 Router",
     "product_type": null,
     "version": "1.1.19.209880",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
-    "release_date": [
-      "Ver. 1.1.19.209880",
-      "Latest Date: 6/20/2022",
-      "Download 122 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2043,16 +2467,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0302 - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 2-Pack",
+    "product_name": "WHW0302 - Tri-Band Intelligent Mesh WiFi 5 System 2-Pack",
     "product_type": null,
     "version": "2.1.19.209783",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
-    "release_date": [
-      "Ver. 2.1.19.209783",
-      "Latest Date: 6/20/2022",
-      "Download 57.4 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2060,16 +2479,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0302 - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 2-Pack",
+    "product_name": "WHW0302 - Tri-Band Intelligent Mesh WiFi 5 System 2-Pack",
     "product_type": null,
     "version": "1.1.19.209880",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
-    "release_date": [
-      "Ver. 1.1.19.209880",
-      "Latest Date: 6/20/2022",
-      "Download 122 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2077,16 +2491,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0302B - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 2-Pack (Black)",
+    "product_name": "WHW0302B - Tri-Band Intelligent Mesh WiFi 5 System 2-Pack (Black)",
     "product_type": null,
     "version": "2.1.19.209783",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
-    "release_date": [
-      "Ver. 2.1.19.209783",
-      "Latest Date: 6/20/2022",
-      "Download 57.4 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2094,16 +2503,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0302B - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 2-Pack (Black)",
+    "product_name": "WHW0302B - Tri-Band Intelligent Mesh WiFi 5 System 2-Pack (Black)",
     "product_type": null,
     "version": "1.1.19.209880",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
-    "release_date": [
-      "Ver. 1.1.19.209880",
-      "Latest Date: 6/20/2022",
-      "Download 122 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2111,16 +2515,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0303 - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 3-Pack",
+    "product_name": "WHW0303 - Tri-Band Intelligent Mesh WiFi 5 System 3-Pack",
     "product_type": null,
     "version": "2.1.19.209783",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
-    "release_date": [
-      "Ver. 2.1.19.209783",
-      "Latest Date: 6/20/2022",
-      "Download 57.4 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2128,16 +2527,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0303 - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 3-Pack",
+    "product_name": "WHW0303 - Tri-Band Intelligent Mesh WiFi 5 System 3-Pack",
     "product_type": null,
     "version": "1.1.19.209880",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
-    "release_date": [
-      "Ver. 1.1.19.209880",
-      "Latest Date: 6/20/2022",
-      "Download 122 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2145,16 +2539,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0303B - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 3-Pack (Black)",
+    "product_name": "WHW0303B - Tri-Band Intelligent Mesh WiFi 5 System 3-Pack (Black)",
     "product_type": null,
     "version": "2.1.19.209783",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_2.1.19.209783_prod.img",
-    "release_date": [
-      "Ver. 2.1.19.209783",
-      "Latest Date: 6/20/2022",
-      "Download 57.4 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2162,16 +2551,11 @@
   },
   {
     "manufacturer": "Linksys",
-    "product_name": "WHW0303B - Tri-Band Intelligent Mesh\u2122 WiFi 5 System 3-Pack (Black)",
+    "product_name": "WHW0303B - Tri-Band Intelligent Mesh WiFi 5 System 3-Pack (Black)",
     "product_type": null,
     "version": "1.1.19.209880",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WHW03_1.1.19.209880_prod.img",
-    "release_date": [
-      "Ver. 1.1.19.209880",
-      "Latest Date: 6/20/2022",
-      "Download 122 MB",
-      "Release Notes"
-    ],
+    "release_date": "2022-06-20",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2183,7 +2567,7 @@
     "product_type": null,
     "version": "2.0.6.191786",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1200ACV2_2.0.6.191786_prod.img",
-    "release_date": "10.12.2018",
+    "release_date": "2018-12-10",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2195,7 +2579,7 @@
     "product_type": null,
     "version": "1.0.5.187766",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1200AC_1.0.5.187766_prod.img",
-    "release_date": "01.05.2018",
+    "release_date": "2018-05-01",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2207,7 +2591,7 @@
     "product_type": null,
     "version": "2.0.8.187766",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1900ACv2_2.0.8.187766_prod.img",
-    "release_date": "26.04.2018",
+    "release_date": "2018-04-26",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2219,7 +2603,7 @@
     "product_type": null,
     "version": "1.1.10.187766",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1900AC_1.1.10.187766_prod.img",
-    "release_date": "12.04.2018",
+    "release_date": "2018-04-12",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2229,9 +2613,9 @@
     "manufacturer": "Linksys",
     "product_name": "WRT1900ACS Dual-Band Wi-Fi Router with Ultra-Fast 1.6 GHz CPU",
     "product_type": null,
-    "version": "2.0.3.201002",
-    "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WRT1900ACSV2_2.0.3.201002_prod.img",
-    "release_date": "01.05.2020",
+    "version": "2.0.1.177097",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1900ACSV2_2.0.1.177097_prod.img",
+    "release_date": "2016-11-14",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2241,9 +2625,9 @@
     "manufacturer": "Linksys",
     "product_name": "WRT1900ACS Dual-Band Wi-Fi Router with Ultra-Fast 1.6 GHz CPU",
     "product_type": null,
-    "version": "1.0.3.187766",
-    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1900ACS_1.0.3.187766_prod.img",
-    "release_date": "20.04.2018",
+    "version": "1.0.1.174588",
+    "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT1900ACS_1.0.1.174588_prod.img",
+    "release_date": "2016-08-08",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2255,7 +2639,7 @@
     "product_type": null,
     "version": "1.0.8.199531",
     "download_link": "https://downloads.linksys.com/support/assets/firmware/FW_WRT3200ACM_1.0.8.199531_prod.img",
-    "release_date": "13.02.2020",
+    "release_date": "2020-02-13",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2267,7 +2651,7 @@
     "product_type": null,
     "version": "1.0.180404.58",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT32X_1.0.180404.58.img",
-    "release_date": "23.04.2018",
+    "release_date": "2018-04-23",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"
@@ -2279,11 +2663,7 @@
     "product_type": null,
     "version": "(build",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT54GL_4.30.18.006_ETSI_20160108.bin",
-    "release_date": [
-      "Ver.4.30.18 (build 6)",
-      "Latest Date: 01/22/2016",
-      "Download 3.4 MB "
-    ],
+    "release_date": "2016-01-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (EMEA Only)"
@@ -2295,11 +2675,7 @@
     "product_type": null,
     "version": "(build",
     "download_link": "https://downloads.linksys.com/downloads/firmware/FW_WRT54GL_4.30.18.006_ETSI_20160108.bin",
-    "release_date": [
-      "Ver.4.30.18 (build 6)",
-      "Latest Date: 01/22/2016",
-      "Download 3.4 MB "
-    ],
+    "release_date": "2016-01-22",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware (EMEA Only)"
@@ -2311,11 +2687,7 @@
     "product_type": null,
     "version": "1.0.02",
     "download_link": "https://downloads.linksys.com/downloads/firmware/1224694326986/FW_WUMC710_v1.0.02.03_20140625.bin",
-    "release_date": [
-      "Ver.1.0.02",
-      "Latest Date: 08/29/2013",
-      "Download 3.77 MB "
-    ],
+    "release_date": "2013-08-29",
     "checksum_scraped": null,
     "additional_data": {
       "region": "Firmware all regions"

@@ -173,8 +173,4 @@ class LinksysScraper(Scraper):
         product_urls = self.get_all_product_urls()
         self.scrape_metadata_from_product_urls(product_urls)
         self.logger.important(finish_scraping())
-        with open(
-                r"C:\Users\Max\Documents\Master IIS\AMOS\amos2022ws01-firmware-scraper\scraped_metadata\firmware_data_linksys.json",
-                "w") as firmware_file:
-            json.dump(self.list_of_product_dicts, firmware_file)
         return self.list_of_product_dicts
