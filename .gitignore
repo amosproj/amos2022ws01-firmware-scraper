@@ -43,3 +43,6 @@ bin/
 geckodriver.log
 /venv/
 /.env
+
+# firmware downloads
+downloads/
