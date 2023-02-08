@@ -240,6 +240,11 @@ class EngeniusScraper(Scraper):
                 return category_metadata
 
         return category_metadata
+    
+    def download_firmware(self, links:list):
+        for link in links:
+            self.logger.info("Download Firmware -> " + link[1])
+            self.driver.get(link[1])
 
     def scrape_metadata(self) -> list:
         meta_data = []
