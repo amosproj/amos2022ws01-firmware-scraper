@@ -335,7 +335,7 @@ class DLinkScraper(Scraper):
         except Exception:
             self.logger.error("Could not Find Type Selector")
 
-        for i in range(type_amt - 10, type_amt):
+        for i in range(1, type_amt):
             try:
                 # Get Product Type Options
                 type_sel = self.__get_type_selector()
@@ -379,8 +379,6 @@ class DLinkScraper(Scraper):
                 except Exception:
                     self.logger.debug("Could not Select Model Type")
                     continue
-
-                self.logger.info("Scrape next product")
 
                 if self.__scrape_cnt == self.max_products:
                     return
