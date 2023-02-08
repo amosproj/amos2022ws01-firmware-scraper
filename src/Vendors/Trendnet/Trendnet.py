@@ -91,7 +91,7 @@ class TrendnetScraper(Scraper):
             )
 
             if not product_header:
-                self.logger.debug(
+                self.logger.warning(
                     'Skip Product. No Product Info Available'
                 )
                 return []
@@ -105,7 +105,7 @@ class TrendnetScraper(Scraper):
             downloads = self.driver.find_element(By.ID, "downloads")
 
             if not downloads:
-                self.logger.debug(
+                self.logger.warning(
                     'Skip Product. No Downloads Available'
                 )
                 return []
@@ -115,7 +115,7 @@ class TrendnetScraper(Scraper):
                 "card"
             )
         except Exception:
-            self.logger.debug(
+            self.logger.warning(
                 firmware_scraping_failure(p["name"])
             )
             return []
@@ -162,10 +162,10 @@ class TrendnetScraper(Scraper):
                 version = splited_version[1]
                 release_date = splited_release_date[1]
             except Exception:
-                self.logger.debug(
+                self.logger.warning(
                     attribute_scraping_failure("Release Date")
                 )
-                self.logger.debug(
+                self.logger.warning(
                     attribute_scraping_failure("Version")
                 )
 
@@ -179,7 +179,7 @@ class TrendnetScraper(Scraper):
                 )[1]
             except Exception:
                 check_sum = " "
-                self.logger.debug(
+                self.logger.warning(
                     attribute_scraping_failure("Check Sum")
                 )
 
@@ -254,6 +254,7 @@ if __name__ == "__main__":
     from selenium.webdriver.chrome.service import Service
     from webdriver_manager.chrome import ChromeDriverManager
     options = Options()
+    options.add_argument("log-level=3")
     options.add_argument("--headless")
     # options.add_argument("--no-sandbox")
     # options.add_argument("--disable-dev-shm-usage")
