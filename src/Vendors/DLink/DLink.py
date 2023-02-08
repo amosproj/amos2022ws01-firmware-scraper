@@ -98,7 +98,7 @@ class DLinkScraper(Scraper):
             firmware_item["version"] = sel_rows[1]\
                 .find_element(By.CLASS_NAME, 'MdDclist12')\
                 .get_attribute('innerHTML')\
-                .strip()
+                .strip()[:63]
 
             release_date = sel_rows[3]\
                 .find_element(By.CLASS_NAME, 'MdDclist12')\
