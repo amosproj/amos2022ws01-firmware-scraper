@@ -387,6 +387,7 @@ class DLinkScraper(Scraper):
 
     def download_firmware(self, links: list):
         try:
+            self.driver.get(self.scrape_entry_url)
             type_sel = self.__get_type_selector()
             type_select = Select(type_sel)
             type_select.select_by_visible_text('ANT24')
