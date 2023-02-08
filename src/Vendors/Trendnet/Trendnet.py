@@ -52,7 +52,7 @@ class TrendnetScraper(Scraper):
                     'Could not find Product Link. Skip Product'
                 )
                 continue
-            
+
         self.logger.debug('Scrape Product Links -> Finished')
         self.logger.debug('Products Found: ' + str(len(product_links)))
         return product_links
@@ -212,12 +212,20 @@ class TrendnetScraper(Scraper):
 
         return meta_data
 
+    def download_firmware(self, links: list):
+        for link in links:
+            self.logger.info("Download Firmware -> " + link[1])
+            self.driver.get(link[1])
+
+        self.driver.quit()
+
     def scrape_metadata(self) -> list:
         meta_data = []
 
         self.logger.important(start_scraping())
         self.logger.debug('Headless -> ' + str(self.headless))
-        self.logger.debug('Max Products to Scrape -> ' + str(self.max_products))
+        self.logger.debug('Max Products to Scrape -> ' +
+                          str(self.max_products))
 
         try:
             self.driver.get(self.scrape_entry_url)
