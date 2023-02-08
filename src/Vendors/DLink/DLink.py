@@ -297,25 +297,103 @@ class DLinkScraper(Scraper):
             if self.__scrape_cnt == self.max_products:
                 return
 
-    def download_firmware(self, links: list):
-        try:
-            self.driver.get(DOWNLOAD_URL)
-            TYPE_SELECTOR = '//select[@name="ModelCategory_home"]'
-            MODEL_SELECTOR = '//select[@name="ModelSno_home"]'
+    def __get_type_selector(self):
+        TYPE_SELECTOR = '//select[@name="ModelCategory_home"]'
 
+        try:
             type_sel = self.driver.find_element(
                 By.XPATH,
                 TYPE_SELECTOR
             )
 
+            return type_sel
+        except Exception:
+            self.logger.warning("Could not get Type Selector Element")
+
+        return None
+
+    def __get_model_selector(self):
+        MODEL_SELECTOR = '//select[@name="ModelSno_home"]'
+
+        try:
             model_sel = self.driver.find_element(
                 By.XPATH,
                 MODEL_SELECTOR
             )
 
+            return model_sel
+        except Exception:
+            self.logger.warning("Could not get Model Selector Element")
+
+        return None
+
+    def scrape_without_category(self):
+        try:
+            type_sel = self.__get_type_selector()
+            type_options = type_sel.find_elements(By.TAG_NAME, 'option')
+            type_amt = len(type_options)
+        except Exception:
+            self.logger.error("Could not Find Type Selector")
+
+        for i in range(type_amt - 10, type_amt):
+            try:
+                # Get Product Type Options
+                type_sel = self.__get_type_selector()
+                type_options = type_sel.find_elements(By.TAG_NAME, 'option')
+
+                # Get Name of Product Type
+                option_type_name = type_options[i].get_attribute('value')
+
+                # Select Product Type
+                type_select = Select(type_sel)
+                type_select.select_by_visible_text(option_type_name)
+
+                # Get Model Options Amount
+                model_sel = self.__get_model_selector()
+                model_options = model_sel.find_elements(By.TAG_NAME, 'option')
+                model_amt = len(model_options)
+            except Exception:
+                self.logger.debug("Could not Select Product Type")
+                continue
+
+            for j in range(1, model_amt):
+                try:
+                    # Get Product Model Options
+                    model_sel = self.__get_model_selector()
+                    model_options = model_sel.find_elements(
+                        By.TAG_NAME,
+                        'option'
+                    )
+
+                    # Get Name of Product Model
+                    option_model_name = model_options[j].get_attribute('value')
+
+                    # Select Product Model
+                    model_select = Select(model_sel)
+                    model_select.select_by_visible_text(option_model_name)
+
+                    # Enter Selection
+                    self.driver.execute_script("javascript:s1(document.form1)")
+
+                    self._scrape_product_firmware(option_type_name)
+                except Exception:
+                    self.logger.debug("Could not Select Model Type")
+                    continue
+
+                self.logger.info("Scrape next product")
+
+                if self.__scrape_cnt == self.max_products:
+                    return
+
+                time.sleep(1)
+
+    def download_firmware(self, links: list):
+        try:
+            type_sel = self.__get_type_selector()
             type_select = Select(type_sel)
             type_select.select_by_visible_text('ANT24')
 
+            model_sel = self.__get_model_selector()
             model_select = Select(model_sel)
             model_select.select_by_visible_text('0501')
 
@@ -332,9 +410,12 @@ class DLinkScraper(Scraper):
             self.logger.info("Download Firmware -> " + link[1])
             self.driver.execute_script(link[1])
 
+        self.driver.quit()
+
     def scrape_metadata(self) -> list:
         meta_data = []
         self.__scrape_cnt = 0
+        self.__meta_data = []
 
         self.logger.important(start_scraping())
         self.logger.debug('Headless -> ' + str(self.headless))
@@ -351,8 +432,12 @@ class DLinkScraper(Scraper):
             self.driver.quit()
             return []
 
-        time.sleep(10)
-        self._loop_categorys()
+        time.sleep(5)
+
+        '''Function Loop Categorys doesnt work properly'''
+        # self._loop_categorys()
+
+        self.scrape_without_category()
 
         meta_data = self.__meta_data
 
@@ -373,9 +458,10 @@ if __name__ == "__main__":
     from selenium.webdriver.chrome.service import Service
     from webdriver_manager.chrome import ChromeDriverManager
     options = Options()
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     # options.add_argument("--no-sandbox")
     # options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--log-level=3")
     options.add_argument("--start-maximized")
     options.add_argument("--window-size=1920,1080")
 
@@ -383,7 +469,7 @@ if __name__ == "__main__":
         service=Service(ChromeDriverManager().install()), options=options
     )
 
-    Scraper = DLinkScraper(headless=False, max_products=50, driver=driver)
+    Scraper = DLinkScraper(headless=True, max_products=1000, driver=driver)
     meta_data = Scraper.scrape_metadata()
     with open("scraped_metadata/firmware_data_DLink.json", "w") as firmware_file:
         json.dump(meta_data, firmware_file)
